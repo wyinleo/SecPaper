@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T11:28:34+08:00",
+  "generated_at": "2026-10-12T10:19:26+08:00",
   "coverage": {
     "basis": "papernote 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 118,
-    "papers_with_affiliations": 118,
-    "scored_top_venue_papers": 108
+    "indexed_papers": 128,
+    "papers_with_affiliations": 128,
+    "scored_top_venue_papers": 117
   },
   "categories": [
     {
@@ -26,6 +26,60 @@
     "2025"
   ],
   "institutions": [
+    {
+      "id": "tsinghua-university",
+      "name": "清华大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "北京信息科学与技术国家研究中心",
+        "清华大学",
+        "清华大学网络科学与网络空间研究院"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak",
+        "ieee-sp26-peng-apiecho",
+        "ndss26-wu-email-aliases",
+        "usenix-sec26-jia-pangolin",
+        "usenix-sec26-li-aliasleap",
+        "usenix-sec26-liu-ios",
+        "usenix-sec26-peng-kintsugi",
+        "usenix-sec26-zhao-waved"
+      ],
+      "scholars": [
+        "Baojun Liu",
+        "Chao Zhang",
+        "Chun Yuan",
+        "Du Wu",
+        "Feng Lu",
+        "Guanghao Li",
+        "Hai Wan",
+        "Haixin Duan",
+        "Hao Yu",
+        "Jiatian Hu",
+        "Jiaxu Wang",
+        "Ke Xu",
+        "Ruixuan Li",
+        "Shuting Dong",
+        "Xibin Zhao",
+        "Xuewei Feng",
+        "Yihao Peng",
+        "Yijing Liu",
+        "Yiming Wu",
+        "Yiming Zhang",
+        "Yizhou Zhao",
+        "Yunyi Zhang",
+        "Zizhen Zhu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 7,
+          "software": 0,
+          "ai": 0,
+          "total": 7
+        }
+      },
+      "verified_score": 7
+    },
     {
       "id": "fudan-university",
       "name": "复旦大学",
@@ -88,54 +142,6 @@
       "verified_score": 7
     },
     {
-      "id": "tsinghua-university",
-      "name": "清华大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "北京信息科学与技术国家研究中心",
-        "清华大学",
-        "清华大学网络科学与网络空间研究院"
-      ],
-      "papers": [
-        "ieee-sp26-peng-apiecho",
-        "ndss26-wu-email-aliases",
-        "usenix-sec26-jia-pangolin",
-        "usenix-sec26-li-aliasleap",
-        "usenix-sec26-liu-ios",
-        "usenix-sec26-peng-kintsugi",
-        "usenix-sec26-zhao-waved"
-      ],
-      "scholars": [
-        "Baojun Liu",
-        "Chao Zhang",
-        "Du Wu",
-        "Hai Wan",
-        "Haixin Duan",
-        "Jiatian Hu",
-        "Jiaxu Wang",
-        "Ke Xu",
-        "Ruixuan Li",
-        "Xibin Zhao",
-        "Xuewei Feng",
-        "Yihao Peng",
-        "Yijing Liu",
-        "Yiming Wu",
-        "Yiming Zhang",
-        "Yizhou Zhao",
-        "Yunyi Zhang",
-        "Zizhen Zhu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 7,
-          "software": 0,
-          "ai": 0,
-          "total": 7
-        }
-      },
-      "verified_score": 7
-    },
-    {
       "id": "eth-zurich",
       "name": "ETH Zurich",
       "country_code": "CHE",
@@ -147,18 +153,23 @@
         "ieee-sp26-dutly-aex-nstep",
         "ieee-sp26-graf-vmscape",
         "ieee-sp26-xu-resolver-profiler",
+        "usenix-sec26-lermen-deanonymization",
         "usenix-sec26-xu-dalens"
       ],
       "scholars": [
         "Adrian Perrig",
         "Ali Hajiabadi",
+        "Daniel Paleka",
+        "Florian Tramèr",
         "Friederike Groschupp",
         "Ivan Puddu",
         "Jean-Claude Graf",
+        "Joshua Swanson",
         "Kari Kostiainen",
         "Kaveh Razavi",
         "Linard Arquint",
         "Liwen Xu",
+        "Michael Aerni",
         "Nicolas Dutly",
         "Peter Müller",
         "Sandro Rüegge",
@@ -167,13 +178,13 @@
       ],
       "annual_scores": {
         "2026": {
-          "security": 5,
+          "security": 6,
           "software": 0,
           "ai": 0,
-          "total": 5
+          "total": 6
         }
       },
-      "verified_score": 5
+      "verified_score": 6
     },
     {
       "id": "nanyang-technological-university",
@@ -183,6 +194,7 @@
         "Nanyang Technological University"
       ],
       "papers": [
+        "ase26-guo-npm-detectors",
         "ieee-sp26-li-webcloak",
         "ieee-sp26-wu-enchtable",
         "usenix-sec26-guo-pyguard",
@@ -190,12 +202,14 @@
         "usenix-sec26-liu-malicious-skills"
       ],
       "scholars": [
+        "Chengyue Liu",
         "Gelei Deng",
         "Jiahui Wu",
         "Lixu Wang",
         "Tianze Qiu",
         "Vinay Sachidananda",
         "Wei Dong",
+        "Weisong Sun",
         "Wenbo Guo",
         "XiaoFeng Wang",
         "Xiaojun Jia",
@@ -207,9 +221,59 @@
       "annual_scores": {
         "2026": {
           "security": 5,
-          "software": 0,
+          "software": 1,
           "ai": 0,
-          "total": 5
+          "total": 6
+        }
+      },
+      "verified_score": 6
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "ase26-ni-triage-nodejs",
+        "ieee-sp26-liu-generate-verify",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Darion Cassel",
+        "Eileen Xiao",
+        "Fraser Brown",
+        "J. Zico Kolter",
+        "Limin Jia",
+        "Matt Fredrikson",
+        "Min-Chien Hsu",
+        "Nuno Sabino",
+        "Ping-Lun Wang",
+        "Pratiksha Thaker",
+        "Riad S. Wahby",
+        "Riccardo Paccagnella",
+        "Ronghao Ni",
+        "Ruben Martins",
+        "Terrance Liu",
+        "Zhiwei Steven Wu",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
         }
       },
       "verified_score": 5
@@ -257,49 +321,38 @@
       "verified_score": 4
     },
     {
-      "id": "carnegie-mellon-university",
-      "name": "Carnegie Mellon University",
-      "country_code": "USA",
+      "id": "cispa",
+      "name": "CISPA Helmholtz Center for Information Security",
+      "country_code": "DEU",
       "affiliation_names": [
-        "Carnegie Mellon University"
+        "CISPA Helmholtz Center for Information Security"
       ],
       "papers": [
-        "ase26-ni-triage-nodejs",
-        "ieee-sp26-liu-generate-verify",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "neurips25-zou-agent-red-team-competition"
+        "fse26-simsek-pocgen",
+        "ieee-sp26-wang-smufuzz",
+        "usenix-sec26-pan-fragjam",
+        "usenix-sec26-zhang-stackwarp"
       ],
       "scholars": [
-        "Andy Zou",
-        "Darion Cassel",
-        "Eileen Xiao",
-        "Fraser Brown",
-        "J. Zico Kolter",
-        "Limin Jia",
-        "Matt Fredrikson",
-        "Min-Chien Hsu",
-        "Nuno Sabino",
-        "Ping-Lun Wang",
-        "Pratiksha Thaker",
-        "Riad S. Wahby",
-        "Riccardo Paccagnella",
-        "Ronghao Ni",
-        "Ruben Martins",
-        "Terrance Liu",
-        "Zhiwei Steven Wu"
+        "Ali Abbasi",
+        "Aryaz Eghbali",
+        "Christian Rossow",
+        "Daniel Weber",
+        "Fabian Thomas",
+        "Jianqiang Wang",
+        "Meng Wang",
+        "Michael Pradel",
+        "Michael Schwarz",
+        "Ruiyi Zhang",
+        "Tristan Hornetz",
+        "Yepeng Pan"
       ],
       "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
         "2026": {
-          "security": 2,
+          "security": 3,
           "software": 1,
           "ai": 0,
-          "total": 3
+          "total": 4
         }
       },
       "verified_score": 4
@@ -326,6 +379,42 @@
         "Nurullah Erinola",
         "Vladislav Mladenov",
         "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "zhejiang-university",
+      "name": "浙江大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "浙江大学"
+      ],
+      "papers": [
+        "ieee-sp26-peng-apiecho",
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-xiao-modelspy",
+        "usenix-sec26-he-attriguard"
+      ],
+      "scholars": [
+        "Haozhe Zhu",
+        "Jinsong Han",
+        "Qinying Wang",
+        "Rui Xiao",
+        "Shouling Ji",
+        "Shuo Shao",
+        "Sibo Feng",
+        "Yi Xiang",
+        "Yu He",
+        "Zhan Qin",
+        "Zhihao Liu"
       ],
       "annual_scores": {
         "2026": {
@@ -373,35 +462,41 @@
       "verified_score": 3
     },
     {
-      "id": "cispa",
-      "name": "CISPA Helmholtz Center for Information Security",
-      "country_code": "DEU",
+      "id": "epfl",
+      "name": "EPFL",
+      "country_code": "CHE",
       "affiliation_names": [
-        "CISPA Helmholtz Center for Information Security"
+        "EPFL"
       ],
       "papers": [
         "ieee-sp26-wang-smufuzz",
-        "usenix-sec26-pan-fragjam",
-        "usenix-sec26-zhang-stackwarp"
+        "neurips25-kuntz-os-harm",
+        "usenix-sec26-chen-vulgenie"
       ],
       "scholars": [
-        "Ali Abbasi",
-        "Christian Rossow",
-        "Daniel Weber",
-        "Fabian Thomas",
-        "Jianqiang Wang",
-        "Meng Wang",
-        "Michael Schwarz",
-        "Ruiyi Zhang",
-        "Tristan Hornetz",
-        "Yepeng Pan"
+        "Agatha Duzan",
+        "Chibin Zhang",
+        "Francesco Croce",
+        "Hao Zhao",
+        "Maksym Andriushchenko",
+        "Mathias Payer",
+        "Nicolas Flammarion",
+        "Qinying Wang",
+        "Thomas Kuntz",
+        "Yi Xiang"
       ],
       "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
         "2026": {
-          "security": 3,
+          "security": 2,
           "software": 0,
           "ai": 0,
-          "total": 3
+          "total": 2
         }
       },
       "verified_score": 3
@@ -463,6 +558,37 @@
           "security": 2,
           "software": 0,
           "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "national-university-of-singapore",
+      "name": "National University of Singapore",
+      "country_code": "SGP",
+      "affiliation_names": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ieee-sp26-luo-agentic-concolic",
+        "ieee-sp26-zhang-appare",
+        "ndss26-xiao-modelspy"
+      ],
+      "scholars": [
+        "Abhik Roychoudhury",
+        "Chuqi Zhang",
+        "Dylan Wolff",
+        "Huan Zhao",
+        "Soundarya Ramesh",
+        "Zhengxiong Luo",
+        "Zhenkai Liang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
           "total": 3
         }
       },
@@ -573,31 +699,30 @@
       "verified_score": 3
     },
     {
-      "id": "zhejiang-university",
-      "name": "浙江大学",
+      "id": "nankai-university",
+      "name": "南开大学",
       "country_code": "CHN",
       "affiliation_names": [
-        "浙江大学"
+        "南开大学"
       ],
       "papers": [
-        "ieee-sp26-peng-apiecho",
-        "ieee-sp26-wang-smufuzz",
-        "usenix-sec26-he-attriguard"
+        "ase26-guo-npm-detectors",
+        "ieee-sp26-zhang-ragorigin",
+        "usenix-sec26-guo-pyguard"
       ],
       "scholars": [
-        "Haozhe Zhu",
-        "Qinying Wang",
-        "Shouling Ji",
-        "Shuo Shao",
-        "Yi Xiang",
-        "Yu He",
-        "Zhan Qin",
-        "Zhihao Liu"
+        "Baolei Zhang",
+        "Biao Yi",
+        "Chengwei Liu",
+        "Haoran Xin",
+        "Lihai Nie",
+        "Tong Li",
+        "Zheli Liu"
       ],
       "annual_scores": {
         "2026": {
-          "security": 3,
-          "software": 0,
+          "security": 2,
+          "software": 1,
           "ai": 0,
           "total": 3
         }
@@ -634,6 +759,33 @@
           "software": 0,
           "ai": 0,
           "total": 1
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "hkust-guangzhou",
+      "name": "香港科技大学（广州）",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "香港科技大学（广州）"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging",
+        "ieee-sp26-xu-resolver-profiler",
+        "usenix-sec26-xu-dalens"
+      ],
+      "scholars": [
+        "Huayi Duan",
+        "Xin Wang",
+        "Zishuo Ding"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
         }
       },
       "verified_score": 3
@@ -818,33 +970,6 @@
       "verified_score": 2
     },
     {
-      "id": "epfl",
-      "name": "EPFL",
-      "country_code": "CHE",
-      "affiliation_names": [
-        "EPFL"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "usenix-sec26-chen-vulgenie"
-      ],
-      "scholars": [
-        "Chibin Zhang",
-        "Mathias Payer",
-        "Qinying Wang",
-        "Yi Xiang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "georgia-tech",
       "name": "Georgia Institute of Technology",
       "country_code": "USA",
@@ -901,6 +1026,30 @@
       "verified_score": 2
     },
     {
+      "id": "imperial-global-singapore",
+      "name": "Imperial Global Singapore",
+      "country_code": "SGP",
+      "affiliation_names": [
+        "Imperial Global Singapore"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "scholars": [
+        "Zhengzi Xu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "independent-researcher",
       "name": "Independent Researcher",
       "country_code": "",
@@ -922,6 +1071,39 @@
           "software": 0,
           "ai": 1,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "kaist",
+      "name": "KAIST",
+      "country_code": "KOR",
+      "affiliation_names": [
+        "KAIST"
+      ],
+      "papers": [
+        "ccs25-kim-jenga",
+        "ndss26-xiao-modelspy"
+      ],
+      "scholars": [
+        "Dong-uk Kim",
+        "Insu Yun",
+        "Jun Han",
+        "Junyoung Park"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -956,28 +1138,25 @@
       "verified_score": 2
     },
     {
-      "id": "national-university-of-singapore",
-      "name": "National University of Singapore",
+      "id": "singapore-management-university",
+      "name": "Singapore Management University",
       "country_code": "SGP",
       "affiliation_names": [
-        "National University of Singapore"
+        "Singapore Management University"
       ],
       "papers": [
-        "ieee-sp26-luo-agentic-concolic",
-        "ieee-sp26-zhang-appare"
+        "ase26-guo-npm-detectors",
+        "issta26-chen-insecure-memory"
       ],
       "scholars": [
-        "Abhik Roychoudhury",
-        "Chuqi Zhang",
-        "Dylan Wolff",
-        "Huan Zhao",
-        "Zhengxiong Luo",
-        "Zhenkai Liang"
+        "David Lo",
+        "Shiwen Song",
+        "Weifeng Sun"
       ],
       "annual_scores": {
         "2026": {
-          "security": 2,
-          "software": 0,
+          "security": 0,
+          "software": 2,
           "ai": 0,
           "total": 2
         }
@@ -1180,6 +1359,58 @@
       "verified_score": 2
     },
     {
+      "id": "university-of-stuttgart",
+      "name": "University of Stuttgart",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "University of Stuttgart"
+      ],
+      "papers": [
+        "fse26-simsek-pocgen",
+        "ieee-sp26-hosseyni-audience-injection"
+      ],
+      "scholars": [
+        "Deniz Simsek",
+        "Pedram Hosseyni",
+        "Ralf Küsters",
+        "Tim Würtele"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-waterloo",
+      "name": "University of Waterloo",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "University of Waterloo"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging",
+        "ieee-sp26-li-portgpt"
+      ],
+      "scholars": [
+        "Kundi Yao",
+        "Meng Xu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "vrije-universiteit-amsterdam",
       "name": "Vrije Universiteit Amsterdam",
       "country_code": "NLD",
@@ -1290,29 +1521,25 @@
       "verified_score": 2
     },
     {
-      "id": "nankai-university",
-      "name": "南开大学",
+      "id": "sichuan-university",
+      "name": "四川大学",
       "country_code": "CHN",
       "affiliation_names": [
-        "南开大学"
+        "四川大学"
       ],
       "papers": [
-        "ieee-sp26-zhang-ragorigin",
+        "ase26-guo-npm-detectors",
         "usenix-sec26-guo-pyguard"
       ],
       "scholars": [
-        "Baolei Zhang",
-        "Biao Yi",
-        "Chengwei Liu",
-        "Haoran Xin",
-        "Lihai Nie",
-        "Tong Li",
-        "Zheli Liu"
+        "Ming Kang",
+        "Yijia Xu",
+        "Zhongwen Chen"
       ],
       "annual_scores": {
         "2026": {
-          "security": 2,
-          "software": 0,
+          "security": 1,
+          "software": 1,
           "ai": 0,
           "total": 2
         }
@@ -1383,30 +1610,6 @@
       "scholars": [
         "Hongwei Yao",
         "Yi Liu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "hkust-guangzhou",
-      "name": "香港科技大学（广州）",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "香港科技大学（广州）"
-      ],
-      "papers": [
-        "ieee-sp26-xu-resolver-profiler",
-        "usenix-sec26-xu-dalens"
-      ],
-      "scholars": [
-        "Huayi Duan"
       ],
       "annual_scores": {
         "2026": {
@@ -1557,6 +1760,34 @@
       "verified_score": 1
     },
     {
+      "id": "southern-university-science-technology",
+      "name": "南方科技大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "南方科技大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak",
+        "issta26-huang-secretron"
+      ],
+      "scholars": [
+        "Guanghao Li",
+        "Ming Tang",
+        "Mingzhi Chen",
+        "Yepang Liu",
+        "Zhengdong Huang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "amd",
       "name": "AMD",
       "country_code": "",
@@ -1645,6 +1876,29 @@
         "Jialin Wu",
         "Kecen Li",
         "Zhicong Huang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Anthropic"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "scholars": [
+        "Nicholas Carlini"
       ],
       "annual_scores": {
         "2026": {
@@ -2188,23 +2442,23 @@
       "verified_score": 1
     },
     {
-      "id": "imperial-global-singapore",
-      "name": "Imperial Global Singapore",
-      "country_code": "SGP",
+      "id": "iit-kanpur",
+      "name": "Indian Institute of Technology Kanpur",
+      "country_code": "IND",
       "affiliation_names": [
-        "Imperial Global Singapore"
+        "Indian Institute of Technology Kanpur"
       ],
       "papers": [
-        "usenix-sec26-guo-pyguard"
+        "aaai26-shao-offensive-agents"
       ],
       "scholars": [
-        "Zhengzi Xu"
+        "Nanda Rani"
       ],
       "annual_scores": {
         "2026": {
-          "security": 1,
+          "security": 0,
           "software": 0,
-          "ai": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -2275,6 +2529,29 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "iiit-hyderabad",
+      "name": "International Institute of Information Technology Hyderabad",
+      "country_code": "IND",
+      "affiliation_names": [
+        "International Institute of Information Technology Hyderabad"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "scholars": [
+        "Sandeep K. Shukla"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -2429,6 +2706,29 @@
       "verified_score": 1
     },
     {
+      "id": "mats",
+      "name": "MATS",
+      "country_code": "USA",
+      "affiliation_names": [
+        "MATS"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "scholars": [
+        "Simon Lermen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "mcgill-university",
       "name": "McGill University",
       "country_code": "CAN",
@@ -2528,6 +2828,76 @@
       "verified_score": 1
     },
     {
+      "id": "ntt-docomo-business",
+      "name": "NTT DOCOMO BUSINESS, Inc.",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "NTT DOCOMO BUSINESS, Inc."
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "scholars": [
+        "Fumihiro Kanei",
+        "Yusuke Kubo"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "ntt-inc",
+      "name": "NTT, Inc.",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "NTT, Inc."
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "scholars": [
+        "Mitsuaki Akiyama"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "nict",
+      "name": "National Institute of Information and Communications Technology",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "National Institute of Information and Communications Technology"
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "scholars": [
+        "Tatsuya Mori"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "netapp",
       "name": "NetApp",
       "country_code": "",
@@ -2545,6 +2915,61 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "new-york-university",
+      "name": "New York University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "scholars": [
+        "Farshad Khorrami",
+        "Haoran Xi",
+        "Kimberly Milner",
+        "Meet Udeshi",
+        "Minghao Shao",
+        "Prashanth Krishnamurthy",
+        "Ramesh Karri",
+        "Saksham Aggarwal",
+        "Venkata Sai Charan Putrevu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "nyu-abu-dhabi",
+      "name": "New York University Abu Dhabi",
+      "country_code": "ARE",
+      "affiliation_names": [
+        "New York University Abu Dhabi"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "scholars": [
+        "Minghao Shao",
+        "Muhammad Shafique"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -2694,6 +3119,29 @@
       "verified_score": 1
     },
     {
+      "id": "riken-aip",
+      "name": "RIKEN Center for Advanced Intelligence Project",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "RIKEN Center for Advanced Intelligence Project"
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "scholars": [
+        "Tatsuya Mori"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "rsac-labs",
       "name": "RSAC Labs",
       "country_code": "",
@@ -2796,30 +3244,6 @@
       "verified_score": 1
     },
     {
-      "id": "singapore-management-university",
-      "name": "Singapore Management University",
-      "country_code": "SGP",
-      "affiliation_names": [
-        "Singapore Management University"
-      ],
-      "papers": [
-        "issta26-chen-insecure-memory"
-      ],
-      "scholars": [
-        "David Lo",
-        "Weifeng Sun"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "suny-binghamton",
       "name": "State University of New York at Binghamton",
       "country_code": "USA",
@@ -2862,6 +3286,30 @@
       ],
       "annual_scores": {
         "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "sungkyunkwan-university",
+      "name": "Sungkyunkwan University",
+      "country_code": "KOR",
+      "affiliation_names": [
+        "Sungkyunkwan University"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "scholars": [
+        "Hyoungshick Kim",
+        "Sanghak Oh"
+      ],
+      "annual_scores": {
+        "2025": {
           "security": 1,
           "software": 0,
           "ai": 0,
@@ -3084,6 +3532,29 @@
         "2026": {
           "security": 1,
           "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-alberta",
+      "name": "University of Alberta",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "University of Alberta"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "scholars": [
+        "An Ran Chen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -3476,31 +3947,6 @@
       "verified_score": 1
     },
     {
-      "id": "university-of-stuttgart",
-      "name": "University of Stuttgart",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "University of Stuttgart"
-      ],
-      "papers": [
-        "ieee-sp26-hosseyni-audience-injection"
-      ],
-      "scholars": [
-        "Pedram Hosseyni",
-        "Ralf Küsters",
-        "Tim Würtele"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "ut-arlington",
       "name": "University of Texas at Arlington",
       "country_code": "USA",
@@ -3598,29 +4044,6 @@
       "verified_score": 1
     },
     {
-      "id": "university-waterloo",
-      "name": "University of Waterloo",
-      "country_code": "CAN",
-      "affiliation_names": [
-        "University of Waterloo"
-      ],
-      "papers": [
-        "ieee-sp26-li-portgpt"
-      ],
-      "scholars": [
-        "Meng Xu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-wuppertal",
       "name": "University of Wuppertal",
       "country_code": "DEU",
@@ -3637,6 +4060,30 @@
         "2026": {
           "security": 1,
           "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-york",
+      "name": "University of York",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "University of York"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "scholars": [
+        "He Yang Yuan",
+        "Zhenhao Li"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -3711,6 +4158,30 @@
         "2025": {
           "security": 0,
           "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "waseda-university",
+      "name": "Waseda University",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "Waseda University"
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "scholars": [
+        "Takuro Wakai",
+        "Tatsuya Mori"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -4086,30 +4557,6 @@
       "verified_score": 1
     },
     {
-      "id": "southern-university-science-technology",
-      "name": "南方科技大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "南方科技大学"
-      ],
-      "papers": [
-        "issta26-huang-secretron"
-      ],
-      "scholars": [
-        "Yepang Liu",
-        "Zhengdong Huang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "nantong-university",
       "name": "南通大学",
       "country_code": "CHN",
@@ -4168,29 +4615,6 @@
       "scholars": [
         "Yang Yin",
         "Zhengjie Du"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "sichuan-university",
-      "name": "四川大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "四川大学"
-      ],
-      "papers": [
-        "usenix-sec26-guo-pyguard"
-      ],
-      "scholars": [
-        "Ming Kang"
       ],
       "annual_scores": {
         "2026": {
@@ -4625,6 +5049,24 @@
       ],
       "annual_scores": {},
       "verified_score": 0
+    },
+    {
+      "id": "peng-cheng-laboratory",
+      "name": "鹏城实验室",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "鹏城实验室"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "scholars": [
+        "Feng Lu",
+        "Shuting Dong",
+        "Zhe Wu"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
     }
   ],
   "scholars": [
@@ -4680,6 +5122,61 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wenbo-guo-ntu",
+      "name": "Wenbo Guo",
+      "publication_name": "Wenbo Guo",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Nanyang Technological University",
+        "University of California, Santa Barbara"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "neurips25-nie-secodeplt",
+        "usenix-sec26-guo-pyguard",
+        "usenix-sec26-kim-agentic"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 4,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-0447"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
         }
       ]
     },
@@ -4921,60 +5418,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
-        },
-        {
-          "id": "usenix-sec26-kim-agentic",
-          "title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic"
-        }
-      ]
-    },
-    {
-      "id": "wenbo-guo-ntu",
-      "name": "Wenbo Guo",
-      "publication_name": "Wenbo Guo",
-      "homepage": "",
-      "profile_source": "",
-      "institutions": [
-        "Nanyang Technological University",
-        "University of California, Santa Barbara"
-      ],
-      "papers": [
-        "neurips25-nie-secodeplt",
-        "usenix-sec26-guo-pyguard",
-        "usenix-sec26-kim-agentic"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 3,
-      "recent_papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-0447"
-        },
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
         },
         {
           "id": "usenix-sec26-kim-agentic",
@@ -5438,6 +5881,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/koschel"
+        }
+      ]
+    },
+    {
+      "id": "chengwei-liu-nankai",
+      "name": "Chengwei Liu",
+      "publication_name": "Chengwei Liu",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "南开大学"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
         }
       ]
     },
@@ -6084,6 +6566,45 @@
       ]
     },
     {
+      "id": "ming-kang-scu",
+      "name": "Ming Kang",
+      "publication_name": "Ming Kang",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "四川大学"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
       "id": "minghong-fang-louisville",
       "name": "Minghong Fang",
       "publication_name": "Minghong Fang",
@@ -6526,6 +7047,45 @@
       ]
     },
     {
+      "id": "yang-liu-ntu",
+      "name": "Yang Liu",
+      "publication_name": "Yang Liu",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
       "id": "yihao-peng-tsinghua",
       "name": "Yihao Peng",
       "publication_name": "Yihao Peng",
@@ -6604,6 +7164,45 @@
       ]
     },
     {
+      "id": "zhengzi-xu",
+      "name": "Zhengzi Xu",
+      "publication_name": "Zhengzi Xu",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Imperial Global Singapore"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
       "id": "zhenlan-ji-hkust",
       "name": "Zhenlan Ji",
       "publication_name": "Zhenlan Ji",
@@ -6639,6 +7238,46 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen"
+        }
+      ]
+    },
+    {
+      "id": "j-zico-kolter-cmu",
+      "name": "Zico Kolter",
+      "publication_name": "Zico Kolter",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -7109,6 +7748,37 @@
       ]
     },
     {
+      "id": "agatha-duzan-epfl",
+      "name": "Agatha Duzan",
+      "publication_name": "Agatha Duzan",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "aidan-zh-yang-athanor",
       "name": "Aidan Z. H. Yang",
       "publication_name": "Aidan Z. H. Yang",
@@ -7446,6 +8116,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon"
+        }
+      ]
+    },
+    {
+      "id": "an-ran-chen-alberta",
+      "name": "An Ran Chen",
+      "publication_name": "An Ran Chen",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "University of Alberta"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
         }
       ]
     },
@@ -7789,6 +8490,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "aryaz-eghbali-cispa",
+      "name": "Aryaz Eghbali",
+      "publication_name": "Aryaz Eghbali",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808178",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "fse26-simsek-pocgen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-simsek-pocgen",
+          "title": "PoCGen: Generating Proof-of-Concept Exploits for Vulnerable npm Packages",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3808178"
         }
       ]
     },
@@ -8323,37 +9055,6 @@
       ]
     },
     {
-      "id": "chengwei-liu-nankai",
-      "name": "Chengwei Liu",
-      "publication_name": "Chengwei Liu",
-      "homepage": "",
-      "profile_source": "",
-      "institutions": [
-        "南开大学"
-      ],
-      "papers": [
-        "usenix-sec26-guo-pyguard"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
-        }
-      ]
-    },
-    {
       "id": "chengyuan-zhou-fudan",
       "name": "Chengyuan Zhou",
       "publication_name": "Chengyuan Zhou",
@@ -8381,6 +9082,37 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf"
+        }
+      ]
+    },
+    {
+      "id": "chengyue-liu-ntu",
+      "name": "Chengyue Liu",
+      "publication_name": "Chengyue Liu",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
         }
       ]
     },
@@ -8820,6 +9552,37 @@
       ]
     },
     {
+      "id": "daniel-paleka-eth",
+      "name": "Daniel Paleka",
+      "publication_name": "Daniel Paleka",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "daniel-weber-cispa",
       "name": "Daniel Weber",
       "publication_name": "Daniel Weber",
@@ -9194,6 +9957,37 @@
       ]
     },
     {
+      "id": "deniz-simsek-stuttgart",
+      "name": "Deniz Simsek",
+      "publication_name": "Deniz Simsek",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808178",
+      "institutions": [
+        "University of Stuttgart"
+      ],
+      "papers": [
+        "fse26-simsek-pocgen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-simsek-pocgen",
+          "title": "PoCGen: Generating Proof-of-Concept Exploits for Vulnerable npm Packages",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3808178"
+        }
+      ]
+    },
+    {
       "id": "devin-ersoy-purdue",
       "name": "Devin Ersoy",
       "publication_name": "Devin Ersoy",
@@ -9253,6 +10047,37 @@
           "year": 2026,
           "venue": "ASE 2026",
           "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track"
+        }
+      ]
+    },
+    {
+      "id": "dong-uk-kim-kaist",
+      "name": "Dong-uk Kim",
+      "publication_name": "Dong-uk Kim",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "KAIST"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
         }
       ]
     },
@@ -9755,6 +10580,37 @@
       ]
     },
     {
+      "id": "farshad-khorrami-nyu",
+      "name": "Farshad Khorrami",
+      "publication_name": "Farshad Khorrami",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "faysal-hossain-shezan-uta",
       "name": "Faysal Hossain Shezan",
       "publication_name": "Faysal Hossain Shezan",
@@ -9910,6 +10766,68 @@
       ]
     },
     {
+      "id": "florian-tramer-eth",
+      "name": "Florian Tramèr",
+      "publication_name": "Florian Tramèr",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
+      "id": "francesco-croce-epfl",
+      "name": "Francesco Croce",
+      "publication_name": "Francesco Croce",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "fraser-brown-cmu",
       "name": "Fraser Brown",
       "publication_name": "Fraser Brown",
@@ -9999,6 +10917,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "fumihiro-kanei-ntt",
+      "name": "Fumihiro Kanei",
+      "publication_name": "Fumihiro Kanei",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "NTT DOCOMO BUSINESS, Inc."
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "title": "Action Required: The State of GitHub Actions Security in the Wild",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.240483"
         }
       ]
     },
@@ -10655,6 +11604,68 @@
       ]
     },
     {
+      "id": "hao-zhao-epfl",
+      "name": "Hao Zhao",
+      "publication_name": "Hao Zhao",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "haoran-xi-nyu",
+      "name": "Haoran Xi",
+      "publication_name": "Haoran Xi",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "haoran-xin-nankai",
       "name": "Haoran Xin",
       "publication_name": "Haoran Xin",
@@ -10837,6 +11848,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "he-yang-yuan-york",
+      "name": "He Yang Yuan",
+      "publication_name": "He Yang Yuan",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "University of York"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
         }
       ]
     },
@@ -11120,6 +12162,37 @@
       ]
     },
     {
+      "id": "hyoungshick-kim-skku",
+      "name": "Hyoungshick Kim",
+      "publication_name": "Hyoungshick Kim",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "Sungkyunkwan University"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
+        }
+      ]
+    },
+    {
       "id": "ingrid-verbauwhede-ku-leuven",
       "name": "Ingrid Verbauwhede",
       "publication_name": "Ingrid Verbauwhede",
@@ -11151,6 +12224,37 @@
       ]
     },
     {
+      "id": "insu-yun-kaist",
+      "name": "Insu Yun",
+      "publication_name": "Insu Yun",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "KAIST"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
+        }
+      ]
+    },
+    {
       "id": "ivan-puddu-eth",
       "name": "Ivan Puddu",
       "publication_name": "Ivan Puddu",
@@ -11178,38 +12282,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "j-zico-kolter-cmu",
-      "name": "J. Zico Kolter",
-      "publication_name": "J. Zico Kolter",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Carnegie Mellon University",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -12021,6 +13093,37 @@
       ]
     },
     {
+      "id": "jinsong-han-zhejiang",
+      "name": "Jinsong Han",
+      "publication_name": "Jinsong Han",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.230141",
+      "institutions": [
+        "浙江大学"
+      ],
+      "papers": [
+        "ndss26-xiao-modelspy"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
+        }
+      ]
+    },
+    {
       "id": "jo-van-bulck-ku-leuven",
       "name": "Jo Van Bulck",
       "publication_name": "Jo Van Bulck",
@@ -12270,6 +13373,37 @@
       ]
     },
     {
+      "id": "joshua-swanson-eth",
+      "name": "Joshua Swanson",
+      "publication_name": "Joshua Swanson",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "juan-ye-st-andrews",
       "name": "Juan Ye",
       "publication_name": "Juan Ye",
@@ -12390,6 +13524,37 @@
           "year": 2025,
           "venue": "ACM CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3765062"
+        }
+      ]
+    },
+    {
+      "id": "jun-han-kaist",
+      "name": "Jun Han",
+      "publication_name": "Jun Han",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.230141",
+      "institutions": [
+        "KAIST"
+      ],
+      "papers": [
+        "ndss26-xiao-modelspy"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
         }
       ]
     },
@@ -12515,6 +13680,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong"
+        }
+      ]
+    },
+    {
+      "id": "junyoung-park-kaist",
+      "name": "Junyoung Park",
+      "publication_name": "Junyoung Park",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "KAIST"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
         }
       ]
     },
@@ -12893,6 +14089,37 @@
       ]
     },
     {
+      "id": "kimberly-milner-nyu",
+      "name": "Kimberly Milner",
+      "publication_name": "Kimberly Milner",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "konrad-hohentanner-aisec",
       "name": "Konrad Hohentanner",
       "publication_name": "Konrad Hohentanner",
@@ -12951,6 +14178,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xiao"
+        }
+      ]
+    },
+    {
+      "id": "kundi-yao-waterloo",
+      "name": "Kundi Yao",
+      "publication_name": "Kundi Yao",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "University of Waterloo"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
         }
       ]
     },
@@ -13452,6 +14710,37 @@
       ]
     },
     {
+      "id": "maksym-andriushchenko-epfl",
+      "name": "Maksym Andriushchenko",
+      "publication_name": "Maksym Andriushchenko",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "marcel-maehren-rub",
       "name": "Marcel Maehren",
       "publication_name": "Marcel Maehren",
@@ -13918,6 +15207,37 @@
       ]
     },
     {
+      "id": "meet-udeshi-nyu",
+      "name": "Meet Udeshi",
+      "publication_name": "Meet Udeshi",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "meng-wang-cispa",
       "name": "Meng Wang",
       "publication_name": "Meng Wang",
@@ -14105,6 +15425,37 @@
       ]
     },
     {
+      "id": "michael-aerni-eth",
+      "name": "Michael Aerni",
+      "publication_name": "Michael Aerni",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "michael-chesser",
       "name": "Michael Chesser",
       "publication_name": "Michael Chesser",
@@ -14132,6 +15483,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong"
+        }
+      ]
+    },
+    {
+      "id": "michael-pradel-cispa",
+      "name": "Michael Pradel",
+      "publication_name": "Michael Pradel",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808178",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "fse26-simsek-pocgen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-simsek-pocgen",
+          "title": "PoCGen: Generating Proof-of-Concept Exploits for Vulnerable npm Packages",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3808178"
         }
       ]
     },
@@ -14385,33 +15767,34 @@
       ]
     },
     {
-      "id": "ming-kang-scu",
-      "name": "Ming Kang",
-      "publication_name": "Ming Kang",
+      "id": "minghao-shao-nyu",
+      "name": "Minghao Shao",
+      "publication_name": "Minghao Shao",
       "homepage": "",
-      "profile_source": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
       "institutions": [
-        "四川大学"
+        "New York University",
+        "New York University Abu Dhabi"
       ],
       "papers": [
-        "usenix-sec26-guo-pyguard"
+        "aaai26-shao-offensive-agents"
       ],
       "annual_scores": {
         "2026": {
-          "security": 1,
+          "security": 0,
           "software": 0,
-          "ai": 0,
+          "ai": 1,
           "total": 1
         }
       },
       "verified_score": 1,
       "recent_papers": [
         {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
           "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
         }
       ]
     },
@@ -14443,6 +15826,37 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://doi.org/10.14722/ndss.2026.230148"
+        }
+      ]
+    },
+    {
+      "id": "mitsuaki-akiyama-ntt",
+      "name": "Mitsuaki Akiyama",
+      "publication_name": "Mitsuaki Akiyama",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "NTT, Inc."
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "title": "Action Required: The State of GitHub Actions Security in the Wild",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.240483"
         }
       ]
     },
@@ -14567,6 +15981,68 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "muhammad-shafique-nyuad",
+      "name": "Muhammad Shafique",
+      "publication_name": "Muhammad Shafique",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University Abu Dhabi"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
+      "id": "nanda-rani-iit-kanpur",
+      "name": "Nanda Rani",
+      "publication_name": "Nanda Rani",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
         }
       ]
     },
@@ -14726,6 +16202,37 @@
       ]
     },
     {
+      "id": "nicholas-carlini-anthropic",
+      "name": "Nicholas Carlini",
+      "publication_name": "Nicholas Carlini",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "Anthropic"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "nick-winter-gray-swan",
       "name": "Nick Winter",
       "publication_name": "Nick Winter",
@@ -14784,6 +16291,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "nicolas-flammarion-epfl",
+      "name": "Nicolas Flammarion",
+      "publication_name": "Nicolas Flammarion",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -15439,6 +16977,37 @@
       ]
     },
     {
+      "id": "prashanth-krishnamurthy-nyu",
+      "name": "Prashanth Krishnamurthy",
+      "publication_name": "Prashanth Krishnamurthy",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "pratiksha-thaker-cmu",
       "name": "Pratiksha Thaker",
       "publication_name": "Pratiksha Thaker",
@@ -15685,6 +17254,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "ramesh-karri-nyu",
+      "name": "Ramesh Karri",
+      "publication_name": "Ramesh Karri",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
         }
       ]
     },
@@ -15937,6 +17537,37 @@
       ]
     },
     {
+      "id": "rui-xiao-zhejiang",
+      "name": "Rui Xiao",
+      "publication_name": "Rui Xiao",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.230141",
+      "institutions": [
+        "浙江大学"
+      ],
+      "papers": [
+        "ndss26-xiao-modelspy"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
+        }
+      ]
+    },
+    {
       "id": "ruijie-cai-ieu",
       "name": "Ruijie Cai",
       "publication_name": "Ruijie Cai",
@@ -16123,6 +17754,37 @@
       ]
     },
     {
+      "id": "saksham-aggarwal-nyu",
+      "name": "Saksham Aggarwal",
+      "publication_name": "Saksham Aggarwal",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "sam-crow-ucsd",
       "name": "Sam Crow",
       "publication_name": "Sam Crow",
@@ -16185,6 +17847,37 @@
       ]
     },
     {
+      "id": "sandeep-shukla-iiit-hyderabad",
+      "name": "Sandeep K. Shukla",
+      "publication_name": "Sandeep K. Shukla",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "International Institute of Information Technology Hyderabad"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "sandro-rueegge-eth",
       "name": "Sandro Rüegge",
       "publication_name": "Sandro Rüegge",
@@ -16212,6 +17905,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "sanghak-oh-skku",
+      "name": "Sanghak Oh",
+      "publication_name": "Sanghak Oh",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "Sungkyunkwan University"
+      ],
+      "papers": [
+        "ccs25-kim-jenga"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
         }
       ]
     },
@@ -16434,6 +18158,37 @@
       ]
     },
     {
+      "id": "shiwen-song-smu",
+      "name": "Shiwen Song",
+      "publication_name": "Shiwen Song",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        }
+      ]
+    },
+    {
       "id": "shouling-ji-zju",
       "name": "Shouling Ji",
       "publication_name": "Shouling Ji",
@@ -16652,6 +18407,37 @@
       ]
     },
     {
+      "id": "sibo-feng-zhejiang",
+      "name": "Sibo Feng",
+      "publication_name": "Sibo Feng",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.230141",
+      "institutions": [
+        "浙江大学"
+      ],
+      "papers": [
+        "ndss26-xiao-modelspy"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
+        }
+      ]
+    },
+    {
       "id": "siddharth-muralee-purdue",
       "name": "Siddharth Muralee",
       "publication_name": "Siddharth Muralee",
@@ -16776,6 +18562,37 @@
       ]
     },
     {
+      "id": "simon-lermen-mats",
+      "name": "Simon Lermen",
+      "publication_name": "Simon Lermen",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "MATS"
+      ],
+      "papers": [
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "songyang-peng-fudan",
       "name": "Songyang Peng",
       "publication_name": "Songyang Peng",
@@ -16803,6 +18620,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo"
+        }
+      ]
+    },
+    {
+      "id": "soundarya-ramesh-nus",
+      "name": "Soundarya Ramesh",
+      "publication_name": "Soundarya Ramesh",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.230141",
+      "institutions": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ndss26-xiao-modelspy"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
         }
       ]
     },
@@ -17242,6 +19090,37 @@
       ]
     },
     {
+      "id": "takuro-wakai-waseda",
+      "name": "Takuro Wakai",
+      "publication_name": "Takuro Wakai",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "Waseda University"
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "title": "Action Required: The State of GitHub Actions Security in the Wild",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.240483"
+        }
+      ]
+    },
+    {
       "id": "tanqiu-jiang-stony-brook",
       "name": "Tanqiu Jiang",
       "publication_name": "Tanqiu Jiang",
@@ -17331,6 +19210,39 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "tatsuya-mori-waseda",
+      "name": "Tatsuya Mori",
+      "publication_name": "Tatsuya Mori",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "National Institute of Information and Communications Technology",
+        "RIKEN Center for Advanced Intelligence Project",
+        "Waseda University"
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "title": "Action Required: The State of GitHub Actions Security in the Wild",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.240483"
         }
       ]
     },
@@ -17517,6 +19429,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "thomas-kuntz-epfl",
+      "name": "Thomas Kuntz",
+      "publication_name": "Thomas Kuntz",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -18204,6 +20147,37 @@
       ]
     },
     {
+      "id": "venkata-sai-charan-putrevu-nyu",
+      "name": "Venkata Sai Charan Putrevu",
+      "publication_name": "Venkata Sai Charan Putrevu",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1609/aaai.v40i35.40210",
+      "institutions": [
+        "New York University"
+      ],
+      "papers": [
+        "aaai26-shao-offensive-agents"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+          "year": 2026,
+          "venue": "AAAI 2026",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
+        }
+      ]
+    },
+    {
       "id": "viet-pham-indiana",
       "name": "Viet Pham",
       "publication_name": "Viet Pham",
@@ -18576,6 +20550,37 @@
       ]
     },
     {
+      "id": "weisong-sun-ntu",
+      "name": "Weisong Sun",
+      "publication_name": "Weisong Sun",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        }
+      ]
+    },
+    {
       "id": "weitong-li-vt",
       "name": "Weitong Li",
       "publication_name": "Weitong Li",
@@ -18917,6 +20922,37 @@
       ]
     },
     {
+      "id": "xin-wang-hkust-gz",
+      "name": "Xin Wang",
+      "publication_name": "Xin Wang",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "香港科技大学（广州）"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
+        }
+      ]
+    },
+    {
       "id": "xingyu-wang-ub",
       "name": "Xingyu Wang",
       "publication_name": "Xingyu Wang",
@@ -19131,37 +21167,6 @@
           "year": 2026,
           "venue": "ISSTA 2026",
           "url": "https://doi.org/10.1145/3832243"
-        }
-      ]
-    },
-    {
-      "id": "yang-liu-ntu",
-      "name": "Yang Liu",
-      "publication_name": "Yang Liu",
-      "homepage": "",
-      "profile_source": "",
-      "institutions": [
-        "Nanyang Technological University"
-      ],
-      "papers": [
-        "usenix-sec26-guo-pyguard"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
         }
       ]
     },
@@ -19566,6 +21571,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "yijia-xu-sichuan",
+      "name": "Yijia Xu",
+      "publication_name": "Yijia Xu",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "四川大学"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
         }
       ]
     },
@@ -20438,6 +22474,37 @@
       ]
     },
     {
+      "id": "yusuke-kubo-ntt-waseda",
+      "name": "Yusuke Kubo",
+      "publication_name": "Yusuke Kubo",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "NTT DOCOMO BUSINESS, Inc."
+      ],
+      "papers": [
+        "ndss26-kubo-action-required"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "title": "Action Required: The State of GitHub Actions Security in the Wild",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.240483"
+        }
+      ]
+    },
+    {
       "id": "yuval-yarom-rub",
       "name": "Yuval Yarom",
       "publication_name": "Yuval Yarom",
@@ -20967,21 +23034,21 @@
       ]
     },
     {
-      "id": "zhengzi-xu",
-      "name": "Zhengzi Xu",
-      "publication_name": "Zhengzi Xu",
+      "id": "zhenhao-li-york",
+      "name": "Zhenhao Li",
+      "publication_name": "Zhenhao Li",
       "homepage": "",
-      "profile_source": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
       "institutions": [
-        "Imperial Global Singapore"
+        "University of York"
       ],
       "papers": [
-        "usenix-sec26-guo-pyguard"
+        "fse26-yuan-secure-logging"
       ],
       "annual_scores": {
         "2026": {
-          "security": 1,
-          "software": 0,
+          "security": 0,
+          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -20989,11 +23056,11 @@
       "verified_score": 1,
       "recent_papers": [
         {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
           "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
         }
       ]
     },
@@ -21215,6 +23282,37 @@
       ]
     },
     {
+      "id": "zhongwen-chen-sichuan",
+      "name": "Zhongwen Chen",
+      "publication_name": "Zhongwen Chen",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "四川大学"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        }
+      ]
+    },
+    {
       "id": "zhou-yang-ualberta",
       "name": "Zhou Yang",
       "publication_name": "Zhou Yang",
@@ -21366,6 +23464,37 @@
           "year": 2025,
           "venue": "ACM CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3765199"
+        }
+      ]
+    },
+    {
+      "id": "zishuo-ding-hkust-gz",
+      "name": "Zishuo Ding",
+      "publication_name": "Zishuo Ding",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "香港科技大学（广州）"
+      ],
+      "papers": [
+        "fse26-yuan-secure-logging"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+          "year": 2026,
+          "venue": "ACM FSE 2026",
+          "url": "https://doi.org/10.1145/3797129"
         }
       ]
     },
@@ -21691,6 +23820,30 @@
       ]
     },
     {
+      "id": "chun-yuan-tsinghua",
+      "name": "Chun Yuan",
+      "publication_name": "Chun Yuan",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
       "id": "david-alexander-uw",
       "name": "David Alexander",
       "publication_name": "David Alexander",
@@ -21859,6 +24012,56 @@
       ]
     },
     {
+      "id": "feng-lu-tsinghua",
+      "name": "Feng Lu",
+      "publication_name": "Feng Lu",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "清华大学",
+        "鹏城实验室"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "guanghao-li-tsinghua",
+      "name": "Guanghao Li",
+      "publication_name": "Guanghao Li",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "南方科技大学",
+        "清华大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
       "id": "hao-wang-berkeley",
       "name": "Hao Wang",
       "publication_name": "Hao Wang",
@@ -21879,6 +24082,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "hao-yu-tsinghua",
+      "name": "Hao Yu",
+      "publication_name": "Hao Yu",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
         }
       ]
     },
@@ -22100,6 +24327,54 @@
       ]
     },
     {
+      "id": "ming-tang-sustech",
+      "name": "Ming Tang",
+      "publication_name": "Ming Tang",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "南方科技大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "mingzhi-chen-sustech",
+      "name": "Mingzhi Chen",
+      "publication_name": "Mingzhi Chen",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "南方科技大学"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
       "id": "muxi-lyu-berkeley",
       "name": "Muxi Lyu",
       "publication_name": "Muxi Lyu",
@@ -22264,6 +24539,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "shuting-dong-tsinghua",
+      "name": "Shuting Dong",
+      "publication_name": "Shuting Dong",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "清华大学",
+        "鹏城实验室"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
         }
       ]
     },
@@ -22556,6 +24856,30 @@
       ]
     },
     {
+      "id": "zhe-wu-pcl",
+      "name": "Zhe Wu",
+      "publication_name": "Zhe Wu",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "鹏城实验室"
+      ],
+      "papers": [
+        "iccv25-dong-vpr-cloak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+          "year": 2025,
+          "venue": "ICCV 2025",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
       "id": "zhenkai-zhang-clemson",
       "name": "Zhenkai Zhang",
       "publication_name": "Zhenkai Zhang",
@@ -22705,6 +25029,57 @@
       "weight": 2
     },
     {
+      "source": "imperial-global-singapore",
+      "target": "nankai-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "imperial-global-singapore",
+      "target": "nanyang-technological-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "imperial-global-singapore",
+      "target": "sichuan-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "lingnan-university",
       "target": "renmin-university-china",
       "papers": [
@@ -22715,6 +25090,57 @@
         },
         {
           "id": "usenix-sec26-wang-masleak",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "nankai-university",
+      "target": "nanyang-technological-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "nankai-university",
+      "target": "sichuan-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "nanyang-technological-university",
+      "target": "sichuan-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
           "year": 2026,
           "venue_group": "security"
         }
@@ -22884,6 +25310,30 @@
       "papers": [
         {
           "id": "ieee-sp26-wu-enchtable",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "anthropic",
+      "target": "eth-zurich",
+      "papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "anthropic",
+      "target": "mats",
+      "papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
           "year": 2026,
           "venue_group": "security"
         }
@@ -23120,6 +25570,18 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "epfl",
+      "papers": [
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "gray-swan-ai",
       "papers": [
         {
@@ -23318,6 +25780,18 @@
           "id": "ieee-sp26-wang-smufuzz",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cispa",
+      "target": "university-of-stuttgart",
+      "papers": [
+        {
+          "id": "fse26-simsek-pocgen",
+          "year": 2026,
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -23592,6 +26066,18 @@
       "papers": [
         {
           "id": "ieee-sp26-wang-smufuzz",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
+      "target": "mats",
+      "papers": [
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
           "year": 2026,
           "venue_group": "security"
         }
@@ -23899,6 +26385,42 @@
       "weight": 1
     },
     {
+      "source": "hkust-guangzhou",
+      "target": "university-of-alberta",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "hkust-guangzhou",
+      "target": "university-of-york",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "hkust-guangzhou",
+      "target": "university-waterloo",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "hong-kong-polytechnic-university",
       "target": "nanyang-technological-university",
       "papers": [
@@ -24091,6 +26613,66 @@
       "weight": 1
     },
     {
+      "source": "iiit-hyderabad",
+      "target": "iit-kanpur",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "iiit-hyderabad",
+      "target": "new-york-university",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "iiit-hyderabad",
+      "target": "nyu-abu-dhabi",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "iit-kanpur",
+      "target": "new-york-university",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "iit-kanpur",
+      "target": "nyu-abu-dhabi",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "imdea-networks",
       "target": "ku-leuven",
       "papers": [
@@ -24128,36 +26710,12 @@
     },
     {
       "source": "imperial-global-singapore",
-      "target": "nankai-university",
+      "target": "singapore-management-university",
       "papers": [
         {
-          "id": "usenix-sec26-guo-pyguard",
+          "id": "ase26-guo-npm-detectors",
           "year": 2026,
-          "venue_group": "security"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "imperial-global-singapore",
-      "target": "nanyang-technological-university",
-      "papers": [
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "year": 2026,
-          "venue_group": "security"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "imperial-global-singapore",
-      "target": "sichuan-university",
-      "papers": [
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "year": 2026,
-          "venue_group": "security"
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -24434,6 +26992,42 @@
           "id": "neurips25-aichberger-mip-agent",
           "year": 2025,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "kaist",
+      "target": "national-university-of-singapore",
+      "papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "kaist",
+      "target": "sungkyunkwan-university",
+      "papers": [
+        {
+          "id": "ccs25-kim-jenga",
+          "year": 2025,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "kaist",
+      "target": "zhejiang-university",
+      "papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "year": 2026,
+          "venue_group": "security"
         }
       ],
       "weight": 1
@@ -24716,24 +27310,12 @@
     },
     {
       "source": "nankai-university",
-      "target": "nanyang-technological-university",
+      "target": "singapore-management-university",
       "papers": [
         {
-          "id": "usenix-sec26-guo-pyguard",
+          "id": "ase26-guo-npm-detectors",
           "year": 2026,
-          "venue_group": "security"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "nankai-university",
-      "target": "sichuan-university",
-      "papers": [
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "year": 2026,
-          "venue_group": "security"
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -24788,12 +27370,12 @@
     },
     {
       "source": "nanyang-technological-university",
-      "target": "sichuan-university",
+      "target": "singapore-management-university",
       "papers": [
         {
-          "id": "usenix-sec26-guo-pyguard",
+          "id": "ase26-guo-npm-detectors",
           "year": 2026,
-          "venue_group": "security"
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -24840,6 +27422,78 @@
       "papers": [
         {
           "id": "usenix-sec26-he-attriguard",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "national-university-of-singapore",
+      "target": "zhejiang-university",
+      "papers": [
+        {
+          "id": "ndss26-xiao-modelspy",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "new-york-university",
+      "target": "nyu-abu-dhabi",
+      "papers": [
+        {
+          "id": "aaai26-shao-offensive-agents",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nict",
+      "target": "ntt-docomo-business",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nict",
+      "target": "ntt-inc",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nict",
+      "target": "riken-aip",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nict",
+      "target": "waseda-university",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
           "year": 2026,
           "venue_group": "security"
         }
@@ -24907,6 +27561,66 @@
       "weight": 1
     },
     {
+      "source": "ntt-docomo-business",
+      "target": "ntt-inc",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ntt-docomo-business",
+      "target": "riken-aip",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ntt-docomo-business",
+      "target": "waseda-university",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ntt-inc",
+      "target": "riken-aip",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ntt-inc",
+      "target": "waseda-university",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "oberlin-college",
       "target": "uc-san-diego",
       "papers": [
@@ -24948,6 +27662,42 @@
       "papers": [
         {
           "id": "usenix-sec26-karanjai-loginject",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "peng-cheng-laboratory",
+      "target": "southern-university-science-technology",
+      "papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "year": 2025,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "peng-cheng-laboratory",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "year": 2025,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "riken-aip",
+      "target": "waseda-university",
+      "papers": [
+        {
+          "id": "ndss26-kubo-action-required",
           "year": 2026,
           "venue_group": "security"
         }
@@ -25099,6 +27849,18 @@
       "weight": 1
     },
     {
+      "source": "sichuan-university",
+      "target": "singapore-management-university",
+      "papers": [
+        {
+          "id": "ase26-guo-npm-detectors",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "singapore-management-university",
       "target": "ualberta-amii",
       "papers": [
@@ -25130,6 +27892,18 @@
           "id": "usenix-sec26-jia-pangolin",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "southern-university-science-technology",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "iccv25-dong-vpr-cloak",
+          "year": 2025,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -25519,6 +28293,30 @@
       "weight": 1
     },
     {
+      "source": "university-of-alberta",
+      "target": "university-of-york",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-of-alberta",
+      "target": "university-waterloo",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-birmingham",
       "target": "vrije-universiteit-amsterdam",
       "papers": [
@@ -25538,6 +28336,18 @@
           "id": "ieee-sp26-zhang-ragorigin",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-of-york",
+      "target": "university-waterloo",
+      "papers": [
+        {
+          "id": "fse26-yuan-secure-logging",
+          "year": 2026,
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -25616,6 +28426,246 @@
     }
   ],
   "publications": [
+    {
+      "id": "ccs25-kim-jenga",
+      "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+      "year": 2025,
+      "venue": "ACM CCS 2025",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "kaist",
+        "sungkyunkwan-university"
+      ],
+      "authors": [
+        "dong-uk-kim-kaist",
+        "junyoung-park-kaist",
+        "sanghak-oh-skku",
+        "hyoungshick-kim-skku",
+        "insu-yun-kaist"
+      ]
+    },
+    {
+      "id": "iccv25-dong-vpr-cloak",
+      "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+      "year": 2025,
+      "venue": "ICCV 2025",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "institutions": [
+        "tsinghua-university",
+        "peng-cheng-laboratory",
+        "southern-university-science-technology"
+      ],
+      "authors": [
+        "shuting-dong-tsinghua",
+        "mingzhi-chen-sustech",
+        "feng-lu-tsinghua",
+        "hao-yu-tsinghua",
+        "guanghao-li-tsinghua",
+        "zhe-wu-pcl",
+        "ming-tang-sustech",
+        "chun-yuan-tsinghua"
+      ]
+    },
+    {
+      "id": "aaai26-shao-offensive-agents",
+      "title": "Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+      "year": 2026,
+      "venue": "AAAI 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210",
+      "institutions": [
+        "new-york-university",
+        "nyu-abu-dhabi",
+        "iit-kanpur",
+        "iiit-hyderabad"
+      ],
+      "authors": [
+        "minghao-shao-nyu",
+        "nanda-rani-iit-kanpur",
+        "kimberly-milner-nyu",
+        "haoran-xi-nyu",
+        "meet-udeshi-nyu",
+        "saksham-aggarwal-nyu",
+        "venkata-sai-charan-putrevu-nyu",
+        "sandeep-shukla-iiit-hyderabad",
+        "prashanth-krishnamurthy-nyu",
+        "farshad-khorrami-nyu",
+        "ramesh-karri-nyu",
+        "muhammad-shafique-nyuad"
+      ]
+    },
+    {
+      "id": "fse26-yuan-secure-logging",
+      "title": "Secure Logging in Practice: A Taxonomy, Benchmark, and LLM-Based Analysis",
+      "year": 2026,
+      "venue": "ACM FSE 2026",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://doi.org/10.1145/3797129",
+      "institutions": [
+        "university-of-york",
+        "hkust-guangzhou",
+        "university-waterloo",
+        "university-of-alberta"
+      ],
+      "authors": [
+        "he-yang-yuan-york",
+        "xin-wang-hkust-gz",
+        "kundi-yao-waterloo",
+        "an-ran-chen-alberta",
+        "zishuo-ding-hkust-gz",
+        "zhenhao-li-york"
+      ]
+    },
+    {
+      "id": "fse26-simsek-pocgen",
+      "title": "PoCGen: Generating Proof-of-Concept Exploits for Vulnerable npm Packages",
+      "year": 2026,
+      "venue": "ACM FSE 2026",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://doi.org/10.1145/3808178",
+      "institutions": [
+        "university-of-stuttgart",
+        "cispa"
+      ],
+      "authors": [
+        "deniz-simsek-stuttgart",
+        "aryaz-eghbali-cispa",
+        "michael-pradel-cispa"
+      ]
+    },
+    {
+      "id": "ndss26-xiao-modelspy",
+      "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+      "year": 2026,
+      "venue": "NDSS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+      "institutions": [
+        "zhejiang-university",
+        "national-university-of-singapore",
+        "kaist"
+      ],
+      "authors": [
+        "rui-xiao-zhejiang",
+        "sibo-feng-zhejiang",
+        "soundarya-ramesh-nus",
+        "jun-han-kaist",
+        "jinsong-han-zhejiang"
+      ]
+    },
+    {
+      "id": "neurips25-kuntz-os-harm",
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "year": 2025,
+      "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "epfl",
+        "carnegie-mellon-university"
+      ],
+      "authors": [
+        "thomas-kuntz-epfl",
+        "agatha-duzan-epfl",
+        "hao-zhao-epfl",
+        "francesco-croce-epfl",
+        "j-zico-kolter-cmu",
+        "nicolas-flammarion-epfl",
+        "maksym-andriushchenko-epfl"
+      ]
+    },
+    {
+      "id": "usenix-sec26-lermen-deanonymization",
+      "title": "Large-Scale Online Deanonymization with LLMs",
+      "year": 2026,
+      "venue": "USENIX Security 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "mats",
+        "eth-zurich",
+        "anthropic"
+      ],
+      "authors": [
+        "simon-lermen-mats",
+        "daniel-paleka-eth",
+        "joshua-swanson-eth",
+        "michael-aerni-eth",
+        "nicholas-carlini-anthropic",
+        "florian-tramer-eth"
+      ]
+    },
+    {
+      "id": "ase26-guo-npm-detectors",
+      "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+      "year": 2026,
+      "venue": "ASE 2026",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://doi.org/10.1145/3832783.3837427",
+      "institutions": [
+        "nanyang-technological-university",
+        "sichuan-university",
+        "imperial-global-singapore",
+        "singapore-management-university",
+        "nankai-university"
+      ],
+      "authors": [
+        "wenbo-guo-ntu",
+        "chengyue-liu-ntu",
+        "zhongwen-chen-sichuan",
+        "zhengzi-xu",
+        "ming-kang-scu",
+        "shiwen-song-smu",
+        "chengwei-liu-nankai",
+        "yijia-xu-sichuan",
+        "weisong-sun-ntu",
+        "yang-liu-ntu"
+      ]
+    },
+    {
+      "id": "ndss26-kubo-action-required",
+      "title": "Action Required: The State of GitHub Actions Security in the Wild",
+      "year": 2026,
+      "venue": "NDSS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-10-12",
+      "url": "https://doi.org/10.14722/ndss.2026.240483",
+      "institutions": [
+        "ntt-docomo-business",
+        "ntt-inc",
+        "waseda-university",
+        "nict",
+        "riken-aip"
+      ],
+      "authors": [
+        "yusuke-kubo-ntt-waseda",
+        "fumihiro-kanei-ntt",
+        "mitsuaki-akiyama-ntt",
+        "takuro-wakai-waseda",
+        "tatsuya-mori-waseda"
+      ]
+    },
     {
       "id": "usenix-sec26-liu-wormholes",
       "title": "Wormholes in the File System: Understanding the Misunderstanding of Symlinks",

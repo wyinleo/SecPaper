@@ -487,6 +487,16 @@
     "ase26-xu-defensive-capability": "software-application-security",
     "acl26-pham-parasite": "ai-security",
     "icml26-ye-role-confusion": "ai-security",
-    "cvpr26-chen-dualmirage": "ai-security"
+    "cvpr26-chen-dualmirage": "ai-security",
+    "ccs25-kim-jenga": "systems-hardware-security",
+    "ndss26-kubo-action-required": "software-application-security",
+    "ndss26-xiao-modelspy": "systems-hardware-security",
+    "usenix-sec26-lermen-deanonymization": "identity-privacy",
+    "fse26-simsek-pocgen": "software-application-security",
+    "fse26-yuan-secure-logging": "software-application-security",
+    "ase26-guo-npm-detectors": "software-application-security",
+    "neurips25-kuntz-os-harm": "ai-security",
+    "aaai26-shao-offensive-agents": "ai-security",
+    "iccv25-dong-vpr-cloak": "identity-privacy"
   }
 }

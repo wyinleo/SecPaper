@@ -14,10 +14,10 @@
     query: "",
     sort: "recent",
     academicYear: "all",
+    academicCountry: null,
     academicInstitution: "",
     dialogTrail: [],
     filtersExpanded: false,
-    mapFocus: false,
   };
 
   const topicLabels = Object.fromEntries(
@@ -428,15 +428,13 @@
   function renderWorldMap(institutions, edges, publications) {
     const world = window.PAPERNOTE_WORLD || [];
     const geography = new Map(world.map(country => [country.id, country]));
-    const map = window.PAPERNOTE_MAP.aggregate(institutions, edges, publications, academicPaperMatches,
-      state.mapFocus ? state.academicInstitution : "");
+    const map = window.PAPERNOTE_MAP.aggregate(institutions, edges, publications, academicPaperMatches);
     const counts = new Map(map.countries.map(country => [country.id, country]));
     const max = Math.max(1, ...map.countries.map(country => country.count));
     const countries = [...map.countries].sort((a, b) => b.count - a.count);
     const routes = map.routes;
     const countryName = id => geography.get(id)?.name || id;
-    const focusName = institutions.find(item => item.id === state.academicInstitution)?.name || "";
-    return `<p class="map-scope">${state.mapFocus ? `${escapeHtml(focusName)} · 合作关系` : "全部单位 · 合作关系"}${routes.length ? "" : " · 当前范围暂无可定位的合作连线"}</p><div class="world-map-board">
+    return `<p class="map-scope">全部单位 · 合作关系${routes.length ? "" : " · 当前范围暂无可定位的合作连线"}</p><div class="world-map-board">
       <div class="map-summary"><strong>${countries.length}</strong> 个国家 / 地区 <span>·</span> ${map.unmapped} 个单位待补所在地</div>
       <svg class="world-map" viewBox="0 0 900 380" role="group" aria-label="全球论文分布与合作地图">
         <g class="map-grid" aria-hidden="true">${[-60, -30, 0, 30, 60].map(lat => `<path d="M0,${(85-lat)*2.5}H900"/>`).join("")}${[-120,-60,0,60,120].map(lon => `<path d="M${(lon+180)*2.5},0V380"/>`).join("")}</g>
@@ -525,12 +523,24 @@
       && nodeIds.has(edge.target)
       && edge.papers.some(academicPaperMatches)
     );
-    if (!state.academicInstitution || !institutions.some((item) => item.id === state.academicInstitution)) {
-      state.academicInstitution = institutions[0]?.id || "";
-    }
     const countryRanking = window.PAPERNOTE_MAP.aggregate(institutions, [], academic.publications || [], academicPaperMatches).countries
       .sort((a, b) => b.count - a.count || a.id.localeCompare(b.id));
     const countryNames = new Map((window.PAPERNOTE_WORLD || []).map(item => [item.id, item.name]));
+    const selectableCountries = [...institutions.reduce((counts, institution) => {
+      const code = institution.country_code || "";
+      counts.set(code, (counts.get(code) || 0) + 1);
+      return counts;
+    }, new Map())]
+      .map(([id, count]) => ({ id, count, name: countryNames.get(id) || (id ? id : "待补所在地") }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN"));
+    const selectedInstitution = institutions.find((item) => item.id === state.academicInstitution);
+    if (state.academicCountry === null || !selectableCountries.some((item) => item.id === state.academicCountry)) {
+      state.academicCountry = selectedInstitution?.country_code || institutions[0]?.country_code || selectableCountries[0]?.id || "";
+    }
+    const countryInstitutions = institutions.filter((item) => (item.country_code || "") === state.academicCountry);
+    if (!countryInstitutions.some((item) => item.id === state.academicInstitution)) {
+      state.academicInstitution = countryInstitutions[0]?.id || "";
+    }
     const selected = institutions.find((item) => item.id === state.academicInstitution);
     const partners = selected
       ? edges.filter((edge) => edge.source === selected.id || edge.target === selected.id)
@@ -553,9 +563,10 @@
     elements.empty.hidden = institutions.length > 0;
     elements.cardList.innerHTML = institutions.length ? `
       <section class="network-section" aria-label="学术合作关系">
-        <div class="map-controls">
-          <label>查看单位 <select id="mapInstitution" aria-label="查看单位">${institutions.map(item => `<option value="${escapeHtml(item.id)}" ${item.id === state.academicInstitution ? "selected" : ""}>${escapeHtml(item.name)}</option>`).join("")}</select></label>
-          <button type="button" id="mapFocus" aria-pressed="${state.mapFocus}">${state.mapFocus ? "显示全部合作" : "展开该单位的合作"}</button>
+        <div class="map-controls" role="group" aria-label="查看单位">
+          <strong class="map-controls-title">查看单位</strong>
+          <label>国家 / 地区 <select id="mapCountry" aria-label="选择国家或地区">${selectableCountries.map(item => `<option value="${escapeHtml(item.id)}" ${item.id === state.academicCountry ? "selected" : ""}>${escapeHtml(item.name)}（${item.count}）</option>`).join("")}</select></label>
+          <label>单位 <select id="mapInstitution" aria-label="选择单位">${countryInstitutions.map(item => `<option value="${escapeHtml(item.id)}" ${item.id === state.academicInstitution ? "selected" : ""}>${escapeHtml(item.name)}</option>`).join("")}</select></label>
         </div>
         ${selected ? `
           <article class="network-detail">
@@ -597,19 +608,19 @@
         </div>
       </section>
     ` : "";
-    $("#mapInstitution")?.addEventListener("change", (event) => {
-      state.academicInstitution = event.target.value;
-      state.mapFocus = true;
+    $("#mapCountry")?.addEventListener("change", (event) => {
+      state.academicCountry = event.target.value;
+      state.academicInstitution = "";
       renderAcademic();
     });
-    $("#mapFocus")?.addEventListener("click", () => {
-      state.mapFocus = !state.mapFocus;
+    $("#mapInstitution")?.addEventListener("change", (event) => {
+      state.academicInstitution = event.target.value;
       renderAcademic();
     });
     bindMapHover();
     $$("[data-map-institution]").forEach(button => button.addEventListener("click", () => {
       state.academicInstitution = button.dataset.mapInstitution;
-      state.mapFocus = true;
+      state.academicCountry = institutions.find((item) => item.id === state.academicInstitution)?.country_code || "";
       renderAcademic();
     }));
     bindScholarLinks(elements.cardList);
@@ -842,7 +853,10 @@
       state.mode = tab.dataset.section === "papers" ? state.paperMode : tab.dataset.section;
       state.filtersExpanded = false;
       state.group = groupsForMode()[0]?.id || "all";
-      if (state.mode === "academic") state.academicInstitution = "";
+      if (state.mode === "academic") {
+        state.academicCountry = null;
+        state.academicInstitution = "";
+      }
       $$(".mode-tab").forEach((item) => item.classList.toggle("is-active", item === tab));
       render();
     });
@@ -875,6 +889,7 @@
   ].join("");
   elements.academicYear.addEventListener("change", () => {
     state.academicYear = elements.academicYear.value;
+    state.academicCountry = null;
     state.academicInstitution = "";
     renderAcademic();
   });

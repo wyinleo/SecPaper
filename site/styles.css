@@ -630,10 +630,11 @@ footer {
 .color-scale { width: 100px; height: 9px; border-radius: 4px; background: linear-gradient(90deg,hsl(165 32% 83%),hsl(165 32% 31%)); }
 .route-key { margin-left: auto; color: #000; }
 .map-note { font-size: 11px; color: var(--muted); line-height: 1.8; }
-.map-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 20px 0; }
-.map-controls label { display: flex; align-items: center; gap: 10px; font-size: 12px; min-width: 0; max-width: 100%; }
-.map-controls select { max-width: min(440px, 65vw); min-width: 0; padding: 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
-@media (max-width: 700px) { .map-summary { padding: 12px 12px 0; } .map-legend { padding: 8px 12px 12px; gap: 7px; } .route-key { margin-left: 0; } .network-section .subsection-heading { align-items: start; flex-direction: column; gap: 12px; } }
+.map-controls { display: grid; grid-template-columns: auto minmax(150px, .7fr) minmax(250px, 1.3fr); gap: 12px 16px; align-items: end; margin: 20px 0; }
+.map-controls-title { align-self: center; font-size: 12px; }
+.map-controls label { display: grid; gap: 6px; font-size: 11px; min-width: 0; color: var(--muted); }
+.map-controls select { width: 100%; min-width: 0; padding: 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
+@media (max-width: 700px) { .map-summary { padding: 12px 12px 0; } .map-legend { padding: 8px 12px 12px; gap: 7px; } .route-key { margin-left: 0; } .network-section .subsection-heading { align-items: start; flex-direction: column; gap: 12px; } .map-controls { grid-template-columns: 1fr; align-items: stretch; } .map-controls-title { margin-bottom: 2px; } }
 
 .map-routes { pointer-events: none; }
 .map-routes path { opacity: 0; visibility: hidden; transition: opacity .18s ease; }
@@ -643,8 +644,6 @@ footer {
 .ranking-list strong { overflow-wrap: anywhere; }
 @media (max-width: 900px) { .rankings { grid-template-columns: 1fr; } }
 
-.map-controls button { font: inherit; font-size: 12px; padding: 7px 11px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: transparent; cursor: pointer; }
-.map-controls button[aria-pressed="true"] { background: var(--soft-teal); border-color: var(--teal); }
 .load-status { padding: 18px 0; color: var(--muted); font-size: 13px; }
 
 .map-small-country { fill: var(--ink); font-size: 9px; cursor: pointer; paint-order: stroke; stroke: #f3f6f0; stroke-width: 2px; }

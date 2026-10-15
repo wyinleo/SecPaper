@@ -23,7 +23,9 @@ LEFT = 62
 RIGHT = 30
 TOP = 82
 BOTTOM = 50
-MAX_FETCH_ATTEMPTS = 4
+MAX_FETCH_ATTEMPTS = 6
+INITIAL_RETRY_DELAY = 5
+MAX_RETRY_DELAY = 60
 RETRYABLE_HTTP_STATUS = {404, 408, 429, 500, 502, 503, 504}
 
 
@@ -80,7 +82,8 @@ def fetch_stats(
         if not retryable or attempt == MAX_FETCH_ATTEMPTS:
             raise SystemExit(message) from None
 
-        delay = 2 ** (attempt - 1)
+        # Allow short upstream outages to recover (135 seconds across retries).
+        delay = min(INITIAL_RETRY_DELAY * 2 ** (attempt - 1), MAX_RETRY_DELAY)
         print(
             f"{message}; retrying in {delay}s "
             f"({attempt}/{MAX_FETCH_ATTEMPTS})",

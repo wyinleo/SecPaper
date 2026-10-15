@@ -50,7 +50,27 @@ class FetchStatsTests(unittest.TestCase):
         )
 
         self.assertEqual(result, {"stats": []})
-        self.assertEqual(delays, [1])
+        self.assertEqual(delays, [5])
+
+    def test_recovers_after_four_connection_resets(self):
+        attempts = 0
+        delays = []
+
+        def urlopen(_request, timeout):
+            nonlocal attempts
+            attempts += 1
+            if attempts <= 4:
+                raise urllib.error.URLError(ConnectionResetError(104, "Connection reset by peer"))
+            return JsonResponse(b'{"stats":[{"day":"2026-10-15","daily":3}]}')
+
+        result = traffic.fetch_stats(
+            "example", "token", dt.date(2026, 10, 15),
+            urlopen=urlopen, sleep=delays.append,
+        )
+
+        self.assertEqual(result["stats"][0]["daily"], 3)
+        self.assertEqual(attempts, 5)
+        self.assertEqual(delays, [5, 10, 20, 40])
 
     def test_does_not_retry_authentication_error(self):
         attempts = 0
@@ -73,6 +93,7 @@ class FetchStatsTests(unittest.TestCase):
 
     def test_stops_after_bounded_network_retries(self):
         attempts = 0
+        delays = []
 
         def urlopen(_request, timeout):
             nonlocal attempts
@@ -85,10 +106,11 @@ class FetchStatsTests(unittest.TestCase):
                 "token",
                 dt.date(2026, 8, 13),
                 urlopen=urlopen,
-                sleep=lambda _delay: None,
+                sleep=delays.append,
             )
 
         self.assertEqual(attempts, traffic.MAX_FETCH_ATTEMPTS)
+        self.assertEqual(delays, [5, 10, 20, 40, 60])
 
 
 class CumulativeTests(unittest.TestCase):

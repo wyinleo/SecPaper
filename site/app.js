@@ -221,6 +221,7 @@
 
   function renderDistribution() {
     const distribution = distributionForMode();
+    const isPaperView = ["week", "theme"].includes(state.mode);
     const total = distribution.entries.reduce((sum, item) => sum + item.count, 0);
     const percentages = wholePercentages(distribution.entries, total);
     let cursor = 0;
@@ -237,9 +238,9 @@
       <div class="distribution-head">
         <div>
           <p class="distribution-kicker">${escapeHtml(distribution.kicker)}</p>
-          <strong>${escapeHtml(distribution.summary)}</strong>
+          ${isPaperView ? "" : `<strong>${escapeHtml(distribution.summary)}</strong>`}
         </div>
-        <span>构成</span>
+        ${isPaperView ? "" : "<span>构成</span>"}
       </div>
       <div class="distribution-chart" role="img"
            aria-label="${escapeHtml(`${distribution.kicker}：${ariaParts.join("；")}`)}"
@@ -312,9 +313,7 @@
             ${entries ? "" : "disabled"}>${number}</button>`;
         }).join("")}</div>
       </section>`;
-    }).join("") + `<div class="week-legend" aria-label="周次颜色说明">
-      <span><i class="has-content"></i>有内容</span><span><i class="is-empty"></i>已到 · 无内容</span><span><i class="is-future"></i>未到</span>
-    </div>`;
+    }).join("");
     elements.filterList.querySelectorAll(".week-cell:not(:disabled)").forEach(button => {
       button.addEventListener("click", () => {
         state.group = button.dataset.group;

@@ -283,6 +283,46 @@
     ];
   }
 
+  function renderWeekFilters() {
+    // ISO weeks start on Monday; January 4 always belongs to week 1.
+    const weekStart = (year, week) => {
+      const date = new Date(Date.UTC(year, 0, 4));
+      date.setUTCDate(date.getUTCDate() - (date.getUTCDay() || 7) + 1 + (week - 1) * 7);
+      return date;
+    };
+    const now = new Date();
+    const today = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+    const thursday = new Date(today);
+    thursday.setUTCDate(thursday.getUTCDate() + 4 - (thursday.getUTCDay() || 7));
+    const years = [...new Set([thursday.getUTCFullYear(), ...data.weeks.map(week => Number(week.id.slice(0, 4)))])].sort((a, b) => b - a);
+    const weeks = new Map(data.weeks.map(week => [week.id, week]));
+    elements.filterList.innerHTML = years.map(year => {
+      const count = Math.round((weekStart(year + 1, 1) - weekStart(year, 1)) / (7 * 86400000));
+      return `<section class="week-calendar" aria-label="${year} 年周次">
+        <div class="week-year">${year}<span>${count} 周</span></div>
+        <div class="week-grid">${Array.from({ length: count }, (_, index) => {
+          const number = index + 1;
+          const id = `${year}-W${String(number).padStart(2, "0")}`;
+          const entries = weeks.get(id)?.count || 0;
+          const future = weekStart(year, number) > today;
+          const status = entries ? "has-content" : future ? "is-future" : "is-empty";
+          const label = `${year} 年第 ${number} 周 · ${entries ? `${entries} 篇论文` : future ? "尚未到来" : "暂无内容"}`;
+          return `<button type="button" class="week-cell ${status}${state.group === id ? " is-active" : ""}"
+            data-group="${id}" title="${label}" aria-label="${label}" aria-pressed="${state.group === id}"
+            ${entries ? "" : "disabled"}>${number}</button>`;
+        }).join("")}</div>
+      </section>`;
+    }).join("") + `<div class="week-legend" aria-label="周次颜色说明">
+      <span><i class="has-content"></i>有内容</span><span><i class="is-empty"></i>已到 · 无内容</span><span><i class="is-future"></i>未到</span>
+    </div>`;
+    elements.filterList.querySelectorAll(".week-cell:not(:disabled)").forEach(button => {
+      button.addEventListener("click", () => {
+        state.group = button.dataset.group;
+        render();
+      });
+    });
+  }
+
   function renderFilters() {
     const groups = groupsForMode();
     elements.filterTitle.textContent =
@@ -293,7 +333,12 @@
           : state.mode === "academic"
             ? "学科领域"
             : "来源类型";
-    elements.filterToggle.hidden = groups.length <= 5;
+    elements.filterList.classList.toggle("is-week-calendar", state.mode === "week");
+    elements.filterToggle.hidden = state.mode === "week" || groups.length <= 5;
+    if (state.mode === "week") {
+      renderWeekFilters();
+      return;
+    }
     elements.filterToggle.setAttribute("aria-expanded", String(state.filtersExpanded));
     elements.filterToggle.textContent = state.filtersExpanded ? "收起 · 显示前 5 条" : `展开全部 ${groups.length} 条`;
     elements.filterList.innerHTML = (state.filtersExpanded ? groups : groups.slice(0, 5)).map((group) => `

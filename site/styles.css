@@ -659,3 +659,25 @@ footer {
 .easycatch h3 { color: var(--teal); font-size: 15px; letter-spacing: .02em; }
 .easycatch p + p { margin-top: 12px; }
 @media (max-width: 700px) { .easycatch { padding: 16px; } }
+
+/* Compact annual week navigation. */
+.filter-list.is-week-calendar { display: block; overflow: visible; padding: 0; }
+.week-calendar + .week-calendar { margin-top: 20px; }
+.week-year { display: flex; justify-content: space-between; align-items: baseline; margin: 16px 0 10px; color: var(--ink); font-size: 14px; font-weight: 700; }
+.week-year span { color: var(--muted); font-size: 11px; font-weight: 400; }
+.week-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.week-cell { min-width: 0; aspect-ratio: 1; border: 1px solid transparent; border-radius: 7px; font: inherit; font-size: 12px; font-variant-numeric: tabular-nums; cursor: pointer; }
+.week-cell.has-content, .week-legend .has-content { background: #c6dfd1; color: #234c3d; }
+.week-cell.is-empty, .week-legend .is-empty { background: #e1e3df; color: #626962; }
+.week-cell.is-future, .week-legend .is-future { background: #f6f5ef; color: #8a8d85; border: 1px dashed #cdd0c6; }
+.week-cell:disabled { cursor: default; opacity: 1; }
+.week-cell.has-content:hover { background: #a9cdb9; }
+.week-cell.is-active { border-color: #234c3d; box-shadow: inset 0 0 0 1px #234c3d; font-weight: 750; }
+.week-cell:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.week-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; color: var(--muted); font-size: 10px; }
+.week-legend span { display: inline-flex; align-items: center; gap: 4px; }
+.week-legend i { width: 10px; height: 10px; border-radius: 3px; }
+@media (max-width: 720px) {
+  .week-grid { grid-template-columns: repeat(auto-fill, minmax(32px, 1fr)); }
+  .week-cell { min-height: 32px; }
+}

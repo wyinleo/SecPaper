@@ -497,6 +497,16 @@
     "ase26-guo-npm-detectors": "software-application-security",
     "neurips25-kuntz-os-harm": "ai-security",
     "aaai26-shao-offensive-agents": "ai-security",
-    "iccv25-dong-vpr-cloak": "identity-privacy"
+    "iccv25-dong-vpr-cloak": "identity-privacy",
+    "ieee-sp26-li-nanotag": "systems-hardware-security",
+    "ccs25-baumer-ssh-strict-kex": "network-communication-security",
+    "ndss26-infantino-vault-raider": "identity-privacy",
+    "usenix-sec26-gao-patcher": "ai-security",
+    "pldi26-nguyen-analyzing-bytes": "software-application-security",
+    "popl26-gouni-security-reasoning": "software-application-security",
+    "osdi26-cottone-acumen": "systems-hardware-security",
+    "acl26-arif-conjunctive": "ai-security",
+    "icml26-cheng-privact": "identity-privacy",
+    "cvpr26-ying-agentsafe": "ai-security"
   }
 }

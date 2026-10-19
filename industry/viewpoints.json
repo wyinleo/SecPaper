@@ -1043,5 +1043,125 @@
     "evidence_basis": "NIST CSRC 新闻公告与 SP 800-185 Revision 1 初始公开草案，草案 DOI 为 10.6028/NIST.SP.800-185r1.ipd。",
     "limitations": "这是征求意见稿，接口和文字可能变化；公告只概括流式接口，迁移兼容性、安全论证和测试向量需要结合完整草案评估。",
     "commercial_interest": "NIST 是美国政府标准机构，无直接产品推广；标准变化可能影响密码库、硬件模块和合规实现。"
+  },
+  {
+    "id": "unit42-cl-unk-1211-ai-linux-2026",
+    "title": "Unit 42：AI 辅助载荷进入政府 Linux 入侵链",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "攻击活动调查与恶意代码分析",
+    "published_at": "2026-10-15",
+    "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+    "topics": [
+      "Linux",
+      "AI 辅助攻击",
+      "网络间谍",
+      "凭据窃取"
+    ],
+    "summary": "Unit 42 将 2025 年 10 月至 2026 年 4 月针对政府与国有基础设施的 Linux 入侵归为 CL-UNK-1211，并从脚本中的对话式注释、跨语言切换和操作结构判断攻击者使用了 AI 生成或执行载荷。",
+    "highlights": [
+      "攻击链组合多种 Web Shell、自研跨平台 SysGoRAT、内存反向 Shell 和开源隧道工具，并通过 PHP 全局配置维持持久化。",
+      "攻击者劫持 .bashrc 中的 sudo、修改 PHP 登录页并搜索配置和历史文件，收集管理员、邮件、SMTP 与数据库凭据。",
+      "研究观察到邮箱枚举、数据库导出、停用端点防护和日志清理；Cortex XDR 阻止了针对其进程的终止尝试。"
+    ],
+    "evidence_basis": "Unit 42 对受害环境端点遥测、恶意 PHP/Bash/Python/Go 载荷、C2 基础设施和命令执行链的事件调查与样本逆向。",
+    "limitations": "发布方以 UNK 标记活动归属，尚未判定国家或犯罪组织；AI 使用结论来自代码结构与残留注释，无法确认具体模型、提示或自动化程度。受害组织数量和完整时间线未公开。",
+    "commercial_interest": "Unit 42 隶属 Palo Alto Networks；文章同时介绍 Cortex XDR、Cortex Cloud 与事件响应服务的检测和处置能力。"
+  },
+  {
+    "id": "unit42-peerstitich-fortigate-2026",
+    "title": "Unit 42：PEERSTITCH 在 FortiGate 守护进程内存中搭桥",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "长期入侵复盘与内存植入分析",
+    "published_at": "2026-10-14",
+    "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+    "topics": [
+      "FortiGate",
+      "内存驻留恶意软件",
+      "网络设备",
+      "反取证"
+    ],
+    "summary": "Unit 42 复盘一场始于 CVE-2024-47575 的电信托管服务商入侵：攻击者窃取 500 多台受管 FortiGate 的配置与密钥，随后利用 CVE-2025-61624 部署内存驻留 ARM64 植入 PEERSTITCH。",
+    "highlights": [
+      "PEERSTITCH 用 ptrace 向 miglogd 与 iked 注入 1,344 字节载荷，通过两个合法守护进程的内存共享标记，不创建监听端口或主动外连。",
+      "植入监视合法流量中的端口与 IP 标记，在 iked 中命中对应标记后走替代返回路径，绕过默认 FortiOS 安全校验。",
+      "攻击者终止日志服务、清空崩溃记录、回滚恶意配置并自删除；文章给出易失内存、代码段完整性、网络指标和 YARA 检测线索。"
+    ],
+    "evidence_basis": "FortiManager/FortiGate 配置档案、设备日志、流量与遥测、PEERSTITCH ARM64 样本逆向、内存补丁和攻击基础设施指标。",
+    "limitations": "调查未覆盖客户网络，500 多台设备暴露的是配置与凭据材料，不能据此断言所有下游网络已失陷；管理平台冒充路径有两种可能，现有日志无法区分，部分遥测中断机制仅为中等置信度判断。",
+    "commercial_interest": "Unit 42 隶属 Palo Alto Networks；文章列出其网络、云、端点和事件响应产品的覆盖能力。"
+  },
+  {
+    "id": "unit42-third-party-gateway-bank-2026",
+    "title": "Unit 42：第三方网关缺口让嘈杂扫描进入银行内网",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商事件响应团队",
+    "content_type": "匿名化事件响应案例",
+    "published_at": "2026-10-13",
+    "url": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
+    "topics": [
+      "第三方风险",
+      "VPN",
+      "身份安全",
+      "事件响应"
+    ],
+    "summary": "一所欧洲银行因第三方管理的外部网关未严格认证而遭凭据登录、广泛扫描和口令猜测；端点检测在攻击者尝试利用 WSUS 远程执行时阻断了进一步持久化。",
+    "highlights": [
+      "攻击者在数月内扫描数千台系统、爆破管理员账户，并自动抓取内部文档页面、附件和共享目录，行为高噪声且机会主义特征明显。",
+      "WSUS 中央配置管理服务器成为后期提权目标，Cortex XDR 在未授权代码执行时完成检测与隔离。",
+      "后续对约数千端点及数十台 Windows/Linux 服务器的取证未发现额外驻留；组织轮换凭据并复查已暴露文档。"
+    ],
+    "evidence_basis": "银行端点遥测、VPN 与服务器日志、Unit 42 事件响应期间的威胁狩猎和取证复核。",
+    "limitations": "案例经过匿名化，未披露网关产品、具体漏洞、精确规模和时间点，外部读者无法独立复现；未发现驻留只覆盖调查可见范围，也不能证明没有任何数据被访问。",
+    "commercial_interest": "Unit 42 隶属 Palo Alto Networks；案例说明客户扩大 Cortex XSIAM/XDR 许可与事件响应服务，商业关联直接。"
+  },
+  {
+    "id": "talos-uat-6275-cis-2026",
+    "title": "Cisco Talos：暴露基础设施揭示 UAT-6275 的四条感染链",
+    "source": "Cisco Talos",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "APT 活动与基础设施联合调查",
+    "published_at": "2026-10-14",
+    "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+    "topics": [
+      "APT",
+      "中亚与独联体",
+      "政府目标",
+      "恶意软件交付"
+    ],
+    "summary": "Talos 与 Recorded Future 跟踪 UAT-6275 针对九个中亚和独联体国家的政府、外交、水资源与能源目标，并借三个公开暂存目录和 GitHub 历史还原 2025 年 6 月至 2026 年 8 月的工具与基础设施演化。",
+    "highlights": [
+      "四类感染链依次使用宏文档、PS2EXE 下载器、GitHub 托管 PowerShell 和利用 CVE-2025-8088 的 WinRAR 档案，投递 Chvost、Laplas 与 PickleShell 等反向 Shell。",
+      "暴露仓库的 77 次提交、样本提交地、俄语痕迹、UTC+5 工作时间和区域目标共同支持“哈萨克斯坦关联”的中等置信度判断。",
+      "基础设施中还出现 Linux 工具和 FortiWeb CVE-2025-25257 PoC，表明后续能力可能扩展到 Linux 主机和互联网边界设备。"
+    ],
+    "evidence_basis": "公开暂存目录、未报告的 GitHub 仓库及提交历史、恶意样本、网络流、诱饵文档、样本提交与操作时间分析，以及与 Recorded Future 的联合研究。",
+    "limitations": "地域关联只有中等置信度；不同威胁厂商对 Silent Lynx、TAG-193、YoroTrooper 等集群的边界并不完全一致。发现工具与 PoC 只能说明准备或兴趣，不能直接证明已成功用于所有目标。",
+    "commercial_interest": "Cisco Talos 隶属 Cisco；文章列出 ClamAV、Snort 以及 Cisco 网络、网页、邮件和恶意软件防护覆盖。"
+  },
+  {
+    "id": "anthropic-us-midterms-safeguards-2026",
+    "title": "Anthropic：多步无害请求仍可能拼成选举滥用活动",
+    "source": "Anthropic",
+    "source_type": "模型开发机构政策与安全团队",
+    "content_type": "选举安全测量、外部红队与防护更新",
+    "published_at": "2026-10-14",
+    "url": "https://www.anthropic.com/news/2026-us-midterms",
+    "topics": [
+      "选举安全",
+      "政治偏见",
+      "多步滥用",
+      "平台治理"
+    ],
+    "summary": "Anthropic 分析一周内 25 万条美国 Claude.ai 对话并发布 2026 年中期选举防护更新：政治相关约占 5.75%，选举或投票约占 0.51%，违反选举完整性政策的请求约占 0.002%。",
+    "highlights": [
+      "直接询问投票建议约占美国 Claude 对话的 0.01%；Anthropic 计划引入 Democracy Works 的州级投票信息与官方计票结果。",
+      "ISD 与 McCain Institute 的压力测试发现，模型能拒绝单个明显有害请求，却可能漏掉拆成受众研究、建站、写稿和分发等多步的恶意活动。",
+      "平台新增识别虚假社交账户、伪新闻站点、牟利型选举骗局和外国国家行为体的分类器，并称已封禁为俄、伊、朝叙事制作美国中期选举内容的相关账户。"
+    ],
+    "evidence_basis": "2026 年 9 月 21—27 日随机抽取的 25 万条美国消费者对话、另一组政策审查样本、内部威胁情报，以及三家独立组织的偏见和滥用压力测试。",
+    "limitations": "对话比例由 Claude 分类并采用隐私保护聚合，原始数据、分类误差和完整置信区间未公开；99% 政治中立得分来自 Anthropic 自有评测。平台观察只能覆盖 Claude 上发生的活动，无法衡量跨平台总体影响。",
+    "commercial_interest": "Anthropic 开发并销售 Claude；文章同时展示模型中立性、分类器、威胁情报和选举信息产品能力。"
   }
 ]

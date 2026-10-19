@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T10:19:26+08:00",
+  "generated_at": "2026-10-19T10:43:49+08:00",
   "coverage": {
     "basis": "papernote 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 128,
-    "papers_with_affiliations": 128,
-    "scored_top_venue_papers": 117
+    "indexed_papers": 138,
+    "papers_with_affiliations": 138,
+    "scored_top_venue_papers": 124
   },
   "categories": [
     {
@@ -240,14 +240,18 @@
         "ieee-sp26-liu-generate-verify",
         "ieee-sp26-wang-transient-architectural-execution",
         "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition"
+        "neurips25-zou-agent-red-team-competition",
+        "popl26-gouni-security-reasoning"
       ],
       "scholars": [
         "Andy Zou",
         "Darion Cassel",
         "Eileen Xiao",
+        "Frank Pfenning",
         "Fraser Brown",
+        "Hemant Gouni",
         "J. Zico Kolter",
+        "Jonathan Aldrich",
         "Limin Jia",
         "Matt Fredrikson",
         "Min-Chien Hsu",
@@ -279,6 +283,47 @@
       "verified_score": 5
     },
     {
+      "id": "ruhr-university-bochum",
+      "name": "Ruhr University Bochum",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "usenix-sec26-bach-webrtc",
+        "usenix-sec26-jannett-passkeys",
+        "usenix-sec26-merget-opossum"
+      ],
+      "scholars": [
+        "Fabian Bäumer",
+        "Jörg Schwenk",
+        "Louis Jannett",
+        "Lukas Knittel",
+        "Marcel Maehren",
+        "Marcus Brinkmann",
+        "Nurullah Erinola",
+        "Vladislav Mladenov",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 5
+    },
+    {
       "id": "uc-berkeley",
       "name": "University of California, Berkeley",
       "country_code": "USA",
@@ -289,18 +334,25 @@
         "arxiv-2607-18575-receipt",
         "ase26-ni-triage-nodejs",
         "neurips25-nie-secodeplt",
+        "osdi26-cottone-acumen",
         "usenix-sec26-kim-agentic",
         "usenix-sec26-zhang-resume-injection"
       ],
       "scholars": [
+        "Conor Power",
+        "Darya Kaviani",
         "David Wagner",
         "Dawn Song",
+        "Evelyn Koo",
         "Hao Wang",
         "Juhee Kim",
         "Karen Shieh",
         "Kevin Cheang",
         "Koushik Sen",
         "Muxi Lyu",
+        "Natacha Crooks",
+        "Raluca Ada Popa",
+        "Will Giorza",
         "Yiwei Hou",
         "Zhun Wang"
       ],
@@ -351,39 +403,6 @@
         "2026": {
           "security": 3,
           "software": 1,
-          "ai": 0,
-          "total": 4
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "ruhr-university-bochum",
-      "name": "Ruhr University Bochum",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ieee-sp26-wang-transient-architectural-execution",
-        "usenix-sec26-bach-webrtc",
-        "usenix-sec26-jannett-passkeys",
-        "usenix-sec26-merget-opossum"
-      ],
-      "scholars": [
-        "Jörg Schwenk",
-        "Louis Jannett",
-        "Lukas Knittel",
-        "Marcel Maehren",
-        "Marcus Brinkmann",
-        "Nurullah Erinola",
-        "Vladislav Mladenov",
-        "Yuval Yarom"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 4,
-          "software": 0,
           "ai": 0,
           "total": 4
         }
@@ -456,6 +475,71 @@
           "security": 3,
           "software": 0,
           "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "columbia-university",
+      "name": "Columbia University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Columbia University"
+      ],
+      "papers": [
+        "ieee-sp26-chen-compiler-backdoor",
+        "ieee-sp26-li-nanotag",
+        "ieee-sp26-takahashi-zkfuzz"
+      ],
+      "scholars": [
+        "Baishakhi Ray",
+        "Hang Ye",
+        "Hideaki Takahashi",
+        "Jihwan Kim",
+        "Jinjun Peng",
+        "Junfeng Yang",
+        "Mingkai Li",
+        "Simin Chen",
+        "Suman Jana",
+        "Tanvir Ahmed Khan"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "duke-university",
+      "name": "Duke University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact",
+        "ieee-sp26-liang-graphrag",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "scholars": [
+        "Hai Helen Li",
+        "Hancheng Ye",
+        "Neil Gong",
+        "Neil Zhenqiang Gong",
+        "Yiran Chen",
+        "Yuhan Cheng",
+        "Yuqi Jia"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 1,
           "total": 3
         }
       },
@@ -668,6 +752,33 @@
       "verified_score": 3
     },
     {
+      "id": "university-of-louisville",
+      "name": "University of Louisville",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Louisville"
+      ],
+      "papers": [
+        "ieee-sp26-zhang-ragorigin",
+        "usenix-sec26-gao-patcher",
+        "usenix-sec26-nguyen-menta"
+      ],
+      "scholars": [
+        "Anjun Gao",
+        "Minghong Fang",
+        "Yufei Xia"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
       "id": "university-oxford",
       "name": "University of Oxford",
       "country_code": "GBR",
@@ -692,6 +803,35 @@
         "2025": {
           "security": 0,
           "software": 2,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "zhongguancun-laboratory",
+      "name": "中关村实验室",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中关村实验室"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe",
+        "ndss26-wu-email-aliases",
+        "usenix-sec26-zhao-waved"
+      ],
+      "scholars": [
+        "Jiakai Wang",
+        "Ke Xu",
+        "Min Li",
+        "Mingxuan Liu",
+        "Xianglong Liu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
           "ai": 1,
           "total": 3
         }
@@ -902,62 +1042,6 @@
       "scholars": [
         "Alsharif Abuadbba",
         "Surya Nepal"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "columbia-university",
-      "name": "Columbia University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Columbia University"
-      ],
-      "papers": [
-        "ieee-sp26-chen-compiler-backdoor",
-        "ieee-sp26-takahashi-zkfuzz"
-      ],
-      "scholars": [
-        "Baishakhi Ray",
-        "Hideaki Takahashi",
-        "Jihwan Kim",
-        "Jinjun Peng",
-        "Junfeng Yang",
-        "Simin Chen",
-        "Suman Jana"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "duke-university",
-      "name": "Duke University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Duke University"
-      ],
-      "papers": [
-        "ieee-sp26-liang-graphrag",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "scholars": [
-        "Neil Gong",
-        "Neil Zhenqiang Gong",
-        "Yuqi Jia"
       ],
       "annual_scores": {
         "2026": {
@@ -1305,30 +1389,6 @@
       "verified_score": 2
     },
     {
-      "id": "university-of-louisville",
-      "name": "University of Louisville",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Louisville"
-      ],
-      "papers": [
-        "ieee-sp26-zhang-ragorigin",
-        "usenix-sec26-nguyen-menta"
-      ],
-      "scholars": [
-        "Minghong Fang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "umass-amherst",
       "name": "University of Massachusetts Amherst",
       "country_code": "USA",
@@ -1347,6 +1407,31 @@
         "Hyejun Jeong",
         "Mohammadreza Teymoorianfard",
         "Yuefeng Peng"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-of-north-texas",
+      "name": "University of North Texas",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of North Texas"
+      ],
+      "papers": [
+        "ieee-sp26-zhang-ragorigin",
+        "usenix-sec26-gao-patcher"
+      ],
+      "scholars": [
+        "Yueyang Quan",
+        "Zhuqing Liu"
       ],
       "annual_scores": {
         "2026": {
@@ -1430,32 +1515,6 @@
         "Mahesh Hari Sarma",
         "Mathé Hertogh",
         "Thijs Raymakers"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "zhongguancun-laboratory",
-      "name": "中关村实验室",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中关村实验室"
-      ],
-      "papers": [
-        "ndss26-wu-email-aliases",
-        "usenix-sec26-zhao-waved"
-      ],
-      "scholars": [
-        "Ke Xu",
-        "Min Li",
-        "Mingxuan Liu"
       ],
       "annual_scores": {
         "2026": {
@@ -1696,6 +1755,38 @@
         "Kaushal Punjabi",
         "Rahul Deivasigamani",
         "Stjepan Picek"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "stony-brook-university",
+      "name": "Stony Brook University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Stony Brook University"
+      ],
+      "papers": [
+        "ieee-sp26-liang-graphrag",
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "scholars": [
+        "Changjiang Li",
+        "Chencheng Jiang",
+        "Jiacheng Liang",
+        "R. Sekar",
+        "Rongyi Zhu",
+        "Soumyakant Priyadarshan",
+        "Tanqiu Jiang",
+        "Ting Wang",
+        "Yuhui Wang"
       ],
       "annual_scores": {
         "2026": {
@@ -2512,6 +2603,29 @@
       "verified_score": 1
     },
     {
+      "id": "institute-dataspace",
+      "name": "Institute of Dataspace",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "Institute of Dataspace"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "scholars": [
+        "Xianglong Liu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "itu-austria",
       "name": "Interdisciplinary Transformation University (IT:U)",
       "country_code": "AUT",
@@ -3267,34 +3381,6 @@
       "verified_score": 1
     },
     {
-      "id": "stony-brook-university",
-      "name": "Stony Brook University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Stony Brook University"
-      ],
-      "papers": [
-        "ieee-sp26-liang-graphrag"
-      ],
-      "scholars": [
-        "Changjiang Li",
-        "Jiacheng Liang",
-        "Rongyi Zhu",
-        "Tanqiu Jiang",
-        "Ting Wang",
-        "Yuhui Wang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "sungkyunkwan-university",
       "name": "Sungkyunkwan University",
       "country_code": "KOR",
@@ -3434,6 +3520,29 @@
           "security": 0,
           "software": 1,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-sydney",
+      "name": "The University of Sydney",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "The University of Sydney"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "scholars": [
+        "Zhenfei Yin"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -3635,6 +3744,31 @@
       "verified_score": 1
     },
     {
+      "id": "university-central-florida",
+      "name": "University of Central Florida",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Central Florida"
+      ],
+      "papers": [
+        "acl26-arif-conjunctive"
+      ],
+      "scholars": [
+        "Mengxin Zheng",
+        "Nokimul Hasan Arif",
+        "Qian Lou"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "university-chicago",
       "name": "University of Chicago",
       "country_code": "USA",
@@ -3681,6 +3815,29 @@
       "verified_score": 1
     },
     {
+      "id": "university-florida",
+      "name": "University of Florida",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Florida"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "scholars": [
+        "Jingwei Sun"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "university-hawaii-manoa",
       "name": "University of Hawaiʻi at Mānoa",
       "country_code": "USA",
@@ -3717,6 +3874,32 @@
         "Rabimba Karanjai",
         "Weidong Shi",
         "Yang Lu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-illinois-chicago",
+      "name": "University of Illinois Chicago",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Illinois Chicago"
+      ],
+      "papers": [
+        "ndss26-infantino-vault-raider"
+      ],
+      "scholars": [
+        "Andrea Infantino",
+        "Jason Polakis",
+        "Kostas Solomos",
+        "Mir Masood Ali"
       ],
       "annual_scores": {
         "2026": {
@@ -3825,17 +4008,17 @@
       "verified_score": 1
     },
     {
-      "id": "university-of-north-texas",
-      "name": "University of North Texas",
+      "id": "university-pennsylvania",
+      "name": "University of Pennsylvania",
       "country_code": "USA",
       "affiliation_names": [
-        "University of North Texas"
+        "University of Pennsylvania"
       ],
       "papers": [
-        "ieee-sp26-zhang-ragorigin"
+        "ieee-sp26-li-nanotag"
       ],
       "scholars": [
-        "Zhuqing Liu"
+        "Joseph Devietti"
       ],
       "annual_scores": {
         "2026": {
@@ -4459,6 +4642,35 @@
       "verified_score": 1
     },
     {
+      "id": "beihang-university",
+      "name": "北京航空航天大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "scholars": [
+        "Aishan Liu",
+        "Jinyang Guo",
+        "Le Wang",
+        "Xianglong Liu",
+        "Yisong Xiao",
+        "Yuqing Ma",
+        "Zonghao Ying"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "beijing-university-posts-telecommunications",
       "name": "北京邮电大学",
       "country_code": "CHN",
@@ -4725,6 +4937,29 @@
       "verified_score": 1
     },
     {
+      "id": "henan-university-science-technology",
+      "name": "河南科技大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "河南科技大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "scholars": [
+        "Mingchuan Zhang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "zhejiang-gongshang-university",
       "name": "浙江工商大学",
       "country_code": "CHN",
@@ -4910,6 +5145,22 @@
       "verified_score": 0
     },
     {
+      "id": "google",
+      "name": "Google",
+      "country_code": "",
+      "affiliation_names": [
+        "Google"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "scholars": [
+        "Huan Nguyen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "kaust-genai-center",
       "name": "KAUST Center of Excellence for Generative AI",
       "country_code": "SAU",
@@ -4958,6 +5209,22 @@
       ],
       "scholars": [
         "Jihyeon Jeong"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "stanford-university",
+      "name": "Stanford University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Stanford University"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "scholars": [
+        "Ryan Cottone"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -5425,6 +5692,106 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic"
+        }
+      ]
+    },
+    {
+      "id": "joerg-schwenk",
+      "name": "Jörg Schwenk",
+      "publication_name": "Jörg Schwenk",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "usenix-sec26-jannett-passkeys",
+        "usenix-sec26-merget-opossum"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-jannett-passkeys",
+          "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
+        },
+        {
+          "id": "usenix-sec26-merget-opossum",
+          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
+        },
+        {
+          "id": "ccs25-baumer-ssh-strict-kex",
+          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765208"
+        }
+      ]
+    },
+    {
+      "id": "minghong-fang-louisville",
+      "name": "Minghong Fang",
+      "publication_name": "Minghong Fang",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen",
+      "institutions": [
+        "University of Louisville"
+      ],
+      "papers": [
+        "ieee-sp26-zhang-ragorigin",
+        "usenix-sec26-gao-patcher",
+        "usenix-sec26-nguyen-menta"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-zhang-ragorigin",
+          "title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        },
+        {
+          "id": "usenix-sec26-nguyen-menta",
+          "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen"
+        },
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
         }
       ]
     },
@@ -6320,45 +6687,6 @@
       ]
     },
     {
-      "id": "joerg-schwenk",
-      "name": "Jörg Schwenk",
-      "publication_name": "Jörg Schwenk",
-      "homepage": "",
-      "profile_source": "",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "usenix-sec26-jannett-passkeys",
-        "usenix-sec26-merget-opossum"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-jannett-passkeys",
-          "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
-        },
-        {
-          "id": "usenix-sec26-merget-opossum",
-          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
-        }
-      ]
-    },
-    {
       "id": "liwen-xu-eth",
       "name": "Liwen Xu",
       "publication_name": "Liwen Xu",
@@ -6437,6 +6765,51 @@
       ]
     },
     {
+      "id": "marcel-maehren-rub",
+      "name": "Marcel Maehren",
+      "publication_name": "Marcel Maehren",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "usenix-sec26-merget-opossum"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-merget-opossum",
+          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
+        },
+        {
+          "id": "ccs25-baumer-ssh-strict-kex",
+          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765208"
+        }
+      ]
+    },
+    {
       "id": "marco-squarcina",
       "name": "Marco Squarcina",
       "publication_name": "Marco Squarcina",
@@ -6478,6 +6851,51 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-beer.pdf"
+        }
+      ]
+    },
+    {
+      "id": "marcus-brinkmann-rub",
+      "name": "Marcus Brinkmann",
+      "publication_name": "Marcus Brinkmann",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "usenix-sec26-merget-opossum"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-merget-opossum",
+          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
+        },
+        {
+          "id": "ccs25-baumer-ssh-strict-kex",
+          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765208"
         }
       ]
     },
@@ -6601,45 +7019,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
-        }
-      ]
-    },
-    {
-      "id": "minghong-fang-louisville",
-      "name": "Minghong Fang",
-      "publication_name": "Minghong Fang",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen",
-      "institutions": [
-        "University of Louisville"
-      ],
-      "papers": [
-        "ieee-sp26-zhang-ragorigin",
-        "usenix-sec26-nguyen-menta"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-zhang-ragorigin",
-          "title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        },
-        {
-          "id": "usenix-sec26-nguyen-menta",
-          "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen"
         }
       ]
     },
@@ -6808,6 +7187,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen"
+        }
+      ]
+    },
+    {
+      "id": "suman-jana-columbia",
+      "name": "Suman Jana",
+      "publication_name": "Suman Jana",
+      "homepage": "https://www.cs.columbia.edu/~suman/",
+      "profile_source": "https://www.cs.columbia.edu/~suman/",
+      "institutions": [
+        "Columbia University"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag",
+        "ieee-sp26-takahashi-zkfuzz"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-takahashi-zkfuzz",
+          "title": "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        },
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://doi.org/10.1109/SP63933.2026.00231"
         }
       ]
     },
@@ -7238,6 +7656,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen"
+        }
+      ]
+    },
+    {
+      "id": "zhuqing-liu-unt",
+      "name": "Zhuqing Liu",
+      "publication_name": "Zhuqing Liu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2509.13772",
+      "institutions": [
+        "University of North Texas"
+      ],
+      "papers": [
+        "ieee-sp26-zhang-ragorigin",
+        "usenix-sec26-gao-patcher"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-zhang-ragorigin",
+          "title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        },
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
         }
       ]
     },
@@ -7810,6 +8267,37 @@
       ]
     },
     {
+      "id": "aishan-liu-beihang",
+      "name": "Aishan Liu",
+      "publication_name": "Aishan Liu",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
       "id": "akshaya-kumar-gatech",
       "name": "Akshaya Kumar",
       "publication_name": "Akshaya Kumar",
@@ -8244,6 +8732,37 @@
       ]
     },
     {
+      "id": "andrea-infantino-uic",
+      "name": "Andrea Infantino",
+      "publication_name": "Andrea Infantino",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "institutions": [
+        "University of Illinois Chicago"
+      ],
+      "papers": [
+        "ndss26-infantino-vault-raider"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-infantino-vault-raider",
+          "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/"
+        }
+      ]
+    },
+    {
       "id": "andreas-mayer-heilbronn",
       "name": "Andreas Mayer",
       "publication_name": "Andreas Mayer",
@@ -8335,6 +8854,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens"
+        }
+      ]
+    },
+    {
+      "id": "anjun-gao-louisville",
+      "name": "Anjun Gao",
+      "publication_name": "Anjun Gao",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "institutions": [
+        "University of Louisville"
+      ],
+      "papers": [
+        "usenix-sec26-gao-patcher"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
         }
       ]
     },
@@ -10046,7 +10596,7 @@
           "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
           "year": 2026,
           "venue": "ASE 2026",
-          "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track"
+          "url": "https://doi.org/10.1145/3832783.3834352"
         }
       ]
     },
@@ -10514,6 +11064,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "fabian-baeumer-rub",
+      "name": "Fabian Bäumer",
+      "publication_name": "Fabian Bäumer",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765208",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs25-baumer-ssh-strict-kex",
+          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765208"
         }
       ]
     },
@@ -11480,6 +12061,37 @@
       ]
     },
     {
+      "id": "hai-helen-li-duke",
+      "name": "Hai Helen Li",
+      "publication_name": "Hai Helen Li",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/cheng26o.html"
+        }
+      ]
+    },
+    {
       "id": "haixin-duan-tsinghua",
       "name": "Haixin Duan",
       "publication_name": "Haixin Duan",
@@ -11507,6 +12119,68 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing"
+        }
+      ]
+    },
+    {
+      "id": "hancheng-ye-duke",
+      "name": "Hancheng Ye",
+      "publication_name": "Hancheng Ye",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/cheng26o.html"
+        }
+      ]
+    },
+    {
+      "id": "hang-ye-columbia",
+      "name": "Hang Ye",
+      "publication_name": "Hang Ye",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1109/SP63933.2026.00231",
+      "institutions": [
+        "Columbia University"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://doi.org/10.1109/SP63933.2026.00231"
         }
       ]
     },
@@ -12503,6 +13177,37 @@
       ]
     },
     {
+      "id": "jason-polakis-uic",
+      "name": "Jason Polakis",
+      "publication_name": "Jason Polakis",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "institutions": [
+        "University of Illinois Chicago"
+      ],
+      "papers": [
+        "ndss26-infantino-vault-raider"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-infantino-vault-raider",
+          "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/"
+        }
+      ]
+    },
+    {
       "id": "jason-r-koenig-aws",
       "name": "Jason R. Koenig",
       "publication_name": "Jason R. Koenig",
@@ -12685,6 +13390,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
+      "id": "jiakai-wang-zhongguancun",
+      "name": "Jiakai Wang",
+      "publication_name": "Jiakai Wang",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "中关村实验室"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -13030,6 +13766,37 @@
       ]
     },
     {
+      "id": "jingwei-sun-ufl",
+      "name": "Jingwei Sun",
+      "publication_name": "Jingwei Sun",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "University of Florida"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/cheng26o.html"
+        }
+      ]
+    },
+    {
       "id": "jingyi-song-hust",
       "name": "Jingyi Song",
       "publication_name": "Jingyi Song",
@@ -13120,6 +13887,37 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/"
+        }
+      ]
+    },
+    {
+      "id": "jinyang-guo-beihang",
+      "name": "Jinyang Guo",
+      "publication_name": "Jinyang Guo",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -13369,6 +14167,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "joseph-devietti-upenn",
+      "name": "Joseph Devietti",
+      "publication_name": "Joseph Devietti",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1109/SP63933.2026.00231",
+      "institutions": [
+        "University of Pennsylvania"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://doi.org/10.1109/SP63933.2026.00231"
         }
       ]
     },
@@ -14151,6 +14980,37 @@
       ]
     },
     {
+      "id": "kostas-solomos-uic",
+      "name": "Kostas Solomos",
+      "publication_name": "Kostas Solomos",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "institutions": [
+        "University of Illinois Chicago"
+      ],
+      "papers": [
+        "ndss26-infantino-vault-raider"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-infantino-vault-raider",
+          "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/"
+        }
+      ]
+    },
+    {
       "id": "kun-he-whu",
       "name": "Kun He",
       "publication_name": "Kun He",
@@ -14240,6 +15100,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "le-wang-beihang",
+      "name": "Le Wang",
+      "publication_name": "Le Wang",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -14741,37 +15632,6 @@
       ]
     },
     {
-      "id": "marcel-maehren-rub",
-      "name": "Marcel Maehren",
-      "publication_name": "Marcel Maehren",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "usenix-sec26-merget-opossum"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-merget-opossum",
-          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
-        }
-      ]
-    },
-    {
       "id": "marco-alecci-luxembourg",
       "name": "Marco Alecci",
       "publication_name": "Marco Alecci",
@@ -14799,37 +15659,6 @@
           "year": 2026,
           "venue": "ISSTA 2026",
           "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps"
-        }
-      ]
-    },
-    {
-      "id": "marcus-brinkmann-rub",
-      "name": "Marcus Brinkmann",
-      "publication_name": "Marcus Brinkmann",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "usenix-sec26-merget-opossum"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-merget-opossum",
-          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
         }
       ]
     },
@@ -15332,6 +16161,37 @@
       ]
     },
     {
+      "id": "mengxin-zheng-ucf",
+      "name": "Mengxin Zheng",
+      "publication_name": "Mengxin Zheng",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2026.acl-long.1577/",
+      "institutions": [
+        "University of Central Florida"
+      ],
+      "papers": [
+        "acl26-arif-conjunctive"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl26-arif-conjunctive",
+          "title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+          "year": 2026,
+          "venue": "ACL 2026",
+          "url": "https://aclanthology.org/2026.acl-long.1577/"
+        }
+      ]
+    },
+    {
       "id": "mengying-wu-fudan",
       "name": "Mengying Wu",
       "publication_name": "Mengying Wu",
@@ -15607,7 +16467,7 @@
           "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
           "year": 2026,
           "venue": "ASE 2026",
-          "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track"
+          "url": "https://doi.org/10.1145/3832783.3834352"
         }
       ]
     },
@@ -15767,6 +16627,37 @@
       ]
     },
     {
+      "id": "mingchuan-zhang-haust",
+      "name": "Mingchuan Zhang",
+      "publication_name": "Mingchuan Zhang",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "河南科技大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
       "id": "minghao-shao-nyu",
       "name": "Minghao Shao",
       "publication_name": "Minghao Shao",
@@ -15799,6 +16690,37 @@
       ]
     },
     {
+      "id": "mingkai-li-columbia",
+      "name": "Mingkai Li",
+      "publication_name": "Mingkai Li",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1109/SP63933.2026.00231",
+      "institutions": [
+        "Columbia University"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://doi.org/10.1109/SP63933.2026.00231"
+        }
+      ]
+    },
+    {
       "id": "mingxuan-liu-zhongguancun",
       "name": "Mingxuan Liu",
       "publication_name": "Mingxuan Liu",
@@ -15826,6 +16748,37 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://doi.org/10.14722/ndss.2026.230148"
+        }
+      ]
+    },
+    {
+      "id": "mir-masood-ali-uic",
+      "name": "Mir Masood Ali",
+      "publication_name": "Mir Masood Ali",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "institutions": [
+        "University of Illinois Chicago"
+      ],
+      "papers": [
+        "ndss26-infantino-vault-raider"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-infantino-vault-raider",
+          "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/"
         }
       ]
     },
@@ -16450,6 +17403,37 @@
       ]
     },
     {
+      "id": "nokimul-hasan-arif-ucf",
+      "name": "Nokimul Hasan Arif",
+      "publication_name": "Nokimul Hasan Arif",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2026.acl-long.1577/",
+      "institutions": [
+        "University of Central Florida"
+      ],
+      "papers": [
+        "acl26-arif-conjunctive"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl26-arif-conjunctive",
+          "title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+          "year": 2026,
+          "venue": "ACL 2026",
+          "url": "https://aclanthology.org/2026.acl-long.1577/"
+        }
+      ]
+    },
+    {
       "id": "nuno-sabino-cmu",
       "name": "Nuno Sabino",
       "publication_name": "Nuno Sabino",
@@ -17035,6 +18019,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "qian-lou-ucf",
+      "name": "Qian Lou",
+      "publication_name": "Qian Lou",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2026.acl-long.1577/",
+      "institutions": [
+        "University of Central Florida"
+      ],
+      "papers": [
+        "acl26-arif-conjunctive"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl26-arif-conjunctive",
+          "title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+          "year": 2026,
+          "venue": "ACL 2026",
+          "url": "https://aclanthology.org/2026.acl-long.1577/"
         }
       ]
     },
@@ -18806,7 +19821,7 @@
           "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
           "year": 2026,
           "venue": "ASE 2026",
-          "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track"
+          "url": "https://doi.org/10.1145/3832783.3834352"
         }
       ]
     },
@@ -18928,37 +19943,6 @@
         {
           "id": "ieee-sp26-roh-ghost",
           "title": "GHost in the Shell: A GPU-to-Host Memory Attack and Its Mitigation",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "suman-jana-columbia",
-      "name": "Suman Jana",
-      "publication_name": "Suman Jana",
-      "homepage": "https://www.cs.columbia.edu/~suman/",
-      "profile_source": "https://www.cs.columbia.edu/~suman/",
-      "institutions": [
-        "Columbia University"
-      ],
-      "papers": [
-        "ieee-sp26-takahashi-zkfuzz"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-takahashi-zkfuzz",
-          "title": "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
@@ -19148,6 +20132,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "tanvir-ahmed-khan-columbia",
+      "name": "Tanvir Ahmed Khan",
+      "publication_name": "Tanvir Ahmed Khan",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1109/SP63933.2026.00231",
+      "institutions": [
+        "Columbia University"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://doi.org/10.1109/SP63933.2026.00231"
         }
       ]
     },
@@ -20736,6 +21751,39 @@
       ]
     },
     {
+      "id": "xianglong-liu-beihang",
+      "name": "Xianglong Liu",
+      "publication_name": "Xianglong Liu",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "Institute of Dataspace",
+        "中关村实验室",
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
       "id": "xiao-han-usf",
       "name": "Xiao Han",
       "publication_name": "Xiao Han",
@@ -21792,6 +22840,37 @@
       ]
     },
     {
+      "id": "yiran-chen-duke",
+      "name": "Yiran Chen",
+      "publication_name": "Yiran Chen",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/cheng26o.html"
+        }
+      ]
+    },
+    {
       "id": "yiran-zhang-ntu",
       "name": "Yiran Zhang",
       "publication_name": "Yiran Zhang",
@@ -21819,6 +22898,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
+      "id": "yisong-xiao-beihang",
+      "name": "Yisong Xiao",
+      "publication_name": "Yisong Xiao",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -22288,6 +23398,99 @@
       ]
     },
     {
+      "id": "yueyang-quan-unt",
+      "name": "Yueyang Quan",
+      "publication_name": "Yueyang Quan",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "institutions": [
+        "University of North Texas"
+      ],
+      "papers": [
+        "usenix-sec26-gao-patcher"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
+        }
+      ]
+    },
+    {
+      "id": "yufei-xia-louisville",
+      "name": "Yufei Xia",
+      "publication_name": "Yufei Xia",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "institutions": [
+        "University of Louisville"
+      ],
+      "papers": [
+        "usenix-sec26-gao-patcher"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
+        }
+      ]
+    },
+    {
+      "id": "yuhan-cheng-duke",
+      "name": "Yuhan Cheng",
+      "publication_name": "Yuhan Cheng",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/cheng26o.html"
+        }
+      ]
+    },
+    {
       "id": "yuhang-zhao-fudan",
       "name": "Yuhang Zhao",
       "publication_name": "Yuhang Zhao",
@@ -22470,6 +23673,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
+        }
+      ]
+    },
+    {
+      "id": "yuqing-ma-beihang",
+      "name": "Yuqing Ma",
+      "publication_name": "Yuqing Ma",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -22875,6 +24109,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
+        }
+      ]
+    },
+    {
+      "id": "zhenfei-yin-sydney",
+      "name": "Zhenfei Yin",
+      "publication_name": "Zhenfei Yin",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "The University of Sydney"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -23406,37 +24671,6 @@
       ]
     },
     {
-      "id": "zhuqing-liu-unt",
-      "name": "Zhuqing Liu",
-      "publication_name": "Zhuqing Liu",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2509.13772",
-      "institutions": [
-        "University of North Texas"
-      ],
-      "papers": [
-        "ieee-sp26-zhang-ragorigin"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-zhang-ragorigin",
-          "title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "zihan-lin-fudan",
       "name": "Zihan Lin",
       "publication_name": "Zihan Lin",
@@ -23558,6 +24792,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-tong"
+        }
+      ]
+    },
+    {
+      "id": "zonghao-ying-beihang",
+      "name": "Zonghao Ying",
+      "publication_name": "Zonghao Ying",
+      "homepage": "",
+      "profile_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "北京航空航天大学"
+      ],
+      "papers": [
+        "cvpr26-ying-agentsafe"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+          "year": 2026,
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html"
         }
       ]
     },
@@ -23796,6 +25061,30 @@
       ]
     },
     {
+      "id": "chencheng-jiang-stony-brook",
+      "name": "Chencheng Jiang",
+      "publication_name": "Chencheng Jiang",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808292",
+      "institutions": [
+        "Stony Brook University"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi26-nguyen-analyzing-bytes",
+          "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+          "year": 2026,
+          "venue": "ACM PLDI 2026",
+          "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
       "id": "chuan-li-lambda",
       "name": "Chuan Li",
       "publication_name": "Chuan Li",
@@ -23840,6 +25129,54 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "conor-power-berkeley",
+      "name": "Conor Power",
+      "publication_name": "Conor Power",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "darya-kaviani-berkeley",
+      "name": "Darya Kaviani",
+      "publication_name": "Darya Kaviani",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
         }
       ]
     },
@@ -23964,6 +25301,30 @@
       ]
     },
     {
+      "id": "evelyn-koo-berkeley",
+      "name": "Evelyn Koo",
+      "publication_name": "Evelyn Koo",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
       "id": "faatin-alvi",
       "name": "Faatin Alvi",
       "publication_name": "Faatin Alvi",
@@ -24033,6 +25394,30 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "frank-pfenning-cmu",
+      "name": "Frank Pfenning",
+      "publication_name": "Frank Pfenning",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3776669",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "popl26-gouni-security-reasoning"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "popl26-gouni-security-reasoning",
+          "title": "Security Reasoning via Substructural Dependency Tracking",
+          "year": 2026,
+          "venue": "ACM POPL 2026",
+          "url": "https://doi.org/10.1145/3776669"
         }
       ]
     },
@@ -24110,6 +25495,54 @@
       ]
     },
     {
+      "id": "hemant-gouni-cmu",
+      "name": "Hemant Gouni",
+      "publication_name": "Hemant Gouni",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3776669",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "popl26-gouni-security-reasoning"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "popl26-gouni-security-reasoning",
+          "title": "Security Reasoning via Substructural Dependency Tracking",
+          "year": 2026,
+          "venue": "ACM POPL 2026",
+          "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "huan-nguyen-google",
+      "name": "Huan Nguyen",
+      "publication_name": "Huan Nguyen",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808292",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi26-nguyen-analyzing-bytes",
+          "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+          "year": 2026,
+          "venue": "ACM PLDI 2026",
+          "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
       "id": "jiajun-zhou-zjut",
       "name": "Jiajun Zhou",
       "publication_name": "Jiajun Zhou",
@@ -24154,6 +25587,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.05120"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-aldrich-cmu",
+      "name": "Jonathan Aldrich",
+      "publication_name": "Jonathan Aldrich",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3776669",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "popl26-gouni-security-reasoning"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "popl26-gouni-security-reasoning",
+          "title": "Security Reasoning via Substructural Dependency Tracking",
+          "year": 2026,
+          "venue": "ACM POPL 2026",
+          "url": "https://doi.org/10.1145/3776669"
         }
       ]
     },
@@ -24399,6 +25856,30 @@
       ]
     },
     {
+      "id": "natacha-crooks-berkeley",
+      "name": "Natacha Crooks",
+      "publication_name": "Natacha Crooks",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
       "id": "nathanael-denis",
       "name": "Nathanaël Denis",
       "publication_name": "Nathanaël Denis",
@@ -24447,6 +25928,30 @@
       ]
     },
     {
+      "id": "r-sekar-stony-brook",
+      "name": "R. Sekar",
+      "publication_name": "R. Sekar",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808292",
+      "institutions": [
+        "Stony Brook University"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi26-nguyen-analyzing-bytes",
+          "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+          "year": 2026,
+          "venue": "ACM PLDI 2026",
+          "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
       "id": "rahul-deivasigamani",
       "name": "Rahul Deivasigamani",
       "publication_name": "Rahul Deivasigamani",
@@ -24471,6 +25976,30 @@
       ]
     },
     {
+      "id": "raluca-ada-popa-berkeley",
+      "name": "Raluca Ada Popa",
+      "publication_name": "Raluca Ada Popa",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
       "id": "roberto-di-pietro-kaust",
       "name": "Roberto Di Pietro",
       "publication_name": "Roberto Di Pietro",
@@ -24491,6 +26020,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.17986"
+        }
+      ]
+    },
+    {
+      "id": "ryan-cottone-stanford",
+      "name": "Ryan Cottone",
+      "publication_name": "Ryan Cottone",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "Stanford University"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
         }
       ]
     },
@@ -24592,6 +26145,30 @@
       ]
     },
     {
+      "id": "soumyakant-priyadarshan-stony-brook",
+      "name": "Soumyakant Priyadarshan",
+      "publication_name": "Soumyakant Priyadarshan",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3808292",
+      "institutions": [
+        "Stony Brook University"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi26-nguyen-analyzing-bytes",
+          "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+          "year": 2026,
+          "venue": "ACM PLDI 2026",
+          "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
       "id": "stjepan-picek",
       "name": "Stjepan Picek",
       "publication_name": "Stjepan Picek",
@@ -24684,6 +26261,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "will-giorza-berkeley",
+      "name": "Will Giorza",
+      "publication_name": "Will Giorza",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
         }
       ]
     },
@@ -25233,6 +26834,23 @@
       "weight": 2
     },
     {
+      "source": "university-of-louisville",
+      "target": "university-of-north-texas",
+      "papers": [
+        {
+          "id": "ieee-sp26-zhang-ragorigin",
+          "year": 2026,
+          "venue_group": "security"
+        },
+        {
+          "id": "usenix-sec26-gao-patcher",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "advanced-computing-intelligence-engineering-lab",
       "target": "information-engineering-university",
       "papers": [
@@ -25420,6 +27038,54 @@
           "id": "ase26-ni-triage-nodejs",
           "year": 2026,
           "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beihang-university",
+      "target": "henan-university-science-technology",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beihang-university",
+      "target": "institute-dataspace",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beihang-university",
+      "target": "university-sydney",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beihang-university",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -25905,6 +27571,18 @@
       "weight": 1
     },
     {
+      "source": "columbia-university",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "ieee-sp26-li-nanotag",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "concordia-university",
       "target": "mcgill-university",
       "papers": [
@@ -26008,6 +27686,18 @@
           "id": "usenix-sec26-zhang-resume-injection",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "duke-university",
+      "target": "university-florida",
+      "papers": [
+        {
+          "id": "icml26-cheng-privact",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -26277,6 +27967,18 @@
       "weight": 1
     },
     {
+      "source": "google",
+      "target": "stony-brook-university",
+      "papers": [
+        {
+          "id": "pldi26-nguyen-analyzing-bytes",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "gray-swan-ai",
       "target": "uk-ai-security-institute",
       "papers": [
@@ -26356,6 +28058,42 @@
           "id": "usenix-sec26-jannett-passkeys",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "henan-university-science-technology",
+      "target": "institute-dataspace",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "henan-university-science-technology",
+      "target": "university-sydney",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "henan-university-science-technology",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -26908,6 +28646,30 @@
           "id": "ieee-sp26-ye-llm-unlearning",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "institute-dataspace",
+      "target": "university-sydney",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "institute-dataspace",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -27909,6 +29671,18 @@
       "weight": 1
     },
     {
+      "source": "stanford-university",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "osdi26-cottone-acumen",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "swinburne-university-technology",
       "target": "university-of-louisville",
       "papers": [
@@ -28329,18 +30103,6 @@
       "weight": 1
     },
     {
-      "source": "university-of-louisville",
-      "target": "university-of-north-texas",
-      "papers": [
-        {
-          "id": "ieee-sp26-zhang-ragorigin",
-          "year": 2026,
-          "venue_group": "security"
-        }
-      ],
-      "weight": 1
-    },
-    {
       "source": "university-of-york",
       "target": "university-waterloo",
       "papers": [
@@ -28372,6 +30134,18 @@
           "id": "ieee-sp26-he-chinese-smart-home-privacy",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-sydney",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "cvpr26-ying-agentsafe",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -30649,7 +32423,7 @@
       "venue_group": "software",
       "status": "accepted",
       "first_seen": "2026-08-03",
-      "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track",
+      "url": "https://doi.org/10.1145/3832783.3834352",
       "institutions": [
         "universite-paris-saclay",
         "cea-list",
@@ -31217,6 +32991,215 @@
         "frederik-zuiderveen-borgesius-radboud",
         "gunes-acar-radboud",
         "narseo-vallina-rodriguez-imdea"
+      ]
+    },
+    {
+      "id": "osdi26-cottone-acumen",
+      "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+      "year": 2026,
+      "venue": "USENIX OSDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-07-13",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "stanford-university",
+        "uc-berkeley"
+      ],
+      "authors": [
+        "ryan-cottone-stanford",
+        "darya-kaviani-berkeley",
+        "conor-power-berkeley",
+        "will-giorza-berkeley",
+        "evelyn-koo-berkeley",
+        "natacha-crooks-berkeley",
+        "raluca-ada-popa-berkeley"
+      ]
+    },
+    {
+      "id": "icml26-cheng-privact",
+      "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+      "year": 2026,
+      "venue": "ICML 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-07-06",
+      "url": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "institutions": [
+        "duke-university",
+        "university-florida"
+      ],
+      "authors": [
+        "yuhan-cheng-duke",
+        "hancheng-ye-duke",
+        "hai-helen-li-duke",
+        "jingwei-sun-ufl",
+        "yiran-chen-duke"
+      ]
+    },
+    {
+      "id": "acl26-arif-conjunctive",
+      "title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+      "year": 2026,
+      "venue": "ACL 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-07-02",
+      "url": "https://aclanthology.org/2026.acl-long.1577/",
+      "institutions": [
+        "university-central-florida"
+      ],
+      "authors": [
+        "nokimul-hasan-arif-ucf",
+        "qian-lou-ucf",
+        "mengxin-zheng-ucf"
+      ]
+    },
+    {
+      "id": "usenix-sec26-gao-patcher",
+      "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+      "year": 2026,
+      "venue": "USENIX Security 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-06-18",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "institutions": [
+        "university-of-louisville",
+        "university-of-north-texas"
+      ],
+      "authors": [
+        "anjun-gao-louisville",
+        "yueyang-quan-unt",
+        "yufei-xia-louisville",
+        "zhuqing-liu-unt",
+        "minghong-fang-louisville"
+      ]
+    },
+    {
+      "id": "pldi26-nguyen-analyzing-bytes",
+      "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+      "year": 2026,
+      "venue": "ACM PLDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-06-08",
+      "url": "https://doi.org/10.1145/3808292",
+      "institutions": [
+        "google",
+        "stony-brook-university"
+      ],
+      "authors": [
+        "huan-nguyen-google",
+        "soumyakant-priyadarshan-stony-brook",
+        "chencheng-jiang-stony-brook",
+        "r-sekar-stony-brook"
+      ]
+    },
+    {
+      "id": "ndss26-infantino-vault-raider",
+      "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+      "year": 2026,
+      "venue": "NDSS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-02-23",
+      "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "institutions": [
+        "university-illinois-chicago"
+      ],
+      "authors": [
+        "andrea-infantino-uic",
+        "mir-masood-ali-uic",
+        "kostas-solomos-uic",
+        "jason-polakis-uic"
+      ]
+    },
+    {
+      "id": "popl26-gouni-security-reasoning",
+      "title": "Security Reasoning via Substructural Dependency Tracking",
+      "year": 2026,
+      "venue": "ACM POPL 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-01-15",
+      "url": "https://doi.org/10.1145/3776669",
+      "institutions": [
+        "carnegie-mellon-university"
+      ],
+      "authors": [
+        "hemant-gouni-cmu",
+        "frank-pfenning-cmu",
+        "jonathan-aldrich-cmu"
+      ]
+    },
+    {
+      "id": "ieee-sp26-li-nanotag",
+      "title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "year": 2026,
+      "venue": "IEEE S&P 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2025-09-26",
+      "url": "https://doi.org/10.1109/SP63933.2026.00231",
+      "institutions": [
+        "columbia-university",
+        "university-pennsylvania"
+      ],
+      "authors": [
+        "mingkai-li-columbia",
+        "hang-ye-columbia",
+        "joseph-devietti-upenn",
+        "suman-jana-columbia",
+        "tanvir-ahmed-khan-columbia"
+      ]
+    },
+    {
+      "id": "ccs25-baumer-ssh-strict-kex",
+      "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+      "year": 2025,
+      "venue": "ACM CCS 2025",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2025-09-13",
+      "url": "https://doi.org/10.1145/3719027.3765208",
+      "institutions": [
+        "ruhr-university-bochum"
+      ],
+      "authors": [
+        "fabian-baeumer-rub",
+        "marcel-maehren-rub",
+        "marcus-brinkmann-rub",
+        "joerg-schwenk"
+      ]
+    },
+    {
+      "id": "cvpr26-ying-agentsafe",
+      "title": "AGENTSAFE: Benchmarking the Safety of Embodied Agents on Hazardous Instructions",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2025-06-17",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ying_AGENTSAFE_Benchmarking_the_Safety_of_Embodied_Agents_on_Hazardous_Instructions_CVPR_2026_paper.html",
+      "institutions": [
+        "beihang-university",
+        "zhongguancun-laboratory",
+        "university-sydney",
+        "henan-university-science-technology",
+        "institute-dataspace"
+      ],
+      "authors": [
+        "zonghao-ying-beihang",
+        "le-wang-beihang",
+        "yisong-xiao-beihang",
+        "jiakai-wang-zhongguancun",
+        "yuqing-ma-beihang",
+        "jinyang-guo-beihang",
+        "zhenfei-yin-sydney",
+        "mingchuan-zhang-haust",
+        "aishan-liu-beihang",
+        "xianglong-liu-beihang"
       ]
     }
   ]

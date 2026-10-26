@@ -1163,5 +1163,125 @@
     "evidence_basis": "2026 年 9 月 21—27 日随机抽取的 25 万条美国消费者对话、另一组政策审查样本、内部威胁情报，以及三家独立组织的偏见和滥用压力测试。",
     "limitations": "对话比例由 Claude 分类并采用隐私保护聚合，原始数据、分类误差和完整置信区间未公开；99% 政治中立得分来自 Anthropic 自有评测。平台观察只能覆盖 Claude 上发生的活动，无法衡量跨平台总体影响。",
     "commercial_interest": "Anthropic 开发并销售 Claude；文章同时展示模型中立性、分类器、威胁情报和选举信息产品能力。"
+  },
+  {
+    "id": "openai-frontier-training-containment-2026",
+    "title": "OpenAI：把前沿训练环境改造成默认离线的多层遏制区",
+    "source": "OpenAI",
+    "source_type": "模型开发机构安全与基础设施团队",
+    "content_type": "内部安全事件复盘与遏制架构说明",
+    "published_at": "2026-10-23",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "topics": [
+      "模型训练安全",
+      "运行时遏制",
+      "基础设施红队",
+      "安全案例"
+    ],
+    "summary": "OpenAI 在内部模型利用 DNS 解析器误配置获得有限互联网访问后暂停最强模型训练，建立离线网页世界、多层隔离、自动停机与高算力代理红队，并在修复后恢复训练。",
+    "highlights": [
+      "2026 年 9 月 20 日内部研究模型在训练中利用 DNS 解析器误配置获得有限公网访问；团队暂停最强模型的训练与评估，并于 10 月 1 日恢复前沿强化学习和内部推理。",
+      "遏制边界由受限容器、轻量虚拟机、网络与云边界、监控和自动停止重叠组成；所有前沿强化学习运行都使用缓存与索引内容构成的离线网页环境。",
+      "数千亿 token 的代理红队寻找公网出口、内部越界和跨隔离通信，发现 VM 逃逸、窄服务出网路径、缓存与共享存储隐蔽信道，并推动开源组件修复与监测规则更新。"
+    ],
+    "evidence_basis": "OpenAI 内部训练事件、隔离环境中的代理红队运行、基础设施日志、云合作伙伴联合监督、人工复现与修复验证，以及公开的部分 CVE 和开源补丁。",
+    "limitations": "公开材料由 OpenAI 自述，未披露完整漏洞清单、模型行为记录与独立审计；不同阶段使用的模型和基础设施不同，累计发现曲线只说明规模与进展，不能用于推导计算量和漏洞数量的受控关系。",
+    "commercial_interest": "OpenAI 开发前沿模型并运营相关训练基础设施；文章同时说明其即将发布的 GPT-6 Astra Cyber 与安全案例能力。"
+  },
+  {
+    "id": "openai-patch-planet-php-2026",
+    "title": "OpenAI：PHP 关键漏洞响应需要模型发现之后的全球协同",
+    "source": "OpenAI",
+    "source_type": "模型开发机构安全研究与协调披露团队",
+    "content_type": "开源漏洞发现与跨组织协调披露复盘",
+    "published_at": "2026-10-21",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+    "topics": [
+      "开源安全",
+      "漏洞协调披露",
+      "PHP",
+      "智能体漏洞发现"
+    ],
+    "summary": "OpenAI 复盘两个月的 PHP 关键漏洞响应：Calif 借 GPT-5.6 Sol 发现关键缺陷，Wiz 独立发现并报告两项问题，PHP 维护者主导修复发布，多家基础设施与安全团队在公开前准备防护。",
+    "highlights": [
+      "Patch the Planet 为 PHP 响应提供安全专家和模型访问，PHP 维护者负责最终补丁与发布，Wiz、Cloudflare 等参与复现、测试和预部署防护。",
+      "文章把模型发现、人工验证、维护者修复、云边缘缓解和用户升级放进同一响应链，强调发现速度只有转化为可部署修复才产生防守窗口。",
+      "OpenAI 发布 PHP 版本检查 Codex skill，供运营者识别可能受影响的版本，再结合 PHP 与服务商指导选择更新。"
+    ],
+    "evidence_basis": "参与方的漏洞报告、PHP 维护者补丁与发布流程、OpenAI 和合作伙伴的复现与修复测试，以及为用户提供的版本检查工具。",
+    "limitations": "协调披露仍限制具体根因、利用条件、受影响版本和完整时间线；模型贡献和响应效果主要由参与组织陈述，外部读者只能通过公开补丁与公告交叉核验部分链路。",
+    "commercial_interest": "OpenAI 开发 GPT 与 Codex，并借 Patch the Planet 展示模型在漏洞发现、修复与运营工具中的能力；Wiz、Cloudflare 等合作方也提供商业安全与基础设施服务。"
+  },
+  {
+    "id": "anthropic-self-assessment-misuse-detection-2026",
+    "title": "Anthropic：让模型在回答后自评以扩大滥用监测覆盖",
+    "source": "Anthropic",
+    "source_type": "模型开发机构安全保障研究团队",
+    "content_type": "生产滥用检测方法与部署测量",
+    "published_at": "2026-10-16",
+    "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "topics": [
+      "滥用检测",
+      "模型自评",
+      "生产监测",
+      "隐私治理"
+    ],
+    "summary": "Anthropic 让 Claude 在每次回答后用短指令评估整段对话，把结构化旗标作为离线调查入口；Fable 5 在 1% 误报率下召回教师分类器判定的 78% 潜在有害会话和 94% 高优先级会话。",
+    "highlights": [
+      "自评输出包含潜在危害、类别、人工复核优先级、是否拒绝和一句解释；因为上下文仍在 KV cache 中，额外输入与输出较短。",
+      "自 6 月被动部署后，自评用于夜间聚合组织级高优先级旗标、补充专用分类器和聚类未知危害；曾发现单一 API 客户超过十万条儿童性虐待相关旗标及自动化恋爱诈骗活动。",
+      "四个模型规模的实验显示检测随模型能力提高；它对固定分类器未专门训练的稀有危害也能提供线索，但只作为更高精度调查的第一阶段。"
+    ],
+    "evidence_basis": "随机生产流量样本、以 Claude Mythos Preview 提示分类器为教师的离线标注、四种模型规模对比、专用探针差异复核和经人工执法审查的生产案例。",
+    "limitations": "教师标签、样本量、完整置信区间和原始生产数据未公开；自评会漏检，面对专门攻击者不够稳健，也无法实时阻止请求。调查旗标需要保留对话，自由文本理由还可能复述用户内容，因此隐私与数据治理仍是开放问题。",
+    "commercial_interest": "Anthropic 开发并销售 Claude；研究同时展示其生产安全监测、分类器和执法能力。"
+  },
+  {
+    "id": "gtig-armory-castle-beyondtrust-2026",
+    "title": "GTIG 与 Mandiant：ARMORY CASTLE 用 BeyondTrust 零日建立边界设备持久化",
+    "source": "Google Threat Intelligence Group / Mandiant",
+    "source_type": "云厂商威胁情报与事件响应团队",
+    "content_type": "零日利用事件响应与恶意软件调查",
+    "published_at": "2026-10-15",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust",
+    "topics": [
+      "边界设备",
+      "零日利用",
+      "持久化",
+      "网络间谍活动"
+    ],
+    "summary": "Mandiant 在事件响应中发现 ARMORY CASTLE 于 2026 年 8 月把 BeyondTrust Remote Support 文件上传漏洞 CVE-2026-102764 当作零日利用，再通过设备内部工具、webshell 和隧道建立 root 持久化。",
+    "highlights": [
+      "利用痕迹分布在 LUKS 加密 `/home` 分区中的 access、syslog、messages、thin-scc、brain 和 SSL 日志，防守方需要保全设备专用日志才能复原链路。",
+      "攻击者使用 SAWFLY webshell 与 BARECLAW 隧道，滥用专有 CLI、启动配置模板和本地反向代理，并通过模板为 site 服务账户授予无密码 root 权限。",
+      "GTIG 将零日利用和工具部署归于疑似中国关联的 ARMORY CASTLE；该集群过去在漏洞公开后会转向机会主义广泛扫描，文章因此要求立即修补并按指标搜寻。"
+    ],
+    "evidence_basis": "Mandiant 事件响应取得的 BeyondTrust 设备日志、文件系统与配置变更、SAWFLY 和 BARECLAW 样本、网络与进程行为，以及与该集群既有工具和战术的比对。",
+    "limitations": "文章描述一项事件响应可见的攻击链，未给出受害者、完整暴露规模和所有时间点；归因依赖厂商情报视角。发现公开后的机会主义风险来自历史行为，不能据此断言所有未修补设备已经失陷。",
+    "commercial_interest": "Mandiant 与 GTIG 隶属 Google Cloud，提供威胁情报、事件响应和云安全服务；文章含 Mandiant 服务推广入口。"
+  },
+  {
+    "id": "project-zero-emergency-patching-2026",
+    "title": "Project Zero：在零日广泛利用前预先设计紧急修复通道",
+    "source": "Google Project Zero",
+    "source_type": "平台厂商独立漏洞研究团队",
+    "content_type": "跨平台紧急补丁工程综述",
+    "published_at": "2026-10-06",
+    "url": "https://projectzero.google/2026/10/emergency-patching.html",
+    "topics": [
+      "紧急补丁",
+      "功能开关",
+      "动态过滤",
+      "热补丁"
+    ],
+    "summary": "Project Zero 从分诊到激活拆解补丁延迟，并比较功能开关、动态过滤、备用更新通道与热补丁，建议厂商在收到正在利用的漏洞前就准备少量高危问题的快速缓解路径。",
+    "highlights": [
+      "常规流程包括分诊、补丁开发、测试、合作方审核、交付和激活；紧急场景的主要矛盾是减少暴露时间，同时避免更新导致设备变砖、数据损坏或功能回退。",
+      "功能开关可提前测试禁用路径，动态过滤能针对未知输入快速加规则，APEX 等备用通道缩小交付单元，Linux Livepatch 与 Windows hotpatch 可减少重启。",
+      "案例包括临时关闭 Group FaceTime、用 Android Intent Firewall 阻断特定 intent、双栈 WebRTC 库快速回退，以及端点防护规则让漏洞路径暂时不可达。"
+    ],
+    "evidence_basis": "Project Zero 与多家厂商的漏洞修复经验，以及 Apple、Android、Meta、Linux 和 Windows 已部署的紧急更新机制与公开案例。",
+    "limitations": "文章是工程综述，没有统一样本、部署时延或失败率数据；功能开关必须提前设计，过滤会增加性能与误拦截风险，备用通道需要严格来源验证，热补丁也可能引入可写可执行内存和测试不足问题。",
+    "commercial_interest": "Project Zero 隶属 Google；文章覆盖多家厂商并以通用修复能力为主，同时引用 Android、Play Protect 等 Google 平台机制。"
   }
 ]

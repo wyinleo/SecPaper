@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -507,6 +507,16 @@
     "osdi26-cottone-acumen": "systems-hardware-security",
     "acl26-arif-conjunctive": "ai-security",
     "icml26-cheng-privact": "identity-privacy",
-    "cvpr26-ying-agentsafe": "ai-security"
+    "cvpr26-ying-agentsafe": "ai-security",
+    "ieee-sp26-lee-site-isolation": "ai-security",
+    "ccs25-trampert-styled-steal": "software-application-security",
+    "ndss26-wang-obliinjection": "ai-security",
+    "usenix-sec26-ling-swhisper": "ai-security",
+    "fse26-guo-bcs": "systems-hardware-security",
+    "oopsla26-cao-sevdf": "software-application-security",
+    "icse26-he-taintp2x": "software-application-security",
+    "neurips25-lee-sec-bench": "ai-security",
+    "aaai26-wang-mcptox": "ai-security",
+    "neurips25-evtimov-wasp": "ai-security"
   }
 }

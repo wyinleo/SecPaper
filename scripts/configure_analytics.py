@@ -34,7 +34,7 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         "/* Generated during deployment; do not commit credentials here. */\n"
-        f"window.PAPERNOTE_ANALYTICS = Object.freeze({payload});\n",
+        f"window.SECPAPER_ANALYTICS = Object.freeze({payload});\n",
         encoding="utf-8",
     )
 

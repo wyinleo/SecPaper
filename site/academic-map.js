@@ -31,6 +31,6 @@
     }
     return { countries: [...countries.values()].map(c => ({ ...c, count: c.papers.size })), routes: [...routes.values()].map(r => ({ ...r, count: r.papers.size })), unmapped };
   }
-  root.PAPERNOTE_MAP = { aggregate };
-  if (typeof module !== 'undefined') module.exports = root.PAPERNOTE_MAP;
+  root.SECPAPER_MAP = { aggregate };
+  if (typeof module !== 'undefined') module.exports = root.SECPAPER_MAP;
 })(typeof window === 'undefined' ? globalThis : window);

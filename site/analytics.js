@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    var config = window.PAPERNOTE_ANALYTICS || {};
+    var config = window.SECPAPER_ANALYTICS || {};
     if (!(config.allowedHosts || []).includes(location.hostname)) return;
     var api;
     try { api = atob(config.endpointCode || ''); }
@@ -42,10 +42,10 @@
         try {
             // Honor the opt-out switch used by the previous GoatCounter integration.
             if (localStorage.getItem('skipgc') === 't') { refresh(); return; }
-            visitorId = localStorage.getItem('papernote-counter:visitor');
+            visitorId = localStorage.getItem('secpaper-counter:visitor');
             if (!/^[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i.test(visitorId || '')) {
                 visitorId = crypto.randomUUID();
-                localStorage.setItem('papernote-counter:visitor', visitorId);
+                localStorage.setItem('secpaper-counter:visitor', visitorId);
             }
         } catch (error) { visitorId = null; }
         var canonical = document.querySelector('link[rel="canonical"]');

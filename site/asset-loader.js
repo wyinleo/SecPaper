@@ -18,6 +18,6 @@
     }
     return { load };
   }
-  root.PAPERNOTE_ASSETS = createLoader((...args) => fetch(...args));
+  root.SECPAPER_ASSETS = createLoader((...args) => fetch(...args));
   if (typeof module !== 'undefined') module.exports = { createLoader };
 })(typeof window === 'undefined' ? globalThis : window);

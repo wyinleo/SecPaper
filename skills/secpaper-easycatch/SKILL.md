@@ -1,5 +1,5 @@
 ---
-name: papernote-easycatch
+name: secpaper-easycatch
 description: 为 SecPaper 论文精读编写或修订 Easycatch，从有因果发展的生活故事或直接的使用场景切入，再用通俗语言讲清论文的问题和思路。在新增论文、修改精读事实、收到读者理解反馈或批量改进现有 Easycatch 时使用；维护 papers/easycatch.json 并校验来源一致性。
 metadata:
   version: "3"

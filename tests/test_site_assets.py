@@ -20,7 +20,7 @@ class SiteAssetsTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             output = Path(temp) / 'data.js'
             build.write_site_data(self.payload, output)
-            catalog = json.loads(output.read_text().split('window.PAPERNOTE_DATA=')[1].rstrip(';\n'))
+            catalog = json.loads(output.read_text().split('window.SECPAPER_DATA=')[1].rstrip(';\n'))
             self.assertNotIn('institutions', catalog['academic'])
             graph = json.loads((Path(temp) / catalog['assets']['academic']).read_text())
             self.assertEqual(graph['institutions'], self.payload['academic']['institutions'])
@@ -44,6 +44,21 @@ class SiteAssetsTest(unittest.TestCase):
             after = {p.name for p in (Path(temp) / 'data').glob('paper-*.json')}
             self.assertEqual(len(after - before), 1)
             self.assertEqual(updated['papers'][1]['details'], self.payload['papers'][1]['details'])
+
+    def test_readme_distribution_matches_homepage_categories(self):
+        block = build.readme_distribution_block(self.payload)
+        publications = self.payload['academic']['publications']
+        counts = {group: sum(p.get('venue_group') == group for p in publications)
+                  for group in ('security', 'software', 'ai')}
+        counts['other'] = len(publications) - sum(counts.values())
+        self.assertIn(f'共收录 **{len(publications)} 篇**', block)
+        self.assertIn(
+            f'**{self.payload["academic"]["coverage"]["scored_top_venue_papers"]} 篇**纳入顶会统计',
+            block,
+        )
+        for label, group in [('安全四大', 'security'), ('软件工程', 'software'),
+                             ('人工智能', 'ai'), ('预印 / 其他', 'other')]:
+            self.assertIn(f'**{label}**：{counts[group]} 篇', block)
 
 
 if __name__ == '__main__':

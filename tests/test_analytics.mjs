@@ -12,7 +12,7 @@ function browser({ hidden = false, optout = false, host = 'wyinleo.github.io', d
         currentScript: { getAttribute: () => 'aHR0cHM6Ly95YW1heXVraS5zcGFjZS9yLzdjNjJkOTUzYTBlZjQ5OGI=' },
         getElementById: id => nodes[id], querySelector: () => null,
         addEventListener: (event, callback) => { events[event] = callback; } };
-    const window = { PAPERNOTE_ANALYTICS: { allowedHosts: ['wyinleo.github.io'], endpointCode: btoa('https://yamayuki.space/r/b84e19f620d34ac7') } }; window.top = window; window.self = window;
+    const window = { SECPAPER_ANALYTICS: { allowedHosts: ['wyinleo.github.io'], endpointCode: btoa('https://yamayuki.space/r/b84e19f620d34ac7') } }; window.top = window; window.self = window;
     vm.runInNewContext(source, { document, window, URL, atob, AbortController, navigator: { doNotTrack: dnt ? '1' : '0' }, setTimeout, clearTimeout,
         setInterval: (fn, delay) => { timers.push({ fn, delay }); },
         location: new URL('https://' + host + '/SecPaper/'),

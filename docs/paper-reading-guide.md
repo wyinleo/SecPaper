@@ -43,7 +43,7 @@
 - 局限是否约束了结论的适用范围；
 - 名词解释是否不超过 5 条且每条都有实际解释。
 
-完成精读后，使用 [`papernote-easycatch`](../skills/papernote-easycatch/SKILL.md) 将问题、方法和边界转成两段解释：生活故事或实际使用场景与论文思路，保存在 `papers/easycatch.json`。读者反馈和转化规则的迭代统一维护在该 skill 中。
+完成精读后，使用 [`secpaper-easycatch`](../skills/secpaper-easycatch/SKILL.md) 将问题、方法和边界转成两段解释：生活故事或实际使用场景与论文思路，保存在 `papers/easycatch.json`。读者反馈和转化规则的迭代统一维护在该 skill 中。
 
 最后运行：
 

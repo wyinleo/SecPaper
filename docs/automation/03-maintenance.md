@@ -9,7 +9,7 @@
 - `papers/entity_registry.json`（必须完整读取）
 - `papers/topic_taxonomy.json`
 - `papers/index.jsonl`
-- `papers/easycatch.json` 与 `skills/papernote-easycatch/SKILL.md`
+- `papers/easycatch.json` 与 `skills/secpaper-easycatch/SKILL.md`
 - 本期和发生状态变化的历史周报
 - 当期 inquiries
 - `scripts/build_site.py`

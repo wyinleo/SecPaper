@@ -7,7 +7,7 @@
 ## 开始前读取
 
 - `docs/paper-reading-guide.md`
-- `skills/papernote-easycatch/SKILL.md`（每篇 Easycatch 的转化、保存与迭代规则）
+- `skills/secpaper-easycatch/SKILL.md`（每篇 Easycatch 的转化、保存与迭代规则）
 - `templates/weekly.md`
 - `papers/topic_taxonomy.json`（必须完整读取）
 - `papers/entity_registry.json`（用于复用已有规范名称，不在本阶段猜测新实体）

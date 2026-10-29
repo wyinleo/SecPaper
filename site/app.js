@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const data = window.PAPERNOTE_DATA;
+  const data = window.SECPAPER_DATA;
   if (!data) {
     document.body.innerHTML = "<p style='padding:2rem'>缺少 site/data.js，请先运行 python3 scripts/build_site.py。</p>";
     return;
@@ -66,7 +66,7 @@
 
   async function ensureAcademic() {
     if (data.academic?.institutions) return;
-    if (!academicRequest) academicRequest = window.PAPERNOTE_ASSETS.load(data.assets.academic).then(academic => {
+    if (!academicRequest) academicRequest = window.SECPAPER_ASSETS.load(data.assets.academic).then(academic => {
       data.academic = academic;
       academic.scholars.forEach(scholar => scholarsById.set(scholar.id, scholar));
     }).catch(error => { academicRequest = null; throw error; });
@@ -470,9 +470,9 @@
   }
 
   function renderWorldMap(institutions, edges, publications) {
-    const world = window.PAPERNOTE_WORLD || [];
+    const world = window.SECPAPER_WORLD || [];
     const geography = new Map(world.map(country => [country.id, country]));
-    const map = window.PAPERNOTE_MAP.aggregate(institutions, edges, publications, academicPaperMatches);
+    const map = window.SECPAPER_MAP.aggregate(institutions, edges, publications, academicPaperMatches);
     const counts = new Map(map.countries.map(country => [country.id, country]));
     const max = Math.max(1, ...map.countries.map(country => country.count));
     const countries = [...map.countries].sort((a, b) => b.count - a.count);
@@ -567,9 +567,9 @@
       && nodeIds.has(edge.target)
       && edge.papers.some(academicPaperMatches)
     );
-    const countryRanking = window.PAPERNOTE_MAP.aggregate(institutions, [], academic.publications || [], academicPaperMatches).countries
+    const countryRanking = window.SECPAPER_MAP.aggregate(institutions, [], academic.publications || [], academicPaperMatches).countries
       .sort((a, b) => b.count - a.count || a.id.localeCompare(b.id));
-    const countryNames = new Map((window.PAPERNOTE_WORLD || []).map(item => [item.id, item.name]));
+    const countryNames = new Map((window.SECPAPER_WORLD || []).map(item => [item.id, item.name]));
     const selectableCountries = [...institutions.reduce((counts, institution) => {
       const code = institution.country_code || "";
       counts.set(code, (counts.get(code) || 0) + 1);
@@ -703,7 +703,7 @@
       const missing = weeks.filter(week => !searchWeeks.has(week));
       if (missing.length) {
         loadContent(Promise.all(missing.map(async week => {
-          const text = await window.PAPERNOTE_ASSETS.load(data.assets.search[week]);
+          const text = await window.SECPAPER_ASSETS.load(data.assets.search[week]);
           searchWeeks.set(week, Object.fromEntries(Object.entries(text).map(([id, value]) => [id, value.toLocaleLowerCase("zh-CN")])));
         })));
         return;
@@ -831,7 +831,7 @@
       else if (!fullDetails.has(current.id)) {
         const paper = papersById.get(current.id);
         if (!paper) throw new Error("Unknown paper");
-        fullDetails.set(current.id, await window.PAPERNOTE_ASSETS.load(paper.details_url));
+        fullDetails.set(current.id, await window.SECPAPER_ASSETS.load(paper.details_url));
       }
     } catch (error) {
       if (request !== dialogRequest || !elements.dialog.open) return;

@@ -1,4 +1,4 @@
-# Papernote 的数据与加载方案
+# SecPaper 的数据与加载方案
 
 ## 当前决定
 

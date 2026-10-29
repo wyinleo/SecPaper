@@ -69,7 +69,7 @@ def fetch_stats(
         headers={
             **({"Authorization": f"Bearer {token}"} if not endpoint else {}),
             "Content-Type": "application/json",
-            "User-Agent": "papernote-traffic-chart/1.0",
+            "User-Agent": "secpaper-traffic-chart/1.0",
         },
     )
     for attempt in range(1, MAX_FETCH_ATTEMPTS + 1):
@@ -160,10 +160,10 @@ def render_svg(series: list[tuple[dt.date, int]], updated_at: dt.datetime) -> st
         )
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="title desc">
-  <title id="title">papernote 累计访问趋势</title>
+  <title id="title">SecPaper 累计访问趋势</title>
   <desc id="desc">自 {series[0][0].isoformat()} 起累计 {total} 次访问。</desc>
   <rect width="{WIDTH}" height="{HEIGHT}" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-  <text x="{LEFT}" y="31" fill="#24292f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600">papernote · 累计访问趋势</text>
+  <text x="{LEFT}" y="31" fill="#24292f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="600">SecPaper · 累计访问趋势</text>
   <text x="{LEFT}" y="55" fill="#57606a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12">自 {series[0][0].isoformat()} 起累计 {total} 次访问 · 更新于 {update_label}</text>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">{''.join(grid)}</g>
   <polygon points="{area_points}" fill="#2da44e" fill-opacity="0.12"/>

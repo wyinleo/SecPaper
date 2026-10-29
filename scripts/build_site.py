@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the dependency-free papernote site data from repository caches."""
+"""Build the dependency-free SecPaper site data from repository caches."""
 
 from __future__ import annotations
 
@@ -669,7 +669,7 @@ def build_academic_graph(
     return {
         "generated_at": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "coverage": {
-            "basis": "papernote 已收录且周报中具有可解析“单位与作者”字段的论文",
+            "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
             "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
             "indexed_papers": len(papers),
             "papers_with_affiliations": len(publications),

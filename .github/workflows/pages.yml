@@ -1,4 +1,4 @@
-name: Deploy papernote to GitHub Pages
+name: Deploy SecPaper to GitHub Pages
 
 on:
   push:

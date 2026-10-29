@@ -142,7 +142,7 @@
       ["累计访问量", data.counts.visits ?? "—"],
     ];
     elements.stats.innerHTML = stats.map(([label, value]) =>
-      `<div class="stat"><dt>${label}</dt><dd>${value}</dd></div>`
+      `<div class="stat"><dt>${label}</dt><dd${label === "累计访问量" ? ' id="visit-total" aria-live="polite"' : ""}>${value}</dd></div>`
     ).join("");
   }
 

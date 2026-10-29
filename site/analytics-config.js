@@ -1,5 +1,5 @@
-/* Generated deployment configuration may replace this disabled default. */
+/* Base64 obscures the address; it is not an authentication secret. */
 window.PAPERNOTE_ANALYTICS = Object.freeze({
-  goatcounterEndpoint: "",
+  endpointCode: "aHR0cHM6Ly95YW1heXVraS5zcGFjZS9yL2I4NGUxOWY2MjBkMzRhYzc=",
   allowedHosts: ["wyinleo.github.io"]
 });

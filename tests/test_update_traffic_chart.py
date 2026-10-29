@@ -137,3 +137,14 @@ class CumulativeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SelfHostedTests(unittest.TestCase):
+    def test_history_endpoint_does_not_send_goatcounter_credentials(self):
+        def urlopen(request, timeout):
+            self.assertEqual(request.full_url, "https://example.com/r/code/api/history")
+            self.assertIsNone(request.get_header("Authorization"))
+            return JsonResponse(b'{"stats":[{"day":"2026-10-29","daily":3}]}')
+        payload = traffic.fetch_stats("", "", dt.date(2026, 10, 29),
+            endpoint="https://example.com/r/code/api/history", urlopen=urlopen)
+        self.assertEqual(traffic.daily_series(payload, dt.date(2026, 10, 29), dt.date(2026, 10, 29))[0][1], 3)

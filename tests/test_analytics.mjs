@@ -27,7 +27,7 @@ test('one visit per page load; refresh timers only read statistics', async () =>
     const page = browser(); await settle();
     assert.equal(page.calls.length, 1);
     assert.equal(page.calls[0].options.method, 'POST');
-    assert.equal(JSON.parse(page.calls[0].options.body).path, '/SecPaper/');
+    assert.equal(JSON.parse(page.calls[0].options.body).path, '/papernote/');
     assert.equal(page.nodes['visit-total'].textContent, '12');
     assert.equal(page.nodes['visit-today'].textContent, '2');
     assert.equal(page.nodes['visit-month'].textContent, '10');

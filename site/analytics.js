@@ -68,5 +68,5 @@
         if (!sent) visit(); else refresh();
     });
     // Refresh displayed totals only; this never creates new visits.
-    if (visibleStats) setInterval(refresh, 5 * 60 * 1000);
+    if (visibleStats) setInterval(refresh, 60 * 1000);
 }());

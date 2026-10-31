@@ -262,6 +262,16 @@
     `;
   }
 
+  // Keep the original source_type in the data; group related labels only for navigation.
+  const viewpointSourceGroup = (item) => {
+    const type = item.source_type || "";
+    if (/政府|标准机构|标准与/.test(type)) return "政府与标准机构";
+    if (type !== "模型机构与威胁情报" && /模型/.test(type)) return "模型研发机构";
+    if (/产业技术团队/.test(type)) return "产业技术团队";
+    if (/安全|威胁|漏洞/.test(type)) return "安全研究与威胁情报";
+    return "其他来源";
+  };
+
   function groupsForMode() {
     if (state.mode === "week") return data.weeks;
     if (state.mode === "theme") return data.themes;
@@ -276,7 +286,8 @@
     }
     const sourceTypes = new Map();
     data.viewpoints.forEach((item) => {
-      sourceTypes.set(item.source_type, (sourceTypes.get(item.source_type) || 0) + 1);
+      const group = viewpointSourceGroup(item);
+      sourceTypes.set(group, (sourceTypes.get(group) || 0) + 1);
     });
     return [
       { id: "all", label: "全部来源", count: data.viewpoints.length },
@@ -682,7 +693,7 @@
       const query = state.query.toLocaleLowerCase("zh-CN");
       const items = data.viewpoints
         .filter((item) =>
-          (state.group === "all" || item.source_type === state.group)
+          (state.group === "all" || viewpointSourceGroup(item) === state.group)
           && (!query || searchable(item).includes(query))
         )
         .sort((a, b) =>

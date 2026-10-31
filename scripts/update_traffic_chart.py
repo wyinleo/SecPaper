@@ -184,6 +184,7 @@ def main() -> None:
     args = parser.parse_args()
 
     history = json.loads(args.history.read_text()) if args.history.exists() else {}
+    previous_history = history.copy()
     start = args.today - dt.timedelta(days=CHART_DAYS - 1)
     if history:
         start = max(dt.date.fromisoformat(min(history)), min(start, dt.date.fromisoformat(max(history))))
@@ -195,6 +196,9 @@ def main() -> None:
         payload = fetch_stats("", "", args.today, start=start, endpoint=endpoint)
 
     history.update({day.isoformat(): value for day, value in daily_series(payload, args.today, start)})
+    if history == previous_history and args.history.exists() and args.output.exists():
+        print("Traffic data unchanged; keeping existing chart.")
+        return
     series = cumulative_series(history)
     args.history.parent.mkdir(parents=True, exist_ok=True)
     args.history.write_text(json.dumps(history, indent=2) + "\n", encoding="utf-8")

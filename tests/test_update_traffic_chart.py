@@ -2,6 +2,8 @@ import datetime as dt
 import io
 import json
 import sys
+import subprocess
+import tempfile
 import unittest
 import urllib.error
 from pathlib import Path
@@ -133,6 +135,23 @@ class CumulativeTests(unittest.TestCase):
     def test_missing_stats_does_not_erase_history(self):
         with self.assertRaises(KeyError):
             traffic.daily_series({}, dt.date(2026, 9, 30))
+
+
+class ChartUpdateTests(unittest.TestCase):
+    def test_unchanged_history_keeps_chart_and_changed_history_rebuilds(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            history, fixture, output = root / "history.json", root / "fixture.json", root / "chart.svg"
+            history.write_text(json.dumps({"2026-10-31": 2}))
+            fixture.write_text(json.dumps({"stats": [{"day": "2026-10-31", "daily": 2}]}))
+            output.write_text("unchanged")
+            args = [sys.executable, str(Path(traffic.__file__)), "--history", str(history),
+                    "--fixture", str(fixture), "--output", str(output), "--today", "2026-10-31"]
+            subprocess.run(args, check=True, capture_output=True)
+            self.assertEqual(output.read_text(), "unchanged")
+            fixture.write_text(json.dumps({"stats": [{"day": "2026-10-31", "daily": 3}]}))
+            subprocess.run(args, check=True, capture_output=True)
+            self.assertIn("累计 3 次访问", output.read_text())
 
 
 if __name__ == "__main__":

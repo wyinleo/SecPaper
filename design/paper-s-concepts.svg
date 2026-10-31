@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780">
+<rect width="1500" height="780" fill="#f4f1e9"/>
+<text x="70" y="70" fill="#152e2b" font-family="Georgia,serif" font-size="38">SecPaper · paper S</text>
+<text x="72" y="103" fill="#74827b" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">THREE VECTOR DIRECTIONS · DESIGN STUDY</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#78857e" letter-spacing="2">
+<rect x="50" y="130" width="440" height="555" rx="22" fill="#fffdf8" stroke="#e0e2d9"/>
+<rect x="530" y="130" width="440" height="555" rx="22" fill="#fffdf8" stroke="#e0e2d9"/>
+<rect x="1010" y="130" width="440" height="555" rx="22" fill="#fffdf8" stroke="#e0e2d9"/>
+<text x="80" y="174">01  PAPER RIBBON</text><text x="560" y="174">02  FOLDED S</text><text x="1040" y="174">03  PAPER CUT</text></g>
+<!-- One: flowing paper ribbon -->
+<g transform="translate(150 210)">
+<rect width="240" height="240" rx="50" fill="#173f39"/>
+<path d="M177 60 C164 45 143 38 121 40 C90 42 68 57 68 78 C68 98 90 105 119 111 C153 118 173 126 173 148 C173 172 148 188 116 187 C93 187 70 178 55 163" fill="none" stroke="#f8f4e7" stroke-width="23" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M63 157 L55 163 L70 178 L80 168Z" fill="#d7cbb3"/>
+<path d="M164 48 L177 60 L162 64 L153 51Z" fill="#c5d1c6"/>
+<path d="M71 82 C77 90 85 95 98 99" fill="none" stroke="#d7cbb3" stroke-width="2" opacity=".8"/>
+<path d="M164 145 C158 135 148 130 137 127" fill="none" stroke="#d7cbb3" stroke-width="2" opacity=".8"/>
+</g>
+<!-- Two: paper folded geometric band -->
+<g transform="translate(630 210)">
+<rect width="240" height="240" rx="50" fill="#173f39"/>
+<path d="M173 51H83L59 82l30 29h72l22 26-27 52H65" fill="none" stroke="#f8f4e7" stroke-width="20" stroke-linejoin="bevel" stroke-linecap="square"/>
+<path d="M83 41h20L83 61H68Z" fill="#d8cbb1"/>
+<path d="m68 79 21 22-15 7-16-16Z" fill="#cbd6ca"/>
+<path d="m160 121 20 16-15 10-16-16Z" fill="#d8cbb1"/>
+</g>
+<!-- Three: typographic -->
+<g transform="translate(1110 210)">
+<rect width="240" height="240" rx="50" fill="#173f39"/>
+<text x="120" y="186" text-anchor="middle" fill="#f8f4e7" font-family="Georgia,serif" font-size="204" font-weight="bold">S</text>
+<path d="M156 45 178 49 178 73Z" fill="#b95f42"/>
+<path d="M58 170 80 193 59 191Z" fill="#c8d5ca"/>
+</g>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#152e2b" font-size="31"><text x="270" y="505">SecPaper</text><text x="750" y="505">SecPaper</text><text x="1230" y="505">SecPaper</text></g>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#77847d" font-size="15"><text x="270" y="537">Soft curves, subtle folds</text><text x="750" y="537">Angular folded paper</text><text x="1230" y="537">Editorial, typographic</text><text x="270" y="630">SINGLE S · VECTOR</text><text x="750" y="630">SINGLE S · VECTOR</text><text x="1230" y="630">SINGLE S · VECTOR</text></g>
+<text x="70" y="745" fill="#87918b" font-family="Arial,sans-serif" font-size="14">Concepts only · Shape and color can be adjusted · Favicon version will be simplified.</text>
+</svg>

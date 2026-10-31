@@ -56,6 +56,9 @@
                 if (url.origin === location.origin) path = url.pathname;
             } catch (error) { /* Use the current page path. */ }
         }
+        // The deployed paper counter still identifies this site's paths as /papernote/.
+        // Keep the counter namespace stable after the SecPaper site rename.
+        path = path.replace(/^\/SecPaper(?=\/|$)/, '/papernote');
         // Each real page load is checked by the server's five-minute deduplication.
         request('/api/visit', { method: 'POST', headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ path: path, visitorId: visitorId }) }).catch(refresh);
@@ -68,5 +71,5 @@
         if (!sent) visit(); else refresh();
     });
     // Refresh displayed totals only; this never creates new visits.
-    if (visibleStats) setInterval(refresh, 5 * 60 * 1000);
+    if (visibleStats) setInterval(refresh, 60 * 1000);
 }());

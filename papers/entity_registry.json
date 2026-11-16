@@ -1,5 +1,5 @@
 {
-  "version": "1.12.1",
+  "version": "1.12.2",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -228,7 +228,9 @@
     "360 AI Security Lab": {"id": "360-ai-security-lab", "country_code": "CHN", "display_name": "360 AI Security Lab", "language": "en", "source": "https://doi.org/10.1145/3744916.3773199"},
     "中国科学技术大学": {"id": "ustc", "country_code": "CHN", "display_name": "中国科学技术大学", "language": "zh", "source": "https://www.ustc.edu.cn/"},
     "FAIR at Meta": {"id": "fair-meta", "country_code": "USA", "display_name": "FAIR at Meta", "language": "en", "source": "https://ai.meta.com/research/"},
-    "Invariant Labs": {"id": "invariant-labs", "display_name": "Invariant Labs", "language": "en", "country_code": "CHE", "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-137.319.956"}
+    "Invariant Labs": {"id": "invariant-labs", "display_name": "Invariant Labs", "language": "en", "country_code": "CHE", "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-137.319.956"},
+    "电子科技大学": {"id": "uestc", "country_code": "CHN", "display_name": "电子科技大学", "language": "zh", "source": "https://www.uestc.edu.cn/"},
+    "University of California, Los Angeles": {"id": "ucla", "country_code": "USA", "display_name": "University of California, Los Angeles", "language": "en", "aliases": ["UCLA"], "source": "https://www.ucla.edu/about"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -974,7 +976,18 @@
     "Jie Zhang": {"id": "jie-zhang", "display_name": "Jie Zhang", "publication_name": "Jie Zhang", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
     "Mislav Balunovic": {"id": "mislav-balunovic", "display_name": "Mislav Balunovic", "publication_name": "Mislav Balunovic", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
     "Luca Beurer-Kellner": {"id": "luca-beurer-kellner", "display_name": "Luca Beurer-Kellner", "publication_name": "Luca Beurer-Kellner", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
-    "Marc Fischer": {"id": "marc-fischer", "display_name": "Marc Fischer", "publication_name": "Marc Fischer", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"}
+    "Marc Fischer": {"id": "marc-fischer", "display_name": "Marc Fischer", "publication_name": "Marc Fischer", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
+    "Philipp Görz": {"id": "philipp-g-rz", "display_name": "Philipp Görz", "publication_name": "Philipp Görz", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"},
+    "Joschua Schilling": {"id": "joschua-schilling", "display_name": "Joschua Schilling", "publication_name": "Joschua Schilling", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"},
+    "Keno Hassler": {"id": "keno-hassler", "display_name": "Keno Hassler", "publication_name": "Keno Hassler", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"},
+    "Liwei Guo": {"id": "liwei-guo", "display_name": "Liwei Guo", "publication_name": "Liwei Guo", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"},
+    "Yicheng Liu": {"id": "yicheng-liu", "display_name": "Yicheng Liu", "publication_name": "Yicheng Liu", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"},
+    "Alice Yeh": {"id": "alice-yeh", "display_name": "Alice Yeh", "publication_name": "Alice Yeh", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"},
+    "Harry Xu": {"id": "harry-xu", "display_name": "Harry Xu", "publication_name": "Harry Xu", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"},
+    "Sam Kumar": {"id": "sam-kumar", "display_name": "Sam Kumar", "publication_name": "Sam Kumar", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"},
+    "Alexandra Souly": {"id": "alexandra-souly", "display_name": "Alexandra Souly", "publication_name": "Alexandra Souly", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"},
+    "Derek Duenas": {"id": "derek-duenas", "display_name": "Derek Duenas", "publication_name": "Derek Duenas", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"},
+    "Justin Wang": {"id": "justin-wang", "display_name": "Justin Wang", "publication_name": "Justin Wang", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

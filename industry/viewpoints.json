@@ -1330,5 +1330,74 @@
     "evidence_basis": "2026-10-29 Unit 42 正文、攻击工具核验陈述、Cortex Xpanse 遥测和公开 XQL；交叉入口为 PHP 官方公告与 https://security.paloaltonetworks.com/CVE-2026-109618。",
     "limitations": "原始遥测与完整复现材料未全部公开；约 0.02% 安装量影响比例来自厂商自报，不能作为独立行业统计。通用狩猎命中须复核，最新公告可能包含窗口后的更新。",
     "commercial_interest": "发布方运营受影响 PAN-OS 产品，并推广 Cortex、威胁防护订阅与 Unit 42 事件响应服务。"
+  },
+  {
+    "id": "microsoft-agentic-ai-exposed-secrets-2026",
+    "title": "Microsoft：代理工具把公开凭据暴露连接到云端后续入侵",
+    "source": "Microsoft Threat Intelligence",
+    "source_type": "平台厂商威胁情报团队",
+    "content_type": "攻击链调查与防守指南",
+    "published_at": "2026-11-05",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "topics": [
+      "代理攻击",
+      "凭据泄漏",
+      "工作负载身份"
+    ],
+    "summary": "Microsoft 根据调查与遥测描述攻击者利用代理框架搜索 GitHub 秘密，再滥用应用凭据进行云端枚举、秘密读取和资源访问。",
+    "highlights": [
+      "至少一个案例从 GitHub 扫描到 Azure Key Vault 数据外传约五分钟，属于个案观测。",
+      "控制平面 API 报错后更换方法或版本再成功的序列，被作者解释为自适应排障迹象；不能单凭该序列排除人工介入。",
+      "删除仓库中的秘密后仍须撤销或轮换，并关联服务主体、Key Vault、Storage 与 Graph 日志复查。"
+    ],
+    "evidence_basis": "11 月 5 日官方博客及其官方 RSS 完整正文；Microsoft 的服务主体登录、云 API、资源访问遥测与个案响应。RSS 为 https://www.microsoft.com/en-us/security/blog/feed/ 。",
+    "limitations": "未公开完整原始日志与独立对照组，受客户覆盖限制；五分钟不是平均值，相关 IP 可被其他用户共享。代理归因和速度优势为厂商调查结论。",
+    "commercial_interest": "作者提供 Entra、Defender、Sentinel、GitHub 等身份与安全产品，正文同时推广其检测、防御和许可功能。"
+  },
+  {
+    "id": "unit42-europe-refrigeration-2026",
+    "title": "Unit 42：欧洲制冷系统攻击应区分事件报道、设备暴露与漏洞利用",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "事件综述与互联网暴露测量",
+    "published_at": "2026-11-06",
+    "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+    "topics": [
+      "工业物联网",
+      "制冷控制器",
+      "暴露测量"
+    ],
+    "summary": "文章汇总欧洲制冷控制器遭篡改事件，并用 Cortex Xpanse 分析相关设备暴露；初始入口与攻击者责任声明仍未确认。",
+    "highlights": [
+      "11 月 5—6 日识别超过 5,000 台相关厂商设备暴露于互联网，不能据此判断全部存在漏洞或已经失陷。",
+      "法国暴露统计在三个时间段从 1,853 降至 558、316，口径为该产品可见设备，不能直接归因为某一修复措施。",
+      "商店数量、医疗影响和温度变化来自公开报道；文章明确血液制品损坏无证据、Telegram 责任声明未经证实。"
+    ],
+    "evidence_basis": "官方文章全文、Xpanse 11 月 5—6 日暴露测量与图表，以及文中链接的 CERT-FR/CISA 通告和外部新闻。",
+    "limitations": "原始测量与采样方法未完全公开；暴露不等于可利用。事件影响依赖二手报道，默认凭据或软件漏洞作为初始入口尚属推测。",
+    "commercial_interest": "发布方销售 Cortex Xpanse、OT/IoT 防护、虚拟补丁与 Unit 42 服务，正文含相关推广。"
+  },
+  {
+    "id": "cisa-kev-early-november-2026",
+    "title": "CISA：11 月上旬 KEV 新增项提示不同利用前提",
+    "source": "CISA",
+    "source_type": "政府网络安全机构",
+    "content_type": "已知被利用漏洞目录更新",
+    "published_at": "2026-11-06",
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "topics": [
+      "已知被利用漏洞",
+      "补丁优先级",
+      "身份验证"
+    ],
+    "summary": "KEV 在 11 月 3、4、6 日分别新增 WordPress 升级临时路径竞争、Apple PAC 绕过与 SonicWall SMA 身份验证问题，适合结合资产与利用前提安排处理。",
+    "highlights": [
+      "对应条目为 CVE-2026-119977、CVE-2024-27834、CVE-2026-19868；日期使用目录 dateAdded。",
+      "Apple 条目明确要求已有任意读写能力，SonicWall 条目涉及替代有效凭据对 SAML/MFA 的绕过，不能统称无条件远程入侵。",
+      "目录要求依厂商指导缓解或停止使用；列入 KEV 不提供全球受害规模。"
+    ],
+    "evidence_basis": "直接读取 CISA 官方 JSON 当前快照，筛选 dateAdded 为 2026-11-03、04、06 的三个原始记录，保留 vendorProject、shortDescription、requiredAction 与公告链接。",
+    "limitations": "当前目录可能回填字段；dateAdded 无时分，11 月 9 日记录因北京时间边界不确定未纳入 W46。勒索软件使用 Unknown 不等于已排除勒索用途；具体联邦期限有适用范围。",
+    "commercial_interest": "政府目录，无直接产品销售；所链厂商通告可能包含自有产品与支持信息。"
   }
 ]

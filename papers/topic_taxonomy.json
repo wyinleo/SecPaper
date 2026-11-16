@@ -1,5 +1,5 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -367,7 +367,12 @@
     "bluetooth-low-energy": {"label": "低功耗蓝牙", "facet": "object"},
     "hardcoded-secret": {"label": "硬编码秘密", "facet": "problem"},
     "vulnerability-triage": {"label": "漏洞告警分诊", "facet": "method"},
-    "adversarial-patch": {"label": "对抗图像补丁", "facet": "problem"}
+    "adversarial-patch": {"label": "对抗图像补丁", "facet": "problem"},
+    "business-logic": {"label": "业务逻辑漏洞", "facet": "problem"},
+    "annotation-policy": {"label": "安全意图注解", "facet": "method"},
+    "secure-computation": {"label": "安全计算", "facet": "object"},
+    "memory-management": {"label": "内存管理", "facet": "method"},
+    "content-obliviousness": {"label": "内容无关访问", "facet": "method"}
   },
   "primary_domain_overrides": {
     "usenix-sec26-kim-agentic": "ai-security",
@@ -520,6 +525,9 @@
     "neurips25-evtimov-wasp": "ai-security",
     "ndss26-syros-saga": "ai-security",
     "osdi26-yin-ucsan": "software-application-security",
-    "neurips24-debenedetti-agentdojo": "ai-security"
+    "neurips24-debenedetti-agentdojo": "ai-security",
+    "ndss26-wang-anota": "software-application-security",
+    "osdi26-liu-osprey": "identity-privacy",
+    "iclr25-andriushchenko-agentharm": "ai-security"
   }
 }

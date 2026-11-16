@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T16:28:16+08:00",
+  "generated_at": "2026-11-16T16:54:05+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 151,
-    "papers_with_affiliations": 151,
-    "scored_top_venue_papers": 135
+    "indexed_papers": 154,
+    "papers_with_affiliations": 154,
+    "scored_top_venue_papers": 136
   },
   "categories": [
     {
@@ -251,6 +251,55 @@
       "verified_score": 6
     },
     {
+      "id": "cispa",
+      "name": "CISPA Helmholtz Center for Information Security",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ccs25-trampert-styled-steal",
+        "fse26-simsek-pocgen",
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota",
+        "usenix-sec26-pan-fragjam",
+        "usenix-sec26-zhang-stackwarp"
+      ],
+      "scholars": [
+        "Ali Abbasi",
+        "Aryaz Eghbali",
+        "Christian Rossow",
+        "Daniel Weber",
+        "Fabian Thomas",
+        "Jianqiang Wang",
+        "Joschua Schilling",
+        "Keno Hassler",
+        "Leon Trampert",
+        "Meng Wang",
+        "Michael Pradel",
+        "Michael Schwarz",
+        "Philipp Görz",
+        "Ruiyi Zhang",
+        "Tristan Hornetz",
+        "Yepeng Pan"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 1,
+          "ai": 0,
+          "total": 5
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 6
+    },
+    {
       "id": "carnegie-mellon-university",
       "name": "Carnegie Mellon University",
       "country_code": "USA",
@@ -259,6 +308,7 @@
       ],
       "papers": [
         "ase26-ni-triage-nodejs",
+        "iclr25-andriushchenko-agentharm",
         "ieee-sp26-liu-generate-verify",
         "ieee-sp26-wang-transient-architectural-execution",
         "neurips25-kuntz-os-harm",
@@ -300,51 +350,6 @@
           "software": 1,
           "ai": 0,
           "total": 3
-        }
-      },
-      "verified_score": 5
-    },
-    {
-      "id": "cispa",
-      "name": "CISPA Helmholtz Center for Information Security",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "CISPA Helmholtz Center for Information Security"
-      ],
-      "papers": [
-        "ccs25-trampert-styled-steal",
-        "fse26-simsek-pocgen",
-        "ieee-sp26-wang-smufuzz",
-        "usenix-sec26-pan-fragjam",
-        "usenix-sec26-zhang-stackwarp"
-      ],
-      "scholars": [
-        "Ali Abbasi",
-        "Aryaz Eghbali",
-        "Christian Rossow",
-        "Daniel Weber",
-        "Fabian Thomas",
-        "Jianqiang Wang",
-        "Leon Trampert",
-        "Meng Wang",
-        "Michael Pradel",
-        "Michael Schwarz",
-        "Ruiyi Zhang",
-        "Tristan Hornetz",
-        "Yepeng Pan"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 1,
-          "ai": 0,
-          "total": 4
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
         }
       },
       "verified_score": 5
@@ -402,10 +407,12 @@
         "ase26-ni-triage-nodejs",
         "neurips25-nie-secodeplt",
         "osdi26-cottone-acumen",
+        "osdi26-liu-osprey",
         "usenix-sec26-kim-agentic",
         "usenix-sec26-zhang-resume-injection"
       ],
       "scholars": [
+        "Alice Yeh",
         "Conor Power",
         "Darya Kaviani",
         "David Wagner",
@@ -587,6 +594,47 @@
       "verified_score": 4
     },
     {
+      "id": "epfl",
+      "name": "EPFL",
+      "country_code": "CHE",
+      "affiliation_names": [
+        "EPFL"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "ieee-sp26-wang-smufuzz",
+        "neurips25-kuntz-os-harm",
+        "usenix-sec26-chen-vulgenie"
+      ],
+      "scholars": [
+        "Agatha Duzan",
+        "Chibin Zhang",
+        "Francesco Croce",
+        "Hao Zhao",
+        "Maksym Andriushchenko",
+        "Mathias Payer",
+        "Nicolas Flammarion",
+        "Qinying Wang",
+        "Thomas Kuntz",
+        "Yi Xiang"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 3
+    },
+    {
       "id": "national-university-of-singapore",
       "name": "National University of Singapore",
       "country_code": "SGP",
@@ -694,6 +742,38 @@
       "verified_score": 3
     },
     {
+      "id": "university-oxford",
+      "name": "University of Oxford",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "University of Oxford"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-aichberger-mip-agent",
+        "neurips25-nie-secodeplt",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Adel Bibi",
+        "Alasdair Paren",
+        "Guohao Li",
+        "Lukas Aichberger",
+        "Philip Torr",
+        "Xander Davies",
+        "Yarin Gal"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
       "id": "columbia-university",
       "name": "Columbia University",
       "country_code": "USA",
@@ -723,46 +803,6 @@
           "software": 0,
           "ai": 0,
           "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "epfl",
-      "name": "EPFL",
-      "country_code": "CHE",
-      "affiliation_names": [
-        "EPFL"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "neurips25-kuntz-os-harm",
-        "usenix-sec26-chen-vulgenie"
-      ],
-      "scholars": [
-        "Agatha Duzan",
-        "Chibin Zhang",
-        "Francesco Croce",
-        "Hao Zhao",
-        "Maksym Andriushchenko",
-        "Mathias Payer",
-        "Nicolas Flammarion",
-        "Qinying Wang",
-        "Thomas Kuntz",
-        "Yi Xiang"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
         }
       },
       "verified_score": 3
@@ -903,6 +943,36 @@
       "verified_score": 3
     },
     {
+      "id": "mpi-security-privacy",
+      "name": "Max Planck Institute for Security and Privacy",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "Max Planck Institute for Security and Privacy"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota",
+        "usenix-sec26-klix-silicon-heist"
+      ],
+      "scholars": [
+        "Christof Paar",
+        "Felix Hahn",
+        "Maik Ender",
+        "Nils Albartus",
+        "Simon Klix",
+        "Thorsten Holz"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
       "id": "university-california-santa-barbara",
       "name": "University of California, Santa Barbara",
       "country_code": "USA",
@@ -964,37 +1034,6 @@
           "security": 3,
           "software": 0,
           "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "university-oxford",
-      "name": "University of Oxford",
-      "country_code": "GBR",
-      "affiliation_names": [
-        "University of Oxford"
-      ],
-      "papers": [
-        "neurips25-aichberger-mip-agent",
-        "neurips25-nie-secodeplt",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Adel Bibi",
-        "Alasdair Paren",
-        "Guohao Li",
-        "Lukas Aichberger",
-        "Philip Torr",
-        "Xander Davies",
-        "Yarin Gal"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 1,
           "total": 3
         }
       },
@@ -1216,6 +1255,36 @@
       "verified_score": 2
     },
     {
+      "id": "uk-ai-security-institute",
+      "name": "UK AI Security Institute",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "UK AI Security Institute"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-nie-secodeplt",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Alexandra Souly",
+        "Jai Patel",
+        "Nate Burnikell",
+        "Robert Kirk",
+        "Xander Davies",
+        "Yarin Gal"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "arizona-state-university",
       "name": "Arizona State University",
       "country_code": "USA",
@@ -1326,35 +1395,6 @@
       "verified_score": 2
     },
     {
-      "id": "mpi-security-privacy",
-      "name": "Max Planck Institute for Security and Privacy",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "Max Planck Institute for Security and Privacy"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "usenix-sec26-klix-silicon-heist"
-      ],
-      "scholars": [
-        "Christof Paar",
-        "Felix Hahn",
-        "Maik Ender",
-        "Nils Albartus",
-        "Simon Klix",
-        "Thorsten Holz"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "singapore-management-university",
       "name": "Singapore Management University",
       "country_code": "SGP",
@@ -1432,34 +1472,6 @@
         "2026": {
           "security": 2,
           "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "uk-ai-security-institute",
-      "name": "UK AI Security Institute",
-      "country_code": "GBR",
-      "affiliation_names": [
-        "UK AI Security Institute"
-      ],
-      "papers": [
-        "neurips25-nie-secodeplt",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Jai Patel",
-        "Nate Burnikell",
-        "Robert Kirk",
-        "Xander Davies",
-        "Yarin Gal"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
           "ai": 0,
           "total": 2
         }
@@ -1917,6 +1929,31 @@
       "verified_score": 2
     },
     {
+      "id": "center-ai-safety",
+      "name": "Center for AI Safety",
+      "country_code": "",
+      "affiliation_names": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Dan Hendrycks"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "concordia-university",
       "name": "Concordia University",
       "country_code": "CAN",
@@ -1934,6 +1971,45 @@
       ],
       "annual_scores": {
         "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "gray-swan-ai",
+      "name": "Gray Swan AI",
+      "country_code": "",
+      "affiliation_names": [
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Alexander Grattan",
+        "Andy Zou",
+        "Ayla Croft",
+        "Dan Hendrycks",
+        "Derek Duenas",
+        "Eliot Jones",
+        "J. Zico Kolter",
+        "Justin Wang",
+        "Maksym Andriushchenko",
+        "Mateusz Dziemian",
+        "Matt Fredrikson",
+        "Maxwell Lin",
+        "Micha Nowak",
+        "Nick Winter",
+        "Valent Nathanael",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2025": {
           "security": 0,
           "software": 1,
           "ai": 0,
@@ -2018,6 +2094,36 @@
       "scholars": [
         "Ardalan Amiri Sani",
         "Ke Yang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "ucla",
+      "name": "University of California, Los Angeles",
+      "country_code": "USA",
+      "affiliation_names": [
+        "UCLA",
+        "University of California, Los Angeles"
+      ],
+      "papers": [
+        "ieee-sp26-li-cosmic",
+        "osdi26-liu-osprey"
+      ],
+      "scholars": [
+        "Harry Xu",
+        "Kunlin Cai",
+        "Sam Kumar",
+        "Yicheng Liu",
+        "Ying Li",
+        "Yuan Tian"
       ],
       "annual_scores": {
         "2026": {
@@ -2419,30 +2525,6 @@
       "verified_score": 1
     },
     {
-      "id": "center-ai-safety",
-      "name": "Center for AI Safety",
-      "country_code": "",
-      "affiliation_names": [
-        "Center for AI Safety"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Dan Hendrycks"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "durham-university",
       "name": "Durham University",
       "country_code": "GBR",
@@ -2603,40 +2685,6 @@
         "2026": {
           "security": 1,
           "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "gray-swan-ai",
-      "name": "Gray Swan AI",
-      "country_code": "",
-      "affiliation_names": [
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Alexander Grattan",
-        "Andy Zou",
-        "Ayla Croft",
-        "Dan Hendrycks",
-        "Eliot Jones",
-        "J. Zico Kolter",
-        "Mateusz Dziemian",
-        "Matt Fredrikson",
-        "Maxwell Lin",
-        "Micha Nowak",
-        "Nick Winter",
-        "Valent Nathanael"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -3893,31 +3941,6 @@
         "2026": {
           "security": 0,
           "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "ucla",
-      "name": "UCLA",
-      "country_code": "USA",
-      "affiliation_names": [
-        "UCLA"
-      ],
-      "papers": [
-        "ieee-sp26-li-cosmic"
-      ],
-      "scholars": [
-        "Kunlin Cai",
-        "Ying Li",
-        "Yuan Tian"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -5351,6 +5374,29 @@
       "verified_score": 1
     },
     {
+      "id": "uestc",
+      "name": "电子科技大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "电子科技大学"
+      ],
+      "papers": [
+        "ndss26-wang-anota"
+      ],
+      "scholars": [
+        "Liwei Guo"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "jinyinhu-laboratory",
       "name": "金银湖实验室",
       "country_code": "CHN",
@@ -5829,6 +5875,55 @@
       ]
     },
     {
+      "id": "yarin-gal-oxford",
+      "name": "Yarin Gal",
+      "publication_name": "Yarin Gal",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "UK AI Security Institute",
+        "University of Oxford"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-aichberger-mip-agent",
+        "neurips25-nie-secodeplt",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-0447"
+        }
+      ]
+    },
+    {
       "id": "antonio-bianchi-purdue",
       "name": "Antonio Bianchi",
       "publication_name": "Antonio Bianchi",
@@ -6123,54 +6218,6 @@
       ]
     },
     {
-      "id": "yarin-gal-oxford",
-      "name": "Yarin Gal",
-      "publication_name": "Yarin Gal",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "UK AI Security Institute",
-        "University of Oxford"
-      ],
-      "papers": [
-        "neurips25-aichberger-mip-agent",
-        "neurips25-nie-secodeplt",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 1,
-          "total": 3
-        }
-      },
-      "verified_score": 3,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        },
-        {
-          "id": "neurips25-nie-secodeplt",
-          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-0447"
-        },
-        {
-          "id": "neurips25-aichberger-mip-agent",
-          "title": "MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025",
-          "url": "https://doi.org/10.52202/085713-0625"
-        }
-      ]
-    },
-    {
       "id": "youkun-shi-fudan",
       "name": "Youkun Shi",
       "publication_name": "Youkun Shi",
@@ -6431,6 +6478,54 @@
       ]
     },
     {
+      "id": "xander-davies-aisi-oxford",
+      "name": "Xander Davies",
+      "publication_name": "Xander Davies",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "UK AI Security Institute",
+        "University of Oxford"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-nie-secodeplt",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-0447"
+        }
+      ]
+    },
+    {
       "id": "yang-liu-ntu",
       "name": "Yang Liu",
       "publication_name": "Yang Liu",
@@ -6525,6 +6620,54 @@
       ]
     },
     {
+      "id": "j-zico-kolter-cmu",
+      "name": "Zico Kolter",
+      "publication_name": "Zico Kolter",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
       "id": "adrian-perrig",
       "name": "Adrian Perrig",
       "publication_name": "Adrian Perrig",
@@ -6599,6 +6742,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/koschel"
+        }
+      ]
+    },
+    {
+      "id": "ali-abbasi-cispa",
+      "name": "Ali Abbasi",
+      "publication_name": "Ali Abbasi",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -7587,6 +7769,45 @@
       ]
     },
     {
+      "id": "meng-wang-cispa",
+      "name": "Meng Wang",
+      "publication_name": "Meng Wang",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "mengjia-yan-mit",
       "name": "Mengjia Yan",
       "publication_name": "Mengjia Yan",
@@ -7956,6 +8177,45 @@
       ]
     },
     {
+      "id": "thorsten-holz-mpi-sp",
+      "name": "Thorsten Holz",
+      "publication_name": "Thorsten Holz",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "Max Planck Institute for Security and Privacy"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "wenxuan-wang-ruc",
       "name": "Wenxuan Wang",
       "publication_name": "Wenxuan Wang",
@@ -8030,46 +8290,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
-        }
-      ]
-    },
-    {
-      "id": "xander-davies-aisi-oxford",
-      "name": "Xander Davies",
-      "publication_name": "Xander Davies",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "UK AI Security Institute",
-        "University of Oxford"
-      ],
-      "papers": [
-        "neurips25-nie-secodeplt",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        },
-        {
-          "id": "neurips25-nie-secodeplt",
-          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-0447"
         }
       ]
     },
@@ -8386,46 +8606,6 @@
       ]
     },
     {
-      "id": "j-zico-kolter-cmu",
-      "name": "Zico Kolter",
-      "publication_name": "Zico Kolter",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-1502",
-      "institutions": [
-        "Carnegie Mellon University",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "neurips25-kuntz-os-harm",
-          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
-          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
-        },
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        }
-      ]
-    },
-    {
       "id": "zongjie-li-hkust",
       "name": "Zongjie Li",
       "publication_name": "Zongjie Li",
@@ -8506,6 +8686,87 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf"
+        }
+      ]
+    },
+    {
+      "id": "andy-zou-gray-swan",
+      "name": "Andy Zou",
+      "publication_name": "Andy Zou",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Center for AI Safety",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
+      "id": "dan-hendrycks-cais",
+      "name": "Dan Hendrycks",
+      "publication_name": "Dan Hendrycks",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Center for AI Safety",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -8624,6 +8885,164 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic"
+        }
+      ]
+    },
+    {
+      "id": "maksym-andriushchenko-epfl",
+      "name": "Maksym Andriushchenko",
+      "publication_name": "Maksym Andriushchenko",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-1502",
+      "institutions": [
+        "EPFL",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-kuntz-os-harm"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "mateusz-dziemian-gray-swan",
+      "name": "Mateusz Dziemian",
+      "publication_name": "Mateusz Dziemian",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
+      "id": "matt-fredrikson-cmu",
+      "name": "Matt Fredrikson",
+      "publication_name": "Matt Fredrikson",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
+      "id": "maxwell-lin-gray-swan",
+      "name": "Maxwell Lin",
+      "publication_name": "Maxwell Lin",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -9140,37 +9559,6 @@
       ]
     },
     {
-      "id": "ali-abbasi-cispa",
-      "name": "Ali Abbasi",
-      "publication_name": "Ali Abbasi",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "CISPA Helmholtz Center for Information Security"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "ali-hajiabadi-eth",
       "name": "Ali Hajiabadi",
       "publication_name": "Ali Hajiabadi",
@@ -9508,39 +9896,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
-        }
-      ]
-    },
-    {
-      "id": "andy-zou-gray-swan",
-      "name": "Andy Zou",
-      "publication_name": "Andy Zou",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Carnegie Mellon University",
-        "Center for AI Safety",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -10817,38 +11172,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong"
-        }
-      ]
-    },
-    {
-      "id": "dan-hendrycks-cais",
-      "name": "Dan Hendrycks",
-      "publication_name": "Dan Hendrycks",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Center for AI Safety",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -15390,6 +15713,37 @@
       ]
     },
     {
+      "id": "joschua-schilling",
+      "name": "Joschua Schilling",
+      "publication_name": "Joschua Schilling",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        }
+      ]
+    },
+    {
       "id": "jose-such-kcl-ingenio",
       "name": "Jose Such",
       "publication_name": "Jose Such",
@@ -16200,6 +16554,37 @@
       ]
     },
     {
+      "id": "keno-hassler",
+      "name": "Keno Hassler",
+      "publication_name": "Keno Hassler",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        }
+      ]
+    },
+    {
       "id": "kevin-cheang-berkeley",
       "name": "Kevin Cheang",
       "publication_name": "Kevin Cheang",
@@ -16423,7 +16808,7 @@
       "homepage": "",
       "profile_source": "https://arxiv.org/abs/2512.22789",
       "institutions": [
-        "UCLA"
+        "University of California, Los Angeles"
       ],
       "papers": [
         "ieee-sp26-li-cosmic"
@@ -16789,6 +17174,37 @@
       ]
     },
     {
+      "id": "liwei-guo",
+      "name": "Liwei Guo",
+      "publication_name": "Liwei Guo",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "institutions": [
+        "电子科技大学"
+      ],
+      "papers": [
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        }
+      ]
+    },
+    {
       "id": "liwen-wang-hkust",
       "name": "Liwen Wang",
       "publication_name": "Liwen Wang",
@@ -17039,37 +17455,6 @@
       ]
     },
     {
-      "id": "maksym-andriushchenko-epfl",
-      "name": "Maksym Andriushchenko",
-      "publication_name": "Maksym Andriushchenko",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-1502",
-      "institutions": [
-        "EPFL"
-      ],
-      "papers": [
-        "neurips25-kuntz-os-harm"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-kuntz-os-harm",
-          "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
-          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
-        }
-      ]
-    },
-    {
       "id": "man-zhou-hust",
       "name": "Man Zhou",
       "publication_name": "Man Zhou",
@@ -17258,37 +17643,6 @@
       ]
     },
     {
-      "id": "mateusz-dziemian-gray-swan",
-      "name": "Mateusz Dziemian",
-      "publication_name": "Mateusz Dziemian",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        }
-      ]
-    },
-    {
       "id": "mathew-duong",
       "name": "Mathew Duong",
       "publication_name": "Mathew Duong",
@@ -17378,38 +17732,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "matt-fredrikson-cmu",
-      "name": "Matt Fredrikson",
-      "publication_name": "Matt Fredrikson",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Carnegie Mellon University",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -17507,37 +17829,6 @@
       ]
     },
     {
-      "id": "maxwell-lin-gray-swan",
-      "name": "Maxwell Lin",
-      "publication_name": "Maxwell Lin",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        }
-      ]
-    },
-    {
       "id": "meet-udeshi-nyu",
       "name": "Meet Udeshi",
       "publication_name": "Meet Udeshi",
@@ -17565,37 +17856,6 @@
           "year": 2026,
           "venue": "AAAI 2026",
           "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
-        }
-      ]
-    },
-    {
-      "id": "meng-wang-cispa",
-      "name": "Meng Wang",
-      "publication_name": "Meng Wang",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "CISPA Helmholtz Center for Information Security"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -19336,6 +19596,37 @@
           "year": 2025,
           "venue": "NeurIPS 2025",
           "url": "https://doi.org/10.52202/085713-0625"
+        }
+      ]
+    },
+    {
+      "id": "philipp-g-rz",
+      "name": "Philipp Görz",
+      "publication_name": "Philipp Görz",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "papers": [
+        "ndss26-wang-anota"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
         }
       ]
     },
@@ -22292,37 +22583,6 @@
       ]
     },
     {
-      "id": "thorsten-holz-mpi-sp",
-      "name": "Thorsten Holz",
-      "publication_name": "Thorsten Holz",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "Max Planck Institute for Security and Privacy"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "thorsten-strufe-kit",
       "name": "Thorsten Strufe",
       "publication_name": "Thorsten Strufe",
@@ -24846,7 +25106,7 @@
       "homepage": "",
       "profile_source": "https://arxiv.org/abs/2512.22789",
       "institutions": [
-        "UCLA"
+        "University of California, Los Angeles"
       ],
       "papers": [
         "ieee-sp26-li-cosmic"
@@ -25280,7 +25540,7 @@
       "homepage": "",
       "profile_source": "https://arxiv.org/abs/2512.22789",
       "institutions": [
-        "UCLA"
+        "University of California, Los Angeles"
       ],
       "papers": [
         "ieee-sp26-li-cosmic"
@@ -27138,6 +27398,86 @@
       ]
     },
     {
+      "id": "raluca-ada-popa-berkeley",
+      "name": "Raluca Ada Popa",
+      "publication_name": "Raluca Ada Popa",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-cottone-acumen",
+        "osdi26-liu-osprey"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        },
+        {
+          "id": "osdi26-cottone-acumen",
+          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "alexandra-souly",
+      "name": "Alexandra Souly",
+      "publication_name": "Alexandra Souly",
+      "homepage": "",
+      "profile_source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "institutions": [
+        "UK AI Security Institute"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
+      "id": "alice-yeh",
+      "name": "Alice Yeh",
+      "publication_name": "Alice Yeh",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "osdi26-liu-osprey"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        }
+      ]
+    },
+    {
       "id": "ankur-singh-concordia",
       "name": "Ankur Singh",
       "publication_name": "Ankur Singh",
@@ -27398,6 +27738,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "derek-duenas",
+      "name": "Derek Duenas",
+      "publication_name": "Derek Duenas",
+      "homepage": "",
+      "profile_source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "institutions": [
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
         }
       ]
     },
@@ -27668,6 +28032,30 @@
       ]
     },
     {
+      "id": "harry-xu",
+      "name": "Harry Xu",
+      "publication_name": "Harry Xu",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "institutions": [
+        "University of California, Los Angeles"
+      ],
+      "papers": [
+        "osdi26-liu-osprey"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        }
+      ]
+    },
+    {
       "id": "hemant-gouni-cmu",
       "name": "Hemant Gouni",
       "publication_name": "Hemant Gouni",
@@ -27832,6 +28220,30 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "justin-wang",
+      "name": "Justin Wang",
+      "publication_name": "Justin Wang",
+      "homepage": "",
+      "profile_source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "institutions": [
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
         }
       ]
     },
@@ -28221,30 +28633,6 @@
       ]
     },
     {
-      "id": "raluca-ada-popa-berkeley",
-      "name": "Raluca Ada Popa",
-      "publication_name": "Raluca Ada Popa",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/cottone",
-      "institutions": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "osdi26-cottone-acumen"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "osdi26-cottone-acumen",
-          "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
-          "year": 2026,
-          "venue": "USENIX OSDI 2026",
-          "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
-        }
-      ]
-    },
-    {
       "id": "roberto-di-pietro-kaust",
       "name": "Roberto Di Pietro",
       "publication_name": "Roberto Di Pietro",
@@ -28313,6 +28701,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.14611"
+        }
+      ]
+    },
+    {
+      "id": "sam-kumar",
+      "name": "Sam Kumar",
+      "publication_name": "Sam Kumar",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "institutions": [
+        "University of California, Los Angeles"
+      ],
+      "papers": [
+        "osdi26-liu-osprey"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
         }
       ]
     },
@@ -28654,6 +29066,30 @@
       ]
     },
     {
+      "id": "yicheng-liu",
+      "name": "Yicheng Liu",
+      "publication_name": "Yicheng Liu",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "institutions": [
+        "University of California, Los Angeles"
+      ],
+      "papers": [
+        "osdi26-liu-osprey"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        }
+      ]
+    },
+    {
       "id": "yimeng-chen-kaust",
       "name": "Yimeng Chen",
       "publication_name": "Yimeng Chen",
@@ -28967,6 +29403,181 @@
       "weight": 3
     },
     {
+      "source": "uk-ai-security-institute",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 3
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "center-ai-safety",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "epfl",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "gray-swan-ai",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "uk-ai-security-institute",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "gray-swan-ai",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "uk-ai-security-institute",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "cispa",
+      "target": "mpi-security-privacy",
+      "papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "year": 2026,
+          "venue_group": "security"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "eth-zurich",
       "target": "hkust-guangzhou",
       "papers": [
@@ -28979,6 +29590,40 @@
           "id": "usenix-sec26-xu-dalens",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "gray-swan-ai",
+      "target": "uk-ai-security-institute",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "gray-swan-ai",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
         }
       ],
       "weight": 2
@@ -29234,23 +29879,6 @@
           "id": "usenix-sec26-kim-agentic",
           "year": 2026,
           "venue_group": "security"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "uk-ai-security-institute",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        },
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
         }
       ],
       "weight": 2
@@ -29670,42 +30298,6 @@
     },
     {
       "source": "carnegie-mellon-university",
-      "target": "center-ai-safety",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "epfl",
-      "papers": [
-        {
-          "id": "neurips25-kuntz-os-harm",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "gray-swan-ai",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "carnegie-mellon-university",
       "target": "ruhr-university-bochum",
       "papers": [
         {
@@ -29735,30 +30327,6 @@
         {
           "id": "ase26-ni-triage-nodejs",
           "year": 2026,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "uk-ai-security-institute",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
           "venue_group": "software"
         }
       ],
@@ -29838,36 +30406,12 @@
     },
     {
       "source": "center-ai-safety",
-      "target": "gray-swan-ai",
+      "target": "epfl",
       "papers": [
         {
-          "id": "neurips25-zou-agent-red-team-competition",
+          "id": "iclr25-andriushchenko-agentharm",
           "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "center-ai-safety",
-      "target": "uk-ai-security-institute",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "center-ai-safety",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -29886,10 +30430,10 @@
     },
     {
       "source": "cispa",
-      "target": "mpi-security-privacy",
+      "target": "uestc",
       "papers": [
         {
-          "id": "ieee-sp26-wang-smufuzz",
+          "id": "ndss26-wang-anota",
           "year": 2026,
           "venue_group": "security"
         }
@@ -30186,12 +30730,48 @@
     },
     {
       "source": "epfl",
+      "target": "gray-swan-ai",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "epfl",
       "target": "mpi-security-privacy",
       "papers": [
         {
           "id": "ieee-sp26-wang-smufuzz",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "epfl",
+      "target": "uk-ai-security-institute",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "epfl",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -30444,30 +31024,6 @@
           "id": "pldi26-nguyen-analyzing-bytes",
           "year": 2026,
           "venue_group": null
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "gray-swan-ai",
-      "target": "uk-ai-security-institute",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "gray-swan-ai",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -31494,6 +32050,18 @@
     },
     {
       "source": "mpi-security-privacy",
+      "target": "uestc",
+      "papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mpi-security-privacy",
       "target": "university-of-massachusetts",
       "papers": [
         {
@@ -32358,6 +32926,18 @@
     },
     {
       "source": "uc-berkeley",
+      "target": "ucla",
+      "papers": [
+        {
+          "id": "osdi26-liu-osprey",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-berkeley",
       "target": "uiuc",
       "papers": [
         {
@@ -32796,6 +33376,83 @@
         "jacob-ginesin",
         "cristina-nita-rotaru",
         "alina-oprea"
+      ]
+    },
+    {
+      "id": "osdi26-liu-osprey",
+      "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+      "year": 2026,
+      "venue": "USENIX OSDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "institutions": [
+        "ucla",
+        "uc-berkeley"
+      ],
+      "authors": [
+        "yicheng-liu",
+        "alice-yeh",
+        "harry-xu",
+        "raluca-ada-popa-berkeley",
+        "sam-kumar"
+      ]
+    },
+    {
+      "id": "ndss26-wang-anota",
+      "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+      "year": 2026,
+      "venue": "NDSS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "institutions": [
+        "cispa",
+        "uestc",
+        "mpi-security-privacy"
+      ],
+      "authors": [
+        "meng-wang-cispa",
+        "philipp-g-rz",
+        "joschua-schilling",
+        "keno-hassler",
+        "liwei-guo",
+        "thorsten-holz-mpi-sp",
+        "ali-abbasi-cispa"
+      ]
+    },
+    {
+      "id": "iclr25-andriushchenko-agentharm",
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "year": 2025,
+      "venue": "ICLR 2025",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "institutions": [
+        "gray-swan-ai",
+        "uk-ai-security-institute",
+        "epfl",
+        "center-ai-safety",
+        "carnegie-mellon-university",
+        "university-oxford"
+      ],
+      "authors": [
+        "maksym-andriushchenko-epfl",
+        "alexandra-souly",
+        "mateusz-dziemian-gray-swan",
+        "derek-duenas",
+        "maxwell-lin-gray-swan",
+        "justin-wang",
+        "dan-hendrycks-cais",
+        "andy-zou-gray-swan",
+        "j-zico-kolter-cmu",
+        "matt-fredrikson-cmu",
+        "yarin-gal-oxford",
+        "xander-davies-aisi-oxford"
       ]
     },
     {

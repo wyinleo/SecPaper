@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T20:46:24+08:00",
+  "generated_at": "2026-11-16T21:09:57+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 171,
-    "papers_with_affiliations": 171,
-    "scored_top_venue_papers": 149
+    "indexed_papers": 178,
+    "papers_with_affiliations": 178,
+    "scored_top_venue_papers": 154
   },
   "categories": [
     {
@@ -25,15 +25,110 @@
     "2026",
     "2025",
     "2024",
+    "2023",
     "2020",
     "2019",
     "2018",
+    "2017",
     "2016",
     "2014",
     "2013",
-    "2011"
+    "2011",
+    "2010",
+    "1999"
   ],
   "institutions": [
+    {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "arxiv-2607-18575-receipt",
+        "ase26-ni-triage-nodejs",
+        "ccs11-felt-permissions",
+        "ccs13-stefanov-path-oram",
+        "icml24-bailey-image-hijacks",
+        "icml24-mazeika-harmbench",
+        "neurips23-wei-jailbroken",
+        "neurips25-nie-secodeplt",
+        "osdi26-cottone-acumen",
+        "osdi26-liu-osprey",
+        "usenix-sec26-kim-agentic",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "scholars": [
+        "Adrienne Porter Felt",
+        "Alexander Wei",
+        "Alice Yeh",
+        "Conor Power",
+        "Darya Kaviani",
+        "David Wagner",
+        "Dawn Song",
+        "Emil Stefanov",
+        "Erika Chin",
+        "Evelyn Koo",
+        "Hao Wang",
+        "Jacob Steinhardt",
+        "Juhee Kim",
+        "Karen Shieh",
+        "Kevin Cheang",
+        "Koushik Sen",
+        "Muxi Lyu",
+        "Natacha Crooks",
+        "Nathaniel Li",
+        "Nika Haghtalab",
+        "Norman Mu",
+        "Raluca Ada Popa",
+        "Scott Emmons",
+        "Steve Hanna",
+        "Stuart Russell",
+        "Will Giorza",
+        "Yiwei Hou",
+        "Zhun Wang"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2023": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 2,
+          "total": 2
+        },
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 9
+    },
     {
       "id": "tsinghua-university",
       "name": "清华大学",
@@ -107,6 +202,73 @@
       "verified_score": 9
     },
     {
+      "id": "ruhr-university-bochum",
+      "name": "Ruhr University Bochum",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "ndss23-gross-fuzzilli",
+        "sp20-aschermann-ijon",
+        "usenix-sec24-baumer-terrapin",
+        "usenix-sec26-bach-webrtc",
+        "usenix-sec26-jannett-passkeys",
+        "usenix-sec26-merget-opossum"
+      ],
+      "scholars": [
+        "Ali Abbasi",
+        "Cornelius Aschermann",
+        "Fabian Bäumer",
+        "Jörg Schwenk",
+        "Louis Jannett",
+        "Lukas Bernhard",
+        "Lukas Knittel",
+        "Marcel Maehren",
+        "Marcus Brinkmann",
+        "Nurullah Erinola",
+        "Sergej Schumilo",
+        "Thorsten Holz",
+        "Vladislav Mladenov",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 8
+    },
+    {
       "id": "fudan-university",
       "name": "复旦大学",
       "country_code": "CHN",
@@ -174,84 +336,6 @@
         }
       },
       "verified_score": 8
-    },
-    {
-      "id": "uc-berkeley",
-      "name": "University of California, Berkeley",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "arxiv-2607-18575-receipt",
-        "ase26-ni-triage-nodejs",
-        "ccs11-felt-permissions",
-        "ccs13-stefanov-path-oram",
-        "icml24-mazeika-harmbench",
-        "neurips25-nie-secodeplt",
-        "osdi26-cottone-acumen",
-        "osdi26-liu-osprey",
-        "usenix-sec26-kim-agentic",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "scholars": [
-        "Adrienne Porter Felt",
-        "Alice Yeh",
-        "Conor Power",
-        "Darya Kaviani",
-        "David Wagner",
-        "Dawn Song",
-        "Emil Stefanov",
-        "Erika Chin",
-        "Evelyn Koo",
-        "Hao Wang",
-        "Juhee Kim",
-        "Karen Shieh",
-        "Kevin Cheang",
-        "Koushik Sen",
-        "Muxi Lyu",
-        "Natacha Crooks",
-        "Nathaniel Li",
-        "Norman Mu",
-        "Raluca Ada Popa",
-        "Steve Hanna",
-        "Will Giorza",
-        "Yiwei Hou",
-        "Zhun Wang"
-      ],
-      "annual_scores": {
-        "2013": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2011": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 7
     },
     {
       "id": "carnegie-mellon-university",
@@ -432,65 +516,6 @@
       "verified_score": 7
     },
     {
-      "id": "ruhr-university-bochum",
-      "name": "Ruhr University Bochum",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ccs25-baumer-ssh-strict-kex",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "sp20-aschermann-ijon",
-        "usenix-sec24-baumer-terrapin",
-        "usenix-sec26-bach-webrtc",
-        "usenix-sec26-jannett-passkeys",
-        "usenix-sec26-merget-opossum"
-      ],
-      "scholars": [
-        "Ali Abbasi",
-        "Cornelius Aschermann",
-        "Fabian Bäumer",
-        "Jörg Schwenk",
-        "Louis Jannett",
-        "Lukas Knittel",
-        "Marcel Maehren",
-        "Marcus Brinkmann",
-        "Nurullah Erinola",
-        "Sergej Schumilo",
-        "Thorsten Holz",
-        "Vladislav Mladenov",
-        "Yuval Yarom"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2020": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 4,
-          "software": 0,
-          "ai": 0,
-          "total": 4
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 7
-    },
-    {
       "id": "cispa",
       "name": "CISPA Helmholtz Center for Information Security",
       "country_code": "DEU",
@@ -501,6 +526,7 @@
         "ccs25-trampert-styled-steal",
         "fse26-simsek-pocgen",
         "ieee-sp26-wang-smufuzz",
+        "ndss23-gross-fuzzilli",
         "ndss26-wang-anota",
         "usenix-sec26-pan-fragjam",
         "usenix-sec26-zhang-stackwarp"
@@ -520,10 +546,17 @@
         "Michael Schwarz",
         "Philipp Görz",
         "Ruiyi Zhang",
+        "Thorsten Holz",
         "Tristan Hornetz",
         "Yepeng Pan"
       ],
       "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
         "2026": {
           "security": 4,
           "software": 1,
@@ -537,7 +570,127 @@
           "total": 1
         }
       },
-      "verified_score": 6
+      "verified_score": 7
+    },
+    {
+      "id": "duke-university",
+      "name": "Duke University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Duke University"
+      ],
+      "papers": [
+        "icml26-cheng-privact",
+        "ieee-sp26-liang-graphrag",
+        "ndss26-wang-obliinjection",
+        "osdi10-enck-taintdroid",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "scholars": [
+        "Hai Helen Li",
+        "Hancheng Ye",
+        "Landon P. Cox",
+        "Neil Gong",
+        "Neil Zhenqiang Gong",
+        "Peter Gilbert",
+        "Reachal Wang",
+        "Yiran Chen",
+        "Yuhan Cheng",
+        "Yuqi Jia"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 1,
+          "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "country_code": "USA",
+      "affiliation_names": [
+        "MIT Computer Science and Artificial Intelligence Laboratory",
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram",
+        "icml26-ye-role-confusion",
+        "ieee-sp26-trujillo-register-hiding",
+        "popl99-myers-jflow",
+        "usenix-sec26-trujillo-tontou"
+      ],
+      "scholars": [
+        "Andrew C. Myers",
+        "Christopher Fletcher",
+        "Daniël Trujillo",
+        "Dylan Hadfield-Menell",
+        "Ling Ren",
+        "Mengjia Yan",
+        "Srinivas Devadas",
+        "Xiangyao Yu"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "national-university-of-singapore",
+      "name": "National University of Singapore",
+      "country_code": "SGP",
+      "affiliation_names": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ccs17-boehme-aflgo",
+        "ieee-sp26-luo-agentic-concolic",
+        "ieee-sp26-zhang-appare",
+        "ndss26-xiao-modelspy",
+        "oopsla26-cao-sevdf"
+      ],
+      "scholars": [
+        "Abhik Roychoudhury",
+        "Chuqi Zhang",
+        "Dylan Wolff",
+        "Huan Zhao",
+        "Manh-Dung Nguyen",
+        "Marcel Böhme",
+        "Soundarya Ramesh",
+        "Van-Thuan Pham",
+        "Yeqi Fu",
+        "Zhengxiong Luo",
+        "Zhenkai Liang"
+      ],
+      "annual_scores": {
+        "2017": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 4
     },
     {
       "id": "northeastern-university",
@@ -627,73 +780,43 @@
       "verified_score": 4
     },
     {
-      "id": "duke-university",
-      "name": "Duke University",
-      "country_code": "USA",
+      "id": "independent-researcher",
+      "name": "Independent Researcher",
+      "country_code": "",
       "affiliation_names": [
-        "Duke University"
+        "Independent Researcher"
       ],
       "papers": [
-        "icml26-cheng-privact",
-        "ieee-sp26-liang-graphrag",
-        "ndss26-wang-obliinjection",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "scholars": [
-        "Hai Helen Li",
-        "Hancheng Ye",
-        "Neil Gong",
-        "Neil Zhenqiang Gong",
-        "Reachal Wang",
-        "Yiran Chen",
-        "Yuhan Cheng",
-        "Yuqi Jia"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 1,
-          "total": 4
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "mit",
-      "name": "Massachusetts Institute of Technology",
-      "country_code": "USA",
-      "affiliation_names": [
-        "MIT Computer Science and Artificial Intelligence Laboratory",
-        "Massachusetts Institute of Technology"
-      ],
-      "papers": [
-        "ccs13-stefanov-path-oram",
         "icml26-ye-role-confusion",
-        "ieee-sp26-trujillo-register-hiding",
-        "usenix-sec26-trujillo-tontou"
+        "ieee-sp26-zhang-ragorigin",
+        "neurips25-evtimov-wasp",
+        "sp19-kocher-spectre"
       ],
       "scholars": [
-        "Christopher Fletcher",
-        "Daniël Trujillo",
-        "Dylan Hadfield-Menell",
-        "Ling Ren",
-        "Mengjia Yan",
-        "Srinivas Devadas",
-        "Xiangyao Yu"
+        "Aaron Grattafiori",
+        "Charles Ye",
+        "Jasmine Cui",
+        "Paul Kocher",
+        "Yuxi Chen"
       ],
       "annual_scores": {
-        "2013": {
+        "2019": {
           "security": 1,
           "software": 0,
           "ai": 0,
           "total": 1
         },
         "2026": {
-          "security": 2,
+          "security": 1,
           "software": 0,
           "ai": 1,
-          "total": 3
+          "total": 2
+        },
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
         }
       },
       "verified_score": 4
@@ -892,39 +1015,6 @@
       "verified_score": 3
     },
     {
-      "id": "national-university-of-singapore",
-      "name": "National University of Singapore",
-      "country_code": "SGP",
-      "affiliation_names": [
-        "National University of Singapore"
-      ],
-      "papers": [
-        "ieee-sp26-luo-agentic-concolic",
-        "ieee-sp26-zhang-appare",
-        "ndss26-xiao-modelspy",
-        "oopsla26-cao-sevdf"
-      ],
-      "scholars": [
-        "Abhik Roychoudhury",
-        "Chuqi Zhang",
-        "Dylan Wolff",
-        "Huan Zhao",
-        "Soundarya Ramesh",
-        "Yeqi Fu",
-        "Zhengxiong Luo",
-        "Zhenkai Liang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
       "id": "seoul-national-university",
       "name": "Seoul National University",
       "country_code": "KOR",
@@ -985,6 +1075,40 @@
           "software": 2,
           "ai": 1,
           "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "csiro",
+      "name": "CSIRO",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "CSIRO",
+        "Data61 CSIRO"
+      ],
+      "papers": [
+        "sp19-kocher-spectre",
+        "usenix-sec26-duong-firmrebugger",
+        "usenix-sec26-nguyen-menta"
+      ],
+      "scholars": [
+        "Alsharif Abuadbba",
+        "Surya Nepal",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
         }
       },
       "verified_score": 3
@@ -1057,40 +1181,6 @@
           "software": 0,
           "ai": 0,
           "total": 2
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "independent-researcher",
-      "name": "Independent Researcher",
-      "country_code": "",
-      "affiliation_names": [
-        "Independent Researcher"
-      ],
-      "papers": [
-        "icml26-ye-role-confusion",
-        "ieee-sp26-zhang-ragorigin",
-        "neurips25-evtimov-wasp"
-      ],
-      "scholars": [
-        "Aaron Grattafiori",
-        "Charles Ye",
-        "Jasmine Cui",
-        "Yuxi Chen"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 1,
-          "total": 2
-        },
-        "2025": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
         }
       },
       "verified_score": 3
@@ -1398,6 +1488,41 @@
       "verified_score": 3
     },
     {
+      "id": "pennsylvania-state-university",
+      "name": "Pennsylvania State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding",
+        "issta16-li-droidra",
+        "osdi10-enck-taintdroid",
+        "pldi14-arzt-flowdroid"
+      ],
+      "scholars": [
+        "Damien Octeau",
+        "Jinyuan Jia",
+        "Patrick McDaniel",
+        "William Enck"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2016": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "center-ai-safety",
       "name": "Center for AI Safety",
       "country_code": "",
@@ -1456,39 +1581,6 @@
           "software": 1,
           "ai": 0,
           "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "pennsylvania-state-university",
-      "name": "Pennsylvania State University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Pennsylvania State University"
-      ],
-      "papers": [
-        "acl24-xu-safedecoding",
-        "issta16-li-droidra",
-        "pldi14-arzt-flowdroid"
-      ],
-      "scholars": [
-        "Damien Octeau",
-        "Jinyuan Jia",
-        "Patrick McDaniel"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2016": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
         }
       },
       "verified_score": 2
@@ -1647,32 +1739,6 @@
         "Spencer Faith",
         "Theodorus Februanto",
         "Zhen Tan"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "csiro",
-      "name": "CSIRO",
-      "country_code": "AUS",
-      "affiliation_names": [
-        "CSIRO",
-        "Data61 CSIRO"
-      ],
-      "papers": [
-        "usenix-sec26-duong-firmrebugger",
-        "usenix-sec26-nguyen-menta"
-      ],
-      "scholars": [
-        "Alsharif Abuadbba",
-        "Surya Nepal"
       ],
       "annual_scores": {
         "2026": {
@@ -1931,6 +1997,40 @@
       "verified_score": 2
     },
     {
+      "id": "university-of-adelaide",
+      "name": "University of Adelaide",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "University of Adelaide"
+      ],
+      "papers": [
+        "sp19-kocher-spectre",
+        "usenix-sec26-duong-firmrebugger"
+      ],
+      "scholars": [
+        "Damith C. Ranasinghe",
+        "Guy Farrelly",
+        "Mathew Duong",
+        "Michael Chesser",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "university-bayreuth",
       "name": "University of Bayreuth",
       "country_code": "DEU",
@@ -1986,6 +2086,37 @@
       "verified_score": 2
     },
     {
+      "id": "university-of-maryland",
+      "name": "University of Maryland",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Maryland"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram",
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Daniel Genkin",
+        "Elaine Shi"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "umass-amherst",
       "name": "University of Massachusetts Amherst",
       "country_code": "USA",
@@ -2036,6 +2167,37 @@
           "software": 0,
           "ai": 0,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-pennsylvania",
+      "name": "University of Pennsylvania",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Pennsylvania"
+      ],
+      "papers": [
+        "ieee-sp26-li-nanotag",
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Daniel Genkin",
+        "Joseph Devietti"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -2410,6 +2572,36 @@
         }
       },
       "verified_score": 2
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "country_code": "",
+      "affiliation_names": [
+        "Google"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli",
+        "pldi26-nguyen-analyzing-bytes",
+        "satml26-debenedetti-camel"
+      ],
+      "scholars": [
+        "Christoph Kern",
+        "Daniel Fabian",
+        "Edoardo Debenedetti",
+        "Huan Nguyen",
+        "Samuel Groß",
+        "Tianqi Fan"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
     },
     {
       "id": "concordia-university",
@@ -3032,6 +3224,30 @@
       "verified_score": 1
     },
     {
+      "id": "cyberus-technology",
+      "name": "Cyberus Technology",
+      "country_code": "",
+      "affiliation_names": [
+        "Cyberus Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Thomas Prescher",
+        "Werner Haas"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "durham-university",
       "name": "Durham University",
       "country_code": "GBR",
@@ -3128,6 +3344,29 @@
       "verified_score": 1
     },
     {
+      "id": "g-data-advanced-analytics",
+      "name": "G DATA Advanced Analytics",
+      "country_code": "",
+      "affiliation_names": [
+        "G DATA Advanced Analytics"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Anders Fogh"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "george-mason-university",
       "name": "George Mason University",
       "country_code": "USA",
@@ -3175,6 +3414,55 @@
       "verified_score": 1
     },
     {
+      "id": "google-project-zero",
+      "name": "Google Project Zero",
+      "country_code": "",
+      "affiliation_names": [
+        "Google Project Zero"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Jann Horn"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "graz-university-of-technology",
+      "name": "Graz University of Technology",
+      "country_code": "AUT",
+      "affiliation_names": [
+        "Graz University of Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Daniel Gruss",
+        "Michael Schwarz",
+        "Moritz Lipp",
+        "Stefan Mangard"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "griffith-university",
       "name": "Griffith University",
       "country_code": "AUS",
@@ -3195,6 +3483,29 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "harvard-university",
+      "name": "Harvard University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Harvard University"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "scholars": [
+        "Luke Bailey"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -4120,6 +4431,29 @@
       "verified_score": 1
     },
     {
+      "id": "rambus-cryptography-research-division",
+      "name": "Rambus, Cryptography Research Division",
+      "country_code": "",
+      "affiliation_names": [
+        "Rambus, Cryptography Research Division"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Mike Hamburg"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "sba-research",
       "name": "SBA Research",
       "country_code": "AUT",
@@ -4234,6 +4568,30 @@
       ],
       "annual_scores": {
         "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "tu-braunschweig",
+      "name": "TU Braunschweig",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "TU Braunschweig"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli"
+      ],
+      "scholars": [
+        "Martin Johns",
+        "Simon Koch"
+      ],
+      "annual_scores": {
+        "2023": {
           "security": 1,
           "software": 0,
           "ai": 0,
@@ -4385,32 +4743,6 @@
       "verified_score": 1
     },
     {
-      "id": "university-of-adelaide",
-      "name": "University of Adelaide",
-      "country_code": "AUS",
-      "affiliation_names": [
-        "University of Adelaide"
-      ],
-      "papers": [
-        "usenix-sec26-duong-firmrebugger"
-      ],
-      "scholars": [
-        "Damith C. Ranasinghe",
-        "Guy Farrelly",
-        "Mathew Duong",
-        "Michael Chesser"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-of-alberta",
       "name": "University of Alberta",
       "country_code": "CAN",
@@ -4478,6 +4810,29 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-cambridge",
+      "name": "University of Cambridge",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "University of Cambridge"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "scholars": [
+        "Euan Ong"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -4675,29 +5030,6 @@
       "verified_score": 1
     },
     {
-      "id": "university-of-maryland",
-      "name": "University of Maryland",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Maryland"
-      ],
-      "papers": [
-        "ccs13-stefanov-path-oram"
-      ],
-      "scholars": [
-        "Elaine Shi"
-      ],
-      "annual_scores": {
-        "2013": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-of-massachusetts",
       "name": "University of Massachusetts",
       "country_code": "USA",
@@ -4756,29 +5088,6 @@
       "scholars": [
         "Mohan Zhang",
         "Tianlong Chen"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "university-pennsylvania",
-      "name": "University of Pennsylvania",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Pennsylvania"
-      ],
-      "papers": [
-        "ieee-sp26-li-nanotag"
-      ],
-      "scholars": [
-        "Joseph Devietti"
       ],
       "annual_scores": {
         "2026": {
@@ -5856,27 +6165,6 @@
       "verified_score": 1
     },
     {
-      "id": "google",
-      "name": "Google",
-      "country_code": "",
-      "affiliation_names": [
-        "Google"
-      ],
-      "papers": [
-        "pldi26-nguyen-analyzing-bytes",
-        "satml26-debenedetti-camel"
-      ],
-      "scholars": [
-        "Christoph Kern",
-        "Daniel Fabian",
-        "Edoardo Debenedetti",
-        "Huan Nguyen",
-        "Tianqi Fan"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
       "id": "university-california-riverside",
       "name": "University of California, Riverside",
       "country_code": "USA",
@@ -5935,6 +6223,24 @@
         "Ilia Shumailov",
         "Jamie Hayes",
         "Nicholas Carlini"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "intel-labs",
+      "name": "Intel Labs",
+      "country_code": "",
+      "affiliation_names": [
+        "Intel Labs"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid"
+      ],
+      "scholars": [
+        "Anmol N. Sheth",
+        "Byung-Gon Chun",
+        "Jaeyeon Jung"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6368,6 +6674,68 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
+        }
+      ]
+    },
+    {
+      "id": "thorsten-holz-mpi-sp",
+      "name": "Thorsten Holz",
+      "publication_name": "Thorsten Holz",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security",
+        "Max Planck Institute for Security and Privacy",
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss23-gross-fuzzilli",
+        "ndss26-wang-anota",
+        "sp20-aschermann-ijon"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 4,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+          "year": 2023,
+          "venue": "NDSS 2023",
+          "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"
+        },
+        {
+          "id": "sp20-aschermann-ijon",
+          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+          "year": 2020,
+          "venue": "IEEE S&P 2020",
+          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
         }
       ]
     },
@@ -6839,6 +7207,66 @@
       ]
     },
     {
+      "id": "michael-schwarz-cispa",
+      "name": "Michael Schwarz",
+      "publication_name": "Michael Schwarz",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security",
+        "Graz University of Technology"
+      ],
+      "papers": [
+        "ccs25-trampert-styled-steal",
+        "sp19-kocher-spectre",
+        "usenix-sec26-zhang-stackwarp"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        },
+        {
+          "id": "usenix-sec26-zhang-stackwarp",
+          "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU’s Stack Engine",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi"
+        },
+        {
+          "id": "ccs25-trampert-styled-steal",
+          "title": "Styled to Steal: The Overlooked Attack Surface in Email Clients",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765189"
+        }
+      ]
+    },
+    {
       "id": "minghong-fang-louisville",
       "name": "Minghong Fang",
       "publication_name": "Minghong Fang",
@@ -6882,60 +7310,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun"
-        }
-      ]
-    },
-    {
-      "id": "thorsten-holz-mpi-sp",
-      "name": "Thorsten Holz",
-      "publication_name": "Thorsten Holz",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "Max Planck Institute for Security and Privacy",
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "ndss26-wang-anota",
-        "sp20-aschermann-ijon"
-      ],
-      "annual_scores": {
-        "2020": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 3,
-      "recent_papers": [
-        {
-          "id": "ndss26-wang-anota",
-          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
-          "year": 2026,
-          "venue": "NDSS 2026",
-          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
-        },
-        {
-          "id": "sp20-aschermann-ijon",
-          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
-          "year": 2020,
-          "venue": "IEEE S&P 2020",
-          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
-        },
-        {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -7554,6 +7928,51 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks",
           "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
+      "id": "abhik-roychoudhury-nus",
+      "name": "Abhik Roychoudhury",
+      "publication_name": "Abhik Roychoudhury",
+      "homepage": "https://abhikrc.com/",
+      "profile_source": "https://abhikrc.com/",
+      "institutions": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ccs17-boehme-aflgo",
+        "ieee-sp26-luo-agentic-concolic"
+      ],
+      "annual_scores": {
+        "2017": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ccs17-boehme-aflgo",
+          "title": "Directed Greybox Fuzzing",
+          "year": 2017,
+          "venue": "ACM CCS 2017",
+          "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"
+        },
+        {
+          "id": "ieee-sp26-luo-agentic-concolic",
+          "title": "Agentic Concolic Execution",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -8837,51 +9256,6 @@
       ]
     },
     {
-      "id": "michael-schwarz-cispa",
-      "name": "Michael Schwarz",
-      "publication_name": "Michael Schwarz",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
-      "institutions": [
-        "CISPA Helmholtz Center for Information Security"
-      ],
-      "papers": [
-        "ccs25-trampert-styled-steal",
-        "usenix-sec26-zhang-stackwarp"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-zhang-stackwarp",
-          "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU’s Stack Engine",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi"
-        },
-        {
-          "id": "ccs25-trampert-styled-steal",
-          "title": "Styled to Steal: The Overlooked Attack Surface in Email Clients",
-          "year": 2025,
-          "venue": "ACM CCS 2025",
-          "url": "https://doi.org/10.1145/3719027.3765189"
-        }
-      ]
-    },
-    {
       "id": "ming-kang-scu",
       "name": "Ming Kang",
       "publication_name": "Ming Kang",
@@ -9481,6 +9855,53 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/"
+        }
+      ]
+    },
+    {
+      "id": "yuval-yarom-rub",
+      "name": "Yuval Yarom",
+      "publication_name": "Yuval Yarom",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "CSIRO",
+        "Ruhr University Bochum",
+        "University of Adelaide"
+      ],
+      "papers": [
+        "ieee-sp26-wang-transient-architectural-execution",
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        },
+        {
+          "id": "ieee-sp26-wang-transient-architectural-execution",
+          "title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -10120,6 +10541,46 @@
       ]
     },
     {
+      "id": "william-enck-ncsu",
+      "name": "William Enck",
+      "publication_name": "William Enck",
+      "homepage": "https://csc.ncsu.edu/people/whenck/",
+      "profile_source": "https://csc.ncsu.edu/people/whenck/",
+      "institutions": [
+        "North Carolina State University",
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "ieee-sp26-tystahl-cosseter",
+        "osdi10-enck-taintdroid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        },
+        {
+          "id": "ieee-sp26-tystahl-cosseter",
+          "title": "COSSETER: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "woohyuk-choi-snu",
       "name": "Woohyuk Choi",
       "publication_name": "Woohyuk Choi",
@@ -10256,37 +10717,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow"
-        }
-      ]
-    },
-    {
-      "id": "abhik-roychoudhury-nus",
-      "name": "Abhik Roychoudhury",
-      "publication_name": "Abhik Roychoudhury",
-      "homepage": "https://abhikrc.com/",
-      "profile_source": "https://abhikrc.com/",
-      "institutions": [
-        "National University of Singapore"
-      ],
-      "papers": [
-        "ieee-sp26-luo-agentic-concolic"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-luo-agentic-concolic",
-          "title": "Agentic Concolic Execution",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -10632,6 +11062,37 @@
       ]
     },
     {
+      "id": "alexander-wei",
+      "name": "Alexander Wei",
+      "publication_name": "Alexander Wei",
+      "homepage": "",
+      "profile_source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "neurips23-wei-jailbroken"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips23-wei-jailbroken",
+          "title": "Jailbroken: How Does LLM Safety Training Fail?",
+          "year": 2023,
+          "venue": "NeurIPS 2023",
+          "url": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
       "id": "alexandros-kapravelos-ncsu",
       "name": "Alexandros Kapravelos",
       "publication_name": "Alexandros Kapravelos",
@@ -10876,6 +11337,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "anders-fogh",
+      "name": "Anders Fogh",
+      "publication_name": "Anders Fogh",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "G DATA Advanced Analytics"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
         }
       ]
     },
@@ -12466,6 +12958,69 @@
       ]
     },
     {
+      "id": "daniel-genkin",
+      "name": "Daniel Genkin",
+      "publication_name": "Daniel Genkin",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "University of Maryland",
+        "University of Pennsylvania"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
+      "id": "daniel-gruss",
+      "name": "Daniel Gruss",
+      "publication_name": "Daniel Gruss",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Graz University of Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
       "id": "daniel-kroening-aws",
       "name": "Daniel Kroening",
       "publication_name": "Daniel Kroening",
@@ -13552,6 +14107,37 @@
           "year": 2011,
           "venue": "ACM CCS 2011",
           "url": "https://doi.org/10.1145/2046707.2046779"
+        }
+      ]
+    },
+    {
+      "id": "euan-ong",
+      "name": "Euan Ong",
+      "publication_name": "Euan Ong",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/bailey24a.html",
+      "institutions": [
+        "University of Cambridge"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "title": "Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/bailey24a.html"
         }
       ]
     },
@@ -15822,6 +16408,37 @@
       ]
     },
     {
+      "id": "jacob-steinhardt",
+      "name": "Jacob Steinhardt",
+      "publication_name": "Jacob Steinhardt",
+      "homepage": "",
+      "profile_source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "neurips23-wei-jailbroken"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips23-wei-jailbroken",
+          "title": "Jailbroken: How Does LLM Safety Training Fail?",
+          "year": 2023,
+          "venue": "NeurIPS 2023",
+          "url": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
       "id": "jaeyoung-chung-snu",
       "name": "Jaeyoung Chung",
       "publication_name": "Jaeyoung Chung",
@@ -15973,6 +16590,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "jann-horn",
+      "name": "Jann Horn",
+      "publication_name": "Jann Horn",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Google Project Zero"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
         }
       ]
     },
@@ -19024,6 +19672,68 @@
       ]
     },
     {
+      "id": "lukas-bernhard",
+      "name": "Lukas Bernhard",
+      "publication_name": "Lukas Bernhard",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+          "year": 2023,
+          "venue": "NDSS 2023",
+          "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"
+        }
+      ]
+    },
+    {
+      "id": "luke-bailey",
+      "name": "Luke Bailey",
+      "publication_name": "Luke Bailey",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/bailey24a.html",
+      "institutions": [
+        "Harvard University"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "title": "Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/bailey24a.html"
+        }
+      ]
+    },
+    {
       "id": "luyao-niu",
       "name": "Luyao Niu",
       "publication_name": "Luyao Niu",
@@ -19149,6 +19859,37 @@
       ]
     },
     {
+      "id": "manh-dung-nguyen",
+      "name": "Manh-Dung Nguyen",
+      "publication_name": "Manh-Dung Nguyen",
+      "homepage": "",
+      "profile_source": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf",
+      "institutions": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ccs17-boehme-aflgo"
+      ],
+      "annual_scores": {
+        "2017": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs17-boehme-aflgo",
+          "title": "Directed Greybox Fuzzing",
+          "year": 2017,
+          "venue": "ACM CCS 2017",
+          "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"
+        }
+      ]
+    },
+    {
       "id": "mantas-mazeika",
       "name": "Mantas Mazeika",
       "publication_name": "Mantas Mazeika",
@@ -19208,6 +19949,37 @@
           "year": 2024,
           "venue": "NeurIPS 2024",
           "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "marcel-bohme",
+      "name": "Marcel Böhme",
+      "publication_name": "Marcel Böhme",
+      "homepage": "https://mboehme.github.io/",
+      "profile_source": "https://mboehme.github.io/",
+      "institutions": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ccs17-boehme-aflgo"
+      ],
+      "annual_scores": {
+        "2017": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs17-boehme-aflgo",
+          "title": "Directed Greybox Fuzzing",
+          "year": 2017,
+          "venue": "ACM CCS 2017",
+          "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"
         }
       ]
     },
@@ -19363,6 +20135,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "martin-johns",
+      "name": "Martin Johns",
+      "publication_name": "Martin Johns",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "institutions": [
+        "TU Braunschweig"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+          "year": 2023,
+          "venue": "NDSS 2023",
+          "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"
         }
       ]
     },
@@ -19958,6 +20761,37 @@
       ]
     },
     {
+      "id": "mike-hamburg",
+      "name": "Mike Hamburg",
+      "publication_name": "Mike Hamburg",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Rambus, Cryptography Research Division"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
       "id": "min-li-zhongguancun",
       "name": "Min Li",
       "publication_name": "Min Li",
@@ -20363,6 +21197,37 @@
       ]
     },
     {
+      "id": "moritz-lipp",
+      "name": "Moritz Lipp",
+      "publication_name": "Moritz Lipp",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Graz University of Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
       "id": "muhammad-ibrahim-gatech",
       "name": "Muhammad Ibrahim",
       "publication_name": "Muhammad Ibrahim",
@@ -20701,6 +21566,37 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
           "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "nika-haghtalab",
+      "name": "Nika Haghtalab",
+      "publication_name": "Nika Haghtalab",
+      "homepage": "",
+      "profile_source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "neurips23-wei-jailbroken"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips23-wei-jailbroken",
+          "title": "Jailbroken: How Does LLM Safety Training Fail?",
+          "year": 2023,
+          "venue": "NeurIPS 2023",
+          "url": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"
         }
       ]
     },
@@ -21135,6 +22031,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow"
+        }
+      ]
+    },
+    {
+      "id": "paul-kocher",
+      "name": "Paul Kocher",
+      "publication_name": "Paul Kocher",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Independent Researcher"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
         }
       ]
     },
@@ -22474,6 +23401,37 @@
       ]
     },
     {
+      "id": "samuel-gro",
+      "name": "Samuel Groß",
+      "publication_name": "Samuel Groß",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+          "year": 2023,
+          "venue": "NDSS 2023",
+          "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"
+        }
+      ]
+    },
+    {
       "id": "sandeep-shukla-iiit-hyderabad",
       "name": "Sandeep K. Shukla",
       "publication_name": "Sandeep K. Shukla",
@@ -22656,6 +23614,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "scott-emmons",
+      "name": "Scott Emmons",
+      "publication_name": "Scott Emmons",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/bailey24a.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "title": "Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/bailey24a.html"
         }
       ]
     },
@@ -23406,6 +24395,37 @@
       ]
     },
     {
+      "id": "simon-koch",
+      "name": "Simon Koch",
+      "publication_name": "Simon Koch",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "institutions": [
+        "TU Braunschweig"
+      ],
+      "papers": [
+        "ndss23-gross-fuzzilli"
+      ],
+      "annual_scores": {
+        "2023": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+          "year": 2023,
+          "venue": "NDSS 2023",
+          "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"
+        }
+      ]
+    },
+    {
       "id": "simon-lermen-mats",
       "name": "Simon Lermen",
       "publication_name": "Simon Lermen",
@@ -23716,6 +24736,37 @@
       ]
     },
     {
+      "id": "stefan-mangard",
+      "name": "Stefan Mangard",
+      "publication_name": "Stefan Mangard",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Graz University of Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
       "id": "stefan-savage",
       "name": "Stefan Savage",
       "publication_name": "Stefan Savage",
@@ -23930,6 +24981,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "stuart-russell",
+      "name": "Stuart Russell",
+      "publication_name": "Stuart Russell",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/bailey24a.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "icml24-bailey-image-hijacks"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "title": "Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/bailey24a.html"
         }
       ]
     },
@@ -24552,6 +25634,37 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
           "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "thomas-prescher",
+      "name": "Thomas Prescher",
+      "publication_name": "Thomas Prescher",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Cyberus Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
         }
       ]
     },
@@ -25239,6 +26352,37 @@
       ]
     },
     {
+      "id": "van-thuan-pham",
+      "name": "Van-Thuan Pham",
+      "publication_name": "Van-Thuan Pham",
+      "homepage": "",
+      "profile_source": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf",
+      "institutions": [
+        "National University of Singapore"
+      ],
+      "papers": [
+        "ccs17-boehme-aflgo"
+      ],
+      "annual_scores": {
+        "2017": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs17-boehme-aflgo",
+          "title": "Directed Greybox Fuzzing",
+          "year": 2017,
+          "venue": "ACM CCS 2017",
+          "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"
+        }
+      ]
+    },
+    {
       "id": "venkata-sai-charan-putrevu-nyu",
       "name": "Venkata Sai Charan Putrevu",
       "publication_name": "Venkata Sai Charan Putrevu",
@@ -25766,6 +26910,37 @@
       ]
     },
     {
+      "id": "werner-haas",
+      "name": "Werner Haas",
+      "publication_name": "Werner Haas",
+      "homepage": "",
+      "profile_source": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "Cyberus Technology"
+      ],
+      "papers": [
+        "sp19-kocher-spectre"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "year": 2019,
+          "venue": "IEEE S&P 2019",
+          "url": "https://www.ieee-security.org/TC/SP2019/program.html"
+        }
+      ]
+    },
+    {
       "id": "william-corrias-sapienza",
       "name": "William Corrias",
       "publication_name": "William Corrias",
@@ -25790,37 +26965,6 @@
         {
           "id": "ieee-sp26-corrias-maya",
           "title": "MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "william-enck-ncsu",
-      "name": "William Enck",
-      "publication_name": "William Enck",
-      "homepage": "https://csc.ncsu.edu/people/whenck/",
-      "profile_source": "https://csc.ncsu.edu/people/whenck/",
-      "institutions": [
-        "North Carolina State University"
-      ],
-      "papers": [
-        "ieee-sp26-tystahl-cosseter"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-tystahl-cosseter",
-          "title": "COSSETER: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
@@ -28162,37 +29306,6 @@
       ]
     },
     {
-      "id": "yuval-yarom-rub",
-      "name": "Yuval Yarom",
-      "publication_name": "Yuval Yarom",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ieee-sp26-wang-transient-architectural-execution"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-wang-transient-architectural-execution",
-          "title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "yuxi-chen-independent",
       "name": "Yuxi Chen",
       "publication_name": "Yuxi Chen",
@@ -29719,6 +30832,38 @@
       ]
     },
     {
+      "id": "patrick-mcdaniel",
+      "name": "Patrick McDaniel",
+      "publication_name": "Patrick McDaniel",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid",
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
+        },
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
       "id": "raluca-ada-popa-berkeley",
       "name": "Raluca Ada Popa",
       "publication_name": "Raluca Ada Popa",
@@ -29847,6 +30992,30 @@
       ]
     },
     {
+      "id": "andrew-c-myers",
+      "name": "Andrew C. Myers",
+      "publication_name": "Andrew C. Myers",
+      "homepage": "https://www.cs.cornell.edu/andru/",
+      "profile_source": "https://www.cs.cornell.edu/andru/",
+      "institutions": [
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "popl99-myers-jflow"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "popl99-myers-jflow",
+          "title": "JFlow: Practical Mostly-Static Information Flow Control",
+          "year": 1999,
+          "venue": "ACM POPL 1999",
+          "url": "https://www.cs.cornell.edu/andru/papers/popl99/popl99.pdf"
+        }
+      ]
+    },
+    {
       "id": "ankur-singh-concordia",
       "name": "Ankur Singh",
       "publication_name": "Ankur Singh",
@@ -29871,6 +31040,30 @@
       ]
     },
     {
+      "id": "anmol-n-sheth",
+      "name": "Anmol N. Sheth",
+      "publication_name": "Anmol N. Sheth",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "institutions": [
+        "Intel Labs"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
       "id": "ardalan-amiri-sani-uci",
       "name": "Ardalan Amiri Sani",
       "publication_name": "Ardalan Amiri Sani",
@@ -29891,6 +31084,30 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "byung-gon-chun",
+      "name": "Byung-Gon Chun",
+      "publication_name": "Byung-Gon Chun",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "institutions": [
+        "Intel Labs"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
         }
       ]
     },
@@ -30593,6 +31810,30 @@
       ]
     },
     {
+      "id": "jaeyeon-jung",
+      "name": "Jaeyeon Jung",
+      "publication_name": "Jaeyeon Jung",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "institutions": [
+        "Intel Labs"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
       "id": "jamie-hayes",
       "name": "Jamie Hayes",
       "publication_name": "Jamie Hayes",
@@ -30906,6 +32147,30 @@
       ]
     },
     {
+      "id": "landon-p-cox",
+      "name": "Landon P. Cox",
+      "publication_name": "Landon P. Cox",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "institutions": [
+        "Duke University"
+      ],
+      "papers": [
+        "osdi10-enck-taintdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
       "id": "luyi-xing-uiuc",
       "name": "Luyi Xing",
       "publication_name": "Luyi Xing",
@@ -31146,26 +32411,26 @@
       ]
     },
     {
-      "id": "patrick-mcdaniel",
-      "name": "Patrick McDaniel",
-      "publication_name": "Patrick McDaniel",
+      "id": "peter-gilbert",
+      "name": "Peter Gilbert",
+      "publication_name": "Peter Gilbert",
       "homepage": "",
-      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "profile_source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
       "institutions": [
-        "Pennsylvania State University"
+        "Duke University"
       ],
       "papers": [
-        "pldi14-arzt-flowdroid"
+        "osdi10-enck-taintdroid"
       ],
       "annual_scores": {},
       "verified_score": 0,
       "recent_papers": [
         {
-          "id": "pldi14-arzt-flowdroid",
-          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
-          "year": 2014,
-          "venue": "ACM PLDI 2014",
-          "url": "https://ris.uni-paderborn.de/record/5189"
+          "id": "osdi10-enck-taintdroid",
+          "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+          "year": 2010,
+          "venue": "USENIX OSDI 2010",
+          "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
         }
       ]
     },
@@ -32424,6 +33689,23 @@
       "weight": 2
     },
     {
+      "source": "csiro",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        },
+        {
+          "id": "usenix-sec26-duong-firmrebugger",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "eth-zurich",
       "target": "hkust-guangzhou",
       "papers": [
@@ -33442,6 +34724,42 @@
     },
     {
       "source": "cispa",
+      "target": "google",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cispa",
+      "target": "ruhr-university-bochum",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cispa",
+      "target": "tu-braunschweig",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cispa",
       "target": "uestc",
       "papers": [
         {
@@ -33610,11 +34928,11 @@
     },
     {
       "source": "csiro",
-      "target": "swinburne-university-technology",
+      "target": "cyberus-technology",
       "papers": [
         {
-          "id": "usenix-sec26-nguyen-menta",
-          "year": 2026,
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
           "venue_group": "security"
         }
       ],
@@ -33622,10 +34940,70 @@
     },
     {
       "source": "csiro",
-      "target": "university-of-adelaide",
+      "target": "g-data-advanced-analytics",
       "papers": [
         {
-          "id": "usenix-sec26-duong-firmrebugger",
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "google-project-zero",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "graz-university-of-technology",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "independent-researcher",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "swinburne-university-technology",
+      "papers": [
+        {
+          "id": "usenix-sec26-nguyen-menta",
           "year": 2026,
           "venue_group": "security"
         }
@@ -33645,6 +35023,126 @@
       "weight": 1
     },
     {
+      "source": "csiro",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csiro",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "g-data-advanced-analytics",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "google-project-zero",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "graz-university-of-technology",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "independent-researcher",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cyberus-technology",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "duke-university",
       "target": "hireez",
       "papers": [
@@ -33652,6 +35150,30 @@
           "id": "usenix-sec26-zhang-resume-injection",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "duke-university",
+      "target": "intel-labs",
+      "papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "year": 2010,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "duke-university",
+      "target": "pennsylvania-state-university",
+      "papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "year": 2010,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -33981,6 +35503,90 @@
       "weight": 1
     },
     {
+      "source": "g-data-advanced-analytics",
+      "target": "google-project-zero",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "graz-university-of-technology",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "independent-researcher",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "g-data-advanced-analytics",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "geely-automobile-research-institute",
       "target": "geely-university-of-china",
       "papers": [
@@ -34102,12 +35708,168 @@
     },
     {
       "source": "google",
+      "target": "ruhr-university-bochum",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
       "target": "stony-brook-university",
       "papers": [
         {
           "id": "pldi26-nguyen-analyzing-bytes",
           "year": 2026,
           "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "tu-braunschweig",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "graz-university-of-technology",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "independent-researcher",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-project-zero",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "graz-university-of-technology",
+      "target": "independent-researcher",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "graz-university-of-technology",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "graz-university-of-technology",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "graz-university-of-technology",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "graz-university-of-technology",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
         }
       ],
       "weight": 1
@@ -34180,6 +35942,30 @@
           "id": "fse26-guo-bcs",
           "year": 2026,
           "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "harvard-university",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "harvard-university",
+      "target": "university-of-cambridge",
+      "papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "year": 2024,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -34678,6 +36464,30 @@
     },
     {
       "source": "independent-researcher",
+      "target": "rambus-cryptography-research-division",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "independent-researcher",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "independent-researcher",
       "target": "university-of-louisville",
       "papers": [
         {
@@ -34690,11 +36500,35 @@
     },
     {
       "source": "independent-researcher",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "independent-researcher",
       "target": "university-of-north-texas",
       "papers": [
         {
           "id": "ieee-sp26-zhang-ragorigin",
           "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "independent-researcher",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
           "venue_group": "security"
         }
       ],
@@ -34828,6 +36662,18 @@
           "id": "cvpr26-ying-agentsafe",
           "year": 2026,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "intel-labs",
+      "target": "pennsylvania-state-university",
+      "papers": [
+        {
+          "id": "osdi10-enck-taintdroid",
+          "year": 2010,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -35829,6 +37675,42 @@
       "weight": 1
     },
     {
+      "source": "rambus-cryptography-research-division",
+      "target": "university-of-adelaide",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "rambus-cryptography-research-division",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "rambus-cryptography-research-division",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "riken-aip",
       "target": "waseda-university",
       "papers": [
@@ -35847,6 +37729,18 @@
         {
           "id": "ieee-sp26-wang-transient-architectural-execution",
           "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "ruhr-university-bochum",
+      "target": "tu-braunschweig",
+      "papers": [
+        {
+          "id": "ndss23-gross-fuzzilli",
+          "year": 2023,
           "venue_group": "security"
         }
       ],
@@ -36274,6 +38168,18 @@
     },
     {
       "source": "uc-berkeley",
+      "target": "university-of-cambridge",
+      "papers": [
+        {
+          "id": "icml24-bailey-image-hijacks",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-berkeley",
       "target": "university-of-connecticut",
       "papers": [
         {
@@ -36561,6 +38467,30 @@
       "weight": 1
     },
     {
+      "source": "university-of-adelaide",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-of-adelaide",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-alberta",
       "target": "university-of-york",
       "papers": [
@@ -36603,6 +38533,18 @@
         {
           "id": "ccs13-stefanov-path-oram",
           "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-of-maryland",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "sp19-kocher-spectre",
+          "year": 2019,
           "venue_group": "security"
         }
       ],
@@ -36755,6 +38697,30 @@
       ]
     },
     {
+      "id": "osdi10-enck-taintdroid",
+      "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+      "year": 2010,
+      "venue": "USENIX OSDI 2010",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "institutions": [
+        "pennsylvania-state-university",
+        "duke-university",
+        "intel-labs"
+      ],
+      "authors": [
+        "william-enck-ncsu",
+        "peter-gilbert",
+        "byung-gon-chun",
+        "landon-p-cox",
+        "jaeyeon-jung",
+        "patrick-mcdaniel",
+        "anmol-n-sheth"
+      ]
+    },
+    {
       "id": "usenix-sec20-poeplau-symcc",
       "title": "Symbolic execution with SymCC: Don't interpret, compile!",
       "year": 2020,
@@ -36790,6 +38756,42 @@
         "bihuan-chen",
         "lei-wei",
         "yang-liu-ntu"
+      ]
+    },
+    {
+      "id": "sp19-kocher-spectre",
+      "title": "Spectre Attacks: Exploiting Speculative Execution",
+      "year": 2019,
+      "venue": "IEEE S&P 2019",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.ieee-security.org/TC/SP2019/program.html",
+      "institutions": [
+        "independent-researcher",
+        "google-project-zero",
+        "g-data-advanced-analytics",
+        "university-pennsylvania",
+        "university-of-maryland",
+        "graz-university-of-technology",
+        "cyberus-technology",
+        "rambus-cryptography-research-division",
+        "university-of-adelaide",
+        "csiro"
+      ],
+      "authors": [
+        "paul-kocher",
+        "jann-horn",
+        "anders-fogh",
+        "daniel-genkin",
+        "daniel-gruss",
+        "werner-haas",
+        "mike-hamburg",
+        "moritz-lipp",
+        "stefan-mangard",
+        "thomas-prescher",
+        "michael-schwarz-cispa",
+        "yuval-yarom-rub"
       ]
     },
     {
@@ -36922,6 +38924,61 @@
       ]
     },
     {
+      "id": "neurips23-wei-jailbroken",
+      "title": "Jailbroken: How Does LLM Safety Training Fail?",
+      "year": 2023,
+      "venue": "NeurIPS 2023",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html",
+      "institutions": [
+        "uc-berkeley"
+      ],
+      "authors": [
+        "alexander-wei",
+        "nika-haghtalab",
+        "jacob-steinhardt"
+      ]
+    },
+    {
+      "id": "popl99-myers-jflow",
+      "title": "JFlow: Practical Mostly-Static Information Flow Control",
+      "year": 1999,
+      "venue": "ACM POPL 1999",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.cs.cornell.edu/andru/papers/popl99/popl99.pdf",
+      "institutions": [
+        "mit"
+      ],
+      "authors": [
+        "andrew-c-myers"
+      ]
+    },
+    {
+      "id": "icml24-bailey-image-hijacks",
+      "title": "Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+      "year": 2024,
+      "venue": "ICML 2024",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://proceedings.mlr.press/v235/bailey24a.html",
+      "institutions": [
+        "harvard-university",
+        "university-of-cambridge",
+        "uc-berkeley"
+      ],
+      "authors": [
+        "luke-bailey",
+        "euan-ong",
+        "stuart-russell",
+        "scott-emmons"
+      ]
+    },
+    {
       "id": "sp20-aschermann-ijon",
       "title": "IJON: Exploring Deep State Spaces via Fuzzing",
       "year": 2020,
@@ -37026,6 +39083,29 @@
       ]
     },
     {
+      "id": "ndss23-gross-fuzzilli",
+      "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+      "year": 2023,
+      "venue": "NDSS 2023",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "institutions": [
+        "google",
+        "tu-braunschweig",
+        "ruhr-university-bochum",
+        "cispa"
+      ],
+      "authors": [
+        "samuel-gro",
+        "simon-koch",
+        "lukas-bernhard",
+        "thorsten-holz-mpi-sp",
+        "martin-johns"
+      ]
+    },
+    {
       "id": "issta16-li-droidra",
       "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
       "year": 2016,
@@ -37043,6 +39123,25 @@
         "tegawende-bissyande-luxembourg",
         "damien-octeau",
         "jacques-klein-luxembourg"
+      ]
+    },
+    {
+      "id": "ccs17-boehme-aflgo",
+      "title": "Directed Greybox Fuzzing",
+      "year": 2017,
+      "venue": "ACM CCS 2017",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf",
+      "institutions": [
+        "national-university-of-singapore"
+      ],
+      "authors": [
+        "marcel-bohme",
+        "van-thuan-pham",
+        "manh-dung-nguyen",
+        "abhik-roychoudhury-nus"
       ]
     },
     {

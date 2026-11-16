@@ -1,5 +1,5 @@
 {
-  "version": "1.12.5",
+  "version": "1.12.6",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -242,7 +242,16 @@
     "上海科技大学": {"id": "shanghaitech-university", "display_name": "上海科技大学", "language": "zh", "source": "https://www.shanghaitech.edu.cn/", "country_code": "CHN"},
     "Allen Institute for AI": {"id": "allen-institute-for-ai", "display_name": "Allen Institute for AI", "language": "en", "source": "https://allenai.org/", "country_code": "USA"},
     "National Financial Cryptography Research Center": {"id": "national-financial-cryptography-research-center", "display_name": "National Financial Cryptography Research Center", "language": "en", "source": "https://arxiv.org/pdf/2311.05608"},
-    "山东区块链研究院": {"id": "shandong-institute-blockchain", "display_name": "山东区块链研究院", "language": "zh", "source": "https://www.tsinghua.edu.cn/info/1182/90245.htm", "country_code": "CHN"}
+    "山东区块链研究院": {"id": "shandong-institute-blockchain", "display_name": "山东区块链研究院", "language": "zh", "source": "https://www.tsinghua.edu.cn/info/1182/90245.htm", "country_code": "CHN"},
+    "Google Project Zero": {"id": "google-project-zero", "display_name": "Google Project Zero", "language": "en", "source": "https://spectreattack.com/spectre.pdf"},
+    "G DATA Advanced Analytics": {"id": "g-data-advanced-analytics", "display_name": "G DATA Advanced Analytics", "language": "en", "source": "https://spectreattack.com/spectre.pdf"},
+    "Graz University of Technology": {"id": "graz-university-of-technology", "display_name": "Graz University of Technology", "language": "en", "source": "https://www.tugraz.at/en/home", "country_code": "AUT"},
+    "Cyberus Technology": {"id": "cyberus-technology", "display_name": "Cyberus Technology", "language": "en", "source": "https://spectreattack.com/spectre.pdf"},
+    "Rambus, Cryptography Research Division": {"id": "rambus-cryptography-research-division", "display_name": "Rambus, Cryptography Research Division", "language": "en", "source": "https://spectreattack.com/spectre.pdf"},
+    "TU Braunschweig": {"id": "tu-braunschweig", "display_name": "TU Braunschweig", "language": "en", "source": "https://www.tu-braunschweig.de/en/", "country_code": "DEU"},
+    "Intel Labs": {"id": "intel-labs", "display_name": "Intel Labs", "language": "en", "source": "https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf"},
+    "Harvard University": {"id": "harvard-university", "display_name": "Harvard University", "language": "en", "source": "https://www.harvard.edu/", "country_code": "USA"},
+    "University of Cambridge": {"id": "university-of-cambridge", "display_name": "University of Cambridge", "language": "en", "source": "https://www.cam.ac.uk/", "country_code": "GBR"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1071,7 +1080,37 @@
     "Tianshuo Cong": {"id": "tianshuo-cong", "display_name": "Tianshuo Cong", "publication_name": "Tianshuo Cong", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
     "Anyu Wang": {"id": "anyu-wang", "display_name": "Anyu Wang", "publication_name": "Anyu Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
     "Sisi Duan": {"id": "sisi-duan", "display_name": "段斯斯", "publication_name": "Sisi Duan", "language": "zh", "source": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm", "homepage": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm"},
-    "Xiaoyun Wang": {"id": "xiaoyun-wang", "display_name": "Xiaoyun Wang", "publication_name": "Xiaoyun Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"}
+    "Xiaoyun Wang": {"id": "xiaoyun-wang", "display_name": "Xiaoyun Wang", "publication_name": "Xiaoyun Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Paul Kocher": {"id": "paul-kocher", "display_name": "Paul Kocher", "publication_name": "Paul Kocher", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Jann Horn": {"id": "jann-horn", "display_name": "Jann Horn", "publication_name": "Jann Horn", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Anders Fogh": {"id": "anders-fogh", "display_name": "Anders Fogh", "publication_name": "Anders Fogh", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Daniel Genkin": {"id": "daniel-genkin", "display_name": "Daniel Genkin", "publication_name": "Daniel Genkin", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Daniel Gruss": {"id": "daniel-gruss", "display_name": "Daniel Gruss", "publication_name": "Daniel Gruss", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Werner Haas": {"id": "werner-haas", "display_name": "Werner Haas", "publication_name": "Werner Haas", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Mike Hamburg": {"id": "mike-hamburg", "display_name": "Mike Hamburg", "publication_name": "Mike Hamburg", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Moritz Lipp": {"id": "moritz-lipp", "display_name": "Moritz Lipp", "publication_name": "Moritz Lipp", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Stefan Mangard": {"id": "stefan-mangard", "display_name": "Stefan Mangard", "publication_name": "Stefan Mangard", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Thomas Prescher": {"id": "thomas-prescher", "display_name": "Thomas Prescher", "publication_name": "Thomas Prescher", "language": "en", "source": "https://www.ieee-security.org/TC/SP2019/program.html"},
+    "Marcel Böhme": {"id": "marcel-bohme", "display_name": "Marcel Böhme", "publication_name": "Marcel Böhme", "language": "en", "source": "https://mboehme.github.io/", "homepage": "https://mboehme.github.io/"},
+    "Van-Thuan Pham": {"id": "van-thuan-pham", "display_name": "Van-Thuan Pham", "publication_name": "Van-Thuan Pham", "language": "en", "source": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"},
+    "Manh-Dung Nguyen": {"id": "manh-dung-nguyen", "display_name": "Manh-Dung Nguyen", "publication_name": "Manh-Dung Nguyen", "language": "en", "source": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf"},
+    "Samuel Groß": {"id": "samuel-gro", "display_name": "Samuel Groß", "publication_name": "Samuel Groß", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"},
+    "Simon Koch": {"id": "simon-koch", "display_name": "Simon Koch", "publication_name": "Simon Koch", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"},
+    "Lukas Bernhard": {"id": "lukas-bernhard", "display_name": "Lukas Bernhard", "publication_name": "Lukas Bernhard", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"},
+    "Martin Johns": {"id": "martin-johns", "display_name": "Martin Johns", "publication_name": "Martin Johns", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/"},
+    "Peter Gilbert": {"id": "peter-gilbert", "display_name": "Peter Gilbert", "publication_name": "Peter Gilbert", "language": "en", "source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"},
+    "Byung-Gon Chun": {"id": "byung-gon-chun", "display_name": "Byung-Gon Chun", "publication_name": "Byung-Gon Chun", "language": "en", "source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"},
+    "Landon P. Cox": {"id": "landon-p-cox", "display_name": "Landon P. Cox", "publication_name": "Landon P. Cox", "language": "en", "source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"},
+    "Jaeyeon Jung": {"id": "jaeyeon-jung", "display_name": "Jaeyeon Jung", "publication_name": "Jaeyeon Jung", "language": "en", "source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"},
+    "Anmol N. Sheth": {"id": "anmol-n-sheth", "display_name": "Anmol N. Sheth", "publication_name": "Anmol N. Sheth", "language": "en", "source": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"},
+    "Andrew C. Myers": {"id": "andrew-c-myers", "display_name": "Andrew C. Myers", "publication_name": "Andrew C. Myers", "language": "en", "source": "https://www.cs.cornell.edu/andru/", "homepage": "https://www.cs.cornell.edu/andru/"},
+    "Alexander Wei": {"id": "alexander-wei", "display_name": "Alexander Wei", "publication_name": "Alexander Wei", "language": "en", "source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"},
+    "Nika Haghtalab": {"id": "nika-haghtalab", "display_name": "Nika Haghtalab", "publication_name": "Nika Haghtalab", "language": "en", "source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"},
+    "Jacob Steinhardt": {"id": "jacob-steinhardt", "display_name": "Jacob Steinhardt", "publication_name": "Jacob Steinhardt", "language": "en", "source": "https://papers.nips.cc/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html"},
+    "Luke Bailey": {"id": "luke-bailey", "display_name": "Luke Bailey", "publication_name": "Luke Bailey", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
+    "Euan Ong": {"id": "euan-ong", "display_name": "Euan Ong", "publication_name": "Euan Ong", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
+    "Stuart Russell": {"id": "stuart-russell", "display_name": "Stuart Russell", "publication_name": "Stuart Russell", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
+    "Scott Emmons": {"id": "scott-emmons", "display_name": "Scott Emmons", "publication_name": "Scott Emmons", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

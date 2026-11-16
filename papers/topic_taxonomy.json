@@ -1,5 +1,5 @@
 {
-  "version": "1.10.5",
+  "version": "1.10.6",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -551,6 +551,13 @@
     "icse19-wang-superion": "software-application-security",
     "icse20-hong-saver": "software-application-security",
     "acl24-xu-safedecoding": "ai-security",
-    "aaai25-gong-figstep": "ai-security"
+    "aaai25-gong-figstep": "ai-security",
+    "sp19-kocher-spectre": "systems-hardware-security",
+    "ccs17-boehme-aflgo": "software-application-security",
+    "ndss23-gross-fuzzilli": "software-application-security",
+    "osdi10-enck-taintdroid": "mobile-iot-security",
+    "popl99-myers-jflow": "identity-privacy",
+    "neurips23-wei-jailbroken": "ai-security",
+    "icml24-bailey-image-hijacks": "ai-security"
   }
 }

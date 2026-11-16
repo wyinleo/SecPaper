@@ -1,5 +1,7 @@
 # 2026-W47 来源覆盖与核验记录
 
+> 十篇补齐更正：原先三篇编辑范围理由撤回，旧记录仅保留审计；本轮以文末记录为准。W45、W46 已依次补至十篇并发布核验，后者21c1d1aa / Pages43869881119。
+
 窗口为 2026-11-10—11-16（北京时间），本次检索、精读与发布实际在 11 月 16 日进行。W45、W46 均已按顺序发布且线上核验通过；W46 提交 `1b0aecb`，Pages 工作流 43835274702 成功。继续按检索、精读、维护发布三个阶段串行执行，保留运行前七处用户改动。
 
 ## 输入与来源均衡
@@ -123,3 +125,109 @@ W43—W46 共 26 篇：安全 10（38.5%）、软件与系统 8（30.8%）、AI 
 - [Zagreb 大学学院归属与所在地](https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/)、[学院官方地址](https://www.fer.unizg.hr/en/about/general_info)。
 - [阿里巴巴集团官方中文介绍](https://ali-home.alibaba.com/about-alibaba)、[Google DeepMind 官方介绍](https://deepmind.google/about/)。
 - [WASP 正式论文集](https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html)，DOI 10.52202/085713-0666。
+
+
+## 十篇补齐：第一阶段重新执行
+
+重新全文读取01分片、171条索引、3条观察队列、14个行业来源、73条行业观点、最新与当期W47完整周报/inquiry，并检查用户七文件补丁。W43—W46新增40篇：安全16、软件12、AI12，占40%/30%/30%；四个安全会各4篇，软件OSDI3、ICSE3、PLDI2、POPL/FSE/OOPSLA/ISSTA各1，AI NeurIPS3、ACL/ICML/AAAI/ICLR各2、CVPR1。
+
+组内轮换从 CCS、POPL、CVPR 开始，再扫描全部21个会议和arXiv补充。以下候选数仅计明确推进的新增全文项目，未推进不等于会议没有安全论文。
+
+| 来源 | 本轮扫描结果与原始入口 | 明确候选 / 新增入选 |
+| --- | --- | --- |
+| CCS | https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html；200；Directed Greybox Fuzzing官方CCS论文镜像及DOI | 1 / 1 |
+| NDSS | https://www.ndss-symposium.org/ndss2026/accepted-papers/；200；FUZZILLI官方2023接收页与完整PDF | 1 / 1 |
+| USENIX | https://www.usenix.org/conference/usenixsecurity26/technical-sessions；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| S&P | https://sp2026.ieee-security.org/accepted-papers.html；200；Spectre官方2019程序+作者完整PDF | 1 / 1 |
+| POPL | https://conf.researchr.org/track/popl-2026/POPL-2026-popl-research-papers；超时；JFlow作者原文与项目正式引用 | 1 / 1 |
+| SOSP | https://sigops.org/s/conferences/sosp/2026/accepted.html；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| FM | https://conf.researchr.org/track/fm-2026/fm-2026-research-paper；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ISSTA | https://conf.researchr.org/track/issta-2026/issta-2026-research-papers；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ASE | https://conf.researchr.org/track/ase-2026/ase-2026-research-track；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ICSE | https://conf.researchr.org/track/icse-2026/icse-2026-research-track；超时；目录筛选；重复/无本期推进项 | 0 / 0 |
+| PLDI | https://conf.researchr.org/track/pldi-2026/pldi-2026-papers；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| FSE | https://conf.researchr.org/track/fse-2026/fse-2026-research-papers；超时；目录筛选；重复/无本期推进项 | 0 / 0 |
+| OOPSLA | https://2026.splashcon.org/track/oopsla-2026；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| OSDI | https://www.usenix.org/conference/osdi26/technical-sessions；200；TaintDroid官方2010全文 | 1 / 1 |
+| CVPR | https://openaccess.thecvf.com/CVPR2026；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ICCV | https://openaccess.thecvf.com/ICCV2025；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ICML | https://proceedings.mlr.press/；200；Image Hijacks PMLR正式记录+arXiv作者完整PDF | 1 / 1 |
+| ICLR | https://iclr.cc/virtual/2026/papers.html；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| ACL | https://aclanthology.org/events/acl-2026/；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| NeurIPS | https://proceedings.neurips.cc/paper_files/paper/2025；200；Jailbroken正式论文集与完整PDF | 1 / 1 |
+| AAAI | https://ojs.aaai.org/index.php/AAAI/issue/archive；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Google Project Zero | https://googleprojectzero.blogspot.com/；超时；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Google Threat Intelligence / Mandiant | https://cloud.google.com/blog/topics/threat-intelligence；超时；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Microsoft Security / MSRC | https://www.microsoft.com/security/blog/；403；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Unit 42 | https://unit42.paloaltonetworks.com/；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Cisco Talos | https://blog.talosintelligence.com/；403；目录筛选；重复/无本期推进项 | 0 / 0 |
+| 腾讯玄武实验室 | https://xlab.tencent.com/cn/；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| 腾讯科恩实验室 | https://keenlab.tencent.com/zh/；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Anthropic Research / Frontier Red Team | https://www.anthropic.com/research；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| OpenAI Security Research | https://openai.com/research/；403；目录筛选；重复/无本期推进项 | 0 / 0 |
+| NIST Cybersecurity | https://www.nist.gov/cybersecurity；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| CISA | https://www.cisa.gov/news-events/cybersecurity-advisories；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Gartner | https://www.gartner.com/en/cybersecurity；403；目录筛选；重复/无本期推进项 | 0 / 0 |
+| Forrester | https://www.forrester.com/security-risk/；超时；目录筛选；重复/无本期推进项 | 0 / 0 |
+| IDC Security | https://www.idc.com/；200；目录筛选；重复/无本期推进项 | 0 / 0 |
+
+
+候选七篇均有完整正文并有独立正式身份依据；Image Hijacks 从论文集原始GitHub下载不完整（0页），已排除该损坏文件，改用完整13页arXiv作者版，未依据损坏正文精读。四层去重171条索引无重复。Spectre保留2019 SP身份，与2020 CACM版本及后续防御论文区分；TaintDroid保留2010 OSDI，与2014扩展稿区分；JFlow作者当时在MIT，不能用当前Cornell主页替换发表署名。
+
+新增安全3篇、软件2篇、AI2篇，连同既有SymCC、iLand、CaMeL共10篇。按安全相关主题组为4/3/3，安全四会各1；软件OSDI2、POPL1。AI中新增NeurIPS与ICML，既有CaMeL为SaTML补充来源，属于列举会议之外的直接相关正式安全论文；保留其真实会议，按AI主题占补充候选位，不纳入现行CCF-A计分。此项来源偏离明确记录，不把SaTML重标为ICLR或NeurIPS。
+
+观察项两篇ISSTA仍缺可核验正文，继续W48；长程综述独立安全贡献不足，保持W50。行业再查14来源，已有五项初筛（Windows Rust、ARTEX、Cairn、NIST迁移、咨询机构AI治理）中本期已收录三项，另有跨期重复或无可核验方法正文，保持原三项，不追加重复。
+
+- [x] 完整读取全部输入，核对用户改动。
+- [x] DOI/arXiv/URL/标题四层去重。
+- [x] 七篇正式身份由官方记录/DOI证明。
+- [x] arXiv只供正文与版本核查，不独立证明接收。
+- [x] 正文可用性、入选理由、损坏下载的替代均记录。
+- [x] 暂缓与缺正文项保持下次目标及原因。
+- [x] 七篇候选交第二阶段，尚未代写分析。
+- [x] 三组会议全扫描、近四期和本期配额及SaTML偏离记录。
+- [x] 检索阶段无摘要补全正文。
+
+
+## 十篇目标补齐：第二阶段完成检查（2026-11-16）
+
+七篇新增正文均完整取得，逐篇阅读引言、方法、案例、实验与局限；Image Hijacks 使用完整13页作者版，未以损坏文件推断。既有三篇事实保持；七份八项中间推理和两段草稿在十四字段之前保存，Easycatch 与精读来自同次原文阅读。
+
+- [x] 十篇均有正文依据；新增七篇逐篇记录，缺正文的两个 ISSTA 候选继续等待。
+- [x] 十篇十四字段顺序完整，每篇1—5个名词解释。
+- [x] Easycatch 唯一源已保存；来源摘要仅作字段一致性校验。
+- [x] 核心机制、输入—过程—输出案例与实验条件已说明。
+- [x] 原始发表时间保留，未把补齐日期写成论文时间。
+- [x] 主领域唯一、标签受控、override 先于索引写入。
+- [x] 作者单位按所读论文；未核验中文名保留拉丁署名，机构所在地不明确时不猜测。
+- [x] DOI、arXiv、URL、规范化标题去重；没有把历史版本建立成新记录。
+- [x] 三条行业内容保留原证据、限制及商业利益字段，无摘要代替正文的新项。
+- [x] SaTML 软配额例外透明记录，不扩大正式会议组及计分。
+
+阅读边界：Jailbroken 的机制为闭源输出支持的假说；Image Hijacks 的未见模型迁移为0%，泄漏判定是输出格式而非实际邮件执行；AFLGo 存在慢于 AFL 的样本，Fuzzilli 覆盖受初始语料影响。全部相关数字在卡片中保留对象与分母。
+
+
+## 十篇目标补齐：第三阶段事实维护
+
+重新读取03及完整实体表、分类、索引、Easycatch、构建器、Pages配置、本期与涉及历史周报。8项预印/工作坊风险条目逐一刷新 arXiv 原始页面：AgentDataInjection、AdaptiveAdversaries、BadMemory、Self-State、IssueTrojanBench、RECEIPT、MemSecBench、Not an A11y；没有新主会接收依据。AdaptiveAdversaries 仍只是工作坊声明，Not an A11y 已有 AGENT-SEC 正式记录保留。本轮补齐未产生进一步历史状态升级，不重复建条目。FUZZILLI DOI 从所读正式PDF首页核实为10.14722/ndss.2023.24290，写入同一新索引条目。
+
+新增9个署名单位、30个学者键，复用 Michael Schwarz、Yuval Yarom、Abhik Roychoudhury、Thorsten Holz、William Enck、Patrick McDaniel 等稳定身份。Andrew C. Myers 的论文单位保留1999年 MIT，不把当前 Cornell 主页单位写回历史署名；Marcel Böhme 同理保留 AFLGo 时期 NUS。可靠主页分别来自 https://www.cs.cornell.edu/andru/ 与 https://mboehme.github.io/ 。
+
+待核验：Google Project Zero、G DATA Advanced Analytics、Cyberus Technology、Rambus Cryptography Research Division、Intel Labs 的论文时期实际所在地不足，country_code 留空；不以跨国企业总部代填。Project Zero 的 Google 归属有官方 https://projectzero.google/about-pz.html?m=1 支持，但现有归并要求国家一致，Google 现记录美国而该论文研究团队地点未核实，暂不强行合并地图节点，保留署名及待核验项。独立研究者 Paul Kocher 不猜所在地。新学者其余可靠主页尚未确认者保留原拉丁署名及论文来源，不生成猜测主页。既有 iLand、CaMeL 中文名和版本逐页差异待核验清单继续保留。
+
+
+### 补齐后的构建与本地核验
+
+初次 --check 仅 README 分布计数陈旧，调用构建器同步后复查通过。正式构建178篇/178缓存、6主领域、73行业观点、232单位、852学者、418合作边，178篇均有署名关系；154篇按现有范围计入已核验下界，recent_papers 上限3。21项 Python 与5项 JavaScript 测试通过（流量测试中的模拟网络失败属于测试输入）。
+
+本地真实 Chrome 已检查W47十篇、日期、主卡隐藏/详情显示名词解释、Easycatch、三类入口、作者/排行/最近论文跳转、返回、循环截断、单弹层，无JS错误。PDF关键页已渲染复核。发现1999年论文被只匹配20xx的解析规则错误归到入库年，修复三处年份识别兼容19xx并加入端到端回归测试；OSDI与POPL新增元数据统一使用库内规范名称，源码修复仅暂存本次三处，原七个用户改动的patch正文逐字一致（构建器blob ID随新修复变化）。修复后JFlow关系图年份为1999。
+
+- [x] 应查历史风险条目已刷新，保留原ID，无重复升级。
+- [x] 完整实体表读取、30个新学者与9个新署名单位有来源，缺证项明确保留。
+- [x] 所有178篇作者能映射，未核验中文名、地区及主页不猜测。
+- [x] 页面日期、名词解释、入口与单弹层导航通过。
+- [x] Easycatch无缺失或过期摘要，维护阶段未事后补生成。
+- [x] --check、正式构建、计数/关系图/recent_papers核验通过。
+- [x] 本地交互通过，历史年份修复增加回归覆盖。
+- [x] 原用户修改完整保留；提交仅收本轮数据与新增年份修复。
+- [ ] 推送、Pages及线上核验将在实际完成后记入自动化 memory 和最终报告。

@@ -121,7 +121,7 @@ def venue_series_name(venues: list[str]) -> str:
     for label, patterns in VENUE_SERIES_PATTERNS:
         if any(re.search(pattern, normalized) for pattern in patterns):
             return label
-    return re.sub(r"\s+20\d{2}\b", "", primary).strip()
+    return re.sub(r"\s+(?:19|20)\d{2}\b", "", primary).strip()
 
 
 def text_only(value: str) -> str:
@@ -198,7 +198,7 @@ def card_publication_date(
         return {"value": preferred[-1], "label": preferred_label}
 
     if is_accepted:
-        venue_year = re.search(r"\b(20\d{2})\b", " ".join(venues))
+        venue_year = re.search(r"\b((?:19|20)\d{2})\b", " ".join(venues))
         if venue_year:
             return {"value": venue_year.group(1), "label": "接收年份"}
 
@@ -482,7 +482,7 @@ def accepted_venue_group(paper: dict[str, Any]) -> str | None:
 
 def publication_year(paper: dict[str, Any]) -> int:
     venue_text = " ".join(paper.get("venues") or [])
-    match = re.search(r"\b(20\d{2})\b", venue_text)
+    match = re.search(r"\b((?:19|20)\d{2})\b", venue_text)
     if match:
         return int(match.group(1))
     return int(str(paper.get("first_seen", dt.date.today().isoformat()))[:4])

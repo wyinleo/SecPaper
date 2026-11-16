@@ -23,6 +23,14 @@ class VenueSeriesTest(unittest.TestCase):
         self.assertEqual(build.venue_series_name(["arXiv"]), "arXiv")
         self.assertEqual(build.venue_series_name([]), "其他 / 未标注")
 
+    def test_pre_2000_publication_keeps_its_historical_year(self):
+        paper = {"venues": ["ACM POPL 1999"], "first_seen": "2026-11-16"}
+        self.assertEqual(build.publication_year(paper), 1999)
+        self.assertEqual(build.venue_series_name(paper["venues"]), "ACM POPL")
+        graph = build.build_payload()["academic"]
+        jflow = next(p for p in graph["publications"] if p["id"] == "popl99-myers-jflow")
+        self.assertEqual(jflow["year"], 1999)
+
     def test_payload_uses_one_neurips_and_ccs_label(self):
         payload = build.build_payload()
         labels = {

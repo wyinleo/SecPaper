@@ -1,5 +1,5 @@
 {
-  "version": "1.10.3",
+  "version": "1.10.4",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -373,7 +373,11 @@
     "secure-computation": {"label": "安全计算", "facet": "object"},
     "memory-management": {"label": "内存管理", "facet": "method"},
     "content-obliviousness": {"label": "内容无关访问", "facet": "method"},
-    "dynamic-binary-instrumentation": {"label": "动态二进制插桩", "facet": "method"}
+    "dynamic-binary-instrumentation": {"label": "动态二进制插桩", "facet": "method"},
+    "encrypted-storage": {"label": "加密存储", "facet": "object"},
+    "access-pattern-leakage": {"label": "访问模式泄漏", "facet": "problem"},
+    "oblivious-ram": {"label": "不经意存储访问", "facet": "method"},
+    "reflection-analysis": {"label": "反射分析", "facet": "method"}
   },
   "primary_domain_overrides": {
     "usenix-sec26-kim-agentic": "ai-security",
@@ -532,6 +536,13 @@
     "iclr25-andriushchenko-agentharm": "ai-security",
     "usenix-sec20-poeplau-symcc": "software-application-security",
     "osdi26-xie-iland": "mobile-iot-security",
-    "satml26-debenedetti-camel": "ai-security"
+    "satml26-debenedetti-camel": "ai-security",
+    "sp20-aschermann-ijon": "software-application-security",
+    "ccs13-stefanov-path-oram": "identity-privacy",
+    "usenix-sec18-yun-qsym": "software-application-security",
+    "pldi14-arzt-flowdroid": "mobile-iot-security",
+    "issta16-li-droidra": "mobile-iot-security",
+    "iclr24-liu-autodan": "ai-security",
+    "icml24-mazeika-harmbench": "ai-security"
   }
 }

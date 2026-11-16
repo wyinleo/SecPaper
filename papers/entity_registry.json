@@ -1,5 +1,5 @@
 {
-  "version": "1.12.3",
+  "version": "1.12.4",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -234,7 +234,11 @@
     "阿里巴巴集团": {"id": "alibaba-group", "display_name": "阿里巴巴集团", "language": "zh", "aliases": ["Alibaba Group"], "source": "https://ali-home.alibaba.com/about-alibaba"},
     "Google DeepMind": {"id": "google-deepmind", "display_name": "Google DeepMind", "language": "en", "source": "https://deepmind.google/about/"},
     "University of Zagreb": {"id": "university-zagreb", "display_name": "University of Zagreb", "language": "en", "country_code": "HRV", "source": "https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/"},
-    "Faculty of Electrical Engineering and Computing, University of Zagreb": {"id": "fer-university-zagreb", "display_name": "Faculty of Electrical Engineering and Computing, University of Zagreb", "language": "en", "country_code": "HRV", "source": "https://www.fer.unizg.hr/en/about/general_info", "parent_id": "university-zagreb", "parent_source": "https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/"}
+    "Faculty of Electrical Engineering and Computing, University of Zagreb": {"id": "fer-university-zagreb", "display_name": "Faculty of Electrical Engineering and Computing, University of Zagreb", "language": "en", "country_code": "HRV", "source": "https://www.fer.unizg.hr/en/about/general_info", "parent_id": "university-zagreb", "parent_source": "https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/"},
+    "University of Connecticut": {"id": "university-of-connecticut", "country_code": "USA", "display_name": "University of Connecticut", "language": "en", "source": "https://uconn.edu/"},
+    "University of Maryland": {"id": "university-of-maryland", "country_code": "USA", "display_name": "University of Maryland", "language": "en", "source": "https://umd.edu/"},
+    "Pennsylvania State University": {"id": "pennsylvania-state-university", "country_code": "USA", "display_name": "Pennsylvania State University", "language": "en", "source": "https://www.psu.edu/"},
+    "University of Wisconsin–Madison": {"id": "university-of-wisconsinmadison", "country_code": "USA", "display_name": "University of Wisconsin–Madison", "language": "en", "source": "https://www.wisc.edu/"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1003,7 +1007,41 @@
     "Daniel Fabian": {"id": "daniel-fabian", "display_name": "Daniel Fabian", "publication_name": "Daniel Fabian", "language": "en", "source": "https://satml.org/2026/accepted-papers/"},
     "Christoph Kern": {"id": "christoph-kern", "display_name": "Christoph Kern", "publication_name": "Christoph Kern", "language": "en", "source": "https://satml.org/2026/accepted-papers/"},
     "Chongyang Shi": {"id": "chongyang-shi", "display_name": "Chongyang Shi", "publication_name": "Chongyang Shi", "language": "en", "source": "https://chongya.ng/", "homepage": "https://chongya.ng/"},
-    "Andreas Terzis": {"id": "andreas-terzis", "display_name": "Andreas Terzis", "publication_name": "Andreas Terzis", "language": "en", "source": "https://aterzis-personal.github.io/aterzis/", "homepage": "https://aterzis-personal.github.io/aterzis/"}
+    "Andreas Terzis": {"id": "andreas-terzis", "display_name": "Andreas Terzis", "publication_name": "Andreas Terzis", "language": "en", "source": "https://aterzis-personal.github.io/aterzis/", "homepage": "https://aterzis-personal.github.io/aterzis/"},
+    "Cornelius Aschermann": {"id": "cornelius-aschermann", "display_name": "Cornelius Aschermann", "publication_name": "Cornelius Aschermann", "language": "en", "source": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"},
+    "Sergej Schumilo": {"id": "sergej-schumilo", "display_name": "Sergej Schumilo", "publication_name": "Sergej Schumilo", "language": "en", "source": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"},
+    "Emil Stefanov": {"id": "emil-stefanov", "display_name": "Emil Stefanov", "publication_name": "Emil Stefanov", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Marten van Dijk": {"id": "marten-van-dijk", "display_name": "Marten van Dijk", "publication_name": "Marten van Dijk", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Elaine Shi": {"id": "elaine-shi", "display_name": "Elaine Shi", "publication_name": "Elaine Shi", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Christopher Fletcher": {"id": "christopher-fletcher", "display_name": "Christopher Fletcher", "publication_name": "Christopher Fletcher", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Ling Ren": {"id": "ling-ren", "display_name": "Ling Ren", "publication_name": "Ling Ren", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Xiangyao Yu": {"id": "xiangyao-yu", "display_name": "Xiangyao Yu", "publication_name": "Xiangyao Yu", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Srinivas Devadas": {"id": "srinivas-devadas", "display_name": "Srinivas Devadas", "publication_name": "Srinivas Devadas", "language": "en", "source": "https://doi.org/10.1145/2508859.2516660"},
+    "Sangho Lee": {"id": "sangho-lee", "display_name": "Sangho Lee", "publication_name": "Sangho Lee", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"},
+    "Yeongjin Jang": {"id": "yeongjin-jang", "display_name": "Yeongjin Jang", "publication_name": "Yeongjin Jang", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"},
+    "Taesoo Kim": {"id": "taesoo-kim", "display_name": "Taesoo Kim", "publication_name": "Taesoo Kim", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"},
+    "Steven Arzt": {"id": "steven-arzt", "display_name": "Steven Arzt", "publication_name": "Steven Arzt", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Siegfried Rasthofer": {"id": "siegfried-rasthofer", "display_name": "Siegfried Rasthofer", "publication_name": "Siegfried Rasthofer", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Christian Fritz": {"id": "christian-fritz", "display_name": "Christian Fritz", "publication_name": "Christian Fritz", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Eric Bodden": {"id": "eric-bodden", "display_name": "Eric Bodden", "publication_name": "Eric Bodden", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Alexandre Bartel": {"id": "alexandre-bartel", "display_name": "Alexandre Bartel", "publication_name": "Alexandre Bartel", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Yves Le Traon": {"id": "yves-le-traon", "display_name": "Yves Le Traon", "publication_name": "Yves Le Traon", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Damien Octeau": {"id": "damien-octeau", "display_name": "Damien Octeau", "publication_name": "Damien Octeau", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Patrick McDaniel": {"id": "patrick-mcdaniel", "display_name": "Patrick McDaniel", "publication_name": "Patrick McDaniel", "language": "en", "source": "https://ris.uni-paderborn.de/record/5189"},
+    "Li Li": {"id": "li-li", "display_name": "Li Li", "publication_name": "Li Li", "language": "en", "source": "https://lilicoding.github.io/index.html", "homepage": "https://lilicoding.github.io/index.html"},
+    "Xiaogeng Liu": {"id": "xiaogeng-liu", "display_name": "刘晓耕", "publication_name": "Xiaogeng Liu", "language": "zh", "source": "https://xiaogeng-liu.com/", "homepage": "https://xiaogeng-liu.com/"},
+    "Nan Xu": {"id": "nan-xu", "display_name": "Nan Xu", "publication_name": "Nan Xu", "language": "en", "source": "https://sites.google.com/site/xunannancy/home", "homepage": "https://sites.google.com/site/xunannancy/home"},
+    "Muhao Chen": {"id": "muhao-chen", "display_name": "Muhao Chen", "publication_name": "Muhao Chen", "language": "en", "source": "https://muhaochen.github.io/", "homepage": "https://muhaochen.github.io/"},
+    "Chaowei Xiao": {"id": "chaowei-xiao", "display_name": "Chaowei Xiao", "publication_name": "Chaowei Xiao", "language": "en", "source": "https://xiaocw11.github.io/", "homepage": "https://xiaocw11.github.io/"},
+    "Mantas Mazeika": {"id": "mantas-mazeika", "display_name": "Mantas Mazeika", "publication_name": "Mantas Mazeika", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Long Phan": {"id": "long-phan", "display_name": "Long Phan", "publication_name": "Long Phan", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Xuwang Yin": {"id": "xuwang-yin", "display_name": "Xuwang Yin", "publication_name": "Xuwang Yin", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Zifan Wang": {"id": "zifan-wang", "display_name": "Zifan Wang", "publication_name": "Zifan Wang", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Norman Mu": {"id": "norman-mu", "display_name": "Norman Mu", "publication_name": "Norman Mu", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Elham Sakhaee": {"id": "elham-sakhaee", "display_name": "Elham Sakhaee", "publication_name": "Elham Sakhaee", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Nathaniel Li": {"id": "nathaniel-li", "display_name": "Nathaniel Li", "publication_name": "Nathaniel Li", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Steven Basart": {"id": "steven-basart", "display_name": "Steven Basart", "publication_name": "Steven Basart", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "David Forsyth": {"id": "david-forsyth", "display_name": "David Forsyth", "publication_name": "David Forsyth", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

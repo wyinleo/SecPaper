@@ -1,5 +1,7 @@
 # 2026-W45 来源覆盖与核验记录
 
+> 2026-11-16 补齐修订：原先每期三篇的编辑范围理由已撤回；本次在既有三篇上补七篇，按约十篇目标重新执行三阶段。下方原记录保留作审计历史，当前进度与结论以文末“十篇补齐”记录为准。
+
 原窗口为 2026-10-27—11-02；实际补刊与外部回查日期为 2026-11-16。以下记录不表示这些论文在该窗口首次发表。执行计划依次为检索、正文精读与同步 Easycatch、维护验证与发布；本期线上核验通过后才处理 W46。
 
 ## 用户改动保护
@@ -114,3 +116,67 @@ MCPTox 官方 AAAI 文章页显示 Published 2026-03-14；已修正 W44 原卡�
 第三阶段发布前检查：历史逐项回查、实体登记、稳定学者 ID、日期与名词解释边界、Easycatch 来源摘要、构建与检查、计数与关系覆盖、实际交互、用户改动保护九项均通过。发布 SHA、推送结果、Pages 工作流和线上核验在本次自动化最终报告及 memory 中记录，以实际结果为准。
 
 首次推送被远端 `c232be0` 拒绝；核对该提交只改流量历史和流量图后，安全 rebase 并恢复用户改动，二进制补丁仍一致。随后按最新流量历史重建并再次通过检查，不覆盖远端统计。
+
+## 十篇补齐：第一阶段重新执行
+
+本轮开始保留七处用户改动，完整二进制补丁快照为临时工作文件；未修改或暂存这些文件。执行计划为 W45、W46、W47，每期严格依次完成检索、原文精读与 Easycatch、维护验证及发布；当前只开始 W45，后两期尚未进入正式阶段。
+
+重新读取 01-discovery、157 条索引、3 条观察清单、14 行业来源、73 条行业记录、当前最新 W47 周报与本期原 inquiry。按原期次统计 W41—W44，安全 16（40%）、软件与系统 12（30%）、AI 12（30%）；会议为 CCS 4、NDSS 6、USENIX Security 4、S&P 2，ISSTA 2、ASE 2、FSE 3、PLDI/POPL/OSDI/OOPSLA/ICSE 各 1，ACL/ICML/CVPR/AAAI 各 2、NeurIPS 3、ICCV 1。优先补 CCS/S&P、软件与 AI 细分来源。
+
+本轮从 CCS 开始安全组、ISSTA 开始软件组、ICLR 开始 AI 组，扫描全部 21 个会议与 arXiv；行业 14 个入口全部尝试。当前目标为已有 SAGA/UCSan/AgentDojo 加七篇，下表完成后合计安全 4、软件系统 3、AI 3；安全组四个会议各一篇，无调剂缺额。七篇均为明确标识的历史基线，保留文献原时间，不称近期首次发表。
+
+| 本轮推进项 | 来源、正文与选择原因 | 候选/新增目标 |
+| --- | --- | --- |
+| IJON | IEEE S&P 2020，DOI 10.1109/SP40000.2020.00117，CISPA 正式研究记录与作者完整 16 页 PDF；补人工引导模糊测试 | 1/1 |
+| Path ORAM | CCS 2013，DOI 10.1145/2508859.2516660；ACM 正式集与完整 12 页论文，补访问模式隐私 | 1/1 |
+| QSYM | USENIX Security 2018 官方页与 18 页正式 PDF，补混合符号执行执行组件 | 1/1 |
+| FlowDroid | PLDI 2014，DOI 10.1145/2594291.2594299；大学研究库及作者 11 页论文，补生命周期感知污点分析 | 1/1 |
+| DroidRA | ISSTA 2016，DOI 10.1145/2931037.2931044；University of Luxembourg 机构库及 12 页作者版，补反射静态分析；与 2016 ASE 工具演示、2021 TOSEM 扩展版区分 | 1/1 |
+| AutoDAN | ICLR 2024 正式论文集及 21 页 PDF，精确题目 Generating Stealthy Jailbreak Prompts；与同名 Automatic and Interpretable 论文分开 | 1/1 |
+| HarmBench | ICML 2024 PMLR 235 正式记录与 arXiv 作者完整 44 页正文；补统一红队评测及拒绝能力，PMLR PDF 被验证页阻断不等于无正文 | 1/1 |
+
+其余会议继续扫描，不因达到七篇停止：NDSS/OSDI、FSE/POPL/OOPSLA/ICSE、AAAI/NeurIPS/ACL/CVPR/ICCV/ICML 目录或具体条目可达；SOSP/FM 可达但未推进其他正文；PLDI、ISSTA、ASE、FSE 大页面此次超时，以对应正式单篇与机构原文作替代；CCS 当前页静态标题提取为空，以 ACM 原论文集核验。未推进的项目仍为原记录的候选或重复项，不能将“未选”写成“没有论文”。
+
+行业池仍为原表 14 源：Project Zero、GTIG 超时，Microsoft/Talos/OpenAI/Gartner 403，Forrester 超时；Unit 42、玄武、科恩、Anthropic、NIST、CISA、IDC 可达；Microsoft/Talos 官方 RSS 为替代入口。复查原记录的至少五项初筛候选（NIST 后量子、Unit 42 PHP2Shell，以及 Forrester 的 AI Agents、eMudhra、Endpoint 等文章）与当期日期、URL 去重；此次不为增加论文数而重复增加行业观点，W45 两项既有全文分析保留，2 条已符合行业 2—5 条范围。未出现能够新增且已经完成正文分析的行业记录。
+
+四级去重对全部 157 条索引检查：七篇 DOI、arXiv ID、正式 URL、规范题目均无命中。两项 ISSTA 2026 未公开正文项目在本轮实际日期已查过、下一目标 W48，W45 补齐不倒改它们为到期或编写摘要事实；综述 W50 同理。
+
+可靠入口：[IJON](https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing)、[QSYM](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)、[Path ORAM](https://doi.org/10.1145/2508859.2516660)、[FlowDroid](https://ris.uni-paderborn.de/record/5189)、[DroidRA](https://orbilu.uni.lu/handle/10993/27761)、[AutoDAN](https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html)、[HarmBench](https://proceedings.mlr.press/v235/mazeika24a.html)。
+
+第一阶段完成检查：九项全部通过——事实输入重读、四级去重、正式身份、预印边界、七篇完整正文、观察清单原因与目标、候选明确、近四期/轮换/完整来源覆盖与配额、未据摘要写分析。进入第二阶段。
+
+
+### 十篇补齐：第二阶段检查
+
+新增精读：IJON、Path ORAM、QSYM、FlowDroid、DroidRA、AutoDAN、HarmBench。依次阅读对应全文的引言、方法、算法/案例、实验及局限，在临时阅读记录先完成八项推理和两段 Easycatch，随后写入周报与唯一源文件；未从卡片反推 Easycatch。
+
+- [x] 七篇均有完整正文，分别使用会议、作者或机构保存的论文；DroidRA 作者稿页脚占位 DOI 不作为身份依据，正式身份以卢森堡大学记录及 DOI 为准。
+- [x] 十篇均有顺序一致的十四字段，每篇 1—5 条名词解释。
+- [x] 新增七篇 Easycatch 已与原文同步写入，修订号 1、skill version 4，一致性摘要在精读完成后计算。
+- [x] 方法解释输入、步骤与输出，示例注明论文案例或整理者归纳。
+- [x] 数字附样本与条件：Path ORAM 区分证明和外推，QSYM 不混用摘要/表格和跨机器倍数，FlowDroid 不把流报告视为恶意，AutoDAN 明示未加系统提示，HarmBench 明示尝试行为标准。
+- [x] 仅使用正式会议接收状态，时间线保留真实发表时间。
+- [x] 主领域显式映射；先登记四个受控标签，再写入论文索引。
+- [x] 署名与单位据正文。刘晓耕中文由本人主页 https://xiaogeng-liu.com/ 明确对应；其他未核实中文保持英文。
+- [x] DOI / arXiv / URL / 标题去重，七篇无重复。两篇缺正文观察项继续在 W48 队列。
+- [x] 原有两条行业观点证据字段完整，本轮不增加没有独立正文证据的行业条目。
+
+待核验姓名：Li Li、Ling Ren、Xiangyao Yu、Meng Xu、Nan Xu、Muhao Chen、Chaowei Xiao、Long Phan、Xuwang Yin、Zifan Wang、Norman Mu、Nathaniel Li、Bo Li 等暂保留论文拉丁署名。Li Li 的作者主页与 DroidRA 作品已对应，但搜索到的中文线索尚不足以据此统一中文姓名；不能凭拼音选择汉字。主页与论文发表时单位分开处理。
+
+正文差异：QSYM 摘要 LAVA 总数与表 6 加总相差 1，CGC 平局文字与其他项加总不一致；精读不引用这些冲突合计。DroidRA 真实应用段落出现 100 / 91 样本量差异，故不引用统一耗时结论。HarmBench 当前可读完整文本是作者 arXiv v2，接收身份由 PMLR 正式页独立证明，未将后续在线榜单混入该版本。
+
+
+### 十篇补齐：第三阶段验证
+
+2026-11-16 再次全量加载实体、分类、索引、Easycatch、本期周报、inquiry、构建器与 Pages 工作流。八个预印/工作坊风险条目的 arXiv 正文入口、comments、journal reference 和 DOI 已逐项回查；除此前已经记录的 Not an A11y 工作坊出版外，未发现可确认的新身份升级，不重复建项。Adaptive Adversaries 仍是 workshop，不能计入主会。
+
+- [x] 历史风险清单逐项回查，既有状态保留，无新增状态修正。
+- [x] 实体表完整读取；新增 34 个稳定学者实体、4 个已核验大学。论文签名与单位按发表时正文，主页不替换历史单位。
+- [x] 164/164 论文有单位作者覆盖；关系图 797 位学者、219 家归并单位、342 条合作记录，recent_papers 均不超过三条。
+- [x] 十篇均含十四字段与有效 Easycatch；无缺失、过期摘要或事后由卡片生成。
+- [x] 分类表 1.10.4、实体表 1.12.4，十篇单一主领域且来源配额 4/3/3。
+- [x] 构建 --check 与正式构建通过；164 篇论文及精读、6 主领域、73 行业观点。
+- [x] 20 项 Python、5 项 JavaScript 验证通过。
+- [x] 本地 Chrome 验证论文作者、学者最近论文、排名、返回、单弹层循环、日期、详情名词解释与三入口；无页面 JS 错误。
+- [x] 七个运行前用户修改文件的 binary diff 与快照逐字节一致，提交按文件白名单暂存。
+- 发布门：仅在本地验证完成后提交推送；实际 SHA、Pages run 和线上十篇检查另由本次发布记录与自动化 memory 保存，成功核验后才进入 W46。

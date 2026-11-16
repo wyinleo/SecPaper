@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T17:15:06+08:00",
+  "generated_at": "2026-11-16T20:29:38+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 157,
-    "papers_with_affiliations": 157,
-    "scored_top_venue_papers": 137
+    "indexed_papers": 164,
+    "papers_with_affiliations": 164,
+    "scored_top_venue_papers": 142
   },
   "categories": [
     {
@@ -25,7 +25,11 @@
     "2026",
     "2025",
     "2024",
-    "2020"
+    "2020",
+    "2018",
+    "2016",
+    "2014",
+    "2013"
   ],
   "institutions": [
     {
@@ -206,6 +210,136 @@
       "verified_score": 7
     },
     {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "arxiv-2607-18575-receipt",
+        "ase26-ni-triage-nodejs",
+        "ccs13-stefanov-path-oram",
+        "icml24-mazeika-harmbench",
+        "neurips25-nie-secodeplt",
+        "osdi26-cottone-acumen",
+        "osdi26-liu-osprey",
+        "usenix-sec26-kim-agentic",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "scholars": [
+        "Alice Yeh",
+        "Conor Power",
+        "Darya Kaviani",
+        "David Wagner",
+        "Dawn Song",
+        "Emil Stefanov",
+        "Evelyn Koo",
+        "Hao Wang",
+        "Juhee Kim",
+        "Karen Shieh",
+        "Kevin Cheang",
+        "Koushik Sen",
+        "Muxi Lyu",
+        "Natacha Crooks",
+        "Nathaniel Li",
+        "Norman Mu",
+        "Raluca Ada Popa",
+        "Will Giorza",
+        "Yiwei Hou",
+        "Zhun Wang"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 6
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "ase26-ni-triage-nodejs",
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "ieee-sp26-liu-generate-verify",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition",
+        "popl26-gouni-security-reasoning"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Darion Cassel",
+        "Eileen Xiao",
+        "Frank Pfenning",
+        "Fraser Brown",
+        "Hemant Gouni",
+        "J. Zico Kolter",
+        "Jonathan Aldrich",
+        "Limin Jia",
+        "Matt Fredrikson",
+        "Min-Chien Hsu",
+        "Nuno Sabino",
+        "Ping-Lun Wang",
+        "Pratiksha Thaker",
+        "Riad S. Wahby",
+        "Riccardo Paccagnella",
+        "Ronghao Ni",
+        "Ruben Martins",
+        "Terrance Liu",
+        "Zhiwei Steven Wu",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 6
+    },
+    {
       "id": "nanyang-technological-university",
       "name": "Nanyang Technological University",
       "country_code": "SGP",
@@ -302,61 +436,6 @@
       "verified_score": 6
     },
     {
-      "id": "carnegie-mellon-university",
-      "name": "Carnegie Mellon University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Carnegie Mellon University"
-      ],
-      "papers": [
-        "ase26-ni-triage-nodejs",
-        "iclr25-andriushchenko-agentharm",
-        "ieee-sp26-liu-generate-verify",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition",
-        "popl26-gouni-security-reasoning"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Darion Cassel",
-        "Eileen Xiao",
-        "Frank Pfenning",
-        "Fraser Brown",
-        "Hemant Gouni",
-        "J. Zico Kolter",
-        "Jonathan Aldrich",
-        "Limin Jia",
-        "Matt Fredrikson",
-        "Min-Chien Hsu",
-        "Nuno Sabino",
-        "Ping-Lun Wang",
-        "Pratiksha Thaker",
-        "Riad S. Wahby",
-        "Riccardo Paccagnella",
-        "Ronghao Ni",
-        "Ruben Martins",
-        "Terrance Liu",
-        "Zhiwei Steven Wu",
-        "Zico Kolter"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 0,
-          "total": 2
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 5
-    },
-    {
       "id": "ruhr-university-bochum",
       "name": "Ruhr University Bochum",
       "country_code": "DEU",
@@ -366,11 +445,14 @@
       "papers": [
         "ccs25-baumer-ssh-strict-kex",
         "ieee-sp26-wang-transient-architectural-execution",
+        "sp20-aschermann-ijon",
         "usenix-sec26-bach-webrtc",
         "usenix-sec26-jannett-passkeys",
         "usenix-sec26-merget-opossum"
       ],
       "scholars": [
+        "Ali Abbasi",
+        "Cornelius Aschermann",
         "Fabian Bäumer",
         "Jörg Schwenk",
         "Louis Jannett",
@@ -378,10 +460,18 @@
         "Marcel Maehren",
         "Marcus Brinkmann",
         "Nurullah Erinola",
+        "Sergej Schumilo",
+        "Thorsten Holz",
         "Vladislav Mladenov",
         "Yuval Yarom"
       ],
       "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
         "2026": {
           "security": 4,
           "software": 0,
@@ -395,58 +485,7 @@
           "total": 1
         }
       },
-      "verified_score": 5
-    },
-    {
-      "id": "uc-berkeley",
-      "name": "University of California, Berkeley",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "arxiv-2607-18575-receipt",
-        "ase26-ni-triage-nodejs",
-        "neurips25-nie-secodeplt",
-        "osdi26-cottone-acumen",
-        "osdi26-liu-osprey",
-        "usenix-sec26-kim-agentic",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "scholars": [
-        "Alice Yeh",
-        "Conor Power",
-        "Darya Kaviani",
-        "David Wagner",
-        "Dawn Song",
-        "Evelyn Koo",
-        "Hao Wang",
-        "Juhee Kim",
-        "Karen Shieh",
-        "Kevin Cheang",
-        "Koushik Sen",
-        "Muxi Lyu",
-        "Natacha Crooks",
-        "Raluca Ada Popa",
-        "Will Giorza",
-        "Yiwei Hou",
-        "Zhun Wang"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 4
+      "verified_score": 6
     },
     {
       "id": "northeastern-university",
@@ -486,6 +525,56 @@
       "verified_score": 4
     },
     {
+      "id": "uiuc",
+      "name": "University of Illinois Urbana-Champaign",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "arxiv-2607-05120-agent-data-injection",
+        "icml24-mazeika-harmbench",
+        "ieee-sp26-zhai-revelio",
+        "neurips25-lee-sec-bench",
+        "neurips25-nie-secodeplt"
+      ],
+      "scholars": [
+        "Bo Li",
+        "David Forsyth",
+        "Gang Wang",
+        "Haoyu Zhai",
+        "Hwiwon Lee",
+        "Lingming Zhang",
+        "Luyi Xing",
+        "Mantas Mazeika",
+        "Pirouz Naghavi",
+        "Qingying Hao",
+        "Shuo Wang",
+        "Ziqi Zhang"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 1,
+          "total": 2
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "duke-university",
       "name": "Duke University",
       "country_code": "USA",
@@ -514,6 +603,45 @@
           "software": 0,
           "ai": 1,
           "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "country_code": "USA",
+      "affiliation_names": [
+        "MIT Computer Science and Artificial Intelligence Laboratory",
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram",
+        "icml26-ye-role-confusion",
+        "ieee-sp26-trujillo-register-hiding",
+        "usenix-sec26-trujillo-tontou"
+      ],
+      "scholars": [
+        "Christopher Fletcher",
+        "Daniël Trujillo",
+        "Dylan Hadfield-Menell",
+        "Ling Ren",
+        "Mengjia Yan",
+        "Srinivas Devadas",
+        "Xiangyao Yu"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 1,
+          "total": 3
         }
       },
       "verified_score": 4
@@ -703,47 +831,6 @@
       "verified_score": 3
     },
     {
-      "id": "uiuc",
-      "name": "University of Illinois Urbana-Champaign",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Illinois Urbana-Champaign"
-      ],
-      "papers": [
-        "arxiv-2607-05120-agent-data-injection",
-        "ieee-sp26-zhai-revelio",
-        "neurips25-lee-sec-bench",
-        "neurips25-nie-secodeplt"
-      ],
-      "scholars": [
-        "Bo Li",
-        "Gang Wang",
-        "Haoyu Zhai",
-        "Hwiwon Lee",
-        "Lingming Zhang",
-        "Luyi Xing",
-        "Pirouz Naghavi",
-        "Qingying Hao",
-        "Shuo Wang",
-        "Ziqi Zhang"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 1,
-          "total": 2
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 3
-    },
-    {
       "id": "university-oxford",
       "name": "University of Oxford",
       "country_code": "GBR",
@@ -805,6 +892,44 @@
           "software": 0,
           "ai": 0,
           "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "georgia-tech",
+      "name": "Georgia Institute of Technology",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Georgia Institute of Technology"
+      ],
+      "papers": [
+        "ieee-sp26-ersoy-dark-patterns",
+        "usenix-sec18-yun-qsym",
+        "usenix-sec26-kumar-tile"
+      ],
+      "scholars": [
+        "Akshaya Kumar",
+        "Anna Raymaker",
+        "Insu Yun",
+        "Meng Xu",
+        "Michael A. Specter",
+        "Muhammad Ibrahim",
+        "Sangho Lee",
+        "Taesoo Kim"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
         }
       },
       "verified_score": 3
@@ -911,34 +1036,6 @@
           "security": 3,
           "software": 0,
           "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "mit",
-      "name": "Massachusetts Institute of Technology",
-      "country_code": "USA",
-      "affiliation_names": [
-        "MIT Computer Science and Artificial Intelligence Laboratory",
-        "Massachusetts Institute of Technology"
-      ],
-      "papers": [
-        "icml26-ye-role-confusion",
-        "ieee-sp26-trujillo-register-hiding",
-        "usenix-sec26-trujillo-tontou"
-      ],
-      "scholars": [
-        "Daniël Trujillo",
-        "Dylan Hadfield-Menell",
-        "Mengjia Yan"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 1,
           "total": 3
         }
       },
@@ -1231,6 +1328,43 @@
       "verified_score": 3
     },
     {
+      "id": "center-ai-safety",
+      "name": "Center for AI Safety",
+      "country_code": "",
+      "affiliation_names": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Dan Hendrycks",
+        "Long Phan",
+        "Nathaniel Li",
+        "Steven Basart",
+        "Xuwang Yin",
+        "Zifan Wang"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "imperial-global-singapore",
       "name": "Imperial Global Singapore",
       "country_code": "SGP",
@@ -1282,6 +1416,43 @@
           "software": 2,
           "ai": 0,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-luxembourg",
+      "name": "University of Luxembourg",
+      "country_code": "LUX",
+      "affiliation_names": [
+        "University of Luxembourg"
+      ],
+      "papers": [
+        "issta16-li-droidra",
+        "issta26-alecci-secrets-unlocked",
+        "pldi14-arzt-flowdroid"
+      ],
+      "scholars": [
+        "Alexandre Bartel",
+        "Jacques Klein",
+        "Jordan Samhi",
+        "Li Li",
+        "Marco Alecci",
+        "Tegawendé F. Bissyandé",
+        "Yves Le Traon"
+      ],
+      "annual_scores": {
+        "2016": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -1374,33 +1545,6 @@
       "verified_score": 2
     },
     {
-      "id": "georgia-tech",
-      "name": "Georgia Institute of Technology",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Georgia Institute of Technology"
-      ],
-      "papers": [
-        "ieee-sp26-ersoy-dark-patterns",
-        "usenix-sec26-kumar-tile"
-      ],
-      "scholars": [
-        "Akshaya Kumar",
-        "Anna Raymaker",
-        "Michael A. Specter",
-        "Muhammad Ibrahim"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "ibm-research-europe",
       "name": "IBM Research Europe",
       "country_code": "CHE",
@@ -1425,6 +1569,69 @@
           "software": 0,
           "ai": 0,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "microsoft-corporation",
+      "name": "Microsoft Corporation",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Microsoft Corporation"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench",
+        "usenix-sec26-ling-swhisper"
+      ],
+      "scholars": [
+        "Bin Benjamin Zhu",
+        "Dongmei Zhang",
+        "Elham Sakhaee"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "oregon-state-university",
+      "name": "Oregon State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Oregon State University"
+      ],
+      "papers": [
+        "ieee-sp26-lee-site-isolation",
+        "usenix-sec18-yun-qsym"
+      ],
+      "scholars": [
+        "Sanghyun Hong",
+        "Yeongjin Jang"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -1964,31 +2171,6 @@
       "verified_score": 2
     },
     {
-      "id": "center-ai-safety",
-      "name": "Center for AI Safety",
-      "country_code": "",
-      "affiliation_names": [
-        "Center for AI Safety"
-      ],
-      "papers": [
-        "iclr25-andriushchenko-agentharm",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Dan Hendrycks"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "concordia-university",
       "name": "Concordia University",
       "country_code": "CAN",
@@ -2045,6 +2227,31 @@
       ],
       "annual_scores": {
         "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "pennsylvania-state-university",
+      "name": "Pennsylvania State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "issta16-li-droidra",
+        "pldi14-arzt-flowdroid"
+      ],
+      "scholars": [
+        "Damien Octeau",
+        "Patrick McDaniel"
+      ],
+      "annual_scores": {
+        "2016": {
           "security": 0,
           "software": 1,
           "ai": 0,
@@ -2116,6 +2323,59 @@
       "verified_score": 1
     },
     {
+      "id": "tu-darmstadt",
+      "name": "TU Darmstadt",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "TU Darmstadt"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid",
+        "usenix-sec26-bach-webrtc"
+      ],
+      "scholars": [
+        "Christian Fritz",
+        "Eric Bodden",
+        "Siegfried Rasthofer",
+        "Steven Arzt",
+        "Vukašin Karadžić"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "uc-davis",
+      "name": "University of California, Davis",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "iclr24-liu-autodan",
+        "usenix-sec25-liu-agentfuzz"
+      ],
+      "scholars": [
+        "Hao Chen",
+        "Muhao Chen"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "university-california-irvine",
       "name": "University of California, Irvine",
       "country_code": "USA",
@@ -2159,6 +2419,31 @@
         "Yicheng Liu",
         "Ying Li",
         "Yuan Tian"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-southern-california",
+      "name": "University of Southern California",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Southern California"
+      ],
+      "papers": [
+        "iclr24-liu-autodan",
+        "ieee-sp26-chen-compiler-backdoor"
+      ],
+      "scholars": [
+        "Nan Xu",
+        "Yixin He"
       ],
       "annual_scores": {
         "2026": {
@@ -3207,30 +3492,6 @@
       "verified_score": 1
     },
     {
-      "id": "microsoft-corporation",
-      "name": "Microsoft Corporation",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Microsoft Corporation"
-      ],
-      "papers": [
-        "usenix-sec26-ling-swhisper"
-      ],
-      "scholars": [
-        "Bin Benjamin Zhu",
-        "Dongmei Zhang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "mbzuai",
       "name": "Mohamed bin Zayed University of Artificial Intelligence",
       "country_code": "ARE",
@@ -3526,29 +3787,6 @@
       "verified_score": 1
     },
     {
-      "id": "oregon-state-university",
-      "name": "Oregon State University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Oregon State University"
-      ],
-      "papers": [
-        "ieee-sp26-lee-site-isolation"
-      ],
-      "scholars": [
-        "Sanghyun Hong"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "paderborn-university",
       "name": "Paderborn University",
       "country_code": "DEU",
@@ -3819,29 +4057,6 @@
       "verified_score": 1
     },
     {
-      "id": "tu-darmstadt",
-      "name": "TU Darmstadt",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "TU Darmstadt"
-      ],
-      "papers": [
-        "usenix-sec26-bach-webrtc"
-      ],
-      "scholars": [
-        "Vukašin Karadžić"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "tel-aviv-university",
       "name": "Tel Aviv University",
       "country_code": "ISR",
@@ -4083,29 +4298,6 @@
       "verified_score": 1
     },
     {
-      "id": "uc-davis",
-      "name": "University of California, Davis",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Davis"
-      ],
-      "papers": [
-        "usenix-sec25-liu-agentfuzz"
-      ],
-      "scholars": [
-        "Hao Chen"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-central-florida",
       "name": "University of Central Florida",
       "country_code": "USA",
@@ -4147,6 +4339,29 @@
         "2025": {
           "security": 0,
           "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-connecticut",
+      "name": "University of Connecticut",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Connecticut"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "scholars": [
+        "Marten van Dijk"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -4274,25 +4489,22 @@
       "verified_score": 1
     },
     {
-      "id": "university-luxembourg",
-      "name": "University of Luxembourg",
-      "country_code": "LUX",
+      "id": "university-of-maryland",
+      "name": "University of Maryland",
+      "country_code": "USA",
       "affiliation_names": [
-        "University of Luxembourg"
+        "University of Maryland"
       ],
       "papers": [
-        "issta26-alecci-secrets-unlocked"
+        "ccs13-stefanov-path-oram"
       ],
       "scholars": [
-        "Jacques Klein",
-        "Jordan Samhi",
-        "Marco Alecci",
-        "Tegawendé F. Bissyandé"
+        "Elaine Shi"
       ],
       "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
+        "2013": {
+          "security": 1,
+          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -4433,29 +4645,6 @@
         "Xiao Han",
         "Yao Liu",
         "Zhuo Lu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "university-of-southern-california",
-      "name": "University of Southern California",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Southern California"
-      ],
-      "papers": [
-        "ieee-sp26-chen-compiler-backdoor"
-      ],
-      "scholars": [
-        "Yixin He"
       ],
       "annual_scores": {
         "2026": {
@@ -5658,6 +5847,23 @@
       "verified_score": 0
     },
     {
+      "id": "university-of-wisconsinmadison",
+      "name": "University of Wisconsin–Madison",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Wisconsin–Madison"
+      ],
+      "papers": [
+        "iclr24-liu-autodan"
+      ],
+      "scholars": [
+        "Chaowei Xiao",
+        "刘晓耕"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-zagreb",
       "name": "University of Zagreb",
       "country_code": "HRV",
@@ -5994,6 +6200,60 @@
       ]
     },
     {
+      "id": "ali-abbasi-cispa",
+      "name": "Ali Abbasi",
+      "publication_name": "Ali Abbasi",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "CISPA Helmholtz Center for Information Security",
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota",
+        "sp20-aschermann-ijon"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "sp20-aschermann-ijon",
+          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+          "year": 2020,
+          "venue": "IEEE S&P 2020",
+          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "antonio-bianchi-purdue",
       "name": "Antonio Bianchi",
       "publication_name": "Antonio Bianchi",
@@ -6288,6 +6548,60 @@
       ]
     },
     {
+      "id": "thorsten-holz-mpi-sp",
+      "name": "Thorsten Holz",
+      "publication_name": "Thorsten Holz",
+      "homepage": "",
+      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "institutions": [
+        "Max Planck Institute for Security and Privacy",
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-wang-anota",
+        "sp20-aschermann-ijon"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "ndss26-wang-anota",
+          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+        },
+        {
+          "id": "sp20-aschermann-ijon",
+          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+          "year": 2020,
+          "venue": "IEEE S&P 2020",
+          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
+        },
+        {
+          "id": "ieee-sp26-wang-smufuzz",
+          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "youkun-shi-fudan",
       "name": "Youkun Shi",
       "publication_name": "Youkun Shi",
@@ -6501,6 +6815,61 @@
       ]
     },
     {
+      "id": "andy-zou-gray-swan",
+      "name": "Andy Zou",
+      "publication_name": "Andy Zou",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Center for AI Safety",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
       "id": "byoungyoung-lee-snu",
       "name": "Byoungyoung Lee",
       "publication_name": "Byoungyoung Lee",
@@ -6544,6 +6913,60 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://doi.org/10.1109/SP63933.2026.00241"
+        }
+      ]
+    },
+    {
+      "id": "dan-hendrycks-cais",
+      "name": "Dan Hendrycks",
+      "publication_name": "Dan Hendrycks",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "institutions": [
+        "Center for AI Safety",
+        "Gray Swan AI"
+      ],
+      "papers": [
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "neurips25-zou-agent-red-team-competition"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+          "year": 2025,
+          "venue": "ICLR 2025",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+        },
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-2676"
         }
       ]
     },
@@ -6597,6 +7020,59 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
+      "id": "jacques-klein-luxembourg",
+      "name": "Jacques Klein",
+      "publication_name": "Jacques Klein",
+      "homepage": "",
+      "profile_source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
+      "institutions": [
+        "University of Luxembourg"
+      ],
+      "papers": [
+        "issta16-li-droidra",
+        "issta26-alecci-secrets-unlocked",
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {
+        "2016": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "issta16-li-droidra",
+          "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+          "year": 2016,
+          "venue": "ACM ISSTA 2016",
+          "url": "https://orbilu.uni.lu/handle/10993/27761"
+        },
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
+        },
+        {
+          "id": "issta26-alecci-secrets-unlocked",
+          "title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps",
+          "year": 2026,
+          "venue": "ISSTA 2026",
+          "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps"
         }
       ]
     },
@@ -6869,45 +7345,6 @@
       ]
     },
     {
-      "id": "ali-abbasi-cispa",
-      "name": "Ali Abbasi",
-      "publication_name": "Ali Abbasi",
-      "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
-      "institutions": [
-        "CISPA Helmholtz Center for Information Security"
-      ],
-      "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "ndss26-wang-anota"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "ndss26-wang-anota",
-          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
-          "year": 2026,
-          "venue": "NDSS 2026",
-          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
-        },
-        {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "amir-houmansadr-umass",
       "name": "Amir Houmansadr",
       "publication_name": "Amir Houmansadr",
@@ -7060,6 +7497,53 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "bo-li-uiuc-uchicago",
+      "name": "Bo Li",
+      "publication_name": "Bo Li",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.52202/085713-0447",
+      "institutions": [
+        "University of Chicago",
+        "University of Illinois Urbana-Champaign",
+        "VirtueAI"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench",
+        "neurips25-nie-secodeplt"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-0447"
         }
       ]
     },
@@ -7505,6 +7989,52 @@
       ]
     },
     {
+      "id": "insu-yun-kaist",
+      "name": "Insu Yun",
+      "publication_name": "Insu Yun",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765217",
+      "institutions": [
+        "Georgia Institute of Technology",
+        "KAIST"
+      ],
+      "papers": [
+        "ccs25-kim-jenga",
+        "usenix-sec18-yun-qsym"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+          "year": 2018,
+          "venue": "USENIX Security 2018",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
+        },
+        {
+          "id": "ccs25-kim-jenga",
+          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765217"
+        }
+      ]
+    },
+    {
       "id": "jiaqi-luo-fudan",
       "name": "Jiaqi Luo",
       "publication_name": "Jiaqi Luo",
@@ -7886,6 +8416,52 @@
       ]
     },
     {
+      "id": "meng-xu-waterloo",
+      "name": "Meng Xu",
+      "publication_name": "Meng Xu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2510.22396",
+      "institutions": [
+        "Georgia Institute of Technology",
+        "University of Waterloo"
+      ],
+      "papers": [
+        "ieee-sp26-li-portgpt",
+        "usenix-sec18-yun-qsym"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+          "year": 2018,
+          "venue": "USENIX Security 2018",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
+        },
+        {
+          "id": "ieee-sp26-li-portgpt",
+          "title": "PortGPT: Towards Automated Backporting Using Large Language Models",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "mengjia-yan-mit",
       "name": "Mengjia Yan",
       "publication_name": "Mengjia Yan",
@@ -8255,41 +8831,47 @@
       ]
     },
     {
-      "id": "thorsten-holz-mpi-sp",
-      "name": "Thorsten Holz",
-      "publication_name": "Thorsten Holz",
+      "id": "tegawende-bissyande-luxembourg",
+      "name": "Tegawendé F. Bissyandé",
+      "publication_name": "Tegawendé F. Bissyandé",
       "homepage": "",
-      "profile_source": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "profile_source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
       "institutions": [
-        "Max Planck Institute for Security and Privacy"
+        "University of Luxembourg"
       ],
       "papers": [
-        "ieee-sp26-wang-smufuzz",
-        "ndss26-wang-anota"
+        "issta16-li-droidra",
+        "issta26-alecci-secrets-unlocked"
       ],
       "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
+        "2016": {
+          "security": 0,
+          "software": 1,
           "ai": 0,
-          "total": 2
+          "total": 1
+        },
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2,
       "recent_papers": [
         {
-          "id": "ndss26-wang-anota",
-          "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
-          "year": 2026,
-          "venue": "NDSS 2026",
-          "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/"
+          "id": "issta16-li-droidra",
+          "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+          "year": 2016,
+          "venue": "ACM ISSTA 2016",
+          "url": "https://orbilu.uni.lu/handle/10993/27761"
         },
         {
-          "id": "ieee-sp26-wang-smufuzz",
-          "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+          "id": "issta26-alecci-secrets-unlocked",
+          "title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps",
           "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+          "venue": "ISSTA 2026",
+          "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps"
         }
       ]
     },
@@ -8768,22 +9350,20 @@
       ]
     },
     {
-      "id": "andy-zou-gray-swan",
-      "name": "Andy Zou",
-      "publication_name": "Andy Zou",
+      "id": "damien-octeau",
+      "name": "Damien Octeau",
+      "publication_name": "Damien Octeau",
       "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
       "institutions": [
-        "Carnegie Mellon University",
-        "Center for AI Safety",
-        "Gray Swan AI"
+        "Pennsylvania State University"
       ],
       "papers": [
-        "iclr25-andriushchenko-agentharm",
-        "neurips25-zou-agent-red-team-competition"
+        "issta16-li-droidra",
+        "pldi14-arzt-flowdroid"
       ],
       "annual_scores": {
-        "2025": {
+        "2016": {
           "security": 0,
           "software": 1,
           "ai": 0,
@@ -8793,58 +9373,18 @@
       "verified_score": 1,
       "recent_papers": [
         {
-          "id": "iclr25-andriushchenko-agentharm",
-          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
-          "year": 2025,
-          "venue": "ICLR 2025",
-          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
+          "id": "issta16-li-droidra",
+          "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+          "year": 2016,
+          "venue": "ACM ISSTA 2016",
+          "url": "https://orbilu.uni.lu/handle/10993/27761"
         },
         {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
-        }
-      ]
-    },
-    {
-      "id": "dan-hendrycks-cais",
-      "name": "Dan Hendrycks",
-      "publication_name": "Dan Hendrycks",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-2676",
-      "institutions": [
-        "Center for AI Safety",
-        "Gray Swan AI"
-      ],
-      "papers": [
-        "iclr25-andriushchenko-agentharm",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "iclr25-andriushchenko-agentharm",
-          "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
-          "year": 2025,
-          "venue": "ICLR 2025",
-          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"
-        },
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-2676"
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
         }
       ]
     },
@@ -10585,39 +11125,6 @@
       ]
     },
     {
-      "id": "bo-li-uiuc-uchicago",
-      "name": "Bo Li",
-      "publication_name": "Bo Li",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.52202/085713-0447",
-      "institutions": [
-        "University of Chicago",
-        "University of Illinois Urbana-Champaign",
-        "VirtueAI"
-      ],
-      "papers": [
-        "neurips25-nie-secodeplt"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-0447"
-        }
-      ]
-    },
-    {
       "id": "bofei-chen-fudan",
       "name": "Bofei Chen",
       "publication_name": "Bofei Chen",
@@ -11179,6 +11686,37 @@
       ]
     },
     {
+      "id": "christopher-fletcher",
+      "name": "Christopher Fletcher",
+      "publication_name": "Christopher Fletcher",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
       "id": "christopher-kruegel-ucsb",
       "name": "Christopher Kruegel",
       "publication_name": "Christopher Kruegel",
@@ -11268,6 +11806,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "cornelius-aschermann",
+      "name": "Cornelius Aschermann",
+      "publication_name": "Cornelius Aschermann",
+      "homepage": "",
+      "profile_source": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "sp20-aschermann-ijon"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp20-aschermann-ijon",
+          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+          "year": 2020,
+          "venue": "IEEE S&P 2020",
+          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
         }
       ]
     },
@@ -11609,6 +12178,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "david-forsyth",
+      "name": "David Forsyth",
+      "publication_name": "David Forsyth",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
         }
       ]
     },
@@ -12176,6 +12776,68 @@
       ]
     },
     {
+      "id": "elaine-shi",
+      "name": "Elaine Shi",
+      "publication_name": "Elaine Shi",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "University of Maryland"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
+      "id": "elham-sakhaee",
+      "name": "Elham Sakhaee",
+      "publication_name": "Elham Sakhaee",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Microsoft Corporation"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        }
+      ]
+    },
+    {
       "id": "eliot-jones-gray-swan",
       "name": "Eliot Jones",
       "publication_name": "Eliot Jones",
@@ -12203,6 +12865,37 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks",
           "url": "https://doi.org/10.52202/085713-2676"
+        }
+      ]
+    },
+    {
+      "id": "emil-stefanov",
+      "name": "Emil Stefanov",
+      "publication_name": "Emil Stefanov",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
         }
       ]
     },
@@ -14473,37 +15166,6 @@
       ]
     },
     {
-      "id": "insu-yun-kaist",
-      "name": "Insu Yun",
-      "publication_name": "Insu Yun",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.1145/3719027.3765217",
-      "institutions": [
-        "KAIST"
-      ],
-      "papers": [
-        "ccs25-kim-jenga"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ccs25-kim-jenga",
-          "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
-          "year": 2025,
-          "venue": "ACM CCS 2025",
-          "url": "https://doi.org/10.1145/3719027.3765217"
-        }
-      ]
-    },
-    {
       "id": "ivan-evtimov-meta",
       "name": "Ivan Evtimov",
       "publication_name": "Ivan Evtimov",
@@ -14593,37 +15255,6 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
-        }
-      ]
-    },
-    {
-      "id": "jacques-klein-luxembourg",
-      "name": "Jacques Klein",
-      "publication_name": "Jacques Klein",
-      "homepage": "",
-      "profile_source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
-      "institutions": [
-        "University of Luxembourg"
-      ],
-      "papers": [
-        "issta26-alecci-secrets-unlocked"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "issta26-alecci-secrets-unlocked",
-          "title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps",
-          "year": 2026,
-          "venue": "ISSTA 2026",
-          "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps"
         }
       ]
     },
@@ -17146,6 +17777,37 @@
       ]
     },
     {
+      "id": "li-li",
+      "name": "Li Li",
+      "publication_name": "Li Li",
+      "homepage": "https://lilicoding.github.io/index.html",
+      "profile_source": "https://lilicoding.github.io/index.html",
+      "institutions": [
+        "University of Luxembourg"
+      ],
+      "papers": [
+        "issta16-li-droidra"
+      ],
+      "annual_scores": {
+        "2016": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "issta16-li-droidra",
+          "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+          "year": 2016,
+          "venue": "ACM ISSTA 2016",
+          "url": "https://orbilu.uni.lu/handle/10993/27761"
+        }
+      ]
+    },
+    {
       "id": "lihai-nie-nankai",
       "name": "Lihai Nie",
       "publication_name": "Lihai Nie",
@@ -17266,6 +17928,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "ling-ren",
+      "name": "Ling Ren",
+      "publication_name": "Ling Ren",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
         }
       ]
     },
@@ -17421,6 +18114,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "long-phan",
+      "name": "Long Phan",
+      "publication_name": "Long Phan",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
         }
       ]
     },
@@ -17645,6 +18369,37 @@
       ]
     },
     {
+      "id": "mantas-mazeika",
+      "name": "Mantas Mazeika",
+      "publication_name": "Mantas Mazeika",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        }
+      ]
+    },
+    {
       "id": "marc-fischer",
       "name": "Marc Fischer",
       "publication_name": "Marc Fischer",
@@ -17735,6 +18490,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "marten-van-dijk",
+      "name": "Marten van Dijk",
+      "publication_name": "Marten van Dijk",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "University of Connecticut"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
         }
       ]
     },
@@ -18014,37 +18800,6 @@
           "year": 2026,
           "venue": "AAAI 2026",
           "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40210"
-        }
-      ]
-    },
-    {
-      "id": "meng-xu-waterloo",
-      "name": "Meng Xu",
-      "publication_name": "Meng Xu",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2510.22396",
-      "institutions": [
-        "University of Waterloo"
-      ],
-      "papers": [
-        "ieee-sp26-li-portgpt"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-li-portgpt",
-          "title": "PortGPT: Towards Automated Backporting Using Large Language Models",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -18983,6 +19738,38 @@
       ]
     },
     {
+      "id": "nathaniel-li",
+      "name": "Nathaniel Li",
+      "publication_name": "Nathaniel Li",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Center for AI Safety",
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        }
+      ]
+    },
+    {
       "id": "neil-gong-duke",
       "name": "Neil Gong",
       "publication_name": "Neil Gong",
@@ -19289,6 +20076,37 @@
           "year": 2026,
           "venue": "ACL 2026",
           "url": "https://aclanthology.org/2026.acl-long.1577/"
+        }
+      ]
+    },
+    {
+      "id": "norman-mu",
+      "name": "Norman Mu",
+      "publication_name": "Norman Mu",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
         }
       ]
     },
@@ -20938,6 +21756,37 @@
       ]
     },
     {
+      "id": "sangho-lee",
+      "name": "Sangho Lee",
+      "publication_name": "Sangho Lee",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "institutions": [
+        "Georgia Institute of Technology"
+      ],
+      "papers": [
+        "usenix-sec18-yun-qsym"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+          "year": 2018,
+          "venue": "USENIX Security 2018",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
+        }
+      ]
+    },
+    {
       "id": "sanghyun-hong-oregon-state",
       "name": "Sanghyun Hong",
       "publication_name": "Sanghyun Hong",
@@ -21121,6 +21970,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "sergej-schumilo",
+      "name": "Sergej Schumilo",
+      "publication_name": "Sergej Schumilo",
+      "homepage": "",
+      "profile_source": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "sp20-aschermann-ijon"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp20-aschermann-ijon",
+          "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+          "year": 2020,
+          "venue": "IEEE S&P 2020",
+          "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing"
         }
       ]
     },
@@ -21963,6 +22843,37 @@
       ]
     },
     {
+      "id": "srinivas-devadas",
+      "name": "Srinivas Devadas",
+      "publication_name": "Srinivas Devadas",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
       "id": "stefan-savage",
       "name": "Stefan Savage",
       "publication_name": "Stefan Savage",
@@ -22053,6 +22964,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow"
+        }
+      ]
+    },
+    {
+      "id": "steven-basart",
+      "name": "Steven Basart",
+      "publication_name": "Steven Basart",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
         }
       ]
     },
@@ -22336,6 +23278,37 @@
       ]
     },
     {
+      "id": "taesoo-kim",
+      "name": "Taesoo Kim",
+      "publication_name": "Taesoo Kim",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "institutions": [
+        "Georgia Institute of Technology"
+      ],
+      "papers": [
+        "usenix-sec18-yun-qsym"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+          "year": 2018,
+          "venue": "USENIX Security 2018",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
+        }
+      ]
+    },
+    {
       "id": "takuro-wakai-waseda",
       "name": "Takuro Wakai",
       "publication_name": "Takuro Wakai",
@@ -22520,37 +23493,6 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://doi.org/10.14722/ndss.2026.240483"
-        }
-      ]
-    },
-    {
-      "id": "tegawende-bissyande-luxembourg",
-      "name": "Tegawendé F. Bissyandé",
-      "publication_name": "Tegawendé F. Bissyandé",
-      "homepage": "",
-      "profile_source": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
-      "institutions": [
-        "University of Luxembourg"
-      ],
-      "papers": [
-        "issta26-alecci-secrets-unlocked"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "issta26-alecci-secrets-unlocked",
-          "title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps",
-          "year": 2026,
-          "venue": "ISSTA 2026",
-          "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps"
         }
       ]
     },
@@ -24046,6 +24988,37 @@
       ]
     },
     {
+      "id": "xiangyao-yu",
+      "name": "Xiangyao Yu",
+      "publication_name": "Xiangyao Yu",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "Massachusetts Institute of Technology"
+      ],
+      "papers": [
+        "ccs13-stefanov-path-oram"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+          "year": 2013,
+          "venue": "ACM CCS 2013",
+          "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
       "id": "xiao-han-usf",
       "name": "Xiao Han",
       "publication_name": "Xiao Han",
@@ -24574,6 +25547,37 @@
       ]
     },
     {
+      "id": "xuwang-yin",
+      "name": "Xuwang Yin",
+      "publication_name": "Xuwang Yin",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        }
+      ]
+    },
+    {
       "id": "yang-lu-uh",
       "name": "Yang Lu",
       "publication_name": "Yang Lu",
@@ -24849,6 +25853,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "yeongjin-jang",
+      "name": "Yeongjin Jang",
+      "publication_name": "Yeongjin Jang",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "institutions": [
+        "Oregon State University"
+      ],
+      "papers": [
+        "usenix-sec18-yun-qsym"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+          "year": 2018,
+          "venue": "USENIX Security 2018",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
         }
       ]
     },
@@ -27151,6 +28186,37 @@
       ]
     },
     {
+      "id": "zifan-wang",
+      "name": "Zifan Wang",
+      "publication_name": "Zifan Wang",
+      "homepage": "",
+      "profile_source": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "Center for AI Safety"
+      ],
+      "papers": [
+        "icml24-mazeika-harmbench"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+          "year": 2024,
+          "venue": "ICML 2024",
+          "url": "https://proceedings.mlr.press/v235/mazeika24a.html"
+        }
+      ]
+    },
+    {
       "id": "zihan-lin-fudan",
       "name": "Zihan Lin",
       "publication_name": "Zihan Lin",
@@ -27612,6 +28678,30 @@
       ]
     },
     {
+      "id": "alexandre-bartel",
+      "name": "Alexandre Bartel",
+      "publication_name": "Alexandre Bartel",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "University of Luxembourg"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
       "id": "alice-yeh",
       "name": "Alice Yeh",
       "publication_name": "Alice Yeh",
@@ -27708,6 +28798,30 @@
       ]
     },
     {
+      "id": "chaowei-xiao",
+      "name": "Chaowei Xiao",
+      "publication_name": "Chaowei Xiao",
+      "homepage": "https://xiaocw11.github.io/",
+      "profile_source": "https://xiaocw11.github.io/",
+      "institutions": [
+        "University of Wisconsin–Madison"
+      ],
+      "papers": [
+        "iclr24-liu-autodan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+          "year": 2024,
+          "venue": "ICLR 2024",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
       "id": "chencheng-jiang-stony-brook",
       "name": "Chencheng Jiang",
       "publication_name": "Chencheng Jiang",
@@ -27776,6 +28890,30 @@
           "year": 2026,
           "venue": "IEEE SaTML 2026",
           "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
+      "id": "christian-fritz",
+      "name": "Christian Fritz",
+      "publication_name": "Christian Fritz",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "TU Darmstadt"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
         }
       ]
     },
@@ -28064,6 +29202,30 @@
           "year": 2026,
           "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond (NeurIPS 2026)",
           "url": "https://neurips.cc/virtual/2026/poster/139377"
+        }
+      ]
+    },
+    {
+      "id": "eric-bodden",
+      "name": "Eric Bodden",
+      "publication_name": "Eric Bodden",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "TU Darmstadt"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
         }
       ]
     },
@@ -28791,6 +29953,30 @@
       ]
     },
     {
+      "id": "muhao-chen",
+      "name": "Muhao Chen",
+      "publication_name": "Muhao Chen",
+      "homepage": "https://muhaochen.github.io/",
+      "profile_source": "https://muhaochen.github.io/",
+      "institutions": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "iclr24-liu-autodan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+          "year": 2024,
+          "venue": "ICLR 2024",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
       "id": "muxi-lyu-berkeley",
       "name": "Muxi Lyu",
       "publication_name": "Muxi Lyu",
@@ -28811,6 +29997,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "nan-xu",
+      "name": "Nan Xu",
+      "publication_name": "Nan Xu",
+      "homepage": "https://sites.google.com/site/xunannancy/home",
+      "profile_source": "https://sites.google.com/site/xunannancy/home",
+      "institutions": [
+        "University of Southern California"
+      ],
+      "papers": [
+        "iclr24-liu-autodan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+          "year": 2024,
+          "venue": "ICLR 2024",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html"
         }
       ]
     },
@@ -28859,6 +30069,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.17986"
+        }
+      ]
+    },
+    {
+      "id": "patrick-mcdaniel",
+      "name": "Patrick McDaniel",
+      "publication_name": "Patrick McDaniel",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
         }
       ]
     },
@@ -29104,6 +30338,30 @@
       ]
     },
     {
+      "id": "siegfried-rasthofer",
+      "name": "Siegfried Rasthofer",
+      "publication_name": "Siegfried Rasthofer",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "TU Darmstadt"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
       "id": "soham-gadgil-uw",
       "name": "Soham Gadgil",
       "publication_name": "Soham Gadgil",
@@ -29148,6 +30406,30 @@
           "year": 2026,
           "venue": "ACM PLDI 2026",
           "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
+      "id": "steven-arzt",
+      "name": "Steven Arzt",
+      "publication_name": "Steven Arzt",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "TU Darmstadt"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
         }
       ]
     },
@@ -29585,6 +30867,30 @@
       ]
     },
     {
+      "id": "yves-le-traon",
+      "name": "Yves Le Traon",
+      "publication_name": "Yves Le Traon",
+      "homepage": "",
+      "profile_source": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "University of Luxembourg"
+      ],
+      "papers": [
+        "pldi14-arzt-flowdroid"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+          "year": 2014,
+          "venue": "ACM PLDI 2014",
+          "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
       "id": "zhaorui-li",
       "name": "Zhaorui Li",
       "publication_name": "Zhaorui Li",
@@ -29776,9 +31082,55 @@
           "url": "https://doi.org/10.1145/3798272"
         }
       ]
+    },
+    {
+      "id": "xiaogeng-liu",
+      "name": "刘晓耕",
+      "publication_name": "Xiaogeng Liu",
+      "homepage": "https://xiaogeng-liu.com/",
+      "profile_source": "https://xiaogeng-liu.com/",
+      "institutions": [
+        "University of Wisconsin–Madison"
+      ],
+      "papers": [
+        "iclr24-liu-autodan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+          "year": 2024,
+          "venue": "ICLR 2024",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html"
+        }
+      ]
     }
   ],
   "collaborations": [
+    {
+      "source": "carnegie-mellon-university",
+      "target": "center-ai-safety",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        },
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 3
+    },
     {
       "source": "imperial-global-singapore",
       "target": "nanyang-technological-university",
@@ -29825,23 +31177,6 @@
     },
     {
       "source": "carnegie-mellon-university",
-      "target": "center-ai-safety",
-      "papers": [
-        {
-          "id": "iclr25-andriushchenko-agentharm",
-          "year": 2025,
-          "venue_group": null
-        },
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "carnegie-mellon-university",
       "target": "epfl",
       "papers": [
         {
@@ -29869,6 +31204,23 @@
         {
           "id": "neurips25-zou-agent-red-team-competition",
           "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        },
+        {
+          "id": "ase26-ni-triage-nodejs",
+          "year": 2026,
           "venue_group": "software"
         }
       ],
@@ -30198,6 +31550,23 @@
       "weight": 2
     },
     {
+      "source": "pennsylvania-state-university",
+      "target": "university-luxembourg",
+      "papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "year": 2014,
+          "venue_group": null
+        },
+        {
+          "id": "issta16-li-droidra",
+          "year": 2016,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "ruhr-university-bochum",
       "target": "technology-innovation-institute",
       "papers": [
@@ -30261,6 +31630,23 @@
           "id": "usenix-sec25-beer-taptrap",
           "year": 2025,
           "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "uc-berkeley",
+      "target": "uiuc",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
         }
       ],
       "weight": 2
@@ -30697,6 +32083,18 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "microsoft-corporation",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "ruhr-university-bochum",
       "papers": [
         {
@@ -30721,12 +32119,12 @@
     },
     {
       "source": "carnegie-mellon-university",
-      "target": "uc-berkeley",
+      "target": "uiuc",
       "papers": [
         {
-          "id": "ase26-ni-triage-nodejs",
-          "year": 2026,
-          "venue_group": "software"
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -30811,6 +32209,42 @@
           "id": "iclr25-andriushchenko-agentharm",
           "year": 2025,
           "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "microsoft-corporation",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "center-ai-safety",
+      "target": "uiuc",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -31422,6 +32856,18 @@
         {
           "id": "ieee-sp26-wu-agent-permissions",
           "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "georgia-tech",
+      "target": "oregon-state-university",
+      "papers": [
+        {
+          "id": "usenix-sec18-yun-qsym",
+          "year": 2018,
           "venue_group": "security"
         }
       ],
@@ -32460,6 +33906,66 @@
       "weight": 1
     },
     {
+      "source": "microsoft-corporation",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "microsoft-corporation",
+      "target": "uiuc",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mit",
+      "target": "uc-berkeley",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mit",
+      "target": "university-of-connecticut",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mit",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "mongodb-research",
       "target": "netapp",
       "papers": [
@@ -33036,6 +34542,18 @@
       "weight": 1
     },
     {
+      "source": "pennsylvania-state-university",
+      "target": "tu-darmstadt",
+      "papers": [
+        {
+          "id": "pldi14-arzt-flowdroid",
+          "year": 2014,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "purdue-university",
       "target": "uiuc",
       "papers": [
@@ -33372,12 +34890,12 @@
       "weight": 1
     },
     {
-      "source": "uc-berkeley",
-      "target": "ucla",
+      "source": "tu-darmstadt",
+      "target": "university-luxembourg",
       "papers": [
         {
-          "id": "osdi26-liu-osprey",
-          "year": 2026,
+          "id": "pldi14-arzt-flowdroid",
+          "year": 2014,
           "venue_group": null
         }
       ],
@@ -33385,12 +34903,12 @@
     },
     {
       "source": "uc-berkeley",
-      "target": "uiuc",
+      "target": "ucla",
       "papers": [
         {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
+          "id": "osdi26-liu-osprey",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -33433,6 +34951,30 @@
     },
     {
       "source": "uc-berkeley",
+      "target": "university-of-connecticut",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-berkeley",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-berkeley",
       "target": "university-oxford",
       "papers": [
         {
@@ -33451,6 +34993,30 @@
           "id": "neurips25-nie-secodeplt",
           "year": 2025,
           "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-davis",
+      "target": "university-of-southern-california",
+      "papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "year": 2024,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uc-davis",
+      "target": "university-of-wisconsinmadison",
+      "papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "year": 2024,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -33708,6 +35274,30 @@
       "weight": 1
     },
     {
+      "source": "university-of-connecticut",
+      "target": "university-of-maryland",
+      "papers": [
+        {
+          "id": "ccs13-stefanov-path-oram",
+          "year": 2013,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-of-southern-california",
+      "target": "university-of-wisconsinmadison",
+      "papers": [
+        {
+          "id": "iclr24-liu-autodan",
+          "year": 2024,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-york",
       "target": "university-waterloo",
       "papers": [
@@ -33861,6 +35451,52 @@
       ]
     },
     {
+      "id": "usenix-sec18-yun-qsym",
+      "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+      "year": 2018,
+      "venue": "USENIX Security 2018",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "institutions": [
+        "georgia-tech",
+        "oregon-state-university"
+      ],
+      "authors": [
+        "insu-yun-kaist",
+        "sangho-lee",
+        "meng-xu-waterloo",
+        "yeongjin-jang",
+        "taesoo-kim"
+      ]
+    },
+    {
+      "id": "ccs13-stefanov-path-oram",
+      "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+      "year": 2013,
+      "venue": "ACM CCS 2013",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://doi.org/10.1145/2508859.2516660",
+      "institutions": [
+        "uc-berkeley",
+        "university-of-connecticut",
+        "university-of-maryland",
+        "mit"
+      ],
+      "authors": [
+        "emil-stefanov",
+        "marten-van-dijk",
+        "elaine-shi",
+        "christopher-fletcher",
+        "ling-ren",
+        "xiangyao-yu",
+        "srinivas-devadas"
+      ]
+    },
+    {
       "id": "osdi26-liu-osprey",
       "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
       "year": 2026,
@@ -33879,6 +35515,102 @@
         "harry-xu",
         "raluca-ada-popa-berkeley",
         "sam-kumar"
+      ]
+    },
+    {
+      "id": "sp20-aschermann-ijon",
+      "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+      "year": 2020,
+      "venue": "IEEE S&P 2020",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing",
+      "institutions": [
+        "ruhr-university-bochum"
+      ],
+      "authors": [
+        "cornelius-aschermann",
+        "sergej-schumilo",
+        "ali-abbasi-cispa",
+        "thorsten-holz-mpi-sp"
+      ]
+    },
+    {
+      "id": "icml24-mazeika-harmbench",
+      "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "year": 2024,
+      "venue": "ICML 2024",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://proceedings.mlr.press/v235/mazeika24a.html",
+      "institutions": [
+        "uiuc",
+        "center-ai-safety",
+        "carnegie-mellon-university",
+        "uc-berkeley",
+        "microsoft-corporation"
+      ],
+      "authors": [
+        "mantas-mazeika",
+        "long-phan",
+        "xuwang-yin",
+        "andy-zou-gray-swan",
+        "zifan-wang",
+        "norman-mu",
+        "elham-sakhaee",
+        "nathaniel-li",
+        "steven-basart",
+        "bo-li-uiuc-uchicago",
+        "david-forsyth",
+        "dan-hendrycks-cais"
+      ]
+    },
+    {
+      "id": "pldi14-arzt-flowdroid",
+      "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+      "year": 2014,
+      "venue": "ACM PLDI 2014",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://ris.uni-paderborn.de/record/5189",
+      "institutions": [
+        "tu-darmstadt",
+        "university-luxembourg",
+        "pennsylvania-state-university"
+      ],
+      "authors": [
+        "steven-arzt",
+        "siegfried-rasthofer",
+        "christian-fritz",
+        "eric-bodden",
+        "alexandre-bartel",
+        "jacques-klein-luxembourg",
+        "yves-le-traon",
+        "damien-octeau",
+        "patrick-mcdaniel"
+      ]
+    },
+    {
+      "id": "issta16-li-droidra",
+      "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+      "year": 2016,
+      "venue": "ACM ISSTA 2016",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://orbilu.uni.lu/handle/10993/27761",
+      "institutions": [
+        "university-luxembourg",
+        "pennsylvania-state-university"
+      ],
+      "authors": [
+        "li-li",
+        "tegawende-bissyande-luxembourg",
+        "damien-octeau",
+        "jacques-klein-luxembourg"
       ]
     },
     {
@@ -33906,6 +35638,27 @@
         "chongyang-shi",
         "andreas-terzis",
         "florian-tramer-eth"
+      ]
+    },
+    {
+      "id": "iclr24-liu-autodan",
+      "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "year": 2024,
+      "venue": "ICLR 2024",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html",
+      "institutions": [
+        "university-of-wisconsinmadison",
+        "university-of-southern-california",
+        "uc-davis"
+      ],
+      "authors": [
+        "xiaogeng-liu",
+        "nan-xu",
+        "muhao-chen",
+        "chaowei-xiao"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "version": "1.10.4",
+  "version": "1.10.5",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -377,7 +377,8 @@
     "encrypted-storage": {"label": "加密存储", "facet": "object"},
     "access-pattern-leakage": {"label": "访问模式泄漏", "facet": "problem"},
     "oblivious-ram": {"label": "不经意存储访问", "facet": "method"},
-    "reflection-analysis": {"label": "反射分析", "facet": "method"}
+    "reflection-analysis": {"label": "反射分析", "facet": "method"},
+    "program-repair": {"label": "程序修复", "facet": "method"}
   },
   "primary_domain_overrides": {
     "usenix-sec26-kim-agentic": "ai-security",
@@ -543,6 +544,13 @@
     "pldi14-arzt-flowdroid": "mobile-iot-security",
     "issta16-li-droidra": "mobile-iot-security",
     "iclr24-liu-autodan": "ai-security",
-    "icml24-mazeika-harmbench": "ai-security"
+    "icml24-mazeika-harmbench": "ai-security",
+    "sp18-chen-angora": "software-application-security",
+    "ccs11-felt-permissions": "mobile-iot-security",
+    "usenix-sec24-baumer-terrapin": "network-communication-security",
+    "icse19-wang-superion": "software-application-security",
+    "icse20-hong-saver": "software-application-security",
+    "acl24-xu-safedecoding": "ai-security",
+    "aaai25-gong-figstep": "ai-security"
   }
 }

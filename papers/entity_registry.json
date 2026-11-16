@@ -1,5 +1,5 @@
 {
-  "version": "1.12.4",
+  "version": "1.12.5",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -238,7 +238,11 @@
     "University of Connecticut": {"id": "university-of-connecticut", "country_code": "USA", "display_name": "University of Connecticut", "language": "en", "source": "https://uconn.edu/"},
     "University of Maryland": {"id": "university-of-maryland", "country_code": "USA", "display_name": "University of Maryland", "language": "en", "source": "https://umd.edu/"},
     "Pennsylvania State University": {"id": "pennsylvania-state-university", "country_code": "USA", "display_name": "Pennsylvania State University", "language": "en", "source": "https://www.psu.edu/"},
-    "University of Wisconsin–Madison": {"id": "university-of-wisconsinmadison", "country_code": "USA", "display_name": "University of Wisconsin–Madison", "language": "en", "source": "https://www.wisc.edu/"}
+    "University of Wisconsin–Madison": {"id": "university-of-wisconsinmadison", "country_code": "USA", "display_name": "University of Wisconsin–Madison", "language": "en", "source": "https://www.wisc.edu/"},
+    "上海科技大学": {"id": "shanghaitech-university", "display_name": "上海科技大学", "language": "zh", "source": "https://www.shanghaitech.edu.cn/", "country_code": "CHN"},
+    "Allen Institute for AI": {"id": "allen-institute-for-ai", "display_name": "Allen Institute for AI", "language": "en", "source": "https://allenai.org/", "country_code": "USA"},
+    "National Financial Cryptography Research Center": {"id": "national-financial-cryptography-research-center", "display_name": "National Financial Cryptography Research Center", "language": "en", "source": "https://arxiv.org/pdf/2311.05608"},
+    "山东区块链研究院": {"id": "shandong-institute-blockchain", "display_name": "山东区块链研究院", "language": "zh", "source": "https://www.tsinghua.edu.cn/info/1182/90245.htm", "country_code": "CHN"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1041,7 +1045,33 @@
     "Elham Sakhaee": {"id": "elham-sakhaee", "display_name": "Elham Sakhaee", "publication_name": "Elham Sakhaee", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
     "Nathaniel Li": {"id": "nathaniel-li", "display_name": "Nathaniel Li", "publication_name": "Nathaniel Li", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
     "Steven Basart": {"id": "steven-basart", "display_name": "Steven Basart", "publication_name": "Steven Basart", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
-    "David Forsyth": {"id": "david-forsyth", "display_name": "David Forsyth", "publication_name": "David Forsyth", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"}
+    "David Forsyth": {"id": "david-forsyth", "display_name": "David Forsyth", "publication_name": "David Forsyth", "language": "en", "source": "https://proceedings.mlr.press/v235/mazeika24a.html"},
+    "Peng Chen": {"id": "peng-chen", "display_name": "陈鹏", "publication_name": "Peng Chen", "language": "zh", "source": "https://sist.shanghaitech.edu.cn/2023/0505/c10970a1077194/page.htm"},
+    "Adrienne Porter Felt": {"id": "adrienne-porter-felt", "display_name": "Adrienne Porter Felt", "publication_name": "Adrienne Porter Felt", "language": "en", "source": "https://doi.org/10.1145/2046707.2046779"},
+    "Erika Chin": {"id": "erika-chin", "display_name": "Erika Chin", "publication_name": "Erika Chin", "language": "en", "source": "https://doi.org/10.1145/2046707.2046779"},
+    "Steve Hanna": {"id": "steve-hanna", "display_name": "Steve Hanna", "publication_name": "Steve Hanna", "language": "en", "source": "https://doi.org/10.1145/2046707.2046779"},
+    "Jörg Schwenk": {"id": "jorg-schwenk", "display_name": "Jörg Schwenk", "publication_name": "Jörg Schwenk", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"},
+    "Junjie Wang": {"id": "junjie-wang", "display_name": "Junjie Wang", "publication_name": "Junjie Wang", "language": "en", "source": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"},
+    "Bihuan Chen": {"id": "bihuan-chen", "display_name": "陈碧欢", "publication_name": "Bihuan Chen", "language": "zh", "source": "https://datascience.fudan.edu.cn/b4/eb/c13398a439531/page.htm", "homepage": "https://datascience.fudan.edu.cn/b4/eb/c13398a439531/page.htm"},
+    "Lei Wei": {"id": "lei-wei", "display_name": "Lei Wei", "publication_name": "Lei Wei", "language": "en", "source": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"},
+    "Seongjoon Hong": {"id": "seongjoon-hong", "display_name": "Seongjoon Hong", "publication_name": "Seongjoon Hong", "language": "en", "source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"},
+    "Junhee Lee": {"id": "junhee-lee", "display_name": "Junhee Lee", "publication_name": "Junhee Lee", "language": "en", "source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"},
+    "Jeongsoo Lee": {"id": "jeongsoo-lee", "display_name": "Jeongsoo Lee", "publication_name": "Jeongsoo Lee", "language": "en", "source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"},
+    "Hakjoo Oh": {"id": "hakjoo-oh", "display_name": "Hakjoo Oh", "publication_name": "Hakjoo Oh", "language": "en", "source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"},
+    "Zhangchen Xu": {"id": "zhangchen-xu", "display_name": "Zhangchen Xu", "publication_name": "Zhangchen Xu", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Fengqing Jiang": {"id": "fengqing-jiang", "display_name": "Fengqing Jiang", "publication_name": "Fengqing Jiang", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Luyao Niu": {"id": "luyao-niu", "display_name": "Luyao Niu", "publication_name": "Luyao Niu", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Jinyuan Jia": {"id": "jinyuan-jia", "display_name": "Jinyuan Jia", "publication_name": "Jinyuan Jia", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Bill Yuchen Lin": {"id": "bill-yuchen-lin", "display_name": "Bill Yuchen Lin", "publication_name": "Bill Yuchen Lin", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Radha Poovendran": {"id": "radha-poovendran", "display_name": "Radha Poovendran", "publication_name": "Radha Poovendran", "language": "en", "source": "https://aclanthology.org/2024.acl-long.303/"},
+    "Yichen Gong": {"id": "yichen-gong", "display_name": "Yichen Gong", "publication_name": "Yichen Gong", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Delong Ran": {"id": "delong-ran", "display_name": "Delong Ran", "publication_name": "Delong Ran", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Jinyuan Liu": {"id": "jinyuan-liu", "display_name": "Jinyuan Liu", "publication_name": "Jinyuan Liu", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Conglei Wang": {"id": "conglei-wang", "display_name": "Conglei Wang", "publication_name": "Conglei Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Tianshuo Cong": {"id": "tianshuo-cong", "display_name": "Tianshuo Cong", "publication_name": "Tianshuo Cong", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Anyu Wang": {"id": "anyu-wang", "display_name": "Anyu Wang", "publication_name": "Anyu Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"},
+    "Sisi Duan": {"id": "sisi-duan", "display_name": "段斯斯", "publication_name": "Sisi Duan", "language": "zh", "source": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm", "homepage": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm"},
+    "Xiaoyun Wang": {"id": "xiaoyun-wang", "display_name": "Xiaoyun Wang", "publication_name": "Xiaoyun Wang", "language": "en", "source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

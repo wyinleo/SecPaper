@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T20:29:38+08:00",
+  "generated_at": "2026-11-16T20:46:24+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 164,
-    "papers_with_affiliations": 164,
-    "scored_top_venue_papers": 142
+    "indexed_papers": 171,
+    "papers_with_affiliations": 171,
+    "scored_top_venue_papers": 149
   },
   "categories": [
     {
@@ -26,10 +26,12 @@
     "2025",
     "2024",
     "2020",
+    "2019",
     "2018",
     "2016",
     "2014",
-    "2013"
+    "2013",
+    "2011"
   ],
   "institutions": [
     {
@@ -43,6 +45,7 @@
         "清华大学网络科学与网络空间研究院"
       ],
       "papers": [
+        "aaai25-gong-figstep",
         "iccv25-dong-vpr-cloak",
         "ieee-sp26-peng-apiecho",
         "ndss26-wu-email-aliases",
@@ -54,9 +57,11 @@
         "usenix-sec26-zhao-waved"
       ],
       "scholars": [
+        "Anyu Wang",
         "Baojun Liu",
         "Chao Zhang",
         "Chun Yuan",
+        "Delong Ran",
         "Du Wu",
         "Feng Lu",
         "Guanghao Li",
@@ -65,12 +70,16 @@
         "Hao Yu",
         "Jiatian Hu",
         "Jiaxu Wang",
+        "Jinyuan Liu",
         "Ke Xu",
         "Man Zhou",
         "Ruixuan Li",
         "Shuting Dong",
+        "Tianshuo Cong",
+        "Xiaoyun Wang",
         "Xibin Zhao",
         "Xuewei Feng",
+        "Yichen Gong",
         "Yihao Peng",
         "Yijing Liu",
         "Yiming Wu",
@@ -78,9 +87,16 @@
         "Yizhou Zhao",
         "Yunyi Zhang",
         "Zijian Ling",
-        "Zizhen Zhu"
+        "Zizhen Zhu",
+        "段斯斯"
       ],
       "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
         "2026": {
           "security": 8,
           "software": 0,
@@ -88,7 +104,218 @@
           "total": 8
         }
       },
+      "verified_score": 9
+    },
+    {
+      "id": "fudan-university",
+      "name": "复旦大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "复旦大学"
+      ],
+      "papers": [
+        "ccs25-zhang-uabscan",
+        "icse19-wang-superion",
+        "ndss26-wu-email-aliases",
+        "usenix-sec25-liu-agentfuzz",
+        "usenix-sec25-shi-xssky",
+        "usenix-sec26-chen-vulgenie",
+        "usenix-sec26-liu-wormholes",
+        "usenix-sec26-luo-agent-dos"
+      ],
+      "scholars": [
+        "Bofei Chen",
+        "Chengyuan Zhou",
+        "Feng Xue",
+        "Geng Hong",
+        "Jiaqi Luo",
+        "Jiatao Chen",
+        "Ke Li",
+        "Letian Yuan",
+        "Mengying Wu",
+        "Qiyi Zhang",
+        "Shuang Liao",
+        "Songyang Peng",
+        "Tian Chen",
+        "Tianhao Bai",
+        "Tong Bu",
+        "Xudong Pan",
+        "Yongheng Liu",
+        "Youkun Shi",
+        "Yuhang Zhao",
+        "Yuzhou He",
+        "Zhengmin Yu",
+        "Zihan Lin",
+        "刘丰毓",
+        "张源",
+        "张磊",
+        "戴嘉润",
+        "杨珉",
+        "陈碧欢"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        },
+        "2025": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
       "verified_score": 8
+    },
+    {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "arxiv-2607-18575-receipt",
+        "ase26-ni-triage-nodejs",
+        "ccs11-felt-permissions",
+        "ccs13-stefanov-path-oram",
+        "icml24-mazeika-harmbench",
+        "neurips25-nie-secodeplt",
+        "osdi26-cottone-acumen",
+        "osdi26-liu-osprey",
+        "usenix-sec26-kim-agentic",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "scholars": [
+        "Adrienne Porter Felt",
+        "Alice Yeh",
+        "Conor Power",
+        "Darya Kaviani",
+        "David Wagner",
+        "Dawn Song",
+        "Emil Stefanov",
+        "Erika Chin",
+        "Evelyn Koo",
+        "Hao Wang",
+        "Juhee Kim",
+        "Karen Shieh",
+        "Kevin Cheang",
+        "Koushik Sen",
+        "Muxi Lyu",
+        "Natacha Crooks",
+        "Nathaniel Li",
+        "Norman Mu",
+        "Raluca Ada Popa",
+        "Steve Hanna",
+        "Will Giorza",
+        "Yiwei Hou",
+        "Zhun Wang"
+      ],
+      "annual_scores": {
+        "2013": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 7
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "aaai25-gong-figstep",
+        "ase26-ni-triage-nodejs",
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "ieee-sp26-liu-generate-verify",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition",
+        "popl26-gouni-security-reasoning"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Conglei Wang",
+        "Darion Cassel",
+        "Eileen Xiao",
+        "Frank Pfenning",
+        "Fraser Brown",
+        "Hemant Gouni",
+        "J. Zico Kolter",
+        "Jonathan Aldrich",
+        "Limin Jia",
+        "Matt Fredrikson",
+        "Min-Chien Hsu",
+        "Nuno Sabino",
+        "Ping-Lun Wang",
+        "Pratiksha Thaker",
+        "Riad S. Wahby",
+        "Riccardo Paccagnella",
+        "Ronghao Ni",
+        "Ruben Martins",
+        "Terrance Liu",
+        "Zhiwei Steven Wu",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 1,
+          "total": 3
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 7
     },
     {
       "id": "eth-zurich",
@@ -149,197 +376,6 @@
       "verified_score": 7
     },
     {
-      "id": "fudan-university",
-      "name": "复旦大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "复旦大学"
-      ],
-      "papers": [
-        "ccs25-zhang-uabscan",
-        "ndss26-wu-email-aliases",
-        "usenix-sec25-liu-agentfuzz",
-        "usenix-sec25-shi-xssky",
-        "usenix-sec26-chen-vulgenie",
-        "usenix-sec26-liu-wormholes",
-        "usenix-sec26-luo-agent-dos"
-      ],
-      "scholars": [
-        "Bofei Chen",
-        "Chengyuan Zhou",
-        "Feng Xue",
-        "Geng Hong",
-        "Jiaqi Luo",
-        "Jiatao Chen",
-        "Ke Li",
-        "Letian Yuan",
-        "Mengying Wu",
-        "Qiyi Zhang",
-        "Shuang Liao",
-        "Songyang Peng",
-        "Tian Chen",
-        "Tianhao Bai",
-        "Tong Bu",
-        "Xudong Pan",
-        "Yongheng Liu",
-        "Youkun Shi",
-        "Yuhang Zhao",
-        "Yuzhou He",
-        "Zhengmin Yu",
-        "Zihan Lin",
-        "刘丰毓",
-        "张源",
-        "张磊",
-        "戴嘉润",
-        "杨珉"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 4,
-          "software": 0,
-          "ai": 0,
-          "total": 4
-        },
-        "2025": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 7
-    },
-    {
-      "id": "uc-berkeley",
-      "name": "University of California, Berkeley",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "arxiv-2607-18575-receipt",
-        "ase26-ni-triage-nodejs",
-        "ccs13-stefanov-path-oram",
-        "icml24-mazeika-harmbench",
-        "neurips25-nie-secodeplt",
-        "osdi26-cottone-acumen",
-        "osdi26-liu-osprey",
-        "usenix-sec26-kim-agentic",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "scholars": [
-        "Alice Yeh",
-        "Conor Power",
-        "Darya Kaviani",
-        "David Wagner",
-        "Dawn Song",
-        "Emil Stefanov",
-        "Evelyn Koo",
-        "Hao Wang",
-        "Juhee Kim",
-        "Karen Shieh",
-        "Kevin Cheang",
-        "Koushik Sen",
-        "Muxi Lyu",
-        "Natacha Crooks",
-        "Nathaniel Li",
-        "Norman Mu",
-        "Raluca Ada Popa",
-        "Will Giorza",
-        "Yiwei Hou",
-        "Zhun Wang"
-      ],
-      "annual_scores": {
-        "2013": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 6
-    },
-    {
-      "id": "carnegie-mellon-university",
-      "name": "Carnegie Mellon University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Carnegie Mellon University"
-      ],
-      "papers": [
-        "ase26-ni-triage-nodejs",
-        "iclr25-andriushchenko-agentharm",
-        "icml24-mazeika-harmbench",
-        "ieee-sp26-liu-generate-verify",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition",
-        "popl26-gouni-security-reasoning"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Darion Cassel",
-        "Eileen Xiao",
-        "Frank Pfenning",
-        "Fraser Brown",
-        "Hemant Gouni",
-        "J. Zico Kolter",
-        "Jonathan Aldrich",
-        "Limin Jia",
-        "Matt Fredrikson",
-        "Min-Chien Hsu",
-        "Nuno Sabino",
-        "Ping-Lun Wang",
-        "Pratiksha Thaker",
-        "Riad S. Wahby",
-        "Riccardo Paccagnella",
-        "Ronghao Ni",
-        "Ruben Martins",
-        "Terrance Liu",
-        "Zhiwei Steven Wu",
-        "Zico Kolter"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 0,
-          "total": 2
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 6
-    },
-    {
       "id": "nanyang-technological-university",
       "name": "Nanyang Technological University",
       "country_code": "SGP",
@@ -348,6 +384,7 @@
       ],
       "papers": [
         "ase26-guo-npm-detectors",
+        "icse19-wang-superion",
         "ieee-sp26-li-webcloak",
         "ieee-sp26-wu-enchtable",
         "oopsla26-cao-sevdf",
@@ -359,7 +396,9 @@
         "Chengyue Liu",
         "Gelei Deng",
         "Jiahui Wu",
+        "Junjie Wang",
         "Kaixuan Li",
+        "Lei Wei",
         "Lixu Wang",
         "Tianze Qiu",
         "Vinay Sachidananda",
@@ -377,6 +416,12 @@
         "Zong Cao"
       ],
       "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
         "2026": {
           "security": 5,
           "software": 1,
@@ -384,7 +429,66 @@
           "total": 6
         }
       },
-      "verified_score": 6
+      "verified_score": 7
+    },
+    {
+      "id": "ruhr-university-bochum",
+      "name": "Ruhr University Bochum",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "sp20-aschermann-ijon",
+        "usenix-sec24-baumer-terrapin",
+        "usenix-sec26-bach-webrtc",
+        "usenix-sec26-jannett-passkeys",
+        "usenix-sec26-merget-opossum"
+      ],
+      "scholars": [
+        "Ali Abbasi",
+        "Cornelius Aschermann",
+        "Fabian Bäumer",
+        "Jörg Schwenk",
+        "Louis Jannett",
+        "Lukas Knittel",
+        "Marcel Maehren",
+        "Marcus Brinkmann",
+        "Nurullah Erinola",
+        "Sergej Schumilo",
+        "Thorsten Holz",
+        "Vladislav Mladenov",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 7
     },
     {
       "id": "cispa",
@@ -425,58 +529,6 @@
           "software": 1,
           "ai": 0,
           "total": 5
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 6
-    },
-    {
-      "id": "ruhr-university-bochum",
-      "name": "Ruhr University Bochum",
-      "country_code": "DEU",
-      "affiliation_names": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ccs25-baumer-ssh-strict-kex",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "sp20-aschermann-ijon",
-        "usenix-sec26-bach-webrtc",
-        "usenix-sec26-jannett-passkeys",
-        "usenix-sec26-merget-opossum"
-      ],
-      "scholars": [
-        "Ali Abbasi",
-        "Cornelius Aschermann",
-        "Fabian Bäumer",
-        "Jörg Schwenk",
-        "Louis Jannett",
-        "Lukas Knittel",
-        "Marcel Maehren",
-        "Marcus Brinkmann",
-        "Nurullah Erinola",
-        "Sergej Schumilo",
-        "Thorsten Holz",
-        "Vladislav Mladenov",
-        "Yuval Yarom"
-      ],
-      "annual_scores": {
-        "2020": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 4,
-          "software": 0,
-          "ai": 0,
-          "total": 4
         },
         "2025": {
           "security": 1,
@@ -683,6 +735,81 @@
           "software": 0,
           "ai": 1,
           "total": 1
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "zhongguancun-laboratory",
+      "name": "中关村实验室",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中关村实验室"
+      ],
+      "papers": [
+        "aaai25-gong-figstep",
+        "cvpr26-ying-agentsafe",
+        "ndss26-wu-email-aliases",
+        "usenix-sec26-zhao-waved"
+      ],
+      "scholars": [
+        "Anyu Wang",
+        "Jiakai Wang",
+        "Ke Xu",
+        "Min Li",
+        "Mingxuan Liu",
+        "Xianglong Liu",
+        "Xiaoyun Wang",
+        "段斯斯"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "shandong-university",
+      "name": "山东大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "山东大学",
+        "山东大学网络空间安全学院"
+      ],
+      "papers": [
+        "aaai25-gong-figstep",
+        "fse26-guo-bcs",
+        "ieee-sp26-ye-llm-unlearning",
+        "usenix-sec26-liu-picklecloak"
+      ],
+      "scholars": [
+        "Mengqi Zhang",
+        "Siyuan Li",
+        "Xiaoyun Wang",
+        "Zizhuang Deng"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
+          "total": 3
         }
       },
       "verified_score": 4
@@ -1139,35 +1266,6 @@
       "verified_score": 3
     },
     {
-      "id": "zhongguancun-laboratory",
-      "name": "中关村实验室",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中关村实验室"
-      ],
-      "papers": [
-        "cvpr26-ying-agentsafe",
-        "ndss26-wu-email-aliases",
-        "usenix-sec26-zhao-waved"
-      ],
-      "scholars": [
-        "Jiakai Wang",
-        "Ke Xu",
-        "Min Li",
-        "Mingxuan Liu",
-        "Xianglong Liu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 1,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
       "id": "hust",
       "name": "华中科技大学",
       "country_code": "CHN",
@@ -1227,34 +1325,6 @@
         "Lihai Nie",
         "Tong Li",
         "Zheli Liu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "shandong-university",
-      "name": "山东大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "山东大学",
-        "山东大学网络空间安全学院"
-      ],
-      "papers": [
-        "fse26-guo-bcs",
-        "ieee-sp26-ye-llm-unlearning",
-        "usenix-sec26-liu-picklecloak"
-      ],
-      "scholars": [
-        "Mengqi Zhang",
-        "Siyuan Li",
-        "Zizhuang Deng"
       ],
       "annual_scores": {
         "2026": {
@@ -1391,6 +1461,39 @@
       "verified_score": 2
     },
     {
+      "id": "pennsylvania-state-university",
+      "name": "Pennsylvania State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding",
+        "issta16-li-droidra",
+        "pldi14-arzt-flowdroid"
+      ],
+      "scholars": [
+        "Damien Octeau",
+        "Jinyuan Jia",
+        "Patrick McDaniel"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2016": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "uk-ai-security-institute",
       "name": "UK AI Security Institute",
       "country_code": "GBR",
@@ -1416,6 +1519,38 @@
           "software": 2,
           "ai": 0,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "uc-davis",
+      "name": "University of California, Davis",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "iclr24-liu-autodan",
+        "sp18-chen-angora",
+        "usenix-sec25-liu-agentfuzz"
+      ],
+      "scholars": [
+        "Hao Chen",
+        "Muhao Chen"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -1451,6 +1586,44 @@
         "2026": {
           "security": 0,
           "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-washington",
+      "name": "University of Washington",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding",
+        "arxiv-2607-14611-bad-memory",
+        "ieee-sp26-wu-agent-permissions"
+      ],
+      "scholars": [
+        "David Alexander",
+        "Fengqing Jiang",
+        "Franziska Roesner",
+        "Luyao Niu",
+        "Radha Poovendran",
+        "Sai Sunku",
+        "Soham Gadgil",
+        "Zhangchen Xu"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -1569,6 +1742,43 @@
           "software": 0,
           "ai": 0,
           "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "korea-university",
+      "name": "Korea University",
+      "country_code": "KOR",
+      "affiliation_names": [
+        "Korea University"
+      ],
+      "papers": [
+        "icse20-hong-saver",
+        "usenix-sec26-kim-timeslice-sandwich"
+      ],
+      "scholars": [
+        "Gyeongsup Lim",
+        "Hakjoo Oh",
+        "Hodong Kim",
+        "Jeongsoo Lee",
+        "Junbeom Hur",
+        "Junhee Lee",
+        "Seongjoon Hong",
+        "Youngjoo Shin"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 2
@@ -2116,6 +2326,37 @@
       "verified_score": 2
     },
     {
+      "id": "zhejiang-sci-tech-university",
+      "name": "浙江理工大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "浙江理工大学"
+      ],
+      "papers": [
+        "icse19-wang-superion",
+        "usenix-sec26-liu-malicious-skills"
+      ],
+      "scholars": [
+        "Jianting Ning",
+        "Yang Liu"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "city-university-of-hong-kong",
       "name": "香港城市大學",
       "country_code": "CHN",
@@ -2236,31 +2477,6 @@
       "verified_score": 1
     },
     {
-      "id": "pennsylvania-state-university",
-      "name": "Pennsylvania State University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Pennsylvania State University"
-      ],
-      "papers": [
-        "issta16-li-droidra",
-        "pldi14-arzt-flowdroid"
-      ],
-      "scholars": [
-        "Damien Octeau",
-        "Patrick McDaniel"
-      ],
-      "annual_scores": {
-        "2016": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "radboud-university",
       "name": "Radboud University",
       "country_code": "NLD",
@@ -2351,31 +2567,6 @@
       "verified_score": 1
     },
     {
-      "id": "uc-davis",
-      "name": "University of California, Davis",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Davis"
-      ],
-      "papers": [
-        "iclr24-liu-autodan",
-        "usenix-sec25-liu-agentfuzz"
-      ],
-      "scholars": [
-        "Hao Chen",
-        "Muhao Chen"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-california-irvine",
       "name": "University of California, Irvine",
       "country_code": "USA",
@@ -2444,33 +2635,6 @@
       "scholars": [
         "Nan Xu",
         "Yixin He"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "university-washington",
-      "name": "University of Washington",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Washington"
-      ],
-      "papers": [
-        "arxiv-2607-14611-bad-memory",
-        "ieee-sp26-wu-agent-permissions"
-      ],
-      "scholars": [
-        "David Alexander",
-        "Franziska Roesner",
-        "Sai Sunku",
-        "Soham Gadgil"
       ],
       "annual_scores": {
         "2026": {
@@ -2577,6 +2741,29 @@
           "security": 0,
           "software": 1,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "allen-institute-for-ai",
+      "name": "Allen Institute for AI",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Allen Institute for AI"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "scholars": [
+        "Bill Yuchen Lin"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -3394,32 +3581,6 @@
       "verified_score": 1
     },
     {
-      "id": "korea-university",
-      "name": "Korea University",
-      "country_code": "KOR",
-      "affiliation_names": [
-        "Korea University"
-      ],
-      "papers": [
-        "usenix-sec26-kim-timeslice-sandwich"
-      ],
-      "scholars": [
-        "Gyeongsup Lim",
-        "Hodong Kim",
-        "Junbeom Hur",
-        "Youngjoo Shin"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "lmu-munich",
       "name": "Ludwig-Maximilians-Universität München",
       "country_code": "DEU",
@@ -3608,6 +3769,31 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "national-financial-cryptography-research-center",
+      "name": "National Financial Cryptography Research Center",
+      "country_code": "",
+      "affiliation_names": [
+        "National Financial Cryptography Research Center"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "scholars": [
+        "Anyu Wang",
+        "Xiaoyun Wang",
+        "段斯斯"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -5066,6 +5252,29 @@
       "verified_score": 1
     },
     {
+      "id": "shanghaitech-university",
+      "name": "上海科技大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "上海科技大学"
+      ],
+      "papers": [
+        "sp18-chen-angora"
+      ],
+      "scholars": [
+        "陈鹏"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "information-engineering-university",
       "name": "中国人民解放军信息工程大学",
       "country_code": "CHN",
@@ -5335,6 +5544,30 @@
       "verified_score": 1
     },
     {
+      "id": "shandong-institute-blockchain",
+      "name": "山东区块链研究院",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "山东区块链研究院"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "scholars": [
+        "Xiaoyun Wang",
+        "段斯斯"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "shandong-normal-university",
       "name": "山东师范大学",
       "country_code": "CHN",
@@ -5468,29 +5701,6 @@
       "scholars": [
         "Jun Shao",
         "Xingyu Zhao"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "zhejiang-sci-tech-university",
-      "name": "浙江理工大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "浙江理工大学"
-      ],
-      "papers": [
-        "usenix-sec26-liu-malicious-skills"
-      ],
-      "scholars": [
-        "Jianting Ning"
       ],
       "annual_scores": {
         "2026": {
@@ -6042,6 +6252,126 @@
       ]
     },
     {
+      "id": "dawn-song",
+      "name": "Dawn Song",
+      "publication_name": "Dawn Song",
+      "homepage": "https://people.eecs.berkeley.edu/~dawnsong/",
+      "profile_source": "https://people.eecs.berkeley.edu/~dawnsong/",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "ccs11-felt-permissions",
+        "neurips25-nie-secodeplt",
+        "usenix-sec26-kim-agentic",
+        "usenix-sec26-zhang-resume-injection"
+      ],
+      "annual_scores": {
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 4,
+      "recent_papers": [
+        {
+          "id": "ccs11-felt-permissions",
+          "title": "Android Permissions Demystified",
+          "year": 2011,
+          "venue": "ACM CCS 2011",
+          "url": "https://doi.org/10.1145/2046707.2046779"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+          "year": 2025,
+          "venue": "NeurIPS 2025 Datasets and Benchmarks",
+          "url": "https://doi.org/10.52202/085713-0447"
+        },
+        {
+          "id": "usenix-sec26-zhang-resume-injection",
+          "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
+        }
+      ]
+    },
+    {
+      "id": "jorg-schwenk",
+      "name": "Jörg Schwenk",
+      "publication_name": "Jörg Schwenk",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "usenix-sec24-baumer-terrapin",
+        "usenix-sec26-jannett-passkeys",
+        "usenix-sec26-merget-opossum"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 4,
+      "recent_papers": [
+        {
+          "id": "usenix-sec24-baumer-terrapin",
+          "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+          "year": 2024,
+          "venue": "USENIX Security 2024",
+          "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"
+        },
+        {
+          "id": "usenix-sec26-jannett-passkeys",
+          "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
+        },
+        {
+          "id": "usenix-sec26-merget-opossum",
+          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
+        }
+      ]
+    },
+    {
       "id": "wenbo-guo-ntu",
       "name": "Wenbo Guo",
       "publication_name": "Wenbo Guo",
@@ -6147,6 +6477,61 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf"
+        }
+      ]
+    },
+    {
+      "id": "yang-liu-ntu",
+      "name": "Yang Liu",
+      "publication_name": "Yang Liu",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Nanyang Technological University",
+        "浙江理工大学"
+      ],
+      "papers": [
+        "ase26-guo-npm-detectors",
+        "icse19-wang-superion",
+        "oopsla26-cao-sevdf",
+        "usenix-sec26-guo-pyguard"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "icse19-wang-superion",
+          "title": "Superion: Grammar-Aware Greybox Fuzzing",
+          "year": 2019,
+          "venue": "ICSE 2019",
+          "url": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"
+        },
+        {
+          "id": "ase26-guo-npm-detectors",
+          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+          "year": 2026,
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3837427"
+        },
+        {
+          "id": "usenix-sec26-guo-pyguard",
+          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
         }
       ]
     },
@@ -6395,78 +6780,31 @@
       ]
     },
     {
-      "id": "dawn-song",
-      "name": "Dawn Song",
-      "publication_name": "Dawn Song",
-      "homepage": "https://people.eecs.berkeley.edu/~dawnsong/",
-      "profile_source": "https://people.eecs.berkeley.edu/~dawnsong/",
-      "institutions": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "neurips25-nie-secodeplt",
-        "usenix-sec26-kim-agentic",
-        "usenix-sec26-zhang-resume-injection"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 3,
-      "recent_papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
-          "year": 2025,
-          "venue": "NeurIPS 2025 Datasets and Benchmarks",
-          "url": "https://doi.org/10.52202/085713-0447"
-        },
-        {
-          "id": "usenix-sec26-zhang-resume-injection",
-          "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
-        },
-        {
-          "id": "usenix-sec26-kim-agentic",
-          "title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic"
-        }
-      ]
-    },
-    {
-      "id": "joerg-schwenk",
-      "name": "Jörg Schwenk",
-      "publication_name": "Jörg Schwenk",
+      "id": "marcus-brinkmann-rub",
+      "name": "Marcus Brinkmann",
+      "publication_name": "Marcus Brinkmann",
       "homepage": "",
-      "profile_source": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
       "institutions": [
         "Ruhr University Bochum"
       ],
       "papers": [
         "ccs25-baumer-ssh-strict-kex",
-        "usenix-sec26-jannett-passkeys",
+        "usenix-sec24-baumer-terrapin",
         "usenix-sec26-merget-opossum"
       ],
       "annual_scores": {
-        "2026": {
-          "security": 2,
+        "2024": {
+          "security": 1,
           "software": 0,
           "ai": 0,
-          "total": 2
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
         },
         "2025": {
           "security": 1,
@@ -6478,11 +6816,11 @@
       "verified_score": 3,
       "recent_papers": [
         {
-          "id": "usenix-sec26-jannett-passkeys",
-          "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
+          "id": "usenix-sec24-baumer-terrapin",
+          "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+          "year": 2024,
+          "venue": "USENIX Security 2024",
+          "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"
         },
         {
           "id": "usenix-sec26-merget-opossum",
@@ -7121,53 +7459,6 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks",
           "url": "https://doi.org/10.52202/085713-0447"
-        }
-      ]
-    },
-    {
-      "id": "yang-liu-ntu",
-      "name": "Yang Liu",
-      "publication_name": "Yang Liu",
-      "homepage": "",
-      "profile_source": "",
-      "institutions": [
-        "Nanyang Technological University"
-      ],
-      "papers": [
-        "ase26-guo-npm-detectors",
-        "oopsla26-cao-sevdf",
-        "usenix-sec26-guo-pyguard"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 1,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "ase26-guo-npm-detectors",
-          "title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
-          "year": 2026,
-          "venue": "ASE 2026",
-          "url": "https://doi.org/10.1145/3832783.3837427"
-        },
-        {
-          "id": "usenix-sec26-guo-pyguard",
-          "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
-        },
-        {
-          "id": "oopsla26-cao-sevdf",
-          "title": "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection",
-          "year": 2026,
-          "venue": "ACM OOPSLA 2026",
-          "url": "https://doi.org/10.1145/3798272"
         }
       ]
     },
@@ -7833,6 +8124,51 @@
       ]
     },
     {
+      "id": "fabian-baeumer-rub",
+      "name": "Fabian Bäumer",
+      "publication_name": "Fabian Bäumer",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3719027.3765208",
+      "institutions": [
+        "Ruhr University Bochum"
+      ],
+      "papers": [
+        "ccs25-baumer-ssh-strict-kex",
+        "usenix-sec24-baumer-terrapin"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "usenix-sec24-baumer-terrapin",
+          "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+          "year": 2024,
+          "venue": "USENIX Security 2024",
+          "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"
+        },
+        {
+          "id": "ccs25-baumer-ssh-strict-kex",
+          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
+          "year": 2025,
+          "venue": "ACM CCS 2025",
+          "url": "https://doi.org/10.1145/3719027.3765208"
+        }
+      ]
+    },
+    {
       "id": "geng-hong-fudan",
       "name": "Geng Hong",
       "publication_name": "Geng Hong",
@@ -7946,6 +8282,51 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao"
+        }
+      ]
+    },
+    {
+      "id": "hao-chen-uc-davis",
+      "name": "Hao Chen",
+      "publication_name": "Hao Chen",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf",
+      "institutions": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "sp18-chen-angora",
+        "usenix-sec25-liu-agentfuzz"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "sp18-chen-angora",
+          "title": "Angora: Efficient Fuzzing by Principled Search",
+          "year": 2018,
+          "venue": "IEEE S&P 2018",
+          "url": "https://www.ieee-security.org/TC/SP2018/program.html"
+        },
+        {
+          "id": "usenix-sec25-liu-agentfuzz",
+          "title": "Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents",
+          "year": 2025,
+          "venue": "USENIX Security 2025",
+          "url": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf"
         }
       ]
     },
@@ -8283,51 +8664,6 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-beer.pdf"
-        }
-      ]
-    },
-    {
-      "id": "marcus-brinkmann-rub",
-      "name": "Marcus Brinkmann",
-      "publication_name": "Marcus Brinkmann",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ccs25-baumer-ssh-strict-kex",
-        "usenix-sec26-merget-opossum"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-merget-opossum",
-          "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"
-        },
-        {
-          "id": "ccs25-baumer-ssh-strict-kex",
-          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
-          "year": 2025,
-          "venue": "ACM CCS 2025",
-          "url": "https://doi.org/10.1145/3719027.3765208"
         }
       ]
     },
@@ -9389,6 +9725,45 @@
       ]
     },
     {
+      "id": "david-wagner-berkeley",
+      "name": "David Wagner",
+      "publication_name": "David Wagner",
+      "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wagner.html",
+      "profile_source": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wagner.html",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "arxiv-2607-18575-receipt",
+        "ccs11-felt-permissions"
+      ],
+      "annual_scores": {
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs11-felt-permissions",
+          "title": "Android Permissions Demystified",
+          "year": 2011,
+          "venue": "ACM CCS 2011",
+          "url": "https://doi.org/10.1145/2046707.2046779"
+        },
+        {
+          "id": "arxiv-2607-18575-receipt",
+          "title": "RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
       "id": "edoardo-debenedetti",
       "name": "Edoardo Debenedetti",
       "publication_name": "Edoardo Debenedetti",
@@ -10036,6 +10411,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "adrienne-porter-felt",
+      "name": "Adrienne Porter Felt",
+      "publication_name": "Adrienne Porter Felt",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2046707.2046779",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "ccs11-felt-permissions"
+      ],
+      "annual_scores": {
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs11-felt-permissions",
+          "title": "Android Permissions Demystified",
+          "year": 2011,
+          "venue": "ACM CCS 2011",
+          "url": "https://doi.org/10.1145/2046707.2046779"
         }
       ]
     },
@@ -10722,6 +11128,39 @@
       ]
     },
     {
+      "id": "anyu-wang",
+      "name": "Anyu Wang",
+      "publication_name": "Anyu Wang",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "National Financial Cryptography Research Center",
+        "中关村实验室",
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
+        }
+      ]
+    },
+    {
       "id": "aravind-machiry-purdue",
       "name": "Aravind Machiry",
       "publication_name": "Aravind Machiry",
@@ -11090,6 +11529,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "bill-yuchen-lin",
+      "name": "Bill Yuchen Lin",
+      "publication_name": "Bill Yuchen Lin",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "Allen Institute for AI"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
         }
       ]
     },
@@ -11810,6 +12280,37 @@
       ]
     },
     {
+      "id": "conglei-wang",
+      "name": "Conglei Wang",
+      "publication_name": "Conglei Wang",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
+        }
+      ]
+    },
+    {
       "id": "cornelius-aschermann",
       "name": "Cornelius Aschermann",
       "publication_name": "Cornelius Aschermann",
@@ -12397,6 +12898,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "delong-ran",
+      "name": "Delong Ran",
+      "publication_name": "Delong Ran",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
         }
       ]
     },
@@ -12993,6 +13525,37 @@
       ]
     },
     {
+      "id": "erika-chin",
+      "name": "Erika Chin",
+      "publication_name": "Erika Chin",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2046707.2046779",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "ccs11-felt-permissions"
+      ],
+      "annual_scores": {
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs11-felt-permissions",
+          "title": "Android Permissions Demystified",
+          "year": 2011,
+          "venue": "ACM CCS 2011",
+          "url": "https://doi.org/10.1145/2046707.2046779"
+        }
+      ]
+    },
+    {
       "id": "eugene-bagdasarian-umass",
       "name": "Eugene Bagdasarian",
       "publication_name": "Eugene Bagdasarian",
@@ -13113,37 +13676,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "fabian-baeumer-rub",
-      "name": "Fabian Bäumer",
-      "publication_name": "Fabian Bäumer",
-      "homepage": "",
-      "profile_source": "https://doi.org/10.1145/3719027.3765208",
-      "institutions": [
-        "Ruhr University Bochum"
-      ],
-      "papers": [
-        "ccs25-baumer-ssh-strict-kex"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ccs25-baumer-ssh-strict-kex",
-          "title": "Finding SSH Strict Key Exchange Violations by State Learning",
-          "year": 2025,
-          "venue": "ACM CCS 2025",
-          "url": "https://doi.org/10.1145/3719027.3765208"
         }
       ]
     },
@@ -13361,6 +13893,37 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fengqing-jiang",
+      "name": "Fengqing Jiang",
+      "publication_name": "Fengqing Jiang",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
         }
       ]
     },
@@ -14172,6 +14735,37 @@
       ]
     },
     {
+      "id": "hakjoo-oh",
+      "name": "Hakjoo Oh",
+      "publication_name": "Hakjoo Oh",
+      "homepage": "",
+      "profile_source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "institutions": [
+        "Korea University"
+      ],
+      "papers": [
+        "icse20-hong-saver"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse20-hong-saver",
+          "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+          "year": 2020,
+          "venue": "ICSE 2020",
+          "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"
+        }
+      ]
+    },
+    {
       "id": "hancheng-ye-duke",
       "name": "Hancheng Ye",
       "publication_name": "Hancheng Ye",
@@ -14323,37 +14917,6 @@
           "year": 2025,
           "venue": "NeurIPS 2025",
           "url": "https://doi.org/10.52202/085713-3878"
-        }
-      ]
-    },
-    {
-      "id": "hao-chen-uc-davis",
-      "name": "Hao Chen",
-      "publication_name": "Hao Chen",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf",
-      "institutions": [
-        "University of California, Davis"
-      ],
-      "papers": [
-        "usenix-sec25-liu-agentfuzz"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec25-liu-agentfuzz",
-          "title": "Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents",
-          "year": 2025,
-          "venue": "USENIX Security 2025",
-          "url": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf"
         }
       ]
     },
@@ -15569,6 +16132,37 @@
       ]
     },
     {
+      "id": "jeongsoo-lee",
+      "name": "Jeongsoo Lee",
+      "publication_name": "Jeongsoo Lee",
+      "homepage": "",
+      "profile_source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "institutions": [
+        "Korea University"
+      ],
+      "papers": [
+        "icse20-hong-saver"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse20-hong-saver",
+          "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+          "year": 2020,
+          "venue": "ICSE 2020",
+          "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"
+        }
+      ]
+    },
+    {
       "id": "jesse-de-meulemeester-ku-leuven",
       "name": "Jesse De Meulemeester",
       "publication_name": "Jesse De Meulemeester",
@@ -16285,6 +16879,68 @@
       ]
     },
     {
+      "id": "jinyuan-jia",
+      "name": "Jinyuan Jia",
+      "publication_name": "Jinyuan Jia",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "Pennsylvania State University"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
+        }
+      ]
+    },
+    {
+      "id": "jinyuan-liu",
+      "name": "Jinyuan Liu",
+      "publication_name": "Jinyuan Liu",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
+        }
+      ]
+    },
+    {
       "id": "jo-van-bulck-ku-leuven",
       "name": "Jo Van Bulck",
       "publication_name": "Jo Van Bulck",
@@ -16938,6 +17594,37 @@
       ]
     },
     {
+      "id": "junhee-lee",
+      "name": "Junhee Lee",
+      "publication_name": "Junhee Lee",
+      "homepage": "",
+      "profile_source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "institutions": [
+        "Korea University"
+      ],
+      "papers": [
+        "icse20-hong-saver"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse20-hong-saver",
+          "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+          "year": 2020,
+          "venue": "ICSE 2020",
+          "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"
+        }
+      ]
+    },
+    {
       "id": "junjie-he-hust",
       "name": "Junjie He",
       "publication_name": "Junjie He",
@@ -16965,6 +17652,37 @@
           "year": 2026,
           "venue": "ICSE 2026",
           "url": "https://doi.org/10.1145/3744916.3773199"
+        }
+      ]
+    },
+    {
+      "id": "junjie-wang",
+      "name": "Junjie Wang",
+      "publication_name": "Junjie Wang",
+      "homepage": "",
+      "profile_source": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "icse19-wang-superion"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse19-wang-superion",
+          "title": "Superion: Grammar-Aware Greybox Fuzzing",
+          "year": 2019,
+          "venue": "ICSE 2019",
+          "url": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"
         }
       ]
     },
@@ -17653,6 +18371,37 @@
       ]
     },
     {
+      "id": "lei-wei",
+      "name": "Lei Wei",
+      "publication_name": "Lei Wei",
+      "homepage": "",
+      "profile_source": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "icse19-wang-superion"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse19-wang-superion",
+          "title": "Superion: Grammar-Aware Greybox Fuzzing",
+          "year": 2019,
+          "venue": "ICSE 2019",
+          "url": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"
+        }
+      ]
+    },
+    {
       "id": "lei-xu-kent-state",
       "name": "Lei Xu",
       "publication_name": "Lei Xu",
@@ -18271,6 +19020,37 @@
           "year": 2025,
           "venue": "NeurIPS 2025",
           "url": "https://doi.org/10.52202/085713-0625"
+        }
+      ]
+    },
+    {
+      "id": "luyao-niu",
+      "name": "Luyao Niu",
+      "publication_name": "Luyao Niu",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
         }
       ]
     },
@@ -21012,6 +21792,37 @@
       ]
     },
     {
+      "id": "radha-poovendran",
+      "name": "Radha Poovendran",
+      "publication_name": "Radha Poovendran",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
+        }
+      ]
+    },
+    {
       "id": "ralf-kuesters-stuttgart",
       "name": "Ralf Küsters",
       "publication_name": "Ralf Küsters",
@@ -21939,6 +22750,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://doi.org/10.1109/SP63933.2026.00241"
+        }
+      ]
+    },
+    {
+      "id": "seongjoon-hong",
+      "name": "Seongjoon Hong",
+      "publication_name": "Seongjoon Hong",
+      "homepage": "",
+      "profile_source": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "institutions": [
+        "Korea University"
+      ],
+      "papers": [
+        "icse20-hong-saver"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse20-hong-saver",
+          "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+          "year": 2020,
+          "venue": "ICSE 2020",
+          "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair"
         }
       ]
     },
@@ -22968,6 +23810,37 @@
       ]
     },
     {
+      "id": "steve-hanna",
+      "name": "Steve Hanna",
+      "publication_name": "Steve Hanna",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/2046707.2046779",
+      "institutions": [
+        "University of California, Berkeley"
+      ],
+      "papers": [
+        "ccs11-felt-permissions"
+      ],
+      "annual_scores": {
+        "2011": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs11-felt-permissions",
+          "title": "Android Permissions Demystified",
+          "year": 2011,
+          "venue": "ACM CCS 2011",
+          "url": "https://doi.org/10.1145/2046707.2046779"
+        }
+      ]
+    },
+    {
       "id": "steven-basart",
       "name": "Steven Basart",
       "publication_name": "Steven Basart",
@@ -23803,6 +24676,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-mohan"
+        }
+      ]
+    },
+    {
+      "id": "tianshuo-cong",
+      "name": "Tianshuo Cong",
+      "publication_name": "Tianshuo Cong",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
         }
       ]
     },
@@ -25236,6 +26140,41 @@
       ]
     },
     {
+      "id": "xiaoyun-wang",
+      "name": "Xiaoyun Wang",
+      "publication_name": "Xiaoyun Wang",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "National Financial Cryptography Research Center",
+        "中关村实验室",
+        "山东区块链研究院",
+        "山东大学",
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
+        }
+      ]
+    },
+    {
       "id": "xin-wang-hkust-gz",
       "name": "Xin Wang",
       "publication_name": "Xin Wang",
@@ -26071,6 +27010,37 @@
           "year": 2026,
           "venue": "AAAI 2026",
           "url": "https://doi.org/10.1609/aaai.v40i42.40895"
+        }
+      ]
+    },
+    {
+      "id": "yichen-gong",
+      "name": "Yichen Gong",
+      "publication_name": "Yichen Gong",
+      "homepage": "",
+      "profile_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
         }
       ]
     },
@@ -27441,6 +28411,37 @@
       ]
     },
     {
+      "id": "zhangchen-xu",
+      "name": "Zhangchen Xu",
+      "publication_name": "Zhangchen Xu",
+      "homepage": "",
+      "profile_source": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+          "year": 2024,
+          "venue": "ACL 2024",
+          "url": "https://aclanthology.org/2024.acl-long.303/"
+        }
+      ]
+    },
+    {
       "id": "zhao-liu-360",
       "name": "Zhao Liu",
       "publication_name": "Zhao Liu",
@@ -28529,6 +29530,40 @@
       ]
     },
     {
+      "id": "sisi-duan",
+      "name": "段斯斯",
+      "publication_name": "Sisi Duan",
+      "homepage": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm",
+      "profile_source": "https://people.ias.tsinghua.edu.cn/duansisi/zh_CN/jsxx/7088/jsxx/jsxx.htm",
+      "institutions": [
+        "National Financial Cryptography Research Center",
+        "中关村实验室",
+        "山东区块链研究院",
+        "清华大学"
+      ],
+      "papers": [
+        "aaai25-gong-figstep"
+      ],
+      "annual_scores": {
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+          "year": 2025,
+          "venue": "AAAI 2025",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568"
+        }
+      ]
+    },
+    {
       "id": "zhenyu-chen-nju",
       "name": "陈振宇",
       "publication_name": "Zhenyu Chen",
@@ -28556,6 +29591,37 @@
           "year": 2026,
           "venue": "ISSTA 2026",
           "url": "https://arxiv.org/abs/2607.17619"
+        }
+      ]
+    },
+    {
+      "id": "bihuan-chen",
+      "name": "陈碧欢",
+      "publication_name": "Bihuan Chen",
+      "homepage": "https://datascience.fudan.edu.cn/b4/eb/c13398a439531/page.htm",
+      "profile_source": "https://datascience.fudan.edu.cn/b4/eb/c13398a439531/page.htm",
+      "institutions": [
+        "复旦大学"
+      ],
+      "papers": [
+        "icse19-wang-superion"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icse19-wang-superion",
+          "title": "Superion: Grammar-Aware Greybox Fuzzing",
+          "year": 2019,
+          "venue": "ICSE 2019",
+          "url": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing"
         }
       ]
     },
@@ -28618,6 +29684,37 @@
           "year": 2026,
           "venue": "ISSTA 2026",
           "url": "https://arxiv.org/abs/2607.17619"
+        }
+      ]
+    },
+    {
+      "id": "peng-chen",
+      "name": "陈鹏",
+      "publication_name": "Peng Chen",
+      "homepage": "",
+      "profile_source": "https://sist.shanghaitech.edu.cn/2023/0505/c10970a1077194/page.htm",
+      "institutions": [
+        "上海科技大学"
+      ],
+      "papers": [
+        "sp18-chen-angora"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "sp18-chen-angora",
+          "title": "Angora: Efficient Fuzzing by Principled Search",
+          "year": 2018,
+          "venue": "IEEE S&P 2018",
+          "url": "https://www.ieee-security.org/TC/SP2018/program.html"
         }
       ]
     },
@@ -29106,30 +30203,6 @@
           "year": 2026,
           "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond (NeurIPS 2026)",
           "url": "https://neurips.cc/virtual/2026/poster/139377"
-        }
-      ]
-    },
-    {
-      "id": "david-wagner-berkeley",
-      "name": "David Wagner",
-      "publication_name": "David Wagner",
-      "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wagner.html",
-      "profile_source": "https://www2.eecs.berkeley.edu/Faculty/Homepages/wagner.html",
-      "institutions": [
-        "University of California, Berkeley"
-      ],
-      "papers": [
-        "arxiv-2607-18575-receipt"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2607-18575-receipt",
-          "title": "RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2607.18575"
         }
       ]
     },
@@ -31154,6 +32227,28 @@
       "weight": 3
     },
     {
+      "source": "tsinghua-university",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        },
+        {
+          "id": "ndss26-wu-email-aliases",
+          "year": 2026,
+          "venue_group": "security"
+        },
+        {
+          "id": "usenix-sec26-zhao-waved",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 3
+    },
+    {
       "source": "uk-ai-security-institute",
       "target": "university-oxford",
       "papers": [
@@ -31550,6 +32645,23 @@
       "weight": 2
     },
     {
+      "source": "nanyang-technological-university",
+      "target": "zhejiang-sci-tech-university",
+      "papers": [
+        {
+          "id": "icse19-wang-superion",
+          "year": 2019,
+          "venue_group": "software"
+        },
+        {
+          "id": "usenix-sec26-liu-malicious-skills",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "pennsylvania-state-university",
       "target": "university-luxembourg",
       "papers": [
@@ -31596,23 +32708,6 @@
           "id": "fse26-guo-bcs",
           "year": 2026,
           "venue_group": "software"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "tsinghua-university",
-      "target": "zhongguancun-laboratory",
-      "papers": [
-        {
-          "id": "ndss26-wu-email-aliases",
-          "year": 2026,
-          "venue_group": "security"
-        },
-        {
-          "id": "usenix-sec26-zhao-waved",
-          "year": 2026,
-          "venue_group": "security"
         }
       ],
       "weight": 2
@@ -31741,6 +32836,30 @@
           "id": "usenix-sec26-jia-pangolin",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "allen-institute-for-ai",
+      "target": "pennsylvania-state-university",
+      "papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "allen-institute-for-ai",
+      "target": "university-washington",
+      "papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "year": 2024,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -32095,12 +33214,48 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "national-financial-cryptography-research-center",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "ruhr-university-bochum",
       "papers": [
         {
           "id": "ieee-sp26-wang-transient-architectural-execution",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "shandong-institute-blockchain",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "shandong-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -32119,11 +33274,35 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "uiuc",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
           "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
           "venue_group": "ai"
         }
       ],
@@ -32731,6 +33910,18 @@
     },
     {
       "source": "fudan-university",
+      "target": "nanyang-technological-university",
+      "papers": [
+        {
+          "id": "icse19-wang-superion",
+          "year": 2019,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "fudan-university",
       "target": "shanghai-innovation-institute",
       "papers": [
         {
@@ -32761,6 +33952,18 @@
           "id": "usenix-sec25-liu-agentfuzz",
           "year": 2025,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "fudan-university",
+      "target": "zhejiang-sci-tech-university",
+      "papers": [
+        {
+          "id": "icse19-wang-superion",
+          "year": 2019,
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -34243,10 +35446,10 @@
     },
     {
       "source": "nanyang-technological-university",
-      "target": "zhejiang-sci-tech-university",
+      "target": "zhejiang-university",
       "papers": [
         {
-          "id": "usenix-sec26-liu-malicious-skills",
+          "id": "usenix-sec26-he-attriguard",
           "year": 2026,
           "venue_group": "security"
         }
@@ -34254,13 +35457,49 @@
       "weight": 1
     },
     {
-      "source": "nanyang-technological-university",
-      "target": "zhejiang-university",
+      "source": "national-financial-cryptography-research-center",
+      "target": "shandong-institute-blockchain",
       "papers": [
         {
-          "id": "usenix-sec26-he-attriguard",
-          "year": 2026,
-          "venue_group": "security"
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "national-financial-cryptography-research-center",
+      "target": "shandong-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "national-financial-cryptography-research-center",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "national-financial-cryptography-research-center",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -34554,6 +35793,18 @@
       "weight": 1
     },
     {
+      "source": "pennsylvania-state-university",
+      "target": "university-washington",
+      "papers": [
+        {
+          "id": "acl24-xu-safedecoding",
+          "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "purdue-university",
       "target": "uiuc",
       "papers": [
@@ -34674,6 +35925,42 @@
       "weight": 1
     },
     {
+      "source": "shandong-institute-blockchain",
+      "target": "shandong-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "shandong-institute-blockchain",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "shandong-institute-blockchain",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "shandong-university",
       "target": "shanghai-university",
       "papers": [
@@ -34698,6 +35985,30 @@
       "weight": 1
     },
     {
+      "source": "shandong-university",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "shandong-university",
+      "target": "zhongguancun-laboratory",
+      "papers": [
+        {
+          "id": "aaai25-gong-figstep",
+          "year": 2025,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "shanghai-university",
       "target": "skl-cryptography-digital-economy-security",
       "papers": [
@@ -34716,6 +36027,18 @@
         {
           "id": "usenix-sec26-liu-picklecloak",
           "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "shanghaitech-university",
+      "target": "uc-davis",
+      "papers": [
+        {
+          "id": "sp18-chen-angora",
+          "year": 2018,
           "venue_group": "security"
         }
       ],
@@ -35414,6 +36737,24 @@
       ]
     },
     {
+      "id": "usenix-sec24-baumer-terrapin",
+      "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+      "year": 2024,
+      "venue": "USENIX Security 2024",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer",
+      "institutions": [
+        "ruhr-university-bochum"
+      ],
+      "authors": [
+        "fabian-baeumer-rub",
+        "marcus-brinkmann-rub",
+        "jorg-schwenk"
+      ]
+    },
+    {
       "id": "usenix-sec20-poeplau-symcc",
       "title": "Symbolic execution with SymCC: Don't interpret, compile!",
       "year": 2020,
@@ -35428,6 +36769,69 @@
       "authors": [
         "sebastian-poeplau",
         "aurelien-francillon"
+      ]
+    },
+    {
+      "id": "icse19-wang-superion",
+      "title": "Superion: Grammar-Aware Greybox Fuzzing",
+      "year": 2019,
+      "venue": "ICSE 2019",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/52/Superion-Grammar-Aware-Greybox-Fuzzing",
+      "institutions": [
+        "nanyang-technological-university",
+        "fudan-university",
+        "zhejiang-sci-tech-university"
+      ],
+      "authors": [
+        "junjie-wang",
+        "bihuan-chen",
+        "lei-wei",
+        "yang-liu-ntu"
+      ]
+    },
+    {
+      "id": "acl24-xu-safedecoding",
+      "title": "SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+      "year": 2024,
+      "venue": "ACL 2024",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://aclanthology.org/2024.acl-long.303/",
+      "institutions": [
+        "university-washington",
+        "pennsylvania-state-university",
+        "allen-institute-for-ai"
+      ],
+      "authors": [
+        "zhangchen-xu",
+        "fengqing-jiang",
+        "luyao-niu",
+        "jinyuan-jia",
+        "bill-yuchen-lin",
+        "radha-poovendran"
+      ]
+    },
+    {
+      "id": "icse20-hong-saver",
+      "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+      "year": 2020,
+      "venue": "ICSE 2020",
+      "venue_group": "software",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "institutions": [
+        "korea-university"
+      ],
+      "authors": [
+        "seongjoon-hong",
+        "junhee-lee",
+        "jeongsoo-lee",
+        "hakjoo-oh"
       ]
     },
     {
@@ -35594,6 +36998,34 @@
       ]
     },
     {
+      "id": "aaai25-gong-figstep",
+      "title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+      "year": 2025,
+      "venue": "AAAI 2025",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34568",
+      "institutions": [
+        "tsinghua-university",
+        "carnegie-mellon-university",
+        "zhongguancun-laboratory",
+        "national-financial-cryptography-research-center",
+        "shandong-institute-blockchain",
+        "shandong-university"
+      ],
+      "authors": [
+        "yichen-gong",
+        "delong-ran",
+        "jinyuan-liu",
+        "conglei-wang",
+        "tianshuo-cong",
+        "anyu-wang",
+        "sisi-duan",
+        "xiaoyun-wang"
+      ]
+    },
+    {
       "id": "issta16-li-droidra",
       "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
       "year": 2016,
@@ -35683,6 +37115,44 @@
         "liwei-guo",
         "thorsten-holz-mpi-sp",
         "ali-abbasi-cispa"
+      ]
+    },
+    {
+      "id": "sp18-chen-angora",
+      "title": "Angora: Efficient Fuzzing by Principled Search",
+      "year": 2018,
+      "venue": "IEEE S&P 2018",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.ieee-security.org/TC/SP2018/program.html",
+      "institutions": [
+        "shanghaitech-university",
+        "uc-davis"
+      ],
+      "authors": [
+        "peng-chen",
+        "hao-chen-uc-davis"
+      ]
+    },
+    {
+      "id": "ccs11-felt-permissions",
+      "title": "Android Permissions Demystified",
+      "year": 2011,
+      "venue": "ACM CCS 2011",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://doi.org/10.1145/2046707.2046779",
+      "institutions": [
+        "uc-berkeley"
+      ],
+      "authors": [
+        "adrienne-porter-felt",
+        "erika-chin",
+        "steve-hanna",
+        "dawn-song",
+        "david-wagner-berkeley"
       ]
     },
     {
@@ -38422,7 +39892,7 @@
         "maximilian-westers-heilbronn",
         "vladislav-mladenov-rub",
         "christian-mainka-wuppertal",
-        "joerg-schwenk"
+        "jorg-schwenk"
       ]
     },
     {
@@ -38489,7 +39959,7 @@
         "sven-hebrok-paderborn",
         "marcus-brinkmann-rub",
         "juraj-somorovsky-paderborn",
-        "joerg-schwenk"
+        "jorg-schwenk"
       ]
     },
     {
@@ -38890,7 +40360,7 @@
         "fabian-baeumer-rub",
         "marcel-maehren-rub",
         "marcus-brinkmann-rub",
-        "joerg-schwenk"
+        "jorg-schwenk"
       ]
     },
     {

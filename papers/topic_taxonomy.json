@@ -1,5 +1,5 @@
 {
-  "version": "1.10.2",
+  "version": "1.10.3",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -372,7 +372,8 @@
     "annotation-policy": {"label": "安全意图注解", "facet": "method"},
     "secure-computation": {"label": "安全计算", "facet": "object"},
     "memory-management": {"label": "内存管理", "facet": "method"},
-    "content-obliviousness": {"label": "内容无关访问", "facet": "method"}
+    "content-obliviousness": {"label": "内容无关访问", "facet": "method"},
+    "dynamic-binary-instrumentation": {"label": "动态二进制插桩", "facet": "method"}
   },
   "primary_domain_overrides": {
     "usenix-sec26-kim-agentic": "ai-security",
@@ -528,6 +529,9 @@
     "neurips24-debenedetti-agentdojo": "ai-security",
     "ndss26-wang-anota": "software-application-security",
     "osdi26-liu-osprey": "identity-privacy",
-    "iclr25-andriushchenko-agentharm": "ai-security"
+    "iclr25-andriushchenko-agentharm": "ai-security",
+    "usenix-sec20-poeplau-symcc": "software-application-security",
+    "osdi26-xie-iland": "mobile-iot-security",
+    "satml26-debenedetti-camel": "ai-security"
   }
 }

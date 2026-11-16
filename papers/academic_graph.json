@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T16:54:05+08:00",
+  "generated_at": "2026-11-16T17:15:06+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 154,
-    "papers_with_affiliations": 154,
-    "scored_top_venue_papers": 136
+    "indexed_papers": 157,
+    "papers_with_affiliations": 157,
+    "scored_top_venue_papers": 137
   },
   "categories": [
     {
@@ -24,7 +24,8 @@
   "years": [
     "2026",
     "2025",
-    "2024"
+    "2024",
+    "2020"
   ],
   "institutions": [
     {
@@ -98,6 +99,7 @@
         "ieee-sp26-graf-vmscape",
         "ieee-sp26-xu-resolver-profiler",
         "neurips24-debenedetti-agentdojo",
+        "satml26-debenedetti-camel",
         "usenix-sec26-lermen-deanonymization",
         "usenix-sec26-xu-dalens"
       ],
@@ -1339,6 +1341,39 @@
       "verified_score": 2
     },
     {
+      "id": "eurecom",
+      "name": "EURECOM",
+      "country_code": "FRA",
+      "affiliation_names": [
+        "EURECOM"
+      ],
+      "papers": [
+        "ndss26-sacchetti-blerp",
+        "usenix-sec20-poeplau-symcc"
+      ],
+      "scholars": [
+        "Aurélien Francillon",
+        "Daniele Antonioli",
+        "Sebastian Poeplau",
+        "Tommaso Sacchetti"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "georgia-tech",
       "name": "Georgia Institute of Technology",
       "country_code": "USA",
@@ -2031,11 +2066,11 @@
       ],
       "scholars": [
         "Derqui Andrea",
-        "Faatin Alvi",
         "Frederik Zuiderveen Borgesius",
         "Gunes Acar",
         "Kaushal Punjabi",
         "Rahul Deivasigamani",
+        "Sayeda Faatin Alvi",
         "Stjepan Picek"
       ],
       "annual_scores": {
@@ -2536,30 +2571,6 @@
       ],
       "scholars": [
         "David Oswald"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "eurecom",
-      "name": "EURECOM",
-      "country_code": "FRA",
-      "affiliation_names": [
-        "EURECOM"
-      ],
-      "papers": [
-        "ndss26-sacchetti-blerp"
-      ],
-      "scholars": [
-        "Daniele Antonioli",
-        "Tommaso Sacchetti"
       ],
       "annual_scores": {
         "2026": {
@@ -5446,6 +5457,27 @@
       "verified_score": 1
     },
     {
+      "id": "google",
+      "name": "Google",
+      "country_code": "",
+      "affiliation_names": [
+        "Google"
+      ],
+      "papers": [
+        "pldi26-nguyen-analyzing-bytes",
+        "satml26-debenedetti-camel"
+      ],
+      "scholars": [
+        "Christoph Kern",
+        "Daniel Fabian",
+        "Edoardo Debenedetti",
+        "Huan Nguyen",
+        "Tianqi Fan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-california-riverside",
       "name": "University of California, Riverside",
       "country_code": "USA",
@@ -5489,17 +5521,21 @@
       "verified_score": 0
     },
     {
-      "id": "google",
-      "name": "Google",
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
       "country_code": "",
       "affiliation_names": [
-        "Google"
+        "Google DeepMind"
       ],
       "papers": [
-        "pldi26-nguyen-analyzing-bytes"
+        "satml26-debenedetti-camel"
       ],
       "scholars": [
-        "Huan Nguyen"
+        "Andreas Terzis",
+        "Chongyang Shi",
+        "Ilia Shumailov",
+        "Jamie Hayes",
+        "Nicholas Carlini"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -5622,6 +5658,22 @@
       "verified_score": 0
     },
     {
+      "id": "university-zagreb",
+      "name": "University of Zagreb",
+      "country_code": "HRV",
+      "affiliation_names": [
+        "Faculty of Electrical Engineering and Computing, University of Zagreb"
+      ],
+      "papers": [
+        "arxiv-2608-08939-not-a11y"
+      ],
+      "scholars": [
+        "Stjepan Picek"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "zhejiang-university-of-technology",
       "name": "浙江工业大学",
       "country_code": "CHN",
@@ -5638,6 +5690,24 @@
         "Wentao Fu",
         "Xuanze Chen",
         "Xukang Xie"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "alibaba-group",
+      "name": "阿里巴巴集团",
+      "country_code": "",
+      "affiliation_names": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "osdi26-xie-iland"
+      ],
+      "scholars": [
+        "Kaitao Xie",
+        "Xiaolong Bai",
+        "Yizhuo Wang"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6478,6 +6548,59 @@
       ]
     },
     {
+      "id": "florian-tramer-eth",
+      "name": "Florian Tramèr",
+      "publication_name": "Florian Tramèr",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo",
+        "satml26-debenedetti-camel",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        },
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        },
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "xander-davies-aisi-oxford",
       "name": "Xander Davies",
       "publication_name": "Xander Davies",
@@ -7222,51 +7345,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
-        }
-      ]
-    },
-    {
-      "id": "florian-tramer-eth",
-      "name": "Florian Tramèr",
-      "publication_name": "Florian Tramèr",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
-      "institutions": [
-        "ETH Zurich"
-      ],
-      "papers": [
-        "neurips24-debenedetti-agentdojo",
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "neurips24-debenedetti-agentdojo",
-          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
-          "year": 2024,
-          "venue": "NeurIPS 2024",
-          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
-        },
-        {
-          "id": "usenix-sec26-lermen-deanonymization",
-          "title": "Large-Scale Online Deanonymization with LLMs",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
         }
       ]
     },
@@ -8771,6 +8849,46 @@
       ]
     },
     {
+      "id": "edoardo-debenedetti",
+      "name": "Edoardo Debenedetti",
+      "publication_name": "Edoardo Debenedetti",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich",
+        "Google"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo",
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        },
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "franziska-roesner-uw",
       "name": "Franziska Roesner",
       "publication_name": "Franziska Roesner",
@@ -9047,6 +9165,46 @@
       ]
     },
     {
+      "id": "nicholas-carlini-anthropic",
+      "name": "Nicholas Carlini",
+      "publication_name": "Nicholas Carlini",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "Anthropic",
+        "Google DeepMind"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        },
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "woohyuk-choi-snu",
       "name": "Woohyuk Choi",
       "publication_name": "Woohyuk Choi",
@@ -9151,7 +9309,7 @@
           "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
           "year": 2025,
           "venue": "NeurIPS 2025",
-          "url": "https://arxiv.org/abs/2504.18575"
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -10112,7 +10270,7 @@
           "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
           "year": 2025,
           "venue": "NeurIPS 2025",
-          "url": "https://arxiv.org/abs/2504.18575"
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -10175,6 +10333,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini"
+        }
+      ]
+    },
+    {
+      "id": "aurelien-francillon",
+      "name": "Aurélien Francillon",
+      "publication_name": "Aurélien Francillon",
+      "homepage": "https://s3.eurecom.fr/~aurel/index.html",
+      "profile_source": "https://s3.eurecom.fr/~aurel/index.html",
+      "institutions": [
+        "EURECOM"
+      ],
+      "papers": [
+        "usenix-sec20-poeplau-symcc"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec20-poeplau-symcc",
+          "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+          "year": 2020,
+          "venue": "USENIX Security 2020",
+          "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau"
         }
       ]
     },
@@ -11047,7 +11236,7 @@
           "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
           "year": 2025,
           "venue": "NeurIPS 2025",
-          "url": "https://arxiv.org/abs/2504.18575"
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -11952,37 +12141,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "edoardo-debenedetti",
-      "name": "Edoardo Debenedetti",
-      "publication_name": "Edoardo Debenedetti",
-      "homepage": "",
-      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
-      "institutions": [
-        "ETH Zurich"
-      ],
-      "papers": [
-        "neurips24-debenedetti-agentdojo"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "neurips24-debenedetti-agentdojo",
-          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
-          "year": 2024,
-          "venue": "NeurIPS 2024",
-          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -14372,7 +14530,7 @@
           "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
           "year": 2025,
           "venue": "NeurIPS 2025",
-          "url": "https://arxiv.org/abs/2504.18575"
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -16362,7 +16520,7 @@
           "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
           "year": 2025,
           "venue": "NeurIPS 2025",
-          "url": "https://arxiv.org/abs/2504.18575"
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -18887,37 +19045,6 @@
       ]
     },
     {
-      "id": "nicholas-carlini-anthropic",
-      "name": "Nicholas Carlini",
-      "publication_name": "Nicholas Carlini",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
-      "institutions": [
-        "Anthropic"
-      ],
-      "papers": [
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-lermen-deanonymization",
-          "title": "Large-Scale Online Deanonymization with LLMs",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
-        }
-      ]
-    },
-    {
       "id": "nick-winter-gray-swan",
       "name": "Nick Winter",
       "publication_name": "Nick Winter",
@@ -20869,6 +20996,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "sebastian-poeplau",
+      "name": "Sebastian Poeplau",
+      "publication_name": "Sebastian Poeplau",
+      "homepage": "https://www.s3.eurecom.fr/~seba/",
+      "profile_source": "https://www.s3.eurecom.fr/~seba/",
+      "institutions": [
+        "EURECOM"
+      ],
+      "papers": [
+        "usenix-sec20-poeplau-symcc"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "usenix-sec20-poeplau-symcc",
+          "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+          "year": 2020,
+          "venue": "USENIX Security 2020",
+          "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau"
         }
       ]
     },
@@ -27478,6 +27636,30 @@
       ]
     },
     {
+      "id": "andreas-terzis",
+      "name": "Andreas Terzis",
+      "publication_name": "Andreas Terzis",
+      "homepage": "https://aterzis-personal.github.io/aterzis/",
+      "profile_source": "https://aterzis-personal.github.io/aterzis/",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
       "id": "ankur-singh-concordia",
       "name": "Ankur Singh",
       "publication_name": "Ankur Singh",
@@ -27574,6 +27756,54 @@
       ]
     },
     {
+      "id": "chongyang-shi",
+      "name": "Chongyang Shi",
+      "publication_name": "Chongyang Shi",
+      "homepage": "https://chongya.ng/",
+      "profile_source": "https://chongya.ng/",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
+      "id": "christoph-kern",
+      "name": "Christoph Kern",
+      "publication_name": "Christoph Kern",
+      "homepage": "",
+      "profile_source": "https://satml.org/2026/accepted-papers/",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
       "id": "chuan-li-lambda",
       "name": "Chuan Li",
       "publication_name": "Chuan Li",
@@ -27642,6 +27872,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "daniel-fabian",
+      "name": "Daniel Fabian",
+      "publication_name": "Daniel Fabian",
+      "homepage": "",
+      "profile_source": "https://satml.org/2026/accepted-papers/",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
         }
       ]
     },
@@ -27784,7 +28038,7 @@
           "id": "arxiv-2608-08939-not-a11y",
           "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "AGENT-SEC 2026",
           "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
@@ -27834,30 +28088,6 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
-        }
-      ]
-    },
-    {
-      "id": "faatin-alvi",
-      "name": "Faatin Alvi",
-      "publication_name": "Faatin Alvi",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2608.08939",
-      "institutions": [
-        "Radboud University"
-      ],
-      "papers": [
-        "arxiv-2608-08939-not-a11y"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2608-08939-not-a11y",
-          "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
     },
@@ -28104,6 +28334,54 @@
       ]
     },
     {
+      "id": "ilia-shumailov",
+      "name": "Ilia Shumailov",
+      "publication_name": "Ilia Shumailov",
+      "homepage": "https://www.cl.cam.ac.uk/~is410/",
+      "profile_source": "https://www.cl.cam.ac.uk/~is410/",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
+      "id": "jamie-hayes",
+      "name": "Jamie Hayes",
+      "publication_name": "Jamie Hayes",
+      "homepage": "https://jamiehay.es/",
+      "profile_source": "https://jamiehay.es/",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
       "id": "jiajun-zhou-zjut",
       "name": "Jiajun Zhou",
       "publication_name": "Jiajun Zhou",
@@ -28273,6 +28551,30 @@
       ]
     },
     {
+      "id": "kaitao-xie",
+      "name": "Kaitao Xie",
+      "publication_name": "Kaitao Xie",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "osdi26-xie-iland"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-xie-iland",
+          "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"
+        }
+      ]
+    },
+    {
       "id": "kaixuan-li-ntu",
       "name": "Kaixuan Li",
       "publication_name": "Kaixuan Li",
@@ -28339,7 +28641,7 @@
           "id": "arxiv-2608-08939-not-a11y",
           "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "AGENT-SEC 2026",
           "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
@@ -28627,7 +28929,7 @@
           "id": "arxiv-2608-08939-not-a11y",
           "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "AGENT-SEC 2026",
           "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
@@ -28725,6 +29027,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        }
+      ]
+    },
+    {
+      "id": "faatin-alvi",
+      "name": "Sayeda Faatin Alvi",
+      "publication_name": "Sayeda Faatin Alvi",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3847320.3847397",
+      "institutions": [
+        "Radboud University"
+      ],
+      "papers": [
+        "arxiv-2608-08939-not-a11y"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2608-08939-not-a11y",
+          "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
+          "year": 2026,
+          "venue": "AGENT-SEC 2026",
+          "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
     },
@@ -28832,7 +29158,8 @@
       "homepage": "",
       "profile_source": "https://arxiv.org/abs/2608.08939",
       "institutions": [
-        "Radboud University"
+        "Radboud University",
+        "University of Zagreb"
       ],
       "papers": [
         "arxiv-2608-08939-not-a11y"
@@ -28844,7 +29171,7 @@
           "id": "arxiv-2608-08939-not-a11y",
           "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "AGENT-SEC 2026",
           "url": "https://arxiv.org/abs/2608.08939"
         }
       ]
@@ -28870,6 +29197,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.05120"
+        }
+      ]
+    },
+    {
+      "id": "tianqi-fan",
+      "name": "Tianqi Fan",
+      "publication_name": "Tianqi Fan",
+      "homepage": "",
+      "profile_source": "https://satml.org/2026/accepted-papers/",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "satml26-debenedetti-camel"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "title": "Defeating Prompt Injections by Design",
+          "year": 2026,
+          "venue": "IEEE SaTML 2026",
+          "url": "https://satml.org/2026/accepted-papers/"
         }
       ]
     },
@@ -28942,6 +29293,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "xiaolong-bai",
+      "name": "Xiaolong Bai",
+      "publication_name": "Xiaolong Bai",
+      "homepage": "https://xiaolongbai.weebly.com/",
+      "profile_source": "https://xiaolongbai.weebly.com/",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "osdi26-xie-iland"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-xie-iland",
+          "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"
         }
       ]
     },
@@ -29134,6 +29509,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "yizhuo-wang",
+      "name": "Yizhuo Wang",
+      "publication_name": "Yizhuo Wang",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "osdi26-xie-iland"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-xie-iland",
+          "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"
         }
       ]
     },
@@ -30790,6 +31189,30 @@
     },
     {
       "source": "eth-zurich",
+      "target": "google",
+      "papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
+      "target": "google-deepmind",
+      "papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
       "target": "invariant-labs",
       "papers": [
         {
@@ -31012,6 +31435,18 @@
           "id": "ieee-sp26-ersoy-dark-patterns",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "google-deepmind",
+      "papers": [
+        {
+          "id": "satml26-debenedetti-camel",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -32613,6 +33048,18 @@
       "weight": 1
     },
     {
+      "source": "radboud-university",
+      "target": "university-zagreb",
+      "papers": [
+        {
+          "id": "arxiv-2608-08939-not-a11y",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "riken-aip",
       "target": "waseda-university",
       "papers": [
@@ -33359,6 +33806,41 @@
   ],
   "publications": [
     {
+      "id": "osdi26-xie-iland",
+      "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+      "year": 2026,
+      "venue": "USENIX OSDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao",
+      "institutions": [
+        "alibaba-group"
+      ],
+      "authors": [
+        "kaitao-xie",
+        "yizhuo-wang",
+        "xiaolong-bai"
+      ]
+    },
+    {
+      "id": "usenix-sec20-poeplau-symcc",
+      "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+      "year": 2020,
+      "venue": "USENIX Security 2020",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+      "institutions": [
+        "eurecom"
+      ],
+      "authors": [
+        "sebastian-poeplau",
+        "aurelien-francillon"
+      ]
+    },
+    {
       "id": "ndss26-syros-saga",
       "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
       "year": 2026,
@@ -33397,6 +33879,33 @@
         "harry-xu",
         "raluca-ada-popa-berkeley",
         "sam-kumar"
+      ]
+    },
+    {
+      "id": "satml26-debenedetti-camel",
+      "title": "Defeating Prompt Injections by Design",
+      "year": 2026,
+      "venue": "IEEE SaTML 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://satml.org/2026/accepted-papers/",
+      "institutions": [
+        "google",
+        "google-deepmind",
+        "eth-zurich"
+      ],
+      "authors": [
+        "edoardo-debenedetti",
+        "ilia-shumailov",
+        "tianqi-fan",
+        "jamie-hayes",
+        "nicholas-carlini-anthropic",
+        "daniel-fabian",
+        "christoph-kern",
+        "chongyang-shi",
+        "andreas-terzis",
+        "florian-tramer-eth"
       ]
     },
     {
@@ -35594,13 +36103,14 @@
       "id": "arxiv-2608-08939-not-a11y",
       "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "AGENT-SEC 2026",
       "venue_group": null,
-      "status": "preprint-unreviewed",
+      "status": "accepted-workshop",
       "first_seen": "2026-08-11",
       "url": "https://arxiv.org/abs/2608.08939",
       "institutions": [
-        "radboud-university"
+        "radboud-university",
+        "university-zagreb"
       ],
       "authors": [
         "rahul-deivasigamani",
@@ -36712,7 +37222,7 @@
       "venue_group": "ai",
       "status": "accepted",
       "first_seen": "2025-04-25",
-      "url": "https://arxiv.org/abs/2504.18575",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html",
       "institutions": [
         "fair-meta",
         "independent-researcher"

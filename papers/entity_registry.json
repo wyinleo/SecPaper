@@ -1,5 +1,5 @@
 {
-  "version": "1.12.2",
+  "version": "1.12.3",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -230,7 +230,11 @@
     "FAIR at Meta": {"id": "fair-meta", "country_code": "USA", "display_name": "FAIR at Meta", "language": "en", "source": "https://ai.meta.com/research/"},
     "Invariant Labs": {"id": "invariant-labs", "display_name": "Invariant Labs", "language": "en", "country_code": "CHE", "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-137.319.956"},
     "电子科技大学": {"id": "uestc", "country_code": "CHN", "display_name": "电子科技大学", "language": "zh", "source": "https://www.uestc.edu.cn/"},
-    "University of California, Los Angeles": {"id": "ucla", "country_code": "USA", "display_name": "University of California, Los Angeles", "language": "en", "aliases": ["UCLA"], "source": "https://www.ucla.edu/about"}
+    "University of California, Los Angeles": {"id": "ucla", "country_code": "USA", "display_name": "University of California, Los Angeles", "language": "en", "aliases": ["UCLA"], "source": "https://www.ucla.edu/about"},
+    "阿里巴巴集团": {"id": "alibaba-group", "display_name": "阿里巴巴集团", "language": "zh", "aliases": ["Alibaba Group"], "source": "https://ali-home.alibaba.com/about-alibaba"},
+    "Google DeepMind": {"id": "google-deepmind", "display_name": "Google DeepMind", "language": "en", "source": "https://deepmind.google/about/"},
+    "University of Zagreb": {"id": "university-zagreb", "display_name": "University of Zagreb", "language": "en", "country_code": "HRV", "source": "https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/"},
+    "Faculty of Electrical Engineering and Computing, University of Zagreb": {"id": "fer-university-zagreb", "display_name": "Faculty of Electrical Engineering and Computing, University of Zagreb", "language": "en", "country_code": "HRV", "source": "https://www.fer.unizg.hr/en/about/general_info", "parent_id": "university-zagreb", "parent_source": "https://www.unizg.hr/homepage/international-exchange/exchange-students/engineering/"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -344,7 +348,7 @@
     "Fabian Thomas": {"id": "fabian-thomas", "display_name": "Fabian Thomas", "publication_name": "Fabian Thomas", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi"},
     "Michael Schwarz": {"id": "michael-schwarz-cispa", "display_name": "Michael Schwarz", "publication_name": "Michael Schwarz", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi"},
     "Rahul Deivasigamani": {"id": "rahul-deivasigamani", "display_name": "Rahul Deivasigamani", "publication_name": "Rahul Deivasigamani", "language": "en", "source": "https://arxiv.org/abs/2608.08939"},
-    "Faatin Alvi": {"id": "faatin-alvi", "display_name": "Faatin Alvi", "publication_name": "Faatin Alvi", "language": "en", "source": "https://arxiv.org/abs/2608.08939"},
+    "Faatin Alvi": {"id": "faatin-alvi", "display_name": "Sayeda Faatin Alvi", "publication_name": "Sayeda Faatin Alvi", "language": "en", "source": "https://doi.org/10.1145/3847320.3847397", "aliases": ["Faatin Alvi"]},
     "Derqui Andrea": {"id": "derqui-andrea", "display_name": "Derqui Andrea", "publication_name": "Derqui Andrea", "language": "en", "source": "https://arxiv.org/abs/2608.08939"},
     "Kaushal Punjabi": {"id": "kaushal-punjabi", "display_name": "Kaushal Punjabi", "publication_name": "Kaushal Punjabi", "language": "en", "source": "https://arxiv.org/abs/2608.08939"},
     "Stjepan Picek": {"id": "stjepan-picek", "display_name": "Stjepan Picek", "publication_name": "Stjepan Picek", "language": "en", "source": "https://arxiv.org/abs/2608.08939"},
@@ -987,7 +991,19 @@
     "Sam Kumar": {"id": "sam-kumar", "display_name": "Sam Kumar", "publication_name": "Sam Kumar", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"},
     "Alexandra Souly": {"id": "alexandra-souly", "display_name": "Alexandra Souly", "publication_name": "Alexandra Souly", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"},
     "Derek Duenas": {"id": "derek-duenas", "display_name": "Derek Duenas", "publication_name": "Derek Duenas", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"},
-    "Justin Wang": {"id": "justin-wang", "display_name": "Justin Wang", "publication_name": "Justin Wang", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"}
+    "Justin Wang": {"id": "justin-wang", "display_name": "Justin Wang", "publication_name": "Justin Wang", "language": "en", "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html"},
+    "Sebastian Poeplau": {"id": "sebastian-poeplau", "display_name": "Sebastian Poeplau", "publication_name": "Sebastian Poeplau", "language": "en", "source": "https://www.s3.eurecom.fr/~seba/", "homepage": "https://www.s3.eurecom.fr/~seba/", "aliases": ["Sebastian Pöplau"]},
+    "Aurélien Francillon": {"id": "aurelien-francillon", "display_name": "Aurélien Francillon", "publication_name": "Aurélien Francillon", "language": "en", "source": "https://s3.eurecom.fr/~aurel/index.html", "homepage": "https://s3.eurecom.fr/~aurel/index.html"},
+    "Kaitao Xie": {"id": "kaitao-xie", "display_name": "Kaitao Xie", "publication_name": "Kaitao Xie", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"},
+    "Yizhuo Wang": {"id": "yizhuo-wang", "display_name": "Yizhuo Wang", "publication_name": "Yizhuo Wang", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"},
+    "Xiaolong Bai": {"id": "xiaolong-bai", "display_name": "Xiaolong Bai", "publication_name": "Xiaolong Bai", "language": "en", "source": "https://xiaolongbai.weebly.com/", "homepage": "https://xiaolongbai.weebly.com/"},
+    "Ilia Shumailov": {"id": "ilia-shumailov", "display_name": "Ilia Shumailov", "publication_name": "Ilia Shumailov", "language": "en", "source": "https://www.cl.cam.ac.uk/~is410/", "homepage": "https://www.cl.cam.ac.uk/~is410/"},
+    "Tianqi Fan": {"id": "tianqi-fan", "display_name": "Tianqi Fan", "publication_name": "Tianqi Fan", "language": "en", "source": "https://satml.org/2026/accepted-papers/"},
+    "Jamie Hayes": {"id": "jamie-hayes", "display_name": "Jamie Hayes", "publication_name": "Jamie Hayes", "language": "en", "source": "https://jamiehay.es/", "homepage": "https://jamiehay.es/"},
+    "Daniel Fabian": {"id": "daniel-fabian", "display_name": "Daniel Fabian", "publication_name": "Daniel Fabian", "language": "en", "source": "https://satml.org/2026/accepted-papers/"},
+    "Christoph Kern": {"id": "christoph-kern", "display_name": "Christoph Kern", "publication_name": "Christoph Kern", "language": "en", "source": "https://satml.org/2026/accepted-papers/"},
+    "Chongyang Shi": {"id": "chongyang-shi", "display_name": "Chongyang Shi", "publication_name": "Chongyang Shi", "language": "en", "source": "https://chongya.ng/", "homepage": "https://chongya.ng/"},
+    "Andreas Terzis": {"id": "andreas-terzis", "display_name": "Andreas Terzis", "publication_name": "Andreas Terzis", "language": "en", "source": "https://aterzis-personal.github.io/aterzis/", "homepage": "https://aterzis-personal.github.io/aterzis/"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

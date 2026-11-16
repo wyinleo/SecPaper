@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "1.10.1",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -517,6 +517,9 @@
     "icse26-he-taintp2x": "software-application-security",
     "neurips25-lee-sec-bench": "ai-security",
     "aaai26-wang-mcptox": "ai-security",
-    "neurips25-evtimov-wasp": "ai-security"
+    "neurips25-evtimov-wasp": "ai-security",
+    "ndss26-syros-saga": "ai-security",
+    "osdi26-yin-ucsan": "software-application-security",
+    "neurips24-debenedetti-agentdojo": "ai-security"
   }
 }

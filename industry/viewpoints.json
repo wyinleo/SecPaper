@@ -1283,5 +1283,52 @@
     "evidence_basis": "Project Zero 与多家厂商的漏洞修复经验，以及 Apple、Android、Meta、Linux 和 Windows 已部署的紧急更新机制与公开案例。",
     "limitations": "文章是工程综述，没有统一样本、部署时延或失败率数据；功能开关必须提前设计，过滤会增加性能与误拦截风险，备用通道需要严格来源验证，热补丁也可能引入可写可执行内存和测试不足问题。",
     "commercial_interest": "Project Zero 隶属 Google；文章覆盖多家厂商并以通用修复能力为主，同时引用 Android、Play Protect 等 Google 平台机制。"
+  },
+  {
+    "id": "nist-ir8547-final-2026",
+    "title": "NIST：后量子迁移需要密码供应链可见性与分期路线图",
+    "source": "NIST",
+    "source_type": "政府标准机构",
+    "content_type": "最终版技术指南与发布说明",
+    "published_at": "2026-10-27",
+    "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+    "topics": [
+      "后量子密码",
+      "密码敏捷性",
+      "迁移路线图"
+    ],
+    "summary": "NIST 发布 IR 8547 最终版，识别受量子威胁的现行算法与替代标准，并把系统、供应链和迁移顺序纳入路线图。",
+    "highlights": [
+      "迁移策略随使用场景改变，需要识别自有组件及整个密码供应链。",
+      "长保密期数据面临先收集后解密风险，新闻建议优先评估密钥建立迁移。",
+      "混合传统与后量子密码可作为保守选项，同时增加计算资源需求。"
+    ],
+    "evidence_basis": "NIST 2026-10-27 新闻正文及最终报告登记页 https://csrc.nist.gov/pubs/ir/8547/final；报告 DOI 10.6028/NIST.IR.8547。",
+    "limitations": "此项分析覆盖新闻全文和报告发布信息，未对报告全部算法条款做实施审计；联邦时间线有特定适用对象，不能直接等同所有地区组织的法律义务，也不能据此判断量子计算机的出现时间。",
+    "commercial_interest": "NIST 为美国政府标准机构，无直接商业产品推广；标准影响供应商迁移与采购。"
+  },
+  {
+    "id": "unit42-php2shell-pan-os-2026",
+    "title": "Unit 42：PHP2Shell 从语言运行时缺陷延伸到设备管理接口利用",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "漏洞利用通报与狩猎指南",
+    "published_at": "2026-10-29",
+    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+    "topics": [
+      "PHP2Shell",
+      "PAN-OS",
+      "内存安全",
+      "暴露管理接口"
+    ],
+    "summary": "Unit 42 报告两项 PHP 内存缺陷已被用于公开的 PAN-OS 管理接口，并以遥测、攻击工具核验和进程狩猎查询说明响应路径。",
+    "highlights": [
+      "OOM 与 longjmp 错误处理分别可能留下未初始化请求内存或指向已释放内存的全局状态。",
+      "发布方称核验了攻击者工具，并将已观测利用限定于互联网可达的管理接口；默认配置不公开该接口。",
+      "超过 2,260 万是其遥测识别的潜在暴露实例，不能当作确认易受攻击或失陷总量；通用 PHP 子进程查询还可能产生误报。"
+    ],
+    "evidence_basis": "2026-10-29 Unit 42 正文、攻击工具核验陈述、Cortex Xpanse 遥测和公开 XQL；交叉入口为 PHP 官方公告与 https://security.paloaltonetworks.com/CVE-2026-109618。",
+    "limitations": "原始遥测与完整复现材料未全部公开；约 0.02% 安装量影响比例来自厂商自报，不能作为独立行业统计。通用狩猎命中须复核，最新公告可能包含窗口后的更新。",
+    "commercial_interest": "发布方运营受影响 PAN-OS 产品，并推广 Cortex、威胁防护订阅与 Unit 42 事件响应服务。"
   }
 ]

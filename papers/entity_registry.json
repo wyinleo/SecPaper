@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.12.1",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -227,7 +227,8 @@
     "杭州电子科技大学": {"id": "hangzhou-dianzi-university", "country_code": "CHN", "display_name": "杭州电子科技大学", "language": "zh", "source": "https://www.hdu.edu.cn/659/list.htm"},
     "360 AI Security Lab": {"id": "360-ai-security-lab", "country_code": "CHN", "display_name": "360 AI Security Lab", "language": "en", "source": "https://doi.org/10.1145/3744916.3773199"},
     "中国科学技术大学": {"id": "ustc", "country_code": "CHN", "display_name": "中国科学技术大学", "language": "zh", "source": "https://www.ustc.edu.cn/"},
-    "FAIR at Meta": {"id": "fair-meta", "country_code": "USA", "display_name": "FAIR at Meta", "language": "en", "source": "https://ai.meta.com/research/"}
+    "FAIR at Meta": {"id": "fair-meta", "country_code": "USA", "display_name": "FAIR at Meta", "language": "en", "source": "https://ai.meta.com/research/"},
+    "Invariant Labs": {"id": "invariant-labs", "display_name": "Invariant Labs", "language": "en", "country_code": "CHE", "source": "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE-137.319.956"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -962,7 +963,18 @@
     "Arman Zharmagambetov": {"id": "arman-zharmagambetov-meta", "display_name": "Arman Zharmagambetov", "publication_name": "Arman Zharmagambetov", "language": "en", "source": "https://arxiv.org/abs/2504.18575"},
     "Aaron Grattafiori": {"id": "aaron-grattafiori-independent", "display_name": "Aaron Grattafiori", "publication_name": "Aaron Grattafiori", "language": "en", "source": "https://arxiv.org/abs/2504.18575"},
     "Chuan Guo": {"id": "chuan-guo-meta", "display_name": "Chuan Guo", "publication_name": "Chuan Guo", "language": "en", "source": "https://arxiv.org/abs/2504.18575"},
-    "Kamalika Chaudhuri": {"id": "kamalika-chaudhuri-meta", "display_name": "Kamalika Chaudhuri", "publication_name": "Kamalika Chaudhuri", "language": "en", "source": "https://arxiv.org/abs/2504.18575"}
+    "Kamalika Chaudhuri": {"id": "kamalika-chaudhuri-meta", "display_name": "Kamalika Chaudhuri", "publication_name": "Kamalika Chaudhuri", "language": "en", "source": "https://arxiv.org/abs/2504.18575"},
+    "Jacob Ginesin": {"id": "jacob-ginesin", "display_name": "Jacob Ginesin", "publication_name": "Jacob Ginesin", "language": "en", "source": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"},
+    "Mingjun Yin": {"id": "mingjun-yin", "display_name": "Mingjun Yin", "publication_name": "Mingjun Yin", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/yin"},
+    "Zhaorui Li": {"id": "zhaorui-li", "display_name": "Zhaorui Li", "publication_name": "Zhaorui Li", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/yin"},
+    "Ju Chen": {"id": "ju-chen", "display_name": "Ju Chen", "publication_name": "Ju Chen", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/yin"},
+    "Haochen Zeng": {"id": "haochen-zeng", "display_name": "Haochen Zeng", "publication_name": "Haochen Zeng", "language": "en", "source": "https://www.usenix.org/conference/osdi26/presentation/yin"},
+    "Chengyu Song": {"id": "chengyu-song", "display_name": "Chengyu Song", "publication_name": "Chengyu Song", "language": "en", "source": "https://www.cs.ucr.edu/~csong/", "homepage": "https://www.cs.ucr.edu/~csong/"},
+    "Edoardo Debenedetti": {"id": "edoardo-debenedetti", "display_name": "Edoardo Debenedetti", "publication_name": "Edoardo Debenedetti", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
+    "Jie Zhang": {"id": "jie-zhang", "display_name": "Jie Zhang", "publication_name": "Jie Zhang", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
+    "Mislav Balunovic": {"id": "mislav-balunovic", "display_name": "Mislav Balunovic", "publication_name": "Mislav Balunovic", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
+    "Luca Beurer-Kellner": {"id": "luca-beurer-kellner", "display_name": "Luca Beurer-Kellner", "publication_name": "Luca Beurer-Kellner", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"},
+    "Marc Fischer": {"id": "marc-fischer", "display_name": "Marc Fischer", "publication_name": "Marc Fischer", "language": "en", "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"}
   },
   "paper_scholar_overrides": {
     "usenix-sec26-hu-confundo": {

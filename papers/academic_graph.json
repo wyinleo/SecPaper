@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T21:13:29+08:00",
+  "generated_at": "2026-11-16T16:28:16+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 148,
-    "papers_with_affiliations": 148,
-    "scored_top_venue_papers": 133
+    "indexed_papers": 151,
+    "papers_with_affiliations": 151,
+    "scored_top_venue_papers": 135
   },
   "categories": [
     {
@@ -23,7 +23,8 @@
   ],
   "years": [
     "2026",
-    "2025"
+    "2025",
+    "2024"
   ],
   "institutions": [
     {
@@ -83,6 +84,63 @@
         }
       },
       "verified_score": 8
+    },
+    {
+      "id": "eth-zurich",
+      "name": "ETH Zurich",
+      "country_code": "CHE",
+      "affiliation_names": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "ieee-sp26-arquint-diodon",
+        "ieee-sp26-dutly-aex-nstep",
+        "ieee-sp26-graf-vmscape",
+        "ieee-sp26-xu-resolver-profiler",
+        "neurips24-debenedetti-agentdojo",
+        "usenix-sec26-lermen-deanonymization",
+        "usenix-sec26-xu-dalens"
+      ],
+      "scholars": [
+        "Adrian Perrig",
+        "Ali Hajiabadi",
+        "Daniel Paleka",
+        "Edoardo Debenedetti",
+        "Florian Tramèr",
+        "Friederike Groschupp",
+        "Ivan Puddu",
+        "Jean-Claude Graf",
+        "Jie Zhang",
+        "Joshua Swanson",
+        "Kari Kostiainen",
+        "Kaveh Razavi",
+        "Linard Arquint",
+        "Liwen Xu",
+        "Luca Beurer-Kellner",
+        "Marc Fischer",
+        "Michael Aerni",
+        "Mislav Balunovic",
+        "Nicolas Dutly",
+        "Peter Müller",
+        "Sandro Rüegge",
+        "Srdjan Čapkun",
+        "Zechao Cai"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 6,
+          "software": 0,
+          "ai": 0,
+          "total": 6
+        }
+      },
+      "verified_score": 7
     },
     {
       "id": "fudan-university",
@@ -186,51 +244,6 @@
         "2026": {
           "security": 5,
           "software": 1,
-          "ai": 0,
-          "total": 6
-        }
-      },
-      "verified_score": 6
-    },
-    {
-      "id": "eth-zurich",
-      "name": "ETH Zurich",
-      "country_code": "CHE",
-      "affiliation_names": [
-        "ETH Zurich"
-      ],
-      "papers": [
-        "ieee-sp26-arquint-diodon",
-        "ieee-sp26-dutly-aex-nstep",
-        "ieee-sp26-graf-vmscape",
-        "ieee-sp26-xu-resolver-profiler",
-        "usenix-sec26-lermen-deanonymization",
-        "usenix-sec26-xu-dalens"
-      ],
-      "scholars": [
-        "Adrian Perrig",
-        "Ali Hajiabadi",
-        "Daniel Paleka",
-        "Florian Tramèr",
-        "Friederike Groschupp",
-        "Ivan Puddu",
-        "Jean-Claude Graf",
-        "Joshua Swanson",
-        "Kari Kostiainen",
-        "Kaveh Razavi",
-        "Linard Arquint",
-        "Liwen Xu",
-        "Michael Aerni",
-        "Nicolas Dutly",
-        "Peter Müller",
-        "Sandro Rüegge",
-        "Srdjan Čapkun",
-        "Zechao Cai"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 6,
-          "software": 0,
           "ai": 0,
           "total": 6
         }
@@ -427,6 +440,43 @@
       "verified_score": 4
     },
     {
+      "id": "northeastern-university",
+      "name": "Northeastern University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "arxiv-2607-16487-fuzz-emup",
+        "ieee-sp26-suri-trojanclimb",
+        "ndss26-li-ace",
+        "ndss26-syros-saga",
+        "usenix-sec26-syros-muzzle"
+      ],
+      "scholars": [
+        "Alina Oprea",
+        "Anshuman Suri",
+        "Cristina Nita-Rotaru",
+        "Evan Li",
+        "Evan Rose",
+        "Georgios Syros",
+        "Harsh Chaudhari",
+        "Jacob Ginesin",
+        "Tushin Mallick",
+        "William Robertson",
+        "Ziming Zhao"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "duke-university",
       "name": "Duke University",
       "country_code": "USA",
@@ -558,41 +608,6 @@
         "Yeqi Fu",
         "Zhengxiong Luo",
         "Zhenkai Liang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "northeastern-university",
-      "name": "Northeastern University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "arxiv-2607-16487-fuzz-emup",
-        "ieee-sp26-suri-trojanclimb",
-        "ndss26-li-ace",
-        "usenix-sec26-syros-muzzle"
-      ],
-      "scholars": [
-        "Alina Oprea",
-        "Anshuman Suri",
-        "Cristina Nita-Rotaru",
-        "Evan Li",
-        "Evan Rose",
-        "Georgios Syros",
-        "Harsh Chaudhari",
-        "Tushin Mallick",
-        "William Robertson",
-        "Ziming Zhao"
       ],
       "annual_scores": {
         "2026": {
@@ -2904,6 +2919,31 @@
       ],
       "annual_scores": {
         "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "invariant-labs",
+      "name": "Invariant Labs",
+      "country_code": "CHE",
+      "affiliation_names": [
+        "Invariant Labs"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "scholars": [
+        "Luca Beurer-Kellner",
+        "Marc Fischer",
+        "Mislav Balunovic"
+      ],
+      "annual_scores": {
+        "2024": {
           "security": 0,
           "software": 0,
           "ai": 1,
@@ -5360,6 +5400,31 @@
       "verified_score": 1
     },
     {
+      "id": "university-california-riverside",
+      "name": "University of California, Riverside",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "ccs25-hao-syzspec",
+        "osdi26-yin-ucsan"
+      ],
+      "scholars": [
+        "Chengyu Song",
+        "Haochen Zeng",
+        "Ju Chen",
+        "Juefei Pu",
+        "Mingjun Yin",
+        "Xingyu Li",
+        "Yu Hao",
+        "Zhaorui Li",
+        "Zhiyun Qian"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "clemson-university",
       "name": "Clemson University",
       "country_code": "USA",
@@ -5495,25 +5560,6 @@
       "verified_score": 0
     },
     {
-      "id": "university-california-riverside",
-      "name": "University of California, Riverside",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Riverside"
-      ],
-      "papers": [
-        "ccs25-hao-syzspec"
-      ],
-      "scholars": [
-        "Juefei Pu",
-        "Xingyu Li",
-        "Yu Hao",
-        "Zhiyun Qian"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
       "id": "university-rochester",
       "name": "University of Rochester",
       "country_code": "USA",
@@ -5622,6 +5668,54 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf"
+        }
+      ]
+    },
+    {
+      "id": "alina-oprea",
+      "name": "Alina Oprea",
+      "publication_name": "Alina Oprea",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "ieee-sp26-suri-trojanclimb",
+        "ndss26-li-ace",
+        "ndss26-syros-saga",
+        "usenix-sec26-syros-muzzle"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        }
+      },
+      "verified_score": 4,
+      "recent_papers": [
+        {
+          "id": "ndss26-syros-saga",
+          "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
+        },
+        {
+          "id": "ndss26-li-ace",
+          "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.230352"
+        },
+        {
+          "id": "ieee-sp26-suri-trojanclimb",
+          "title": "Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -5735,53 +5829,6 @@
       ]
     },
     {
-      "id": "alina-oprea",
-      "name": "Alina Oprea",
-      "publication_name": "Alina Oprea",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
-      "institutions": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "ieee-sp26-suri-trojanclimb",
-        "ndss26-li-ace",
-        "usenix-sec26-syros-muzzle"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3,
-      "recent_papers": [
-        {
-          "id": "ndss26-li-ace",
-          "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
-          "year": 2026,
-          "venue": "NDSS 2026",
-          "url": "https://doi.org/10.14722/ndss.2026.230352"
-        },
-        {
-          "id": "ieee-sp26-suri-trojanclimb",
-          "title": "Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        },
-        {
-          "id": "usenix-sec26-syros-muzzle",
-          "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
-        }
-      ]
-    },
-    {
       "id": "antonio-bianchi-purdue",
       "name": "Antonio Bianchi",
       "publication_name": "Antonio Bianchi",
@@ -5872,6 +5919,53 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing"
+        }
+      ]
+    },
+    {
+      "id": "cristina-nita-rotaru",
+      "name": "Cristina Nita-Rotaru",
+      "publication_name": "Cristina Nita-Rotaru",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "ndss26-li-ace",
+        "ndss26-syros-saga",
+        "usenix-sec26-syros-muzzle"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        }
+      },
+      "verified_score": 3,
+      "recent_papers": [
+        {
+          "id": "ndss26-syros-saga",
+          "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
+        },
+        {
+          "id": "ndss26-li-ace",
+          "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://doi.org/10.14722/ndss.2026.230352"
+        },
+        {
+          "id": "usenix-sec26-syros-muzzle",
+          "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
         }
       ]
     },
@@ -6626,6 +6720,45 @@
       ]
     },
     {
+      "id": "anshuman-suri-northeastern",
+      "name": "Anshuman Suri",
+      "publication_name": "Anshuman Suri",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2507.08983",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "ieee-sp26-suri-trojanclimb",
+        "ndss26-syros-saga"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ndss26-syros-saga",
+          "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
+        },
+        {
+          "id": "ieee-sp26-suri-trojanclimb",
+          "title": "Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
       "id": "chengwei-liu-nankai",
       "name": "Chengwei Liu",
       "publication_name": "Chengwei Liu",
@@ -6745,45 +6878,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/koschel"
-        }
-      ]
-    },
-    {
-      "id": "cristina-nita-rotaru",
-      "name": "Cristina Nita-Rotaru",
-      "publication_name": "Cristina Nita-Rotaru",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
-      "institutions": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "ndss26-li-ace",
-        "usenix-sec26-syros-muzzle"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2,
-      "recent_papers": [
-        {
-          "id": "ndss26-li-ace",
-          "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
-          "year": 2026,
-          "venue": "NDSS 2026",
-          "url": "https://doi.org/10.14722/ndss.2026.230352"
-        },
-        {
-          "id": "usenix-sec26-syros-muzzle",
-          "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
         }
       ]
     },
@@ -6950,6 +7044,51 @@
       ]
     },
     {
+      "id": "florian-tramer-eth",
+      "name": "Florian Tramèr",
+      "publication_name": "Florian Tramèr",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        },
+        {
+          "id": "usenix-sec26-lermen-deanonymization",
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
       "id": "geng-hong-fudan",
       "name": "Geng Hong",
       "publication_name": "Geng Hong",
@@ -6985,6 +7124,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo"
+        }
+      ]
+    },
+    {
+      "id": "georgios-syros",
+      "name": "Georgios Syros",
+      "publication_name": "Georgios Syros",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "ndss26-syros-saga",
+        "usenix-sec26-syros-muzzle"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ndss26-syros-saga",
+          "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
+        },
+        {
+          "id": "usenix-sec26-syros-muzzle",
+          "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
         }
       ]
     },
@@ -9460,37 +9638,6 @@
       ]
     },
     {
-      "id": "anshuman-suri-northeastern",
-      "name": "Anshuman Suri",
-      "publication_name": "Anshuman Suri",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2507.08983",
-      "institutions": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "ieee-sp26-suri-trojanclimb"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-suri-trojanclimb",
-          "title": "Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "anton-landerer-ucsb",
       "name": "Anton Landerer",
       "publication_name": "Anton Landerer",
@@ -11486,6 +11633,37 @@
       ]
     },
     {
+      "id": "edoardo-debenedetti",
+      "name": "Edoardo Debenedetti",
+      "publication_name": "Edoardo Debenedetti",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "eileen-xiao-cmu",
       "name": "Eileen Xiao",
       "publication_name": "Eileen Xiao",
@@ -12044,37 +12222,6 @@
       ]
     },
     {
-      "id": "florian-tramer-eth",
-      "name": "Florian Tramèr",
-      "publication_name": "Florian Tramèr",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
-      "institutions": [
-        "ETH Zurich"
-      ],
-      "papers": [
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-lermen-deanonymization",
-          "title": "Large-Scale Online Deanonymization with LLMs",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
-        }
-      ]
-    },
-    {
       "id": "francesco-croce-epfl",
       "name": "Francesco Croce",
       "publication_name": "Francesco Croce",
@@ -12412,37 +12559,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "georgios-syros",
-      "name": "Georgios Syros",
-      "publication_name": "Georgios Syros",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
-      "institutions": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "usenix-sec26-syros-muzzle"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-syros-muzzle",
-          "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros"
         }
       ]
     },
@@ -13969,6 +14085,37 @@
       ]
     },
     {
+      "id": "jacob-ginesin",
+      "name": "Jacob Ginesin",
+      "publication_name": "Jacob Ginesin",
+      "homepage": "",
+      "profile_source": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "ndss26-syros-saga"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ndss26-syros-saga",
+          "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+          "year": 2026,
+          "venue": "NDSS 2026",
+          "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/"
+        }
+      ]
+    },
+    {
       "id": "jacques-klein-luxembourg",
       "name": "Jacques Klein",
       "publication_name": "Jacques Klein",
@@ -14710,6 +14857,37 @@
           "year": 2026,
           "venue": "ACM FSE 2026",
           "url": "https://arxiv.org/abs/2606.28870"
+        }
+      ]
+    },
+    {
+      "id": "jie-zhang",
+      "name": "Jie Zhang",
+      "publication_name": "Jie Zhang",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -16704,6 +16882,38 @@
       ]
     },
     {
+      "id": "luca-beurer-kellner",
+      "name": "Luca Beurer-Kellner",
+      "publication_name": "Luca Beurer-Kellner",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich",
+        "Invariant Labs"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
       "id": "luigi-v-mancini-sapienza",
       "name": "Luigi V. Mancini",
       "publication_name": "Luigi V. Mancini",
@@ -16888,6 +17098,38 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ling"
+        }
+      ]
+    },
+    {
+      "id": "marc-fischer",
+      "name": "Marc Fischer",
+      "publication_name": "Marc Fischer",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich",
+        "Invariant Labs"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -18008,6 +18250,38 @@
           "year": 2026,
           "venue": "NDSS 2026",
           "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/"
+        }
+      ]
+    },
+    {
+      "id": "mislav-balunovic",
+      "name": "Mislav Balunovic",
+      "publication_name": "Mislav Balunovic",
+      "homepage": "",
+      "profile_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "ETH Zurich",
+        "Invariant Labs"
+      ],
+      "papers": [
+        "neurips24-debenedetti-agentdojo"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+          "year": 2024,
+          "venue": "NeurIPS 2024",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
         }
       ]
     },
@@ -26936,6 +27210,30 @@
       ]
     },
     {
+      "id": "chengyu-song",
+      "name": "Chengyu Song",
+      "publication_name": "Chengyu Song",
+      "homepage": "https://www.cs.ucr.edu/~csong/",
+      "profile_source": "https://www.cs.ucr.edu/~csong/",
+      "institutions": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "osdi26-yin-ucsan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-yin-ucsan",
+          "title": "A Compilation-Based Under-Constrained Execution Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
+        }
+      ]
+    },
+    {
       "id": "chuan-li-lambda",
       "name": "Chuan Li",
       "publication_name": "Chuan Li",
@@ -27346,6 +27644,30 @@
       ]
     },
     {
+      "id": "haochen-zeng",
+      "name": "Haochen Zeng",
+      "publication_name": "Haochen Zeng",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "institutions": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "osdi26-yin-ucsan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-yin-ucsan",
+          "title": "A Compilation-Based Under-Constrained Execution Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
+        }
+      ]
+    },
+    {
       "id": "hemant-gouni-cmu",
       "name": "Hemant Gouni",
       "publication_name": "Hemant Gouni",
@@ -27462,6 +27784,30 @@
           "year": 2026,
           "venue": "ACM POPL 2026",
           "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "ju-chen",
+      "name": "Ju Chen",
+      "publication_name": "Ju Chen",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "institutions": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "osdi26-yin-ucsan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-yin-ucsan",
+          "title": "A Compilation-Based Under-Constrained Execution Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
         }
       ]
     },
@@ -27679,6 +28025,30 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "mingjun-yin",
+      "name": "Mingjun Yin",
+      "publication_name": "Mingjun Yin",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "institutions": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "osdi26-yin-ucsan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-yin-ucsan",
+          "title": "A Compilation-Based Under-Constrained Execution Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
         }
       ]
     },
@@ -28376,6 +28746,30 @@
           "year": 2026,
           "venue": "ACM OOPSLA 2026",
           "url": "https://doi.org/10.1145/3798272"
+        }
+      ]
+    },
+    {
+      "id": "zhaorui-li",
+      "name": "Zhaorui Li",
+      "publication_name": "Zhaorui Li",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "institutions": [
+        "University of California, Riverside"
+      ],
+      "papers": [
+        "osdi26-yin-ucsan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-yin-ucsan",
+          "title": "A Compilation-Based Under-Constrained Execution Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
         }
       ]
     },
@@ -29810,6 +30204,18 @@
           "id": "ieee-sp26-wang-smufuzz",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
+      "target": "invariant-labs",
+      "papers": [
+        {
+          "id": "neurips24-debenedetti-agentdojo",
+          "year": 2024,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -32372,6 +32778,68 @@
     }
   ],
   "publications": [
+    {
+      "id": "ndss26-syros-saga",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "year": 2026,
+      "venue": "NDSS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/",
+      "institutions": [
+        "northeastern-university"
+      ],
+      "authors": [
+        "georgios-syros",
+        "anshuman-suri-northeastern",
+        "jacob-ginesin",
+        "cristina-nita-rotaru",
+        "alina-oprea"
+      ]
+    },
+    {
+      "id": "neurips24-debenedetti-agentdojo",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "year": 2024,
+      "venue": "NeurIPS 2024",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "institutions": [
+        "eth-zurich",
+        "invariant-labs"
+      ],
+      "authors": [
+        "edoardo-debenedetti",
+        "jie-zhang",
+        "mislav-balunovic",
+        "luca-beurer-kellner",
+        "marc-fischer",
+        "florian-tramer-eth"
+      ]
+    },
+    {
+      "id": "osdi26-yin-ucsan",
+      "title": "A Compilation-Based Under-Constrained Execution Engine",
+      "year": 2026,
+      "venue": "USENIX OSDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-16",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "institutions": [
+        "university-california-riverside"
+      ],
+      "authors": [
+        "mingjun-yin",
+        "zhaorui-li",
+        "ju-chen",
+        "haochen-zeng",
+        "chengyu-song"
+      ]
+    },
     {
       "id": "ccs25-kim-jenga",
       "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",

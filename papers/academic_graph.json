@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T16:38:15+08:00",
+  "generated_at": "2026-11-17T16:55:04+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 200,
-    "papers_with_affiliations": 200,
-    "scored_top_venue_papers": 156
+    "indexed_papers": 208,
+    "papers_with_affiliations": 208,
+    "scored_top_venue_papers": 157
   },
   "categories": [
     {
@@ -211,6 +211,7 @@
       ],
       "papers": [
         "aaai25-gong-figstep",
+        "arxiv-2611-17520-weakest-agent",
         "ase26-ni-triage-nodejs",
         "ccs26-szwajcok-meme-coin-factories",
         "iclr25-andriushchenko-agentharm",
@@ -232,6 +233,7 @@
         "Hemant Gouni",
         "J. Zico Kolter",
         "Jonathan Aldrich",
+        "Keegan Wang",
         "Limin Jia",
         "Matt Fredrikson",
         "Min-Chien Hsu",
@@ -477,6 +479,7 @@
         "Nanyang Technological University"
       ],
       "papers": [
+        "arxiv-2611-18442-cantraj",
         "ase26-guo-npm-detectors",
         "icse19-wang-superion",
         "ieee-sp26-li-webcloak",
@@ -489,6 +492,7 @@
       "scholars": [
         "Chengyue Liu",
         "Gelei Deng",
+        "Haozhuang Chi",
         "Jiahui Wu",
         "Junjie Wang",
         "Kaixuan Li",
@@ -622,6 +626,51 @@
       "verified_score": 5
     },
     {
+      "id": "purdue-university",
+      "name": "Purdue University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Purdue University"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon",
+        "arxiv-2611-18442-cantraj",
+        "ieee-sp26-androutsopoulos-deepsurf",
+        "ieee-sp26-ersoy-dark-patterns",
+        "ieee-sp26-tystahl-cosseter",
+        "neurips25-lee-sec-bench"
+      ],
+      "scholars": [
+        "Ananth Shreekumar",
+        "Antonio Bianchi",
+        "Aravind Machiry",
+        "Brandon Lee",
+        "Chuheng Wei",
+        "Devin Ersoy",
+        "Elisa Bertino",
+        "Georgios C. Androutsopoulos",
+        "Hanxiao Lu",
+        "Siddharth Muralee",
+        "Sourag Cherupattamoolayil",
+        "Z. Berkay Celik"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        },
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "duke-university",
       "name": "Duke University",
       "country_code": "USA",
@@ -695,6 +744,50 @@
           "security": 0,
           "software": 1,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "independent-researcher",
+      "name": "Independent Researcher",
+      "country_code": "",
+      "affiliation_names": [
+        "Independent Researcher"
+      ],
+      "papers": [
+        "arxiv-2611-18293-privacypr",
+        "icml26-ye-role-confusion",
+        "ieee-sp26-zhang-ragorigin",
+        "neurips25-evtimov-wasp",
+        "sp19-kocher-spectre"
+      ],
+      "scholars": [
+        "Aaron Grattafiori",
+        "Charles Ye",
+        "Jasmine Cui",
+        "Paul Kocher",
+        "Shidong Pan",
+        "Yuxi Chen"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 1,
+          "total": 2
+        },
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -785,49 +878,6 @@
       "verified_score": 4
     },
     {
-      "id": "purdue-university",
-      "name": "Purdue University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Purdue University"
-      ],
-      "papers": [
-        "arxiv-2611-09026-harpoon",
-        "ieee-sp26-androutsopoulos-deepsurf",
-        "ieee-sp26-ersoy-dark-patterns",
-        "ieee-sp26-tystahl-cosseter",
-        "neurips25-lee-sec-bench"
-      ],
-      "scholars": [
-        "Ananth Shreekumar",
-        "Antonio Bianchi",
-        "Aravind Machiry",
-        "Brandon Lee",
-        "Devin Ersoy",
-        "Elisa Bertino",
-        "Georgios C. Androutsopoulos",
-        "Hanxiao Lu",
-        "Siddharth Muralee",
-        "Sourag Cherupattamoolayil",
-        "Z. Berkay Celik"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
-        },
-        "2025": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        }
-      },
-      "verified_score": 4
-    },
-    {
       "id": "uiuc",
       "name": "University of Illinois Urbana-Champaign",
       "country_code": "USA",
@@ -872,48 +922,6 @@
           "security": 1,
           "software": 0,
           "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "independent-researcher",
-      "name": "Independent Researcher",
-      "country_code": "",
-      "affiliation_names": [
-        "Independent Researcher"
-      ],
-      "papers": [
-        "icml26-ye-role-confusion",
-        "ieee-sp26-zhang-ragorigin",
-        "neurips25-evtimov-wasp",
-        "sp19-kocher-spectre"
-      ],
-      "scholars": [
-        "Aaron Grattafiori",
-        "Charles Ye",
-        "Jasmine Cui",
-        "Paul Kocher",
-        "Yuxi Chen"
-      ],
-      "annual_scores": {
-        "2019": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 1,
-          "total": 2
-        },
-        "2025": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
           "total": 1
         }
       },
@@ -2705,6 +2713,39 @@
       "verified_score": 1
     },
     {
+      "id": "north-carolina-state-university",
+      "name": "North Carolina State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-17123-codeql-rewrites",
+        "arxiv-2611-18293-privacypr",
+        "ieee-sp26-tystahl-cosseter"
+      ],
+      "scholars": [
+        "Aditya Bhardwaj",
+        "Alexandros Kapravelos",
+        "Bowen Xu",
+        "Greg Tystahl",
+        "Hua Yang",
+        "Jonah Ghebremichael",
+        "Weiyuan Ding",
+        "William Enck",
+        "Zhezhen Cao"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "unsw",
       "name": "University of New South Wales",
       "country_code": "AUS",
@@ -2722,6 +2763,33 @@
         "Jiamin Chang",
         "Yuekang Li",
         "Yulei Sui"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-southern-california",
+      "name": "University of Southern California",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Southern California"
+      ],
+      "papers": [
+        "arxiv-2611-17520-weakest-agent",
+        "iclr24-liu-autodan",
+        "ieee-sp26-chen-compiler-backdoor"
+      ],
+      "scholars": [
+        "Anantika Mannby",
+        "Nan Xu",
+        "Yixin He"
       ],
       "annual_scores": {
         "2026": {
@@ -2994,19 +3062,50 @@
       "verified_score": 1
     },
     {
-      "id": "university-of-southern-california",
-      "name": "University of Southern California",
+      "id": "university-florida",
+      "name": "University of Florida",
       "country_code": "USA",
       "affiliation_names": [
-        "University of Southern California"
+        "University of Florida"
       ],
       "papers": [
-        "iclr24-liu-autodan",
-        "ieee-sp26-chen-compiler-backdoor"
+        "arxiv-2611-18442-cantraj",
+        "icml26-cheng-privact"
       ],
       "scholars": [
-        "Nan Xu",
-        "Yixin He"
+        "Jingwei Sun",
+        "Suyang Chen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "university-of-south-florida",
+      "name": "University of South Florida",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of South Florida"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj",
+        "usenix-sec26-zhu-wild"
+      ],
+      "scholars": [
+        "Changjia Zhu",
+        "Hao Zhou",
+        "Parush Gera",
+        "Tempestt Neal",
+        "Xiao Han",
+        "Yao Liu",
+        "Yuhang Wang",
+        "Zhuo Lu"
       ],
       "annual_scores": {
         "2026": {
@@ -3036,6 +3135,32 @@
       ],
       "annual_scores": {
         "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "institute-automation-cas",
+      "name": "中国科学院自动化研究所",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中国科学院自动化研究所"
+      ],
+      "papers": [
+        "arxiv-2611-17115-caplite",
+        "ieee-sp26-ye-llm-unlearning"
+      ],
+      "scholars": [
+        "Shu Wu",
+        "Wenzhuo Liu",
+        "Xiaotian Ye"
+      ],
+      "annual_scores": {
+        "2026": {
           "security": 1,
           "software": 0,
           "ai": 0,
@@ -4396,32 +4521,6 @@
       "verified_score": 1
     },
     {
-      "id": "north-carolina-state-university",
-      "name": "North Carolina State University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "North Carolina State University"
-      ],
-      "papers": [
-        "ieee-sp26-tystahl-cosseter"
-      ],
-      "scholars": [
-        "Alexandros Kapravelos",
-        "Greg Tystahl",
-        "Jonah Ghebremichael",
-        "William Enck"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "northwestern-university",
       "name": "Northwestern University",
       "country_code": "USA",
@@ -4785,6 +4884,32 @@
       "verified_score": 1
     },
     {
+      "id": "technische-universitat-berlin",
+      "name": "Technische Universität Berlin",
+      "country_code": "DEU",
+      "affiliation_names": [
+        "Berlin Institute for the Foundations of Learning and Data",
+        "Technische Universität Berlin"
+      ],
+      "papers": [
+        "arxiv-2611-18312-magnetic-rail"
+      ],
+      "scholars": [
+        "Konrad Rieck",
+        "Pia Hanfeld",
+        "Stefan Czybik"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "tel-aviv-university",
       "name": "Tel Aviv University",
       "country_code": "ISR",
@@ -5093,29 +5218,6 @@
       "verified_score": 1
     },
     {
-      "id": "university-florida",
-      "name": "University of Florida",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Florida"
-      ],
-      "papers": [
-        "icml26-cheng-privact"
-      ],
-      "scholars": [
-        "Jingwei Sun"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-hawaii-manoa",
       "name": "University of Hawaiʻi at Mānoa",
       "country_code": "USA",
@@ -5249,34 +5351,6 @@
       "scholars": [
         "Günther Pernul",
         "Tobias Reittinger"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "university-of-south-florida",
-      "name": "University of South Florida",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of South Florida"
-      ],
-      "papers": [
-        "usenix-sec26-zhu-wild"
-      ],
-      "scholars": [
-        "Changjia Zhu",
-        "Parush Gera",
-        "Tempestt Neal",
-        "Xiao Han",
-        "Yao Liu",
-        "Zhuo Lu"
       ],
       "annual_scores": {
         "2026": {
@@ -5748,30 +5822,6 @@
           "security": 0,
           "software": 0,
           "ai": 1,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "institute-automation-cas",
-      "name": "中国科学院自动化研究所",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中国科学院自动化研究所"
-      ],
-      "papers": [
-        "ieee-sp26-ye-llm-unlearning"
-      ],
-      "scholars": [
-        "Shu Wu",
-        "Xiaotian Ye"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
           "total": 1
         }
       },
@@ -6279,6 +6329,24 @@
       "verified_score": 1
     },
     {
+      "id": "stanford-university",
+      "name": "Stanford University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Stanford University"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj",
+        "osdi26-cottone-acumen"
+      ],
+      "scholars": [
+        "Jingxin Yang",
+        "Ryan Cottone"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-california-riverside",
       "name": "University of California, Riverside",
       "country_code": "USA",
@@ -6299,6 +6367,35 @@
         "Yu Hao",
         "Zhaorui Li",
         "Zhiyun Qian"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "alibaba-group",
+      "name": "阿里巴巴集团",
+      "country_code": "",
+      "affiliation_names": [
+        "阿里巴巴人工智能治理与可持续发展实验室",
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench",
+        "osdi26-xie-iland"
+      ],
+      "scholars": [
+        "Hui Xue",
+        "Jialing Tao",
+        "Jiaqi Weng",
+        "Jiyang Guan",
+        "Kaitao Xie",
+        "Kun Wang",
+        "Shenyu Dai",
+        "Xiaolong Bai",
+        "Yizhuo Wang",
+        "Yong Xie",
+        "Zhikai Chen",
+        "Zipeng Ye"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6349,6 +6446,24 @@
         "Fatemeh Moradihaghighi",
         "Mashrur Chowdhury",
         "Zhenkai Zhang"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "conservatoire-national-des-arts-et-metiers",
+      "name": "Conservatoire national des arts et métiers",
+      "country_code": "FRA",
+      "affiliation_names": [
+        "Cédric laboratory, Conservatoire national des arts et métiers"
+      ],
+      "papers": [
+        "arxiv-2611-18133-linera"
+      ],
+      "scholars": [
+        "Billal Mokhtari",
+        "Samia Bouzefrane",
+        "Yulliwas Ameur"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6620,6 +6735,23 @@
       "verified_score": 0
     },
     {
+      "id": "prosaic-intelligence",
+      "name": "Prosaic Intelligence",
+      "country_code": "",
+      "affiliation_names": [
+        "Prosaic Intelligence"
+      ],
+      "papers": [
+        "arxiv-2611-17520-weakest-agent"
+      ],
+      "scholars": [
+        "Anantika Mannby",
+        "Keegan Wang"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "queen-mary-university-of-london",
       "name": "Queen Mary University of London",
       "country_code": "GBR",
@@ -6754,22 +6886,6 @@
       "verified_score": 0
     },
     {
-      "id": "stanford-university",
-      "name": "Stanford University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Stanford University"
-      ],
-      "papers": [
-        "osdi26-cottone-acumen"
-      ],
-      "scholars": [
-        "Ryan Cottone"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
       "id": "idsia-usi-supsi",
       "name": "Swiss AI Lab IDSIA-USI/SUPSI",
       "country_code": "CHE",
@@ -6797,6 +6913,23 @@
       ],
       "scholars": [
         "Zihao Zhan"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "the-university-of-tokyo",
+      "name": "The University of Tokyo",
+      "country_code": "JPN",
+      "affiliation_names": [
+        "The University of Tokyo"
+      ],
+      "papers": [
+        "arxiv-2611-17115-caplite"
+      ],
+      "scholars": [
+        "Hideki Nakayama",
+        "Zimo Xu"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6959,6 +7092,22 @@
       "verified_score": 0
     },
     {
+      "id": "universite-paris-pantheon-assas",
+      "name": "Université Paris-Panthéon-Assas",
+      "country_code": "FRA",
+      "affiliation_names": [
+        "Efrei Research Lab, Université Paris-Panthéon-Assas"
+      ],
+      "papers": [
+        "arxiv-2611-18133-linera"
+      ],
+      "scholars": [
+        "Yulliwas Ameur"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "worcester-polytechnic-institute",
       "name": "Worcester Polytechnic Institute",
       "country_code": "USA",
@@ -7081,24 +7230,6 @@
         "Wentao Fu",
         "Xuanze Chen",
         "Xukang Xie"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
-      "id": "alibaba-group",
-      "name": "阿里巴巴集团",
-      "country_code": "",
-      "affiliation_names": [
-        "阿里巴巴集团"
-      ],
-      "papers": [
-        "osdi26-xie-iland"
-      ],
-      "scholars": [
-        "Kaitao Xie",
-        "Xiaolong Bai",
-        "Yizhuo Wang"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -19743,6 +19874,37 @@
       ]
     },
     {
+      "id": "konrad-rieck",
+      "name": "Konrad Rieck",
+      "publication_name": "Konrad Rieck",
+      "homepage": "https://www.mlsec.tu-berlin.de/team/rieck/index.html",
+      "profile_source": "https://www.mlsec.tu-berlin.de/team/rieck/index.html",
+      "institutions": [
+        "Technische Universität Berlin"
+      ],
+      "papers": [
+        "arxiv-2611-18312-magnetic-rail"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18312-magnetic-rail",
+          "title": "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://arxiv.org/abs/2611.18312v1"
+        }
+      ]
+    },
+    {
       "id": "kostas-solomos-uic",
       "name": "Kostas Solomos",
       "publication_name": "Kostas Solomos",
@@ -23257,6 +23419,37 @@
       ]
     },
     {
+      "id": "pia-hanfeld",
+      "name": "Pia Hanfeld",
+      "publication_name": "Pia Hanfeld",
+      "homepage": "https://phanfeld.github.io/",
+      "profile_source": "https://phanfeld.github.io/",
+      "institutions": [
+        "Technische Universität Berlin"
+      ],
+      "papers": [
+        "arxiv-2611-18312-magnetic-rail"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18312-magnetic-rail",
+          "title": "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://arxiv.org/abs/2611.18312v1"
+        }
+      ]
+    },
+    {
       "id": "pietro-moretto",
       "name": "Pietro Moretto",
       "publication_name": "Pietro Moretto",
@@ -25737,6 +25930,37 @@
           "year": 2013,
           "venue": "ACM CCS 2013",
           "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
+      "id": "stefan-czybik",
+      "name": "Stefan Czybik",
+      "publication_name": "Stefan Czybik",
+      "homepage": "https://www.mlsec.tu-berlin.de/team/czybik/index.html",
+      "profile_source": "https://www.mlsec.tu-berlin.de/team/czybik/index.html",
+      "institutions": [
+        "Technische Universität Berlin"
+      ],
+      "papers": [
+        "arxiv-2611-18312-magnetic-rail"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18312-magnetic-rail",
+          "title": "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://arxiv.org/abs/2611.18312v1"
         }
       ]
     },
@@ -31868,6 +32092,38 @@
       ]
     },
     {
+      "id": "bowen-xu",
+      "name": "Bowen Xu",
+      "publication_name": "Bowen Xu",
+      "homepage": "https://www.bowenxu.me/",
+      "profile_source": "https://www.bowenxu.me/",
+      "institutions": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-17123-codeql-rewrites",
+        "arxiv-2611-18293-privacypr"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18293-privacypr",
+          "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18293v1"
+        },
+        {
+          "id": "arxiv-2611-17123-codeql-rewrites",
+          "title": "Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17123v1"
+        }
+      ]
+    },
+    {
       "id": "patrick-mcdaniel",
       "name": "Patrick McDaniel",
       "publication_name": "Patrick McDaniel",
@@ -31928,6 +32184,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "aditya-bhardwaj",
+      "name": "Aditya Bhardwaj",
+      "publication_name": "Aditya Bhardwaj",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18293v1",
+      "institutions": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-18293-privacypr"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18293-privacypr",
+          "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18293v1"
         }
       ]
     },
@@ -32120,6 +32400,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
+      "id": "anantika-mannby",
+      "name": "Anantika Mannby",
+      "publication_name": "Anantika Mannby",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.17520v1",
+      "institutions": [
+        "Prosaic Intelligence",
+        "University of Southern California"
+      ],
+      "papers": [
+        "arxiv-2611-17520-weakest-agent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17520-weakest-agent",
+          "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17520v1"
         }
       ]
     },
@@ -32412,6 +32717,30 @@
       ]
     },
     {
+      "id": "billal-mokhtari",
+      "name": "Billal Mokhtari",
+      "publication_name": "Billal Mokhtari",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18133v1",
+      "institutions": [
+        "Conservatoire national des arts et métiers"
+      ],
+      "papers": [
+        "arxiv-2611-18133-linera"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18133-linera",
+          "title": "Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18133v1"
+        }
+      ]
+    },
+    {
       "id": "byung-gon-chun",
       "name": "Byung-Gon Chun",
       "publication_name": "Byung-Gon Chun",
@@ -32696,6 +33025,30 @@
           "year": 2026,
           "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond (NeurIPS 2026)",
           "url": "https://neurips.cc/virtual/2026/poster/139377"
+        }
+      ]
+    },
+    {
+      "id": "chuheng-wei",
+      "name": "Chuheng Wei",
+      "publication_name": "Chuheng Wei",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "Purdue University"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
         }
       ]
     },
@@ -33570,6 +33923,30 @@
       ]
     },
     {
+      "id": "hao-zhou",
+      "name": "Hao Zhou",
+      "publication_name": "Hao Zhou",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "University of South Florida"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
+        }
+      ]
+    },
+    {
       "id": "haochen-zeng",
       "name": "Haochen Zeng",
       "publication_name": "Haochen Zeng",
@@ -33590,6 +33967,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
+        }
+      ]
+    },
+    {
+      "id": "haozhuang-chi",
+      "name": "Haozhuang Chi",
+      "publication_name": "Haozhuang Chi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "Nanyang Technological University"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
         }
       ]
     },
@@ -33642,6 +34043,54 @@
       ]
     },
     {
+      "id": "hideki-nakayama",
+      "name": "Hideki Nakayama",
+      "publication_name": "Hideki Nakayama",
+      "homepage": "https://www.nlab.ci.i.u-tokyo.ac.jp/members-e.html",
+      "profile_source": "https://www.nlab.ci.i.u-tokyo.ac.jp/members-e.html",
+      "institutions": [
+        "The University of Tokyo"
+      ],
+      "papers": [
+        "arxiv-2611-17115-caplite"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17115-caplite",
+          "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17115v1"
+        }
+      ]
+    },
+    {
+      "id": "hua-yang",
+      "name": "Hua Yang",
+      "publication_name": "Hua Yang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18293v1",
+      "institutions": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-18293-privacypr"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18293-privacypr",
+          "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18293v1"
+        }
+      ]
+    },
+    {
       "id": "huan-nguyen-google",
       "name": "Huan Nguyen",
       "publication_name": "Huan Nguyen",
@@ -33686,6 +34135,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
+      "id": "hui-xue",
+      "name": "Hui Xue",
+      "publication_name": "Hui Xue",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
         }
       ]
     },
@@ -33834,6 +34307,30 @@
       ]
     },
     {
+      "id": "jialing-tao",
+      "name": "Jialing Tao",
+      "publication_name": "Jialing Tao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
+        }
+      ]
+    },
+    {
       "id": "jiamin-chang",
       "name": "Jiamin Chang",
       "publication_name": "Jiamin Chang",
@@ -33854,6 +34351,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
+      "id": "jiaqi-weng",
+      "name": "Jiaqi Weng",
+      "publication_name": "Jiaqi Weng",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
         }
       ]
     },
@@ -33932,6 +34453,30 @@
       ]
     },
     {
+      "id": "jingxin-yang",
+      "name": "Jingxin Yang",
+      "publication_name": "Jingxin Yang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "Stanford University"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
+        }
+      ]
+    },
+    {
       "id": "jinyu-fan",
       "name": "Jinyu Fan",
       "publication_name": "Jinyu Fan",
@@ -33953,6 +34498,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
+      "id": "jiyang-guan",
+      "name": "Jiyang Guan",
+      "publication_name": "Jiyang Guan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
         }
       ]
     },
@@ -34343,6 +34912,31 @@
       ]
     },
     {
+      "id": "keegan-wang",
+      "name": "Keegan Wang",
+      "publication_name": "Keegan Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.17520v1",
+      "institutions": [
+        "Carnegie Mellon University",
+        "Prosaic Intelligence"
+      ],
+      "papers": [
+        "arxiv-2611-17520-weakest-agent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17520-weakest-agent",
+          "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17520v1"
+        }
+      ]
+    },
+    {
       "id": "koushik-sen-berkeley",
       "name": "Koushik Sen",
       "publication_name": "Koushik Sen",
@@ -34411,6 +35005,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.38438v1"
+        }
+      ]
+    },
+    {
+      "id": "kun-wang",
+      "name": "Kun Wang",
+      "publication_name": "Kun Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
         }
       ]
     },
@@ -35303,6 +35921,30 @@
       ]
     },
     {
+      "id": "samia-bouzefrane",
+      "name": "Samia Bouzefrane",
+      "publication_name": "Samia Bouzefrane",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18133v1",
+      "institutions": [
+        "Conservatoire national des arts et métiers"
+      ],
+      "papers": [
+        "arxiv-2611-18133-linera"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18133-linera",
+          "title": "Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18133v1"
+        }
+      ]
+    },
+    {
       "id": "samuel-wairimu",
       "name": "Samuel Wairimu",
       "publication_name": "Samuel Wairimu",
@@ -35395,6 +36037,54 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "shenyu-dai",
+      "name": "Shenyu Dai",
+      "publication_name": "Shenyu Dai",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
+        }
+      ]
+    },
+    {
+      "id": "shidong-pan",
+      "name": "Shidong Pan",
+      "publication_name": "Shidong Pan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18293v1",
+      "institutions": [
+        "Independent Researcher"
+      ],
+      "papers": [
+        "arxiv-2611-18293-privacypr"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18293-privacypr",
+          "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18293v1"
         }
       ]
     },
@@ -35714,6 +36404,30 @@
       ]
     },
     {
+      "id": "suyang-chen",
+      "name": "Suyang Chen",
+      "publication_name": "Suyang Chen",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "University of Florida"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
+        }
+      ]
+    },
+    {
       "id": "taehyun-kang-snu",
       "name": "Taehyun Kang",
       "publication_name": "Taehyun Kang",
@@ -35882,6 +36596,30 @@
       ]
     },
     {
+      "id": "weiyuan-ding",
+      "name": "Weiyuan Ding",
+      "publication_name": "Weiyuan Ding",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.17123v1",
+      "institutions": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-17123-codeql-rewrites"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17123-codeql-rewrites",
+          "title": "Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17123v1"
+        }
+      ]
+    },
+    {
       "id": "wenjie-wang",
       "name": "Wenjie Wang",
       "publication_name": "Wenjie Wang",
@@ -35926,6 +36664,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "wenzhuo-liu",
+      "name": "Wenzhuo Liu",
+      "publication_name": "Wenzhuo Liu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.17115v1",
+      "institutions": [
+        "中国科学院自动化研究所"
+      ],
+      "papers": [
+        "arxiv-2611-17115-caplite"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17115-caplite",
+          "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17115v1"
         }
       ]
     },
@@ -36363,6 +37125,30 @@
       ]
     },
     {
+      "id": "yong-xie",
+      "name": "Yong Xie",
+      "publication_name": "Yong Xie",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
+        }
+      ]
+    },
+    {
       "id": "yongyu-jiang",
       "name": "Yongyu Jiang",
       "publication_name": "Yongyu Jiang",
@@ -36461,6 +37247,30 @@
       ]
     },
     {
+      "id": "yuhang-wang",
+      "name": "Yuhang Wang",
+      "publication_name": "Yuhang Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.18442v1",
+      "institutions": [
+        "University of South Florida"
+      ],
+      "papers": [
+        "arxiv-2611-18442-cantraj"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18442v1"
+        }
+      ]
+    },
+    {
       "id": "yukai-zhou",
       "name": "Yukai Zhou",
       "publication_name": "Yukai Zhou",
@@ -36505,6 +37315,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.41642v1"
+        }
+      ]
+    },
+    {
+      "id": "yulliwas-ameur",
+      "name": "Yulliwas Ameur",
+      "publication_name": "Yulliwas Ameur",
+      "homepage": "https://yulliwasameur.github.io/about/",
+      "profile_source": "https://yulliwasameur.github.io/about/",
+      "institutions": [
+        "Conservatoire national des arts et métiers",
+        "Université Paris-Panthéon-Assas"
+      ],
+      "papers": [
+        "arxiv-2611-18133-linera"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-18133-linera",
+          "title": "Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.18133v1"
         }
       ]
     },
@@ -36677,6 +37512,54 @@
       ]
     },
     {
+      "id": "zhezhen-cao",
+      "name": "Zhezhen Cao",
+      "publication_name": "Zhezhen Cao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.17123v1",
+      "institutions": [
+        "North Carolina State University"
+      ],
+      "papers": [
+        "arxiv-2611-17123-codeql-rewrites"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17123-codeql-rewrites",
+          "title": "Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17123v1"
+        }
+      ]
+    },
+    {
+      "id": "zhikai-chen",
+      "name": "Zhikai Chen",
+      "publication_name": "Zhikai Chen",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
+        }
+      ]
+    },
+    {
       "id": "zhitao-he",
       "name": "Zhitao He",
       "publication_name": "Zhitao He",
@@ -36769,6 +37652,54 @@
           "year": 2026,
           "venue": "IEEE HOST 2026",
           "url": "https://doi.org/10.1109/HOST68814.2026.11604975"
+        }
+      ]
+    },
+    {
+      "id": "zimo-xu",
+      "name": "Zimo Xu",
+      "publication_name": "Zimo Xu",
+      "homepage": "https://www.nlab.ci.i.u-tokyo.ac.jp/members-e.html",
+      "profile_source": "https://www.nlab.ci.i.u-tokyo.ac.jp/members-e.html",
+      "institutions": [
+        "The University of Tokyo"
+      ],
+      "papers": [
+        "arxiv-2611-17115-caplite"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17115-caplite",
+          "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17115v1"
+        }
+      ]
+    },
+    {
+      "id": "zipeng-ye",
+      "name": "Zipeng Ye",
+      "publication_name": "Zipeng Ye",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.16493v1",
+      "institutions": [
+        "阿里巴巴集团"
+      ],
+      "papers": [
+        "arxiv-2611-16493-rea-bench"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-16493-rea-bench",
+          "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.16493v1"
         }
       ]
     },
@@ -38074,6 +39005,18 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "prosaic-intelligence",
+      "papers": [
+        {
+          "id": "arxiv-2611-17520-weakest-agent",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "ruhr-university-bochum",
       "papers": [
         {
@@ -38140,6 +39083,18 @@
           "id": "icml24-mazeika-harmbench",
           "year": 2024,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "university-of-southern-california",
+      "papers": [
+        {
+          "id": "arxiv-2611-17520-weakest-agent",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -38488,6 +39443,18 @@
           "id": "issta26-huang-secretron",
           "year": 2026,
           "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "conservatoire-national-des-arts-et-metiers",
+      "target": "universite-paris-pantheon-assas",
+      "papers": [
+        {
+          "id": "arxiv-2611-18133-linera",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -40402,6 +41369,18 @@
     },
     {
       "source": "independent-researcher",
+      "target": "north-carolina-state-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-18293-privacypr",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "independent-researcher",
       "target": "rambus-cryptography-research-division",
       "papers": [
         {
@@ -40576,6 +41555,18 @@
           "id": "ieee-sp26-ye-llm-unlearning",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "institute-automation-cas",
+      "target": "the-university-of-tokyo",
+      "papers": [
+        {
+          "id": "arxiv-2611-17115-caplite",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -41254,6 +42245,18 @@
     },
     {
       "source": "nanyang-technological-university",
+      "target": "purdue-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nanyang-technological-university",
       "target": "singapore-management-university",
       "papers": [
         {
@@ -41266,12 +42269,48 @@
     },
     {
       "source": "nanyang-technological-university",
+      "target": "stanford-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nanyang-technological-university",
+      "target": "university-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nanyang-technological-university",
       "target": "university-hawaii-manoa",
       "papers": [
         {
           "id": "ieee-sp26-li-webcloak",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "nanyang-technological-university",
+      "target": "university-of-south-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -41661,6 +42700,30 @@
       "weight": 1
     },
     {
+      "source": "prosaic-intelligence",
+      "target": "university-of-southern-california",
+      "papers": [
+        {
+          "id": "arxiv-2611-17520-weakest-agent",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
+      "target": "stanford-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "purdue-university",
       "target": "tsinghua-university",
       "papers": [
@@ -41686,10 +42749,34 @@
     },
     {
       "source": "purdue-university",
+      "target": "university-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
       "target": "university-international-relations",
       "papers": [
         {
           "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
+      "target": "university-of-south-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
           "year": 2026,
           "venue_group": null
         }
@@ -42158,6 +43245,30 @@
       "papers": [
         {
           "id": "osdi26-cottone-acumen",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "stanford-university",
+      "target": "university-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "stanford-university",
+      "target": "university-of-south-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
           "year": 2026,
           "venue_group": null
         }
@@ -42657,6 +43768,18 @@
       "weight": 1
     },
     {
+      "source": "university-florida",
+      "target": "university-of-south-florida",
+      "papers": [
+        {
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-international-relations",
       "target": "university-of-wollongong",
       "papers": [
@@ -43043,6 +44166,105 @@
       ]
     },
     {
+      "id": "arxiv-2611-16493-rea-bench",
+      "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.16493v1",
+      "institutions": [
+        "alibaba-group"
+      ],
+      "authors": [
+        "zipeng-ye",
+        "shenyu-dai",
+        "yong-xie",
+        "kun-wang",
+        "jiyang-guan",
+        "zhikai-chen",
+        "jiaqi-weng",
+        "jialing-tao",
+        "hui-xue"
+      ]
+    },
+    {
+      "id": "arxiv-2611-18293-privacypr",
+      "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18293v1",
+      "institutions": [
+        "north-carolina-state-university",
+        "independent-researcher"
+      ],
+      "authors": [
+        "hua-yang",
+        "aditya-bhardwaj",
+        "shidong-pan",
+        "bowen-xu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-17123-codeql-rewrites",
+      "title": "Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.17123v1",
+      "institutions": [
+        "north-carolina-state-university"
+      ],
+      "authors": [
+        "zhezhen-cao",
+        "weiyuan-ding",
+        "bowen-xu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-17520-weakest-agent",
+      "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.17520v1",
+      "institutions": [
+        "carnegie-mellon-university",
+        "university-of-southern-california",
+        "prosaic-intelligence"
+      ],
+      "authors": [
+        "keegan-wang",
+        "anantika-mannby"
+      ]
+    },
+    {
+      "id": "arxiv-2611-18312-magnetic-rail",
+      "title": "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+      "year": 2026,
+      "venue": "ACM CCS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18312v1",
+      "institutions": [
+        "technische-universitat-berlin"
+      ],
+      "authors": [
+        "stefan-czybik",
+        "pia-hanfeld",
+        "konrad-rieck"
+      ]
+    },
+    {
       "id": "arxiv-2611-08281-multimodal-sea",
       "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
       "year": 2026,
@@ -43119,6 +44341,25 @@
         "zain-shamsi",
         "ravi-srinivasan",
         "alex-liu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-18133-linera",
+      "title": "Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18133v1",
+      "institutions": [
+        "universite-paris-pantheon-assas",
+        "conservatoire-national-des-arts-et-metiers"
+      ],
+      "authors": [
+        "yulliwas-ameur",
+        "billal-mokhtari",
+        "samia-bouzefrane"
       ]
     },
     {
@@ -43229,6 +44470,25 @@
       ]
     },
     {
+      "id": "arxiv-2611-17115-caplite",
+      "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.17115v1",
+      "institutions": [
+        "the-university-of-tokyo",
+        "institute-automation-cas"
+      ],
+      "authors": [
+        "zimo-xu",
+        "wenzhuo-liu",
+        "hideki-nakayama"
+      ]
+    },
+    {
       "id": "arxiv-2610-40744-clic",
       "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
       "year": 2026,
@@ -43250,6 +44510,31 @@
         "joongheon-kim",
         "angelos-antonopoulos",
         "nikolaos-bartzoudis"
+      ]
+    },
+    {
+      "id": "arxiv-2611-18442-cantraj",
+      "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.18442v1",
+      "institutions": [
+        "university-of-south-florida",
+        "stanford-university",
+        "purdue-university",
+        "university-florida",
+        "nanyang-technological-university"
+      ],
+      "authors": [
+        "yuhang-wang",
+        "jingxin-yang",
+        "chuheng-wei",
+        "suyang-chen",
+        "haozhuang-chi",
+        "hao-zhou"
       ]
     },
     {

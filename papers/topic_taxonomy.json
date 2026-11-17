@@ -1,5 +1,5 @@
 {
-  "version": "1.10.12",
+  "version": "1.10.14",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -583,6 +583,14 @@
     "arxiv-2611-08811-thought-injection": "ai-security",
     "arxiv-2611-08884-audience-privacy": "identity-privacy",
     "arxiv-2611-11305-intent-auditing": "ai-security",
-    "arxiv-2611-06629-glasswing-evidence": "software-application-security"
+    "arxiv-2611-06629-glasswing-evidence": "software-application-security",
+    "arxiv-2611-18442-cantraj": "mobile-iot-security",
+    "arxiv-2611-18312-magnetic-rail": "mobile-iot-security",
+    "arxiv-2611-18293-privacypr": "software-application-security",
+    "arxiv-2611-17123-codeql-rewrites": "software-application-security",
+    "arxiv-2611-18133-linera": "systems-hardware-security",
+    "arxiv-2611-17115-caplite": "ai-security",
+    "arxiv-2611-17520-weakest-agent": "ai-security",
+    "arxiv-2611-16493-rea-bench": "ai-security"
   }
 }

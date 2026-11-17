@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T15:04:52+08:00",
+  "generated_at": "2026-11-17T15:15:52+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 185,
-    "papers_with_affiliations": 185,
+    "indexed_papers": 186,
+    "papers_with_affiliations": 186,
     "scored_top_venue_papers": 154
   },
   "categories": [
@@ -410,6 +410,7 @@
         "ETH Zurich"
       ],
       "papers": [
+        "arxiv-2611-04672-context-dimensions",
         "ieee-sp26-arquint-diodon",
         "ieee-sp26-dutly-aex-nstep",
         "ieee-sp26-graf-vmscape",
@@ -432,6 +433,7 @@
         "Joshua Swanson",
         "Kari Kostiainen",
         "Kaveh Razavi",
+        "Kristina Nikolić",
         "Linard Arquint",
         "Liwen Xu",
         "Luca Beurer-Kellner",
@@ -2621,6 +2623,35 @@
       "verified_score": 1
     },
     {
+      "id": "unsw",
+      "name": "University of New South Wales",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp",
+        "arxiv-2611-04672-context-dimensions",
+        "usenix-sec26-liu-malicious-skills"
+      ],
+      "scholars": [
+        "Feng Xu",
+        "Hammond Pearce",
+        "Jiamin Chang",
+        "Yuekang Li",
+        "Yulei Sui"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "concordia-university",
       "name": "Concordia University",
       "country_code": "CAN",
@@ -2869,32 +2900,6 @@
         "Yicheng Liu",
         "Ying Li",
         "Yuan Tian"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "unsw",
-      "name": "University of New South Wales",
-      "country_code": "AUS",
-      "affiliation_names": [
-        "University of New South Wales"
-      ],
-      "papers": [
-        "arxiv-2610-41642-tadp",
-        "usenix-sec26-liu-malicious-skills"
-      ],
-      "scholars": [
-        "Feng Xu",
-        "Yuekang Li",
-        "Yulei Sui"
       ],
       "annual_scores": {
         "2026": {
@@ -6404,6 +6409,28 @@
       ],
       "scholars": [
         "Jihyeon Jeong"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "microsoft-security-response-center",
+      "name": "Microsoft Security Response Center",
+      "country_code": "",
+      "affiliation_names": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "scholars": [
+        "Ahmed Salem",
+        "Andrew Paverd",
+        "Arnav Garg",
+        "Giovanni Cherubin",
+        "Jose Sanchez Vicarte",
+        "Rishi Sharma",
+        "Vasilios Mavroudis"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -31157,6 +31184,30 @@
       ]
     },
     {
+      "id": "ahmed-salem",
+      "name": "Ahmed Salem",
+      "publication_name": "Ahmed Salem",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
       "id": "alexandra-souly",
       "name": "Alexandra Souly",
       "publication_name": "Alexandra Souly",
@@ -31325,6 +31376,30 @@
       ]
     },
     {
+      "id": "andrew-paverd",
+      "name": "Andrew Paverd",
+      "publication_name": "Andrew Paverd",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
       "id": "ankur-singh-concordia",
       "name": "Ankur Singh",
       "publication_name": "Ankur Singh",
@@ -31417,6 +31492,30 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "arnav-garg",
+      "name": "Arnav Garg",
+      "publication_name": "Arnav Garg",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
         }
       ]
     },
@@ -32239,6 +32338,30 @@
       ]
     },
     {
+      "id": "giovanni-cherubin",
+      "name": "Giovanni Cherubin",
+      "publication_name": "Giovanni Cherubin",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
       "id": "guanghao-li-tsinghua",
       "name": "Guanghao Li",
       "publication_name": "Guanghao Li",
@@ -32260,6 +32383,30 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "hammond-pearce",
+      "name": "Hammond Pearce",
+      "publication_name": "Hammond Pearce",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
         }
       ]
     },
@@ -32576,6 +32723,30 @@
       ]
     },
     {
+      "id": "jiamin-chang",
+      "name": "Jiamin Chang",
+      "publication_name": "Jiamin Chang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
       "id": "jihyeon-jeong-largosoft",
       "name": "Jihyeon Jeong",
       "publication_name": "Jihyeon Jeong",
@@ -32644,6 +32815,30 @@
           "year": 2026,
           "venue": "ACM POPL 2026",
           "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "jose-sanchez-vicarte",
+      "name": "Jose Sanchez Vicarte",
+      "publication_name": "Jose Sanchez Vicarte",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
         }
       ]
     },
@@ -32885,6 +33080,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "kristina-nikolic",
+      "name": "Kristina Nikolić",
+      "publication_name": "Kristina Nikolić",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
         }
       ]
     },
@@ -33513,6 +33732,30 @@
       ]
     },
     {
+      "id": "rishi-sharma",
+      "name": "Rishi Sharma",
+      "publication_name": "Rishi Sharma",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
       "id": "roberto-di-pietro-kaust",
       "name": "Roberto Di Pietro",
       "publication_name": "Roberto Di Pietro",
@@ -33967,6 +34210,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.20759"
+        }
+      ]
+    },
+    {
+      "id": "vasilios-mavroudis",
+      "name": "Vasilios Mavroudis",
+      "publication_name": "Vasilios Mavroudis",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "Microsoft Security Response Center"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.04672v1"
         }
       ]
     },
@@ -36646,6 +36913,30 @@
       "weight": 1
     },
     {
+      "source": "eth-zurich",
+      "target": "microsoft-security-response-center",
+      "papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
+      "target": "unsw",
+      "papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "fair-meta",
       "target": "independent-researcher",
       "papers": [
@@ -38465,6 +38756,18 @@
           "id": "icml24-mazeika-harmbench",
           "year": 2024,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "microsoft-security-response-center",
+      "target": "unsw",
+      "papers": [
+        {
+          "id": "arxiv-2611-04672-context-dimensions",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -40295,6 +40598,33 @@
     }
   ],
   "publications": [
+    {
+      "id": "arxiv-2611-04672-context-dimensions",
+      "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.04672v1",
+      "institutions": [
+        "unsw",
+        "eth-zurich",
+        "microsoft-security-response-center"
+      ],
+      "authors": [
+        "jiamin-chang",
+        "kristina-nikolic",
+        "rishi-sharma",
+        "giovanni-cherubin",
+        "vasilios-mavroudis",
+        "jose-sanchez-vicarte",
+        "arnav-garg",
+        "hammond-pearce",
+        "andrew-paverd",
+        "ahmed-salem"
+      ]
+    },
     {
       "id": "arxiv-2610-41642-tadp",
       "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",

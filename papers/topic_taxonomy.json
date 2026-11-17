@@ -1,5 +1,5 @@
 {
-  "version": "1.10.7",
+  "version": "1.10.8",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -381,6 +381,9 @@
     "program-repair": {"label": "程序修复", "facet": "method"}
   },
   "primary_domain_overrides": {
+    "arxiv-2611-10099-enmo-safety": "ai-security",
+    "arxiv-2611-09026-harpoon": "software-application-security",
+    "arxiv-2611-09808-agent-patch-path": "software-application-security",
     "arxiv-2610-41642-tadp": "identity-privacy",
     "arxiv-2610-36612-silent-blindness": "systems-hardware-security",
     "arxiv-2610-36603-maven-lifecycle": "software-application-security",

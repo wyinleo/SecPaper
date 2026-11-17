@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T14:55:15+08:00",
+  "generated_at": "2026-11-17T15:04:52+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 182,
-    "papers_with_affiliations": 182,
+    "indexed_papers": 185,
+    "papers_with_affiliations": 185,
     "scored_top_venue_papers": 154
   },
   "categories": [
@@ -141,6 +141,7 @@
       ],
       "papers": [
         "aaai25-gong-figstep",
+        "arxiv-2611-09026-harpoon",
         "iccv25-dong-vpr-cloak",
         "ieee-sp26-peng-apiecho",
         "ndss26-wu-email-aliases",
@@ -730,6 +731,49 @@
       "verified_score": 4
     },
     {
+      "id": "purdue-university",
+      "name": "Purdue University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Purdue University"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon",
+        "ieee-sp26-androutsopoulos-deepsurf",
+        "ieee-sp26-ersoy-dark-patterns",
+        "ieee-sp26-tystahl-cosseter",
+        "neurips25-lee-sec-bench"
+      ],
+      "scholars": [
+        "Ananth Shreekumar",
+        "Antonio Bianchi",
+        "Aravind Machiry",
+        "Brandon Lee",
+        "Devin Ersoy",
+        "Elisa Bertino",
+        "Georgios C. Androutsopoulos",
+        "Hanxiao Lu",
+        "Siddharth Muralee",
+        "Sourag Cherupattamoolayil",
+        "Z. Berkay Celik"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        },
+        "2025": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "uiuc",
       "name": "University of Illinois Urbana-Champaign",
       "country_code": "USA",
@@ -811,47 +855,6 @@
           "software": 0,
           "ai": 1,
           "total": 2
-        },
-        "2025": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "purdue-university",
-      "name": "Purdue University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Purdue University"
-      ],
-      "papers": [
-        "ieee-sp26-androutsopoulos-deepsurf",
-        "ieee-sp26-ersoy-dark-patterns",
-        "ieee-sp26-tystahl-cosseter",
-        "neurips25-lee-sec-bench"
-      ],
-      "scholars": [
-        "Ananth Shreekumar",
-        "Antonio Bianchi",
-        "Aravind Machiry",
-        "Brandon Lee",
-        "Devin Ersoy",
-        "Georgios C. Androutsopoulos",
-        "Hanxiao Lu",
-        "Siddharth Muralee",
-        "Sourag Cherupattamoolayil",
-        "Z. Berkay Celik"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 0,
-          "ai": 0,
-          "total": 3
         },
         "2025": {
           "security": 0,
@@ -6228,6 +6231,73 @@
       "verified_score": 0
     },
     {
+      "id": "federal-university-of-bahia",
+      "name": "Federal University of Bahia",
+      "country_code": "BRA",
+      "affiliation_names": [
+        "Federal University of Bahia"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Eduardo Santana de Almeida",
+        "Felipe de Sant’Anna Paixão"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "federal-university-of-mato-grosso-do-sul",
+      "name": "Federal University of Mato Grosso do Sul",
+      "country_code": "BRA",
+      "affiliation_names": [
+        "Federal University of Mato Grosso do Sul"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Hudson Silva Borges"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "federal-university-of-rio-de-janeiro",
+      "name": "Federal University of Rio de Janeiro",
+      "country_code": "BRA",
+      "affiliation_names": [
+        "Federal University of Rio de Janeiro"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Daniel S. Menasché"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "fluminense-federal-university",
+      "name": "Fluminense Federal University",
+      "country_code": "BRA",
+      "affiliation_names": [
+        "Fluminense Federal University"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Claudio Segal",
+        "Paulo Segal",
+        "Raphael Machado"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "google-deepmind",
       "name": "Google DeepMind",
       "country_code": "",
@@ -6243,6 +6313,26 @@
         "Ilia Shumailov",
         "Jamie Hayes",
         "Nicholas Carlini"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "intel-corporation",
+      "name": "Intel Corporation",
+      "country_code": "",
+      "affiliation_names": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "scholars": [
+        "Allan Kevin T.",
+        "Chirag Vaidya",
+        "Mohammed Nayeem Khan",
+        "Sarun Kumar K. S.",
+        "Vrishank Tiwari"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6338,6 +6428,22 @@
       "verified_score": 0
     },
     {
+      "id": "rural-federal-university-of-pernambuco",
+      "name": "Rural Federal University of Pernambuco",
+      "country_code": "BRA",
+      "affiliation_names": [
+        "Rural Federal University of Pernambuco"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Paulo Silveira"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "san-francisco-state-university",
       "name": "San Francisco State University",
       "country_code": "USA",
@@ -6349,6 +6455,23 @@
       ],
       "scholars": [
         "Parsa Mirfasihi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "siemens-corporation-princeton",
+      "name": "Siemens Corporation, Princeton",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Siemens Corporation, Princeton"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Anton Kocheturov",
+        "Gaurav Srivastava"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6402,6 +6525,22 @@
       "verified_score": 0
     },
     {
+      "id": "university-of-notre-dame",
+      "name": "University of Notre Dame",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Notre Dame"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "scholars": [
+        "Joanna Cecilia da Silva Santos"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-rochester",
       "name": "University of Rochester",
       "country_code": "USA",
@@ -6435,6 +6574,25 @@
       "verified_score": 0
     },
     {
+      "id": "university-of-wollongong",
+      "name": "University of Wollongong",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "University of Wollongong"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "scholars": [
+        "Jialiang Dong",
+        "Liuhuo Wan",
+        "Siqi Ma",
+        "Willy Susilo"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-zagreb",
       "name": "University of Zagreb",
       "country_code": "HRV",
@@ -6462,6 +6620,22 @@
       ],
       "scholars": [
         "Saleh Khalaj Monfared"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-international-relations",
+      "name": "国际关系学院",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "国际关系学院"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "scholars": [
+        "Xu Gai"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -10178,6 +10352,46 @@
       ]
     },
     {
+      "id": "chao-zhang-tsinghua",
+      "name": "Chao Zhang",
+      "publication_name": "Chao Zhang",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
+      "institutions": [
+        "清华大学",
+        "清华大学网络科学与网络空间研究院—科学城（广州）数字科技集团有限公司系统安全联合研究中心"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon",
+        "usenix-sec26-jia-pangolin"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
+        },
+        {
+          "id": "usenix-sec26-jia-pangolin",
+          "title": "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng"
+        }
+      ]
+    },
+    {
       "id": "damien-octeau",
       "name": "Damien Octeau",
       "publication_name": "Damien Octeau",
@@ -12379,38 +12593,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://doi.org/10.1109/SP63933.2026.00241"
-        }
-      ]
-    },
-    {
-      "id": "chao-zhang-tsinghua",
-      "name": "Chao Zhang",
-      "publication_name": "Chao Zhang",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
-      "institutions": [
-        "清华大学",
-        "清华大学网络科学与网络空间研究院—科学城（广州）数字科技集团有限公司系统安全联合研究中心"
-      ],
-      "papers": [
-        "usenix-sec26-jia-pangolin"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-jia-pangolin",
-          "title": "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng"
         }
       ]
     },
@@ -31071,6 +31253,30 @@
       ]
     },
     {
+      "id": "allan-kevin-t",
+      "name": "Allan Kevin T.",
+      "publication_name": "Allan Kevin T.",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-10099-enmo-safety",
+          "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
       "id": "andreas-terzis",
       "name": "Andreas Terzis",
       "publication_name": "Andreas Terzis",
@@ -31163,6 +31369,30 @@
           "year": 2010,
           "venue": "USENIX OSDI 2010",
           "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
+      "id": "anton-kocheturov",
+      "name": "Anton Kocheturov",
+      "publication_name": "Anton Kocheturov",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Siemens Corporation, Princeton"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
         }
       ]
     },
@@ -31311,6 +31541,30 @@
       ]
     },
     {
+      "id": "chirag-vaidya",
+      "name": "Chirag Vaidya",
+      "publication_name": "Chirag Vaidya",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-10099-enmo-safety",
+          "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
       "id": "chongyang-shi",
       "name": "Chongyang Shi",
       "publication_name": "Chongyang Shi",
@@ -31431,6 +31685,30 @@
       ]
     },
     {
+      "id": "claudio-segal",
+      "name": "Claudio Segal",
+      "publication_name": "Claudio Segal",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Fluminense Federal University"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
       "id": "conor-power-berkeley",
       "name": "Conor Power",
       "publication_name": "Conor Power",
@@ -31499,6 +31777,30 @@
           "year": 2026,
           "venue": "IEEE SaTML 2026",
           "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
+      "id": "daniel-s-menasche",
+      "name": "Daniel S. Menasché",
+      "publication_name": "Daniel S. Menasché",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Federal University of Rio de Janeiro"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
         }
       ]
     },
@@ -31671,6 +31973,54 @@
       ]
     },
     {
+      "id": "eduardo-santana-de-almeida",
+      "name": "Eduardo Santana de Almeida",
+      "publication_name": "Eduardo Santana de Almeida",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Federal University of Bahia"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
+      "id": "elisa-bertino",
+      "name": "Elisa Bertino",
+      "publication_name": "Elisa Bertino",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "Purdue University"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
+        }
+      ]
+    },
+    {
       "id": "enrong-pan",
       "name": "Enrong Pan",
       "publication_name": "Enrong Pan",
@@ -31767,6 +32117,30 @@
       ]
     },
     {
+      "id": "felipe-de-santanna-paixao",
+      "name": "Felipe de Sant’Anna Paixão",
+      "publication_name": "Felipe de Sant’Anna Paixão",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Federal University of Bahia"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
       "id": "feng-lu-tsinghua",
       "name": "Feng Lu",
       "publication_name": "Feng Lu",
@@ -31837,6 +32211,30 @@
           "year": 2026,
           "venue": "ACM POPL 2026",
           "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "gaurav-srivastava",
+      "name": "Gaurav Srivastava",
+      "publication_name": "Gaurav Srivastava",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Siemens Corporation, Princeton"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
         }
       ]
     },
@@ -32010,6 +32408,30 @@
       ]
     },
     {
+      "id": "hudson-silva-borges",
+      "name": "Hudson Silva Borges",
+      "publication_name": "Hudson Silva Borges",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Federal University of Mato Grosso do Sul"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
       "id": "hussain-al-asaad",
       "name": "Hussain Al-Asaad",
       "publication_name": "Hussain Al-Asaad",
@@ -32130,6 +32552,30 @@
       ]
     },
     {
+      "id": "jialiang-dong",
+      "name": "Jialiang Dong",
+      "publication_name": "Jialiang Dong",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "University of Wollongong"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
+        }
+      ]
+    },
+    {
       "id": "jihyeon-jeong-largosoft",
       "name": "Jihyeon Jeong",
       "publication_name": "Jihyeon Jeong",
@@ -32150,6 +32596,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.05120"
+        }
+      ]
+    },
+    {
+      "id": "joanna-c-s-santos",
+      "name": "Joanna Cecilia da Silva Santos",
+      "publication_name": "Joanna C. S. Santos",
+      "homepage": "https://cse.nd.edu/faculty/joanna-cecilia-da-silva-santos/",
+      "profile_source": "https://cse.nd.edu/faculty/joanna-cecilia-da-silva-santos/",
+      "institutions": [
+        "University of Notre Dame"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
         }
       ]
     },
@@ -32491,6 +32961,30 @@
       ]
     },
     {
+      "id": "liuhuo-wan",
+      "name": "Liuhuo Wan",
+      "publication_name": "Liuhuo Wan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "University of Wollongong"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
+        }
+      ]
+    },
+    {
       "id": "luyi-xing-uiuc",
       "name": "Luyi Xing",
       "publication_name": "Luyi Xing",
@@ -32655,6 +33149,30 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "mohammed-nayeem-khan",
+      "name": "Mohammed Nayeem Khan",
+      "publication_name": "Mohammed Nayeem Khan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-10099-enmo-safety",
+          "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10099v1"
         }
       ]
     },
@@ -32827,6 +33345,54 @@
       ]
     },
     {
+      "id": "paulo-segal",
+      "name": "Paulo Segal",
+      "publication_name": "Paulo Segal",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Fluminense Federal University"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
+      "id": "paulo-silveira",
+      "name": "Paulo Silveira",
+      "publication_name": "Paulo Silveira",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Rural Federal University of Pernambuco"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
       "id": "peter-gilbert",
       "name": "Peter Gilbert",
       "publication_name": "Peter Gilbert",
@@ -32919,6 +33485,30 @@
           "year": 2026,
           "venue": "AGENT-SEC 2026",
           "url": "https://arxiv.org/abs/2608.08939"
+        }
+      ]
+    },
+    {
+      "id": "raphael-machado",
+      "name": "Raphael Machado",
+      "publication_name": "Raphael Machado",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "Fluminense Federal University"
+      ],
+      "papers": [
+        "arxiv-2611-09808-agent-patch-path"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09808v1"
         }
       ]
     },
@@ -33043,6 +33633,30 @@
       ]
     },
     {
+      "id": "sarun-kumar-k-s",
+      "name": "Sarun Kumar K. S.",
+      "publication_name": "Sarun Kumar K. S.",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-10099-enmo-safety",
+          "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
       "id": "faatin-alvi",
       "name": "Sayeda Faatin Alvi",
       "publication_name": "Sayeda Faatin Alvi",
@@ -33136,6 +33750,30 @@
           "year": 2014,
           "venue": "ACM PLDI 2014",
           "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
+      "id": "siqi-ma",
+      "name": "Siqi Ma",
+      "publication_name": "Siqi Ma",
+      "homepage": "https://scholars.uow.edu.au/siqi-ma",
+      "profile_source": "https://scholars.uow.edu.au/siqi-ma",
+      "institutions": [
+        "University of Wollongong"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
         }
       ]
     },
@@ -33333,6 +33971,30 @@
       ]
     },
     {
+      "id": "vrishank-tiwari",
+      "name": "Vrishank Tiwari",
+      "publication_name": "Vrishank Tiwari",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "Intel Corporation"
+      ],
+      "papers": [
+        "arxiv-2611-10099-enmo-safety"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-10099-enmo-safety",
+          "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
       "id": "wentao-fu-zjut",
       "name": "Wentao Fu",
       "publication_name": "Wentao Fu",
@@ -33381,6 +34043,30 @@
       ]
     },
     {
+      "id": "willy-susilo",
+      "name": "Willy Susilo",
+      "publication_name": "Willy Susilo",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "University of Wollongong"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
+        }
+      ]
+    },
+    {
       "id": "xiaolong-bai",
       "name": "Xiaolong Bai",
       "publication_name": "Xiaolong Bai",
@@ -33425,6 +34111,30 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "xu-gai",
+      "name": "Xu Gai",
+      "publication_name": "Xu Gai",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "国际关系学院"
+      ],
+      "papers": [
+        "arxiv-2611-09026-harpoon"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.09026v1"
         }
       ]
     },
@@ -35948,6 +36658,186 @@
       "weight": 1
     },
     {
+      "source": "federal-university-of-bahia",
+      "target": "federal-university-of-mato-grosso-do-sul",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-bahia",
+      "target": "federal-university-of-rio-de-janeiro",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-bahia",
+      "target": "fluminense-federal-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-bahia",
+      "target": "rural-federal-university-of-pernambuco",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-bahia",
+      "target": "siemens-corporation-princeton",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-bahia",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-mato-grosso-do-sul",
+      "target": "federal-university-of-rio-de-janeiro",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-mato-grosso-do-sul",
+      "target": "fluminense-federal-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-mato-grosso-do-sul",
+      "target": "rural-federal-university-of-pernambuco",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-mato-grosso-do-sul",
+      "target": "siemens-corporation-princeton",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-mato-grosso-do-sul",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-rio-de-janeiro",
+      "target": "fluminense-federal-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-rio-de-janeiro",
+      "target": "rural-federal-university-of-pernambuco",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-rio-de-janeiro",
+      "target": "siemens-corporation-princeton",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "federal-university-of-rio-de-janeiro",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "florida-international-university",
       "target": "georgia-tech",
       "papers": [
@@ -35967,6 +36857,42 @@
           "id": "ieee-sp26-ersoy-dark-patterns",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "fluminense-federal-university",
+      "target": "rural-federal-university-of-pernambuco",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "fluminense-federal-university",
+      "target": "siemens-corporation-princeton",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "fluminense-federal-university",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -38217,12 +39143,48 @@
     },
     {
       "source": "purdue-university",
+      "target": "tsinghua-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
       "target": "uiuc",
       "papers": [
         {
           "id": "neurips25-lee-sec-bench",
           "year": 2025,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
+      "target": "university-international-relations",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
+      "target": "university-of-wollongong",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -38331,6 +39293,30 @@
           "id": "usenix-sec26-jannett-passkeys",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "rural-federal-university-of-pernambuco",
+      "target": "siemens-corporation-princeton",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "rural-federal-university-of-pernambuco",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -38540,6 +39526,18 @@
       "weight": 1
     },
     {
+      "source": "siemens-corporation-princeton",
+      "target": "university-of-notre-dame",
+      "papers": [
+        {
+          "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "singapore-management-university",
       "target": "ualberta-amii",
       "papers": [
@@ -38653,6 +39651,30 @@
       "papers": [
         {
           "id": "arxiv-2607-16487-fuzz-emup",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "tsinghua-university",
+      "target": "university-international-relations",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "tsinghua-university",
+      "target": "university-of-wollongong",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
           "year": 2026,
           "venue_group": null
         }
@@ -39068,6 +40090,18 @@
       "weight": 1
     },
     {
+      "source": "university-international-relations",
+      "target": "university-of-wollongong",
+      "papers": [
+        {
+          "id": "arxiv-2611-09026-harpoon",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-adelaide",
       "target": "university-of-maryland",
       "papers": [
@@ -39323,6 +40357,83 @@
         "michael-saxon",
         "tadayoshi-kohno-georgetown",
         "aylin-caliskan"
+      ]
+    },
+    {
+      "id": "arxiv-2611-10099-enmo-safety",
+      "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.10099v1",
+      "institutions": [
+        "intel-corporation"
+      ],
+      "authors": [
+        "mohammed-nayeem-khan",
+        "sarun-kumar-k-s",
+        "allan-kevin-t",
+        "chirag-vaidya",
+        "vrishank-tiwari"
+      ]
+    },
+    {
+      "id": "arxiv-2611-09026-harpoon",
+      "title": "Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.09026v1",
+      "institutions": [
+        "university-of-wollongong",
+        "university-international-relations",
+        "tsinghua-university",
+        "purdue-university"
+      ],
+      "authors": [
+        "jialiang-dong",
+        "willy-susilo",
+        "xu-gai",
+        "liuhuo-wan",
+        "chao-zhang-tsinghua",
+        "elisa-bertino",
+        "siqi-ma"
+      ]
+    },
+    {
+      "id": "arxiv-2611-09808-agent-patch-path",
+      "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.09808v1",
+      "institutions": [
+        "fluminense-federal-university",
+        "federal-university-of-mato-grosso-do-sul",
+        "rural-federal-university-of-pernambuco",
+        "federal-university-of-rio-de-janeiro",
+        "federal-university-of-bahia",
+        "university-of-notre-dame",
+        "siemens-corporation-princeton"
+      ],
+      "authors": [
+        "claudio-segal",
+        "paulo-segal",
+        "hudson-silva-borges",
+        "paulo-silveira",
+        "daniel-s-menasche",
+        "eduardo-santana-de-almeida",
+        "felipe-de-santanna-paixao",
+        "joanna-c-s-santos",
+        "anton-kocheturov",
+        "gaurav-srivastava",
+        "raphael-machado"
       ]
     },
     {

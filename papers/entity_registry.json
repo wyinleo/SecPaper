@@ -1,5 +1,5 @@
 {
-  "version": "1.12.7",
+  "version": "1.12.8",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -254,7 +254,17 @@
     "University of Cambridge": {"id": "university-of-cambridge", "display_name": "University of Cambridge", "language": "en", "source": "https://www.cam.ac.uk/", "country_code": "GBR"},
     "Queen’s University": {"id": "queens-university", "display_name": "Queen’s University", "language": "en", "source": "https://arxiv.org/pdf/2610.36603v1", "country_code": "CAN"},
     "San Francisco State University": {"id": "san-francisco-state-university", "display_name": "San Francisco State University", "language": "en", "source": "https://arxiv.org/pdf/2610.36612v1", "country_code": "USA"},
-    "Worcester Polytechnic Institute": {"id": "worcester-polytechnic-institute", "display_name": "Worcester Polytechnic Institute", "language": "en", "source": "https://arxiv.org/pdf/2610.36612v1", "country_code": "USA"}
+    "Worcester Polytechnic Institute": {"id": "worcester-polytechnic-institute", "display_name": "Worcester Polytechnic Institute", "language": "en", "source": "https://arxiv.org/pdf/2610.36612v1", "country_code": "USA"},
+    "Fluminense Federal University": {"id": "fluminense-federal-university", "display_name": "Fluminense Federal University", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "BRA"},
+    "Federal University of Mato Grosso do Sul": {"id": "federal-university-of-mato-grosso-do-sul", "display_name": "Federal University of Mato Grosso do Sul", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "BRA"},
+    "Rural Federal University of Pernambuco": {"id": "rural-federal-university-of-pernambuco", "display_name": "Rural Federal University of Pernambuco", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "BRA"},
+    "Federal University of Rio de Janeiro": {"id": "federal-university-of-rio-de-janeiro", "display_name": "Federal University of Rio de Janeiro", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "BRA"},
+    "Federal University of Bahia": {"id": "federal-university-of-bahia", "display_name": "Federal University of Bahia", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "BRA"},
+    "University of Notre Dame": {"id": "university-of-notre-dame", "display_name": "University of Notre Dame", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "USA"},
+    "Siemens Corporation, Princeton": {"id": "siemens-corporation-princeton", "display_name": "Siemens Corporation, Princeton", "language": "en", "source": "https://arxiv.org/pdf/2611.09808v1", "country_code": "USA"},
+    "University of Wollongong": {"id": "university-of-wollongong", "display_name": "University of Wollongong", "language": "en", "source": "https://scholars.uow.edu.au/siqi-ma", "country_code": "AUS"},
+    "国际关系学院": {"id": "university-international-relations", "display_name": "国际关系学院", "language": "zh", "source": "https://youth.uir.cn/info/1182/2511.htm", "country_code": "CHN"},
+    "Intel Corporation": {"id": "intel-corporation", "display_name": "Intel Corporation", "language": "en", "source": "https://arxiv.org/pdf/2611.10099v1"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1132,7 +1142,29 @@
     "Yulei Sui": {"id": "yulei-sui", "display_name": "Yulei Sui", "publication_name": "Yulei Sui", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
     "David Ahmedt-Aristizabal": {"id": "david-ahmedt-aristizabal", "display_name": "David Ahmedt-Aristizabal", "publication_name": "David Ahmedt-Aristizabal", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
     "Dadong Wang": {"id": "dadong-wang", "display_name": "Dadong Wang", "publication_name": "Dadong Wang", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
-    "Yuan Tian (Queen’s University)": {"id": "yuan-tian-queens", "display_name": "Yuan Tian", "publication_name": "Yuan Tian", "language": "en", "source": "https://arxiv.org/pdf/2610.36603v1"}
+    "Yuan Tian (Queen’s University)": {"id": "yuan-tian-queens", "display_name": "Yuan Tian", "publication_name": "Yuan Tian", "language": "en", "source": "https://arxiv.org/pdf/2610.36603v1"},
+    "Claudio Segal": {"id": "claudio-segal", "display_name": "Claudio Segal", "publication_name": "Claudio Segal", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Paulo Segal": {"id": "paulo-segal", "display_name": "Paulo Segal", "publication_name": "Paulo Segal", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Hudson Silva Borges": {"id": "hudson-silva-borges", "display_name": "Hudson Silva Borges", "publication_name": "Hudson Silva Borges", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Paulo Silveira": {"id": "paulo-silveira", "display_name": "Paulo Silveira", "publication_name": "Paulo Silveira", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Daniel S. Menasché": {"id": "daniel-s-menasche", "display_name": "Daniel S. Menasché", "publication_name": "Daniel S. Menasché", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Eduardo Santana de Almeida": {"id": "eduardo-santana-de-almeida", "display_name": "Eduardo Santana de Almeida", "publication_name": "Eduardo Santana de Almeida", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Felipe de Sant’Anna Paixão": {"id": "felipe-de-santanna-paixao", "display_name": "Felipe de Sant’Anna Paixão", "publication_name": "Felipe de Sant’Anna Paixão", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Joanna C. S. Santos": {"id": "joanna-c-s-santos", "display_name": "Joanna Cecilia da Silva Santos", "publication_name": "Joanna C. S. Santos", "language": "en", "source": "https://cse.nd.edu/faculty/joanna-cecilia-da-silva-santos/", "homepage": "https://cse.nd.edu/faculty/joanna-cecilia-da-silva-santos/", "aliases": ["Joanna Cecilia da Silva Santos"]},
+    "Anton Kocheturov": {"id": "anton-kocheturov", "display_name": "Anton Kocheturov", "publication_name": "Anton Kocheturov", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Gaurav Srivastava": {"id": "gaurav-srivastava", "display_name": "Gaurav Srivastava", "publication_name": "Gaurav Srivastava", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Raphael Machado": {"id": "raphael-machado", "display_name": "Raphael Machado", "publication_name": "Raphael Machado", "language": "en", "source": "https://arxiv.org/abs/2611.09808v1"},
+    "Jialiang Dong": {"id": "jialiang-dong", "display_name": "Jialiang Dong", "publication_name": "Jialiang Dong", "language": "en", "source": "https://arxiv.org/abs/2611.09026v1"},
+    "Willy Susilo": {"id": "willy-susilo", "display_name": "Willy Susilo", "publication_name": "Willy Susilo", "language": "en", "source": "https://arxiv.org/abs/2611.09026v1"},
+    "Xu Gai": {"id": "xu-gai", "display_name": "Xu Gai", "publication_name": "Xu Gai", "language": "en", "source": "https://arxiv.org/abs/2611.09026v1"},
+    "Liuhuo Wan": {"id": "liuhuo-wan", "display_name": "Liuhuo Wan", "publication_name": "Liuhuo Wan", "language": "en", "source": "https://arxiv.org/abs/2611.09026v1"},
+    "Elisa Bertino": {"id": "elisa-bertino", "display_name": "Elisa Bertino", "publication_name": "Elisa Bertino", "language": "en", "source": "https://arxiv.org/abs/2611.09026v1"},
+    "Siqi Ma": {"id": "siqi-ma", "display_name": "Siqi Ma", "publication_name": "Siqi Ma", "language": "en", "source": "https://scholars.uow.edu.au/siqi-ma", "homepage": "https://scholars.uow.edu.au/siqi-ma"},
+    "Mohammed Nayeem Khan": {"id": "mohammed-nayeem-khan", "display_name": "Mohammed Nayeem Khan", "publication_name": "Mohammed Nayeem Khan", "language": "en", "source": "https://arxiv.org/abs/2611.10099v1"},
+    "Sarun Kumar K. S.": {"id": "sarun-kumar-k-s", "display_name": "Sarun Kumar K. S.", "publication_name": "Sarun Kumar K. S.", "language": "en", "source": "https://arxiv.org/abs/2611.10099v1"},
+    "Allan Kevin T.": {"id": "allan-kevin-t", "display_name": "Allan Kevin T.", "publication_name": "Allan Kevin T.", "language": "en", "source": "https://arxiv.org/abs/2611.10099v1"},
+    "Chirag Vaidya": {"id": "chirag-vaidya", "display_name": "Chirag Vaidya", "publication_name": "Chirag Vaidya", "language": "en", "source": "https://arxiv.org/abs/2611.10099v1"},
+    "Vrishank Tiwari": {"id": "vrishank-tiwari", "display_name": "Vrishank Tiwari", "publication_name": "Vrishank Tiwari", "language": "en", "source": "https://arxiv.org/abs/2611.10099v1"}
   },
   "paper_scholar_overrides": {
     "arxiv-2610-36603-maven-lifecycle": {"Yuan Tian": "Yuan Tian (Queen’s University)"},

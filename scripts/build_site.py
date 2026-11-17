@@ -772,7 +772,7 @@ def build_payload() -> dict[str, Any]:
                 if event["kind"] in {"accepted", "published"} and "accepted" not in paper.get("status", ""):
                     raise ValueError(f"{paper['id']}: formal event requires verified accepted status")
     weeks = [
-        {"id": week, "label": week, "count": count, "note": windows.get(week, {}).get("note", "")}
+        {"id": week, "label": week, "count": count}
         for week, count in sorted(week_counts.items(), reverse=True)
     ]
     themes = sorted(theme_counts.values(), key=lambda item: (-item["count"], item["label"]))

@@ -726,7 +726,7 @@
     elements.contentEyebrow.textContent = state.mode === "week" ? "WEEKLY READING" : "TOPIC COLLECTION";
     elements.contentTitle.textContent = group?.label || "论文";
     elements.resultCount.textContent = `${papers.length} 篇`;
-    elements.cardList.innerHTML = (state.mode === "week" && group?.note ? `<p class="weekly-note">${escapeHtml(group.note)}</p>` : "") + papers.map(renderPaperCard).join("");
+    elements.cardList.innerHTML = papers.map(renderPaperCard).join("");
     elements.sort.hidden = false;
     elements.empty.hidden = papers.length > 0;
 

@@ -1,6 +1,6 @@
 # 2026-W45 重做：时间窗口与来源证据
 
-最终结果：4篇动态，缺6篇；主题来源组2/1/1。正式会议0篇、预印4篇。历史十篇已独立迁移，过往误补审计另存归档。
+扩大覆盖后结果：10篇动态，缺0篇；主题来源组5/2/3。正式会议0篇、预印10篇。下文旧4篇结果保留为过程记录。历史十篇已独立迁移，过往误补审计另存归档。
 
 本期窗口：2026-10-27 至 2026-11-02（北京时间）。实际回溯检索：2026-11-17。此前用历史基线补数的结论撤销，旧审计记录见 [归档](../archive/2026-W45-superseded-20261117.md)。首次被整理者发现不构成窗口内更新。
 
@@ -111,3 +111,26 @@ W45最终4篇：RoleFUZZER、Maven生命周期、Silent Blindness、TADP。组�
 - [x] 用户原改动保持；仅提交新增功能/规则/数据，构建器用户hunk排除。
 
 推送及Pages的后验核验记入自动化memory及最终报告，发布前不预填成功。
+
+## 扩大覆盖复查（2026-11-17，进行中）
+
+前次4篇仅为已完成核验条目。会议入口链接曾截取最多12个，未形成完整逐篇候选排除表；不能据此证明缺额来自论文不足。本轮解除链接样例截断，扩大原始预印日期、精确标题和作者主页交叉检索。
+
+新增正文待精读候选（均已下载完整PDF、逐篇核对arXiv v1元数据并与188条索引去重）：
+
+- [Characterizing LLM Agent Behaviors in Module Shadowing Environments](https://arxiv.org/abs/2610.40716v1)：2026-10-29，预印；正文可用，尚未计入公开收录。
+- [CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN](https://arxiv.org/abs/2610.40744v1)：2026-10-29，预印；正文可用，尚未计入公开收录。
+- [Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation](https://arxiv.org/abs/2610.41307v1)：2026-10-30，预印；正文可用，尚未计入公开收录。
+- [Complexity of Differentially Private Selection via Federated APIs](https://arxiv.org/abs/2610.38789v1)：2026-10-28，预印；正文可用，尚未计入公开收录。
+- [Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes](https://arxiv.org/abs/2610.38595v1)：2026-10-28，预印；正文可用，尚未计入公开收录。
+- [The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures](https://arxiv.org/abs/2610.38543v1)：2026-10-28，预印；正文可用，尚未计入公开收录。
+
+作者主页补充：David Wagner（https://people.eecs.berkeley.edu/~daw/papers/）提供FoRGe作者全文和ISC2026日期线索；须继续核验正式出版日期，会议日期本身不足以入选。ASE官方GraphLedger、代码漏洞推理忠实性、Android签名密钥研究均已发现，但10月会议记录早于窗口，缺窗口内新版本证据，暂不入选。
+
+### 扩大覆盖后的阶段完成记录
+
+- 检索：三组21会议及14行业入口重新访问；安全相关链接不再截断样例。作者主页新增David Wagner，正式日期未核准的FoRGe留作候选，未用会议日期入选。六篇新增原始arXiv版本10月28—30日、完整PDF、四级去重通过。最近四期仍为16/12/12。
+- 来源偏离：安全5、软件系统2、AI3，安全多1、软件少1；10篇均为未同行评审预印。达到篇数不代表正式会议均衡已满足。官网静态表缺窗口事件、ASE/ICSE/ACL部分超时、NeurIPS2026目录404仍为明确访问缺口。
+- 精读：六篇原文方法、结果与局限完成复核，8步推理和两段Easycatch先于卡片保存；14字段及受控主题通过。
+- 实体：北京前瞻人工智能安全与治理研究院、华南理工大学中文名来自官方双语证据；SSAI中文全称未核准，保留原署名。Shuai Yang、Enmeng Lu、Jinyu Fan、Gongce Cao、Yu Chen、Jiawei Xie、Feifei Zhao、Zhangsheng Wang、Yongyu Jiang、Yi Zeng、Shuo Hong、Jiaxin Ma、Xidi Cai、Qianli Ma、Yukai Zhou、Wenjie Wang的中文身份逐一对应尚未核准，保留英文。
+- 维护：194篇/缓存、258单位，26项Python、5项JS与本地浏览器关键交互通过；所有历史预印重新读取元数据。发布结果以实际工作流为准。

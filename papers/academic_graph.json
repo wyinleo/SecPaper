@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T16:01:08+08:00",
+  "generated_at": "2026-11-17T16:21:42+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 188,
-    "papers_with_affiliations": 188,
+    "indexed_papers": 194,
+    "papers_with_affiliations": 194,
     "scored_top_venue_papers": 155
   },
   "categories": [
@@ -583,6 +583,45 @@
       "verified_score": 7
     },
     {
+      "id": "northeastern-university",
+      "name": "Northeastern University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "arxiv-2607-16487-fuzz-emup",
+        "arxiv-2610-38789-federated-selection",
+        "ieee-sp26-suri-trojanclimb",
+        "ndss26-li-ace",
+        "ndss26-syros-saga",
+        "usenix-sec26-syros-muzzle"
+      ],
+      "scholars": [
+        "Alina Oprea",
+        "Anshuman Suri",
+        "Cristina Nita-Rotaru",
+        "Evan Li",
+        "Evan Rose",
+        "Georgios Syros",
+        "Harsh Chaudhari",
+        "Huy L. Nguyen",
+        "Jacob Ginesin",
+        "Tushin Mallick",
+        "William Robertson",
+        "Ziming Zhao"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "duke-university",
       "name": "Duke University",
       "country_code": "USA",
@@ -741,43 +780,6 @@
           "software": 0,
           "ai": 0,
           "total": 3
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "northeastern-university",
-      "name": "Northeastern University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "arxiv-2607-16487-fuzz-emup",
-        "ieee-sp26-suri-trojanclimb",
-        "ndss26-li-ace",
-        "ndss26-syros-saga",
-        "usenix-sec26-syros-muzzle"
-      ],
-      "scholars": [
-        "Alina Oprea",
-        "Anshuman Suri",
-        "Cristina Nita-Rotaru",
-        "Evan Li",
-        "Evan Rose",
-        "Georgios Syros",
-        "Harsh Chaudhari",
-        "Jacob Ginesin",
-        "Tushin Mallick",
-        "William Robertson",
-        "Ziming Zhao"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 4,
-          "software": 0,
-          "ai": 0,
-          "total": 4
         }
       },
       "verified_score": 4
@@ -1684,6 +1686,45 @@
       "verified_score": 2
     },
     {
+      "id": "korea-university",
+      "name": "Korea University",
+      "country_code": "KOR",
+      "affiliation_names": [
+        "Korea University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic",
+        "icse20-hong-saver",
+        "usenix-sec26-kim-timeslice-sandwich"
+      ],
+      "scholars": [
+        "Gyeongsup Lim",
+        "Hakjoo Oh",
+        "Hodong Kim",
+        "Jeongsoo Lee",
+        "Joongheon Kim",
+        "Junbeom Hur",
+        "Junhee Lee",
+        "Seongjoon Hong",
+        "Youngjoo Shin"
+      ],
+      "annual_scores": {
+        "2020": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "uk-ai-security-institute",
       "name": "UK AI Security Institute",
       "country_code": "GBR",
@@ -1746,6 +1787,76 @@
           "software": 1,
           "ai": 0,
           "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "renmin-university-china",
+      "name": "中国人民大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中国人民大学"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing",
+        "ieee-sp26-wang-jailbreak-guardrails",
+        "usenix-sec26-wang-masleak"
+      ],
+      "scholars": [
+        "Enmeng Lu",
+        "Gongce Cao",
+        "Jiawei Xie",
+        "Jinyu Fan",
+        "Shuai Yang",
+        "Wenxuan Wang",
+        "Yi Zeng",
+        "Yu Chen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "ucas",
+      "name": "中国科学院大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中国科学院大学",
+        "中国科学院大学网络空间安全学院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing",
+        "fse26-guo-bcs",
+        "usenix-sec26-liu-picklecloak"
+      ],
+      "scholars": [
+        "Chaopeng Dong",
+        "Gongce Cao",
+        "Guozhu Meng",
+        "Hong Li",
+        "Hongsong Zhu",
+        "Jiawei Xie",
+        "Jie Liu",
+        "Jingdong Guo",
+        "Kai Chen",
+        "Shuaiyin Yao",
+        "Tong Liu",
+        "Yimo Ren",
+        "Yu Chen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
         }
       },
       "verified_score": 2
@@ -1836,43 +1947,6 @@
           "software": 0,
           "ai": 0,
           "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "korea-university",
-      "name": "Korea University",
-      "country_code": "KOR",
-      "affiliation_names": [
-        "Korea University"
-      ],
-      "papers": [
-        "icse20-hong-saver",
-        "usenix-sec26-kim-timeslice-sandwich"
-      ],
-      "scholars": [
-        "Gyeongsup Lim",
-        "Hakjoo Oh",
-        "Hodong Kim",
-        "Jeongsoo Lee",
-        "Junbeom Hur",
-        "Junhee Lee",
-        "Seongjoon Hong",
-        "Youngjoo Shin"
-      ],
-      "annual_scores": {
-        "2020": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
         }
       },
       "verified_score": 2
@@ -2314,68 +2388,11 @@
       "verified_score": 2
     },
     {
-      "id": "renmin-university-china",
-      "name": "中国人民大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中国人民大学"
-      ],
-      "papers": [
-        "ieee-sp26-wang-jailbreak-guardrails",
-        "usenix-sec26-wang-masleak"
-      ],
-      "scholars": [
-        "Wenxuan Wang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "iie-cas",
       "name": "中国科学院信息工程研究所",
       "country_code": "CHN",
       "affiliation_names": [
         "中国科学院信息工程研究所"
-      ],
-      "papers": [
-        "fse26-guo-bcs",
-        "usenix-sec26-liu-picklecloak"
-      ],
-      "scholars": [
-        "Chaopeng Dong",
-        "Guozhu Meng",
-        "Hong Li",
-        "Hongsong Zhu",
-        "Jie Liu",
-        "Jingdong Guo",
-        "Kai Chen",
-        "Shuaiyin Yao",
-        "Tong Liu",
-        "Yimo Ren"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 1,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "ucas",
-      "name": "中国科学院大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中国科学院大学网络空间安全学院"
       ],
       "papers": [
         "fse26-guo-bcs",
@@ -2661,6 +2678,31 @@
       "verified_score": 1
     },
     {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Anthropic"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "scholars": [
+        "Jelani Nelson",
+        "Nicholas Carlini"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "concordia-university",
       "name": "Concordia University",
       "country_code": "CAN",
@@ -2866,6 +2908,32 @@
       "verified_score": 1
     },
     {
+      "id": "texas-am-university",
+      "name": "Texas A&M University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Texas A&M University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection",
+        "usenix-sec26-huang-conset"
+      ],
+      "scholars": [
+        "Guofei Gu",
+        "Samson Zhou",
+        "Wanda Guo"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "university-california-irvine",
       "name": "University of California, Irvine",
       "country_code": "USA",
@@ -2937,6 +3005,32 @@
       ],
       "annual_scores": {
         "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "shanghaitech-university",
+      "name": "上海科技大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "上海科技大学"
+      ],
+      "papers": [
+        "arxiv-2610-38595-risk-landscape",
+        "sp18-chen-angora"
+      ],
+      "scholars": [
+        "Wenjie Wang",
+        "Yukai Zhou",
+        "陈鹏"
+      ],
+      "annual_scores": {
+        "2018": {
           "security": 1,
           "software": 0,
           "ai": 0,
@@ -3109,29 +3203,6 @@
         "Jialin Wu",
         "Kecen Li",
         "Zhicong Huang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Anthropic"
-      ],
-      "papers": [
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "scholars": [
-        "Nicholas Carlini"
       ],
       "annual_scores": {
         "2026": {
@@ -4707,30 +4778,6 @@
       "verified_score": 1
     },
     {
-      "id": "texas-am-university",
-      "name": "Texas A&M University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Texas A&M University"
-      ],
-      "papers": [
-        "usenix-sec26-huang-conset"
-      ],
-      "scholars": [
-        "Guofei Gu",
-        "Wanda Guo"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "university-british-columbia",
       "name": "The University of British Columbia",
       "country_code": "CAN",
@@ -5621,29 +5668,6 @@
       "verified_score": 1
     },
     {
-      "id": "shanghaitech-university",
-      "name": "上海科技大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "上海科技大学"
-      ],
-      "papers": [
-        "sp18-chen-angora"
-      ],
-      "scholars": [
-        "陈鹏"
-      ],
-      "annual_scores": {
-        "2018": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "information-engineering-university",
       "name": "中国人民解放军信息工程大学",
       "country_code": "CHN",
@@ -6250,6 +6274,40 @@
       "verified_score": 0
     },
     {
+      "id": "apple-inc",
+      "name": "Apple Inc.",
+      "country_code": "",
+      "affiliation_names": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "scholars": [
+        "Hilal Asi",
+        "Kunal Talwar",
+        "Vitaly Feldman"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "cttc-cerca",
+      "name": "CTTC-CERCA",
+      "country_code": "ESP",
+      "affiliation_names": [
+        "CTTC-CERCA"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "scholars": [
+        "Nikolaos Bartzoudis"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "clemson-university",
       "name": "Clemson University",
       "country_code": "USA",
@@ -6263,6 +6321,22 @@
         "Fatemeh Moradihaghighi",
         "Mashrur Chowdhury",
         "Zhenkai Zhang"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "dublin-city-university",
+      "name": "Dublin City University",
+      "country_code": "IRL",
+      "affiliation_names": [
+        "Dublin City University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "scholars": [
+        "Sunder Ali Khowaja"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6412,6 +6486,24 @@
       "verified_score": 0
     },
     {
+      "id": "karlstad-university",
+      "name": "Karlstad University",
+      "country_code": "SWE",
+      "affiliation_names": [
+        "Karlstad University"
+      ],
+      "papers": [
+        "arxiv-2610-38543-privacy-assessment"
+      ],
+      "scholars": [
+        "Ala Sarah Alaqra",
+        "Leonardo Horn Iwaya",
+        "Samuel Wairimu"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "lambda",
       "name": "Lambda",
       "country_code": "",
@@ -6468,6 +6560,38 @@
       "verified_score": 0
     },
     {
+      "id": "munster-technological-university",
+      "name": "Munster Technological University",
+      "country_code": "IRL",
+      "affiliation_names": [
+        "Munster Technological University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "scholars": [
+        "Kapal Dev"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "nearby-computing-s-l",
+      "name": "Nearby Computing S.L.",
+      "country_code": "ESP",
+      "affiliation_names": [
+        "Nearby Computing S.L."
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "scholars": [
+        "Angelos Antonopoulos"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "queens-university",
       "name": "Queen’s University",
       "country_code": "CAN",
@@ -6498,6 +6622,24 @@
       ],
       "scholars": [
         "Paulo Silveira"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "safe-and-secure-ai-ssai",
+      "name": "Safe and Secure AI (SSAI)",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "Safe and Secure AI (SSAI)"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "scholars": [
+        "Feifei Zhao",
+        "Yongyu Jiang",
+        "Zhangsheng Wang"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6713,6 +6855,47 @@
       ],
       "scholars": [
         "Josep Domingo-Ferrer"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "beijing-aisi",
+      "name": "北京前瞻人工智能安全与治理研究院",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "scholars": [
+        "Enmeng Lu",
+        "Gongce Cao",
+        "Jiawei Xie",
+        "Jinyu Fan",
+        "Shuai Yang",
+        "Yi Zeng",
+        "Yu Chen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "south-china-university-technology",
+      "name": "华南理工大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "华南理工大学"
+      ],
+      "papers": [
+        "arxiv-2610-41307-erase"
+      ],
+      "scholars": [
+        "Jiaxin Ma",
+        "Qianli Ma",
+        "Shuo Hong",
+        "Xidi Cai"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -31439,6 +31622,30 @@
       ]
     },
     {
+      "id": "ala-sarah-alaqra",
+      "name": "Ala Sarah Alaqra",
+      "publication_name": "Ala Sarah Alaqra",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38543v1",
+      "institutions": [
+        "Karlstad University"
+      ],
+      "papers": [
+        "arxiv-2610-38543-privacy-assessment"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38543-privacy-assessment",
+          "title": "The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38543v1"
+        }
+      ]
+    },
+    {
       "id": "alexandra-souly",
       "name": "Alexandra Souly",
       "publication_name": "Alexandra Souly",
@@ -31627,6 +31834,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
+      "id": "angelos-antonopoulos",
+      "name": "Angelos Antonopoulos",
+      "publication_name": "Angelos Antonopoulos",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40744v1",
+      "institutions": [
+        "Nearby Computing S.L."
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40744v1"
         }
       ]
     },
@@ -32399,6 +32630,31 @@
       ]
     },
     {
+      "id": "enmeng-lu",
+      "name": "Enmeng Lu",
+      "publication_name": "Enmeng Lu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
       "id": "enrong-pan",
       "name": "Enrong Pan",
       "publication_name": "Enrong Pan",
@@ -32491,6 +32747,30 @@
           "year": 2026,
           "venue": "IEEE HOST 2026",
           "url": "https://doi.org/10.1109/HOST68814.2026.11604975"
+        }
+      ]
+    },
+    {
+      "id": "feifei-zhao",
+      "name": "Feifei Zhao",
+      "publication_name": "Feifei Zhao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "Safe and Secure AI (SSAI)"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
         }
       ]
     },
@@ -32637,6 +32917,32 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
+      "id": "gongce-cao",
+      "name": "Gongce Cao",
+      "publication_name": "Gongce Cao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "中国科学院大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
         }
       ]
     },
@@ -32810,6 +33116,30 @@
       ]
     },
     {
+      "id": "hilal-asi",
+      "name": "Hilal Asi",
+      "publication_name": "Hilal Asi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "huan-nguyen-google",
       "name": "Huan Nguyen",
       "publication_name": "Huan Nguyen",
@@ -32878,6 +33208,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.36612v1"
+        }
+      ]
+    },
+    {
+      "id": "huy-l-nguyen",
+      "name": "Huy L. Nguyen",
+      "publication_name": "Huy L. Nguyen",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -32954,6 +33308,30 @@
       ]
     },
     {
+      "id": "jelani-nelson",
+      "name": "Jelani Nelson",
+      "publication_name": "Jelani Nelson",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Anthropic"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "jiajun-zhou-zjut",
       "name": "Jiajun Zhou",
       "publication_name": "Jiajun Zhou",
@@ -33026,6 +33404,56 @@
       ]
     },
     {
+      "id": "jiawei-xie",
+      "name": "Jiawei Xie",
+      "publication_name": "Jiawei Xie",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "中国科学院大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
+      "id": "jiaxin-ma",
+      "name": "Jiaxin Ma",
+      "publication_name": "Jiaxin Ma",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.41307v1",
+      "institutions": [
+        "华南理工大学"
+      ],
+      "papers": [
+        "arxiv-2610-41307-erase"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41307-erase",
+          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41307v1"
+        }
+      ]
+    },
+    {
       "id": "jihyeon-jeong-largosoft",
       "name": "Jihyeon Jeong",
       "publication_name": "Jihyeon Jeong",
@@ -33046,6 +33474,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.05120"
+        }
+      ]
+    },
+    {
+      "id": "jinyu-fan",
+      "name": "Jinyu Fan",
+      "publication_name": "Jinyu Fan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
         }
       ]
     },
@@ -33094,6 +33547,30 @@
           "year": 2026,
           "venue": "ACM POPL 2026",
           "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "joongheon-kim",
+      "name": "Joongheon Kim",
+      "publication_name": "Joongheon Kim",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40744v1",
+      "institutions": [
+        "Korea University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40744v1"
         }
       ]
     },
@@ -33292,6 +33769,30 @@
       ]
     },
     {
+      "id": "kapal-dev",
+      "name": "Kapal Dev",
+      "publication_name": "Kapal Dev",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40744v1",
+      "institutions": [
+        "Munster Technological University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40744v1"
+        }
+      ]
+    },
+    {
       "id": "karen-shieh-berkeley",
       "name": "Karen Shieh",
       "publication_name": "Karen Shieh",
@@ -33436,6 +33937,30 @@
       ]
     },
     {
+      "id": "kunal-talwar",
+      "name": "Kunal Talwar",
+      "publication_name": "Kunal Talwar",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "landon-p-cox",
       "name": "Landon P. Cox",
       "publication_name": "Landon P. Cox",
@@ -33480,6 +34005,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.41642v1"
+        }
+      ]
+    },
+    {
+      "id": "leonardo-horn-iwaya",
+      "name": "Leonardo Horn Iwaya",
+      "publication_name": "Leonardo Horn Iwaya",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38543v1",
+      "institutions": [
+        "Karlstad University"
+      ],
+      "papers": [
+        "arxiv-2610-38543-privacy-assessment"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38543-privacy-assessment",
+          "title": "The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38543v1"
         }
       ]
     },
@@ -33820,6 +34369,30 @@
       ]
     },
     {
+      "id": "nikolaos-bartzoudis",
+      "name": "Nikolaos Bartzoudis",
+      "publication_name": "Nikolaos Bartzoudis",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40744v1",
+      "institutions": [
+        "CTTC-CERCA"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40744v1"
+        }
+      ]
+    },
+    {
       "id": "parnian-shabani-kamran",
       "name": "Parnian Shabani Kamran",
       "publication_name": "Parnian Shabani Kamran",
@@ -33960,6 +34533,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "qianli-ma",
+      "name": "Qianli Ma",
+      "publication_name": "Qianli Ma",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.41307v1",
+      "institutions": [
+        "华南理工大学"
+      ],
+      "papers": [
+        "arxiv-2610-41307-erase"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41307-erase",
+          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41307v1"
         }
       ]
     },
@@ -34180,6 +34777,54 @@
       ]
     },
     {
+      "id": "samson-zhou",
+      "name": "Samson Zhou",
+      "publication_name": "Samson Zhou",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Texas A&M University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
+      "id": "samuel-wairimu",
+      "name": "Samuel Wairimu",
+      "publication_name": "Samuel Wairimu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38543v1",
+      "institutions": [
+        "Karlstad University"
+      ],
+      "papers": [
+        "arxiv-2610-38543-privacy-assessment"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38543-privacy-assessment",
+          "title": "The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38543v1"
+        }
+      ]
+    },
+    {
       "id": "sarun-kumar-k-s",
       "name": "Sarun Kumar K. S.",
       "publication_name": "Sarun Kumar K. S.",
@@ -34248,6 +34893,55 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.27080"
+        }
+      ]
+    },
+    {
+      "id": "shuai-yang",
+      "name": "Shuai Yang",
+      "publication_name": "Shuai Yang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
+      "id": "shuo-hong",
+      "name": "Shuo Hong",
+      "publication_name": "Shuo Hong",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.41307v1",
+      "institutions": [
+        "华南理工大学"
+      ],
+      "papers": [
+        "arxiv-2610-41307-erase"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41307-erase",
+          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41307v1"
         }
       ]
     },
@@ -34446,6 +35140,30 @@
       ]
     },
     {
+      "id": "sunder-ali-khowaja",
+      "name": "Sunder Ali Khowaja",
+      "publication_name": "Sunder Ali Khowaja",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40744v1",
+      "institutions": [
+        "Dublin City University"
+      ],
+      "papers": [
+        "arxiv-2610-40744-clic"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40744v1"
+        }
+      ]
+    },
+    {
       "id": "taehyun-kang-snu",
       "name": "Taehyun Kang",
       "publication_name": "Taehyun Kang",
@@ -34542,6 +35260,30 @@
       ]
     },
     {
+      "id": "vitaly-feldman",
+      "name": "Vitaly Feldman",
+      "publication_name": "Vitaly Feldman",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "vrishank-tiwari",
       "name": "Vrishank Tiwari",
       "publication_name": "Vrishank Tiwari",
@@ -34562,6 +35304,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.10099v1"
+        }
+      ]
+    },
+    {
+      "id": "wenjie-wang",
+      "name": "Wenjie Wang",
+      "publication_name": "Wenjie Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38595v1",
+      "institutions": [
+        "上海科技大学"
+      ],
+      "papers": [
+        "arxiv-2610-38595-risk-landscape"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38595-risk-landscape",
+          "title": "Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38595v1"
         }
       ]
     },
@@ -34658,6 +35424,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao"
+        }
+      ]
+    },
+    {
+      "id": "xidi-cai",
+      "name": "Xidi Cai",
+      "publication_name": "Xidi Cai",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.41307v1",
+      "institutions": [
+        "华南理工大学"
+      ],
+      "papers": [
+        "arxiv-2610-41307-erase"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41307-erase",
+          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41307v1"
         }
       ]
     },
@@ -34830,6 +35620,31 @@
       ]
     },
     {
+      "id": "yi-zeng",
+      "name": "Yi Zeng",
+      "publication_name": "Yi Zeng",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
       "id": "yicheng-liu",
       "name": "Yicheng Liu",
       "publication_name": "Yicheng Liu",
@@ -34926,6 +35741,56 @@
       ]
     },
     {
+      "id": "yongyu-jiang",
+      "name": "Yongyu Jiang",
+      "publication_name": "Yongyu Jiang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "Safe and Secure AI (SSAI)"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
+      "id": "yu-chen",
+      "name": "Yu Chen",
+      "publication_name": "Yu Chen",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "中国人民大学",
+        "中国科学院大学",
+        "北京前瞻人工智能安全与治理研究院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
       "id": "yu-hao-ucr",
       "name": "Yu Hao",
       "publication_name": "Yu Hao",
@@ -34970,6 +35835,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
+      "id": "yukai-zhou",
+      "name": "Yukai Zhou",
+      "publication_name": "Yukai Zhou",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38595v1",
+      "institutions": [
+        "上海科技大学"
+      ],
+      "papers": [
+        "arxiv-2610-38595-risk-landscape"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38595-risk-landscape",
+          "title": "Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38595v1"
         }
       ]
     },
@@ -35042,6 +35931,30 @@
           "year": 2014,
           "venue": "ACM PLDI 2014",
           "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
+      "id": "zhangsheng-wang",
+      "name": "Zhangsheng Wang",
+      "publication_name": "Zhangsheng Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.40716v1",
+      "institutions": [
+        "Safe and Secure AI (SSAI)"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40716v1"
         }
       ]
     },
@@ -36023,6 +36936,18 @@
     },
     {
       "source": "anthropic",
+      "target": "apple-inc",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "anthropic",
       "target": "eth-zurich",
       "papers": [
         {
@@ -36041,6 +36966,54 @@
           "id": "usenix-sec26-lermen-deanonymization",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "anthropic",
+      "target": "northeastern-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "anthropic",
+      "target": "texas-am-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "apple-inc",
+      "target": "northeastern-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "apple-inc",
+      "target": "texas-am-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -36185,6 +37158,42 @@
           "id": "cvpr26-ying-agentsafe",
           "year": 2026,
           "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beijing-aisi",
+      "target": "renmin-university-china",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beijing-aisi",
+      "target": "safe-and-secure-ai-ssai",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "beijing-aisi",
+      "target": "ucas",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -36922,6 +37931,54 @@
       "weight": 1
     },
     {
+      "source": "cttc-cerca",
+      "target": "dublin-city-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cttc-cerca",
+      "target": "korea-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cttc-cerca",
+      "target": "munster-technological-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "cttc-cerca",
+      "target": "nearby-computing-s-l",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "cyberus-technology",
       "target": "g-data-advanced-analytics",
       "papers": [
@@ -37013,6 +38070,42 @@
           "id": "sp19-kocher-spectre",
           "year": 2019,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "dublin-city-university",
+      "target": "korea-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "dublin-city-university",
+      "target": "munster-technological-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "dublin-city-university",
+      "target": "nearby-computing-s-l",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -39023,6 +40116,30 @@
     },
     {
       "source": "korea-university",
+      "target": "munster-technological-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "korea-university",
+      "target": "nearby-computing-s-l",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "korea-university",
       "target": "suny-binghamton",
       "papers": [
         {
@@ -39245,6 +40362,18 @@
           "id": "ieee-sp26-wang-smufuzz",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "munster-technological-university",
+      "target": "nearby-computing-s-l",
+      "papers": [
+        {
+          "id": "arxiv-2610-40744-clic",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -39611,6 +40740,18 @@
     },
     {
       "source": "northeastern-university",
+      "target": "texas-am-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "northeastern-university",
       "target": "texas-tech-university",
       "papers": [
         {
@@ -39922,6 +41063,30 @@
       "weight": 1
     },
     {
+      "source": "renmin-university-china",
+      "target": "safe-and-secure-ai-ssai",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "renmin-university-china",
+      "target": "ucas",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "riken-aip",
       "target": "waseda-university",
       "papers": [
@@ -39999,6 +41164,18 @@
       "papers": [
         {
           "id": "arxiv-2611-09808-agent-patch-path",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "safe-and-secure-ai-ssai",
+      "target": "ucas",
+      "papers": [
+        {
+          "id": "arxiv-2610-40716-module-shadowing",
           "year": 2026,
           "venue_group": null
         }
@@ -40980,6 +42157,24 @@
   ],
   "publications": [
     {
+      "id": "arxiv-2610-38543-privacy-assessment",
+      "title": "The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.38543v1",
+      "institutions": [
+        "karlstad-university"
+      ],
+      "authors": [
+        "samuel-wairimu",
+        "leonardo-horn-iwaya",
+        "ala-sarah-alaqra"
+      ]
+    },
+    {
       "id": "arxiv-2611-04672-context-dimensions",
       "title": "The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
       "year": 2026,
@@ -41071,6 +42266,23 @@
       ]
     },
     {
+      "id": "arxiv-2610-38595-risk-landscape",
+      "title": "Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.38595v1",
+      "institutions": [
+        "shanghaitech-university"
+      ],
+      "authors": [
+        "yukai-zhou",
+        "wenjie-wang"
+      ]
+    },
+    {
       "id": "ccs26-szwajcok-meme-coin-factories",
       "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
       "year": 2026,
@@ -41095,6 +42307,25 @@
       ]
     },
     {
+      "id": "arxiv-2610-41307-erase",
+      "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.41307v1",
+      "institutions": [
+        "south-china-university-technology"
+      ],
+      "authors": [
+        "shuo-hong",
+        "jiaxin-ma",
+        "xidi-cai",
+        "qianli-ma"
+      ]
+    },
+    {
       "id": "arxiv-2611-10099-enmo-safety",
       "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
       "year": 2026,
@@ -41112,6 +42343,82 @@
         "allan-kevin-t",
         "chirag-vaidya",
         "vrishank-tiwari"
+      ]
+    },
+    {
+      "id": "arxiv-2610-38789-federated-selection",
+      "title": "Complexity of Differentially Private Selection via Federated APIs",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.38789v1",
+      "institutions": [
+        "apple-inc",
+        "anthropic",
+        "northeastern-university",
+        "texas-am-university"
+      ],
+      "authors": [
+        "hilal-asi",
+        "vitaly-feldman",
+        "jelani-nelson",
+        "huy-l-nguyen",
+        "kunal-talwar",
+        "samson-zhou"
+      ]
+    },
+    {
+      "id": "arxiv-2610-40716-module-shadowing",
+      "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.40716v1",
+      "institutions": [
+        "renmin-university-china",
+        "ucas",
+        "safe-and-secure-ai-ssai",
+        "beijing-aisi"
+      ],
+      "authors": [
+        "shuai-yang",
+        "enmeng-lu",
+        "jinyu-fan",
+        "gongce-cao",
+        "yu-chen",
+        "jiawei-xie",
+        "feifei-zhao",
+        "zhangsheng-wang",
+        "yongyu-jiang",
+        "yi-zeng"
+      ]
+    },
+    {
+      "id": "arxiv-2610-40744-clic",
+      "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.40744v1",
+      "institutions": [
+        "dublin-city-university",
+        "munster-technological-university",
+        "korea-university",
+        "nearby-computing-s-l",
+        "cttc-cerca"
+      ],
+      "authors": [
+        "sunder-ali-khowaja",
+        "kapal-dev",
+        "joongheon-kim",
+        "angelos-antonopoulos",
+        "nikolaos-bartzoudis"
       ]
     },
     {

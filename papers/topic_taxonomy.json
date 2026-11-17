@@ -1,5 +1,5 @@
 {
-  "version": "1.10.10",
+  "version": "1.10.11",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -380,7 +380,8 @@
     "access-pattern-leakage": {"label": "访问模式泄漏", "facet": "problem"},
     "oblivious-ram": {"label": "不经意存储访问", "facet": "method"},
     "reflection-analysis": {"label": "反射分析", "facet": "method"},
-    "program-repair": {"label": "程序修复", "facet": "method"}
+    "program-repair": {"label": "程序修复", "facet": "method"},
+    "differential-privacy": {"label": "差分隐私", "facet": "method"}
   },
   "primary_domain_overrides": {
     "arxiv-2611-17012-search-anonymization": "identity-privacy",
@@ -570,6 +571,12 @@
     "osdi10-enck-taintdroid": "mobile-iot-security",
     "popl99-myers-jflow": "identity-privacy",
     "neurips23-wei-jailbroken": "ai-security",
-    "icml24-bailey-image-hijacks": "ai-security"
+    "icml24-bailey-image-hijacks": "ai-security",
+    "arxiv-2610-40716-module-shadowing": "software-application-security",
+    "arxiv-2610-40744-clic": "network-communication-security",
+    "arxiv-2610-41307-erase": "ai-security",
+    "arxiv-2610-38789-federated-selection": "identity-privacy",
+    "arxiv-2610-38595-risk-landscape": "ai-security",
+    "arxiv-2610-38543-privacy-assessment": "identity-privacy"
   }
 }

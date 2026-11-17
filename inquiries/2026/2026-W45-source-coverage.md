@@ -1,6 +1,6 @@
 # 2026-W45 重做：时间窗口与来源证据
 
-扩大覆盖后结果：10篇动态，缺0篇；主题来源组5/2/3。正式会议0篇、预印10篇。下文旧4篇结果保留为过程记录。历史十篇已独立迁移，过往误补审计另存归档。
+扩大覆盖后结果：10篇动态，缺0篇；主题来源组5/2/3。正式会议1篇（NeurIPS2026）、预印9篇。下文旧4篇结果保留为过程记录。历史十篇已独立迁移，过往误补审计另存归档。
 
 本期窗口：2026-10-27 至 2026-11-02（北京时间）。实际回溯检索：2026-11-17。此前用历史基线补数的结论撤销，旧审计记录见 [归档](../archive/2026-W45-superseded-20261117.md)。首次被整理者发现不构成窗口内更新。
 
@@ -130,7 +130,9 @@ W45最终4篇：RoleFUZZER、Maven生命周期、Silent Blindness、TADP。组�
 ### 扩大覆盖后的阶段完成记录
 
 - 检索：三组21会议及14行业入口重新访问；安全相关链接不再截断样例。作者主页新增David Wagner，正式日期未核准的FoRGe留作候选，未用会议日期入选。六篇新增原始arXiv版本10月28—30日、完整PDF、四级去重通过。最近四期仍为16/12/12。
-- 来源偏离：安全5、软件系统2、AI3，安全多1、软件少1；10篇均为未同行评审预印。达到篇数不代表正式会议均衡已满足。官网静态表缺窗口事件、ASE/ICSE/ACL部分超时、NeurIPS2026目录404仍为明确访问缺口。
+- 来源偏离：安全5、软件系统2、AI3，安全多1、软件少1；1篇由NeurIPS2026官方Downloads列表确认接收，其余9篇按预印保存。达到篇数不代表正式会议均衡已满足。官网静态表缺窗口事件、ASE/ICSE/ACL部分超时、NeurIPS2026目录404仍为明确访问缺口。
 - 精读：六篇原文方法、结果与局限完成复核，8步推理和两段Easycatch先于卡片保存；14字段及受控主题通过。
 - 实体：北京前瞻人工智能安全与治理研究院、华南理工大学中文名来自官方双语证据；SSAI中文全称未核准，保留原署名。Shuai Yang、Enmeng Lu、Jinyu Fan、Gongce Cao、Yu Chen、Jiawei Xie、Feifei Zhao、Zhangsheng Wang、Yongyu Jiang、Yi Zeng、Shuo Hong、Jiaxin Ma、Xidi Cai、Qianli Ma、Yukai Zhou、Wenjie Wang的中文身份逐一对应尚未核准，保留英文。
 - 维护：194篇/缓存、258单位，26项Python、5项JS与本地浏览器关键交互通过；所有历史预印重新读取元数据。发布结果以实际工作流为准。
+
+补充核验：NeurIPS官方https://neurips.cc/Downloads/2026完整列表精确命中Complexity of Differentially Private Selection via Federated APIs，已更新正式状态；窗口事件仍用10月28日首次预印（北京时间29日）。TADP的WACV2027和Adaptive Adversaries的工作坊为作者备注，尚缺独立官方条目，保持原状态。

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T16:21:42+08:00",
+  "generated_at": "2026-11-17T16:24:35+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
     "indexed_papers": 194,
     "papers_with_affiliations": 194,
-    "scored_top_venue_papers": 155
+    "scored_top_venue_papers": 156
   },
   "categories": [
     {
@@ -615,11 +615,11 @@
         "2026": {
           "security": 4,
           "software": 0,
-          "ai": 0,
-          "total": 4
+          "ai": 1,
+          "total": 5
         }
       },
-      "verified_score": 4
+      "verified_score": 5
     },
     {
       "id": "duke-university",
@@ -1862,6 +1862,31 @@
       "verified_score": 2
     },
     {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Anthropic"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "scholars": [
+        "Jelani Nelson",
+        "Nicholas Carlini"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 1,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "arizona-state-university",
       "name": "Arizona State University",
       "country_code": "USA",
@@ -2093,6 +2118,32 @@
           "security": 2,
           "software": 0,
           "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "texas-am-university",
+      "name": "Texas A&M University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Texas A&M University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection",
+        "usenix-sec26-huang-conset"
+      ],
+      "scholars": [
+        "Guofei Gu",
+        "Samson Zhou",
+        "Wanda Guo"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 1,
           "total": 2
         }
       },
@@ -2678,31 +2729,6 @@
       "verified_score": 1
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Anthropic"
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection",
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "scholars": [
-        "Jelani Nelson",
-        "Nicholas Carlini"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "concordia-university",
       "name": "Concordia University",
       "country_code": "CAN",
@@ -2896,32 +2922,6 @@
         "Siegfried Rasthofer",
         "Steven Arzt",
         "Vukašin Karadžić"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "texas-am-university",
-      "name": "Texas A&M University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Texas A&M University"
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection",
-        "usenix-sec26-huang-conset"
-      ],
-      "scholars": [
-        "Guofei Gu",
-        "Samson Zhou",
-        "Wanda Guo"
       ],
       "annual_scores": {
         "2026": {
@@ -3209,6 +3209,31 @@
           "security": 1,
           "software": 0,
           "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "apple-inc",
+      "name": "Apple Inc.",
+      "country_code": "",
+      "affiliation_names": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "scholars": [
+        "Hilal Asi",
+        "Kunal Talwar",
+        "Vitaly Feldman"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
           "total": 1
         }
       },
@@ -6269,24 +6294,6 @@
         "Yu Hao",
         "Zhaorui Li",
         "Zhiyun Qian"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
-      "id": "apple-inc",
-      "name": "Apple Inc.",
-      "country_code": "",
-      "affiliation_names": [
-        "Apple Inc."
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "scholars": [
-        "Hilal Asi",
-        "Kunal Talwar",
-        "Vitaly Feldman"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -16610,6 +16617,37 @@
       ]
     },
     {
+      "id": "hilal-asi",
+      "name": "Hilal Asi",
+      "publication_name": "Hilal Asi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "hodong-kim",
       "name": "Hodong Kim",
       "publication_name": "Hodong Kim",
@@ -16825,6 +16863,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "huy-l-nguyen",
+      "name": "Huy L. Nguyen",
+      "publication_name": "Huy L. Nguyen",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Northeastern University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -17414,6 +17483,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "jelani-nelson",
+      "name": "Jelani Nelson",
+      "publication_name": "Jelani Nelson",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Anthropic"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -19560,6 +19660,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xiao"
+        }
+      ]
+    },
+    {
+      "id": "kunal-talwar",
+      "name": "Kunal Talwar",
+      "publication_name": "Kunal Talwar",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -24103,6 +24234,37 @@
       ]
     },
     {
+      "id": "samson-zhou",
+      "name": "Samson Zhou",
+      "publication_name": "Samson Zhou",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Texas A&M University"
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
+        }
+      ]
+    },
+    {
       "id": "samuel-gro",
       "name": "Samuel Groß",
       "publication_name": "Samuel Groß",
@@ -27205,6 +27367,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+        }
+      ]
+    },
+    {
+      "id": "vitaly-feldman",
+      "name": "Vitaly Feldman",
+      "publication_name": "Vitaly Feldman",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
+      "institutions": [
+        "Apple Inc."
+      ],
+      "papers": [
+        "arxiv-2610-38789-federated-selection"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38789-federated-selection",
+          "title": "Complexity of Differentially Private Selection via Federated APIs",
+          "year": 2026,
+          "venue": "NeurIPS 2026",
+          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -33116,30 +33309,6 @@
       ]
     },
     {
-      "id": "hilal-asi",
-      "name": "Hilal Asi",
-      "publication_name": "Hilal Asi",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Apple Inc."
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
-        }
-      ]
-    },
-    {
       "id": "huan-nguyen-google",
       "name": "Huan Nguyen",
       "publication_name": "Huan Nguyen",
@@ -33212,30 +33381,6 @@
       ]
     },
     {
-      "id": "huy-l-nguyen",
-      "name": "Huy L. Nguyen",
-      "publication_name": "Huy L. Nguyen",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Northeastern University"
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
-        }
-      ]
-    },
-    {
       "id": "ilia-shumailov",
       "name": "Ilia Shumailov",
       "publication_name": "Ilia Shumailov",
@@ -33304,30 +33449,6 @@
           "year": 2026,
           "venue": "IEEE SaTML 2026",
           "url": "https://satml.org/2026/accepted-papers/"
-        }
-      ]
-    },
-    {
-      "id": "jelani-nelson",
-      "name": "Jelani Nelson",
-      "publication_name": "Jelani Nelson",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Anthropic"
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -33933,30 +34054,6 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.38438v1"
-        }
-      ]
-    },
-    {
-      "id": "kunal-talwar",
-      "name": "Kunal Talwar",
-      "publication_name": "Kunal Talwar",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Apple Inc."
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -34777,30 +34874,6 @@
       ]
     },
     {
-      "id": "samson-zhou",
-      "name": "Samson Zhou",
-      "publication_name": "Samson Zhou",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Texas A&M University"
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
-        }
-      ]
-    },
-    {
       "id": "samuel-wairimu",
       "name": "Samuel Wairimu",
       "publication_name": "Samuel Wairimu",
@@ -35256,30 +35329,6 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.04672v1"
-        }
-      ]
-    },
-    {
-      "id": "vitaly-feldman",
-      "name": "Vitaly Feldman",
-      "publication_name": "Vitaly Feldman",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/pdf/2610.38789v1",
-      "institutions": [
-        "Apple Inc."
-      ],
-      "papers": [
-        "arxiv-2610-38789-federated-selection"
-      ],
-      "annual_scores": {},
-      "verified_score": 0,
-      "recent_papers": [
-        {
-          "id": "arxiv-2610-38789-federated-selection",
-          "title": "Complexity of Differentially Private Selection via Federated APIs",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.38789v1"
         }
       ]
     },
@@ -36941,7 +36990,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -36977,7 +37026,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -36989,7 +37038,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -37001,7 +37050,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -37013,7 +37062,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -40745,7 +40794,7 @@
         {
           "id": "arxiv-2610-38789-federated-selection",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -42349,9 +42398,9 @@
       "id": "arxiv-2610-38789-federated-selection",
       "title": "Complexity of Differentially Private Selection via Federated APIs",
       "year": 2026,
-      "venue": "arXiv",
-      "venue_group": null,
-      "status": "preprint-unreviewed",
+      "venue": "NeurIPS 2026",
+      "venue_group": "ai",
+      "status": "accepted",
       "first_seen": "2026-11-17",
       "url": "https://arxiv.org/abs/2610.38789v1",
       "institutions": [

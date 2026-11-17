@@ -1,5 +1,5 @@
 {
-  "version": "1.12.6",
+  "version": "1.12.7",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -251,7 +251,10 @@
     "TU Braunschweig": {"id": "tu-braunschweig", "display_name": "TU Braunschweig", "language": "en", "source": "https://www.tu-braunschweig.de/en/", "country_code": "DEU"},
     "Intel Labs": {"id": "intel-labs", "display_name": "Intel Labs", "language": "en", "source": "https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf"},
     "Harvard University": {"id": "harvard-university", "display_name": "Harvard University", "language": "en", "source": "https://www.harvard.edu/", "country_code": "USA"},
-    "University of Cambridge": {"id": "university-of-cambridge", "display_name": "University of Cambridge", "language": "en", "source": "https://www.cam.ac.uk/", "country_code": "GBR"}
+    "University of Cambridge": {"id": "university-of-cambridge", "display_name": "University of Cambridge", "language": "en", "source": "https://www.cam.ac.uk/", "country_code": "GBR"},
+    "Queen’s University": {"id": "queens-university", "display_name": "Queen’s University", "language": "en", "source": "https://arxiv.org/pdf/2610.36603v1", "country_code": "CAN"},
+    "San Francisco State University": {"id": "san-francisco-state-university", "display_name": "San Francisco State University", "language": "en", "source": "https://arxiv.org/pdf/2610.36612v1", "country_code": "USA"},
+    "Worcester Polytechnic Institute": {"id": "worcester-polytechnic-institute", "display_name": "Worcester Polytechnic Institute", "language": "en", "source": "https://arxiv.org/pdf/2610.36612v1", "country_code": "USA"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1110,9 +1113,29 @@
     "Luke Bailey": {"id": "luke-bailey", "display_name": "Luke Bailey", "publication_name": "Luke Bailey", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
     "Euan Ong": {"id": "euan-ong", "display_name": "Euan Ong", "publication_name": "Euan Ong", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
     "Stuart Russell": {"id": "stuart-russell", "display_name": "Stuart Russell", "publication_name": "Stuart Russell", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
-    "Scott Emmons": {"id": "scott-emmons", "display_name": "Scott Emmons", "publication_name": "Scott Emmons", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"}
+    "Scott Emmons": {"id": "scott-emmons", "display_name": "Scott Emmons", "publication_name": "Scott Emmons", "language": "en", "source": "https://proceedings.mlr.press/v235/bailey24a.html"},
+    "Kshitish Ghate": {"id": "kshitish-ghate", "display_name": "Kshitish Ghate", "publication_name": "Kshitish Ghate", "language": "en", "source": "https://arxiv.org/abs/2610.38438v1"},
+    "Michael Saxon": {"id": "michael-saxon", "display_name": "Michael Saxon", "publication_name": "Michael Saxon", "language": "en", "source": "https://arxiv.org/abs/2610.38438v1"},
+    "Aylin Caliskan": {"id": "aylin-caliskan", "display_name": "Aylin Caliskan", "publication_name": "Aylin Caliskan", "language": "en", "source": "https://faculty.washington.edu/aylin/", "homepage": "https://faculty.washington.edu/aylin/"},
+    "Kazi Amit Hasan": {"id": "kazi-amit-hasan", "display_name": "Kazi Amit Hasan", "publication_name": "Kazi Amit Hasan", "language": "en", "source": "https://arxiv.org/abs/2610.36603v1"},
+    "Enrong Pan": {"id": "enrong-pan", "display_name": "Enrong Pan", "publication_name": "Enrong Pan", "language": "en", "source": "https://arxiv.org/abs/2610.36603v1"},
+    "Mariam Guizani": {"id": "mariam-guizani", "display_name": "Mariam Guizani", "publication_name": "Mariam Guizani", "language": "en", "source": "https://arxiv.org/abs/2610.36603v1"},
+    "Steven H. H. Ding": {"id": "steven-h-h-ding", "display_name": "Steven H. H. Ding", "publication_name": "Steven H. H. Ding", "language": "en", "source": "https://arxiv.org/abs/2610.36603v1"},
+    "Alireza Abolhasani Zeraatkar": {"id": "alireza-abolhasani-zeraatkar", "display_name": "Alireza Abolhasani Zeraatkar", "publication_name": "Alireza Abolhasani Zeraatkar", "language": "en", "source": "https://arxiv.org/abs/2610.36612v1"},
+    "Parnian Shabani Kamran": {"id": "parnian-shabani-kamran", "display_name": "Parnian Shabani Kamran", "publication_name": "Parnian Shabani Kamran", "language": "en", "source": "https://arxiv.org/abs/2610.36612v1"},
+    "Parsa Mirfasihi": {"id": "parsa-mirfasihi", "display_name": "Parsa Mirfasihi", "publication_name": "Parsa Mirfasihi", "language": "en", "source": "https://arxiv.org/abs/2610.36612v1"},
+    "Saleh Khalaj Monfared": {"id": "saleh-khalaj-monfared", "display_name": "Saleh Khalaj Monfared", "publication_name": "Saleh Khalaj Monfared", "language": "en", "source": "https://arxiv.org/abs/2610.36612v1"},
+    "Hussain Al-Asaad": {"id": "hussain-al-asaad", "display_name": "Hussain Al-Asaad", "publication_name": "Hussain Al-Asaad", "language": "en", "source": "https://arxiv.org/abs/2610.36612v1"},
+    "Feng Xu": {"id": "feng-xu", "display_name": "Feng Xu", "publication_name": "Feng Xu", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "Xun Li": {"id": "xun-li", "display_name": "Xun Li", "publication_name": "Xun Li", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "Lars Petersson": {"id": "lars-petersson", "display_name": "Lars Petersson", "publication_name": "Lars Petersson", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "Yulei Sui": {"id": "yulei-sui", "display_name": "Yulei Sui", "publication_name": "Yulei Sui", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "David Ahmedt-Aristizabal": {"id": "david-ahmedt-aristizabal", "display_name": "David Ahmedt-Aristizabal", "publication_name": "David Ahmedt-Aristizabal", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "Dadong Wang": {"id": "dadong-wang", "display_name": "Dadong Wang", "publication_name": "Dadong Wang", "language": "en", "source": "https://arxiv.org/abs/2610.41642v1"},
+    "Yuan Tian (Queen’s University)": {"id": "yuan-tian-queens", "display_name": "Yuan Tian", "publication_name": "Yuan Tian", "language": "en", "source": "https://arxiv.org/pdf/2610.36603v1"}
   },
   "paper_scholar_overrides": {
+    "arxiv-2610-36603-maven-lifecycle": {"Yuan Tian": "Yuan Tian (Queen’s University)"},
     "usenix-sec26-hu-confundo": {
       "Yi Liu": "Yi Liu [CityU]"
     }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T21:09:57+08:00",
+  "generated_at": "2026-11-17T14:55:15+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 178,
-    "papers_with_affiliations": 178,
+    "indexed_papers": 182,
+    "papers_with_affiliations": 182,
     "scored_top_venue_papers": 154
   },
   "categories": [
@@ -974,6 +974,46 @@
       "verified_score": 4
     },
     {
+      "id": "csiro",
+      "name": "CSIRO",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "CSIRO",
+        "Data61 CSIRO"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp",
+        "sp19-kocher-spectre",
+        "usenix-sec26-duong-firmrebugger",
+        "usenix-sec26-nguyen-menta"
+      ],
+      "scholars": [
+        "Alsharif Abuadbba",
+        "Dadong Wang",
+        "David Ahmedt-Aristizabal",
+        "Feng Xu",
+        "Lars Petersson",
+        "Surya Nepal",
+        "Xun Li",
+        "Yuval Yarom"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 3
+    },
+    {
       "id": "epfl",
       "name": "EPFL",
       "country_code": "CHE",
@@ -1075,40 +1115,6 @@
           "software": 2,
           "ai": 1,
           "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "csiro",
-      "name": "CSIRO",
-      "country_code": "AUS",
-      "affiliation_names": [
-        "CSIRO",
-        "Data61 CSIRO"
-      ],
-      "papers": [
-        "sp19-kocher-spectre",
-        "usenix-sec26-duong-firmrebugger",
-        "usenix-sec26-nguyen-menta"
-      ],
-      "scholars": [
-        "Alsharif Abuadbba",
-        "Surya Nepal",
-        "Yuval Yarom"
-      ],
-      "annual_scores": {
-        "2019": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
         }
       },
       "verified_score": 3
@@ -1523,6 +1529,84 @@
       "verified_score": 2
     },
     {
+      "id": "uc-davis",
+      "name": "University of California, Davis",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness",
+        "iclr24-liu-autodan",
+        "sp18-chen-angora",
+        "usenix-sec25-liu-agentfuzz"
+      ],
+      "scholars": [
+        "Alireza Abolhasani Zeraatkar",
+        "Hao Chen",
+        "Hussain Al-Asaad",
+        "Muhao Chen",
+        "Parnian Shabani Kamran"
+      ],
+      "annual_scores": {
+        "2018": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2025": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-washington",
+      "name": "University of Washington",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Washington"
+      ],
+      "papers": [
+        "acl24-xu-safedecoding",
+        "arxiv-2607-14611-bad-memory",
+        "arxiv-2610-38438-rolefuzzer",
+        "ieee-sp26-wu-agent-permissions"
+      ],
+      "scholars": [
+        "Aylin Caliskan",
+        "David Alexander",
+        "Fengqing Jiang",
+        "Franziska Roesner",
+        "Kshitish Ghate",
+        "Luyao Niu",
+        "Michael Saxon",
+        "Radha Poovendran",
+        "Sai Sunku",
+        "Soham Gadgil",
+        "Zhangchen Xu"
+      ],
+      "annual_scores": {
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "center-ai-safety",
       "name": "Center for AI Safety",
       "country_code": "",
@@ -1616,38 +1700,6 @@
       "verified_score": 2
     },
     {
-      "id": "uc-davis",
-      "name": "University of California, Davis",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California, Davis"
-      ],
-      "papers": [
-        "iclr24-liu-autodan",
-        "sp18-chen-angora",
-        "usenix-sec25-liu-agentfuzz"
-      ],
-      "scholars": [
-        "Hao Chen",
-        "Muhao Chen"
-      ],
-      "annual_scores": {
-        "2018": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2025": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "university-luxembourg",
       "name": "University of Luxembourg",
       "country_code": "LUX",
@@ -1678,44 +1730,6 @@
         "2026": {
           "security": 0,
           "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "university-washington",
-      "name": "University of Washington",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Washington"
-      ],
-      "papers": [
-        "acl24-xu-safedecoding",
-        "arxiv-2607-14611-bad-memory",
-        "ieee-sp26-wu-agent-permissions"
-      ],
-      "scholars": [
-        "David Alexander",
-        "Fengqing Jiang",
-        "Franziska Roesner",
-        "Luyao Niu",
-        "Radha Poovendran",
-        "Sai Sunku",
-        "Soham Gadgil",
-        "Zhangchen Xu"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -2630,6 +2644,30 @@
       "verified_score": 1
     },
     {
+      "id": "georgetown-university",
+      "name": "Georgetown University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Georgetown University"
+      ],
+      "papers": [
+        "arxiv-2610-38438-rolefuzzer",
+        "ieee-sp26-wu-agent-permissions"
+      ],
+      "scholars": [
+        "Tadayoshi Kohno"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "gray-swan-ai",
       "name": "Gray Swan AI",
       "country_code": "",
@@ -2660,6 +2698,32 @@
       ],
       "annual_scores": {
         "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "mcgill-university",
+      "name": "McGill University",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "McGill University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle",
+        "issta26-huang-secretron"
+      ],
+      "scholars": [
+        "Kevin Li",
+        "Lili Wei",
+        "Steven H. H. Ding"
+      ],
+      "annual_scores": {
+        "2026": {
           "security": 0,
           "software": 1,
           "ai": 0,
@@ -2802,6 +2866,32 @@
         "Yicheng Liu",
         "Ying Li",
         "Yuan Tian"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "unsw",
+      "name": "University of New South Wales",
+      "country_code": "AUS",
+      "affiliation_names": [
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp",
+        "usenix-sec26-liu-malicious-skills"
+      ],
+      "scholars": [
+        "Feng Xu",
+        "Yuekang Li",
+        "Yulei Sui"
       ],
       "annual_scores": {
         "2026": {
@@ -3391,29 +3481,6 @@
       "verified_score": 1
     },
     {
-      "id": "georgetown-university",
-      "name": "Georgetown University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Georgetown University"
-      ],
-      "papers": [
-        "ieee-sp26-wu-agent-permissions"
-      ],
-      "scholars": [
-        "Tadayoshi Kohno"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "google-project-zero",
       "name": "Google Project Zero",
       "country_code": "",
@@ -3933,30 +4000,6 @@
         "2026": {
           "security": 1,
           "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "mcgill-university",
-      "name": "McGill University",
-      "country_code": "CAN",
-      "affiliation_names": [
-        "McGill University"
-      ],
-      "papers": [
-        "issta26-huang-secretron"
-      ],
-      "scholars": [
-        "Kevin Li",
-        "Lili Wei"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -5041,29 +5084,6 @@
       ],
       "scholars": [
         "Russell Tessier"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "unsw",
-      "name": "University of New South Wales",
-      "country_code": "AUS",
-      "affiliation_names": [
-        "University of New South Wales"
-      ],
-      "papers": [
-        "usenix-sec26-liu-malicious-skills"
-      ],
-      "scholars": [
-        "Yuekang Li"
       ],
       "annual_scores": {
         "2026": {
@@ -6299,6 +6319,41 @@
       "verified_score": 0
     },
     {
+      "id": "queens-university",
+      "name": "Queen’s University",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "scholars": [
+        "Enrong Pan",
+        "Kazi Amit Hasan",
+        "Mariam Guizani",
+        "Yuan Tian"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "san-francisco-state-university",
+      "name": "San Francisco State University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "San Francisco State University"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "scholars": [
+        "Parsa Mirfasihi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "stanford-university",
       "name": "Stanford University",
       "country_code": "USA",
@@ -6391,6 +6446,22 @@
       ],
       "scholars": [
         "Stjepan Picek"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "worcester-polytechnic-institute",
+      "name": "Worcester Polytechnic Institute",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Worcester Polytechnic Institute"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "scholars": [
+        "Saleh Khalaj Monfared"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -10537,6 +10608,45 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen"
+        }
+      ]
+    },
+    {
+      "id": "tadayoshi-kohno-georgetown",
+      "name": "Tadayoshi Kohno",
+      "publication_name": "Tadayoshi Kohno",
+      "homepage": "https://homes.cs.washington.edu/~yoshi/",
+      "profile_source": "https://homes.cs.washington.edu/~yoshi/",
+      "institutions": [
+        "Georgetown University"
+      ],
+      "papers": [
+        "arxiv-2610-38438-rolefuzzer",
+        "ieee-sp26-wu-agent-permissions"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38438-rolefuzzer",
+          "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38438v1"
+        },
+        {
+          "id": "ieee-sp26-wu-agent-permissions",
+          "title": "Towards Automating Data Access Permissions in AI Agents",
+          "year": 2026,
+          "venue": "IEEE S&P 2026",
+          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
         }
       ]
     },
@@ -25171,37 +25281,6 @@
       ]
     },
     {
-      "id": "tadayoshi-kohno-georgetown",
-      "name": "Tadayoshi Kohno",
-      "publication_name": "Tadayoshi Kohno",
-      "homepage": "https://homes.cs.washington.edu/~yoshi/",
-      "profile_source": "https://homes.cs.washington.edu/~yoshi/",
-      "institutions": [
-        "Georgetown University"
-      ],
-      "papers": [
-        "ieee-sp26-wu-agent-permissions"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "ieee-sp26-wu-agent-permissions",
-          "title": "Towards Automating Data Access Permissions in AI Agents",
-          "year": 2026,
-          "venue": "IEEE S&P 2026",
-          "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
       "id": "taejoong-chung-vt",
       "name": "Taejoong Chung",
       "publication_name": "Taejoong Chung",
@@ -30968,6 +31047,30 @@
       ]
     },
     {
+      "id": "alireza-abolhasani-zeraatkar",
+      "name": "Alireza Abolhasani Zeraatkar",
+      "publication_name": "Alireza Abolhasani Zeraatkar",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36612v1"
+        }
+      ]
+    },
+    {
       "id": "andreas-terzis",
       "name": "Andreas Terzis",
       "publication_name": "Andreas Terzis",
@@ -31084,6 +31187,30 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "aylin-caliskan",
+      "name": "Aylin Caliskan",
+      "publication_name": "Aylin Caliskan",
+      "homepage": "https://faculty.washington.edu/aylin/",
+      "profile_source": "https://faculty.washington.edu/aylin/",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "arxiv-2610-38438-rolefuzzer"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38438-rolefuzzer",
+          "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38438v1"
         }
       ]
     },
@@ -31328,6 +31455,30 @@
       ]
     },
     {
+      "id": "dadong-wang",
+      "name": "Dadong Wang",
+      "publication_name": "Dadong Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "CSIRO"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
+        }
+      ]
+    },
+    {
       "id": "daniel-fabian",
       "name": "Daniel Fabian",
       "publication_name": "Daniel Fabian",
@@ -31372,6 +31523,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/cottone"
+        }
+      ]
+    },
+    {
+      "id": "david-ahmedt-aristizabal",
+      "name": "David Ahmedt-Aristizabal",
+      "publication_name": "David Ahmedt-Aristizabal",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "CSIRO"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
         }
       ]
     },
@@ -31496,6 +31671,30 @@
       ]
     },
     {
+      "id": "enrong-pan",
+      "name": "Enrong Pan",
+      "publication_name": "Enrong Pan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36603v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
       "id": "eric-bodden",
       "name": "Eric Bodden",
       "publication_name": "Eric Bodden",
@@ -31589,6 +31788,31 @@
           "year": 2025,
           "venue": "ICCV 2025",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "feng-xu",
+      "name": "Feng Xu",
+      "publication_name": "Feng Xu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "CSIRO",
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
         }
       ]
     },
@@ -31782,6 +32006,30 @@
           "year": 2026,
           "venue": "ACM PLDI 2026",
           "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
+      "id": "hussain-al-asaad",
+      "name": "Hussain Al-Asaad",
+      "publication_name": "Hussain Al-Asaad",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36612v1"
         }
       ]
     },
@@ -32123,6 +32371,30 @@
       ]
     },
     {
+      "id": "kazi-amit-hasan",
+      "name": "Kazi Amit Hasan",
+      "publication_name": "Kazi Amit Hasan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36603v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
       "id": "koushik-sen-berkeley",
       "name": "Koushik Sen",
       "publication_name": "Koushik Sen",
@@ -32143,6 +32415,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "kshitish-ghate",
+      "name": "Kshitish Ghate",
+      "publication_name": "Kshitish Ghate",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.38438v1",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "arxiv-2610-38438-rolefuzzer"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38438-rolefuzzer",
+          "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38438v1"
         }
       ]
     },
@@ -32171,6 +32467,30 @@
       ]
     },
     {
+      "id": "lars-petersson",
+      "name": "Lars Petersson",
+      "publication_name": "Lars Petersson",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "CSIRO"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
+        }
+      ]
+    },
+    {
       "id": "luyi-xing-uiuc",
       "name": "Luyi Xing",
       "publication_name": "Luyi Xing",
@@ -32195,6 +32515,30 @@
       ]
     },
     {
+      "id": "mariam-guizani",
+      "name": "Mariam Guizani",
+      "publication_name": "Mariam Guizani",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36603v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
       "id": "mashrur-chowdhury-clemson",
       "name": "Mashrur Chowdhury",
       "publication_name": "Mashrur Chowdhury",
@@ -32215,6 +32559,30 @@
           "year": 2026,
           "venue": "IEEE HOST 2026",
           "url": "https://doi.org/10.1109/HOST68814.2026.11604975"
+        }
+      ]
+    },
+    {
+      "id": "michael-saxon",
+      "name": "Michael Saxon",
+      "publication_name": "Michael Saxon",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.38438v1",
+      "institutions": [
+        "University of Washington"
+      ],
+      "papers": [
+        "arxiv-2610-38438-rolefuzzer"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-38438-rolefuzzer",
+          "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.38438v1"
         }
       ]
     },
@@ -32411,6 +32779,54 @@
       ]
     },
     {
+      "id": "parnian-shabani-kamran",
+      "name": "Parnian Shabani Kamran",
+      "publication_name": "Parnian Shabani Kamran",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "University of California, Davis"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36612v1"
+        }
+      ]
+    },
+    {
+      "id": "parsa-mirfasihi",
+      "name": "Parsa Mirfasihi",
+      "publication_name": "Parsa Mirfasihi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "San Francisco State University"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36612v1"
+        }
+      ]
+    },
+    {
       "id": "peter-gilbert",
       "name": "Peter Gilbert",
       "publication_name": "Peter Gilbert",
@@ -32575,6 +32991,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.14611"
+        }
+      ]
+    },
+    {
+      "id": "saleh-khalaj-monfared",
+      "name": "Saleh Khalaj Monfared",
+      "publication_name": "Saleh Khalaj Monfared",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "Worcester Polytechnic Institute"
+      ],
+      "papers": [
+        "arxiv-2610-36612-silent-blindness"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36612v1"
         }
       ]
     },
@@ -32768,6 +33208,30 @@
           "year": 2014,
           "venue": "ACM PLDI 2014",
           "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
+      "id": "steven-h-h-ding",
+      "name": "Steven H. H. Ding",
+      "publication_name": "Steven H. H. Ding",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.36603v1",
+      "institutions": [
+        "McGill University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36603v1"
         }
       ]
     },
@@ -33013,6 +33477,30 @@
       ]
     },
     {
+      "id": "xun-li",
+      "name": "Xun Li",
+      "publication_name": "Xun Li",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "CSIRO"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
+        }
+      ]
+    },
+    {
       "id": "yanan-guo-rochester",
       "name": "Yanan Guo",
       "publication_name": "Yanan Guo",
@@ -33177,6 +33665,54 @@
           "year": 2025,
           "venue": "CCS 2025",
           "url": "https://doi.org/10.1145/3719027.3744811"
+        }
+      ]
+    },
+    {
+      "id": "yuan-tian-queens",
+      "name": "Yuan Tian",
+      "publication_name": "Yuan Tian",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2610.36603v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
+      "id": "yulei-sui",
+      "name": "Yulei Sui",
+      "publication_name": "Yulei Sui",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "University of New South Wales"
+      ],
+      "papers": [
+        "arxiv-2610-41642-tadp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41642v1"
         }
       ]
     },
@@ -33716,6 +34252,23 @@
         },
         {
           "id": "usenix-sec26-xu-dalens",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "georgetown-university",
+      "target": "university-washington",
+      "papers": [
+        {
+          "id": "arxiv-2610-38438-rolefuzzer",
+          "year": 2026,
+          "venue_group": null
+        },
+        {
+          "id": "ieee-sp26-wu-agent-permissions",
           "year": 2026,
           "venue_group": "security"
         }
@@ -35047,6 +35600,18 @@
       "weight": 1
     },
     {
+      "source": "csiro",
+      "target": "unsw",
+      "papers": [
+        {
+          "id": "arxiv-2610-41642-tadp",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "cyberus-technology",
       "target": "g-data-advanced-analytics",
       "papers": [
@@ -35637,18 +36202,6 @@
     {
       "source": "georgetown-university",
       "target": "university-california-irvine",
-      "papers": [
-        {
-          "id": "ieee-sp26-wu-agent-permissions",
-          "year": 2026,
-          "venue_group": "security"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "georgetown-university",
-      "target": "university-washington",
       "papers": [
         {
           "id": "ieee-sp26-wu-agent-permissions",
@@ -36932,6 +37485,18 @@
     },
     {
       "source": "mcgill-university",
+      "target": "queens-university",
+      "papers": [
+        {
+          "id": "arxiv-2610-36603-maven-lifecycle",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mcgill-university",
       "target": "southern-university-science-technology",
       "papers": [
         {
@@ -37771,6 +38336,30 @@
       "weight": 1
     },
     {
+      "source": "san-francisco-state-university",
+      "target": "uc-davis",
+      "papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "san-francisco-state-university",
+      "target": "worcester-polytechnic-institute",
+      "papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "sba-research",
       "target": "university-of-vienna",
       "papers": [
@@ -38251,6 +38840,18 @@
       "weight": 1
     },
     {
+      "source": "uc-davis",
+      "target": "worcester-polytechnic-institute",
+      "papers": [
+        {
+          "id": "arxiv-2610-36612-silent-blindness",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "ucla",
       "target": "university-toronto",
       "papers": [
@@ -38660,6 +39261,91 @@
     }
   ],
   "publications": [
+    {
+      "id": "arxiv-2610-41642-tadp",
+      "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.41642v1",
+      "institutions": [
+        "unsw",
+        "csiro"
+      ],
+      "authors": [
+        "feng-xu",
+        "xun-li",
+        "lars-petersson",
+        "yulei-sui",
+        "david-ahmedt-aristizabal",
+        "dadong-wang"
+      ]
+    },
+    {
+      "id": "arxiv-2610-36612-silent-blindness",
+      "title": "Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.36612v1",
+      "institutions": [
+        "uc-davis",
+        "san-francisco-state-university",
+        "worcester-polytechnic-institute"
+      ],
+      "authors": [
+        "alireza-abolhasani-zeraatkar",
+        "parnian-shabani-kamran",
+        "parsa-mirfasihi",
+        "saleh-khalaj-monfared",
+        "hussain-al-asaad"
+      ]
+    },
+    {
+      "id": "arxiv-2610-38438-rolefuzzer",
+      "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.38438v1",
+      "institutions": [
+        "university-washington",
+        "georgetown-university"
+      ],
+      "authors": [
+        "kshitish-ghate",
+        "michael-saxon",
+        "tadayoshi-kohno-georgetown",
+        "aylin-caliskan"
+      ]
+    },
+    {
+      "id": "arxiv-2610-36603-maven-lifecycle",
+      "title": "A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2610.36603v1",
+      "institutions": [
+        "queens-university",
+        "mcgill-university"
+      ],
+      "authors": [
+        "kazi-amit-hasan",
+        "enrong-pan",
+        "yuan-tian-queens",
+        "mariam-guizani",
+        "steven-h-h-ding"
+      ]
+    },
     {
       "id": "osdi26-xie-iland",
       "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",

@@ -221,7 +221,7 @@
 
   function renderDistribution() {
     const distribution = distributionForMode();
-    const isPaperView = ["week", "theme"].includes(state.mode);
+    const isPaperView = ["week", "theme", "foundation"].includes(state.mode);
     const total = distribution.entries.reduce((sum, item) => sum + item.count, 0);
     const percentages = wholePercentages(distribution.entries, total);
     let cursor = 0;
@@ -275,6 +275,7 @@
   function groupsForMode() {
     if (state.mode === "week") return data.weeks;
     if (state.mode === "theme") return data.themes;
+    if (state.mode === "foundation") return [{id: "foundation", label: "基础阅读专题", count: data.papers.filter(p => p.collection === "foundation").length}];
     if (state.mode === "academic") {
       return [
         { id: "all", label: "全部学科领域", count: data.academic?.coverage?.scored_top_venue_papers || 0 },
@@ -318,10 +319,10 @@
           const entries = weeks.get(id)?.count || 0;
           const future = weekStart(year, number) > today;
           const status = entries ? "has-content" : future ? "is-future" : "is-empty";
-          const label = `${year} 年第 ${number} 周 · ${entries ? `${entries} 篇论文` : future ? "尚未到来" : "暂无内容"}`;
+          const label = `${year} 年第 ${number} 周 · ${entries ? `${entries} 篇论文` : weeks.has(id) ? "已核验，暂无新增论文" : future ? "尚未到来" : "暂无内容"}`;
           return `<button type="button" class="week-cell ${status}${state.group === id ? " is-active" : ""}"
             data-group="${id}" title="${label}" aria-label="${label}" aria-pressed="${state.group === id}"
-            ${entries ? "" : "disabled"}>${number}</button>`;
+            ${weeks.has(id) ? "" : "disabled"}>${number}</button>`;
         }).join("")}</div>
       </section>`;
     }).join("");
@@ -342,7 +343,7 @@
           ? "主领域"
           : state.mode === "academic"
             ? "学科领域"
-            : "来源类型";
+            : state.mode === "foundation" ? "专题" : "来源类型";
     elements.filterList.classList.toggle("is-week-calendar", state.mode === "week");
     elements.filterToggle.hidden = state.mode === "week" || groups.length <= 5;
     if (state.mode === "week") {
@@ -371,7 +372,7 @@
     let papers = data.papers.filter((paper) => {
       const inGroup = state.mode === "week"
         ? paper.week === state.group
-        : paper.theme === state.group;
+        : state.mode === "foundation" ? paper.collection === "foundation" : paper.theme === state.group;
       return inGroup && (!query || (searchWeeks.get(paper.week)?.[paper.id] || searchable(paper)).includes(query));
     });
     papers = [...papers].sort((a, b) => {
@@ -421,7 +422,7 @@
     return `
       <article class="paper-card" data-paper="${escapeHtml(paper.id)}">
         <div class="card-meta">
-          <strong>${escapeHtml(paper.week)}</strong>
+          <strong>${escapeHtml(paper.collection === "foundation" ? "基础阅读" : paper.week)}</strong>
           <span>${escapeHtml((paper.venues || []).join(" · "))}</span><br>
           <span title="${escapeHtml(paper.card_date?.label || "论文公开时间")}">${dateText(paper.card_date?.value)}</span>
         </div>
@@ -684,7 +685,7 @@
   function renderContent() {
     ++contentRequest;
     elements.academicYear.hidden = state.mode !== "academic";
-    elements.paperViewTabs.hidden = !["week", "theme"].includes(state.mode);
+    elements.paperViewTabs.hidden = !["week", "theme", "foundation"].includes(state.mode);
     if (state.mode === "academic") {
       renderAcademic();
       return;
@@ -710,7 +711,7 @@
     }
 
     if (state.query) {
-      const weeks = [...new Set(data.papers.filter(paper => state.mode === "week" ? paper.week === state.group : paper.theme === state.group).map(paper => paper.week))];
+      const weeks = [...new Set(data.papers.filter(paper => state.mode === "week" ? paper.week === state.group : state.mode === "foundation" ? paper.collection === "foundation" : paper.theme === state.group).map(paper => paper.week))];
       const missing = weeks.filter(week => !searchWeeks.has(week));
       if (missing.length) {
         loadContent(Promise.all(missing.map(async week => {
@@ -725,7 +726,7 @@
     elements.contentEyebrow.textContent = state.mode === "week" ? "WEEKLY READING" : "TOPIC COLLECTION";
     elements.contentTitle.textContent = group?.label || "论文";
     elements.resultCount.textContent = `${papers.length} 篇`;
-    elements.cardList.innerHTML = papers.map(renderPaperCard).join("");
+    elements.cardList.innerHTML = (state.mode === "week" && group?.note ? `<p class="weekly-note">${escapeHtml(group.note)}</p>` : "") + papers.map(renderPaperCard).join("");
     elements.sort.hidden = false;
     elements.empty.hidden = papers.length > 0;
 
@@ -763,7 +764,7 @@
           url,
         }));
     elements.dialogContent.innerHTML = `
-      <p class="eyebrow">${escapeHtml(paper.theme_label)} · ${escapeHtml(paper.week)}</p>
+      <p class="eyebrow">${escapeHtml(paper.theme_label)} · ${escapeHtml(paper.collection === "foundation" ? "基础阅读" : paper.week)}</p>
       <h2 class="dialog-title">${escapeHtml(paper.title)}</h2>
       ${details.author_affiliations ? affiliationSection(details.author_affiliations) : `<p class="dialog-affiliations">${paperAuthorButtons(paper)}</p>`}
       <p class="dialog-byline">

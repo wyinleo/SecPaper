@@ -227,7 +227,7 @@ def parse_weekly_cache() -> dict[str, dict[str, Any]]:
     field_line = re.compile(r"^-\s+\*\*(.+?)\*\*：\s*(.*)$")
     list_item = re.compile(r"^\s{2,}-\s+(.+?)\s*$")
 
-    for path in sorted(WEEKLY_ROOT.glob("*/*.md")):
+    for path in sorted([*WEEKLY_ROOT.glob("*/*.md"), *(ROOT / "foundations").glob("*.md")]):
         content = path.read_text(encoding="utf-8")
         matches = list(heading.finditer(content))
         for index, match in enumerate(matches):
@@ -714,7 +714,7 @@ def build_payload() -> dict[str, Any]:
                 f"{paper['id']}: unknown controlled topics {sorted(unknown_topics)}; "
                 f"update {TAXONOMY_PATH.relative_to(ROOT)} before ingesting"
             )
-        note_path = (paper.get("weekly_notes") or [""])[-1]
+        note_path = (paper.get("reading_notes") or paper.get("weekly_notes") or [""])[-1]
         week = Path(note_path).stem if note_path else iso_week(paper["first_seen"])
         theme_id, theme_label = choose_theme(paper, taxonomy)
         details = cache.get(normalize_title(paper["title"]), {})
@@ -732,6 +732,7 @@ def build_payload() -> dict[str, Any]:
                 )
             )
 
+        paper["collection"] = paper.get("collection", "weekly")
         paper["week"] = week
         paper["theme"] = theme_id
         paper["theme_label"] = theme_label
@@ -746,13 +747,24 @@ def build_payload() -> dict[str, Any]:
         )
         paper["venue_series"] = venue_series_name(paper.get("venues") or [])
 
-        week_counts[week] = week_counts.get(week, 0) + 1
+        if paper["collection"] != "foundation":
+            week_counts[week] = week_counts.get(week, 0) + 1
         theme = theme_counts.setdefault(theme_id, {"id": theme_id, "label": theme_label, "count": 0})
         theme["count"] += 1
 
     papers.sort(key=lambda item: (item["first_seen"], item["title"]), reverse=True)
+    windows_path = ROOT / "papers" / "weekly_windows.json"
+    windows = load_json(windows_path) if windows_path.exists() else {}
+    for week, window in windows.items():
+        week_counts.setdefault(week, 0)
+        for paper in papers:
+            if paper["week"] != week or paper["collection"] == "foundation":
+                continue
+            events = [e for e in paper.get("discovery_events", []) if e.get("week") == week]
+            if not events or not all(window["start"] <= e.get("date", "") <= window["end"] and e.get("source", "").startswith("https://") and e.get("kind") in {"first-public", "accepted", "published", "substantive-update"} for e in events):
+                raise ValueError(f"{paper['id']}: missing verified in-window discovery event for {week}")
     weeks = [
-        {"id": week, "label": week, "count": count}
+        {"id": week, "label": week, "count": count, "note": windows.get(week, {}).get("note", "")}
         for week, count in sorted(week_counts.items(), reverse=True)
     ]
     themes = sorted(theme_counts.values(), key=lambda item: (-item["count"], item["label"]))

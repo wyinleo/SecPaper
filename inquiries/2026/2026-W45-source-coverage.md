@@ -136,3 +136,18 @@ W45最终4篇：RoleFUZZER、Maven生命周期、Silent Blindness、TADP。组�
 - 维护：194篇/缓存、258单位，26项Python、5项JS与本地浏览器关键交互通过；所有历史预印重新读取元数据。发布结果以实际工作流为准。
 
 补充核验：NeurIPS官方https://neurips.cc/Downloads/2026完整列表精确命中Complexity of Differentially Private Selection via Federated APIs，已更新正式状态；窗口事件仍用10月28日首次预印（北京时间29日）。TADP的WACV2027和Adaptive Adversaries的工作坊为作者备注，尚缺独立官方条目，保持原状态。
+
+## 本次扩大覆盖的可复查范围
+
+全部关键词命中链接与访问状态保存在 [机器可读记录](2026-W45-expanded-sources.json)。此表记录入口覆盖；尚无逐篇版本日期的链接保留为未核准，不能视为已排除论文。旧表最多12条的样例计数仅为历史记录，本次取消此截断。NeurIPS另查 [2026官方论文下载列表](https://neurips.cc/Downloads/2026)，原proceedings路径404不再作为该会议不可检索的结论。
+
+| 新增候选 | 原始事件与正文 | 处理 |
+|---|---|---|
+| [Characterizing LLM Agent Behaviors in Module Shadowing Environments](https://arxiv.org/abs/2610.40716v1) | 2026-10-29 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN](https://arxiv.org/abs/2610.40744v1) | 2026-10-29 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation](https://arxiv.org/abs/2610.41307v1) | 2026-10-30 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Complexity of Differentially Private Selection via Federated APIs](https://arxiv.org/abs/2610.38789v1) | 2026-10-29 北京时间 v1；完整PDF | 收录；官方NeurIPS接收已核验 |
+| [Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes](https://arxiv.org/abs/2610.38595v1) | 2026-10-28 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures](https://arxiv.org/abs/2610.38543v1) | 2026-10-28 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+
+正式会议归属优先的配额统计修正为安全4、软件系统2、AI4（NeurIPS隐私理论论文归AI组）；原5/2/3仅为主题视角。1篇正式接收、9篇预印。软件系统缺1，AI调剂1。

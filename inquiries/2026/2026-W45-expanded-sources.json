@@ -1,0 +1,4024 @@
+{
+  "checked_at": "2026-11-17",
+  "scope": "页面安全关键词相关链接，全量保留；链接数不是论文候选数，零匹配不代表无论文。未逐篇核验窗口事件者不计入收录。",
+  "sources": [
+    {
+      "source": "USENIX",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "status": 200,
+      "matches": [
+        [
+          "/sites/default/files/sec26_full_proceedings.pdf",
+          "USENIX Security '26 Full Proceedings (PDF, 809.9 MB)"
+        ],
+        [
+          "/sites/default/files/sec26_proceedings_interior.pdf",
+          "USENIX Security '26 Proceedings Interior (PDF, 873.2 MB, best for mobile devices)"
+        ],
+        [
+          "/sites/default/files/sec26-errata_shi-quan.pdf",
+          "USENIX Security '26 Errata #1 (PDF)"
+        ],
+        [
+          "/sites/default/files/sec26-errata_blueml.pdf",
+          "USENIX Security '26 Errata #2 (PDF)"
+        ],
+        [
+          "/system/files/sec26-errata_li-ying.pdf",
+          "USENIX Security '26 Errata #3 (PDF)"
+        ],
+        [
+          "/sites/default/files/sec26_artifact_full_proceedings.pdf",
+          "USENIX Security '26 Full Artifact Appendices Proceedings (PDF, 14.87 MB)"
+        ],
+        [
+          "/sites/default/files/sec26_artifact_proceedings_interior.pdf",
+          "USENIX Security '26 Artifact Appendices Proceedings Interior (PDF, 24.25 MB, best for mobile devices)"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/hu-zhenkai",
+          "Ajax: Fast Threshold Fully Homomorphic Encryption without Noise Flooding"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhou",
+          "Orbit: Optimizing Rescale and Bootstrap Placement with Integer Linear Programming Techniques for Secure Inference"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/langowski",
+          "VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chen-edward",
+          "Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/erinola",
+          "Breaking the Boundaries: Analyzing QUIC Frame-Packet Interactions With QUIC-Attacker"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhu-changjia",
+          "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/merget",
+          "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-yueming",
+          "E2E-AKMA: An End-to-End Secure and Privacy-Enhancing AKMA Protocol Against the Anchor Function Compromise"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/cremers",
+          "Secure Protocol Composition under Dynamic Corruption: Scaling Up Symbolic Analysis for Real-World Security Properties"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/huang-qiqing",
+          "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/vargas",
+          "The Six Developers You'll Meet in Security: Why Secure by Design Needs a Behavioral Playbook"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jia-zhipeng",
+          "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/peng-yihao",
+          "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/sun-tong",
+          "Securing Retrieval-Augmented Code Generation via Contextual Knowledge Injection: A Case for Embedded IoT Applications"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/koschel",
+          "Discovering, characterizing and exploiting controllable-copy objects for kernel data-only attacks with CopyKat"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/peng-dinglan",
+          "kSFS: Repurposing a Microkernel-like Interface for Fast and Secure In-Kernel Linux File Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kim-juhee-dmguard",
+          "DMGuard: Safeguarding Kernels from Physical-Page Use-After-Free Vulnerabilities"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/ma",
+          "The Perils of Flexibility: Uncovering Application-Layer Vulnerabilities in Cosmos SDK Customization Points"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kabir",
+          "Can we estimate privacy vulnerability of individual records? Towards Mitigating Attribute Inference Attacks on ML Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/nguyen-nguyen",
+          "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/du",
+          "Imitative Membership Inference Attack"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chen-yuetian",
+          "Window-based Membership Inference Attacks Against Fine-tuned Large Language Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/tong",
+          "Membership Inference Attacks on Tokenizers of Large Language Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-li",
+          "VidLeaks: Membership Inference Attacks Against Text-to-Video Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-xiuling",
+          "Inference Attacks Against Graph Generative Diffusion Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/rushanan",
+          "If They Can Touch It, They Own It: The Stories We Tell Ourselves About Medical Device Cybersecurity"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/miranda-pascual",
+          "The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy–Utility Tradeoff"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-tao-residual",
+          "Residual-PAC Privacy: Automatic Privacy Control Beyond the Gaussian Barrier"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/murakami",
+          "Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kutta",
+          "Sequential Auditing for f-Differential Privacy"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/qiu-chenxi",
+          "Interpolation-Based Optimization for Enforcing lp-Norm Metric Differential Privacy in Continuous and Fine-Grained Domains"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/bell-clark",
+          "Vεrity: Verifiable Local Differential Privacy"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-mohan",
+          "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/shao-zedian",
+          "Cordyceps: Covert Control Attacks on LLMs via Data Poisoning"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/nasr",
+          "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/pang-xiaoyi",
+          "DualSentinel: A Lightweight Framework for Detecting Targeted Attacks in Black-box LLM via Dual Entropy Lull Pattern"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/karanjai",
+          "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/syros",
+          "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/he-yu",
+          "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chang-hongyan",
+          "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/roch",
+          "You Know Why, but Still Rely: The Impact of Explainable AI on Trust, Task Load, and Performance in Cybersecurity Decision-Making"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kwesi",
+          "The Impact of Security and Privacy Controls on Users' Emotional Engagement with Generative AI Chatbots"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/liu-zhihuang",
+          "What Users Ask, Policies Miss: Unveiling the Gap Between Community-Expressed Privacy Concerns and LLM Provider Policies"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhan",
+          "Exposing Resource-Exhaustion DoS Vulnerabilities with Leak-Oriented Minimum Path Covers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/lu-sinong",
+          "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/shao-zhenzhe",
+          "Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chen-bofei",
+          "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/tetali",
+          "Improving Safety with Privacy: An Exploration of Privacy-Enhancing Safety Guardrails for Cloud Inference"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/ravindra",
+          "Detecting Security Posture Drift in AI-Driven Software Development via Continuous Threat Modeling"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/lv",
+          "SMASH: Scalable Maliciously Secure Hybrid Multi-party Computation Framework for Privacy-Preserving Large Language Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/canetti",
+          "Analyzing Cryptography in Context: A Cryptography-Native Approach to Threat Modeling"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/huang-yong",
+          "Turn Your Face Into An Attack Surface: Screen Attack Using Facial Reflections in Video Conferencing"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/nguyen-khoa",
+          "NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yang-qin",
+          "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-hangtao",
+          "Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wu-lichao",
+          "GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-sijia",
+          "From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhao-shiqian",
+          "When Memory Becomes a Vulnerability: Towards Multi-turn Jailbreak Attacks against Text-to-Image Generation Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/tang-zhaozhou",
+          "A Formal Security Analysis of CAN XL"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/bae",
+          "DUPIN: Attack Learning Is Still Needed! Demonstrating Few-Shot after Unsupervised Pretraining Is A Nimble Forensics Learner"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/mcfadden",
+          "SoK: The Pitfalls of Deep Reinforcement Learning for Cybersecurity"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wu-weiheng",
+          "Cutting the Fuse: Actionable APT Attack Blocking in Provenance-based IDS"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/cai",
+          "From Texts to Rules: Generating Sigma Rules with Large Language Models from Cyber Threat Reports"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/guo-qian",
+          "Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/amgain",
+          "HAMLOCK: HArdware-Model LOgically Combined attacK"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gao-zibo",
+          "Fuzzing Open-Source GPU Hardware with SIMT Program Generation"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yan-haoran",
+          "Injected and Leaked: Actively Inducing Side-Channel Leakage Using Electromagnetic Injection and Hardware Nonlinearity"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yu-zehong",
+          "DRVFuzz: Data-Sensitive RISC-V CPU Fuzzing"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-yilin",
+          "\"Tap\" Without Tapping: A Tag Discovery Forgery Attack on Android NFC"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chen-hongkai",
+          "SoK: History Doesn't Repeat Itself, but Android Design-Level Vulnerabilities Rhyme in OpenHarmony"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/spyridakis",
+          "Health Hazard, Handle with Care: Investigating the Privacy Risks of Android's Health Connect"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/baelde",
+          "Leveraging Cryptographic Simulator Synthesis for Formally Verifying the FOO E-Voting Protocol"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/crump",
+          "OS-Sanitizer: System-wide Latent Defect Inference in Linux Applications"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/he-yiling",
+          "Retrofit: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/braunsdorf",
+          "SafeFFI: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and Mixed-Language Applications"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/guo-hao",
+          "Efficient and High-Accuracy Secure Two-Party Protocols for a Class of Functions with Real-number Inputs"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/garg-sanjam",
+          "Lighthouse: Single-Server Secure Aggregation with O(1) Server-Committee Communication at Scale"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/blass",
+          "Assumption-Free Fuzzy PSI via Predicate Encryption"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/shi-quan",
+          "LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kumar-akshaya",
+          "Security and Privacy Analysis of Tile's Location Tracking Protocol"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/hofhammer",
+          "PrivacyShield: Relaying BLE Beacons to Counter Unsolicited Tracking"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/pang-kaiyi",
+          "Provable Secure Steganography Based on Adaptive Dynamic Sampling"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/liao",
+          "From Symmetry toward Weak Asymmetry: Secure Steganography under the Receiver's Partial Channel Knowledge"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/tsao",
+          "Breaking the Lethal Trifecta: Secure Agentic Computing via Causal Isolation Architecture"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-tao-pufferfish",
+          "Sliced Rényi Pufferfish Privacy: Tractable Privatization Mechanism and Private Learning with Gradient Clipping"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/breckenridge",
+          "B-Privacy: Defining and Enforcing Privacy in Weighted Voting"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/meng",
+          "Unbalanced Fuzzy Private Set Intersection for L_infinity Distance: Achieving Sublinear Communication with Large Set Size"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/crow",
+          "Design and Implementation of a Physical Implant Attack on the Boeing 737"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/burbano",
+          "BADControl: Backdoor Attacks Against Control Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yu-jerry",
+          "BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jiang-qinhong",
+          "SoK: Security of Cyber-physical Systems Under Intentional Electromagnetic Interference Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/beitis",
+          "Lost in Encapsulation: Exploiting Open Tunnelling Hosts and Attacking Private Networks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gai",
+          "TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yu-xinwei",
+          "Toward Understanding the Security Implications in Python Configuration Files"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/pan",
+          "FRAGJAM: DoS Attacks Using IP Reassembly Congestion"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/sturm",
+          "Secpoline: A Scalable Approach to Build Secure In-Process Syscall Interposers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/ackermann",
+          "Trust Nothing: RTOS Security without Run-Time Software TCB"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/dev",
+          "Cryptography at Scale: Building a Practical Cryptographic Inventory for Risk, Compliance, and Post‑Quantum Readiness"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/adewusi",
+          "Security and Privacy Considerations for Confirming Payments in Rwandan Mobile Money Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kim-jaehong",
+          "Cross-National Information Attacks: A Two-Decade Analysis of Troll Behavior in Korea"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-zixin",
+          "Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/sabri",
+          "Selling the Dream: How Intimate Insiders and Identity-Based Attackers Disrupt Micro-businesses"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/limes",
+          "Characterizing Security and Privacy Teaching Standards for Schools in the United States"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/mbabazi",
+          "Information Security in Small-Scale Protests: Surveillance of Ugandan Anti-EACOP Protesters"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/luo",
+          "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/dong-ruiqi",
+          "TrioFuzz: A Three-Tier Architecture for Adaptive Strategy Selection in Fuzzing"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/duong",
+          "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-yiyi",
+          "Bulbasaur: Branch-Guided Online Mutator Generation for Greybox Fuzzing"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/marini",
+          "CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/knabenhans",
+          "End-to-End Encrypted Collaborative Documents"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/giustolisi",
+          "Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/truong",
+          "Message Injection Attacks Against Signal"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/scarlata",
+          "Zero Knowledge (About) Encryption: A Comparative Security Analysis of Three Cloud-based Password Managers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-tianrui",
+          "Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/thang",
+          "GoodVibe: Security-by-Vibe for LLM-Based Code Generation"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-jiayimei",
+          "Adversarial Patch EXterminator: Zero-Shot and Patch-Agnostic Defense Framework Against Adversarial Patch Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/brahmkstri",
+          "Security Tools Don't Detect Attacks—Humans Do"
+        ],
+        [
+          "/conference/usenixsecurity26/steindler",
+          "Supply Chain Attacks on Open Source: What's Happening, What Can We Do Today, and What's Next"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gui",
+          "DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-hongxiao",
+          "mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gajland",
+          "Shadowfax: Hybrid Security and Deniability for AKEMs"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-yichi",
+          "HijackKV: New Threat in Position-Independent KV Cache Reuse"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yan-leiming",
+          "BadGraph: Structural Knowledge Isolation Attacks against Graph Retrieval-Augmented Generation"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yao-zero",
+          "From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-zhichao",
+          "On Evaluating the Robustness of Large Vision-Language Models via Untargeted Modality Alignment Breaking Adversarial Attack"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/sun-desen",
+          "Attacks on Approximate Caches in Text-to-Image Diffusion Models"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/liu-jun",
+          "Low-Cost Hard-Label Adversarial Attack with Theoretical Foundations"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jia-shijie",
+          "JScamd: An Automated Static Taint Analysis Framework for Detecting Cryptographic API Misuses in JavaScript"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/alam",
+          "SoK: PHILTER: Uncovering Security and Functional Gaps in AI-based Phishing Website Detection Literature via an LLM-based Reasoning Framework"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jannett",
+          "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wan",
+          "When Updates Backfire: A Black-Box Security Analysis of Desktop Software Update Mechanisms"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jiang-qisheng",
+          "VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/daneshmand",
+          "PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kim-hodong",
+          "TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gerlach",
+          "Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/chen-decheng",
+          "UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gu-cheng",
+          "Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/thompson",
+          "\"Your imaging may be stone-cold normal, but if they look sick, they’re going to get admitted\": An Investigation of Clinicians’ Perceptions of Impact & Likelihood of Security Failures"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/bhattacharya",
+          "Inconsistent, Incomplete, and Insecure: A Survey of Account Security Interfaces"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/shen",
+          "Jailbreaking the AMD Secure Processor: Enabling Live Analysis of SEV-SNP's Undocumented Security Boundaries"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/klix",
+          "Silicon Heist: (Ransom) Attacks for Cloud FPGAs via Privilege Escalation"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/choudhari",
+          "Memclave: Secure In-Memory Enclave for Untrusted Hosts"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/andreeva",
+          "Boosting Efficiency and Security in Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/deng",
+          "The Prompt Stealing Fallacy: Rethinking Metrics, Attacks, and Defenses"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/liu-xiuming",
+          "Quantifying Large Language Model Attacks Through the Lens of Model Cognition"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/luck",
+          "Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/jiang-changyue",
+          "MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+          "SoK: Attack and Defense Landscape of Agentic AI Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/inamdar",
+          "The Ivory Tower Syndrome: Operators' Reflections on Academic BGP Security Solutions"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kim-daewoo",
+          "Side-Channel Attacks on Open vSwitch"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/xu-liwen",
+          "DaLens: Charting DNS Self-Amplification Threats at Large"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhang-shaojing",
+          "Secure Distributed RSA Modulus Generation Revisited: A Faster and More Communication-Efficient Construction"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/yao-dots",
+          "Connect the Dots: Knowledge Graph–Guided Crawler Attack on Retrieval-Augmented Generation Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-na",
+          "CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/zhu-kaiming",
+          "Cracking Federated Privacy: Initialization-Resilient Gradient Inversion with Fine-Grained Reconstruction"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/wang-liwen",
+          "MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/vansteenhuyse",
+          "Not All Those Who Share Are Lost: Analyzing 25 Years of Cybersecurity Artifact Sharing Practices Through Automated Discovery"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/angelova",
+          "Do They Get With the Program? Measuring Mitigation in a Solicited Vulnerability Notification Program"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/hu-huancheng",
+          "Security in the Air: Understanding IoT Vendor Practices and the Economics of Over-the-Air Updates"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/phelan",
+          "SoK: Beyond Burnout -- A Gap Analysis of Psychological Harm in Cybersecurity Work"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/ziazi",
+          "Sliding into the Flight Deck's DMs: Practical Message Attacks on CPDLC"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/li-rui",
+          "PatchWeaver: Risk-Bounded Autonomous Vulnerability Remediation Under Change-Management Policies"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/virkud",
+          "Credible Threat Detection? Measuring Contribution Dynamics and Quality Control in a Crowdsourced Threat Detection Ecosystem"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/kantchelian",
+          "Facade: High-Precision Insider Threat Detection Using Deep Contextual Anomaly Detection"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/xu-jiacheng",
+          "Concurrency Fuzzing of the Linux Kernel with eBPF"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/peng-jiaqian",
+          "Bond: Constraint-Directed Fuzzing for Automated Validation of Taint Analysis Results in Linux-based IoT Firmware"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/shi-siping",
+          "MEPS: Privacy-preserving Edge-cloud Video Foundation Model Inference with Privacy Protectability"
+        ],
+        [
+          "/conference/usenixsecurity26/presentation/gegenhuber",
+          "Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "S&P",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "status": 200,
+      "matches": [
+        [
+          "nominations-cybersecurity-award.html",
+          "Nominations: IEEE Cybersecurity Award for Practice"
+        ],
+        [
+          "http://ieee-security.org/",
+          "IEEE Computer Society's Technical Community on Security and Privacy"
+        ],
+        [
+          "http://www.iacr.org",
+          "International Association for Cryptologic Research"
+        ],
+        [
+          "#collapse-0",
+          "Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware"
+        ],
+        [
+          "#collapse-1",
+          "Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing"
+        ],
+        [
+          "#collapse-4",
+          "\"I Wonder if These Warnings Are Accurate\": Security and Privacy Advice in Nine Majority World Countries"
+        ],
+        [
+          "#collapse-6",
+          "One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution"
+        ],
+        [
+          "#collapse-8",
+          "Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases"
+        ],
+        [
+          "#collapse-11",
+          "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment"
+        ],
+        [
+          "#collapse-12",
+          "Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards"
+        ],
+        [
+          "#collapse-13",
+          "The Threat Landscape of IP Leasing in the RPKI Era"
+        ],
+        [
+          "#collapse-15",
+          "Privacy Perspectives and Practices of Chinese Smart Home Product Teams"
+        ],
+        [
+          "#collapse-16",
+          "Defeating Transient Execution Attacks by Limiting Secret Reachability through Register Hiding and ShadowCFI"
+        ],
+        [
+          "#collapse-18",
+          "Searching for a Farang: Collective Security among Women in Pattaya, Thailand"
+        ],
+        [
+          "#collapse-22",
+          "Zelda: Efficient Multi-server Preprocessing PIR with Unconditional Security"
+        ],
+        [
+          "#collapse-24",
+          "Usable Anonymity in Reproductive Health Privacy"
+        ],
+        [
+          "#collapse-26",
+          "WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers"
+        ],
+        [
+          "#collapse-27",
+          "The Secrets Must Not Flow: Scaling Security Verification to Large Codebases"
+        ],
+        [
+          "#collapse-28",
+          "Toward Inclusive Security and Privacy for Deaf and Hard-of-Hearing People: A Community-Based Interview Study"
+        ],
+        [
+          "#collapse-36",
+          "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX"
+        ],
+        [
+          "#collapse-37",
+          "Behind the Curtain: How Shared Hosting Providers Respond to Vulnerability Notifications"
+        ],
+        [
+          "#collapse-44",
+          "Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees against Data Poisoning Attacks"
+        ],
+        [
+          "#collapse-48",
+          "GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation"
+        ],
+        [
+          "#collapse-49",
+          "Euston: Efficient and User-Friendly Secure Transfomer Inference with Non-Interactivity"
+        ],
+        [
+          "#collapse-50",
+          "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits"
+        ],
+        [
+          "#collapse-53",
+          "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing"
+        ],
+        [
+          "#collapse-55",
+          "Consistent Estimation of Numerical Distributions under Local Differential Privacy by Wavelet Expansion"
+        ],
+        [
+          "#collapse-58",
+          "Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs"
+        ],
+        [
+          "#collapse-61",
+          "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses"
+        ],
+        [
+          "#collapse-63",
+          "When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins"
+        ],
+        [
+          "#collapse-64",
+          "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities"
+        ],
+        [
+          "#collapse-65",
+          "Perceived Privacy Risk and Mitigation Post-Roe"
+        ],
+        [
+          "#collapse-70",
+          "Understanding and Analyzing Privacy Risks in Mobile Consent-Management Platforms"
+        ],
+        [
+          "#collapse-75",
+          "SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead"
+        ],
+        [
+          "#collapse-76",
+          "Convenience at a Cost: The Security Risks of Template-based Development in the App-in-App Ecosystem"
+        ],
+        [
+          "#collapse-82",
+          "Designing Transport-Level Encryption for Datacenter Networks"
+        ],
+        [
+          "#collapse-85",
+          "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization"
+        ],
+        [
+          "#collapse-91",
+          "Cavern: Efficient Honest-Majority Maliciously Secure $(2+1)$ -PC for $\\mathbb{Z}_{2^n}$ via DPFs"
+        ],
+        [
+          "#collapse-92",
+          "Chypnosis: Undervolting-based Static Side-channel Attacks"
+        ],
+        [
+          "#collapse-93",
+          "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing"
+        ],
+        [
+          "#collapse-95",
+          "STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness"
+        ],
+        [
+          "#collapse-99",
+          "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers"
+        ],
+        [
+          "#collapse-105",
+          "Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers"
+        ],
+        [
+          "#collapse-107",
+          "PromptLocate: Localizing Prompt Injection Attacks"
+        ],
+        [
+          "#collapse-108",
+          "KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction"
+        ],
+        [
+          "#collapse-109",
+          "SoK: Robustness in Large Language Models against Jailbreak Attacks"
+        ],
+        [
+          "#collapse-110",
+          "The First Large-Scale Systematic Study of Python Class Pollution Vulnerability"
+        ],
+        [
+          "#collapse-113",
+          "LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres"
+        ],
+        [
+          "#collapse-117",
+          "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis"
+        ],
+        [
+          "#collapse-118",
+          "When VR Meets BCI: (Un)Observable Brainwave-aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors"
+        ],
+        [
+          "#collapse-121",
+          "Automated formal analysis of Signal's Double Ratchet: attacks, fixes and security proofs"
+        ],
+        [
+          "#collapse-124",
+          "On the (In)Security of Loading Machine Learning Models"
+        ],
+        [
+          "#collapse-125",
+          "StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries"
+        ],
+        [
+          "#collapse-127",
+          "Secret State Leakage Attacks and their Impacts on EMV Contactless Payment Apps"
+        ],
+        [
+          "#collapse-128",
+          "Navigating Developers’ Quagmire: LLM-Enabled Privacy Compliance Analysis for SDK Integrations"
+        ],
+        [
+          "#collapse-130",
+          "Demystifying the (In)Security of OAuth-based Account Linking in Connector Ecosystems"
+        ],
+        [
+          "#collapse-131",
+          "Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection"
+        ],
+        [
+          "#collapse-132",
+          "LeakyLinks: Measuring the Security and Privacy Risks of URL Scanning Services"
+        ],
+        [
+          "#collapse-133",
+          "When Designers Meet GenAI: Understanding the Role of Prompt-to-Design Generators in Privacy Dark Patterns"
+        ],
+        [
+          "#collapse-135",
+          "Can I Get More? An Incremental Inference Attack on Encrypted SQL"
+        ],
+        [
+          "#collapse-136",
+          "Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem"
+        ],
+        [
+          "#collapse-137",
+          "TREVEX: A Black-Box Detection Framework For Data-Flow Transient Execution Vulnerabilities"
+        ],
+        [
+          "#collapse-140",
+          "AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism between AES and Polynomial Hash"
+        ],
+        [
+          "#collapse-142",
+          "xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI"
+        ],
+        [
+          "#collapse-146",
+          "Human-Centered Threat Modeling in Practice: Lessons, Challenges, and Paths Forward"
+        ],
+        [
+          "#collapse-147",
+          "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering"
+        ],
+        [
+          "#collapse-149",
+          "Privacy-Conscious Algorithm Design via PAC Privacy"
+        ],
+        [
+          "#collapse-150",
+          "It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications"
+        ],
+        [
+          "#collapse-153",
+          "Decomposition-Based Optimal Bounds for Privacy Amplification via Shuffling"
+        ],
+        [
+          "#collapse-154",
+          "BACHunter: Detecting Broken Access Control Vulnerabilities in Intelligent Connected Vehicles"
+        ],
+        [
+          "#collapse-155",
+          "The Battle of Metasurfaces: Understanding Security in Smart Radio Environments"
+        ],
+        [
+          "#collapse-156",
+          "Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem"
+        ],
+        [
+          "#collapse-157",
+          "Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery"
+        ],
+        [
+          "#collapse-158",
+          "TrigFuzz: Triggering Conditions Guided Directed Fuzzing"
+        ],
+        [
+          "#collapse-159",
+          "Making Privacy Public: Toward a Differential Privacy Deployment Registry"
+        ],
+        [
+          "#collapse-165",
+          "SoK: All You Ever Wanted to Know About Bootloader Security But Were Afraid to Ask"
+        ],
+        [
+          "#collapse-172",
+          "PUFFERDOS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities"
+        ],
+        [
+          "#collapse-175",
+          "Efficient Fuzzy Private Set Intersection from Secret-shared OPRF"
+        ],
+        [
+          "#collapse-176",
+          "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases"
+        ],
+        [
+          "#collapse-177",
+          "LISA: A Scale-Optimized and Psychometrically-Validated Instrument for the Lightweight Assessment of Organizational Information Security Awareness in Heterogeneous Organizations"
+        ],
+        [
+          "#collapse-178",
+          "Weighted Batched Threshold Encryption with Applications to Mempool Privacy"
+        ],
+        [
+          "#collapse-180",
+          "GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer"
+        ],
+        [
+          "#collapse-182",
+          "Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems"
+        ],
+        [
+          "#collapse-185",
+          "ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning through Activation Recovery"
+        ],
+        [
+          "#collapse-188",
+          "Specializing Language Models for Textual Fuzzing via Reinforcement Learning"
+        ],
+        [
+          "#collapse-190",
+          "Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation"
+        ],
+        [
+          "#collapse-192",
+          "Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale"
+        ],
+        [
+          "#collapse-193",
+          "PLaTypus: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks"
+        ],
+        [
+          "#collapse-197",
+          "RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence"
+        ],
+        [
+          "#collapse-198",
+          "On the Detectability of Active Gradient Inversion Attacks in Federated Learning"
+        ],
+        [
+          "#collapse-202",
+          "WRATH: Turning Watermark Robustness Against Itself via a Watermark-Agnostic Black-Box Invalidation Attack"
+        ],
+        [
+          "#collapse-203",
+          "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption"
+        ],
+        [
+          "#collapse-204",
+          "Scalable Registration-Based Encryption from Lattices"
+        ],
+        [
+          "#collapse-208",
+          "Decor: Delegated Computation on Randomness for Secure Evaluation of Nonlinear Functions"
+        ],
+        [
+          "#collapse-209",
+          "Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation"
+        ],
+        [
+          "#collapse-210",
+          "Guardians of the Air: In-Device Detection of 5G Control-Plane Threats"
+        ],
+        [
+          "#collapse-211",
+          "Hollow-LLM Attack: Computationally Trivial Weights in Zero-Knowledge Verification of LLM Inference"
+        ],
+        [
+          "#collapse-213",
+          "Toward Efficient Membership Inference Attacks against Federated Large Language Models: A Projection Residual Approach"
+        ],
+        [
+          "#collapse-215",
+          "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities"
+        ],
+        [
+          "#collapse-216",
+          "Secure Lookup Tables: Faster, Leaner, and More General"
+        ],
+        [
+          "#collapse-217",
+          "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol"
+        ],
+        [
+          "#collapse-218",
+          "PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting"
+        ],
+        [
+          "#collapse-219",
+          "Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?"
+        ],
+        [
+          "#collapse-220",
+          "SatBleed: Security of Commoditized Communication Modules in Satellites"
+        ],
+        [
+          "#collapse-221",
+          "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection"
+        ],
+        [
+          "#collapse-227",
+          "DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios"
+        ],
+        [
+          "#collapse-228",
+          "A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter"
+        ],
+        [
+          "#collapse-231",
+          "Contextualizing Sink Knowledge for Java Vulnerability Discovery"
+        ],
+        [
+          "#collapse-232",
+          "The Fault in Our Drafts: Vulnerabilities in RPKI Specification and Software"
+        ],
+        [
+          "#collapse-233",
+          "Auditing Apple’s DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks"
+        ],
+        [
+          "#collapse-234",
+          "Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching"
+        ],
+        [
+          "#collapse-235",
+          "Death Is Not the End: A Longitudinal Study on the Impact of Automatic Updates on Container Vulnerability Lifespans"
+        ],
+        [
+          "#collapse-236",
+          "GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from Modern GPUs"
+        ],
+        [
+          "#collapse-240",
+          "Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam"
+        ],
+        [
+          "#collapse-242",
+          "Sparse Estimation Under Local Differential Privacy at All Privacy Levels"
+        ],
+        [
+          "#collapse-243",
+          "A Liveness Attack to Ethereum PoS with No Additional Cost"
+        ],
+        [
+          "#collapse-244",
+          "NetPanic: The Attack Surface You Can’t Syscall"
+        ],
+        [
+          "#collapse-245",
+          "Web Application Vulnerability Repair via Context-Aware Fault Localization and Directed Differential Fuzzing"
+        ],
+        [
+          "#collapse-251",
+          "BreakFAST: Confused Deputy Attack on Infinity Fabric to Break AMD SEV-SNP"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "CCS",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "NDSS",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "status": 200,
+      "matches": [
+        [
+          "https://www.ndss-symposium.org/ndss-paper/a-causal-perspective-for-enhancing-jailbreak-attack-and-defense/",
+          "A Causal Perspective for Enhancing Jailbreak Attack and Defense"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/a-deep-dive-into-function-inlining-and-its-security-implications-for-ml-based-binary-analysis/",
+          "A Deep Dive into Function Inlining and its Security Implications for ML-based Binary Analysis"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/a-hard-label-black-box-evasion-attack-against-ml-based-malicious-traffic-detection-systems/",
+          "A Hard-Label Black-Box Evasion Attack against ML-based Malicious Traffic Detection Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/abuse-resistant-traceability-with-minimal-trust-for-encrypted-messaging-systems/",
+          "Abuse Resistant Traceability with Minimal Trust for Encrypted Messaging Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/accurate-identification-of-the-vulnerability-introducing-commit-based-on-differential-analysis-of-patching-patterns/",
+          "Accurate Identification of the Vulnerability-Introducing Commit based on Differential Analysis of Patching Patterns"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/",
+          "ACE: A Security Architecture for LLM-Integrated App Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/achieving-interpretable-dl-based-web-attack-detection-through-malicious-payload-localization/",
+          "Achieving Interpretable DL-based Web Attack Detection through Malicious Payload Localization"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/action-required-a-mixed-methods-study-of-security-practices-in-github-actions/",
+          "Action Required: A Mixed-Methods Study of Security Practices in GitHub Actions"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/actively-understanding-the-dynamics-and-risks-of-the-threat-intelligence-ecosystem/",
+          "Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/",
+          "ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/an-llm-driven-fuzzing-framework-for-detecting-logic-instruction-bugs-in-plcs/",
+          "An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/analysis-of-the-security-design-engineering-and-implementation-of-the-securedna-system/",
+          "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+          "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/",
+          "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/augmented-shuffle-differential-privacy-protocols-for-large-domain-categorical-and-key-value-data/",
+          "Augmented Shuffle Differential Privacy Protocols for Large-Domain Categorical and Key-Value Data"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+          "Automating Function-Level TARA for Automotive Full-Lifecycle Security"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/bacnet-or-badnet-on-the-insecurity-of-implicitly-reserved-fields-in-bacnet/",
+          "BACnet or “BADnet”? On the (In)Security of Implicitly Reserved Fields in BACnet"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/better-safe-than-sorry-uncovering-the-insecure-resource-management-in-app-in-app-cloud-services/",
+          "Better Safe than Sorry: Uncovering the Insecure Resource Management in App-in-App Cloud Services"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/bit-of-a-close-talker-a-practical-guide-to-serverless-cloud-co-location-attacks/",
+          "Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/bleeding-pathways-vanishing-discriminability-in-llm-hidden-states-fuels-jailbreak-attacks/",
+          "Bleeding Pathways: Vanishing Discriminability in LLM Hidden States Fuels Jailbreak Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+          "BLERP: BLE Re-Pairing Attacks and Defenses"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/breaking-isolation-a-new-perspective-on-hypervisor-exploitation-via-cross-domain-attacks/",
+          "Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/breaking-the-bulkhead-demystifying-cross-namespace-reference-vulnerabilities-in-kubernetes-operators/",
+          "Breaking the Bulkhead: Demystifying Cross-Namespace Reference Vulnerabilities in Kubernetes Operators"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/breaking-the-generative-steganography-trilemma-anstega-for-optimal-capacity-efficiency-and-security/",
+          "Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-flaw-detection/",
+          "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/cache-me-catch-you-cache-related-security-threats-in-llm-serving-frameworks/",
+          "Cache Me, Catch You: Cache Related Security Threats in LLM Serving Frameworks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/cascading-and-proxy-membership-inference-attacks/",
+          "Cascading and Proxy Membership Inference Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/catback-universal-backdoor-attacks-on-tabular-data-via-categorical-encoding/",
+          "CatBack: Universal Backdoor Attacks on Tabular Data via Categorical Encoding"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/",
+          "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+          "Chasing Shadows: Pitfalls in LLM Security Research"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+          "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/",
+          "Continuous User Behavior Monitoring using DNS Cache Timing Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/convergent-privacy-framework-for-multi-layer-gnns-through-contractive-message-passing/",
+          "Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/coordmail-exploiting-smtp-timeout-and-command-interaction-to-coordinate-email-middleware-for-convergence-amplification-attack/",
+          "CoordMail: Exploiting SMTP Timeout and Command Interaction to Coordinate Email Middleware for Convergence Amplification Attack"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/crack-in-the-armor-underlying-infrastructure-threats-to-rpki-publication-point-reachability/",
+          "Crack in the Armor: Underlying Infrastructure Threats to RPKI Publication Point Reachability"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/crisp-an-efficient-cryptographic-framework-for-ml-inference-against-malicious-clients/",
+          "CRISP: An Efficient Cryptographic Framework for ML Inference Against Malicious Clients"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/",
+          "Cross-Cache Attacks for the Linux Kernel via PCP Massaging"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/cryptobazaar-private-sealed-bid-auctions-at-scale/",
+          "Cryptobazaar: Private Sealed-bid Auctions at Scale"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/cryptpeft-efficient-and-private-neural-network-inference-via-parameter-efficient-fine-tuning/",
+          "CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+          "CTng: Secure Certificate and Revocation Transparency"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/ctphishcapture-uncovering-credential-theft-based-phishing-scams-targeting-cryptocurrency-wallets/",
+          "CtPhishCapture: Uncovering Credential-Theft-Based Phishing Scams Targeting Cryptocurrency Wallets"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/dataset-reduction-and-watermark-removal-via-self-supervised-learning-for-model-extraction-attack/",
+          "Dataset Reduction and Watermark Removal via Self-supervised Learning for Model Extraction Attack"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+          "Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/discovering-blind-trust-vulnerabilities-in-plc-binaries-via-state-machine-recovery/",
+          "Discovering Blind-Trust Vulnerabilities in PLC Binaries via State Machine Recovery"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/distributed-broadcast-encryption-for-confidential-interoperability-across-private-blockchains/",
+          "Distributed Broadcast Encryption for Confidential Interoperability across Private Blockchains"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/dnn-latency-sequencing-extracting-dnn-architectures-from-intel-sgx-enclaves-with-single-stepping-attacks/",
+          "DNN Latency Sequencing: Extracting DNN Architectures from Intel SGX Enclaves with Single-Stepping Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+          "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/dualstrike-accurate-real-time-eavesdropping-and-injection-of-keystrokes-on-commodity-keyboards/",
+          "DualStrike: Accurate, Real-time Eavesdropping and Injection of Keystrokes on Commodity Keyboards"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/enhancing-legal-document-security-and-accessibility-with-taf/",
+          "Enhancing Legal Document Security and Accessibility with TAF"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/",
+          "Enhancing Website Fingerprinting Attacks against Traffic Drift"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/eviction-notice-reviving-and-advancing-page-cache-attacks/",
+          "Eviction Notice: Reviving and Advancing Page Cache Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/exploiting-tlbs-in-virtualized-gpus-for-cross-vm-side-channel-attacks/",
+          "Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/",
+          "FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/",
+          "FirmCross: Detecting Taint-style Vulnerabilities in Modern C-Lua Hybrid Web Services of Linux-based Firmware"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/flytrap-physical-distance-pulling-attack-towards-camera-based-autonomous-target-tracking-systems/",
+          "FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/formal-analysis-of-ble-secure-connection-pairing-and-revelation-of-the-pe-confusion-attack/",
+          "Formal Analysis of BLE Secure Connection Pairing and Revelation of the PE Confusion Attack"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/",
+          "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+          "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/from-perception-to-protection-a-developer-centered-study-of-security-and-privacy-threats-in-extended-reality-xr/",
+          "From Perception to Protection: A Developer-Centered Study of Security and Privacy Threats in Extended Reality (XR)"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/",
+          "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/goldenfuzz-generative-golden-reference-hardware-fuzzing/",
+          "GoldenFuzz: Generative Golden Reference Hardware Fuzzing"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/hey-there-you-are-using-whatsapp-enumerating-three-billion-accounts-for-security-and-privacy/",
+          "Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/houston-real-time-anomaly-detection-of-attacks-against-ethereum-defi-protocols/",
+          "HOUSTON: Real-Time Anomaly Detection of Attacks against Ethereum DeFi Protocols"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/",
+          "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/identifying-logical-vulnerabilities-in-quic-implementations/",
+          "Identifying Logical Vulnerabilities in QUIC Implementations"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/iotbec-an-accurate-and-efficient-recurring-vulnerability-detection-framework-for-black-box-iot-devices/",
+          "IoTBec: An Accurate and Efficient Recurring Vulnerability Detection Framework for Black Box IoT devices"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/linkguard-a-lightweight-state-aware-runtime-guard-against-link-following-attacks-in-windows-file-system/",
+          "LinkGuard: A Lightweight State-Aware Runtime Guard Against Link Following Attacks in Windows File System"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/mapping-the-cloud-a-mixed-methods-study-of-cloud-security-and-privacy-configuration-challenges/",
+          "Mapping the Cloud: A Mixed-Methods Study of Cloud Security and Privacy Configuration Challenges"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/memory-backdoor-attacks-on-neural-networks/",
+          "Memory Backdoor Attacks on Neural Networks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/mutato-enhancing-fuzz-drivers-with-adaptive-api-option-mutation/",
+          "MUTATO: Enhancing Fuzz Drivers with Adaptive API Option Mutation"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/mvpnalyzer-an-investigative-framework-for-auditing-the-security-privacy-of-mobile-vpns/",
+          "MVPNalyzer: An Investigative Framework for Auditing the Security & Privacy of Mobile VPNs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/neurostrike-neuron-level-attacks-on-aligned-llms/",
+          "NeuroStrike: Neuron-Level Attacks on Aligned LLMs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/nexus-towards-accurate-and-scalable-mapping-between-vulnerabilities-and-attack-techniques/",
+          "NEXUS: Towards Accurate and Scalable Mapping between Vulnerabilities and Attack Techniques"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/",
+          "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/",
+          "OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-measurement-informed-understanding-of-the-ntp-pools-robustness-to-monopoly-attacks/",
+          "On Borrowed Time: Measurement-Informed Understanding of the NTP Pool’s Robustness to Monopoly Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/",
+          "On the Security Risks of Memory Adaptation and Augmentation in Data-plane DoS Mitigation"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/",
+          "PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed Graphs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/phantommotion-laser-based-motion-injection-attacks-on-wireless-security-surveillance-systems/",
+          "PhantomMotion: Laser-Based Motion Injection Attacks on Wireless Security Surveillance Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/phyfuzz-detecting-sensor-vulnerabilities-with-physical-signal-fuzzing/",
+          "PhyFuzz: Detecting Sensor Vulnerabilities with Physical Signal Fuzzing"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/",
+          "PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/pitfalls-for-security-isolation-in-multi-cpu-systems/",
+          "Pitfalls for Security Isolation in Multi-CPU Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/",
+          "PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/prisrv-privacy-and-usability-enhanced-wireless-service-discovery-with-fast-and-expressive-matchmaking-encryption/",
+          "PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/privcode-when-code-generation-meets-differential-privacy/",
+          "PrivCode: When Code Generation Meets Differential Privacy"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/prompt-injection-attack-to-tool-selection-in-llm-agents/",
+          "Prompt Injection Attack to Tool Selection in LLM Agents"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/pr%ce%b5%ce%b5mpt-sanitizing-sensitive-prompts-for-llms/",
+          "Prεεmpt: Sanitizing Sensitive Prompts for LLMs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/q-mllm-vector-quantization-for-robust-multimodal-large-language-model-security/",
+          "Q-MLLM: Vector Quantization for Robust Multimodal Large Language Model Security"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
+          "QNBAD: Quantum Noise-induced Backdoor Attacks against Zero Noise Extrapolation"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/refuzz-reusing-tests-for-processor-fuzzing-with-contextual-bandits/",
+          "ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/ropbot-reimaging-code-reuse-attack-synthesis/",
+          "ropbot: Reimaging Code Reuse Attack Synthesis"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/rounding-guided-backdoor-injection-in-deep-learning-model-quantization/",
+          "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/rtcon-context-adaptive-function-level-fuzzing-for-rtos-kernels/",
+          "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/sack-systematic-generation-of-function-substitution-attacks-against-control-flow-integrity/",
+          "SACK: Systematic Generation of Function Substitution Attacks Against Control-Flow Integrity"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/saga-a-security-architecture-for-governing-ai-agentic-systems/",
+          "SAGA: A Security Architecture for Governing AI Agentic Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/secv-securing-connected-vehicles-with-hardware-trust-anchors/",
+          "SECV: Securing Connected Vehicles with Hardware Trust Anchors"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/select-then-compute-encrypted-label-selection-and-analytics-over-distributed-datasets-using-fhe/",
+          "Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/shadow-in-the-cache-unveiling-and-mitigating-privacy-risks-of-kv-cache-in-llm-inference/",
+          "Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache in LLM Inference"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/small-cell-big-risk-a-security-assessment-of-4g-lte-femtocells-in-the-wild/",
+          "Small Cell, Big Risk: A Security Assessment of 4G LTE Femtocells in the Wild"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+          "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/sok-cryptographic-authenticated-dictionaries/",
+          "SoK: Cryptographic Authenticated Dictionaries"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/sok-understanding-the-fundamentals-and-implications-of-sensor-out-of-band-vulnerabilities/",
+          "SoK: Understanding the Fundamentals and Implications of Sensor Out-of-band Vulnerabilities"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/stip-three-party-privacy-preserving-and-lossless-inference-for-large-transformers-in-production/",
+          "STIP: Three-Party Privacy-Preserving and Lossless Inference for Large Transformers in Production"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/strategic-games-and-zero-shot-attacks-on-heavy-hitter-network-flow-monitoring/",
+          "Strategic Games and Zero Shot Attacks on Heavy-Hitter Network Flow Monitoring"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/svdefense-effective-defense-against-gradient-inversion-attacks-via-singular-value-decomposition/",
+          "SVDefense: Effective Defense against Gradient Inversion Attacks via Singular Value Decomposition"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/targeted-physical-evasion-attacks-in-the-near-infrared-domain/",
+          "Targeted Physical Evasion Attacks in the Near-Infrared Domain"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/the-dark-side-of-flexibility-detecting-risky-permission-chaining-attacks-in-serverless-applications/",
+          "The Dark Side of Flexibility: Detecting Risky Permission Chaining Attacks in Serverless Applications"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+          "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/the-role-of-privacy-guarantees-in-voluntary-donation-of-private-health-data-for-altruistic-goals/",
+          "The Role of Privacy Guarantees in Voluntary Donation of Private Health Data for Altruistic Goals"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/thinktrap-denial-of-service-attacks-against-black-box-llm-services-via-infinite-thinking/",
+          "ThinkTrap: Denial-of-Service Attacks against Black-box LLM Services via Infinite Thinking"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/through-the-authentication-maze-detecting-authentication-bypass-vulnerabilities-in-firmware-binaries/",
+          "Through the Authentication Maze: Detecting Authentication Bypass Vulnerabilities in Firmware Binaries"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/time-and-time-again-leveraging-tcp-timestamps-to-improve-remote-timing-attacks/",
+          "Time and Time Again: Leveraging TCP Timestamps to Improve Remote Timing Attacks"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/token-time-bomb-evaluating-jwt-implementations-for-vulnerability-discovery/",
+          "Token Time Bomb: Evaluating JWT Implementations for Vulnerability Discovery"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/towards-effective-prompt-stealing-attack-against-text-to-image-diffusion-models/",
+          "Towards Effective Prompt Stealing Attack against Text-to-Image Diffusion Models"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/transparent-taint-style-vulnerability-detection-in-generic-single-page-applications-through-automated-framework-abstraction/",
+          "TranSPArent: Taint-style Vulnerability Detection in Generic Single Page Applications through Automated Framework Abstraction"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/uiee-secure-and-efficient-user-space-isolated-execution-environment-for-embedded-tee-systems/",
+          "UIEE: Secure and Efficient User-space Isolated Execution Environment for Embedded TEE Systems"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/unknown-target-uncovering-and-detecting-novel-in-flight-attacks-to-collision-avoidance-tcas/",
+          "Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/unveiling-byovd-threats-malwares-use-and-abuse-of-kernel-drivers/",
+          "Unveiling BYOVD Threats: Malware’s Use and Abuse of Kernel Drivers"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/validity-is-not-enough-uncovering-the-security-pitfall-in-chainlinks-off-chain-reporting-protocol/",
+          "Validity Is Not Enough: Uncovering the Security Pitfall in Chainlink’s Off-Chain Reporting Protocol"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+          "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/verilora-fine-tuning-large-language-models-with-verifiable-security-via-zero-knowledge-proofs/",
+          "VeriLoRA: Fine-Tuning Large Language Models with Verifiable Security via Zero-Knowledge Proofs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/vulsca-a-community-level-sca-approach-for-accurate-c-c-supply-chain-vulnerability-analysis/",
+          "VulSCA: A Community-Level SCA Approach for Accurate C/C++ Supply Chain Vulnerability Analysis"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/wbslt-a-framework-for-white-box-encryption-based-on-substitution-linear-transformation-ciphers/",
+          "WBSLT: A Framework for White-Box Encryption Based on Substitution-Linear Transformation Ciphers"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/wcdcanalyzer-scalable-security-analysis-of-wi-fi-certified-device-connectivity-protocols/",
+          "WCDCAnalyzer: Scalable Security Analysis of Wi-Fi Certified Device Connectivity Protocols"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/what-do-they-fix-llm-aided-categorization-of-security-patches-for-critical-memory-bugs/",
+          "What Do They Fix? LLM-Aided Categorization of Security Patches for Critical Memory Bugs"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/whitecloak-how-to-hold-anonymous-malicious-clients-accountable-in-secure-aggregation/",
+          "WhiteCloak: How to Hold Anonymous Malicious Clients Accountable in Secure Aggregation?"
+        ],
+        [
+          "https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/",
+          "XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing"
+        ],
+        [
+          "https://www.internetsociety.org/about-internet-society/",
+          "Join us to keep the Internet and its systems secure and resilient"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "SOSP",
+      "url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "FM",
+      "url": "https://conf.researchr.org/track/fm-2026/fm-2026-research-paper",
+      "status": 200,
+      "matches": [
+        [
+          "#",
+          "Towards Privacy-Preserving Verification"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "ISSTA",
+      "url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+      "status": 200,
+      "matches": [
+        [
+          "#",
+          "NCFuzz: Configuration-guided Network Service Fuzzing"
+        ],
+        [
+          "#",
+          "Silence of Commit Messages: An Empirical Study for Vulnerability Commit Message Generation using Large Language Models"
+        ],
+        [
+          "#",
+          "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
+        ],
+        [
+          "#",
+          "Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment"
+        ],
+        [
+          "#",
+          "Augmenting Multi-Technique Static Analysis with Large Language Models: A Neuro-Symbolic Approach to Smart Contract Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts"
+        ],
+        [
+          "#",
+          "RPCSpecter: Detecting Blockchain RPC Bugs through a Specification-Driven, Constraint-Aware Fuzzing ApproachDistinguished Paper"
+        ],
+        [
+          "#",
+          "Repair-Driven Greybox Fuzzing"
+        ],
+        [
+          "#",
+          "Exploiting Ethereum Rollback Semantics: Profit-Driven Attack Synthesis and Off-Chain Misinterpretation Testing"
+        ],
+        [
+          "#",
+          "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler"
+        ],
+        [
+          "#",
+          "SymWeb: Feedback-Driven Context Exploration and Context-Aware Symbolic Execution for Browser-Embedded WebAssembly Vulnerability Detection"
+        ],
+        [
+          "#",
+          "WITFuzz: Validity-Preserving Greybox Fuzzing for WebAssembly Interface Type Binding Generators"
+        ],
+        [
+          "#",
+          "The Discreet Charm of the Bugeoisie: A First Look at Bug Reports Created by Researchers"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/sejutisharminsiddiqui",
+          "Sejuti Sharmin Siddiqui"
+        ],
+        [
+          "#",
+          "Fuzzing FPGA Synthesis and Simulation Tools via LLM-Generated Syntax-Valid HDL Codes"
+        ],
+        [
+          "#",
+          "Uniting Bounded Verification and Transformer-Based Learning for Proactive IoT Security"
+        ],
+        [
+          "#",
+          "MG-Fuzz: Model-Guided Fuzzing for Unsafe Scenario Discovery in Autonomous Driving Systems"
+        ],
+        [
+          "#",
+          "SyzDiversity: Diversity-Guided Linux Kernel Fuzzing"
+        ],
+        [
+          "#",
+          "Intrusion Models for Security Assessment: Methodology and Case Study on Xen"
+        ],
+        [
+          "#",
+          "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation"
+        ],
+        [
+          "#",
+          "Beyond the Surface: Towards Feature-Driven Fuzzing on the Chrome Browser"
+        ],
+        [
+          "#",
+          "Toward Secure Code Generation: Bridging Correctness and Security via Task-Adaptive Vulnerability Modeling and Execution-Based Benchmarking"
+        ],
+        [
+          "#",
+          "SAGE: Signal-Amplified Guided Embeddings for Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Just Old Wine in a New Bottle: Improving Vulnerability Repair Robustness to Combat Homologous but Heterogeneous Vulnerabilities"
+        ],
+        [
+          "#",
+          "Rethinking Mixture-of-Experts for Vulnerability Detection: An Empirical Study and Improved Design"
+        ],
+        [
+          "#",
+          "PatchPorter: LLM-Driven Security Patch Porting via Version Tracing and Context Selection for NPM"
+        ],
+        [
+          "#",
+          "Fuzzing the Boundary Between Models and Code in Hybrid AI-enabled Systems"
+        ],
+        [
+          "#",
+          "When Optimizations Backfire: The Paradox of Plaintext Optimizations in Privacy-Preserving ML Compilers"
+        ],
+        [
+          "#",
+          "Empowering Lightweight Language Models for Security Code Review via Context-Aware Distillation"
+        ],
+        [
+          "#",
+          "Fine-Grained Privacy Leakage Detection in OpenHarmony Apps"
+        ],
+        [
+          "#",
+          "SimiFuzz: Seed–Worker Scheduling for Parallel Fuzzing via Contextual Bandits"
+        ],
+        [
+          "#",
+          "Answer is Cheap, Show Me the Evidence! Augmenting Automated Vulnerability Assessment with Evidence"
+        ],
+        [
+          "#",
+          "Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments"
+        ],
+        [
+          "#",
+          "How Safe is Your Screen? Understanding and Detecting Privacy Leaks in Sensitive Activities"
+        ],
+        [
+          "#",
+          "Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering"
+        ],
+        [
+          "#",
+          "Tracing the Shadows: Automatic Tracking and Analysis of Crypto Money Laundering via Transaction Semantic Analysis"
+        ],
+        [
+          "#",
+          "Understanding and Improving Model Editing for Secure Code Generation"
+        ],
+        [
+          "#",
+          "AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents"
+        ],
+        [
+          "#",
+          "Answer is Cheap, Show Me the Evidence! Augmenting Automated Vulnerability Assessment with Evidence"
+        ],
+        [
+          "#",
+          "Augmenting Multi-Technique Static Analysis with Large Language Models: A Neuro-Symbolic Approach to Smart Contract Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts"
+        ],
+        [
+          "#",
+          "Beyond the Surface: Towards Feature-Driven Fuzzing on the Chrome Browser"
+        ],
+        [
+          "#",
+          "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler"
+        ],
+        [
+          "#",
+          "Empowering Lightweight Language Models for Security Code Review via Context-Aware Distillation"
+        ],
+        [
+          "#",
+          "Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments"
+        ],
+        [
+          "#",
+          "Exploiting Ethereum Rollback Semantics: Profit-Driven Attack Synthesis and Off-Chain Misinterpretation Testing"
+        ],
+        [
+          "#",
+          "Fine-Grained Privacy Leakage Detection in OpenHarmony Apps"
+        ],
+        [
+          "#",
+          "Fuzzing FPGA Synthesis and Simulation Tools via LLM-Generated Syntax-Valid HDL Codes"
+        ],
+        [
+          "#",
+          "Fuzzing the Boundary Between Models and Code in Hybrid AI-enabled Systems"
+        ],
+        [
+          "#",
+          "How Safe is Your Screen? Understanding and Detecting Privacy Leaks in Sensitive Activities"
+        ],
+        [
+          "#",
+          "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation"
+        ],
+        [
+          "#",
+          "Intrusion Models for Security Assessment: Methodology and Case Study on Xen"
+        ],
+        [
+          "#",
+          "Just Old Wine in a New Bottle: Improving Vulnerability Repair Robustness to Combat Homologous but Heterogeneous Vulnerabilities"
+        ],
+        [
+          "#",
+          "MG-Fuzz: Model-Guided Fuzzing for Unsafe Scenario Discovery in Autonomous Driving Systems"
+        ],
+        [
+          "#",
+          "NCFuzz: Configuration-guided Network Service Fuzzing"
+        ],
+        [
+          "#",
+          "PatchPorter: LLM-Driven Security Patch Porting via Version Tracing and Context Selection for NPM"
+        ],
+        [
+          "#",
+          "Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment"
+        ],
+        [
+          "#",
+          "Repair-Driven Greybox Fuzzing"
+        ],
+        [
+          "#",
+          "Rethinking Mixture-of-Experts for Vulnerability Detection: An Empirical Study and Improved Design"
+        ],
+        [
+          "#",
+          "RPCSpecter: Detecting Blockchain RPC Bugs through a Specification-Driven, Constraint-Aware Fuzzing ApproachDistinguished Paper"
+        ],
+        [
+          "#",
+          "SAGE: Signal-Amplified Guided Embeddings for Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering"
+        ],
+        [
+          "#",
+          "Silence of Commit Messages: An Empirical Study for Vulnerability Commit Message Generation using Large Language Models"
+        ],
+        [
+          "#",
+          "SimiFuzz: Seed–Worker Scheduling for Parallel Fuzzing via Contextual Bandits"
+        ],
+        [
+          "#",
+          "SymWeb: Feedback-Driven Context Exploration and Context-Aware Symbolic Execution for Browser-Embedded WebAssembly Vulnerability Detection"
+        ],
+        [
+          "#",
+          "SyzDiversity: Diversity-Guided Linux Kernel Fuzzing"
+        ],
+        [
+          "#",
+          "The Discreet Charm of the Bugeoisie: A First Look at Bug Reports Created by Researchers"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/sejutisharminsiddiqui",
+          "Sejuti Sharmin Siddiqui"
+        ],
+        [
+          "#",
+          "Toward Secure Code Generation: Bridging Correctness and Security via Task-Adaptive Vulnerability Modeling and Execution-Based Benchmarking"
+        ],
+        [
+          "#",
+          "Tracing the Shadows: Automatic Tracking and Analysis of Crypto Money Laundering via Transaction Semantic Analysis"
+        ],
+        [
+          "#",
+          "Understanding and Improving Model Editing for Secure Code Generation"
+        ],
+        [
+          "#",
+          "Uniting Bounded Verification and Transformer-Based Learning for Proactive IoT Security"
+        ],
+        [
+          "#",
+          "When Optimizations Backfire: The Paradox of Plaintext Optimizations in Privacy-Preserving ML Compilers"
+        ],
+        [
+          "#",
+          "WITFuzz: Validity-Preserving Greybox Fuzzing for WebAssembly Interface Type Binding Generators"
+        ],
+        [
+          "#analysis-and-testing-for-security",
+          "Analysis and Testing for Security"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/marcelbohme",
+          "Marcel BöhmeISSTA research papers co-chairMPI-SP - CISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/andreaszeller",
+          "Andreas ZellerArea Chair (Software Test Generation)CISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/ericbodden",
+          "Eric BoddenArea Chair (Security)Heinz Nixdorf Institute at Paderborn University & Fraunhofer IEMGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/islembouzenia",
+          "Islem BOUZENIACISPA Helmholtz Center for Information Security"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/stefanoschaliasos1",
+          "Stefanos ChaliasosUCL & ZKSecurity"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/markharman",
+          "Mark HarmanMeta Platforms, Inc. and UCLUnited Kingdom"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/ruijiemeng1",
+          "Ruijie MengCISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/michaelpradel",
+          "Michael PradelCISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/xiaoxueren",
+          "Xiaoxue RenZhejiang University; Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data SecurityChina"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/niklasrisse",
+          "Niklas RisseMPI-SP; CISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/issta-2026/arindamsharma",
+          "Arindam SharmaImperial College London"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "ASE",
+      "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track",
+      "error": "curl: (28) Operation timed out after 25005 milliseconds with 1467737 bytes received\n"
+    },
+    {
+      "source": "ICSE",
+      "url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
+      "error": "curl: (28) Operation timed out after 25002 milliseconds with 1447583 bytes received\n"
+    },
+    {
+      "source": "OOPSLA",
+      "url": "https://2026.splashcon.org/track/oopsla-2026",
+      "status": 200,
+      "matches": [
+        [
+          "#",
+          "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Agent-Based Automated Remediation for Vulnerabilities in Maven Projects"
+        ],
+        [
+          "#",
+          "Hunting CUDA Bugs at Scale with cuFuzz"
+        ],
+        [
+          "#",
+          "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling"
+        ],
+        [
+          "#",
+          "Verifying Economic Security of Smart Contracts via Unintended Return"
+        ],
+        [
+          "#",
+          "Beacon: Detecting Broken Access Control Vulnerabilities in DBMSs via System Catalog Consistency Validation"
+        ],
+        [
+          "#",
+          "(Dis)Proving Spectre Security with Speculation-Passing Style"
+        ],
+        [
+          "#",
+          "Decompiling for Constant-Time Analysis"
+        ],
+        [
+          "#",
+          "Efficient Directed Hybrid Fuzzing via Target-Centric Seed Selection and Generation"
+        ],
+        [
+          "#",
+          "Determining the Unreachable: Constraint-Guided Reachability Analysis for Dependency Vulnerabilities"
+        ],
+        [
+          "#",
+          "Fighting Supply Chain Attacks with Effect Systems"
+        ],
+        [
+          "#",
+          "CapOpt: Capability-Aware Superoptimization for Secure and Provably Faster Code"
+        ],
+        [
+          "#",
+          "Peeling Off the Cocoon: Unveiling Suppressed Golden Seeds for Mutational Greybox Fuzzing"
+        ],
+        [
+          "#",
+          "LARTS: Language Abstractions for Real-Time and Secure Systems"
+        ],
+        [
+          "#",
+          "LLM-Powered Silent Bug Fuzzing in Deep Learning Libraries via Versatile and Controlled Bug Transfer"
+        ],
+        [
+          "#",
+          "SmartFuzz: Leveraging Large Language Models and Feature Composition to Generate High-Quality Seeds for Database Fuzzing"
+        ],
+        [
+          "#",
+          "Agent-Based Automated Remediation for Vulnerabilities in Maven Projects"
+        ],
+        [
+          "#",
+          "Beacon: Detecting Broken Access Control Vulnerabilities in DBMSs via System Catalog Consistency Validation"
+        ],
+        [
+          "#",
+          "CapOpt: Capability-Aware Superoptimization for Secure and Provably Faster Code"
+        ],
+        [
+          "#",
+          "Decompiling for Constant-Time Analysis"
+        ],
+        [
+          "#",
+          "Determining the Unreachable: Constraint-Guided Reachability Analysis for Dependency Vulnerabilities"
+        ],
+        [
+          "#",
+          "(Dis)Proving Spectre Security with Speculation-Passing Style"
+        ],
+        [
+          "#",
+          "Efficient Directed Hybrid Fuzzing via Target-Centric Seed Selection and Generation"
+        ],
+        [
+          "#",
+          "Fighting Supply Chain Attacks with Effect Systems"
+        ],
+        [
+          "#",
+          "Hunting CUDA Bugs at Scale with cuFuzz"
+        ],
+        [
+          "#",
+          "LARTS: Language Abstractions for Real-Time and Secure Systems"
+        ],
+        [
+          "#",
+          "LLM-Powered Silent Bug Fuzzing in Deep Learning Libraries via Versatile and Controlled Bug Transfer"
+        ],
+        [
+          "#",
+          "Peeling Off the Cocoon: Unveiling Suppressed Golden Seeds for Mutational Greybox Fuzzing"
+        ],
+        [
+          "#",
+          "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling"
+        ],
+        [
+          "#",
+          "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection"
+        ],
+        [
+          "#",
+          "SmartFuzz: Leveraging Large Language Models and Feature Composition to Generate High-Quality Seeds for Database Fuzzing"
+        ],
+        [
+          "#",
+          "Verifying Economic Security of Smart Contracts via Unintended Return"
+        ],
+        [
+          "https://2026.splashcon.org/profile/michaelpradel",
+          "Michael PradelAssociate ChairCISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://2026.splashcon.org/profile/ruijiemeng1",
+          "Ruijie MengCommittee MemberCISPA Helmholtz Center for Information SecurityGermany"
+        ]
+      ],
+      "date_links": [
+        "https://2026.splashcon.org/details/oopsla-2026/110/Bringing-Foundational-Verification-to-Real-World-Rust-Code",
+        "https://2026.splashcon.org/details/oopsla-2026/110/Bringing-Foundational-Verification-to-Real-World-Rust-Code",
+        "https://dl.acm.org/toc/pacmpl/2026/10/OOPSLA1",
+        "https://dl.acm.org/toc/pacmpl/2026/10/OOPSLA2"
+      ]
+    },
+    {
+      "source": "PLDI",
+      "url": "https://conf.researchr.org/track/pldi-2026/pldi-2026-papers",
+      "status": 200,
+      "matches": [
+        [
+          "#",
+          "SuperDP: Differential Privacy Refutation via Supermartingales"
+        ],
+        [
+          "#",
+          "Modular Verification of Differential Privacy in Probabilistic Higher-Order Separation Logic"
+        ],
+        [
+          "#",
+          "Modular Verification of Differential Privacy in Probabilistic Higher-Order Separation Logic"
+        ],
+        [
+          "#",
+          "SuperDP: Differential Privacy Refutation via Supermartingales"
+        ],
+        [
+          "https://pldi26.sigplan.org/profile/simonoddershedegregersen",
+          "Simon Oddershede GregersenCISPA Helmholtz Center for Information SecurityGermany"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "POPL",
+      "url": "https://conf.researchr.org/track/popl-2026/POPL-2026-popl-research-papers",
+      "status": 200,
+      "matches": [
+        [
+          "https://popl26.sigplan.org/home/prisc-2026",
+          "PriSC Principles of Secure Compilation"
+        ],
+        [
+          "#",
+          "PriSC Principles of Secure Compilation"
+        ],
+        [
+          "#",
+          "Fuzzing Guided by Bayesian Program Analysis"
+        ],
+        [
+          "#",
+          "Cryptis: Cryptographic Reasoning in Separation Logic"
+        ],
+        [
+          "#",
+          "Security Reasoning via Substructural Dependency TrackingDistinguished Paper"
+        ],
+        [
+          "#",
+          "Hardware-Software Contracts for High Assurance with Applications to Side-Channel Security"
+        ],
+        [
+          "#",
+          "Hardware-Software Contracts for High Assurance with Applications to Side-Channel Security"
+        ],
+        [
+          "#",
+          "Hardware-Software Contracts for High Assurance with Applications to Side-Channel Security"
+        ],
+        [
+          "#",
+          "Cryptis: Cryptographic Reasoning in Separation Logic"
+        ],
+        [
+          "#",
+          "Fuzzing Guided by Bayesian Program Analysis"
+        ],
+        [
+          "#",
+          "Security Reasoning via Substructural Dependency TrackingDistinguished Paper"
+        ],
+        [
+          "https://popl26.sigplan.org/profile/raynadimitrova",
+          "Rayna DimitrovaCommittee MemberCISPA Helmholtz Center for Information Security"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "FSE",
+      "url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+      "status": 200,
+      "matches": [
+        [
+          "#",
+          "ACM SecDev ACM Secure Development Conference"
+        ],
+        [
+          "#",
+          "ACM SecDev ACM Secure Development Conference"
+        ],
+        [
+          "#",
+          "Cerberus: Robust Endpoint Threat Detection in Practice"
+        ],
+        [
+          "#",
+          "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?"
+        ],
+        [
+          "#",
+          "CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic schemes"
+        ],
+        [
+          "#",
+          "SCAR: Mining and Structuring Smart Contract Security Audit Reports"
+        ],
+        [
+          "#",
+          "Verifying Smart Contract Security Against Re-entrancy Attacks through Relational Value Analysis"
+        ],
+        [
+          "#",
+          "SmartCoder-R1: Towards Secure and Explainable Smart Contract Generation with Security-Aware Group Relative Policy Optimization"
+        ],
+        [
+          "#",
+          "V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution"
+        ],
+        [
+          "#",
+          "AgentBound: Securing Execution Boundaries of AI Agents"
+        ],
+        [
+          "#",
+          "Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs"
+        ],
+        [
+          "#",
+          "DECODE: Dynamic Exploration for Constraint-Guided Vulnerability Discovery in Deep Learning Operators"
+        ],
+        [
+          "#",
+          "On the Effects of Program Slicing for Vulnerability Detection during Code Inspection (Journal First)"
+        ],
+        [
+          "#",
+          "VulInstruct: Teaching LLMs Root-Cause Reasoning for Vulnerability Detection via Security Specifications"
+        ],
+        [
+          "#",
+          "pPatch: Automated Vulnerability Unpatching"
+        ],
+        [
+          "#",
+          "PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages"
+        ],
+        [
+          "#",
+          "Exorcist: Enabling Atomic-Level Runtime Detection of Spectre Attacks Using Precise Event Based Sampling"
+        ],
+        [
+          "#",
+          "Unveiling the Fragility of Binary Code Similarity Detection via Targeted Attacks with Model Explanations"
+        ],
+        [
+          "#",
+          "AVDA: Autonomous Vibe Detection Authoring for Cybersecurity"
+        ],
+        [
+          "#",
+          "Understanding Binary Code Similarity for Real-World Vulnerability Detection: A Large-Scale Empirical Study"
+        ],
+        [
+          "#",
+          "Assessing Harmful Comments and Specificity in Code Review Feedback at Scale using Large Language Models"
+        ],
+        [
+          "#",
+          "An Exploratory Study on Fine-tuning Large Language Models for Secure Code Generation"
+        ],
+        [
+          "#",
+          "Fuzzing-based mutation testing of C/C++ software in cyber-physical systems"
+        ],
+        [
+          "#",
+          "ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents"
+        ],
+        [
+          "#",
+          "Adaptive Mutation Scheduling with Deep Reinforcement Learning for Smart Contract Fuzzing"
+        ],
+        [
+          "#",
+          "OCPPuzz: Specification-driven Fuzzing of Charging Station Management Systems with Large Language Model"
+        ],
+        [
+          "#",
+          "PROGnosticator: Testing Source-to-Source Code Translators via Construct-oriented Fuzzing"
+        ],
+        [
+          "#",
+          "InDe-LLM: Defending Against Jailbreak Attacks in LLM-Powered Systems via Intention Disentangling"
+        ],
+        [
+          "#",
+          "Characterizing Trust Boundary Vulnerabilities in TEE Container Systems: An Empirical Study"
+        ],
+        [
+          "#",
+          "GadgetHunter: Region-Based Neuro-Symbolic Detection of Java Deserialization Vulnerabilities"
+        ],
+        [
+          "#",
+          "Red Teaming LLMs via Linguistic-Aware Fuzzing"
+        ],
+        [
+          "#",
+          "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen"
+        ],
+        [
+          "#",
+          "Binvariants: Enhancing Fuzzing of Closed-source Binary Executables via Register-level Likely Invariants"
+        ],
+        [
+          "#",
+          "In Bugs We Trust? On Measuring the Randomness of a Fuzzer Benchmarking Outcome"
+        ],
+        [
+          "#",
+          "An Empirical Study of Fuzz Harness Degradation"
+        ],
+        [
+          "#",
+          "SnakeCharmer: Automatic Fuzzing Harness Generation for Pure and Hybrid Python Libraries"
+        ],
+        [
+          "#",
+          "Odyssey : Hunting Smart Contract Vulnerabilities with Fine-grained State Modeling and Exploration"
+        ],
+        [
+          "#",
+          "Compilomorphic Fuzzing: Turning a Compiler Against Itself"
+        ],
+        [
+          "#",
+          "CuFuzz: An API-Knowledge-Graph Coverage-Driven Fuzzing Framework for CUDA Libraries"
+        ],
+        [
+          "#",
+          "SQLiFuzz: Uncovering SQL Injection in Any Web Applications"
+        ],
+        [
+          "https://conf.researchr.org/profile/fse-2026/iputuaryadharmaadi",
+          "I Putu Arya Dharmaadi"
+        ],
+        [
+          "#",
+          "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences"
+        ],
+        [
+          "#",
+          "CapCo: Automating Carla-Apollo Co-Simulation and Scenario Fuzzing"
+        ],
+        [
+          "#",
+          "SQLynx: Towards Generic Mutation-Based Fuzzing for DBMSs Across Diverse Dialects"
+        ],
+        [
+          "#",
+          "A Practical Fuzzer for the Python Runtime System"
+        ],
+        [
+          "#",
+          "Shark2Pit: Automated Test Template Generation for Protocol Fuzzing Based on Packet Parser"
+        ],
+        [
+          "#",
+          "FISTS: A Field-based Security Testing Tool for Updates in Software-Defined Networks"
+        ],
+        [
+          "#",
+          "Enabling Security Champions With Breakout Action Groups (BAGs) – A Longitudinal Case Study"
+        ],
+        [
+          "#",
+          "An Empirical Evaluation of Generative AI in Security Requirements Engineering and Threat Modeling"
+        ],
+        [
+          "#",
+          "Uncovering Similar but Different Packages in PyPI and Potential Security Threats"
+        ],
+        [
+          "#",
+          "Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs"
+        ],
+        [
+          "#",
+          "VLM-Fuzz: Vision Language Model Assisted Recursive Depth-First Search Exploration for Effective GUI Testing of Android Apps"
+        ],
+        [
+          "#",
+          "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions"
+        ],
+        [
+          "#",
+          "VulKey: Automated Vulnerability Repair Guided by Domain-Specific Repair Patterns"
+        ],
+        [
+          "#",
+          "Thought is All You Need: Smart Contract Vulnerability Detection with Thought-Augmented Large Language Model"
+        ],
+        [
+          "#",
+          "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis"
+        ],
+        [
+          "#",
+          "Knowledge-Graph-Driven Data Synthesis for Low-Resource Software Development: A HarmonyOS Case Study"
+        ],
+        [
+          "#",
+          "Three Heads Are Better Than One: A Multi-Perspective Reasoning Framework for Enhanced Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Eidolon: Perform Noise-Aware Fuzzing on FHE Libraries via Equivalence Expression Transformation"
+        ],
+        [
+          "#",
+          "It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation"
+        ],
+        [
+          "#",
+          "SmartIFSyn: Automated Information Flow Security Policy Synthesis for Smart Contracts"
+        ],
+        [
+          "#",
+          "A Wily Hare Has Three Havens: Combating Programmable Logic Controller Attacks via Virtualization Redundancy"
+        ],
+        [
+          "#",
+          "Adaptive Mutation Scheduling with Deep Reinforcement Learning for Smart Contract Fuzzing"
+        ],
+        [
+          "#",
+          "AgentBound: Securing Execution Boundaries of AI Agents"
+        ],
+        [
+          "#",
+          "An Empirical Study of Fuzz Harness Degradation"
+        ],
+        [
+          "#",
+          "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis"
+        ],
+        [
+          "#",
+          "A Wily Hare Has Three Havens: Combating Programmable Logic Controller Attacks via Virtualization Redundancy"
+        ],
+        [
+          "#",
+          "Binvariants: Enhancing Fuzzing of Closed-source Binary Executables via Register-level Likely Invariants"
+        ],
+        [
+          "#",
+          "ChainDelta: Automatic Patch-based Exploit Generation for Ethereum with Fuzzing Agents"
+        ],
+        [
+          "#",
+          "Characterizing Trust Boundary Vulnerabilities in TEE Container Systems: An Empirical Study"
+        ],
+        [
+          "#",
+          "CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic schemes"
+        ],
+        [
+          "#",
+          "CuFuzz: An API-Knowledge-Graph Coverage-Driven Fuzzing Framework for CUDA Libraries"
+        ],
+        [
+          "#",
+          "DECODE: Dynamic Exploration for Constraint-Guided Vulnerability Discovery in Deep Learning Operators"
+        ],
+        [
+          "#",
+          "Eidolon: Perform Noise-Aware Fuzzing on FHE Libraries via Equivalence Expression Transformation"
+        ],
+        [
+          "#",
+          "Exorcist: Enabling Atomic-Level Runtime Detection of Spectre Attacks Using Precise Event Based Sampling"
+        ],
+        [
+          "#",
+          "GadgetHunter: Region-Based Neuro-Symbolic Detection of Java Deserialization Vulnerabilities"
+        ],
+        [
+          "#",
+          "In Bugs We Trust? On Measuring the Randomness of a Fuzzer Benchmarking Outcome"
+        ],
+        [
+          "#",
+          "InDe-LLM: Defending Against Jailbreak Attacks in LLM-Powered Systems via Intention Disentangling"
+        ],
+        [
+          "#",
+          "It Takes Two: Option-Aware Directed Greybox Fuzzing for Vulnerability PoC Generation"
+        ],
+        [
+          "#",
+          "Knowledge-Graph-Driven Data Synthesis for Low-Resource Software Development: A HarmonyOS Case Study"
+        ],
+        [
+          "#",
+          "OCPPuzz: Specification-driven Fuzzing of Charging Station Management Systems with Large Language Model"
+        ],
+        [
+          "#",
+          "Odyssey : Hunting Smart Contract Vulnerabilities with Fine-grained State Modeling and Exploration"
+        ],
+        [
+          "#",
+          "PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages"
+        ],
+        [
+          "#",
+          "pPatch: Automated Vulnerability Unpatching"
+        ],
+        [
+          "#",
+          "PROGnosticator: Testing Source-to-Source Code Translators via Construct-oriented Fuzzing"
+        ],
+        [
+          "#",
+          "Red Teaming LLMs via Linguistic-Aware Fuzzing"
+        ],
+        [
+          "#",
+          "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences"
+        ],
+        [
+          "#",
+          "SmartCoder-R1: Towards Secure and Explainable Smart Contract Generation with Security-Aware Group Relative Policy Optimization"
+        ],
+        [
+          "#",
+          "SmartIFSyn: Automated Information Flow Security Policy Synthesis for Smart Contracts"
+        ],
+        [
+          "#",
+          "SnakeCharmer: Automatic Fuzzing Harness Generation for Pure and Hybrid Python Libraries"
+        ],
+        [
+          "#",
+          "SQLiFuzz: Uncovering SQL Injection in Any Web Applications"
+        ],
+        [
+          "https://conf.researchr.org/profile/fse-2026/iputuaryadharmaadi",
+          "I Putu Arya Dharmaadi"
+        ],
+        [
+          "#",
+          "Thought is All You Need: Smart Contract Vulnerability Detection with Thought-Augmented Large Language Model"
+        ],
+        [
+          "#",
+          "Three Heads Are Better Than One: A Multi-Perspective Reasoning Framework for Enhanced Vulnerability Detection"
+        ],
+        [
+          "#",
+          "Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs"
+        ],
+        [
+          "#",
+          "Uncovering Similar but Different Packages in PyPI and Potential Security Threats"
+        ],
+        [
+          "#",
+          "Understanding Binary Code Similarity for Real-World Vulnerability Detection: A Large-Scale Empirical Study"
+        ],
+        [
+          "#",
+          "Unveiling the Fragility of Binary Code Similarity Detection via Targeted Attacks with Model Explanations"
+        ],
+        [
+          "#",
+          "V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution"
+        ],
+        [
+          "#",
+          "Verifying Smart Contract Security Against Re-entrancy Attacks through Relational Value Analysis"
+        ],
+        [
+          "#",
+          "VulInstruct: Teaching LLMs Root-Cause Reasoning for Vulnerability Detection via Security Specifications"
+        ],
+        [
+          "#",
+          "VulKey: Automated Vulnerability Repair Guided by Domain-Specific Repair Patterns"
+        ],
+        [
+          "https://conf.researchr.org/profile/fse-2026/andreaszeller",
+          "Andreas ZellerCISPA Helmholtz Center for Information SecurityGermany"
+        ],
+        [
+          "https://conf.researchr.org/profile/fse-2026/michaelpradel",
+          "Michael PradelCISPA Helmholtz Center for Information SecurityGermany"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "OSDI",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "status": 200,
+      "matches": [
+        [
+          "/conference/osdi26/presentation/huang-wenxuan",
+          "Accelerating Confidential Databases with Crypto-Free Mappings"
+        ],
+        [
+          "/conference/osdi26/presentation/lai",
+          "JANUS: Cross-World, Cooperative Nested Virtualization for Secure Containers"
+        ],
+        [
+          "/conference/osdi26/presentation/liu-yicheng",
+          "Osprey: Transparent and Efficient Virtual Memory for Secure Computation"
+        ],
+        [
+          "/conference/osdi26/presentation/takiguchi",
+          "Nested SEV: Secure and Generic SEV Support for Nested Virtualization"
+        ],
+        [
+          "/conference/osdi26/presentation/cottone",
+          "Acumen: A Platform for Encrypted and Accountable Collaborative Editing"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "ICLR",
+      "url": "https://iclr.cc/virtual/2026/papers.html",
+      "status": 200,
+      "matches": [
+        [
+          "/virtual/2026/poster/10011849",
+          "Protection against Source Inference Attacks in Federated Learning"
+        ],
+        [
+          "/virtual/2026/poster/10010529",
+          "Harnessing Hyperbolic Geometry for Harmful Prompt Detection and Sanitization"
+        ],
+        [
+          "/virtual/2026/poster/10010914",
+          "Reducing information dependency does not cause training data privacy. Adversarially non-robust features do."
+        ],
+        [
+          "/virtual/2026/poster/10006638",
+          "SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests"
+        ],
+        [
+          "/virtual/2026/poster/10010970",
+          "Prediction with Expert Advice under Local Differential Privacy"
+        ],
+        [
+          "/virtual/2026/poster/10008893",
+          "Fewer Weights, More Problems: A Practical Attack on LLM Pruning"
+        ],
+        [
+          "/virtual/2026/poster/10010197",
+          "Unified Privacy Guarantees for Decentralized Learning via Matrix Factorization"
+        ],
+        [
+          "/virtual/2026/poster/10008442",
+          "Mitigating Privacy Risk via Forget Set-Free Unlearning"
+        ],
+        [
+          "/virtual/2026/poster/10006727",
+          "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols"
+        ],
+        [
+          "/virtual/2026/poster/10007653",
+          "Transferable and Stealthy Adversarial Attacks on Large Vision-Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10009080",
+          "RedSage: A Cybersecurity Generalist LLM"
+        ],
+        [
+          "/virtual/2026/poster/10011715",
+          "Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models"
+        ],
+        [
+          "/virtual/2026/poster/10011231",
+          "A Guardrail for Safety Preservation: When Safety-Sensitive Subspace Meets Harmful-Resistant Null-Space"
+        ],
+        [
+          "/virtual/2026/poster/10007951",
+          "Improving Black-Box Generative Attacks via Generator Semantic Consistency"
+        ],
+        [
+          "/virtual/2026/poster/10006835",
+          "Sampling-aware Adversarial Attacks Against Large Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10006730",
+          "ARMs: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10006793",
+          "Eliciting Harmful Capabilities by Fine-Tuning on Safeguarded Outputs"
+        ],
+        [
+          "/virtual/2026/poster/10007121",
+          "Bi-Lipschitz Autoencoder With Injectivity Guarantee"
+        ],
+        [
+          "/virtual/2026/poster/10007405",
+          "Membership Inference Attacks Against Fine-tuned Diffusion Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10010896",
+          "Curation Leaks: Membership Inference Attacks against Data Curation for Machine Learning"
+        ],
+        [
+          "/virtual/2026/poster/10007576",
+          "Black-Box Privacy Attacks on Shared Representations in Multitask Learning"
+        ],
+        [
+          "/virtual/2026/poster/10010481",
+          "Fine-Grained Iterative Adversarial Attacks with Limited Computation Budget"
+        ],
+        [
+          "/virtual/2026/poster/10008032",
+          "CHROMA: Consistent Harmonization of Multi-View Appearance via Bilateral Grid Prediction"
+        ],
+        [
+          "/virtual/2026/poster/10008696",
+          "Privacy-Protected Causal Survival Analysis Under Distribution Shift"
+        ],
+        [
+          "/virtual/2026/poster/10008843",
+          "Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning"
+        ],
+        [
+          "/virtual/2026/poster/10009048",
+          "ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents"
+        ],
+        [
+          "/virtual/2026/poster/10009231",
+          "VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents"
+        ],
+        [
+          "/virtual/2026/poster/10006914",
+          "Doxing via the Lens: Revealing Location-related Privacy Leakage on Multi-modal Large Reasoning Models"
+        ],
+        [
+          "/virtual/2026/poster/10009353",
+          "Toward Universal and Transferable Jailbreak Attacks on Vision-Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10009665",
+          "SHE-LoRA: Selective Homomorphic Encryption for Federated Tuning with Heterogeneous LoRA"
+        ],
+        [
+          "/virtual/2026/poster/10009134",
+          "Membership Privacy Risks of Sharpness Aware Minimization"
+        ],
+        [
+          "/virtual/2026/poster/10010112",
+          "VEAttack: Downstream-agnostic Vision Encoder Attack against Large Vision Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10010144",
+          "SafeDialBench: A Fine-Grained Safety Evaluation Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10010231",
+          "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities"
+        ],
+        [
+          "/virtual/2026/poster/10010238",
+          "Learnability and Privacy Vulnerability are Entangled in a Few Critical Weights"
+        ],
+        [
+          "/virtual/2026/poster/10008814",
+          "Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerability"
+        ],
+        [
+          "/virtual/2026/poster/10010889",
+          "Beyond Membership: Limitations of Add/Remove Adjacency in Differential Privacy"
+        ],
+        [
+          "/virtual/2026/poster/10006702",
+          "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack"
+        ],
+        [
+          "/virtual/2026/poster/10009285",
+          "Secure Outlier-Aware Large Language Model Inference"
+        ],
+        [
+          "/virtual/2026/poster/10011230",
+          "Time-To-Inconsistency: A Survival Analysis of Large Language Model Robustness to Adversarial Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10009780",
+          "Train-before-Test Harmonizes Language Model Rankings"
+        ],
+        [
+          "/virtual/2026/poster/10012106",
+          "The Adversarial Conditioning Paradox: Why Attacked Inputs Are More Stable, Not Less"
+        ],
+        [
+          "/virtual/2026/poster/10007444",
+          "Searching for Privacy Risks in LLM Agents via Simulation"
+        ],
+        [
+          "/virtual/2026/poster/10010542",
+          "Towards Privacy-Guaranteed Label Unlearning in Vertical Federated Learning: Few-Shot Forgetting Without Disclosure"
+        ],
+        [
+          "/virtual/2026/poster/10010648",
+          "Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10007199",
+          "Antibody: Strengthening Defense Against Harmful Fine-Tuning for Large Language Models via Attenuating Harmful Gradient Influence"
+        ],
+        [
+          "/virtual/2026/poster/10010864",
+          "TrojanTO: Action-Level Backdoor Attacks Against Trajectory Optimization Models"
+        ],
+        [
+          "/virtual/2026/poster/10007668",
+          "Discrete Latent Features Ablate Adversarial Attack: A Robust Prompt Tuning Framework for VLMs"
+        ],
+        [
+          "/virtual/2026/poster/10009677",
+          "Harmonized Cone for Feasible and Non-conflict Directions in Training Physics-Informed Neural Networks"
+        ],
+        [
+          "/virtual/2026/poster/10011346",
+          "Secure Inference for Diffusion Models via Unconditional Scores"
+        ],
+        [
+          "/virtual/2026/poster/10008964",
+          "On the trade-off between expressivity and privacy in graph representation learning"
+        ],
+        [
+          "/virtual/2026/poster/10007031",
+          "When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining"
+        ],
+        [
+          "/virtual/2026/poster/10011288",
+          "Convergent Differential Privacy Analysis for General Federated Learning"
+        ],
+        [
+          "/virtual/2026/poster/10007469",
+          "Privacy Beyond Pixels: Latent Anonymization for Privacy-Preserving Video Understanding"
+        ],
+        [
+          "/virtual/2026/poster/10010000",
+          "Learning to Lie: Adversarial Attacks on Human-AI Teams and LLMs"
+        ],
+        [
+          "/virtual/2026/poster/10008111",
+          "Near Optimal Robust Federated Learning Against Data Poisoning Attack"
+        ],
+        [
+          "/virtual/2026/poster/10009735",
+          "BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning"
+        ],
+        [
+          "/virtual/2026/poster/10010396",
+          "INO-SGD: Addressing Utility Imbalance under Individualized Differential Privacy"
+        ],
+        [
+          "/virtual/2026/poster/10009051",
+          "Measuring Physical-World Privacy Awareness of Large Language Models: An Evaluation Benchmark"
+        ],
+        [
+          "/virtual/2026/poster/10009034",
+          "RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning by Balancing Privacy, Fairness and Utility"
+        ],
+        [
+          "/virtual/2026/poster/10007758",
+          "Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents"
+        ],
+        [
+          "/virtual/2026/poster/10011589",
+          "WARP: Weight Teleportation for Attack-Resilient Unlearning Protocols"
+        ],
+        [
+          "/virtual/2026/poster/10010452",
+          "RoboMD: Uncovering Robot Vulnerabilities through Semantic Potential Fields"
+        ],
+        [
+          "/virtual/2026/poster/10009011",
+          "ARMOR: Aligning Secure and Safe Large Language Models via Meticulous Reasoning"
+        ],
+        [
+          "/virtual/2026/poster/10008186",
+          "Optimizing Agent Planning for Security and Autonomy"
+        ],
+        [
+          "/virtual/2026/poster/10009023",
+          "Enhancing Hallucination Detection through Noise Injection"
+        ],
+        [
+          "/virtual/2026/poster/10011569",
+          "FHE-Coder: Benchmarking Secure Agentic Code Generation for Fully Homomorphic Encryption"
+        ],
+        [
+          "/virtual/2026/poster/10009245",
+          "Dyslexify: A Mechanistic Defense Against Typographic Attacks in CLIP"
+        ],
+        [
+          "/virtual/2026/poster/10009786",
+          "SeRI: Gradient-Free Sensitive Region Identification in Decision-Based Black-Box Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10011592",
+          "Optimizing Canaries for Privacy Auditing with Metagradient Descent"
+        ],
+        [
+          "/virtual/2026/poster/10010561",
+          "SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10011360",
+          "SEMA: Simple yet Effective Learning for Multi-Turn Jailbreak Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10009381",
+          "Concept-based Adversarial Attack: a Probabilistic Perspective"
+        ],
+        [
+          "/virtual/2026/poster/10011341",
+          "Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning"
+        ],
+        [
+          "/virtual/2026/poster/10010136",
+          "Tug-of-War No More: Harmonizing Accuracy and Robustness in Vision-Language Models via Stability-Aware Task Vector Merging"
+        ],
+        [
+          "/virtual/2026/poster/10011277",
+          "JailNewsBench: Multi-Lingual and Regional Benchmark for Fake News Generation under Jailbreak Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10010862",
+          "MIMIC: Mask-Injected Manipulation Video Generation with Interaction Control"
+        ],
+        [
+          "/virtual/2026/poster/10011723",
+          "HiDrop: Hierarchical Vision Token Reduction in MLLMs via Late Injection, Concave Pyramid Pruning, and Early Exit"
+        ],
+        [
+          "/virtual/2026/poster/10007934",
+          "Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data in LLMs"
+        ],
+        [
+          "/virtual/2026/poster/10008950",
+          "TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10007929",
+          "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents"
+        ],
+        [
+          "/virtual/2026/poster/10010973",
+          "Fine-Grained Privacy Extraction from Retrieval-Augmented Generation Systems by Exploiting Knowledge Asymmetry"
+        ],
+        [
+          "/virtual/2026/poster/10011688",
+          "GhostEI-Bench: Do Mobile Agent Resilience to Environmental Injection in Dynamic On-Device Environments?"
+        ],
+        [
+          "/virtual/2026/poster/10006917",
+          "PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm"
+        ],
+        [
+          "/virtual/2026/poster/10007481",
+          "HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities"
+        ],
+        [
+          "/virtual/2026/poster/10007159",
+          "The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs"
+        ],
+        [
+          "/virtual/2026/poster/10010495",
+          "VoxPrivacy: A Benchmark for Evaluating Interactional Privacy of Speech Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10009451",
+          "CTBench: Cryptocurrency Time Series Generation Benchmark"
+        ],
+        [
+          "/virtual/2026/poster/10007282",
+          "Reliable Poisoned Sample Detection against Backdoor Attacks Enhanced by Sharpness Aware Minimization"
+        ],
+        [
+          "/virtual/2026/poster/10008592",
+          "Concept-Aware Privacy Mechanisms for Defending Embedding Inversion Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10011363",
+          "Invisible Safety Threat: Malicious Finetuning for LLM via Steganography"
+        ],
+        [
+          "/virtual/2026/poster/10007938",
+          "MSCR: Exploring the Vulnerability of LLMs’ Mathematical Reasoning Abilities Using Multi-Source Candidate Replacement"
+        ],
+        [
+          "/virtual/2026/poster/10009820",
+          "STEDiff: Revealing the Spatial and Temporal Redundancy of Backdoor Attacks in Text-to-Image Diffusion Models"
+        ],
+        [
+          "/virtual/2026/poster/10008058",
+          "Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective"
+        ],
+        [
+          "/virtual/2026/poster/10008756",
+          "SELF-HARMONY: LEARNING TO HARMONIZE SELF-SUPERVISION AND SELF-PLAY IN TEST-TIME REINFORCEMENT LEARNING"
+        ],
+        [
+          "/virtual/2026/poster/10009031",
+          "Robust Adversarial Attacks Against Unknown Disturbance via Inverse Gradient Sample"
+        ],
+        [
+          "/virtual/2026/poster/10010240",
+          "ATEX-CF: Attack-Informed Counterfactual Explanations for Graph Neural Networks"
+        ],
+        [
+          "/virtual/2026/poster/10006435",
+          "Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems"
+        ],
+        [
+          "/virtual/2026/poster/10007241",
+          "Robust Spiking Neural Networks Against Adversarial Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10006869",
+          "Exponential-Wrapped Mechanisms: Differential Privacy on Hadamard Manifolds Made Practical"
+        ],
+        [
+          "/virtual/2026/poster/10010171",
+          "ULD-Net: Enabling Ultra-Low-Degree Fully Polynomial Networks for Homomorphically Encrypted Inference"
+        ],
+        [
+          "/virtual/2026/poster/10007974",
+          "SecP-Tuning: Efficient Privacy-Preserving Prompt Tuning for Large Language Models via MPC"
+        ],
+        [
+          "/virtual/2026/poster/10009061",
+          "Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks"
+        ],
+        [
+          "/virtual/2026/poster/10010503",
+          "Benchmarking Bias Mitigation Toward Fairness Without Harm from Vision to LVLMs"
+        ],
+        [
+          "/virtual/2026/poster/10008430",
+          "On-Policy RL Meets Off-Policy Experts: Harmonizing Supervised Fine-Tuning and Reinforcement Learning via Dynamic Weighting"
+        ],
+        [
+          "/virtual/2026/poster/10006559",
+          "Efficient Adversarial Attacks on High-dimensional Offline Bandits"
+        ],
+        [
+          "/virtual/2026/poster/10007359",
+          "RMFlow: Refined Mean Flow by a Noise-Injection Step for Multimodal Generation"
+        ],
+        [
+          "/virtual/2026/poster/10010887",
+          "GeneBreaker: Jailbreak Attacks against DNA Language Models with Pathogenicity Guidance"
+        ],
+        [
+          "/virtual/2026/poster/10010541",
+          "A General Framework for Black-Box Attacks Under Cost Asymmetry"
+        ],
+        [
+          "/virtual/2026/poster/10008740",
+          "Federated Learning of Quantile Inference under Local Differential Privacy"
+        ],
+        [
+          "/virtual/2026/poster/10010954",
+          "Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models"
+        ],
+        [
+          "/virtual/2026/poster/10009194",
+          "Adversarial Attacks Already Tell the Answer: Directional Bias-Guided Test-time Defense for Vision-Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10007255",
+          "MOAI: Module-Optimizing Architecture for Non-Interactive Secure Transformer Inference"
+        ],
+        [
+          "/virtual/2026/poster/10006527",
+          "SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense"
+        ],
+        [
+          "/virtual/2026/poster/10006685",
+          "Attack-Resistant Watermarking for AIGC Image Forensics via Diffusion-based Semantic Deflection"
+        ],
+        [
+          "/virtual/2026/poster/10006738",
+          "ReTrace: Reinforcement Learning-Guided Reconstruction Attacks on Machine Unlearning"
+        ],
+        [
+          "/virtual/2026/poster/10007115",
+          "Operationalizing Data Minimization for Privacy-Preserving LLM Prompting"
+        ],
+        [
+          "/virtual/2026/poster/10007597",
+          "HarmonyGNNs: Harmonizing Heterophily and Homophily in GNNs via Self-Supervised Node Encoding"
+        ],
+        [
+          "/virtual/2026/poster/10007637",
+          "Image Can Bring Your Memory Back: A Novel Multi-Modal Guided Attack against Image Generation Model Unlearning"
+        ],
+        [
+          "/virtual/2026/poster/10007658",
+          "Stacked from One: Multi-Scale Self-Injection for Context Window Extension"
+        ],
+        [
+          "/virtual/2026/poster/10007735",
+          "LingoLoop Attack: Trapping MLLMs via Linguistic Context and State Entrapment into Endless Loops"
+        ],
+        [
+          "/virtual/2026/poster/10007797",
+          "Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10007869",
+          "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10007949",
+          "Defending against Backdoor Attacks via Module Switching"
+        ],
+        [
+          "/virtual/2026/poster/10008139",
+          "RESCUE: Retrieval Augmented Secure Code Generation"
+        ],
+        [
+          "/virtual/2026/poster/10008263",
+          "NDAD: Negative-Direction Aware Decoding for Large Language Models via Controllable Hallucination Signal Injection"
+        ],
+        [
+          "/virtual/2026/poster/10008382",
+          "Natural Identifiers for Privacy and Data Audits in Large Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10008431",
+          "Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs"
+        ],
+        [
+          "/virtual/2026/poster/10008650",
+          "Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks"
+        ],
+        [
+          "/virtual/2026/poster/10008809",
+          "SMOTE and Mirrors: Exposing Privacy Leakage from Synthetic Minority Oversampling"
+        ],
+        [
+          "/virtual/2026/poster/10009084",
+          "SafeMoE: Safe Fine-Tuning for MoE LLMs by Aligning Harmful Input Routing"
+        ],
+        [
+          "/virtual/2026/poster/10009403",
+          "Detecting Temporal Misalignment Attacks in Multimodal Fusion for Autonomous Driving"
+        ],
+        [
+          "/virtual/2026/poster/10009472",
+          "Pisces: Cryptography-based Private Retrieval-Augmented Generation with Dual-Path Retrieval"
+        ],
+        [
+          "/virtual/2026/poster/10009541",
+          "No, of Course I Can! Deeper Fine-Tuning Attacks That Bypass Token-Level Safety Mechanisms"
+        ],
+        [
+          "/virtual/2026/poster/10010017",
+          "A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems"
+        ],
+        [
+          "/virtual/2026/poster/10010390",
+          "Monitoring Decomposition Attacks with Lightweight Sequential Monitors"
+        ],
+        [
+          "/virtual/2026/poster/10010630",
+          "EvA: Evolutionary Attacks on Graphs"
+        ],
+        [
+          "/virtual/2026/poster/10010693",
+          "Robustify Spiking Neural Networks via Dominant Singular Deflation under Heterogeneous Training Vulnerability"
+        ],
+        [
+          "/virtual/2026/poster/10010791",
+          "JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models"
+        ],
+        [
+          "/virtual/2026/poster/10010839",
+          "All That Glitters Is Not Gold: Key-Secured 3D Secrets within 3D Gaussian Splatting"
+        ],
+        [
+          "/virtual/2026/poster/10011249",
+          "No Prior, No Leakage: Revisiting Reconstruction Attacks in Trained Neural Networks"
+        ],
+        [
+          "/virtual/2026/poster/10011464",
+          "Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models"
+        ],
+        [
+          "/virtual/2026/poster/10011727",
+          "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale"
+        ],
+        [
+          "/virtual/2026/poster/10011808",
+          "Cyber-Zero: Training Cybersecurity Agents without Runtime"
+        ],
+        [
+          "/virtual/2026/poster/10011901",
+          "Language Models are Injective and Hence Invertible"
+        ],
+        [
+          "/virtual/2026/poster/10008277",
+          "Physically-Guided Optical Inversion Enable Non-Contact Side-Channel Attack on Isolated Screens"
+        ],
+        [
+          "/virtual/2026/poster/10009190",
+          "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing"
+        ],
+        [
+          "/public/PrivacyPolicy",
+          "Our Privacy Policy »"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "ICML",
+      "url": "https://proceedings.mlr.press/",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "AAAI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/issue/archive",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "NeurIPS",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2026",
+      "status": 404,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "ACL",
+      "url": "https://aclanthology.org/events/acl-2026/",
+      "error": "curl: (28) Operation timed out after 25005 milliseconds with 423939 out of 18926839 bytes received\n"
+    },
+    {
+      "source": "CVPR",
+      "url": "https://openaccess.thecvf.com/CVPR2026",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "ICCV",
+      "url": "https://openaccess.thecvf.com/ICCV2025",
+      "status": 200,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "Google Project Zero",
+      "url": "https://googleprojectzero.blogspot.com/",
+      "error": "curl: (28) Connection timed out after 25006 milliseconds\n"
+    },
+    {
+      "source": "Google Threat Intelligence / Mandiant",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+      "error": "curl: (28) Connection timed out after 25001 milliseconds\n"
+    },
+    {
+      "source": "Microsoft Security / MSRC",
+      "url": "https://www.microsoft.com/security/blog/",
+      "status": 403,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/",
+      "status": 200,
+      "matches": [
+        [
+          "https://www.paloaltonetworks.com/unit42",
+          "Security Consulting"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+          "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors"
+        ],
+        [
+          "#top-cyberthreats",
+          "High Profile Threats"
+        ],
+        [
+          "#threat-actor-groups",
+          "Threat Actor Groups"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+          "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/network-security/",
+          "Network security"
+        ],
+        [
+          "/category/top-threats",
+          "View high profile threats"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/category/top-cyberthreats/",
+          "High Profile Threats"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+          "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+          "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems."
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+          "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
+          "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+          "Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/threat-bulletin/ot-threat-research-arc/",
+          "Industrial & Critical Infrastructure Security"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/threat-bulletin/ot-threat-research-arc/",
+          "Explore OT Threat Research"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+          "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
+          "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+          "Unwrapping Retail Peak Season Cyber Threats"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+          "The Current Landscape of OAuth Attacks"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/credential-based-attacks/",
+          "Credential-based attacks"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+          "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/threat-intelligence/",
+          "Threat intelligence"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+          "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/threat-intelligence/",
+          "Threat intelligence"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/new-frontier-of-genai-threats-a-comprehensive-guide-to-prompt-attacks/",
+          "How Prompt Attacks Exploit GenAI and How to Fight Back"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/prompt-injection/",
+          "Prompt injection"
+        ],
+        [
+          "/category/threat-actor-groups",
+          "All threat actor posts"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/advanced-persistent-threat/",
+          "Advanced Persistent Threat"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/espionage-campaigns-target-se-asian-government-org/",
+          "Converging Interests: Analysis of Threat Clusters Targeting a Southeast Asian Government"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/boggy-serpens-threat-assessment/",
+          "Boggy Serpens Threat Assessment"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/tag/advanced-persistent-threat/",
+          "Advanced Persistent Threat"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/category/nation-state-cyberattacks/",
+          "Nation-State Cyberattacks"
+        ],
+        [
+          "https://unit42.paloaltonetworks.com/ransomhouse-encryption-upgrade/",
+          "From Linear to Complex: An Upgrade in RansomHouse Encryption"
+        ],
+        [
+          "https://www.paloaltonetworks.com/legal-notices/privacy",
+          "Privacy Statement."
+        ],
+        [
+          "https://www.paloaltonetworks.com/legal-notices/privacy",
+          "Palo Alto Networks Privacy Statement"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security",
+          "AI-Powered Network Security Platform"
+        ],
+        [
+          "https://www.paloaltonetworks.com/ai-security",
+          "Secure AI by Design"
+        ],
+        [
+          "https://www.paloaltonetworks.com/sase/ai-access-security",
+          "AI Access Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/security-subscriptions",
+          "Cloud Delivered Security Services"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/advanced-threat-prevention",
+          "Advanced Threat Prevention"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/advanced-dns-security",
+          "Advanced DNS Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/enterprise-device-security",
+          "Enterprise IoT Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/medical-device-security",
+          "Medical IoT Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/network-security/ot-security-solution",
+          "Industrial OT Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/sase",
+          "Secure Access Service Edge"
+        ],
+        [
+          "https://www.paloaltonetworks.com/cortex",
+          "AI-Driven Security Operations Platform"
+        ],
+        [
+          "https://www.paloaltonetworks.com/cortex/cloud/application-security",
+          "Application Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/cortex/cloud/cloud-posture-security",
+          "Cloud Posture Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/cortex/cloud/runtime-security",
+          "Cloud Runtime Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/idira",
+          "Next-Generation Identity Security"
+        ],
+        [
+          "https://www.paloaltonetworks.com/unit42",
+          "Threat Intel and Incident Response Services"
+        ],
+        [
+          "https://www.paloaltonetworks.com/unit42/build-your-security-strategy",
+          "Build Your Security Strategy"
+        ],
+        [
+          "https://www.paloaltonetworks.com/unit42/respond",
+          "Respond to a Cyber Attack"
+        ],
+        [
+          "https://www.paloaltonetworks.com/security-disclosure",
+          "Report a Vulnerability"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/",
+      "status": 403,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "腾讯玄武实验室",
+      "url": "https://xlab.tencent.com/cn/",
+      "status": 200,
+      "matches": [
+        [
+          "/cn/tags/browser-security/",
+          "browser security"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "腾讯科恩实验室",
+      "url": "https://keenlab.tencent.com/zh/",
+      "status": 200,
+      "matches": [
+        [
+          "https://github.com/KeenSecurityLab/BinAbsInspector",
+          "https://github.com/KeenSecurityLab/BinAbsInspector"
+        ],
+        [
+          "/zh/tags/macOS-iOS-Exploitation-Vulnerability/",
+          "macOS, iOS, Exploitation, Vulnerability"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "Anthropic Research / Frontier Red Team",
+      "url": "https://www.anthropic.com/research",
+      "status": 200,
+      "matches": [
+        [
+          "/research/coordinated-vulnerability-disclosure-timelines",
+          "Updating our coordinated vulnerability disclosure policy timelines"
+        ]
+      ],
+      "date_links": []
+    },
+    {
+      "source": "OpenAI Security Research",
+      "url": "https://openai.com/research/",
+      "status": 403,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "NIST Cybersecurity",
+      "url": "https://www.nist.gov/cybersecurity",
+      "status": 200,
+      "matches": [
+        [
+          "/cybersecurity-and-privacy",
+          "Cybersecurity and Privacy"
+        ],
+        [
+          "https://nvd.nist.gov/",
+          "National Vulnerability Database"
+        ],
+        [
+          "https://csrc.nist.gov/",
+          "Computer Security Resource Center (CSRC)"
+        ],
+        [
+          "/cyberframework",
+          "Cybersecurity Framework"
+        ],
+        [
+          "/privacy-framework",
+          "Privacy Framework"
+        ],
+        [
+          "/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions",
+          "NICE Workforce Framework for Cybersecurity"
+        ],
+        [
+          "https://nccoe.nist.gov/",
+          "National Cybersecurity Center of Excellence (NCCoE)"
+        ],
+        [
+          "/itl/smallbusinesscyber",
+          "Small Business Cybersecurity Corner"
+        ],
+        [
+          "https://csrc.nist.gov/",
+          "Computer Security Resource Center (CSRC)"
+        ],
+        [
+          "/cybersecurity-awareness-education-and-workforce-development",
+          "Cybersecurity Awareness, Education, and Workforce Development"
+        ],
+        [
+          "/cybersecurity-measurement",
+          "Cybersecurity measurement"
+        ],
+        [
+          "/privacy-engineering",
+          "Privacy engineering"
+        ],
+        [
+          "/securing-emerging-technologies",
+          "Securing emerging technologies"
+        ],
+        [
+          "/cyberframework",
+          "Cybersecurity Framework"
+        ],
+        [
+          "/privacy-framework",
+          "Privacy Framework"
+        ],
+        [
+          "https://csrc.nist.gov/projects/human-centered-cybersecurity",
+          "Human-centered cybersecurity"
+        ],
+        [
+          "/publications/search/topic/248731",
+          "View Cybersecurity and Privacy Publications"
+        ],
+        [
+          "/laboratories/projects-programs/topic/248731",
+          "View Cybersecurity and Privacy Research Projects"
+        ],
+        [
+          "/news-events/upcoming-events/topic/248731",
+          "View Upcoming Cybersecurity and Privacy Events"
+        ],
+        [
+          "/blogs/cybersecurity-insights/kicking-cybersecurity-career-week-nist",
+          "Kicking off Cybersecurity Career Week with NIST!"
+        ],
+        [
+          "/blogs/cybersecurity-insights/introducing-new-small-business-cybersecurity-support-program-finder",
+          "Introducing the New Small Business Cybersecurity Support Program Finder"
+        ],
+        [
+          "/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
+          "Securing Water and Wastewater Operational Technology Environments"
+        ],
+        [
+          "/patents/topic/248731",
+          "View Cybersecurity and Privacy Patents"
+        ],
+        [
+          "https://www.commerce.gov/vulnerability-disclosure-policy",
+          "Vulnerability Disclosure"
+        ]
+      ],
+      "date_links": [
+        "/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+        "/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+        "/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+        "/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+        "/news-events/news/2026/10/nist-publishes-reports-open-radio-access-network-o-ran-security",
+        "/news-events/news/2026/10/nist-publishes-reports-open-radio-access-network-o-ran-security"
+      ]
+    },
+    {
+      "source": "CISA",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "status": 200,
+      "matches": [
+        [
+          "/staying-secure-large-scale-events",
+          "Staying Secure at Events"
+        ],
+        [
+          "/cybersecurity-awareness-month",
+          "Cybersecurity Awareness Month"
+        ],
+        [
+          "/topics/cybersecurity-best-practices",
+          "Cybersecurity Best Practices"
+        ],
+        [
+          "/topics/cyber-threats-and-response",
+          "Cyber Threats and Response"
+        ],
+        [
+          "/topics/critical-infrastructure-security-and-resilience",
+          "Critical Infrastructure Security and Resilience"
+        ],
+        [
+          "/topics/election-security",
+          "Election Security"
+        ],
+        [
+          "/topics/information-communications-technology-supply-chain-security",
+          "Information and Communications Technology Supply Chain Security"
+        ],
+        [
+          "/topics/physical-security",
+          "Physical Security"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Cybersecurity Alerts & Advisories"
+        ],
+        [
+          "/staying-secure-large-scale-events",
+          "Staying Secure at Events"
+        ],
+        [
+          "/cybersecurity-awareness-month",
+          "Cybersecurity Awareness Month"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Cybersecurity Advisory"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "National Security Agency"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Identity Theft and Personal Cyber Threats"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Industrial Control System Vulnerabilities"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Nation-State Threats"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Manage Industrial Control System Security Risks"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Cybersecurity Best Practices"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Internet of Things Security"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Securing Networks"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Critical Infrastructure Security and Resilience"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Election Security"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Information and Communications Technology Supply Chain Security"
+        ],
+        [
+          "/news-events/cybersecurity-advisories",
+          "Cyber Threats and Response"
+        ],
+        [
+          "/news-events/cybersecurity-advisories?f%5B0%5D=advisory_type%3A94",
+          "Cybersecurity Advisories"
+        ],
+        [
+          "/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+          "CISA Adds Six Known Exploited Vulnerabilities to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+          "CISA Adds Four Known Exploited Vulnerabilities to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "CISA Adds One Known Exploited Vulnerability to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "CISA Adds One Known Exploited Vulnerability to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "CISA Adds One Known Exploited Vulnerability to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+        ],
+        [
+          "/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "CISA Adds Two Known Exploited Vulnerabilities to Catalog"
+        ],
+        [
+          "https://www.cisa.gov/news-events/cybersecurity-advisories?f%5B0%5D=advisory_type%3A94",
+          "Cybersecurity Advisory"
+        ],
+        [
+          "/",
+          "Cybersecurity & Infrastructure Security Agency"
+        ]
+      ],
+      "date_links": [
+        "/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+        "/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+        "/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      ]
+    },
+    {
+      "source": "Gartner",
+      "url": "https://www.gartner.com/en/cybersecurity",
+      "status": 403,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "Forrester",
+      "url": "https://www.forrester.com/security-risk/",
+      "status": 404,
+      "matches": [],
+      "date_links": []
+    },
+    {
+      "source": "IDC Security",
+      "url": "https://www.idc.com/",
+      "status": 200,
+      "matches": [
+        [
+          "/events/become-a-sponsor/it-security/",
+          "IT Security Summit"
+        ],
+        [
+          "/events/become-a-sponsor/it-security/",
+          "IT Security Summit"
+        ]
+      ],
+      "date_links": []
+    }
+  ]
+}

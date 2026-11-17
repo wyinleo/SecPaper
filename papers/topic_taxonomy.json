@@ -1,5 +1,5 @@
 {
-  "version": "1.10.11",
+  "version": "1.10.12",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -577,6 +577,12 @@
     "arxiv-2610-41307-erase": "ai-security",
     "arxiv-2610-38789-federated-selection": "identity-privacy",
     "arxiv-2610-38595-risk-landscape": "ai-security",
-    "arxiv-2610-38543-privacy-assessment": "identity-privacy"
+    "arxiv-2610-38543-privacy-assessment": "identity-privacy",
+    "arxiv-2611-06135-sbvul": "software-application-security",
+    "arxiv-2611-08281-multimodal-sea": "ai-security",
+    "arxiv-2611-08811-thought-injection": "ai-security",
+    "arxiv-2611-08884-audience-privacy": "identity-privacy",
+    "arxiv-2611-11305-intent-auditing": "ai-security",
+    "arxiv-2611-06629-glasswing-evidence": "software-application-security"
   }
 }

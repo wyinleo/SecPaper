@@ -1,6 +1,6 @@
 # 2026-W46 重做：时间窗口与来源证据
 
-最终结果：4篇动态，缺6篇；主题来源组0/2/2。正式会议0篇、预印4篇。历史十篇已独立迁移，过往误补审计另存归档。
+扩大覆盖后：10篇动态，缺0篇；主题来源组1/4/5。正式会议0篇、预印10篇。以下旧4篇结果保留为过程记录。历史十篇已独立迁移，过往误补审计另存归档。
 
 本期窗口：2026-11-03 至 2026-11-09（北京时间）。实际回溯检索：2026-11-17。此前用历史基线补数的结论撤销，旧审计记录见 [归档](../archive/2026-W46-superseded-20261117.md)。首次被整理者发现不构成窗口内更新。
 
@@ -87,3 +87,30 @@ From Formal Methods to Fuzzing and Back（2611.12338，11月9日）是个人回�
 W47跨期排除检索找到The Devil is in the Context（2611.04672），日期11月3日，完整19页PDF。按185条索引四级去重未命中，接收未核验保持预印。回到W46重新完成检索与正文阶段，不能丢入W47。此前0/2/1为首版状态，增补后0/2/2，总缺6。
 
 补充后的第二/三阶段检查：原文19页核对六个公开漏洞、九维定义、144对组合、40任务生成与安全/效用分母。新增一篇十四字段与两段原文推理通过；HARPOON例子回读方法后明确为机制归纳，Easycatch同步复核并升revision2。10位新学者和MSRC署名来源于论文；MSRC团队地域未知，未强行套用Microsoft美国总部。窗口内事件检查、186篇全缓存及署名覆盖、recent_papers≤3、--check、正式构建、本地完整Chrome导航均通过。新增来源组最终0/2/2，缺额4/1/1，总缺6。
+
+## 本次扩大覆盖的可复查范围
+
+全部关键词命中链接与访问状态保存在 [机器可读记录](2026-W46-expanded-sources.json)。此表记录入口覆盖；尚无逐篇版本日期的链接保留为未核准，不能视为已排除论文。旧表最多12条的样例计数仅为历史记录，本次取消此截断。NeurIPS另查 [2026官方论文下载列表](https://neurips.cc/Downloads/2026)，原proceedings路径404不再作为该会议不可检索的结论。
+
+| 新增候选 | 原始事件与正文 | 处理 |
+|---|---|---|
+| [SBVUL: Statement-Based Vulnerability Detection](https://arxiv.org/abs/2611.06135v1) | 2026-11-04 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](https://arxiv.org/abs/2611.08281v1) | 2026-11-06 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents](https://arxiv.org/abs/2611.08811v1) | 2026-11-06 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Who's Asking? Audience-Conditioned Privatization](https://arxiv.org/abs/2611.08884v1) | 2026-11-06 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation](https://arxiv.org/abs/2611.11305v1) | 2026-11-08 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+| [Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing](https://arxiv.org/abs/2611.06629v1) | 2026-11-04 北京时间 v1；完整PDF | 收录；预印，未同行评审 |
+
+### 扩大覆盖后的完成检查
+
+- [x] 重读检索规则与事实输入，21会议及14行业入口全组复查；本次批量访问实际以USENIX开头，未满足轮换起点，记录为执行偏差，W47改以CCS、ISSTA、NeurIPS起始。四级去重通过。旧版本XekRung（2605.00072v2）、Sentinel（2509.14956v2）缺具体实质差异证据，暂缓；移动UI（2609.16732v2）、Broken Gates（2607.18659v2）同理，均不作首次公开收录。
+- [x] 六篇新候选完整正文、8步推理与两段Easycatch完成；逐项校对14字段和术语，原四篇精读保持。
+- [x] 时效门槛优先，安全/软件系统/AI为1/4/5，较4/3/3缺安全3，软件和AI分别调剂1、2；本次核准的新全文集中于代理安全及漏洞研究。会议官网普遍缺该窗口版本日期，作者页未补出可靠正式事件，不能用旧会议论文调剂。此为本轮已核准分布，未证明安全来源已穷尽。
+- [x] 作者主页核对Thomas Mosk、Martin Pinzger和Sikha Pentyala；SCCH单位拼写依据官网修正，Tacoma单独建实体。Silverfort根据论文邮箱与公司署名文章对应。Zhitao He、Chi Him Zhang、Chengru Han、Yi R. (May) Fung中文姓名尚待一一对应，保留原署名及昵称别名。
+- [x] 全部存量预印元数据回查。Not an A11y的DOI入口仍无法访问，作者填写的期刊栏不足以升级；TADP的WACV2027作者自述缺官方接收列表，保持预印。未新增历史状态升级。
+- [x] 行业池复查未新增已读、未重复且满足本期窗口的观点；原3条保留。
+- [x] Glasswing原文快照10月28日与样本声称截止10月31日存在待解释差异，已在精读保留；结论仅作为未同行评审的观察研究。
+
+作者主页：[Thomas Mosk](https://thomasmosk.com/)、[Martin Pinzger](https://pinzger.github.io/)、[Sikha Pentyala](https://sikhapentyala.github.io/)。单位依据：[SCCH官方信息](https://www.scch.at/impressum)。构建、交互与发布结果在实际运行后补记。
+
+维护验证：200篇与200精读缓存，6主领域、73行业观点、266单位；26项Python和5项JS测试通过。本地Chrome已核对日期、术语、三个入口、作者及排行跳转、最近论文、返回与单弹层循环，页面无异常。运行前7个用户修改的差异逐字节一致。

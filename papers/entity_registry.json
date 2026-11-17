@@ -1,5 +1,5 @@
 {
-  "version": "1.12.11",
+  "version": "1.12.12",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -277,7 +277,15 @@
     "CTTC-CERCA": {"id": "cttc-cerca", "display_name": "CTTC-CERCA", "language": "en", "source": "https://arxiv.org/pdf/2610.40744v1", "country_code": "ESP"},
     "华南理工大学": {"id": "south-china-university-technology", "display_name": "华南理工大学", "language": "zh", "source": "https://www2.scut.edu.cn/_upload/article/files/d3/78/8cde8c77459587f668af8f5e285f/e994291c-9e8e-4336-9a79-69982eb7ee30.pdf", "country_code": "CHN"},
     "Apple Inc.": {"id": "apple-inc", "display_name": "Apple Inc.", "language": "en", "source": "https://arxiv.org/pdf/2610.38789v1"},
-    "Karlstad University": {"id": "karlstad-university", "display_name": "Karlstad University", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1", "country_code": "SWE"}
+    "Karlstad University": {"id": "karlstad-university", "display_name": "Karlstad University", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1", "country_code": "SWE"},
+    "University of Klagenfurt": {"id": "university-of-klagenfurt", "display_name": "University of Klagenfurt", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1", "country_code": "AUT"},
+    "Software Competence Center Hagenberg": {"id": "software-competence-center-hagenberg", "display_name": "Software Competence Center Hagenberg", "language": "en", "source": "https://www.scch.at/impressum", "country_code": "AUT"},
+    "Alias Robotics": {"id": "alias-robotics", "display_name": "Alias Robotics", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1", "country_code": "ESP"},
+    "University of Texas at Austin": {"id": "university-of-texas-at-austin", "display_name": "University of Texas at Austin", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1", "country_code": "USA"},
+    "University of Washington Tacoma": {"id": "university-of-washington-tacoma", "display_name": "University of Washington Tacoma", "language": "en", "source": "https://arxiv.org/pdf/2611.08884v1", "country_code": "USA"},
+    "Zillow": {"id": "zillow", "display_name": "Zillow", "language": "en", "source": "https://arxiv.org/pdf/2611.08884v1"},
+    "Silverfort": {"id": "silverfort", "display_name": "Silverfort", "language": "en", "source": "https://www.silverfort.com/de/blog/rlm-jb-a-new-approach-to-ai-jailbreak-detection/"},
+    "Queen Mary University of London": {"id": "queen-mary-university-of-london", "display_name": "Queen Mary University of London", "language": "en", "source": "https://arxiv.org/pdf/2611.06629v1", "country_code": "GBR"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -1225,7 +1233,27 @@
     "Wenjie Wang": {"id": "wenjie-wang", "display_name": "Wenjie Wang", "publication_name": "Wenjie Wang", "language": "en", "source": "https://arxiv.org/pdf/2610.38595v1"},
     "Samuel Wairimu": {"id": "samuel-wairimu", "display_name": "Samuel Wairimu", "publication_name": "Samuel Wairimu", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1"},
     "Leonardo Horn Iwaya": {"id": "leonardo-horn-iwaya", "display_name": "Leonardo Horn Iwaya", "publication_name": "Leonardo Horn Iwaya", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1"},
-    "Ala Sarah Alaqra": {"id": "ala-sarah-alaqra", "display_name": "Ala Sarah Alaqra", "publication_name": "Ala Sarah Alaqra", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1"}
+    "Ala Sarah Alaqra": {"id": "ala-sarah-alaqra", "display_name": "Ala Sarah Alaqra", "publication_name": "Ala Sarah Alaqra", "language": "en", "source": "https://arxiv.org/pdf/2610.38543v1"},
+    "Martin Pinzger": {"id": "martin-pinzger", "display_name": "Martin Pinzger", "publication_name": "Martin Pinzger", "language": "en", "source": "https://pinzger.github.io/", "homepage": "https://pinzger.github.io/"},
+    "Katharina Stengg": {"id": "katharina-stengg", "display_name": "Katharina Stengg", "publication_name": "Katharina Stengg", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1"},
+    "Christian Macho": {"id": "christian-macho", "display_name": "Christian Macho", "publication_name": "Christian Macho", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1"},
+    "Stefan Schöberl": {"id": "stefan-schoberl", "display_name": "Stefan Schöberl", "publication_name": "Stefan Schöberl", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1"},
+    "Víctor Mayoral Vilches": {"id": "victor-mayoral-vilches", "display_name": "Víctor Mayoral Vilches", "publication_name": "Víctor Mayoral Vilches", "language": "en", "source": "https://arxiv.org/pdf/2611.06135v1"},
+    "Zhitao He": {"id": "zhitao-he", "display_name": "Zhitao He", "publication_name": "Zhitao He", "language": "en", "source": "https://arxiv.org/pdf/2611.08281v1"},
+    "Chi Him Zhang": {"id": "chi-him-zhang", "display_name": "Chi Him Zhang", "publication_name": "Chi Him Zhang", "language": "en", "source": "https://arxiv.org/pdf/2611.08281v1"},
+    "Chengru Han": {"id": "chengru-han", "display_name": "Chengru Han", "publication_name": "Chengru Han", "language": "en", "source": "https://arxiv.org/pdf/2611.08281v1"},
+    "Yi R. (May) Fung": {"id": "yi-r-may-fung", "display_name": "Yi R. (May) Fung", "publication_name": "Yi R. (May) Fung", "language": "en", "source": "https://arxiv.org/pdf/2611.08281v1", "aliases": ["Yi R Fung", "Yi R. Fung"]},
+    "Parth Illendula": {"id": "parth-illendula", "display_name": "Parth Illendula", "publication_name": "Parth Illendula", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1"},
+    "Garik Livingston": {"id": "garik-livingston", "display_name": "Garik Livingston", "publication_name": "Garik Livingston", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1"},
+    "Zain Shamsi": {"id": "zain-shamsi", "display_name": "Zain Shamsi", "publication_name": "Zain Shamsi", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1"},
+    "Ravi Srinivasan": {"id": "ravi-srinivasan", "display_name": "Ravi Srinivasan", "publication_name": "Ravi Srinivasan", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1"},
+    "Alex Liu": {"id": "alex-liu", "display_name": "Alex Liu", "publication_name": "Alex Liu", "language": "en", "source": "https://arxiv.org/pdf/2611.08811v1"},
+    "Daniil Filienko": {"id": "daniil-filienko", "display_name": "Daniil Filienko", "publication_name": "Daniil Filienko", "language": "en", "source": "https://arxiv.org/pdf/2611.08884v1"},
+    "Anusha Bagalkotkar": {"id": "anusha-bagalkotkar", "display_name": "Anusha Bagalkotkar", "publication_name": "Anusha Bagalkotkar", "language": "en", "source": "https://arxiv.org/pdf/2611.08884v1"},
+    "Xan Vongsathorn": {"id": "xan-vongsathorn", "display_name": "Xan Vongsathorn", "publication_name": "Xan Vongsathorn", "language": "en", "source": "https://arxiv.org/pdf/2611.08884v1"},
+    "Sikha Pentyala": {"id": "sikha-pentyala", "display_name": "Sikha Pentyala", "publication_name": "Sikha Pentyala", "language": "en", "source": "https://sikhapentyala.github.io/", "homepage": "https://sikhapentyala.github.io/"},
+    "Doron Shavit": {"id": "doron-shavit", "display_name": "Doron Shavit", "publication_name": "Doron Shavit", "language": "en", "source": "https://arxiv.org/pdf/2611.11305v1"},
+    "Thomas Mosk": {"id": "thomas-mosk", "display_name": "Thomas Mosk", "publication_name": "Thomas Mosk", "language": "en", "source": "https://thomasmosk.com/", "homepage": "https://thomasmosk.com/"}
   },
   "paper_scholar_overrides": {
     "arxiv-2610-36603-maven-lifecycle": {"Yuan Tian": "Yuan Tian (Queen’s University)"},

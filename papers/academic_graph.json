@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T16:24:35+08:00",
+  "generated_at": "2026-11-17T16:38:15+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 194,
-    "papers_with_affiliations": 194,
+    "indexed_papers": 200,
+    "papers_with_affiliations": 200,
     "scored_top_venue_papers": 156
   },
   "categories": [
@@ -1862,6 +1862,41 @@
       "verified_score": 2
     },
     {
+      "id": "hkust",
+      "name": "香港科技大學",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "香港科技大學"
+      ],
+      "papers": [
+        "arxiv-2611-08281-multimodal-sea",
+        "ieee-sp26-wang-jailbreak-guardrails",
+        "usenix-sec26-wang-masleak"
+      ],
+      "scholars": [
+        "Chengru Han",
+        "Chi Him Zhang",
+        "Liwen Wang",
+        "Shing-Chi Cheung",
+        "Shuai Wang",
+        "Xunguang Wang",
+        "Yi R. (May) Fung",
+        "Zhenlan Ji",
+        "Zhitao He",
+        "Zongjie Li",
+        "Zongyi Lyu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "anthropic",
       "name": "Anthropic",
       "country_code": "USA",
@@ -2628,36 +2663,6 @@
       "scholars": [
         "Hongwei Yao",
         "Yi Liu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "hkust",
-      "name": "香港科技大學",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "香港科技大學"
-      ],
-      "papers": [
-        "ieee-sp26-wang-jailbreak-guardrails",
-        "usenix-sec26-wang-masleak"
-      ],
-      "scholars": [
-        "Liwen Wang",
-        "Shing-Chi Cheung",
-        "Shuai Wang",
-        "Xunguang Wang",
-        "Zhenlan Ji",
-        "Zongjie Li",
-        "Zongyi Lyu"
       ],
       "annual_scores": {
         "2026": {
@@ -6299,6 +6304,22 @@
       "verified_score": 0
     },
     {
+      "id": "alias-robotics",
+      "name": "Alias Robotics",
+      "country_code": "ESP",
+      "affiliation_names": [
+        "Alias Robotics"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "scholars": [
+        "Víctor Mayoral Vilches"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "cttc-cerca",
       "name": "CTTC-CERCA",
       "country_code": "ESP",
@@ -6599,6 +6620,22 @@
       "verified_score": 0
     },
     {
+      "id": "queen-mary-university-of-london",
+      "name": "Queen Mary University of London",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "Queen Mary University of London"
+      ],
+      "papers": [
+        "arxiv-2611-06629-glasswing-evidence"
+      ],
+      "scholars": [
+        "Thomas Mosk"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "queens-university",
       "name": "Queen’s University",
       "country_code": "CAN",
@@ -6685,6 +6722,38 @@
       "verified_score": 0
     },
     {
+      "id": "silverfort",
+      "name": "Silverfort",
+      "country_code": "",
+      "affiliation_names": [
+        "Silverfort"
+      ],
+      "papers": [
+        "arxiv-2611-11305-intent-auditing"
+      ],
+      "scholars": [
+        "Doron Shavit"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "software-competence-center-hagenberg",
+      "name": "Software Competence Center Hagenberg",
+      "country_code": "AUT",
+      "affiliation_names": [
+        "Software Competence Center Hagenberg"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "scholars": [
+        "Stefan Schöberl"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "stanford-university",
       "name": "Stanford University",
       "country_code": "USA",
@@ -6751,6 +6820,24 @@
       "verified_score": 0
     },
     {
+      "id": "university-of-klagenfurt",
+      "name": "University of Klagenfurt",
+      "country_code": "AUT",
+      "affiliation_names": [
+        "University of Klagenfurt"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "scholars": [
+        "Christian Macho",
+        "Katharina Stengg",
+        "Martin Pinzger"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-of-notre-dame",
       "name": "University of Notre Dame",
       "country_code": "USA",
@@ -6778,6 +6865,43 @@
       ],
       "scholars": [
         "Yanan Guo"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-of-texas-at-austin",
+      "name": "University of Texas at Austin",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "scholars": [
+        "Alex Liu",
+        "Garik Livingston",
+        "Parth Illendula",
+        "Ravi Srinivasan",
+        "Zain Shamsi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-of-washington-tacoma",
+      "name": "University of Washington Tacoma",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Washington Tacoma"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "scholars": [
+        "Daniil Filienko",
+        "Sikha Pentyala"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6846,6 +6970,23 @@
       ],
       "scholars": [
         "Saleh Khalaj Monfared"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "zillow",
+      "name": "Zillow",
+      "country_code": "",
+      "affiliation_names": [
+        "Zillow"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "scholars": [
+        "Anusha Bagalkotkar",
+        "Xan Vongsathorn"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -31839,6 +31980,30 @@
       ]
     },
     {
+      "id": "alex-liu",
+      "name": "Alex Liu",
+      "publication_name": "Alex Liu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08811v1",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08811-thought-injection",
+          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08811v1"
+        }
+      ]
+    },
+    {
       "id": "alexandra-souly",
       "name": "Alexandra Souly",
       "publication_name": "Alexandra Souly",
@@ -32127,6 +32292,30 @@
       ]
     },
     {
+      "id": "anusha-bagalkotkar",
+      "name": "Anusha Bagalkotkar",
+      "publication_name": "Anusha Bagalkotkar",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08884v1",
+      "institutions": [
+        "Zillow"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08884-audience-privacy",
+          "title": "Who's Asking? Audience-Conditioned Privatization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08884v1"
+        }
+      ]
+    },
+    {
       "id": "ardalan-amiri-sani-uci",
       "name": "Ardalan Amiri Sani",
       "publication_name": "Ardalan Amiri Sani",
@@ -32295,6 +32484,30 @@
       ]
     },
     {
+      "id": "chengru-han",
+      "name": "Chengru Han",
+      "publication_name": "Chengru Han",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08281v1",
+      "institutions": [
+        "香港科技大學"
+      ],
+      "papers": [
+        "arxiv-2611-08281-multimodal-sea"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08281-multimodal-sea",
+          "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08281v1"
+        }
+      ]
+    },
+    {
       "id": "chengyu-song",
       "name": "Chengyu Song",
       "publication_name": "Chengyu Song",
@@ -32315,6 +32528,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/yin"
+        }
+      ]
+    },
+    {
+      "id": "chi-him-zhang",
+      "name": "Chi Him Zhang",
+      "publication_name": "Chi Him Zhang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08281v1",
+      "institutions": [
+        "香港科技大學"
+      ],
+      "papers": [
+        "arxiv-2611-08281-multimodal-sea"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08281-multimodal-sea",
+          "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08281v1"
         }
       ]
     },
@@ -32387,6 +32624,30 @@
           "year": 2014,
           "venue": "ACM PLDI 2014",
           "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
+      "id": "christian-macho",
+      "name": "Christian Macho",
+      "publication_name": "Christian Macho",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.06135v1",
+      "institutions": [
+        "University of Klagenfurt"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "title": "SBVUL: Statement-Based Vulnerability Detection",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06135v1"
         }
       ]
     },
@@ -32583,6 +32844,30 @@
       ]
     },
     {
+      "id": "daniil-filienko",
+      "name": "Daniil Filienko",
+      "publication_name": "Daniil Filienko",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08884v1",
+      "institutions": [
+        "University of Washington Tacoma"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08884-audience-privacy",
+          "title": "Who's Asking? Audience-Conditioned Privatization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08884v1"
+        }
+      ]
+    },
+    {
       "id": "darya-kaviani-berkeley",
       "name": "Darya Kaviani",
       "publication_name": "Darya Kaviani",
@@ -32771,6 +33056,30 @@
           "year": 2026,
           "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond (NeurIPS 2026)",
           "url": "https://neurips.cc/virtual/2026/poster/139377"
+        }
+      ]
+    },
+    {
+      "id": "doron-shavit",
+      "name": "Doron Shavit",
+      "publication_name": "Doron Shavit",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.11305v1",
+      "institutions": [
+        "Silverfort"
+      ],
+      "papers": [
+        "arxiv-2611-11305-intent-auditing"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-11305-intent-auditing",
+          "title": "Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.11305v1"
         }
       ]
     },
@@ -33062,6 +33371,30 @@
           "year": 2026,
           "venue": "ACM POPL 2026",
           "url": "https://doi.org/10.1145/3776669"
+        }
+      ]
+    },
+    {
+      "id": "garik-livingston",
+      "name": "Garik Livingston",
+      "publication_name": "Garik Livingston",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08811v1",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08811-thought-injection",
+          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08811v1"
         }
       ]
     },
@@ -33938,6 +34271,30 @@
       ]
     },
     {
+      "id": "katharina-stengg",
+      "name": "Katharina Stengg",
+      "publication_name": "Katharina Stengg",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.06135v1",
+      "institutions": [
+        "University of Klagenfurt"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "title": "SBVUL: Statement-Based Vulnerability Detection",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06135v1"
+        }
+      ]
+    },
+    {
       "id": "kaushal-punjabi",
       "name": "Kaushal Punjabi",
       "publication_name": "Kaushal Punjabi",
@@ -34198,6 +34555,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.36603v1"
+        }
+      ]
+    },
+    {
+      "id": "martin-pinzger",
+      "name": "Martin Pinzger",
+      "publication_name": "Martin Pinzger",
+      "homepage": "https://pinzger.github.io/",
+      "profile_source": "https://pinzger.github.io/",
+      "institutions": [
+        "University of Klagenfurt"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "title": "SBVUL: Statement-Based Vulnerability Detection",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06135v1"
         }
       ]
     },
@@ -34538,6 +34919,30 @@
       ]
     },
     {
+      "id": "parth-illendula",
+      "name": "Parth Illendula",
+      "publication_name": "Parth Illendula",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08811v1",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08811-thought-injection",
+          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08811v1"
+        }
+      ]
+    },
+    {
       "id": "paulo-segal",
       "name": "Paulo Segal",
       "publication_name": "Paulo Segal",
@@ -34726,6 +35131,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.09808v1"
+        }
+      ]
+    },
+    {
+      "id": "ravi-srinivasan",
+      "name": "Ravi Srinivasan",
+      "publication_name": "Ravi Srinivasan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08811v1",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08811-thought-injection",
+          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08811v1"
         }
       ]
     },
@@ -35068,6 +35497,30 @@
       ]
     },
     {
+      "id": "sikha-pentyala",
+      "name": "Sikha Pentyala",
+      "publication_name": "Sikha Pentyala",
+      "homepage": "https://sikhapentyala.github.io/",
+      "profile_source": "https://sikhapentyala.github.io/",
+      "institutions": [
+        "University of Washington Tacoma"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08884-audience-privacy",
+          "title": "Who's Asking? Audience-Conditioned Privatization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08884v1"
+        }
+      ]
+    },
+    {
       "id": "siqi-ma",
       "name": "Siqi Ma",
       "publication_name": "Siqi Ma",
@@ -35136,6 +35589,30 @@
           "year": 2026,
           "venue": "ACM PLDI 2026",
           "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
+      "id": "stefan-schoberl",
+      "name": "Stefan Schöberl",
+      "publication_name": "Stefan Schöberl",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.06135v1",
+      "institutions": [
+        "Software Competence Center Hagenberg"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "title": "SBVUL: Statement-Based Vulnerability Detection",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06135v1"
         }
       ]
     },
@@ -35261,6 +35738,30 @@
       ]
     },
     {
+      "id": "thomas-mosk",
+      "name": "Thomas Mosk",
+      "publication_name": "Thomas Mosk",
+      "homepage": "https://thomasmosk.com/",
+      "profile_source": "https://thomasmosk.com/",
+      "institutions": [
+        "Queen Mary University of London"
+      ],
+      "papers": [
+        "arxiv-2611-06629-glasswing-evidence"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06629-glasswing-evidence",
+          "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06629v1"
+        }
+      ]
+    },
+    {
       "id": "tianqi-fan",
       "name": "Tianqi Fan",
       "publication_name": "Tianqi Fan",
@@ -35357,6 +35858,30 @@
       ]
     },
     {
+      "id": "victor-mayoral-vilches",
+      "name": "Víctor Mayoral Vilches",
+      "publication_name": "Víctor Mayoral Vilches",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.06135v1",
+      "institutions": [
+        "Alias Robotics"
+      ],
+      "papers": [
+        "arxiv-2611-06135-sbvul"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "title": "SBVUL: Statement-Based Vulnerability Detection",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06135v1"
+        }
+      ]
+    },
+    {
       "id": "wenjie-wang",
       "name": "Wenjie Wang",
       "publication_name": "Wenjie Wang",
@@ -35449,6 +35974,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.09026v1"
+        }
+      ]
+    },
+    {
+      "id": "xan-vongsathorn",
+      "name": "Xan Vongsathorn",
+      "publication_name": "Xan Vongsathorn",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08884v1",
+      "institutions": [
+        "Zillow"
+      ],
+      "papers": [
+        "arxiv-2611-08884-audience-privacy"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08884-audience-privacy",
+          "title": "Who's Asking? Audience-Conditioned Privatization",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08884v1"
         }
       ]
     },
@@ -35665,6 +36214,30 @@
           "year": 2026,
           "venue": "ACM OOPSLA 2026",
           "url": "https://doi.org/10.1145/3798272"
+        }
+      ]
+    },
+    {
+      "id": "yi-r-may-fung",
+      "name": "Yi R. (May) Fung",
+      "publication_name": "Yi R. (May) Fung",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08281v1",
+      "institutions": [
+        "香港科技大學"
+      ],
+      "papers": [
+        "arxiv-2611-08281-multimodal-sea"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08281-multimodal-sea",
+          "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08281v1"
         }
       ]
     },
@@ -35984,6 +36557,30 @@
       ]
     },
     {
+      "id": "zain-shamsi",
+      "name": "Zain Shamsi",
+      "publication_name": "Zain Shamsi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08811v1",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08811-thought-injection",
+          "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08811v1"
+        }
+      ]
+    },
+    {
       "id": "zhangsheng-wang",
       "name": "Zhangsheng Wang",
       "publication_name": "Zhangsheng Wang",
@@ -36076,6 +36673,30 @@
           "year": 2026,
           "venue": "IEEE HOST 2026",
           "url": "https://doi.org/10.1109/HOST68814.2026.11604975"
+        }
+      ]
+    },
+    {
+      "id": "zhitao-he",
+      "name": "Zhitao He",
+      "publication_name": "Zhitao He",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.08281v1",
+      "institutions": [
+        "香港科技大學"
+      ],
+      "papers": [
+        "arxiv-2611-08281-multimodal-sea"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-08281-multimodal-sea",
+          "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08281v1"
         }
       ]
     },
@@ -36919,6 +37540,30 @@
           "id": "usenix-sec26-jia-pangolin",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "alias-robotics",
+      "target": "software-competence-center-hagenberg",
+      "papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "alias-robotics",
+      "target": "university-of-klagenfurt",
+      "papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -41484,6 +42129,18 @@
       "weight": 1
     },
     {
+      "source": "software-competence-center-hagenberg",
+      "target": "university-of-klagenfurt",
+      "papers": [
+        {
+          "id": "arxiv-2611-06135-sbvul",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "southern-university-science-technology",
       "target": "tsinghua-university",
       "papers": [
@@ -42108,6 +42765,18 @@
       "weight": 1
     },
     {
+      "source": "university-of-washington-tacoma",
+      "target": "zillow",
+      "papers": [
+        {
+          "id": "arxiv-2611-08884-audience-privacy",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-york",
       "target": "university-waterloo",
       "papers": [
@@ -42206,6 +42875,26 @@
   ],
   "publications": [
     {
+      "id": "arxiv-2611-08884-audience-privacy",
+      "title": "Who's Asking? Audience-Conditioned Privatization",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.08884v1",
+      "institutions": [
+        "university-of-washington-tacoma",
+        "zillow"
+      ],
+      "authors": [
+        "daniil-filienko",
+        "anusha-bagalkotkar",
+        "xan-vongsathorn",
+        "sikha-pentyala"
+      ]
+    },
+    {
       "id": "arxiv-2610-38543-privacy-assessment",
       "title": "The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
       "year": 2026,
@@ -42295,6 +42984,28 @@
       ]
     },
     {
+      "id": "arxiv-2611-06135-sbvul",
+      "title": "SBVUL: Statement-Based Vulnerability Detection",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.06135v1",
+      "institutions": [
+        "university-of-klagenfurt",
+        "software-competence-center-hagenberg",
+        "alias-robotics"
+      ],
+      "authors": [
+        "martin-pinzger",
+        "katharina-stengg",
+        "christian-macho",
+        "stefan-schoberl",
+        "victor-mayoral-vilches"
+      ]
+    },
+    {
       "id": "arxiv-2610-38438-rolefuzzer",
       "title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
       "year": 2026,
@@ -42332,6 +43043,25 @@
       ]
     },
     {
+      "id": "arxiv-2611-08281-multimodal-sea",
+      "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.08281v1",
+      "institutions": [
+        "hkust"
+      ],
+      "authors": [
+        "zhitao-he",
+        "chi-him-zhang",
+        "chengru-han",
+        "yi-r-may-fung"
+      ]
+    },
+    {
       "id": "ccs26-szwajcok-meme-coin-factories",
       "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
       "year": 2026,
@@ -42353,6 +43083,42 @@
         "kyle-soska",
         "mathias-payer-epfl",
         "nicolas-christin"
+      ]
+    },
+    {
+      "id": "arxiv-2611-11305-intent-auditing",
+      "title": "Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.11305v1",
+      "institutions": [
+        "silverfort"
+      ],
+      "authors": [
+        "doron-shavit"
+      ]
+    },
+    {
+      "id": "arxiv-2611-08811-thought-injection",
+      "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.08811v1",
+      "institutions": [
+        "university-of-texas-at-austin"
+      ],
+      "authors": [
+        "parth-illendula",
+        "garik-livingston",
+        "zain-shamsi",
+        "ravi-srinivasan",
+        "alex-liu"
       ]
     },
     {
@@ -42392,6 +43158,22 @@
         "allan-kevin-t",
         "chirag-vaidya",
         "vrishank-tiwari"
+      ]
+    },
+    {
+      "id": "arxiv-2611-06629-glasswing-evidence",
+      "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.06629v1",
+      "institutions": [
+        "queen-mary-university-of-london"
+      ],
+      "authors": [
+        "thomas-mosk"
       ]
     },
     {

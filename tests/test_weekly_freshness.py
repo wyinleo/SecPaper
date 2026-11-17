@@ -26,3 +26,11 @@ class WeeklyFreshnessTest(unittest.TestCase):
         with patch.object(build, 'load_index', return_value=papers):
             with self.assertRaisesRegex(ValueError, 'missing verified in-window'):
                 build.build_payload()
+
+    def test_substantive_update_needs_concrete_change(self):
+        papers = copy.deepcopy(build.load_index())
+        paper = next(p for p in papers if p['id'] == 'arxiv-2611-10099-enmo-safety')
+        paper['discovery_events'][0].pop('change')
+        with patch.object(build, 'load_index', return_value=papers):
+            with self.assertRaisesRegex(ValueError, 'substantive update needs'):
+                build.build_payload()

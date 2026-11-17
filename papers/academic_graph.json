@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T15:15:52+08:00",
+  "generated_at": "2026-11-17T15:48:14+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 186,
-    "papers_with_affiliations": 186,
-    "scored_top_venue_papers": 154
+    "indexed_papers": 188,
+    "papers_with_affiliations": 188,
+    "scored_top_venue_papers": 155
   },
   "categories": [
     {
@@ -203,6 +203,137 @@
       "verified_score": 9
     },
     {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "aaai25-gong-figstep",
+        "ase26-ni-triage-nodejs",
+        "ccs26-szwajcok-meme-coin-factories",
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "ieee-sp26-liu-generate-verify",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition",
+        "popl26-gouni-security-reasoning"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Conglei Wang",
+        "Darion Cassel",
+        "Eileen Xiao",
+        "Enze Liu",
+        "Frank Pfenning",
+        "Fraser Brown",
+        "Hemant Gouni",
+        "J. Zico Kolter",
+        "Jonathan Aldrich",
+        "Limin Jia",
+        "Matt Fredrikson",
+        "Min-Chien Hsu",
+        "Nicolas Christin",
+        "Nicolas Szwajcok",
+        "Nuno Sabino",
+        "Ping-Lun Wang",
+        "Pratiksha Thaker",
+        "Riad S. Wahby",
+        "Riccardo Paccagnella",
+        "Ronghao Ni",
+        "Ruben Martins",
+        "Taro Tsuchiya",
+        "Terrance Liu",
+        "Zhiwei Steven Wu",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 1,
+          "ai": 0,
+          "total": 4
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 8
+    },
+    {
+      "id": "eth-zurich",
+      "name": "ETH Zurich",
+      "country_code": "CHE",
+      "affiliation_names": [
+        "ETH Zurich"
+      ],
+      "papers": [
+        "arxiv-2611-04672-context-dimensions",
+        "ccs26-szwajcok-meme-coin-factories",
+        "ieee-sp26-arquint-diodon",
+        "ieee-sp26-dutly-aex-nstep",
+        "ieee-sp26-graf-vmscape",
+        "ieee-sp26-xu-resolver-profiler",
+        "neurips24-debenedetti-agentdojo",
+        "satml26-debenedetti-camel",
+        "usenix-sec26-lermen-deanonymization",
+        "usenix-sec26-xu-dalens"
+      ],
+      "scholars": [
+        "Adrian Perrig",
+        "Ali Hajiabadi",
+        "Daniel Paleka",
+        "Edoardo Debenedetti",
+        "Florian Tramèr",
+        "Friederike Groschupp",
+        "Ivan Puddu",
+        "Jean-Claude Graf",
+        "Jie Zhang",
+        "Joshua Swanson",
+        "Kari Kostiainen",
+        "Kaveh Razavi",
+        "Kristina Nikolić",
+        "Linard Arquint",
+        "Liwen Xu",
+        "Luca Beurer-Kellner",
+        "Marc Fischer",
+        "Michael Aerni",
+        "Mislav Balunovic",
+        "Nicolas Dutly",
+        "Nicolas Szwajcok",
+        "Peter Müller",
+        "Sandro Rüegge",
+        "Srdjan Čapkun",
+        "Zechao Cai"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 7,
+          "software": 0,
+          "ai": 0,
+          "total": 7
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 8
+    },
+    {
       "id": "ruhr-university-bochum",
       "name": "Ruhr University Bochum",
       "country_code": "DEU",
@@ -337,130 +468,6 @@
         }
       },
       "verified_score": 8
-    },
-    {
-      "id": "carnegie-mellon-university",
-      "name": "Carnegie Mellon University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Carnegie Mellon University"
-      ],
-      "papers": [
-        "aaai25-gong-figstep",
-        "ase26-ni-triage-nodejs",
-        "iclr25-andriushchenko-agentharm",
-        "icml24-mazeika-harmbench",
-        "ieee-sp26-liu-generate-verify",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition",
-        "popl26-gouni-security-reasoning"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Conglei Wang",
-        "Darion Cassel",
-        "Eileen Xiao",
-        "Frank Pfenning",
-        "Fraser Brown",
-        "Hemant Gouni",
-        "J. Zico Kolter",
-        "Jonathan Aldrich",
-        "Limin Jia",
-        "Matt Fredrikson",
-        "Min-Chien Hsu",
-        "Nuno Sabino",
-        "Ping-Lun Wang",
-        "Pratiksha Thaker",
-        "Riad S. Wahby",
-        "Riccardo Paccagnella",
-        "Ronghao Ni",
-        "Ruben Martins",
-        "Terrance Liu",
-        "Zhiwei Steven Wu",
-        "Zico Kolter"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 1,
-          "total": 3
-        },
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 7
-    },
-    {
-      "id": "eth-zurich",
-      "name": "ETH Zurich",
-      "country_code": "CHE",
-      "affiliation_names": [
-        "ETH Zurich"
-      ],
-      "papers": [
-        "arxiv-2611-04672-context-dimensions",
-        "ieee-sp26-arquint-diodon",
-        "ieee-sp26-dutly-aex-nstep",
-        "ieee-sp26-graf-vmscape",
-        "ieee-sp26-xu-resolver-profiler",
-        "neurips24-debenedetti-agentdojo",
-        "satml26-debenedetti-camel",
-        "usenix-sec26-lermen-deanonymization",
-        "usenix-sec26-xu-dalens"
-      ],
-      "scholars": [
-        "Adrian Perrig",
-        "Ali Hajiabadi",
-        "Daniel Paleka",
-        "Edoardo Debenedetti",
-        "Florian Tramèr",
-        "Friederike Groschupp",
-        "Ivan Puddu",
-        "Jean-Claude Graf",
-        "Jie Zhang",
-        "Joshua Swanson",
-        "Kari Kostiainen",
-        "Kaveh Razavi",
-        "Kristina Nikolić",
-        "Linard Arquint",
-        "Liwen Xu",
-        "Luca Beurer-Kellner",
-        "Marc Fischer",
-        "Michael Aerni",
-        "Mislav Balunovic",
-        "Nicolas Dutly",
-        "Peter Müller",
-        "Sandro Rüegge",
-        "Srdjan Čapkun",
-        "Zechao Cai"
-      ],
-      "annual_scores": {
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2026": {
-          "security": 6,
-          "software": 0,
-          "ai": 0,
-          "total": 6
-        }
-      },
-      "verified_score": 7
     },
     {
       "id": "nanyang-technological-university",
@@ -607,6 +614,49 @@
           "software": 0,
           "ai": 1,
           "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
+      "id": "epfl",
+      "name": "EPFL",
+      "country_code": "CHE",
+      "affiliation_names": [
+        "EPFL"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories",
+        "iclr25-andriushchenko-agentharm",
+        "ieee-sp26-wang-smufuzz",
+        "neurips25-kuntz-os-harm",
+        "usenix-sec26-chen-vulgenie"
+      ],
+      "scholars": [
+        "Agatha Duzan",
+        "Chibin Zhang",
+        "Francesco Croce",
+        "Hao Zhao",
+        "Maksym Andriushchenko",
+        "Mathias Payer",
+        "Nicolas Flammarion",
+        "Nicolas Szwajcok",
+        "Qinying Wang",
+        "Thomas Kuntz",
+        "Yi Xiang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 0,
+          "ai": 0,
+          "total": 3
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
         }
       },
       "verified_score": 4
@@ -1006,47 +1056,6 @@
         "2019": {
           "security": 1,
           "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 2,
-          "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "epfl",
-      "name": "EPFL",
-      "country_code": "CHE",
-      "affiliation_names": [
-        "EPFL"
-      ],
-      "papers": [
-        "iclr25-andriushchenko-agentharm",
-        "ieee-sp26-wang-smufuzz",
-        "neurips25-kuntz-os-harm",
-        "usenix-sec26-chen-vulgenie"
-      ],
-      "scholars": [
-        "Agatha Duzan",
-        "Chibin Zhang",
-        "Francesco Croce",
-        "Hao Zhao",
-        "Maksym Andriushchenko",
-        "Mathias Payer",
-        "Nicolas Flammarion",
-        "Qinying Wang",
-        "Thomas Kuntz",
-        "Yi Xiang"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 1,
           "ai": 0,
           "total": 1
         },
@@ -3430,6 +3439,29 @@
       "scholars": [
         "Julian Horsch",
         "Konrad Hohentanner"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "fullstack",
+      "name": "Fullstack",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Fullstack"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "scholars": [
+        "Kyle Soska"
       ],
       "annual_scores": {
         "2026": {
@@ -6552,6 +6584,24 @@
       "verified_score": 0
     },
     {
+      "id": "universitat-rovira-i-virgili",
+      "name": "Universitat Rovira i Virgili",
+      "country_code": "ESP",
+      "affiliation_names": [
+        "Universitat Rovira i Virgili"
+      ],
+      "papers": [
+        "arxiv-2611-17012-search-anonymization"
+      ],
+      "scholars": [
+        "Benet Manzanares",
+        "David Sánchez",
+        "Josep Domingo-Ferrer"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-of-notre-dame",
       "name": "University of Notre Dame",
       "country_code": "USA",
@@ -6647,6 +6697,22 @@
       ],
       "scholars": [
         "Saleh Khalaj Monfared"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "ecole-normale-superieure-universite-psl",
+      "name": "École normale supérieure, Université PSL",
+      "country_code": "FRA",
+      "affiliation_names": [
+        "École normale supérieure, Université PSL"
+      ],
+      "papers": [
+        "arxiv-2611-17012-search-anonymization"
+      ],
+      "scholars": [
+        "Josep Domingo-Ferrer"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -9400,6 +9466,45 @@
           "year": 2025,
           "venue": "USENIX Security 2025",
           "url": "https://www.usenix.org/system/files/usenixsecurity25-beer.pdf"
+        }
+      ]
+    },
+    {
+      "id": "mathias-payer-epfl",
+      "name": "Mathias Payer",
+      "publication_name": "Mathias Payer",
+      "homepage": "https://nebelwelt.net/",
+      "profile_source": "https://nebelwelt.net/",
+      "institutions": [
+        "EPFL"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories",
+        "usenix-sec26-chen-vulgenie"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
+        },
+        {
+          "id": "usenix-sec26-chen-vulgenie",
+          "title": "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis",
+          "year": 2026,
+          "venue": "USENIX Security 2026",
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"
         }
       ]
     },
@@ -14302,6 +14407,37 @@
           "year": 2013,
           "venue": "ACM CCS 2013",
           "url": "https://doi.org/10.1145/2508859.2516660"
+        }
+      ]
+    },
+    {
+      "id": "enze-liu",
+      "name": "Enze Liu",
+      "publication_name": "Enze Liu",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3830454.3846641",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
         }
       ]
     },
@@ -19307,6 +19443,37 @@
       ]
     },
     {
+      "id": "kyle-soska",
+      "name": "Kyle Soska",
+      "publication_name": "Kyle Soska",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3830454.3846641",
+      "institutions": [
+        "Fullstack"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
+        }
+      ]
+    },
+    {
       "id": "le-wang-beihang",
       "name": "Le Wang",
       "publication_name": "Le Wang",
@@ -20516,37 +20683,6 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong"
-        }
-      ]
-    },
-    {
-      "id": "mathias-payer-epfl",
-      "name": "Mathias Payer",
-      "publication_name": "Mathias Payer",
-      "homepage": "",
-      "profile_source": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei",
-      "institutions": [
-        "EPFL"
-      ],
-      "papers": [
-        "usenix-sec26-chen-vulgenie"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "usenix-sec26-chen-vulgenie",
-          "title": "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis",
-          "year": 2026,
-          "venue": "USENIX Security 2026",
-          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"
         }
       ]
     },
@@ -21827,6 +21963,37 @@
       ]
     },
     {
+      "id": "nicolas-christin",
+      "name": "Nicolas Christin",
+      "publication_name": "Nicolas Christin",
+      "homepage": "https://www.ece.cmu.edu/directory/bios/christin-nicolas.html",
+      "profile_source": "https://www.ece.cmu.edu/directory/bios/christin-nicolas.html",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
+        }
+      ]
+    },
+    {
       "id": "nicolas-dutly-eth",
       "name": "Nicolas Dutly",
       "publication_name": "Nicolas Dutly",
@@ -21885,6 +22052,39 @@
           "year": 2025,
           "venue": "NeurIPS 2025 Datasets and Benchmarks Track",
           "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html"
+        }
+      ]
+    },
+    {
+      "id": "nicolas-szwajcok",
+      "name": "Nicolas Szwajcok",
+      "publication_name": "Nicolas Szwajcok",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3830454.3846641",
+      "institutions": [
+        "Carnegie Mellon University",
+        "EPFL",
+        "ETH Zurich"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
         }
       ]
     },
@@ -25703,6 +25903,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "taro-tsuchiya",
+      "name": "Taro Tsuchiya",
+      "publication_name": "Taro Tsuchiya",
+      "homepage": "",
+      "profile_source": "https://doi.org/10.1145/3830454.3846641",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "ccs26-szwajcok-meme-coin-factories"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+          "year": 2026,
+          "venue": "ACM CCS 2026",
+          "url": "https://doi.org/10.1145/3830454.3846641"
         }
       ]
     },
@@ -31544,6 +31775,30 @@
       ]
     },
     {
+      "id": "benet-manzanares",
+      "name": "Benet Manzanares",
+      "publication_name": "Benet Manzanares",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.17012v1",
+      "institutions": [
+        "Universitat Rovira i Virgili"
+      ],
+      "papers": [
+        "arxiv-2611-17012-search-anonymization"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17012-search-anonymization",
+          "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17012v1"
+        }
+      ]
+    },
+    {
       "id": "byung-gon-chun",
       "name": "Byung-Gon Chun",
       "publication_name": "Byung-Gon Chun",
@@ -31996,6 +32251,30 @@
           "year": 2026,
           "venue": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond (NeurIPS 2026)",
           "url": "https://neurips.cc/virtual/2026/poster/139377"
+        }
+      ]
+    },
+    {
+      "id": "david-sanchez",
+      "name": "David Sánchez",
+      "publication_name": "David Sánchez",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.17012v1",
+      "institutions": [
+        "Universitat Rovira i Virgili"
+      ],
+      "papers": [
+        "arxiv-2611-17012-search-anonymization"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17012-search-anonymization",
+          "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17012v1"
         }
       ]
     },
@@ -32839,6 +33118,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.04672v1"
+        }
+      ]
+    },
+    {
+      "id": "josep-domingo-ferrer",
+      "name": "Josep Domingo-Ferrer",
+      "publication_name": "Josep Domingo-Ferrer",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2611.17012v1",
+      "institutions": [
+        "Universitat Rovira i Virgili",
+        "École normale supérieure, Université PSL"
+      ],
+      "papers": [
+        "arxiv-2611-17012-search-anonymization"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-17012-search-anonymization",
+          "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.17012v1"
         }
       ]
     },
@@ -34983,6 +35287,28 @@
       "weight": 3
     },
     {
+      "source": "carnegie-mellon-university",
+      "target": "epfl",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "year": 2026,
+          "venue_group": "security"
+        },
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-kuntz-os-harm",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 3
+    },
+    {
       "source": "imperial-global-singapore",
       "target": "nanyang-technological-university",
       "papers": [
@@ -35047,23 +35373,6 @@
         }
       ],
       "weight": 3
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "epfl",
-      "papers": [
-        {
-          "id": "iclr25-andriushchenko-agentharm",
-          "year": 2025,
-          "venue_group": null
-        },
-        {
-          "id": "neurips25-kuntz-os-harm",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 2
     },
     {
       "source": "carnegie-mellon-university",
@@ -36014,6 +36323,30 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "eth-zurich",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
+      "target": "fullstack",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "microsoft-corporation",
       "papers": [
         {
@@ -36793,11 +37126,47 @@
       "weight": 1
     },
     {
+      "source": "ecole-normale-superieure-universite-psl",
+      "target": "universitat-rovira-i-virgili",
+      "papers": [
+        {
+          "id": "arxiv-2611-17012-search-anonymization",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "epfl",
+      "target": "eth-zurich",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "epfl",
       "target": "fudan-university",
       "papers": [
         {
           "id": "usenix-sec26-chen-vulgenie",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "epfl",
+      "target": "fullstack",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
           "year": 2026,
           "venue_group": "security"
         }
@@ -36858,6 +37227,18 @@
       "papers": [
         {
           "id": "ieee-sp26-wang-smufuzz",
+          "year": 2026,
+          "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "eth-zurich",
+      "target": "fullstack",
+      "papers": [
+        {
+          "id": "ccs26-szwajcok-meme-coin-factories",
           "year": 2026,
           "venue_group": "security"
         }
@@ -40690,6 +41071,30 @@
       ]
     },
     {
+      "id": "ccs26-szwajcok-meme-coin-factories",
+      "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+      "year": 2026,
+      "venue": "ACM CCS 2026",
+      "venue_group": "security",
+      "status": "accepted",
+      "first_seen": "2026-11-17",
+      "url": "https://doi.org/10.1145/3830454.3846641",
+      "institutions": [
+        "carnegie-mellon-university",
+        "epfl",
+        "eth-zurich",
+        "fullstack"
+      ],
+      "authors": [
+        "nicolas-szwajcok",
+        "taro-tsuchiya",
+        "enze-liu",
+        "kyle-soska",
+        "mathias-payer-epfl",
+        "nicolas-christin"
+      ]
+    },
+    {
       "id": "arxiv-2611-10099-enmo-safety",
       "title": "Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
       "year": 2026,
@@ -40732,6 +41137,25 @@
         "chao-zhang-tsinghua",
         "elisa-bertino",
         "siqi-ma"
+      ]
+    },
+    {
+      "id": "arxiv-2611-17012-search-anonymization",
+      "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint-unreviewed",
+      "first_seen": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.17012v1",
+      "institutions": [
+        "universitat-rovira-i-virgili",
+        "ecole-normale-superieure-universite-psl"
+      ],
+      "authors": [
+        "david-sanchez",
+        "benet-manzanares",
+        "josep-domingo-ferrer"
       ]
     },
     {

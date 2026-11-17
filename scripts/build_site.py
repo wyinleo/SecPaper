@@ -763,6 +763,11 @@ def build_payload() -> dict[str, Any]:
             events = [e for e in paper.get("discovery_events", []) if e.get("week") == week]
             if not events or not all(window["start"] <= e.get("date", "") <= window["end"] and e.get("source", "").startswith("https://") and e.get("kind") in {"first-public", "accepted", "published", "substantive-update"} for e in events):
                 raise ValueError(f"{paper['id']}: missing verified in-window discovery event for {week}")
+            for event in events:
+                if event["kind"] == "substantive-update" and not (event.get("change", "").strip() and event.get("version", "").strip()):
+                    raise ValueError(f"{paper['id']}: substantive update needs a version and concrete change")
+                if event["kind"] in {"accepted", "published"} and "accepted" not in paper.get("status", ""):
+                    raise ValueError(f"{paper['id']}: formal event requires verified accepted status")
     weeks = [
         {"id": week, "label": week, "count": count, "note": windows.get(week, {}).get("note", "")}
         for week, count in sorted(week_counts.items(), reverse=True)

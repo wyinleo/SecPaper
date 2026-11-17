@@ -1,5 +1,5 @@
 {
-  "version": "1.12.9",
+  "version": "1.12.10",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
@@ -265,7 +265,10 @@
     "University of Wollongong": {"id": "university-of-wollongong", "display_name": "University of Wollongong", "language": "en", "source": "https://scholars.uow.edu.au/siqi-ma", "country_code": "AUS"},
     "国际关系学院": {"id": "university-international-relations", "display_name": "国际关系学院", "language": "zh", "source": "https://youth.uir.cn/info/1182/2511.htm", "country_code": "CHN"},
     "Intel Corporation": {"id": "intel-corporation", "display_name": "Intel Corporation", "language": "en", "source": "https://arxiv.org/pdf/2611.10099v1"},
-    "Microsoft Security Response Center": {"id": "microsoft-security-response-center", "display_name": "Microsoft Security Response Center", "language": "en", "source": "https://arxiv.org/pdf/2611.04672v1"}
+    "Microsoft Security Response Center": {"id": "microsoft-security-response-center", "display_name": "Microsoft Security Response Center", "language": "en", "source": "https://arxiv.org/pdf/2611.04672v1"},
+    "Fullstack": {"id": "fullstack", "display_name": "Fullstack", "language": "en", "source": "https://nebelwelt.net/files/26CCS.pdf", "country_code": "USA"},
+    "Universitat Rovira i Virgili": {"id": "universitat-rovira-i-virgili", "display_name": "Universitat Rovira i Virgili", "language": "en", "source": "https://arxiv.org/pdf/2611.17012v1", "country_code": "ESP"},
+    "École normale supérieure, Université PSL": {"id": "ecole-normale-superieure-universite-psl", "display_name": "École normale supérieure, Université PSL", "language": "en", "source": "https://arxiv.org/pdf/2611.17012v1", "country_code": "FRA"}
   },
   "scholars": {
     "Min Yang": {"id": "min-yang-fudan", "display_name": "杨珉", "publication_name": "Min Yang", "language": "zh", "homepage": "https://min-yang-fudan.github.io/", "source": "https://secsys.fudan.edu.cn/members"},
@@ -566,7 +569,7 @@
     "Bofei Chen": {"id": "bofei-chen-fudan", "display_name": "Bofei Chen", "publication_name": "Bofei Chen", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"},
     "Shuang Liao": {"id": "shuang-liao-fudan", "display_name": "Shuang Liao", "publication_name": "Shuang Liao", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"},
     "Chibin Zhang": {"id": "chibin-zhang-epfl", "display_name": "Chibin Zhang", "publication_name": "Chibin Zhang", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"},
-    "Mathias Payer": {"id": "mathias-payer-epfl", "display_name": "Mathias Payer", "publication_name": "Mathias Payer", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei"},
+    "Mathias Payer": {"id": "mathias-payer-epfl", "display_name": "Mathias Payer", "publication_name": "Mathias Payer", "language": "en", "source": "https://nebelwelt.net/", "homepage": "https://nebelwelt.net/"},
     "Nurullah Erinola": {"id": "nurullah-erinola-rub", "display_name": "Nurullah Erinola", "publication_name": "Nurullah Erinola", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"},
     "Marcel Maehren": {"id": "marcel-maehren-rub", "display_name": "Marcel Maehren", "publication_name": "Marcel Maehren", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"},
     "Sven Hebrok": {"id": "sven-hebrok-paderborn", "display_name": "Sven Hebrok", "publication_name": "Sven Hebrok", "language": "en", "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget"},
@@ -1175,7 +1178,15 @@
     "Arnav Garg": {"id": "arnav-garg", "display_name": "Arnav Garg", "publication_name": "Arnav Garg", "language": "en", "source": "https://arxiv.org/abs/2611.04672v1"},
     "Hammond Pearce": {"id": "hammond-pearce", "display_name": "Hammond Pearce", "publication_name": "Hammond Pearce", "language": "en", "source": "https://arxiv.org/abs/2611.04672v1"},
     "Andrew Paverd": {"id": "andrew-paverd", "display_name": "Andrew Paverd", "publication_name": "Andrew Paverd", "language": "en", "source": "https://arxiv.org/abs/2611.04672v1"},
-    "Ahmed Salem": {"id": "ahmed-salem", "display_name": "Ahmed Salem", "publication_name": "Ahmed Salem", "language": "en", "source": "https://arxiv.org/abs/2611.04672v1"}
+    "Ahmed Salem": {"id": "ahmed-salem", "display_name": "Ahmed Salem", "publication_name": "Ahmed Salem", "language": "en", "source": "https://arxiv.org/abs/2611.04672v1"},
+    "Nicolas Szwajcok": {"id": "nicolas-szwajcok", "display_name": "Nicolas Szwajcok", "publication_name": "Nicolas Szwajcok", "language": "en", "source": "https://doi.org/10.1145/3830454.3846641"},
+    "Taro Tsuchiya": {"id": "taro-tsuchiya", "display_name": "Taro Tsuchiya", "publication_name": "Taro Tsuchiya", "language": "en", "source": "https://doi.org/10.1145/3830454.3846641"},
+    "Enze Liu": {"id": "enze-liu", "display_name": "Enze Liu", "publication_name": "Enze Liu", "language": "en", "source": "https://doi.org/10.1145/3830454.3846641"},
+    "Kyle Soska": {"id": "kyle-soska", "display_name": "Kyle Soska", "publication_name": "Kyle Soska", "language": "en", "source": "https://doi.org/10.1145/3830454.3846641"},
+    "Nicolas Christin": {"id": "nicolas-christin", "display_name": "Nicolas Christin", "publication_name": "Nicolas Christin", "language": "en", "source": "https://www.ece.cmu.edu/directory/bios/christin-nicolas.html", "homepage": "https://www.ece.cmu.edu/directory/bios/christin-nicolas.html"},
+    "David Sánchez": {"id": "david-sanchez", "display_name": "David Sánchez", "publication_name": "David Sánchez", "language": "en", "source": "https://arxiv.org/abs/2611.17012v1"},
+    "Benet Manzanares": {"id": "benet-manzanares", "display_name": "Benet Manzanares", "publication_name": "Benet Manzanares", "language": "en", "source": "https://arxiv.org/abs/2611.17012v1"},
+    "Josep Domingo-Ferrer": {"id": "josep-domingo-ferrer", "display_name": "Josep Domingo-Ferrer", "publication_name": "Josep Domingo-Ferrer", "language": "en", "source": "https://arxiv.org/abs/2611.17012v1"}
   },
   "paper_scholar_overrides": {
     "arxiv-2610-36603-maven-lifecycle": {"Yuan Tian": "Yuan Tian (Queen’s University)"},

@@ -1,5 +1,5 @@
 {
-  "version": "1.10.9",
+  "version": "1.10.10",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -163,6 +163,8 @@
     "artifact": "成果类型"
   },
   "topics": {
+    "blockchain": {"label": "区块链", "facet": "object"},
+    "market-manipulation": {"label": "市场操纵", "facet": "problem"},
     "adaptive-red-teaming": {"label": "自适应红队", "facet": "method"},
     "agent-memory": {"label": "智能体记忆", "facet": "object"},
     "agent-security": {"label": "智能体安全", "facet": "object"},
@@ -381,6 +383,8 @@
     "program-repair": {"label": "程序修复", "facet": "method"}
   },
   "primary_domain_overrides": {
+    "arxiv-2611-17012-search-anonymization": "identity-privacy",
+    "ccs26-szwajcok-meme-coin-factories": "software-application-security",
     "arxiv-2611-04672-context-dimensions": "ai-security",
     "arxiv-2611-10099-enmo-safety": "ai-security",
     "arxiv-2611-09026-harpoon": "software-application-security",

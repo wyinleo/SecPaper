@@ -755,6 +755,9 @@ def build_payload() -> dict[str, Any]:
     papers.sort(key=lambda item: (item["first_seen"], item["title"]), reverse=True)
     windows_path = ROOT / "papers" / "weekly_windows.json"
     windows = load_json(windows_path) if windows_path.exists() else {}
+    for paper in papers:
+        if paper["collection"] != "foundation" and re.fullmatch(r"\d{4}-W\d{2}", paper["week"]) and paper["week"] >= "2026-W45" and paper["week"] not in windows:
+            raise ValueError(f"{paper['id']}: declare {paper['week']} in papers/weekly_windows.json")
     for week, window in windows.items():
         week_counts.setdefault(week, 0)
         for paper in papers:

@@ -34,3 +34,11 @@ class WeeklyFreshnessTest(unittest.TestCase):
         with patch.object(build, 'load_index', return_value=papers):
             with self.assertRaisesRegex(ValueError, 'substantive update needs'):
                 build.build_payload()
+
+    def test_future_issue_requires_a_declared_window(self):
+        papers = copy.deepcopy(build.load_index())
+        paper = next(p for p in papers if p['id'] == 'arxiv-2610-38438-rolefuzzer')
+        paper['weekly_notes'] = ['weekly/2026/2026-W48.md']
+        with patch.object(build, 'load_index', return_value=papers):
+            with self.assertRaisesRegex(ValueError, 'declare 2026-W48'):
+                build.build_payload()

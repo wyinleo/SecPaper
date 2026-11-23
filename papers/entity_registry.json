@@ -6,7 +6,6 @@
     "unverified": "无法可靠核验的名称保留论文原文，并进入待核验清单。"
   },
   "institutions": {
-    "University of Illinois Urbana-Champaign": {"id": "university-illinois-urbana-champaign", "display_name": "University of Illinois Urbana-Champaign", "language": "en", "country_code": "USA", "source": "https://ischool.illinois.edu/people/haohan-wang"},
     "Amazon": {"id": "amazon", "display_name": "Amazon", "language": "en", "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf"},
     "Mozilla": {"id": "mozilla", "display_name": "Mozilla", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
     "Virginia Commonwealth University": {"id": "virginia-commonwealth-university", "display_name": "Virginia Commonwealth University", "language": "en", "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf", "country_code": "USA"},
@@ -40,7 +39,7 @@
     "维也纳工业大学": {"id": "tu-wien", "country_code": "AUT", "display_name": "TU Wien", "language": "en"},
     "拜罗伊特大学": {"id": "university-bayreuth", "country_code": "DEU", "display_name": "University of Bayreuth", "language": "en"},
     "阿尔伯塔大学及阿尔伯塔机器智能研究院": {"id": "ualberta-amii", "country_code": "CAN", "display_name": "University of Alberta / Alberta Machine Intelligence Institute (Amii)", "language": "en"},
-    "伊利诺伊大学厄巴纳—香槟分校": {"id": "uiuc", "country_code": "USA", "display_name": "University of Illinois Urbana-Champaign", "language": "en", "aliases": ["UIUC", "University of Illinois Urbana-Champaign"]},
+    "伊利诺伊大学厄巴纳—香槟分校": {"id": "uiuc", "country_code": "USA", "display_name": "University of Illinois Urbana-Champaign", "language": "en", "aliases": ["UIUC", "University of Illinois Urbana-Champaign"], "source": "https://ischool.illinois.edu/people/haohan-wang"},
     "克莱姆森大学": {"id": "clemson-university", "country_code": "USA", "display_name": "Clemson University", "language": "en"},
     "加州大学伯克利分校": {"id": "uc-berkeley", "country_code": "USA", "display_name": "University of California, Berkeley", "language": "en", "aliases": ["UC Berkeley", "University of California, Berkeley"]},
     "华盛顿大学": {"id": "university-washington", "country_code": "USA", "display_name": "University of Washington", "language": "en"},

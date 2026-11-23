@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:02:08+08:00",
+  "generated_at": "2026-11-23T18:05:17+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
@@ -687,7 +687,7 @@
       "verified_score": 5
     },
     {
-      "id": "university-illinois-urbana-champaign",
+      "id": "uiuc",
       "name": "University of Illinois Urbana-Champaign",
       "country_code": "USA",
       "affiliation_names": [
@@ -39946,6 +39946,23 @@
     },
     {
       "source": "uc-berkeley",
+      "target": "uiuc",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "uc-berkeley",
       "target": "university-california-santa-barbara",
       "papers": [
         {
@@ -39957,23 +39974,6 @@
           "id": "usenix-sec26-kim-agentic",
           "year": 2026,
           "venue_group": "security"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "uc-berkeley",
-      "target": "university-illinois-urbana-champaign",
-      "papers": [
-        {
-          "id": "icml24-mazeika-harmbench",
-          "year": 2024,
-          "venue_group": "ai"
-        },
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
         }
       ],
       "weight": 2
@@ -40105,7 +40105,7 @@
     },
     {
       "source": "amazon",
-      "target": "university-illinois-urbana-champaign",
+      "target": "uiuc",
       "papers": [
         {
           "id": "icml26-hermon-secfid",
@@ -40717,7 +40717,7 @@
     },
     {
       "source": "carnegie-mellon-university",
-      "target": "university-illinois-urbana-champaign",
+      "target": "uiuc",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -40861,7 +40861,7 @@
     },
     {
       "source": "center-ai-safety",
-      "target": "university-illinois-urbana-champaign",
+      "target": "uiuc",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -43597,7 +43597,7 @@
     },
     {
       "source": "largosoft",
-      "target": "university-illinois-urbana-champaign",
+      "target": "uiuc",
       "papers": [
         {
           "id": "arxiv-2607-05120-agent-data-injection",
@@ -43681,7 +43681,7 @@
     },
     {
       "source": "microsoft-corporation",
-      "target": "university-illinois-urbana-champaign",
+      "target": "uiuc",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -44533,24 +44533,24 @@
     },
     {
       "source": "purdue-university",
-      "target": "university-florida",
+      "target": "uiuc",
       "papers": [
         {
-          "id": "arxiv-2611-18442-cantraj",
-          "year": 2026,
-          "venue_group": null
+          "id": "neurips25-lee-sec-bench",
+          "year": 2025,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
     },
     {
       "source": "purdue-university",
-      "target": "university-illinois-urbana-champaign",
+      "target": "university-florida",
       "papers": [
         {
-          "id": "neurips25-lee-sec-bench",
-          "year": 2025,
-          "venue_group": "ai"
+          "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -44809,24 +44809,24 @@
     },
     {
       "source": "seoul-national-university",
-      "target": "university-california-santa-barbara",
+      "target": "uiuc",
       "papers": [
         {
-          "id": "usenix-sec26-kim-agentic",
+          "id": "arxiv-2607-05120-agent-data-injection",
           "year": 2026,
-          "venue_group": "security"
+          "venue_group": null
         }
       ],
       "weight": 1
     },
     {
       "source": "seoul-national-university",
-      "target": "university-illinois-urbana-champaign",
+      "target": "university-california-santa-barbara",
       "papers": [
         {
-          "id": "arxiv-2607-05120-agent-data-injection",
+          "id": "usenix-sec26-kim-agentic",
           "year": 2026,
-          "venue_group": null
+          "venue_group": "security"
         }
       ],
       "weight": 1
@@ -45408,6 +45408,66 @@
       "weight": 1
     },
     {
+      "source": "uiuc",
+      "target": "uk-ai-security-institute",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uiuc",
+      "target": "university-california-santa-barbara",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uiuc",
+      "target": "university-chicago",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uiuc",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uiuc",
+      "target": "virtue-ai",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "uk-ai-security-institute",
       "target": "university-california-santa-barbara",
       "papers": [
@@ -45422,18 +45482,6 @@
     {
       "source": "uk-ai-security-institute",
       "target": "university-chicago",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "uk-ai-security-institute",
-      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "neurips25-nie-secodeplt",
@@ -45505,18 +45553,6 @@
     },
     {
       "source": "university-california-santa-barbara",
-      "target": "university-illinois-urbana-champaign",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "university-california-santa-barbara",
       "target": "university-oxford",
       "papers": [
         {
@@ -45530,18 +45566,6 @@
     {
       "source": "university-california-santa-barbara",
       "target": "virtue-ai",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "university-chicago",
-      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "neurips25-nie-secodeplt",
@@ -45583,30 +45607,6 @@
           "id": "arxiv-2611-18442-cantraj",
           "year": 2026,
           "venue_group": null
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "university-illinois-urbana-champaign",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "university-illinois-urbana-champaign",
-      "target": "virtue-ai",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -45889,7 +45889,7 @@
       "first_seen": "2026-11-23",
       "url": "https://proceedings.mlr.press/v306/hermon26a.html",
       "institutions": [
-        "university-illinois-urbana-champaign",
+        "uiuc",
         "amazon"
       ],
       "authors": [
@@ -47042,7 +47042,7 @@
       "first_seen": "2026-11-16",
       "url": "https://proceedings.mlr.press/v235/mazeika24a.html",
       "institutions": [
-        "university-illinois-urbana-champaign",
+        "uiuc",
         "center-ai-safety",
         "carnegie-mellon-university",
         "uc-berkeley",
@@ -47844,7 +47844,7 @@
         "university-california-santa-barbara",
         "uc-berkeley",
         "virtue-ai",
-        "university-illinois-urbana-champaign",
+        "uiuc",
         "university-chicago",
         "university-oxford",
         "uk-ai-security-institute"
@@ -48079,7 +48079,7 @@
       "first_seen": "2026-09-21",
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "institutions": [
-        "university-illinois-urbana-champaign"
+        "uiuc"
       ],
       "authors": [
         "haoyu-zhai-uiuc",
@@ -49977,7 +49977,7 @@
       "institutions": [
         "seoul-national-university",
         "largosoft",
-        "university-illinois-urbana-champaign"
+        "uiuc"
       ],
       "authors": [
         "woohyuk-choi-snu",
@@ -50561,7 +50561,7 @@
       "first_seen": "2025-06-13",
       "url": "https://doi.org/10.52202/085713-3878",
       "institutions": [
-        "university-illinois-urbana-champaign",
+        "uiuc",
         "purdue-university"
       ],
       "authors": [

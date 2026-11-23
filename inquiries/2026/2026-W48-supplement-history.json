@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-11-23",
+  "records_traversed": 218,
+  "historical_records": 215,
+  "same_day_prior_audit": "2026-W48-redo-history.json",
+  "reused_record_checks": 208,
+  "recent_formal_checks": [
+    {
+      "id": "tosem26-sajadi-ai-patches",
+      "source": "https://doi.org/10.1145/3861341",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "conext26-stoeger-authenticated-browsing",
+      "source": "https://doi.org/10.1145/3856957",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "ozchi26-nansen-age-verification",
+      "source": "https://doi.org/10.1145/3847401.3847421",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "tosem26-mccormack-unsafe-rust",
+      "source": "https://doi.org/10.1145/3798277",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "tosem26-li-state-update",
+      "source": "https://doi.org/10.1145/3798052",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "ccs26-guo-tapspy",
+      "source": "https://doi.org/10.1145/3830454.3832570",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    },
+    {
+      "id": "ccs26-liu-drip",
+      "source": "https://doi.org/10.1145/3830454.3832577",
+      "basis": "same-day W48 redo full-text and formal-publication verification",
+      "status": "accepted"
+    }
+  ],
+  "new_topic_records": [
+    "icml26-hagag-architecture",
+    "icml26-hermon-secfid",
+    "osdi26-sharma-mohabi"
+  ],
+  "new_status_upgrades": [],
+  "access_gaps_retained": 5,
+  "note": "同日补足运行复用逐条核验结果，无额外状态升级；此前TADP与ReA-Bench修正沿用，5个访问缺口保留原状态。"
+}

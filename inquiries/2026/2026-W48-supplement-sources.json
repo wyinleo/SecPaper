@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-23",
+  "range": [
+    "2025-11-23",
+    "2026-11-23"
+  ],
+  "second_year_needed": false,
+  "publication_pages": [
+    "https://proceedings.mlr.press/v306/hagag26a.html",
+    "https://proceedings.mlr.press/v306/hermon26a.html",
+    "https://www.usenix.org/conference/osdi26/presentation/sharma"
+  ],
+  "bodies": [
+    {
+      "slug": "architecture",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hagag26a/hagag26a.pdf",
+      "pages": 24,
+      "sha256": "7a2d6a6bcae715e34f6ce3a72ed15d70b2b926334ac854c43d3d78cf44016e4f",
+      "bytes": 288637
+    },
+    {
+      "slug": "secfid",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf",
+      "pages": 34,
+      "sha256": "3db86fced549e786c52cf9cefb90df9609750d869a2510d4893aadb61918aca9",
+      "bytes": 860965
+    },
+    {
+      "slug": "mohabi",
+      "url": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "pages": 23,
+      "sha256": "c007115b3a5b54f70389700de0f04e3cd695ea25969be8ad609fdb0bc20825d3",
+      "bytes": 602067
+    }
+  ],
+  "identity_sources": [
+    "https://haohanwang.ischool.illinois.edu/index.html",
+    "https://eng.ox.ac.uk/people/christian-schroeder-de-witt"
+  ],
+  "source_groups": {
+    "security": 2,
+    "software_systems": 1,
+    "ai": 2,
+    "software_journals": 3,
+    "other_conferences": 2
+  },
+  "reading_count": {
+    "weekly": 5,
+    "topic": 5,
+    "total": 10
+  }
+}

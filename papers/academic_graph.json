@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T17:42:39+08:00",
+  "generated_at": "2026-11-23T18:02:08+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 215,
-    "papers_with_affiliations": 215,
-    "scored_top_venue_papers": 159
+    "indexed_papers": 218,
+    "papers_with_affiliations": 218,
+    "scored_top_venue_papers": 161
   },
   "categories": [
     {
@@ -39,6 +39,85 @@
     "1999"
   ],
   "institutions": [
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "country_code": "USA",
+      "affiliation_names": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "aaai25-gong-figstep",
+        "arxiv-2611-17520-weakest-agent",
+        "ase26-ni-triage-nodejs",
+        "ccs26-szwajcok-meme-coin-factories",
+        "iclr25-andriushchenko-agentharm",
+        "icml24-mazeika-harmbench",
+        "icml26-hagag-architecture",
+        "ieee-sp26-liu-generate-verify",
+        "ieee-sp26-wang-transient-architectural-execution",
+        "neurips25-kuntz-os-harm",
+        "neurips25-zou-agent-red-team-competition",
+        "popl26-gouni-security-reasoning",
+        "tosem26-mccormack-unsafe-rust"
+      ],
+      "scholars": [
+        "Andy Zou",
+        "Ben Hagag",
+        "Conglei Wang",
+        "Darion Cassel",
+        "Eileen Xiao",
+        "Enze Liu",
+        "Frank Pfenning",
+        "Fraser Brown",
+        "Hanan Hibshi",
+        "Hemant Gouni",
+        "Ian McCormack",
+        "J. Zico Kolter",
+        "Jonathan Aldrich",
+        "Joshua Sunshine",
+        "Keegan Wang",
+        "Limin Jia",
+        "Matt Fredrikson",
+        "Min-Chien Hsu",
+        "Nicolas Christin",
+        "Nicolas Szwajcok",
+        "Nuno Sabino",
+        "Ping-Lun Wang",
+        "Pratiksha Thaker",
+        "Riad S. Wahby",
+        "Riccardo Paccagnella",
+        "Ronghao Ni",
+        "Ruben Martins",
+        "Sam Estep",
+        "Sarah Scheffler",
+        "Taro Tsuchiya",
+        "Terrance Liu",
+        "Zhiwei Steven Wu",
+        "Zico Kolter"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 3,
+          "software": 1,
+          "ai": 1,
+          "total": 5
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 2,
+          "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 9
+    },
     {
       "id": "uc-berkeley",
       "name": "University of California, Berkeley",
@@ -202,82 +281,6 @@
         }
       },
       "verified_score": 9
-    },
-    {
-      "id": "carnegie-mellon-university",
-      "name": "Carnegie Mellon University",
-      "country_code": "USA",
-      "affiliation_names": [
-        "Carnegie Mellon University"
-      ],
-      "papers": [
-        "aaai25-gong-figstep",
-        "arxiv-2611-17520-weakest-agent",
-        "ase26-ni-triage-nodejs",
-        "ccs26-szwajcok-meme-coin-factories",
-        "iclr25-andriushchenko-agentharm",
-        "icml24-mazeika-harmbench",
-        "ieee-sp26-liu-generate-verify",
-        "ieee-sp26-wang-transient-architectural-execution",
-        "neurips25-kuntz-os-harm",
-        "neurips25-zou-agent-red-team-competition",
-        "popl26-gouni-security-reasoning",
-        "tosem26-mccormack-unsafe-rust"
-      ],
-      "scholars": [
-        "Andy Zou",
-        "Conglei Wang",
-        "Darion Cassel",
-        "Eileen Xiao",
-        "Enze Liu",
-        "Frank Pfenning",
-        "Fraser Brown",
-        "Hanan Hibshi",
-        "Hemant Gouni",
-        "Ian McCormack",
-        "J. Zico Kolter",
-        "Jonathan Aldrich",
-        "Joshua Sunshine",
-        "Keegan Wang",
-        "Limin Jia",
-        "Matt Fredrikson",
-        "Min-Chien Hsu",
-        "Nicolas Christin",
-        "Nicolas Szwajcok",
-        "Nuno Sabino",
-        "Ping-Lun Wang",
-        "Pratiksha Thaker",
-        "Riad S. Wahby",
-        "Riccardo Paccagnella",
-        "Ronghao Ni",
-        "Ruben Martins",
-        "Sam Estep",
-        "Taro Tsuchiya",
-        "Terrance Liu",
-        "Zhiwei Steven Wu",
-        "Zico Kolter"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 3,
-          "software": 1,
-          "ai": 0,
-          "total": 4
-        },
-        "2024": {
-          "security": 0,
-          "software": 0,
-          "ai": 1,
-          "total": 1
-        },
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 1,
-          "total": 3
-        }
-      },
-      "verified_score": 8
     },
     {
       "id": "eth-zurich",
@@ -684,6 +687,59 @@
       "verified_score": 5
     },
     {
+      "id": "university-illinois-urbana-champaign",
+      "name": "University of Illinois Urbana-Champaign",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "arxiv-2607-05120-agent-data-injection",
+        "icml24-mazeika-harmbench",
+        "icml26-hermon-secfid",
+        "ieee-sp26-zhai-revelio",
+        "neurips25-lee-sec-bench",
+        "neurips25-nie-secodeplt"
+      ],
+      "scholars": [
+        "Bo Li",
+        "David Forsyth",
+        "Gang Wang",
+        "Haoyu Zhai",
+        "Hwiwon Lee",
+        "Lingming Zhang",
+        "Luyi Xing",
+        "Mantas Mazeika",
+        "Mitchell Hermon",
+        "Pirouz Naghavi",
+        "Qingying Hao",
+        "Shuo Wang",
+        "Ziqi Zhang",
+        "汪浩瀚"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 1,
+          "total": 2
+        },
+        "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        },
+        "2025": {
+          "security": 0,
+          "software": 1,
+          "ai": 1,
+          "total": 2
+        }
+      },
+      "verified_score": 5
+    },
+    {
       "id": "purdue-university",
       "name": "Purdue University",
       "country_code": "USA",
@@ -893,35 +949,33 @@
       "verified_score": 4
     },
     {
-      "id": "uiuc",
-      "name": "University of Illinois Urbana-Champaign",
-      "country_code": "USA",
+      "id": "university-oxford",
+      "name": "University of Oxford",
+      "country_code": "GBR",
       "affiliation_names": [
-        "University of Illinois Urbana-Champaign"
+        "University of Oxford"
       ],
       "papers": [
-        "arxiv-2607-05120-agent-data-injection",
-        "icml24-mazeika-harmbench",
-        "ieee-sp26-zhai-revelio",
-        "neurips25-lee-sec-bench",
-        "neurips25-nie-secodeplt"
+        "iclr25-andriushchenko-agentharm",
+        "icml26-hagag-architecture",
+        "neurips25-aichberger-mip-agent",
+        "neurips25-nie-secodeplt",
+        "neurips25-zou-agent-red-team-competition"
       ],
       "scholars": [
-        "Bo Li",
-        "David Forsyth",
-        "Gang Wang",
-        "Haoyu Zhai",
-        "Hwiwon Lee",
-        "Lingming Zhang",
-        "Luyi Xing",
-        "Mantas Mazeika",
-        "Pirouz Naghavi",
-        "Qingying Hao",
-        "Shuo Wang",
-        "Ziqi Zhang"
+        "Adel Bibi",
+        "Alasdair Paren",
+        "Ben Hagag",
+        "Christian Schroeder de Witt",
+        "Guohao Li",
+        "Lukas Aichberger",
+        "Philip Torr",
+        "William L. Anderson",
+        "Xander Davies",
+        "Yarin Gal"
       ],
       "annual_scores": {
-        "2024": {
+        "2026": {
           "security": 0,
           "software": 0,
           "ai": 1,
@@ -929,15 +983,9 @@
         },
         "2025": {
           "security": 0,
-          "software": 1,
+          "software": 2,
           "ai": 1,
-          "total": 2
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
+          "total": 3
         }
       },
       "verified_score": 4
@@ -1127,38 +1175,6 @@
           "security": 3,
           "software": 0,
           "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
-      "id": "university-oxford",
-      "name": "University of Oxford",
-      "country_code": "GBR",
-      "affiliation_names": [
-        "University of Oxford"
-      ],
-      "papers": [
-        "iclr25-andriushchenko-agentharm",
-        "neurips25-aichberger-mip-agent",
-        "neurips25-nie-secodeplt",
-        "neurips25-zou-agent-red-team-competition"
-      ],
-      "scholars": [
-        "Adel Bibi",
-        "Alasdair Paren",
-        "Guohao Li",
-        "Lukas Aichberger",
-        "Philip Torr",
-        "Xander Davies",
-        "Yarin Gal"
-      ],
-      "annual_scores": {
-        "2025": {
-          "security": 0,
-          "software": 2,
-          "ai": 1,
           "total": 3
         }
       },
@@ -2041,6 +2057,32 @@
       "verified_score": 2
     },
     {
+      "id": "mats",
+      "name": "MATS",
+      "country_code": "USA",
+      "affiliation_names": [
+        "MATS"
+      ],
+      "papers": [
+        "icml26-hagag-architecture",
+        "usenix-sec26-lermen-deanonymization"
+      ],
+      "scholars": [
+        "Ben Hagag",
+        "Simon Lermen",
+        "William L. Anderson"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 1,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "microsoft-corporation",
       "name": "Microsoft Corporation",
       "country_code": "USA",
@@ -2769,6 +2811,7 @@
       ],
       "papers": [
         "ndss23-gross-fuzzilli",
+        "osdi26-sharma-mohabi",
         "pldi26-nguyen-analyzing-bytes",
         "satml26-debenedetti-camel"
       ],
@@ -2778,6 +2821,7 @@
         "Edoardo Debenedetti",
         "Huan Nguyen",
         "Samuel Groß",
+        "Tal Garfinkel",
         "Tianqi Fan"
       ],
       "annual_scores": {
@@ -3110,6 +3154,36 @@
       "verified_score": 1
     },
     {
+      "id": "uc-san-diego",
+      "name": "University of California San Diego",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of California San Diego"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi",
+        "usenix-sec26-crow-boeing-implant"
+      ],
+      "scholars": [
+        "Aaron Schulman",
+        "Deian Stefan",
+        "Hovav Shacham",
+        "Pat Pannuto",
+        "Patrick Mercier",
+        "Sam Crow",
+        "Stefan Savage"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
       "id": "university-california-irvine",
       "name": "University of California, Irvine",
       "country_code": "USA",
@@ -3387,6 +3461,31 @@
       ],
       "annual_scores": {
         "2024": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "country_code": "",
+      "affiliation_names": [
+        "Amazon"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "scholars": [
+        "Ekraam Sabir",
+        "Rahul Gupta",
+        "Weitong Ruan"
+      ],
+      "annual_scores": {
+        "2026": {
           "security": 0,
           "software": 0,
           "ai": 1,
@@ -4330,29 +4429,6 @@
       "verified_score": 1
     },
     {
-      "id": "mats",
-      "name": "MATS",
-      "country_code": "USA",
-      "affiliation_names": [
-        "MATS"
-      ],
-      "papers": [
-        "usenix-sec26-lermen-deanonymization"
-      ],
-      "scholars": [
-        "Simon Lermen"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "mbzuai",
       "name": "Mohamed bin Zayed University of Artificial Intelligence",
       "country_code": "ARE",
@@ -5122,33 +5198,6 @@
         "2026": {
           "security": 0,
           "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
-      "id": "uc-san-diego",
-      "name": "University of California San Diego",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of California San Diego"
-      ],
-      "papers": [
-        "usenix-sec26-crow-boeing-implant"
-      ],
-      "scholars": [
-        "Aaron Schulman",
-        "Pat Pannuto",
-        "Patrick Mercier",
-        "Sam Crow",
-        "Stefan Savage"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 0,
           "ai": 0,
           "total": 1
         }
@@ -6366,11 +6415,13 @@
       ],
       "papers": [
         "arxiv-2611-18442-cantraj",
-        "osdi26-cottone-acumen"
+        "osdi26-cottone-acumen",
+        "osdi26-sharma-mohabi"
       ],
       "scholars": [
         "Jingxin Yang",
-        "Ryan Cottone"
+        "Ryan Cottone",
+        "Zachary Yedidia"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6396,6 +6447,32 @@
         "Yu Hao",
         "Zhaorui Li",
         "Zhiyun Qian"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-of-texas-at-austin",
+      "name": "University of Texas at Austin",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "arxiv-2611-08811-thought-injection",
+        "osdi26-sharma-mohabi"
+      ],
+      "scholars": [
+        "Abhishek Sharma",
+        "Alex Liu",
+        "Anand Balaji",
+        "Anthony Du",
+        "Garik Livingston",
+        "Parth Illendula",
+        "Ravi Srinivasan",
+        "Shravan Narayan",
+        "Taehyun Noh",
+        "Zain Shamsi"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6781,6 +6858,24 @@
       "verified_score": 0
     },
     {
+      "id": "mozilla",
+      "name": "Mozilla",
+      "country_code": "",
+      "affiliation_names": [
+        "Mozilla"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "scholars": [
+        "Iain Ireland",
+        "Jan de Mooij",
+        "Matthew Gaudet"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "munster-technological-university",
       "name": "Munster Technological University",
       "country_code": "IRL",
@@ -7110,26 +7205,6 @@
       ],
       "scholars": [
         "Yanan Guo"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
-      "id": "university-of-texas-at-austin",
-      "name": "University of Texas at Austin",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Texas at Austin"
-      ],
-      "papers": [
-        "arxiv-2611-08811-thought-injection"
-      ],
-      "scholars": [
-        "Alex Liu",
-        "Garik Livingston",
-        "Parth Illendula",
-        "Ravi Srinivasan",
-        "Zain Shamsi"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -13064,6 +13139,39 @@
       ]
     },
     {
+      "id": "ben-hagag",
+      "name": "Ben Hagag",
+      "publication_name": "Ben Hagag",
+      "homepage": "https://cos.s3d.cmu.edu/people/students/ben-hagag.html",
+      "profile_source": "https://cos.s3d.cmu.edu/people/students/ben-hagag.html",
+      "institutions": [
+        "Carnegie Mellon University",
+        "MATS",
+        "University of Oxford"
+      ],
+      "papers": [
+        "icml26-hagag-architecture"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "title": "Architecture Matters for Multi-Agent Security",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hagag26a.html"
+        }
+      ]
+    },
+    {
       "id": "biao-yi-nankai",
       "name": "Biao Yi",
       "publication_name": "Biao Yi",
@@ -13620,6 +13728,37 @@
           "year": 2026,
           "venue": "USENIX Security 2026",
           "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett"
+        }
+      ]
+    },
+    {
+      "id": "christian-schroeder-de-witt",
+      "name": "Christian Schroeder de Witt",
+      "publication_name": "Christian Schroeder de Witt",
+      "homepage": "https://eng.ox.ac.uk/people/christian-schroeder-de-witt",
+      "profile_source": "https://eng.ox.ac.uk/people/christian-schroeder-de-witt",
+      "institutions": [
+        "University of Oxford"
+      ],
+      "papers": [
+        "icml26-hagag-architecture"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "title": "Architecture Matters for Multi-Agent Security",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hagag26a.html"
         }
       ]
     },
@@ -14897,6 +15036,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "ekraam-sabir",
+      "name": "Ekraam Sabir",
+      "publication_name": "Ekraam Sabir",
+      "homepage": "",
+      "profile_source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf",
+      "institutions": [
+        "Amazon"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hermon26a.html"
         }
       ]
     },
@@ -22390,6 +22560,37 @@
       ]
     },
     {
+      "id": "mitchell-hermon",
+      "name": "Mitchell Hermon",
+      "publication_name": "Mitchell Hermon",
+      "homepage": "https://mitchellhermon.com/about/",
+      "profile_source": "https://mitchellhermon.com/about/",
+      "institutions": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hermon26a.html"
+        }
+      ]
+    },
+    {
       "id": "mitsuaki-akiyama-ntt",
       "name": "Mitsuaki Akiyama",
       "publication_name": "Mitsuaki Akiyama",
@@ -24162,6 +24363,37 @@
       ]
     },
     {
+      "id": "rahul-gupta",
+      "name": "Rahul Gupta",
+      "publication_name": "Rahul Gupta",
+      "homepage": "",
+      "profile_source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf",
+      "institutions": [
+        "Amazon"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hermon26a.html"
+        }
+      ]
+    },
+    {
       "id": "ralf-kuesters-stuttgart",
       "name": "Ralf Küsters",
       "publication_name": "Ralf Küsters",
@@ -25026,6 +25258,37 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://doi.org/10.1109/SP63933.2026.00241"
+        }
+      ]
+    },
+    {
+      "id": "sarah-scheffler",
+      "name": "Sarah Scheffler",
+      "publication_name": "Sarah Scheffler",
+      "homepage": "https://www.sarahscheffler.net/",
+      "profile_source": "https://www.sarahscheffler.net/",
+      "institutions": [
+        "Carnegie Mellon University"
+      ],
+      "papers": [
+        "icml26-hagag-architecture"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "title": "Architecture Matters for Multi-Agent Security",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hagag26a.html"
         }
       ]
     },
@@ -28353,6 +28616,37 @@
       ]
     },
     {
+      "id": "weitong-ruan",
+      "name": "Weitong Ruan",
+      "publication_name": "Weitong Ruan",
+      "homepage": "https://www.amazon.science/author/weitong-ruan?p=2",
+      "profile_source": "https://www.amazon.science/author/weitong-ruan?p=2",
+      "institutions": [
+        "Amazon"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hermon26a.html"
+        }
+      ]
+    },
+    {
       "id": "wenjun-qiu-toronto",
       "name": "Wenjun Qiu",
       "publication_name": "Wenjun Qiu",
@@ -28473,6 +28767,38 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
+        }
+      ]
+    },
+    {
+      "id": "william-l-anderson",
+      "name": "William L. Anderson",
+      "publication_name": "William L. Anderson",
+      "homepage": "",
+      "profile_source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hagag26a/hagag26a.pdf",
+      "institutions": [
+        "MATS",
+        "University of Oxford"
+      ],
+      "papers": [
+        "icml26-hagag-architecture"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "title": "Architecture Matters for Multi-Agent Security",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hagag26a.html"
         }
       ]
     },
@@ -32306,6 +32632,37 @@
       ]
     },
     {
+      "id": "haohan-wang",
+      "name": "汪浩瀚",
+      "publication_name": "Haohan Wang",
+      "homepage": "https://haohanwang.ischool.illinois.edu/index.html",
+      "profile_source": "https://haohanwang.ischool.illinois.edu/index.html",
+      "institutions": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "papers": [
+        "icml26-hermon-secfid"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 0,
+          "ai": 1,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "year": 2026,
+          "venue": "ICML 2026",
+          "url": "https://proceedings.mlr.press/v306/hermon26a.html"
+        }
+      ]
+    },
+    {
       "id": "zhenyu-chen-nju",
       "name": "陈振宇",
       "publication_name": "Zhenyu Chen",
@@ -32589,6 +32946,30 @@
       ]
     },
     {
+      "id": "abhishek-sharma",
+      "name": "Abhishek Sharma",
+      "publication_name": "Abhishek Sharma",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "aditya-bhardwaj",
       "name": "Aditya Bhardwaj",
       "publication_name": "Aditya Bhardwaj",
@@ -32853,6 +33234,30 @@
       ]
     },
     {
+      "id": "anand-balaji",
+      "name": "Anand Balaji",
+      "publication_name": "Anand Balaji",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "anantika-mannby",
       "name": "Anantika Mannby",
       "publication_name": "Anantika Mannby",
@@ -33018,6 +33423,30 @@
           "year": 2010,
           "venue": "USENIX OSDI 2010",
           "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring"
+        }
+      ]
+    },
+    {
+      "id": "anthony-du",
+      "name": "Anthony Du",
+      "publication_name": "Anthony Du",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
         }
       ]
     },
@@ -33810,6 +34239,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.17012v1"
+        }
+      ]
+    },
+    {
+      "id": "deian-stefan",
+      "name": "Deian Stefan",
+      "publication_name": "Deian Stefan",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of California San Diego"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
         }
       ]
     },
@@ -34613,6 +35066,30 @@
       ]
     },
     {
+      "id": "hovav-shacham",
+      "name": "Hovav Shacham",
+      "publication_name": "Hovav Shacham",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of California San Diego"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "hua-yang",
       "name": "Hua Yang",
       "publication_name": "Hua Yang",
@@ -34733,6 +35210,30 @@
       ]
     },
     {
+      "id": "iain-ireland",
+      "name": "Iain Ireland",
+      "publication_name": "Iain Ireland",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "Mozilla"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "ian-mccormack",
       "name": "Ian McCormack",
       "publication_name": "Ian McCormack",
@@ -34825,6 +35326,30 @@
           "year": 2026,
           "venue": "IEEE SaTML 2026",
           "url": "https://satml.org/2026/accepted-papers/"
+        }
+      ]
+    },
+    {
+      "id": "jan-de-mooij",
+      "name": "Jan de Mooij",
+      "publication_name": "Jan de Mooij",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "Mozilla"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
         }
       ]
     },
@@ -35939,6 +36464,30 @@
       ]
     },
     {
+      "id": "matthew-gaudet",
+      "name": "Matthew Gaudet",
+      "publication_name": "Matthew Gaudet",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "Mozilla"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "michael-saxon",
       "name": "Michael Saxon",
       "publication_name": "Michael Saxon",
@@ -36899,6 +37448,30 @@
       ]
     },
     {
+      "id": "shravan-narayan",
+      "name": "Shravan Narayan",
+      "publication_name": "Shravan Narayan",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "shuai-yang",
       "name": "Shuai Yang",
       "publication_name": "Shuai Yang",
@@ -37282,6 +37855,54 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.05120"
+        }
+      ]
+    },
+    {
+      "id": "taehyun-noh",
+      "name": "Taehyun Noh",
+      "publication_name": "Taehyun Noh",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "University of Texas at Austin"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
+      "id": "tal-garfinkel",
+      "name": "Tal Garfinkel",
+      "publication_name": "Tal Garfinkel",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
         }
       ]
     },
@@ -38298,6 +38919,30 @@
       ]
     },
     {
+      "id": "zachary-yedidia",
+      "name": "Zachary Yedidia",
+      "publication_name": "Zachary Yedidia",
+      "homepage": "",
+      "profile_source": "https://www.usenix.org/system/files/osdi26-sharma.pdf",
+      "institutions": [
+        "Stanford University"
+      ],
+      "papers": [
+        "osdi26-sharma-mohabi"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+          "year": 2026,
+          "venue": "USENIX OSDI 2026",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/sharma"
+        }
+      ]
+    },
+    {
       "id": "zain-shamsi",
       "name": "Zain Shamsi",
       "publication_name": "Zain Shamsi",
@@ -38753,6 +39398,28 @@
       "weight": 3
     },
     {
+      "source": "carnegie-mellon-university",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "year": 2026,
+          "venue_group": "ai"
+        },
+        {
+          "id": "iclr25-andriushchenko-agentharm",
+          "year": 2025,
+          "venue_group": null
+        },
+        {
+          "id": "neurips25-zou-agent-red-team-competition",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 3
+    },
+    {
       "source": "imperial-global-singapore",
       "target": "nanyang-technological-university",
       "papers": [
@@ -38855,23 +39522,6 @@
     {
       "source": "carnegie-mellon-university",
       "target": "uk-ai-security-institute",
-      "papers": [
-        {
-          "id": "iclr25-andriushchenko-agentharm",
-          "year": 2025,
-          "venue_group": null
-        },
-        {
-          "id": "neurips25-zou-agent-red-team-competition",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "carnegie-mellon-university",
-      "target": "university-oxford",
       "papers": [
         {
           "id": "iclr25-andriushchenko-agentharm",
@@ -39296,23 +39946,6 @@
     },
     {
       "source": "uc-berkeley",
-      "target": "uiuc",
-      "papers": [
-        {
-          "id": "icml24-mazeika-harmbench",
-          "year": 2024,
-          "venue_group": "ai"
-        },
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "uc-berkeley",
       "target": "university-california-santa-barbara",
       "papers": [
         {
@@ -39324,6 +39957,23 @@
           "id": "usenix-sec26-kim-agentic",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "uc-berkeley",
+      "target": "university-illinois-urbana-champaign",
+      "papers": [
+        {
+          "id": "icml24-mazeika-harmbench",
+          "year": 2024,
+          "venue_group": "ai"
+        },
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
         }
       ],
       "weight": 2
@@ -39448,6 +40098,18 @@
         {
           "id": "acl24-xu-safedecoding",
           "year": 2024,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "amazon",
+      "target": "university-illinois-urbana-champaign",
+      "papers": [
+        {
+          "id": "icml26-hermon-secfid",
+          "year": 2026,
           "venue_group": "ai"
         }
       ],
@@ -39947,6 +40609,18 @@
     },
     {
       "source": "carnegie-mellon-university",
+      "target": "mats",
+      "papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "year": 2026,
+          "venue_group": "ai"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "carnegie-mellon-university",
       "target": "microsoft-corporation",
       "papers": [
         {
@@ -40043,7 +40717,7 @@
     },
     {
       "source": "carnegie-mellon-university",
-      "target": "uiuc",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -40187,7 +40861,7 @@
     },
     {
       "source": "center-ai-safety",
-      "target": "uiuc",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -41615,12 +42289,36 @@
     },
     {
       "source": "google",
+      "target": "mozilla",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
       "target": "ruhr-university-bochum",
       "papers": [
         {
           "id": "ndss23-gross-fuzzilli",
           "year": 2023,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "stanford-university",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -41645,6 +42343,30 @@
           "id": "ndss23-gross-fuzzilli",
           "year": 2023,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "uc-san-diego",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "university-of-texas-at-austin",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -42875,7 +43597,7 @@
     },
     {
       "source": "largosoft",
-      "target": "uiuc",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "arxiv-2607-05120-agent-data-injection",
@@ -42893,6 +43615,18 @@
           "id": "ozchi26-nansen-age-verification",
           "year": 2026,
           "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mats",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "icml26-hagag-architecture",
+          "year": 2026,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -42947,7 +43681,7 @@
     },
     {
       "source": "microsoft-corporation",
-      "target": "uiuc",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "icml24-mazeika-harmbench",
@@ -43013,6 +43747,42 @@
           "id": "ieee-sp26-espiritu-leafblower",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mozilla",
+      "target": "stanford-university",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mozilla",
+      "target": "uc-san-diego",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "mozilla",
+      "target": "university-of-texas-at-austin",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -43763,24 +44533,24 @@
     },
     {
       "source": "purdue-university",
-      "target": "uiuc",
-      "papers": [
-        {
-          "id": "neurips25-lee-sec-bench",
-          "year": 2025,
-          "venue_group": "ai"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "purdue-university",
       "target": "university-florida",
       "papers": [
         {
           "id": "arxiv-2611-18442-cantraj",
           "year": 2026,
           "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "purdue-university",
+      "target": "university-illinois-urbana-champaign",
+      "papers": [
+        {
+          "id": "neurips25-lee-sec-bench",
+          "year": 2025,
+          "venue_group": "ai"
         }
       ],
       "weight": 1
@@ -44039,24 +44809,24 @@
     },
     {
       "source": "seoul-national-university",
-      "target": "uiuc",
-      "papers": [
-        {
-          "id": "arxiv-2607-05120-agent-data-injection",
-          "year": 2026,
-          "venue_group": null
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "seoul-national-university",
       "target": "university-california-santa-barbara",
       "papers": [
         {
           "id": "usenix-sec26-kim-agentic",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "seoul-national-university",
+      "target": "university-illinois-urbana-champaign",
+      "papers": [
+        {
+          "id": "arxiv-2607-05120-agent-data-injection",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -44279,6 +45049,18 @@
     },
     {
       "source": "stanford-university",
+      "target": "uc-san-diego",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "stanford-university",
       "target": "university-florida",
       "papers": [
         {
@@ -44295,6 +45077,18 @@
       "papers": [
         {
           "id": "arxiv-2611-18442-cantraj",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "stanford-university",
+      "target": "university-of-texas-at-austin",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
           "year": 2026,
           "venue_group": null
         }
@@ -44578,6 +45372,18 @@
       "weight": 1
     },
     {
+      "source": "uc-san-diego",
+      "target": "university-of-texas-at-austin",
+      "papers": [
+        {
+          "id": "osdi26-sharma-mohabi",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "ucla",
       "target": "university-toronto",
       "papers": [
@@ -44602,66 +45408,6 @@
       "weight": 1
     },
     {
-      "source": "uiuc",
-      "target": "uk-ai-security-institute",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "uiuc",
-      "target": "university-california-santa-barbara",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "uiuc",
-      "target": "university-chicago",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "uiuc",
-      "target": "university-oxford",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "uiuc",
-      "target": "virtue-ai",
-      "papers": [
-        {
-          "id": "neurips25-nie-secodeplt",
-          "year": 2025,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 1
-    },
-    {
       "source": "uk-ai-security-institute",
       "target": "university-california-santa-barbara",
       "papers": [
@@ -44676,6 +45422,18 @@
     {
       "source": "uk-ai-security-institute",
       "target": "university-chicago",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "uk-ai-security-institute",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "neurips25-nie-secodeplt",
@@ -44747,6 +45505,18 @@
     },
     {
       "source": "university-california-santa-barbara",
+      "target": "university-illinois-urbana-champaign",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-california-santa-barbara",
       "target": "university-oxford",
       "papers": [
         {
@@ -44760,6 +45530,18 @@
     {
       "source": "university-california-santa-barbara",
       "target": "virtue-ai",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-chicago",
+      "target": "university-illinois-urbana-champaign",
       "papers": [
         {
           "id": "neurips25-nie-secodeplt",
@@ -44801,6 +45583,30 @@
           "id": "arxiv-2611-18442-cantraj",
           "year": 2026,
           "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-illinois-urbana-champaign",
+      "target": "university-oxford",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "university-illinois-urbana-champaign",
+      "target": "virtue-ai",
+      "papers": [
+        {
+          "id": "neurips25-nie-secodeplt",
+          "year": 2025,
+          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -45074,6 +45880,58 @@
       ]
     },
     {
+      "id": "icml26-hermon-secfid",
+      "title": "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+      "year": 2026,
+      "venue": "ICML 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-23",
+      "url": "https://proceedings.mlr.press/v306/hermon26a.html",
+      "institutions": [
+        "university-illinois-urbana-champaign",
+        "amazon"
+      ],
+      "authors": [
+        "mitchell-hermon",
+        "rahul-gupta",
+        "weitong-ruan",
+        "ekraam-sabir",
+        "haohan-wang"
+      ]
+    },
+    {
+      "id": "osdi26-sharma-mohabi",
+      "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+      "year": 2026,
+      "venue": "USENIX OSDI 2026",
+      "venue_group": null,
+      "status": "accepted",
+      "first_seen": "2026-11-23",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/sharma",
+      "institutions": [
+        "university-of-texas-at-austin",
+        "stanford-university",
+        "mozilla",
+        "google",
+        "uc-san-diego"
+      ],
+      "authors": [
+        "abhishek-sharma",
+        "anand-balaji",
+        "zachary-yedidia",
+        "anthony-du",
+        "taehyun-noh",
+        "iain-ireland",
+        "jan-de-mooij",
+        "matthew-gaudet",
+        "tal-garfinkel",
+        "deian-stefan",
+        "hovav-shacham",
+        "shravan-narayan"
+      ]
+    },
+    {
       "id": "tosem26-sajadi-ai-patches",
       "title": "How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic Automated Program Repair on SWE-bench",
       "year": 2026,
@@ -45154,6 +46012,27 @@
         "stefanie-boss",
         "alexander-eggerth",
         "adrian-perrig"
+      ]
+    },
+    {
+      "id": "icml26-hagag-architecture",
+      "title": "Architecture Matters for Multi-Agent Security",
+      "year": 2026,
+      "venue": "ICML 2026",
+      "venue_group": "ai",
+      "status": "accepted",
+      "first_seen": "2026-11-23",
+      "url": "https://proceedings.mlr.press/v306/hagag26a.html",
+      "institutions": [
+        "carnegie-mellon-university",
+        "mats",
+        "university-oxford"
+      ],
+      "authors": [
+        "ben-hagag",
+        "william-l-anderson",
+        "christian-schroeder-de-witt",
+        "sarah-scheffler"
       ]
     },
     {
@@ -46163,7 +47042,7 @@
       "first_seen": "2026-11-16",
       "url": "https://proceedings.mlr.press/v235/mazeika24a.html",
       "institutions": [
-        "uiuc",
+        "university-illinois-urbana-champaign",
         "center-ai-safety",
         "carnegie-mellon-university",
         "uc-berkeley",
@@ -46965,7 +47844,7 @@
         "university-california-santa-barbara",
         "uc-berkeley",
         "virtue-ai",
-        "uiuc",
+        "university-illinois-urbana-champaign",
         "university-chicago",
         "university-oxford",
         "uk-ai-security-institute"
@@ -47200,7 +48079,7 @@
       "first_seen": "2026-09-21",
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "institutions": [
-        "uiuc"
+        "university-illinois-urbana-champaign"
       ],
       "authors": [
         "haoyu-zhai-uiuc",
@@ -49098,7 +49977,7 @@
       "institutions": [
         "seoul-national-university",
         "largosoft",
-        "uiuc"
+        "university-illinois-urbana-champaign"
       ],
       "authors": [
         "woohyuk-choi-snu",
@@ -49682,7 +50561,7 @@
       "first_seen": "2025-06-13",
       "url": "https://doi.org/10.52202/085713-3878",
       "institutions": [
-        "uiuc",
+        "university-illinois-urbana-champaign",
         "purdue-university"
       ],
       "authors": [

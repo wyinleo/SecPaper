@@ -1,11 +1,14 @@
 {
-  "version": "1.12.15",
+  "version": "1.12.16",
   "policy": {
     "zh": "中国单位使用官方中文全称；中国学者仅在权威来源可核验中文姓名时使用中文。",
     "other": "非中文单位和学者保留官方拉丁字母名称，不自行翻译。",
     "unverified": "无法可靠核验的名称保留论文原文，并进入待核验清单。"
   },
   "institutions": {
+    "University of Illinois Urbana-Champaign": {"id": "university-illinois-urbana-champaign", "display_name": "University of Illinois Urbana-Champaign", "language": "en", "country_code": "USA", "source": "https://ischool.illinois.edu/people/haohan-wang"},
+    "Amazon": {"id": "amazon", "display_name": "Amazon", "language": "en", "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf"},
+    "Mozilla": {"id": "mozilla", "display_name": "Mozilla", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
     "Virginia Commonwealth University": {"id": "virginia-commonwealth-university", "display_name": "Virginia Commonwealth University", "language": "en", "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf", "country_code": "USA"},
     "Zürcher Kantonalbank": {"id": "zurcher-kantonalbank", "display_name": "Zürcher Kantonalbank", "language": "en", "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf", "country_code": "CHE"},
     "University of Amsterdam": {"id": "university-of-amsterdam", "display_name": "University of Amsterdam", "language": "en", "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf", "country_code": "NLD"},
@@ -311,6 +314,27 @@
     "Université Paris-Panthéon-Assas": {"id": "universite-paris-pantheon-assas", "display_name": "Université Paris-Panthéon-Assas", "language": "en", "country_code": "FRA", "source": "https://www.assas-universite.fr/fr/frederic-meunier-directeur-general-lefrei"}
   },
   "scholars": {
+    "Ben Hagag": {"id": "ben-hagag", "display_name": "Ben Hagag", "publication_name": "Ben Hagag", "language": "en", "source": "https://cos.s3d.cmu.edu/people/students/ben-hagag.html", "homepage": "https://cos.s3d.cmu.edu/people/students/ben-hagag.html"},
+    "William L. Anderson": {"id": "william-l-anderson", "display_name": "William L. Anderson", "publication_name": "William L. Anderson", "language": "en", "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hagag26a/hagag26a.pdf"},
+    "Christian Schroeder de Witt": {"id": "christian-schroeder-de-witt", "display_name": "Christian Schroeder de Witt", "publication_name": "Christian Schroeder de Witt", "language": "en", "source": "https://eng.ox.ac.uk/people/christian-schroeder-de-witt", "homepage": "https://eng.ox.ac.uk/people/christian-schroeder-de-witt"},
+    "Sarah Scheffler": {"id": "sarah-scheffler", "display_name": "Sarah Scheffler", "publication_name": "Sarah Scheffler", "language": "en", "source": "https://www.sarahscheffler.net/", "homepage": "https://www.sarahscheffler.net/"},
+    "Mitchell Hermon": {"id": "mitchell-hermon", "display_name": "Mitchell Hermon", "publication_name": "Mitchell Hermon", "language": "en", "source": "https://mitchellhermon.com/about/", "homepage": "https://mitchellhermon.com/about/"},
+    "Rahul Gupta": {"id": "rahul-gupta", "display_name": "Rahul Gupta", "publication_name": "Rahul Gupta", "language": "en", "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf"},
+    "Weitong Ruan": {"id": "weitong-ruan", "display_name": "Weitong Ruan", "publication_name": "Weitong Ruan", "language": "en", "source": "https://www.amazon.science/author/weitong-ruan?p=2", "homepage": "https://www.amazon.science/author/weitong-ruan?p=2"},
+    "Ekraam Sabir": {"id": "ekraam-sabir", "display_name": "Ekraam Sabir", "publication_name": "Ekraam Sabir", "language": "en", "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hermon26a/hermon26a.pdf"},
+    "Haohan Wang": {"id": "haohan-wang", "display_name": "汪浩瀚", "publication_name": "Haohan Wang", "language": "zh", "source": "https://haohanwang.ischool.illinois.edu/index.html", "homepage": "https://haohanwang.ischool.illinois.edu/index.html"},
+    "Abhishek Sharma": {"id": "abhishek-sharma", "display_name": "Abhishek Sharma", "publication_name": "Abhishek Sharma", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Anand Balaji": {"id": "anand-balaji", "display_name": "Anand Balaji", "publication_name": "Anand Balaji", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Zachary Yedidia": {"id": "zachary-yedidia", "display_name": "Zachary Yedidia", "publication_name": "Zachary Yedidia", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Anthony Du": {"id": "anthony-du", "display_name": "Anthony Du", "publication_name": "Anthony Du", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Taehyun Noh": {"id": "taehyun-noh", "display_name": "Taehyun Noh", "publication_name": "Taehyun Noh", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Iain Ireland": {"id": "iain-ireland", "display_name": "Iain Ireland", "publication_name": "Iain Ireland", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Jan de Mooij": {"id": "jan-de-mooij", "display_name": "Jan de Mooij", "publication_name": "Jan de Mooij", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Matthew Gaudet": {"id": "matthew-gaudet", "display_name": "Matthew Gaudet", "publication_name": "Matthew Gaudet", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Tal Garfinkel": {"id": "tal-garfinkel", "display_name": "Tal Garfinkel", "publication_name": "Tal Garfinkel", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Deian Stefan": {"id": "deian-stefan", "display_name": "Deian Stefan", "publication_name": "Deian Stefan", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Hovav Shacham": {"id": "hovav-shacham", "display_name": "Hovav Shacham", "publication_name": "Hovav Shacham", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
+    "Shravan Narayan": {"id": "shravan-narayan", "display_name": "Shravan Narayan", "publication_name": "Shravan Narayan", "language": "en", "source": "https://www.usenix.org/system/files/osdi26-sharma.pdf"},
     "Amirali Sajadi": {"id": "amirali-sajadi", "display_name": "Amirali Sajadi", "publication_name": "Amirali Sajadi", "language": "en", "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"},
     "Kostadin Damevski": {"id": "kostadin-damevski", "display_name": "Kostadin Damevski", "publication_name": "Kostadin Damevski", "language": "en", "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"},
     "Preetha Chatterjee": {"id": "preetha-chatterjee", "display_name": "Preetha Chatterjee", "publication_name": "Preetha Chatterjee", "language": "en", "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"},

@@ -1,5 +1,5 @@
 {
-  "version": "1.10.16",
+  "version": "1.10.17",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -384,6 +384,9 @@
     "differential-privacy": {"label": "差分隐私", "facet": "method"}
   },
   "primary_domain_overrides": {
+    "icml26-hagag-architecture": "ai-security",
+    "icml26-hermon-secfid": "ai-security",
+    "osdi26-sharma-mohabi": "systems-hardware-security",
     "tosem26-sajadi-ai-patches": "software-application-security",
     "conext26-stoeger-authenticated-browsing": "network-communication-security",
     "ozchi26-nansen-age-verification": "identity-privacy",

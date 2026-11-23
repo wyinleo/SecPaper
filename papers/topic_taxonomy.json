@@ -1,5 +1,5 @@
 {
-  "version": "1.10.14",
+  "version": "1.10.15",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -591,6 +591,16 @@
     "arxiv-2611-18133-linera": "systems-hardware-security",
     "arxiv-2611-17115-caplite": "ai-security",
     "arxiv-2611-17520-weakest-agent": "ai-security",
-    "arxiv-2611-16493-rea-bench": "ai-security"
+    "arxiv-2611-16493-rea-bench": "ai-security",
+    "arxiv-2611-25470-toolpulse": "ai-security",
+    "arxiv-2611-22761-robot-config": "mobile-iot-security",
+    "arxiv-2611-21577-mcp-provider-misbinding": "ai-security",
+    "arxiv-2611-23826-slice-isolation": "network-communication-security",
+    "arxiv-2611-22519-workflowbp": "software-application-security",
+    "arxiv-2611-25790-cybergym-reliability": "software-application-security",
+    "arxiv-2611-25412-chainagent": "software-application-security",
+    "arxiv-2611-25599-tether": "ai-security",
+    "arxiv-2611-24362-pipette": "ai-security",
+    "arxiv-2611-22223-gapleak": "identity-privacy"
   }
 }

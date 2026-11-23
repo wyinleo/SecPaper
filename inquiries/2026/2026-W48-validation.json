@@ -1,0 +1,42 @@
+{
+  "url": "file:///Users/coconut/Documents/Research/papernote/site/index.html",
+  "counts": {
+    "papers": 218,
+    "weeks": 20,
+    "themes": 6,
+    "viewpoints": 78,
+    "cached": 218,
+    "institutions": 278,
+    "visits": 40
+  },
+  "week": "2026-W48",
+  "ranking_scholar": "张源",
+  "academic": {
+    "coverage": {
+      "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
+      "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
+      "indexed_papers": 218,
+      "papers_with_affiliations": 218,
+      "scored_top_venue_papers": 157
+    },
+    "scholars": 1043,
+    "collaborations": 514
+  },
+  "industry": "78 条",
+  "mobile_overflow": false,
+  "checks": [
+    "paper author profile",
+    "ranking profile",
+    "recent paper",
+    "back restoration",
+    "single dialog cycle truncation",
+    "source dates",
+    "detail glossary",
+    "three entries",
+    "desktop/mobile",
+    "full text search"
+  ],
+  "errors": [],
+  "checked_at": "2026-11-23T05:14:15.905Z",
+  "scope": "local Chrome static-file origin; production still requires separate verification"
+}

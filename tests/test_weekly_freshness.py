@@ -1,4 +1,5 @@
 import copy
+import datetime as dt
 import unittest
 from unittest.mock import patch
 from test_site_assets import build
@@ -38,7 +39,10 @@ class WeeklyFreshnessTest(unittest.TestCase):
     def test_future_issue_requires_a_declared_window(self):
         papers = copy.deepcopy(build.load_index())
         paper = next(p for p in papers if p['id'] == 'arxiv-2610-38438-rolefuzzer')
-        paper['weekly_notes'] = ['weekly/2026/2026-W48.md']
+        windows = build.load_json(build.ROOT / 'papers' / 'weekly_windows.json')
+        next_date = dt.date.fromisoformat(max(w['end'] for w in windows.values())) + dt.timedelta(days=7)
+        future_week = build.iso_week(next_date.isoformat())
+        paper['weekly_notes'] = [f'weekly/{next_date.year}/{future_week}.md']
         with patch.object(build, 'load_index', return_value=papers):
-            with self.assertRaisesRegex(ValueError, 'declare 2026-W48'):
+            with self.assertRaisesRegex(ValueError, f'declare {future_week}'):
                 build.build_payload()

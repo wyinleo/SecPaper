@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T17:40:32+08:00",
+  "generated_at": "2026-11-23T13:16:01+08:00",
   "coverage": {
     "basis": "SecPaper 已收录且周报中具有可解析“单位与作者”字段的论文",
     "score_definition": "年度评价分数为库内经正式接收核验的网络与信息安全、软件工程与系统、人工智能领域 CCF-A 会议论文数；当前是已核验下界，不代表单位完整产出。",
-    "indexed_papers": 208,
-    "papers_with_affiliations": 208,
+    "indexed_papers": 218,
+    "papers_with_affiliations": 218,
     "scored_top_venue_papers": 157
   },
   "categories": [
@@ -22,6 +22,7 @@
     }
   ],
   "years": [
+    "2027",
     "2026",
     "2025",
     "2024",
@@ -928,6 +929,44 @@
       "verified_score": 4
     },
     {
+      "id": "zhejiang-university",
+      "name": "浙江大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "浙江大学"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette",
+        "ieee-sp26-peng-apiecho",
+        "ieee-sp26-wang-smufuzz",
+        "ndss26-xiao-modelspy",
+        "usenix-sec26-he-attriguard"
+      ],
+      "scholars": [
+        "Haozhe Zhu",
+        "Jiawen Zhang",
+        "Jinsong Han",
+        "Qinying Wang",
+        "Rui Xiao",
+        "Shouling Ji",
+        "Shuo Shao",
+        "Sibo Feng",
+        "Yi Xiang",
+        "Yu He",
+        "Zhan Qin",
+        "Zhihao Liu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 4,
+          "software": 0,
+          "ai": 0,
+          "total": 4
+        }
+      },
+      "verified_score": 4
+    },
+    {
       "id": "zhongguancun-laboratory",
       "name": "中关村实验室",
       "country_code": "CHN",
@@ -998,42 +1037,6 @@
           "software": 1,
           "ai": 0,
           "total": 3
-        }
-      },
-      "verified_score": 4
-    },
-    {
-      "id": "zhejiang-university",
-      "name": "浙江大学",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "浙江大学"
-      ],
-      "papers": [
-        "ieee-sp26-peng-apiecho",
-        "ieee-sp26-wang-smufuzz",
-        "ndss26-xiao-modelspy",
-        "usenix-sec26-he-attriguard"
-      ],
-      "scholars": [
-        "Haozhe Zhu",
-        "Jinsong Han",
-        "Qinying Wang",
-        "Rui Xiao",
-        "Shouling Ji",
-        "Shuo Shao",
-        "Sibo Feng",
-        "Yi Xiang",
-        "Yu He",
-        "Zhan Qin",
-        "Zhihao Liu"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 4,
-          "software": 0,
-          "ai": 0,
-          "total": 4
         }
       },
       "verified_score": 4
@@ -1138,6 +1141,35 @@
           "security": 0,
           "software": 2,
           "ai": 1,
+          "total": 3
+        }
+      },
+      "verified_score": 3
+    },
+    {
+      "id": "hkust-guangzhou",
+      "name": "香港科技大学（广州）",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "香港科技大学（广州）"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse",
+        "fse26-yuan-secure-logging",
+        "ieee-sp26-xu-resolver-profiler",
+        "usenix-sec26-xu-dalens"
+      ],
+      "scholars": [
+        "Huayi Duan",
+        "Xin Wang",
+        "Zishuo Ding",
+        "陈韵"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 1,
+          "ai": 0,
           "total": 3
         }
       },
@@ -1491,33 +1523,6 @@
       "verified_score": 3
     },
     {
-      "id": "hkust-guangzhou",
-      "name": "香港科技大学（广州）",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "香港科技大学（广州）"
-      ],
-      "papers": [
-        "fse26-yuan-secure-logging",
-        "ieee-sp26-xu-resolver-profiler",
-        "usenix-sec26-xu-dalens"
-      ],
-      "scholars": [
-        "Huayi Duan",
-        "Xin Wang",
-        "Zishuo Ding"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 2,
-          "software": 1,
-          "ai": 0,
-          "total": 3
-        }
-      },
-      "verified_score": 3
-    },
-    {
       "id": "pennsylvania-state-university",
       "name": "Pennsylvania State University",
       "country_code": "USA",
@@ -1631,6 +1636,90 @@
       "verified_score": 2
     },
     {
+      "id": "renmin-university-china",
+      "name": "中国人民大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中国人民大学"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing",
+        "arxiv-2611-25470-toolpulse",
+        "ieee-sp26-wang-jailbreak-guardrails",
+        "usenix-sec26-wang-masleak"
+      ],
+      "scholars": [
+        "Enmeng Lu",
+        "Gongce Cao",
+        "Jiawei Xie",
+        "Jinyu Fan",
+        "Jinzhao Lian",
+        "Shuai Yang",
+        "Wenxuan Wang",
+        "Yi Zeng",
+        "Yu Chen"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 2,
+          "software": 0,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "ucas",
+      "name": "中国科学院大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "中国科学院大学",
+        "中国科学院大学网络空间安全学院"
+      ],
+      "papers": [
+        "arxiv-2610-40716-module-shadowing",
+        "arxiv-2611-25412-chainagent",
+        "fse26-guo-bcs",
+        "usenix-sec26-liu-picklecloak"
+      ],
+      "scholars": [
+        "Chaopeng Dong",
+        "Feng Li",
+        "Gongce Cao",
+        "Guozhu Meng",
+        "Hengyu Yang",
+        "Hong Li",
+        "Hongsong Zhu",
+        "Huina Chao",
+        "Jiaming Guo",
+        "Jiawei Xie",
+        "Jie Liu",
+        "Jingdong Guo",
+        "Kai Chen",
+        "Qin Mai",
+        "Shuaiyin Yao",
+        "Tong Liu",
+        "Wei Huo",
+        "Xinyi Wang",
+        "Yang Xiao",
+        "Yecheng Sun",
+        "Yimo Ren",
+        "Yu Chen",
+        "Yujie Sun",
+        "李页霆"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 1,
+          "software": 1,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "center-ai-safety",
       "name": "Center for AI Safety",
       "country_code": "",
@@ -1733,6 +1822,38 @@
       "verified_score": 2
     },
     {
+      "id": "singapore-management-university",
+      "name": "Singapore Management University",
+      "country_code": "SGP",
+      "affiliation_names": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp",
+        "ase26-guo-npm-detectors",
+        "issta26-chen-insecure-memory"
+      ],
+      "scholars": [
+        "Chengyan Ma",
+        "David Lo",
+        "Jieke Shi",
+        "Ruidong Han",
+        "Shiwen Song",
+        "Weifeng Sun",
+        "Yunbo Lyu",
+        "Yuqing Niu"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 2,
+          "ai": 0,
+          "total": 2
+        }
+      },
+      "verified_score": 2
+    },
+    {
       "id": "uk-ai-security-institute",
       "name": "UK AI Security Institute",
       "country_code": "GBR",
@@ -1800,31 +1921,61 @@
       "verified_score": 2
     },
     {
-      "id": "renmin-university-china",
-      "name": "中国人民大学",
-      "country_code": "CHN",
+      "id": "university-pennsylvania",
+      "name": "University of Pennsylvania",
+      "country_code": "USA",
       "affiliation_names": [
-        "中国人民大学"
+        "University of Pennsylvania"
       ],
       "papers": [
-        "arxiv-2610-40716-module-shadowing",
-        "ieee-sp26-wang-jailbreak-guardrails",
-        "usenix-sec26-wang-masleak"
+        "arxiv-2611-25599-tether",
+        "ieee-sp26-li-nanotag",
+        "sp19-kocher-spectre"
       ],
       "scholars": [
-        "Enmeng Lu",
-        "Gongce Cao",
-        "Jiawei Xie",
-        "Jinyu Fan",
-        "Shuai Yang",
-        "Wenxuan Wang",
-        "Yi Zeng",
-        "Yu Chen"
+        "Alaia Solko-Breslin",
+        "Daniel Genkin",
+        "Joseph Devietti"
+      ],
+      "annual_scores": {
+        "2019": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        },
+        "2026": {
+          "security": 1,
+          "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 2
+    },
+    {
+      "id": "university-waterloo",
+      "name": "University of Waterloo",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "University of Waterloo"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette",
+        "fse26-yuan-secure-logging",
+        "ieee-sp26-li-portgpt"
+      ],
+      "scholars": [
+        "Kundi Yao",
+        "Lipeng He",
+        "Meng Xu",
+        "N. Asokan",
+        "Yihan Wang"
       ],
       "annual_scores": {
         "2026": {
-          "security": 2,
-          "software": 0,
+          "security": 1,
+          "software": 1,
           "ai": 0,
           "total": 2
         }
@@ -1832,32 +1983,39 @@
       "verified_score": 2
     },
     {
-      "id": "ucas",
-      "name": "中国科学院大学",
+      "id": "iie-cas",
+      "name": "中国科学院信息工程研究所",
       "country_code": "CHN",
       "affiliation_names": [
-        "中国科学院大学",
-        "中国科学院大学网络空间安全学院"
+        "中国科学院信息工程研究所"
       ],
       "papers": [
-        "arxiv-2610-40716-module-shadowing",
+        "arxiv-2611-25412-chainagent",
         "fse26-guo-bcs",
         "usenix-sec26-liu-picklecloak"
       ],
       "scholars": [
         "Chaopeng Dong",
-        "Gongce Cao",
+        "Feng Li",
         "Guozhu Meng",
+        "Hengyu Yang",
         "Hong Li",
         "Hongsong Zhu",
-        "Jiawei Xie",
+        "Huina Chao",
+        "Jiaming Guo",
         "Jie Liu",
         "Jingdong Guo",
         "Kai Chen",
+        "Qin Mai",
         "Shuaiyin Yao",
         "Tong Liu",
+        "Wei Huo",
+        "Xinyi Wang",
+        "Yang Xiao",
+        "Yecheng Sun",
         "Yimo Ren",
-        "Yu Chen"
+        "Yujie Sun",
+        "李页霆"
       ],
       "annual_scores": {
         "2026": {
@@ -2078,32 +2236,6 @@
           "software": 0,
           "ai": 0,
           "total": 1
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "singapore-management-university",
-      "name": "Singapore Management University",
-      "country_code": "SGP",
-      "affiliation_names": [
-        "Singapore Management University"
-      ],
-      "papers": [
-        "ase26-guo-npm-detectors",
-        "issta26-chen-insecure-memory"
-      ],
-      "scholars": [
-        "David Lo",
-        "Shiwen Song",
-        "Weifeng Sun"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 2,
-          "ai": 0,
-          "total": 2
         }
       },
       "verified_score": 2
@@ -2368,37 +2500,6 @@
       "verified_score": 2
     },
     {
-      "id": "university-pennsylvania",
-      "name": "University of Pennsylvania",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Pennsylvania"
-      ],
-      "papers": [
-        "ieee-sp26-li-nanotag",
-        "sp19-kocher-spectre"
-      ],
-      "scholars": [
-        "Daniel Genkin",
-        "Joseph Devietti"
-      ],
-      "annual_scores": {
-        "2019": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        },
-        "2026": {
-          "security": 1,
-          "software": 0,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 2
-    },
-    {
       "id": "university-of-stuttgart",
       "name": "University of Stuttgart",
       "country_code": "DEU",
@@ -2414,31 +2515,6 @@
         "Pedram Hosseyni",
         "Ralf Küsters",
         "Tim Würtele"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 1,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "university-waterloo",
-      "name": "University of Waterloo",
-      "country_code": "CAN",
-      "affiliation_names": [
-        "University of Waterloo"
-      ],
-      "papers": [
-        "fse26-yuan-secure-logging",
-        "ieee-sp26-li-portgpt"
-      ],
-      "scholars": [
-        "Kundi Yao",
-        "Meng Xu"
       ],
       "annual_scores": {
         "2026": {
@@ -2475,39 +2551,6 @@
         "2026": {
           "security": 2,
           "software": 0,
-          "ai": 0,
-          "total": 2
-        }
-      },
-      "verified_score": 2
-    },
-    {
-      "id": "iie-cas",
-      "name": "中国科学院信息工程研究所",
-      "country_code": "CHN",
-      "affiliation_names": [
-        "中国科学院信息工程研究所"
-      ],
-      "papers": [
-        "fse26-guo-bcs",
-        "usenix-sec26-liu-picklecloak"
-      ],
-      "scholars": [
-        "Chaopeng Dong",
-        "Guozhu Meng",
-        "Hong Li",
-        "Hongsong Zhu",
-        "Jie Liu",
-        "Jingdong Guo",
-        "Kai Chen",
-        "Shuaiyin Yao",
-        "Tong Liu",
-        "Yimo Ren"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 1,
-          "software": 1,
           "ai": 0,
           "total": 2
         }
@@ -2690,16 +2733,19 @@
         "Google"
       ],
       "papers": [
+        "arxiv-2611-25599-tether",
         "ndss23-gross-fuzzilli",
         "pldi26-nguyen-analyzing-bytes",
         "satml26-debenedetti-camel"
       ],
       "scholars": [
+        "Aditya Kanade",
         "Christoph Kern",
         "Daniel Fabian",
         "Edoardo Debenedetti",
         "Huan Nguyen",
         "Samuel Groß",
+        "Somesh Jha",
         "Tianqi Fan"
       ],
       "annual_scores": {
@@ -3000,6 +3046,30 @@
         "2026": {
           "security": 1,
           "software": 0,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1
+    },
+    {
+      "id": "ualberta-amii",
+      "name": "University of Alberta / Alberta Machine Intelligence Institute (Amii)",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "University of Alberta / Alberta Machine Intelligence Institute (Amii)"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp",
+        "issta26-chen-insecure-memory"
+      ],
+      "scholars": [
+        "Zhou Yang"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
           "ai": 0,
           "total": 1
         }
@@ -5051,29 +5121,6 @@
       "verified_score": 1
     },
     {
-      "id": "ualberta-amii",
-      "name": "University of Alberta / Alberta Machine Intelligence Institute (Amii)",
-      "country_code": "CAN",
-      "affiliation_names": [
-        "University of Alberta / Alberta Machine Intelligence Institute (Amii)"
-      ],
-      "papers": [
-        "issta26-chen-insecure-memory"
-      ],
-      "scholars": [
-        "Zhou Yang"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1
-    },
-    {
       "id": "uc-san-diego",
       "name": "University of California San Diego",
       "country_code": "USA",
@@ -6329,6 +6376,57 @@
       "verified_score": 1
     },
     {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "country_code": "",
+      "affiliation_names": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether",
+        "satml26-debenedetti-camel"
+      ],
+      "scholars": [
+        "Alaia Solko-Breslin",
+        "Andreas Terzis",
+        "Chongyang Shi",
+        "Ilia Shumailov",
+        "Jamie Hayes",
+        "Krishnamurthy Dj Dvijotham",
+        "Meghana Aparna Sistla",
+        "Nicholas Carlini"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "queens-university",
+      "name": "Queen’s University",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2610-36603-maven-lifecycle",
+        "arxiv-2611-22223-gapleak"
+      ],
+      "scholars": [
+        "Chaklam Cheong",
+        "Enrong Pan",
+        "Jianbing Ni",
+        "Kazi Amit Hasan",
+        "Mariam Guizani",
+        "Mohammad Zulkernine",
+        "Qi Li",
+        "Rongxing Lu",
+        "Tiancong Cao",
+        "Yuan Tian",
+        "Zelin Zhang"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "stanford-university",
       "name": "Stanford University",
       "country_code": "USA",
@@ -6367,6 +6465,25 @@
         "Yu Hao",
         "Zhaorui Li",
         "Zhiyun Qian"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-of-wisconsinmadison",
+      "name": "University of Wisconsin–Madison",
+      "country_code": "USA",
+      "affiliation_names": [
+        "University of Wisconsin–Madison"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether",
+        "iclr24-liu-autodan"
+      ],
+      "scholars": [
+        "Chaowei Xiao",
+        "Somesh Jha",
+        "刘晓耕"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6428,6 +6545,23 @@
       ],
       "scholars": [
         "Nikolaos Bartzoudis"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "carleton-university",
+      "name": "Carleton University",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "Carleton University"
+      ],
+      "papers": [
+        "arxiv-2611-23826-slice-isolation"
+      ],
+      "scholars": [
+        "AbdulAziz AbdulGhaffar",
+        "Ashraf Matrawy"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6552,26 +6686,6 @@
       "verified_score": 0
     },
     {
-      "id": "google-deepmind",
-      "name": "Google DeepMind",
-      "country_code": "",
-      "affiliation_names": [
-        "Google DeepMind"
-      ],
-      "papers": [
-        "satml26-debenedetti-camel"
-      ],
-      "scholars": [
-        "Andreas Terzis",
-        "Chongyang Shi",
-        "Ilia Shumailov",
-        "Jamie Hayes",
-        "Nicholas Carlini"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
       "id": "intel-corporation",
       "name": "Intel Corporation",
       "country_code": "",
@@ -6624,6 +6738,22 @@
         "Nathanaël Denis",
         "Roberto Di Pietro",
         "Yimeng Chen"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "kth-royal-institute-technology",
+      "name": "KTH Royal Institute of Technology",
+      "country_code": "SWE",
+      "affiliation_names": [
+        "KTH Royal Institute of Technology"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette"
+      ],
+      "scholars": [
+        "N. Asokan"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6763,25 +6893,6 @@
       ],
       "scholars": [
         "Thomas Mosk"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
-      "id": "queens-university",
-      "name": "Queen’s University",
-      "country_code": "CAN",
-      "affiliation_names": [
-        "Queen’s University"
-      ],
-      "papers": [
-        "arxiv-2610-36603-maven-lifecycle"
-      ],
-      "scholars": [
-        "Enrong Pan",
-        "Kazi Amit Hasan",
-        "Mariam Guizani",
-        "Yuan Tian"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -6953,6 +7064,26 @@
       "verified_score": 0
     },
     {
+      "id": "university-derby",
+      "name": "University of Derby",
+      "country_code": "GBR",
+      "affiliation_names": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "scholars": [
+        "Hong Qing Yu",
+        "Quang Dan Le",
+        "Stanley Akingbola",
+        "Ugbede Ibrahim",
+        "Yan Lin Aung"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-of-klagenfurt",
       "name": "University of Klagenfurt",
       "country_code": "AUT",
@@ -6966,6 +7097,24 @@
         "Christian Macho",
         "Katharina Stengg",
         "Martin Pinzger"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-new-brunswick",
+      "name": "University of New Brunswick",
+      "country_code": "CAN",
+      "affiliation_names": [
+        "University of New Brunswick"
+      ],
+      "papers": [
+        "arxiv-2611-21577-mcp-provider-misbinding"
+      ],
+      "scholars": [
+        "Ali A. Ghorbani",
+        "Sajjad Dadkhah",
+        "Zeynab Anbiaee"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -7035,23 +7184,6 @@
       "scholars": [
         "Daniil Filienko",
         "Sikha Pentyala"
-      ],
-      "annual_scores": {},
-      "verified_score": 0
-    },
-    {
-      "id": "university-of-wisconsinmadison",
-      "name": "University of Wisconsin–Madison",
-      "country_code": "USA",
-      "affiliation_names": [
-        "University of Wisconsin–Madison"
-      ],
-      "papers": [
-        "iclr24-liu-autodan"
-      ],
-      "scholars": [
-        "Chaowei Xiao",
-        "刘晓耕"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -7198,6 +7330,22 @@
       "verified_score": 0
     },
     {
+      "id": "csg-digital-grid-ict",
+      "name": "南方电网数字电网集团信息通信科技有限公司",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "南方电网数字电网集团信息通信科技有限公司"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "scholars": [
+        "Shizhe Cui"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
       "id": "university-international-relations",
       "name": "国际关系学院",
       "country_code": "CHN",
@@ -7230,6 +7378,41 @@
         "Wentao Fu",
         "Xuanze Chen",
         "Xukang Xie"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "affiliation-undisclosed-cybergym",
+      "name": "论文未注明单位",
+      "country_code": "",
+      "affiliation_names": [
+        "论文未注明单位"
+      ],
+      "papers": [
+        "arxiv-2611-25790-cybergym-reliability"
+      ],
+      "scholars": [
+        "Hongzhen Wu",
+        "Yule Ding"
+      ],
+      "annual_scores": {},
+      "verified_score": 0
+    },
+    {
+      "id": "university-hong-kong",
+      "name": "香港大学",
+      "country_code": "CHN",
+      "affiliation_names": [
+        "香港大学"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "scholars": [
+        "Jinyu Zhang",
+        "Zihao Dan",
+        "劉詩楠"
       ],
       "annual_scores": {},
       "verified_score": 0
@@ -11025,6 +11208,45 @@
       ]
     },
     {
+      "id": "david-lo-smu",
+      "name": "David Lo",
+      "publication_name": "David Lo",
+      "homepage": "https://faculty.smu.edu.sg/profile/david-lo-901",
+      "profile_source": "https://faculty.smu.edu.sg/profile/david-lo-901",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp",
+        "issta26-chen-insecure-memory"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
+        },
+        {
+          "id": "issta26-chen-insecure-memory",
+          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
+          "year": 2026,
+          "venue": "ISSTA 2026",
+          "url": "https://arxiv.org/abs/2607.17619"
+        }
+      ]
+    },
+    {
       "id": "david-wagner-berkeley",
       "name": "David Wagner",
       "publication_name": "David Wagner",
@@ -11459,6 +11681,45 @@
       ]
     },
     {
+      "id": "weifeng-sun-smu",
+      "name": "Weifeng Sun",
+      "publication_name": "Weifeng Sun",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2607.17619",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp",
+        "issta26-chen-insecure-memory"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
+        },
+        {
+          "id": "issta26-chen-insecure-memory",
+          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
+          "year": 2026,
+          "venue": "ISSTA 2026",
+          "url": "https://arxiv.org/abs/2607.17619"
+        }
+      ]
+    },
+    {
       "id": "william-enck-ncsu",
       "name": "William Enck",
       "publication_name": "William Enck",
@@ -11573,6 +11834,45 @@
           "year": 2026,
           "venue": "ACM OOPSLA 2026",
           "url": "https://doi.org/10.1145/3798272"
+        }
+      ]
+    },
+    {
+      "id": "zhou-yang-ualberta",
+      "name": "Zhou Yang",
+      "publication_name": "Zhou Yang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/abs/2607.17619",
+      "institutions": [
+        "University of Alberta / Alberta Machine Intelligence Institute (Amii)"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp",
+        "issta26-chen-insecure-memory"
+      ],
+      "annual_scores": {
+        "2026": {
+          "security": 0,
+          "software": 1,
+          "ai": 0,
+          "total": 1
+        }
+      },
+      "verified_score": 1,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
+        },
+        {
+          "id": "issta26-chen-insecure-memory",
+          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
+          "year": 2026,
+          "venue": "ISSTA 2026",
+          "url": "https://arxiv.org/abs/2607.17619"
         }
       ]
     },
@@ -14213,37 +14513,6 @@
           "year": 2026,
           "venue": "IEEE S&P 2026",
           "url": "https://sp2026.ieee-security.org/accepted-papers.html"
-        }
-      ]
-    },
-    {
-      "id": "david-lo-smu",
-      "name": "David Lo",
-      "publication_name": "David Lo",
-      "homepage": "https://faculty.smu.edu.sg/profile/david-lo-901",
-      "profile_source": "https://faculty.smu.edu.sg/profile/david-lo-901",
-      "institutions": [
-        "Singapore Management University"
-      ],
-      "papers": [
-        "issta26-chen-insecure-memory"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "issta26-chen-insecure-memory",
-          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
-          "year": 2026,
-          "venue": "ISSTA 2026",
-          "url": "https://arxiv.org/abs/2607.17619"
         }
       ]
     },
@@ -28015,37 +28284,6 @@
       ]
     },
     {
-      "id": "weifeng-sun-smu",
-      "name": "Weifeng Sun",
-      "publication_name": "Weifeng Sun",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2607.17619",
-      "institutions": [
-        "Singapore Management University"
-      ],
-      "papers": [
-        "issta26-chen-insecure-memory"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "issta26-chen-insecure-memory",
-          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
-          "year": 2026,
-          "venue": "ISSTA 2026",
-          "url": "https://arxiv.org/abs/2607.17619"
-        }
-      ]
-    },
-    {
       "id": "weisong-sun-ntu",
       "name": "Weisong Sun",
       "publication_name": "Weisong Sun",
@@ -31467,37 +31705,6 @@
       ]
     },
     {
-      "id": "zhou-yang-ualberta",
-      "name": "Zhou Yang",
-      "publication_name": "Zhou Yang",
-      "homepage": "",
-      "profile_source": "https://arxiv.org/abs/2607.17619",
-      "institutions": [
-        "University of Alberta / Alberta Machine Intelligence Institute (Amii)"
-      ],
-      "papers": [
-        "issta26-chen-insecure-memory"
-      ],
-      "annual_scores": {
-        "2026": {
-          "security": 0,
-          "software": 1,
-          "ai": 0,
-          "total": 1
-        }
-      },
-      "verified_score": 1,
-      "recent_papers": [
-        {
-          "id": "issta26-chen-insecure-memory",
-          "title": "Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
-          "year": 2026,
-          "venue": "ISSTA 2026",
-          "url": "https://arxiv.org/abs/2607.17619"
-        }
-      ]
-    },
-    {
       "id": "zhun-wang-berkeley",
       "name": "Zhun Wang",
       "publication_name": "Zhun Wang",
@@ -32188,6 +32395,30 @@
       ]
     },
     {
+      "id": "scholar:abdulazizabdulghaffar",
+      "name": "AbdulAziz AbdulGhaffar",
+      "publication_name": "AbdulAziz AbdulGhaffar",
+      "homepage": "",
+      "profile_source": "",
+      "institutions": [
+        "Carleton University"
+      ],
+      "papers": [
+        "arxiv-2611-23826-slice-isolation"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-23826-slice-isolation",
+          "title": "Slice Isolation-as-a-Service: An Isolation Mechanism to Proactively Defend Cross-Slice Attacks in 5G-Advanced and Beyond",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.23826"
+        }
+      ]
+    },
+    {
       "id": "aditya-bhardwaj",
       "name": "Aditya Bhardwaj",
       "publication_name": "Aditya Bhardwaj",
@@ -32208,6 +32439,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.18293v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:adityakanade",
+      "name": "Aditya Kanade",
+      "publication_name": "Aditya Kanade",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25599v1",
+      "institutions": [
+        "Google"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25599"
         }
       ]
     },
@@ -32256,6 +32511,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.38543v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:alaiasolkobreslin",
+      "name": "Alaia Solko-Breslin",
+      "publication_name": "Alaia Solko-Breslin",
+      "homepage": "https://alaiasolkobreslin.github.io/",
+      "profile_source": "https://alaiasolkobreslin.github.io/",
+      "institutions": [
+        "Google DeepMind",
+        "University of Pennsylvania"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25599"
         }
       ]
     },
@@ -32328,6 +32608,30 @@
           "year": 2014,
           "venue": "ACM PLDI 2014",
           "url": "https://ris.uni-paderborn.de/record/5189"
+        }
+      ]
+    },
+    {
+      "id": "scholar:aliaghorbani",
+      "name": "Ali A. Ghorbani",
+      "publication_name": "Ali A. Ghorbani",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.21577v1",
+      "institutions": [
+        "University of New Brunswick"
+      ],
+      "papers": [
+        "arxiv-2611-21577-mcp-provider-misbinding"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-21577-mcp-provider-misbinding",
+          "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.21577"
         }
       ]
     },
@@ -32669,6 +32973,30 @@
       ]
     },
     {
+      "id": "scholar:ashrafmatrawy",
+      "name": "Ashraf Matrawy",
+      "publication_name": "Ashraf Matrawy",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.23826v1",
+      "institutions": [
+        "Carleton University"
+      ],
+      "papers": [
+        "arxiv-2611-23826-slice-isolation"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-23826-slice-isolation",
+          "title": "Slice Isolation-as-a-Service: An Isolation Mechanism to Proactively Defend Cross-Slice Attacks in 5G-Advanced and Beyond",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.23826"
+        }
+      ]
+    },
+    {
       "id": "aylin-caliskan",
       "name": "Aylin Caliskan",
       "publication_name": "Aylin Caliskan",
@@ -32765,6 +33093,30 @@
       ]
     },
     {
+      "id": "scholar:chaklamcheong",
+      "name": "Chaklam Cheong",
+      "publication_name": "Chaklam Cheong",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22223v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
       "id": "chaowei-xiao",
       "name": "Chaowei Xiao",
       "publication_name": "Chaowei Xiao",
@@ -32833,6 +33185,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.08281v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:chengyanma",
+      "name": "Chengyan Ma",
+      "publication_name": "Chengyan Ma",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22519v1",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
         }
       ]
     },
@@ -33142,9 +33518,9 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
         }
       ]
     },
@@ -33262,9 +33638,9 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
         }
       ]
     },
@@ -33654,6 +34030,31 @@
       ]
     },
     {
+      "id": "scholar:fengli",
+      "name": "Feng Li",
+      "publication_name": "Feng Li",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
       "id": "feng-lu-tsinghua",
       "name": "Feng Lu",
       "publication_name": "Feng Lu",
@@ -33697,9 +34098,9 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
         }
       ]
     },
@@ -34043,6 +34444,31 @@
       ]
     },
     {
+      "id": "scholar:hengyuyang",
+      "name": "Hengyu Yang",
+      "publication_name": "Hengyu Yang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
       "id": "hideki-nakayama",
       "name": "Hideki Nakayama",
       "publication_name": "Hideki Nakayama",
@@ -34063,6 +34489,54 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.17115v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:hongqingyu",
+      "name": "Hong Qing Yu",
+      "publication_name": "Hong Qing Yu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22761v1",
+      "institutions": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22761-robot-config",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22761"
+        }
+      ]
+    },
+    {
+      "id": "scholar:hongzhenwu",
+      "name": "Hongzhen Wu",
+      "publication_name": "Hongzhen Wu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25790v1",
+      "institutions": [
+        "论文未注明单位"
+      ],
+      "papers": [
+        "arxiv-2611-25790-cybergym-reliability"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25790-cybergym-reliability",
+          "title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25790"
         }
       ]
     },
@@ -34159,6 +34633,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.16493v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:huinachao",
+      "name": "Huina Chao",
+      "publication_name": "Huina Chao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
         }
       ]
     },
@@ -34355,6 +34854,55 @@
       ]
     },
     {
+      "id": "scholar:jiamingguo",
+      "name": "Jiaming Guo",
+      "publication_name": "Jiaming Guo",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
+      "id": "scholar:jianbingni",
+      "name": "Jianbing Ni",
+      "publication_name": "Jianbing Ni",
+      "homepage": "https://www.cs.queensu.ca/people/Jianbing%20/Ni",
+      "profile_source": "https://www.cs.queensu.ca/people/Jianbing%20/Ni",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
       "id": "jiaqi-weng",
       "name": "Jiaqi Weng",
       "publication_name": "Jiaqi Weng",
@@ -34405,6 +34953,30 @@
       ]
     },
     {
+      "id": "scholar:jiawenzhang",
+      "name": "Jiawen Zhang",
+      "publication_name": "Jiawen Zhang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.24362v1",
+      "institutions": [
+        "浙江大学"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.24362"
+        }
+      ]
+    },
+    {
       "id": "jiaxin-ma",
       "name": "Jiaxin Ma",
       "publication_name": "Jiaxin Ma",
@@ -34425,6 +34997,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.41307v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:jiekeshi",
+      "name": "Jieke Shi",
+      "publication_name": "Jieke Shi",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22519v1",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
         }
       ]
     },
@@ -34498,6 +35094,54 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.40716v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:jinyuzhang",
+      "name": "Jinyu Zhang",
+      "publication_name": "Jinyu Zhang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25470v1",
+      "institutions": [
+        "香港大学"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25470"
+        }
+      ]
+    },
+    {
+      "id": "scholar:jinzhaolian",
+      "name": "Jinzhao Lian",
+      "publication_name": "Jinzhao Lian",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25470v1",
+      "institutions": [
+        "中国人民大学"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25470"
         }
       ]
     },
@@ -34961,6 +35605,30 @@
       ]
     },
     {
+      "id": "scholar:krishnamurthydjdvijotham",
+      "name": "Krishnamurthy Dj Dvijotham",
+      "publication_name": "Krishnamurthy Dj Dvijotham",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25599v1",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25599"
+        }
+      ]
+    },
+    {
       "id": "kristina-nikolic",
       "name": "Kristina Nikolić",
       "publication_name": "Kristina Nikolić",
@@ -35074,9 +35742,9 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
         }
       ]
     },
@@ -35101,6 +35769,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.38543v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:lipenghe",
+      "name": "Lipeng He",
+      "publication_name": "Lipeng He",
+      "homepage": "https://lipeng.ac/",
+      "profile_source": "https://lipeng.ac/",
+      "institutions": [
+        "University of Waterloo"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.24362"
         }
       ]
     },
@@ -35225,6 +35917,30 @@
       ]
     },
     {
+      "id": "scholar:meghanaaparnasistla",
+      "name": "Meghana Aparna Sistla",
+      "publication_name": "Meghana Aparna Sistla",
+      "homepage": "https://meghana-sistla.github.io/",
+      "profile_source": "https://meghana-sistla.github.io/",
+      "institutions": [
+        "Google DeepMind"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25599"
+        }
+      ]
+    },
+    {
       "id": "michael-saxon",
       "name": "Michael Saxon",
       "publication_name": "Michael Saxon",
@@ -35321,6 +36037,30 @@
       ]
     },
     {
+      "id": "scholar:mohammadzulkernine",
+      "name": "Mohammad Zulkernine",
+      "publication_name": "Mohammad Zulkernine",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22223v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
       "id": "mohammed-nayeem-khan",
       "name": "Mohammed Nayeem Khan",
       "publication_name": "Mohammed Nayeem Khan",
@@ -35389,6 +36129,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.18575"
+        }
+      ]
+    },
+    {
+      "id": "scholar:nasokan",
+      "name": "N. Asokan",
+      "publication_name": "N. Asokan",
+      "homepage": "https://uwaterloo.ca/computer-science/about/people/nasokan",
+      "profile_source": "https://uwaterloo.ca/computer-science/about/people/nasokan",
+      "institutions": [
+        "KTH Royal Institute of Technology",
+        "University of Waterloo"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.24362"
         }
       ]
     },
@@ -35633,6 +36398,30 @@
       ]
     },
     {
+      "id": "scholar:qili",
+      "name": "Qi Li",
+      "publication_name": "Qi Li",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22223v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
       "id": "qi-xuan-zjut",
       "name": "Qi Xuan",
       "publication_name": "Qi Xuan",
@@ -35677,6 +36466,55 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.41307v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:qinmai",
+      "name": "Qin Mai",
+      "publication_name": "Qin Mai",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
+      "id": "scholar:quangdanle",
+      "name": "Quang Dan Le",
+      "publication_name": "Quang Dan Le",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22761v1",
+      "institutions": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22761-robot-config",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22761"
         }
       ]
     },
@@ -35825,6 +36663,54 @@
       ]
     },
     {
+      "id": "scholar:rongxinglu",
+      "name": "Rongxing Lu",
+      "publication_name": "Rongxing Lu",
+      "homepage": "https://www.cs.queensu.ca/people/Rongxing/Lu",
+      "profile_source": "https://www.cs.queensu.ca/people/Rongxing/Lu",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
+      "id": "scholar:ruidonghan",
+      "name": "Ruidong Han",
+      "publication_name": "Ruidong Han",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22519v1",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
+        }
+      ]
+    },
+    {
       "id": "ryan-cottone-stanford",
       "name": "Ryan Cottone",
       "publication_name": "Ryan Cottone",
@@ -35869,6 +36755,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.14611"
+        }
+      ]
+    },
+    {
+      "id": "scholar:sajjaddadkhah",
+      "name": "Sajjad Dadkhah",
+      "publication_name": "Sajjad Dadkhah",
+      "homepage": "https://www.unb.ca/faculty-staff/directory/computer-science/dadkhah-sajjad.html",
+      "profile_source": "https://www.unb.ca/faculty-staff/directory/computer-science/dadkhah-sajjad.html",
+      "institutions": [
+        "University of New Brunswick"
+      ],
+      "papers": [
+        "arxiv-2611-21577-mcp-provider-misbinding"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-21577-mcp-provider-misbinding",
+          "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.21577"
         }
       ]
     },
@@ -36089,6 +36999,30 @@
       ]
     },
     {
+      "id": "scholar:shizhecui",
+      "name": "Shizhe Cui",
+      "publication_name": "Shizhe Cui",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "南方电网数字电网集团信息通信科技有限公司"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
       "id": "shuai-yang",
       "name": "Shuai Yang",
       "publication_name": "Shuai Yang",
@@ -36259,6 +37193,31 @@
       ]
     },
     {
+      "id": "scholar:someshjha",
+      "name": "Somesh Jha",
+      "publication_name": "Somesh Jha",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25599v1",
+      "institutions": [
+        "Google",
+        "University of Wisconsin–Madison"
+      ],
+      "papers": [
+        "arxiv-2611-25599-tether"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25599"
+        }
+      ]
+    },
+    {
       "id": "soumyakant-priyadarshan-stony-brook",
       "name": "Soumyakant Priyadarshan",
       "publication_name": "Soumyakant Priyadarshan",
@@ -36279,6 +37238,30 @@
           "year": 2026,
           "venue": "ACM PLDI 2026",
           "url": "https://doi.org/10.1145/3808292"
+        }
+      ]
+    },
+    {
+      "id": "scholar:stanleyakingbola",
+      "name": "Stanley Akingbola",
+      "publication_name": "Stanley Akingbola",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22761v1",
+      "institutions": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22761-robot-config",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22761"
         }
       ]
     },
@@ -36476,6 +37459,30 @@
       ]
     },
     {
+      "id": "scholar:tiancongcao",
+      "name": "Tiancong Cao",
+      "publication_name": "Tiancong Cao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22223v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
       "id": "tianqi-fan",
       "name": "Tianqi Fan",
       "publication_name": "Tianqi Fan",
@@ -36520,6 +37527,30 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2607.20759"
+        }
+      ]
+    },
+    {
+      "id": "scholar:ugbedeibrahim",
+      "name": "Ugbede Ibrahim",
+      "publication_name": "Ugbede Ibrahim",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22761v1",
+      "institutions": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22761-robot-config",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22761"
         }
       ]
     },
@@ -36592,6 +37623,31 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.06135v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:weihuo",
+      "name": "Wei Huo",
+      "publication_name": "Wei Huo",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
         }
       ]
     },
@@ -36836,6 +37892,31 @@
       ]
     },
     {
+      "id": "scholar:xinyiwang",
+      "name": "Xinyi Wang",
+      "publication_name": "Xinyi Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
       "id": "xu-gai",
       "name": "Xu Gai",
       "publication_name": "Xu Gai",
@@ -36925,9 +38006,33 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yanlinaung",
+      "name": "Yan Lin Aung",
+      "publication_name": "Yan Lin Aung",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22761v1",
+      "institutions": [
+        "University of Derby"
+      ],
+      "papers": [
+        "arxiv-2611-22761-robot-config"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22761-robot-config",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
           "year": 2026,
           "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "url": "https://arxiv.org/abs/2611.22761"
         }
       ]
     },
@@ -36952,6 +38057,56 @@
           "year": 2026,
           "venue": "IEEE HOST 2026",
           "url": "https://doi.org/10.1109/HOST68814.2026.11604975"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yangxiao",
+      "name": "Yang Xiao",
+      "publication_name": "Yang Xiao",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yechengsun",
+      "name": "Yecheng Sun",
+      "publication_name": "Yecheng Sun",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
         }
       ]
     },
@@ -37049,6 +38204,30 @@
           "year": 2026,
           "venue": "USENIX OSDI 2026",
           "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yihanwang",
+      "name": "Yihan Wang",
+      "publication_name": "Yihan Wang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.24362v1",
+      "institutions": [
+        "University of Waterloo"
+      ],
+      "papers": [
+        "arxiv-2611-24362-pipette"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.24362"
         }
       ]
     },
@@ -37271,6 +38450,31 @@
       ]
     },
     {
+      "id": "scholar:yujiesun",
+      "name": "Yujie Sun",
+      "publication_name": "Yujie Sun",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25412v1",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
       "id": "yukai-zhou",
       "name": "Yukai Zhou",
       "publication_name": "Yukai Zhou",
@@ -37295,6 +38499,30 @@
       ]
     },
     {
+      "id": "scholar:yuleding",
+      "name": "Yule Ding",
+      "publication_name": "Yule Ding",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25790v1",
+      "institutions": [
+        "论文未注明单位"
+      ],
+      "papers": [
+        "arxiv-2611-25790-cybergym-reliability"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25790-cybergym-reliability",
+          "title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25790"
+        }
+      ]
+    },
+    {
       "id": "yulei-sui",
       "name": "Yulei Sui",
       "publication_name": "Yulei Sui",
@@ -37312,9 +38540,9 @@
         {
           "id": "arxiv-2610-41642-tadp",
           "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.41642v1"
+          "year": 2027,
+          "venue": "WACV 2027",
+          "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers"
         }
       ]
     },
@@ -37344,6 +38572,30 @@
       ]
     },
     {
+      "id": "scholar:yunbolyu",
+      "name": "Yunbo Lyu",
+      "publication_name": "Yunbo Lyu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22519v1",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
+        }
+      ]
+    },
+    {
       "id": "yuqiang-sun-ntu",
       "name": "Yuqiang Sun",
       "publication_name": "Yuqiang Sun",
@@ -37364,6 +38616,30 @@
           "year": 2026,
           "venue": "ACM OOPSLA 2026",
           "url": "https://doi.org/10.1145/3798272"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yuqingniu",
+      "name": "Yuqing Niu",
+      "publication_name": "Yuqing Niu",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22519v1",
+      "institutions": [
+        "Singapore Management University"
+      ],
+      "papers": [
+        "arxiv-2611-22519-workflowbp"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22519"
         }
       ]
     },
@@ -37412,6 +38688,54 @@
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2611.08811v1"
+        }
+      ]
+    },
+    {
+      "id": "scholar:zelinzhang",
+      "name": "Zelin Zhang",
+      "publication_name": "Zelin Zhang",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.22223v1",
+      "institutions": [
+        "Queen’s University"
+      ],
+      "papers": [
+        "arxiv-2611-22223-gapleak"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-22223-gapleak",
+          "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.22223"
+        }
+      ]
+    },
+    {
+      "id": "scholar:zeynabanbiaee",
+      "name": "Zeynab Anbiaee",
+      "publication_name": "Zeynab Anbiaee",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.21577v1",
+      "institutions": [
+        "University of New Brunswick"
+      ],
+      "papers": [
+        "arxiv-2611-21577-mcp-provider-misbinding"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-21577-mcp-provider-misbinding",
+          "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.21577"
         }
       ]
     },
@@ -37608,6 +38932,30 @@
       ]
     },
     {
+      "id": "scholar:zihaodan",
+      "name": "Zihao Dan",
+      "publication_name": "Zihao Dan",
+      "homepage": "",
+      "profile_source": "https://arxiv.org/pdf/2611.25470v1",
+      "institutions": [
+        "香港大学"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25470"
+        }
+      ]
+    },
+    {
       "id": "zihao-zhan-texas-tech",
       "name": "Zihao Zhan",
       "publication_name": "Zihao Zhan",
@@ -37775,6 +39123,79 @@
           "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f83cb637e159e789f5576ff6848874de-Abstract-Conference.html"
         }
       ]
+    },
+    {
+      "id": "scholar:shinanliu",
+      "name": "劉詩楠",
+      "publication_name": "Shinan Liu",
+      "homepage": "https://www.shinan.info/",
+      "profile_source": "https://hub.hku.hk/cris/rp/rp03556",
+      "institutions": [
+        "香港大学"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25470"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yetingli",
+      "name": "李页霆",
+      "publication_name": "Yeting Li",
+      "homepage": "https://yetingli.github.io/",
+      "profile_source": "https://yetingli.github.io/",
+      "institutions": [
+        "中国科学院信息工程研究所",
+        "中国科学院大学"
+      ],
+      "papers": [
+        "arxiv-2611-25412-chainagent"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25412"
+        }
+      ]
+    },
+    {
+      "id": "scholar:yunchen",
+      "name": "陈韵",
+      "publication_name": "Yun Chen",
+      "homepage": "",
+      "profile_source": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "institutions": [
+        "香港科技大学（广州）"
+      ],
+      "papers": [
+        "arxiv-2611-25470-toolpulse"
+      ],
+      "annual_scores": {},
+      "verified_score": 0,
+      "recent_papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.25470"
+        }
+      ]
     }
   ],
   "collaborations": [
@@ -37817,6 +39238,28 @@
         {
           "id": "neurips25-kuntz-os-harm",
           "year": 2025,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 3
+    },
+    {
+      "source": "iie-cas",
+      "target": "ucas",
+      "papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "year": 2026,
+          "venue_group": null
+        },
+        {
+          "id": "usenix-sec26-liu-picklecloak",
+          "year": 2026,
+          "venue_group": "security"
+        },
+        {
+          "id": "fse26-guo-bcs",
+          "year": 2026,
           "venue_group": "software"
         }
       ],
@@ -38076,6 +39519,23 @@
       "weight": 2
     },
     {
+      "source": "google",
+      "target": "google-deepmind",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
+        },
+        {
+          "id": "satml26-debenedetti-camel",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 2
+    },
+    {
       "source": "gray-swan-ai",
       "target": "uk-ai-security-institute",
       "papers": [
@@ -38146,23 +39606,6 @@
     {
       "source": "iie-cas",
       "target": "shandong-university",
-      "papers": [
-        {
-          "id": "usenix-sec26-liu-picklecloak",
-          "year": 2026,
-          "venue_group": "security"
-        },
-        {
-          "id": "fse26-guo-bcs",
-          "year": 2026,
-          "venue_group": "software"
-        }
-      ],
-      "weight": 2
-    },
-    {
-      "source": "iie-cas",
-      "target": "ucas",
       "papers": [
         {
           "id": "usenix-sec26-liu-picklecloak",
@@ -38341,6 +39784,23 @@
         },
         {
           "id": "fse26-guo-bcs",
+          "year": 2026,
+          "venue_group": "software"
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "source": "singapore-management-university",
+      "target": "ualberta-amii",
+      "papers": [
+        {
+          "id": "arxiv-2611-22519-workflowbp",
+          "year": 2026,
+          "venue_group": null
+        },
+        {
+          "id": "issta26-chen-insecure-memory",
           "year": 2026,
           "venue_group": "software"
         }
@@ -39460,6 +40920,30 @@
       "weight": 1
     },
     {
+      "source": "csg-digital-grid-ict",
+      "target": "iie-cas",
+      "papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "csg-digital-grid-ict",
+      "target": "ucas",
+      "papers": [
+        {
+          "id": "arxiv-2611-25412-chainagent",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "csiro",
       "target": "cyberus-technology",
       "papers": [
@@ -39585,7 +41069,7 @@
       "papers": [
         {
           "id": "arxiv-2610-41642-tadp",
-          "year": 2026,
+          "year": 2027,
           "venue_group": null
         }
       ],
@@ -40601,18 +42085,6 @@
     },
     {
       "source": "google",
-      "target": "google-deepmind",
-      "papers": [
-        {
-          "id": "satml26-debenedetti-camel",
-          "year": 2026,
-          "venue_group": null
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "google",
       "target": "ruhr-university-bochum",
       "papers": [
         {
@@ -40643,6 +42115,54 @@
           "id": "ndss23-gross-fuzzilli",
           "year": 2023,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "university-of-wisconsinmadison",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-deepmind",
+      "target": "university-of-wisconsinmadison",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "google-deepmind",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -40955,6 +42475,30 @@
           "id": "usenix-sec26-zhang-resume-injection",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "hkust-guangzhou",
+      "target": "renmin-university-china",
+      "papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "hkust-guangzhou",
+      "target": "university-hong-kong",
+      "papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -41831,6 +43375,30 @@
           "id": "usenix-sec26-kim-timeslice-sandwich",
           "year": 2026,
           "venue_group": "security"
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "kth-royal-institute-technology",
+      "target": "university-waterloo",
+      "papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "source": "kth-royal-institute-technology",
+      "target": "zhejiang-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "year": 2026,
+          "venue_group": null
         }
       ],
       "weight": 1
@@ -42868,6 +44436,18 @@
       "weight": 1
     },
     {
+      "source": "renmin-university-china",
+      "target": "university-hong-kong",
+      "papers": [
+        {
+          "id": "arxiv-2611-25470-toolpulse",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "riken-aip",
       "target": "waseda-university",
       "papers": [
@@ -43175,18 +44755,6 @@
           "id": "arxiv-2611-09808-agent-patch-path",
           "year": 2026,
           "venue_group": null
-        }
-      ],
-      "weight": 1
-    },
-    {
-      "source": "singapore-management-university",
-      "target": "ualberta-amii",
-      "papers": [
-        {
-          "id": "issta26-chen-insecure-memory",
-          "year": 2026,
-          "venue_group": "software"
         }
       ],
       "weight": 1
@@ -43900,6 +45468,18 @@
       "weight": 1
     },
     {
+      "source": "university-of-wisconsinmadison",
+      "target": "university-pennsylvania",
+      "papers": [
+        {
+          "id": "arxiv-2611-25599-tether",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "university-of-york",
       "target": "university-waterloo",
       "papers": [
@@ -43972,6 +45552,18 @@
       "weight": 1
     },
     {
+      "source": "university-waterloo",
+      "target": "zhejiang-university",
+      "papers": [
+        {
+          "id": "arxiv-2611-24362-pipette",
+          "year": 2026,
+          "venue_group": null
+        }
+      ],
+      "weight": 1
+    },
+    {
       "source": "unsw",
       "target": "zhejiang-sci-tech-university",
       "papers": [
@@ -43997,6 +45589,219 @@
     }
   ],
   "publications": [
+    {
+      "id": "arxiv-2611-21577-mcp-provider-misbinding",
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.21577",
+      "institutions": [
+        "university-new-brunswick"
+      ],
+      "authors": [
+        "scholar:zeynabanbiaee",
+        "scholar:sajjaddadkhah",
+        "scholar:aliaghorbani"
+      ]
+    },
+    {
+      "id": "arxiv-2611-25470-toolpulse",
+      "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.25470",
+      "institutions": [
+        "university-hong-kong",
+        "renmin-university-china",
+        "hkust-guangzhou"
+      ],
+      "authors": [
+        "scholar:zihaodan",
+        "scholar:jinyuzhang",
+        "scholar:jinzhaolian",
+        "scholar:yunchen",
+        "scholar:shinanliu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-25599-tether",
+      "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.25599",
+      "institutions": [
+        "google-deepmind",
+        "google",
+        "university-pennsylvania",
+        "university-of-wisconsinmadison"
+      ],
+      "authors": [
+        "scholar:meghanaaparnasistla",
+        "scholar:alaiasolkobreslin",
+        "scholar:someshjha",
+        "scholar:adityakanade",
+        "scholar:krishnamurthydjdvijotham"
+      ]
+    },
+    {
+      "id": "arxiv-2611-23826-slice-isolation",
+      "title": "Slice Isolation-as-a-Service: An Isolation Mechanism to Proactively Defend Cross-Slice Attacks in 5G-Advanced and Beyond",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.23826",
+      "institutions": [
+        "carleton-university"
+      ],
+      "authors": [
+        "scholar:abdulazizabdulghaffar",
+        "scholar:ashrafmatrawy"
+      ]
+    },
+    {
+      "id": "arxiv-2611-24362-pipette",
+      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.24362",
+      "institutions": [
+        "university-waterloo",
+        "zhejiang-university",
+        "kth-royal-institute-technology"
+      ],
+      "authors": [
+        "scholar:lipenghe",
+        "scholar:yihanwang",
+        "scholar:jiawenzhang",
+        "scholar:nasokan"
+      ]
+    },
+    {
+      "id": "arxiv-2611-25790-cybergym-reliability",
+      "title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.25790",
+      "institutions": [
+        "affiliation-undisclosed-cybergym"
+      ],
+      "authors": [
+        "scholar:yuleding",
+        "scholar:hongzhenwu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-22761-robot-config",
+      "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.22761",
+      "institutions": [
+        "university-derby"
+      ],
+      "authors": [
+        "scholar:stanleyakingbola",
+        "scholar:ugbedeibrahim",
+        "scholar:yanlinaung",
+        "scholar:quangdanle",
+        "scholar:hongqingyu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-22519-workflowbp",
+      "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.22519",
+      "institutions": [
+        "singapore-management-university",
+        "ualberta-amii"
+      ],
+      "authors": [
+        "scholar:chengyanma",
+        "scholar:jiekeshi",
+        "scholar:ruidonghan",
+        "weifeng-sun-smu",
+        "scholar:yuqingniu",
+        "scholar:yunbolyu",
+        "zhou-yang-ualberta",
+        "david-lo-smu"
+      ]
+    },
+    {
+      "id": "arxiv-2611-22223-gapleak",
+      "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.22223",
+      "institutions": [
+        "queens-university"
+      ],
+      "authors": [
+        "scholar:chaklamcheong",
+        "scholar:tiancongcao",
+        "scholar:qili",
+        "scholar:zelinzhang",
+        "scholar:jianbingni",
+        "scholar:rongxinglu",
+        "scholar:mohammadzulkernine"
+      ]
+    },
+    {
+      "id": "arxiv-2611-25412-chainagent",
+      "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_group": null,
+      "status": "preprint",
+      "first_seen": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.25412",
+      "institutions": [
+        "iie-cas",
+        "ucas",
+        "csg-digital-grid-ict"
+      ],
+      "authors": [
+        "scholar:xinyiwang",
+        "scholar:yetingli",
+        "scholar:shizhecui",
+        "scholar:jiamingguo",
+        "scholar:qinmai",
+        "scholar:yechengsun",
+        "scholar:hengyuyang",
+        "scholar:yujiesun",
+        "scholar:huinachao",
+        "scholar:yangxiao",
+        "scholar:fengli",
+        "scholar:weihuo"
+      ]
+    },
     {
       "id": "arxiv-2611-08884-audience-privacy",
       "title": "Who's Asking? Audience-Conditioned Privatization",
@@ -44065,12 +45870,12 @@
     {
       "id": "arxiv-2610-41642-tadp",
       "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
-      "year": 2026,
-      "venue": "arXiv",
+      "year": 2027,
+      "venue": "WACV 2027",
       "venue_group": null,
-      "status": "preprint-unreviewed",
+      "status": "accepted",
       "first_seen": "2026-11-17",
-      "url": "https://arxiv.org/abs/2610.41642v1",
+      "url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers",
       "institutions": [
         "unsw",
         "csiro"

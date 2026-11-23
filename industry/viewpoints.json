@@ -1471,5 +1471,120 @@
     "evidence_basis": "11 月 13 日官方 RSS 完整正文，Talos 的 IP/工具共现观测、目录和提示历史分析、Snort/ClamAV 覆盖；Microsoft、CrowdStrike 等具体行动结论为文中明确标注的外部报告。",
     "limitations": "未公开完整测量采样和全部原始数据。关联 IP、工具共现与已成功利用是不同证据层级；未来自主勒索链为预测，不能写成这次已观测事件。第三方归因保持原发布方和置信度。",
     "commercial_interest": "Cisco 提供安全产品，文章列出 Snort、ClamAV 覆盖并推广防御能力；自有检测覆盖不能视为独立产品有效性评估。"
+  },
+  {
+    "id": "gtig-armory-castle-vsphere-2026",
+    "title": "GTIG：vCenter失陷需要联查管理面与身份材料",
+    "source": "Google Threat Intelligence Group",
+    "source_type": "平台厂商威胁情报团队",
+    "content_type": "入侵调查与加固建议",
+    "published_at": "2026-11-20",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere",
+    "topics": [
+      "虚拟化管理面",
+      "身份材料",
+      "横向移动"
+    ],
+    "summary": "GTIG与Mandiant描述ARMORY CASTLE从边缘设备进入内部环境后，利用vCenter会话密钥披露、提取身份材料并访问虚拟机数据的链条。",
+    "highlights": [
+      "调查把CVE-2026-123890的利用时间追至9月初；编译时间可以被修改，不能仅凭构建时间断言更早利用。",
+      "补丁与管理端口隔离需要联动；已经取得的SAML签名材料和新增账户仍须检查。",
+      "内核防火墙与远程日志表为作者对攻击链的防守映射，未给对照实验或通用有效率。"
+    ],
+    "evidence_basis": "官方完整调查正文、恢复的工具分析、日志片段与公开YARA；正文链接Broadcom补丁。",
+    "limitations": "疑似中国关联由发布方归因；未公开完整受害者日志与全球范围。部分外传和工具作用使用likely表述，加固效果属于作者分析。",
+    "commercial_interest": "Google销售威胁情报、SecOps与Mandiant响应服务；IOC集合部分需注册。"
+  },
+  {
+    "id": "unit42-optimjack-2026",
+    "title": "Unit 42：第三方脚本需要纳入敏感页面隔离",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "供应链事件分析与建议",
+    "published_at": "2026-11-17",
+    "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/",
+    "topics": [
+      "第三方脚本",
+      "支付页面",
+      "供应链"
+    ],
+    "summary": "Unit 42围绕OPTIMJACK说明合法CDN分发的第三方脚本仍能接触页面敏感输入，建议敏感页面减少标签并隔离支付采集。",
+    "highlights": [
+      "文章报告11月16日Optimizely配置遭注入，至少178个组织网站分发恶意代码；规模为发布方叙述。",
+      "文中描述钱包替换、支付采集与移动利用投递；投递尝试与设备成功失陷应分别记录。",
+      "作者称11月17日厂商修复并移除注入；受影响客户仍需回查暴露期间的项目修改与支付数据。"
+    ],
+    "evidence_basis": "11月17日官方完整文章，包含事件时间线和隔离建议；本次未独立取得厂商完整事件日志。",
+    "limitations": "短篇分析未公开全部178站点清单或原始遥测；未独立验证所有载荷的利用成功率。",
+    "commercial_interest": "发布方销售事件响应与Compromise Assessment，文章含服务推广。"
+  },
+  {
+    "id": "unit42-com-vishing-november-2026",
+    "title": "Unit 42：语音钓鱼后的会话与MFA设备需联查",
+    "source": "Palo Alto Networks Unit 42",
+    "source_type": "安全厂商威胁情报团队",
+    "content_type": "威胁调查与身份防守",
+    "published_at": "2026-11-20",
+    "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+    "topics": [
+      "语音钓鱼",
+      "会话重放",
+      "浏览器扩展"
+    ],
+    "summary": "Unit 42依据事件响应与遥测，描述Com相关活动如何借IT支持话术捕获会话，注册额外MFA设备，再从云协作服务导出数据。",
+    "highlights": [
+      "部分调查中登录数分钟内出现未经授权的MFA设备；具体手机型号属于关联线索，无法单独判定失陷。",
+      "恶意Google Chrome扩展来自攻击者站点，需用户通过开发者模式侧载，未出现在Chrome商店。",
+      "地域与行业趋势按关联子域名计数，代表该观测集中的目标指向，无法直接换算受害者比例。"
+    ],
+    "evidence_basis": "11月20日官方完整正文、活动簇比较、调查片段与两份扩展SHA-256，链接外部原始研究。",
+    "limitations": "活动簇共用基础设施时归因有限；扩展开发归属为中等置信度，是否被其他活动簇共享尚无证据。完整遥测和抽样方法未公开。",
+    "commercial_interest": "发布方推广Cortex、Idira和Unit 42服务，检测覆盖为自报。"
+  },
+  {
+    "id": "nist-mdl-online-draft-2026",
+    "title": "NIST：移动驾照在线使用参考架构进入草案征求意见",
+    "source": "NIST",
+    "source_type": "政府研究与标准机构",
+    "content_type": "工程参考架构草案消息",
+    "published_at": "2026-11-19",
+    "url": "https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption",
+    "topics": [
+      "移动驾照",
+      "在线身份核验",
+      "互操作"
+    ],
+    "summary": "NIST介绍SP 1800-42草案，围绕在线出示移动驾照、风险场景重新核验及签发通行密钥展示参考架构。",
+    "highlights": [
+      "官方消息将生态成熟度和服务方接入列为落地障碍。",
+      "参考实现采用商业现成技术并包含志愿者可用性测试；消息页未给完整样本与效果数字。",
+      "本条所述为草案，官方消息给出的公众意见截止日为12月20日。"
+    ],
+    "evidence_basis": "11月19日NIST完整消息正文，链接NCCoE项目与SP 1800-42草案资源。",
+    "limitations": "本次精读对象为官方消息，尚未逐卷核验草案；未把架构展示解释为全面部署成效。采用规模数字为官方消息汇总。",
+    "commercial_interest": "政府项目无直接产品销售；参考实现涉及合作厂商与现成商业产品。"
+  },
+  {
+    "id": "cisa-java4shell-alert-2026",
+    "title": "CISA：Java运行时清点需覆盖应用与容器内嵌版本",
+    "source": "CISA",
+    "source_type": "政府网络安全机构",
+    "content_type": "漏洞安全提醒",
+    "published_at": "2026-11-17",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+    "topics": [
+      "Java运行时",
+      "资产清点",
+      "补丁"
+    ],
+    "summary": "CISA针对CVE-2026-114938发布修补提醒，指出应用和容器内嵌Java运行时可能未以独立资产条目出现。",
+    "highlights": [
+      "提醒将问题定位到x86-64 HotSpot的Base64解码，并链接Oracle公告核对受影响版本。",
+      "防守建议优先识别暴露系统并按厂商指导更新，观察异常JVM崩溃和进程。",
+      "无法立即更新时的输入约束与访问限制属于临时补偿控制，版本范围仍应以厂商通告为准。"
+    ],
+    "evidence_basis": "11月17日CISA官方提醒完整正文，链接Oracle Critical Security Patch Update – November 2026。",
+    "limitations": "本条未自行复现漏洞或补充公告未给出的利用规模；详细产品与版本范围留待厂商原通告核验。",
+    "commercial_interest": "政府提醒，无直接产品销售；厂商补丁与支持条件以其公告为准。"
   }
 ]

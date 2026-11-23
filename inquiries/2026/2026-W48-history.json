@@ -1,0 +1,3287 @@
+{
+  "checked_at": "2026-11-23T13:09:30.915426+08:00",
+  "index_records_reviewed": 208,
+  "arxiv_records_checked": 95,
+  "arxiv_gaps": 0,
+  "history": [
+    {
+      "id": "issta26-chen-insecure-memory",
+      "arxiv_id": "2607.17619",
+      "url": "https://arxiv.org/abs/2607.17619",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
+      "history": "Submission history From: Yuchen Chen [ view email ] [v1] Mon, 20 Jul 2026 07:15:35 UTC (1,200 KB)",
+      "comments": [
+        "Comments: Accepted to the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.17619"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-05120-agent-data-injection",
+      "arxiv_id": "2607.05120",
+      "url": "https://arxiv.org/abs/2607.05120",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Agent Data Injection Attacks are Realistic Threats to AI Agents",
+      "history": "Submission history From: Woohyuk Choi [ view email ] [v1] Mon, 6 Jul 2026 14:07:49 UTC (2,709 KB)",
+      "comments": [
+        "Comments: 19 pages, 19 figures, 7 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.05120"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-18063-adaptive-adversaries",
+      "arxiv_id": "2607.18063",
+      "url": "https://arxiv.org/abs/2607.18063",
+      "indexed_status": "workshop",
+      "indexed_last_updated": "2026-09-11",
+      "title": "Title: Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "history": "Submission history From: Devina Jain [ view email ] [v1] Mon, 20 Jul 2026 15:30:38 UTC (399 KB) [v2] Fri, 11 Sep 2026 18:06:53 UTC (143 KB)",
+      "comments": [
+        "Comments: Second Workshop on Agents in the Wild: Safety, Security, and Beyond"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.18063"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-14611-bad-memory",
+      "arxiv_id": "2607.14611",
+      "url": "https://arxiv.org/abs/2607.14611",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+      "history": "Submission history From: Soham Gadgil [ view email ] [v1] Thu, 16 Jul 2026 06:13:48 UTC (31 KB)",
+      "comments": [
+        "Comments: Preprint"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.14611"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-17986-self-state-attacks",
+      "arxiv_id": "2607.17986",
+      "url": "https://arxiv.org/abs/2607.17986",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-09-17",
+      "title": "Title: Self-State Attacks on Self-Hosted AI Agents: How Far Can OS Defenses Go?",
+      "history": "Submission history From: Yimeng Chen [ view email ] [v1] Mon, 20 Jul 2026 14:16:55 UTC (148 KB) [v2] Thu, 17 Sep 2026 06:59:37 UTC (223 KB)",
+      "comments": [
+        "Comments: 21 pages, 3 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.17986"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-16487-fuzz-emup",
+      "arxiv_id": "2607.16487",
+      "url": "https://arxiv.org/abs/2607.16487",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-16",
+      "title": "Title: Fuzz'EMup: Leveraging EM Side-Channel Emanation to Guide Black-Box Embedded Firmware Fuzzing",
+      "history": "Submission history From: Fatemeh Moradihaghighi [ view email ] [v1] Fri, 17 Jul 2026 20:25:03 UTC (1,631 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.16487"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-20759-issuetrojanbench",
+      "arxiv_id": "2607.20759",
+      "url": "https://arxiv.org/abs/2607.20759",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-27",
+      "title": "Title: IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+      "history": "Submission history From: Ankur Singh [ view email ] [v1] Wed, 22 Jul 2026 22:20:02 UTC (7,629 KB)",
+      "comments": [
+        "Comments: 10 pages, 4 figures, 4 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.20759"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-18575-receipt",
+      "arxiv_id": "2607.18575",
+      "url": "https://arxiv.org/abs/2607.18575",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-27",
+      "title": "Title: RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery",
+      "history": "Submission history From: Muxi Lyu [ view email ] [v1] Mon, 20 Jul 2026 23:16:16 UTC (482 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.18575"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-malicious-skills",
+      "arxiv_id": "2602.06547",
+      "url": "https://arxiv.org/abs/2602.06547",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: \"Do Not Mention This to the User\": Detecting and Understanding Malicious Agent Skills in the Wild",
+      "history": "Submission history From: Yi Liu [ view email ] [v1] Fri, 6 Feb 2026 09:52:27 UTC (176 KB) [v2] Sat, 14 Mar 2026 01:34:44 UTC (176 KB) [v3] Mon, 1 Jun 2026 13:03:27 UTC (176 KB) [v4] Wed, 10 Jun 2026 03:31:37 UTC (178 KB)",
+      "comments": [
+        "Comments: Accepted to the 35th USENIX Security Symposium (USENIX Security 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2602.06547"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-zhang-resume-injection",
+      "arxiv_id": "2605.28999",
+      "url": "https://arxiv.org/abs/2605.28999",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+      "history": "Submission history From: Mohan Zhang [ view email ] [v1] Wed, 27 May 2026 18:56:19 UTC (3,249 KB)",
+      "comments": [
+        "Comments: Published in USENIX Security Symposium 2026; Code and artifacts are available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2605.28999"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-huang-conset",
+      "arxiv_id": "2604.04283",
+      "url": "https://arxiv.org/abs/2604.04283",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
+      "history": "Submission history From: Qiqing Huang [ view email ] [v1] Sun, 5 Apr 2026 21:48:11 UTC (2,594 KB)",
+      "comments": [
+        "Comments: To appear in the 35th USENIX Security Symposium (USENIX Security 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.04283"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-guo-pyguard",
+      "arxiv_id": "2601.16463",
+      "url": "https://arxiv.org/abs/2601.16463",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+      "history": "Submission history From: Wenbo Guo [ view email ] [v1] Fri, 23 Jan 2026 05:49:09 UTC (547 KB) [v2] Tue, 27 Jan 2026 15:02:26 UTC (547 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2601.16463"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-gegenhuber-transcript",
+      "arxiv_id": "2607.27510",
+      "url": "https://arxiv.org/abs/2607.27510",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats",
+      "history": "Submission history From: Gabriel Karl Gegenhuber [ view email ] [v1] Wed, 29 Jul 2026 22:54:21 UTC (1,456 KB)",
+      "comments": [
+        "Comments: Accepted to USENIX Security 2026; Artifacts available at this https URL"
+      ],
+      "journal_reference": [
+        "USENIX Security 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.27510"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-26719-lily",
+      "arxiv_id": "2607.26719",
+      "url": "https://arxiv.org/abs/2607.26719",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-07",
+      "title": "Title: Not In My Git Yard: Catching Backdoors at Commit and Release Time",
+      "history": "Submission history From: Stefano Zacchiroli [ view email ] [via CCSD proxy] [v1] Wed, 29 Jul 2026 10:09:48 UTC (67 KB)",
+      "comments": [],
+      "journal_reference": [
+        "41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), Oct 2026, Munich (Allemagne), Germany"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.26719"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-27080-memsecbench",
+      "arxiv_id": "2607.27080",
+      "url": "https://arxiv.org/abs/2607.27080",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-29",
+      "title": "Title: MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+      "history": "Submission history From: Jiajun Zhou [ view email ] [v1] Wed, 29 Jul 2026 16:06:54 UTC (2,299 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.27080"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2608-08939-not-a11y",
+      "arxiv_id": "2608.08939",
+      "url": "https://arxiv.org/abs/2608.08939",
+      "indexed_status": "accepted-workshop",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
+      "history": "Submission history From: Rahul Deivasigamani [ view email ] [v1] Sun, 9 Aug 2026 22:13:55 UTC (1,468 KB)",
+      "comments": [],
+      "journal_reference": [
+        "Proceedings of the 1st Workshop on Security, Privacy, and Safety of Agentic AI Systems (AGENT-SEC '26), pp. 25-36, ACM, 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.08939",
+        "https://doi.org/10.1145/3847320.3847397"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wu-agent-permissions",
+      "arxiv_id": "2511.17959",
+      "url": "https://arxiv.org/abs/2511.17959",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Towards Automating Data Access Permissions in AI Agents",
+      "history": "Submission history From: Yuhao Wu [ view email ] [v1] Sat, 22 Nov 2025 07:50:43 UTC (251 KB)",
+      "comments": [
+        "Comments: Accepted by the IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [
+        "The IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.17959",
+        "https://doi.org/10.1109/SP63933.2026.00018"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-kaya-web-chatbot",
+      "arxiv_id": "2511.05797",
+      "url": "https://arxiv.org/abs/2511.05797",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+      "history": "Submission history From: Yigitcan Kaya [ view email ] [v1] Sat, 8 Nov 2025 02:02:24 UTC (551 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.05797"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-liang-graphrag",
+      "arxiv_id": "2501.14050",
+      "url": "https://arxiv.org/abs/2501.14050",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: GraphRAG under Fire",
+      "history": "Submission history From: Jiacheng Liang [ view email ] [v1] Thu, 23 Jan 2025 19:33:16 UTC (3,502 KB) [v2] Thu, 24 Apr 2025 02:38:09 UTC (3,550 KB) [v3] Sat, 7 Jun 2025 04:27:41 UTC (1,137 KB) [v4] Tue, 14 Oct 2025 03:06:06 UTC (1,150 KB)",
+      "comments": [
+        "Comments: 13 pages. Accepted by IEEE Symposium on Security and Privacy 2026 (S&P 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2501.14050"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-androutsopoulos-deepsurf",
+      "arxiv_id": "2506.15648",
+      "url": "https://arxiv.org/abs/2506.15648",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+      "history": "Submission history From: Georgios Androutsopoulos [ view email ] [v1] Wed, 18 Jun 2025 17:18:23 UTC (210 KB) [v2] Fri, 24 Oct 2025 21:52:10 UTC (2,556 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.15648"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-arquint-diodon",
+      "arxiv_id": "2507.00595",
+      "url": "https://arxiv.org/abs/2507.00595",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: The Secrets Must Not Flow: Scaling Security Verification to Large Codebases (extended version)",
+      "history": "Submission history From: Linard Arquint [ view email ] [v1] Tue, 1 Jul 2025 09:25:54 UTC (142 KB) [v2] Tue, 18 Nov 2025 19:02:00 UTC (160 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2507.00595",
+        "https://doi.org/10.1109/SP63933.2026.00026"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-takahashi-zkfuzz",
+      "arxiv_id": "2504.11961",
+      "url": "https://arxiv.org/abs/2504.11961",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+      "history": "Submission history From: Hideaki Takahashi [ view email ] [v1] Wed, 16 Apr 2025 10:43:48 UTC (1,760 KB) [v2] Fri, 10 Oct 2025 00:15:49 UTC (417 KB) [v3] Sat, 23 May 2026 03:34:47 UTC (411 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.11961"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-zhang-ragorigin",
+      "arxiv_id": "2509.13772",
+      "url": "https://arxiv.org/abs/2509.13772",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+      "history": "Submission history From: Baolei Zhang [ view email ] [v1] Wed, 17 Sep 2025 07:38:54 UTC (334 KB) [v2] Sat, 18 Oct 2025 02:58:16 UTC (335 KB)",
+      "comments": [
+        "Comments: To appear in the IEEE Symposium on Security and Privacy, 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.13772"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wu-enchtable",
+      "arxiv_id": "2511.09880",
+      "url": "https://arxiv.org/abs/2511.09880",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models",
+      "history": "Submission history From: Jialin Wu [ view email ] [v1] Thu, 13 Nov 2025 02:26:59 UTC (1,141 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.09880"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wang-jailbreak-guardrails",
+      "arxiv_id": "2506.10597",
+      "url": "https://arxiv.org/abs/2506.10597",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+      "history": "Submission history From: Xunguang Wang [ view email ] [v1] Thu, 12 Jun 2025 11:42:40 UTC (299 KB) [v2] Thu, 16 Oct 2025 12:15:42 UTC (352 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE S&P 2026 Cycle 1"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.10597"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-ersoy-dark-patterns",
+      "arxiv_id": "2510.18113",
+      "url": "https://arxiv.org/abs/2510.18113",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Investigating the Impact of Dark Patterns on LLM-Based Web Agents",
+      "history": "Submission history From: Brandon Lee [ view email ] [v1] Mon, 20 Oct 2025 21:26:26 UTC (608 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.18113"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-suri-trojanclimb",
+      "arxiv_id": "2507.08983",
+      "url": "https://arxiv.org/abs/2507.08983",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
+      "history": "Submission history From: Anshuman Suri [ view email ] [v1] Fri, 11 Jul 2025 19:35:29 UTC (828 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2507.08983"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-chen-compiler-backdoor",
+      "arxiv_id": "2509.11173",
+      "url": "https://arxiv.org/abs/2509.11173",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+      "history": "Submission history From: Simin Chen [ view email ] [v1] Sun, 14 Sep 2025 09:11:49 UTC (1,497 KB) [v2] Tue, 16 Sep 2025 02:55:43 UTC (1,497 KB) [v3] Mon, 27 Oct 2025 03:04:50 UTC (1,400 KB)",
+      "comments": [
+        "Comments: This paper is accepted to IEEE S&P 2026, the code is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.11173"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-ye-llm-unlearning",
+      "arxiv_id": "2506.07795",
+      "url": "https://arxiv.org/abs/2506.07795",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: LLM Unlearning Should Be Form-Independent",
+      "history": "Submission history From: Xiaotian Ye [ view email ] [v1] Mon, 9 Jun 2025 14:21:25 UTC (785 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.07795"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-corrias-maya",
+      "arxiv_id": "2504.16651",
+      "url": "https://arxiv.org/abs/2504.16651",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark",
+      "history": "Submission history From: Fabio De Gaspari [ view email ] [v1] Wed, 23 Apr 2025 12:16:59 UTC (4,627 KB) [v2] Thu, 12 Jun 2025 11:20:01 UTC (3,203 KB) [v3] Mon, 15 Sep 2025 14:53:33 UTC (3,203 KB) [v4] Fri, 17 Oct 2025 10:15:42 UTC (3,218 KB)",
+      "comments": [
+        "Comments: Paper accepted at the 47th IEEE Symposium on Security and Privacy (S&P 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.16651"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-portgpt",
+      "arxiv_id": "2510.22396",
+      "url": "https://arxiv.org/abs/2510.22396",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: PortGPT: Towards Automated Backporting Using Large Language Models",
+      "history": "Submission history From: Zheng Yu [ view email ] [v1] Sat, 25 Oct 2025 18:46:04 UTC (1,253 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.22396"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-zhai-revelio",
+      "arxiv_id": "2506.12344",
+      "url": "https://arxiv.org/abs/2506.12344",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Restoring Gaussian Blurred Face Images for Deanonymization Attacks",
+      "history": "Submission history From: Haoyu Zhai [ view email ] [v1] Sat, 14 Jun 2025 04:41:05 UTC (19,437 KB)",
+      "comments": [
+        "Comments: 18 pages, 16 figures, IEEE Transaction format"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.12344"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-cosmic",
+      "arxiv_id": "2512.22789",
+      "url": "https://arxiv.org/abs/2512.22789",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Breaking the illusion: Automated Reasoning of GDPR Consent Violations",
+      "history": "Submission history From: Ying Li [ view email ] [v1] Sun, 28 Dec 2025 05:22:00 UTC (3,637 KB)",
+      "comments": [
+        "Comments: Accepted by the IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2512.22789"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-liu-generate-verify",
+      "arxiv_id": "2504.21199",
+      "url": "https://arxiv.org/abs/2504.21199",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Generate-then-Verify: Reconstructing Data from Limited Published Statistics",
+      "history": "Submission history From: Terrance Liu [ view email ] [v1] Tue, 29 Apr 2025 22:06:04 UTC (376 KB) [v2] Wed, 11 Jun 2025 16:54:47 UTC (1,592 KB)",
+      "comments": [
+        "Comments: First two authors contributed equally. Remaining authors are ordered alphabetically"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.21199"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-dutly-aex-nstep",
+      "arxiv_id": "2510.14675",
+      "url": "https://arxiv.org/abs/2510.14675",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+      "history": "Submission history From: Nicolas Dutly [ view email ] [v1] Thu, 16 Oct 2025 13:31:04 UTC (1,101 KB)",
+      "comments": [
+        "Comments: Author's version, to appear, 2026 IEEE Symposium on Security and Privacy (SP)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.14675"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-he-chinese-smart-home-privacy",
+      "arxiv_id": "2506.06591",
+      "url": "https://arxiv.org/abs/2506.06591",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+      "history": "Submission history From: Shijing He [ view email ] [v1] Fri, 6 Jun 2025 23:49:48 UTC (113 KB) [v2] Tue, 28 Oct 2025 12:19:28 UTC (115 KB)",
+      "comments": [
+        "Comments: Paper accepted for presentation at IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.06591"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-sator",
+      "arxiv_id": "2406.15055",
+      "url": "https://arxiv.org/abs/2406.15055",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: SaTor: Exploring Satellite Routing in Tor to Reduce Latency",
+      "history": "Submission history From: Haozhi Li [ view email ] [v1] Fri, 21 Jun 2024 11:03:28 UTC (5,606 KB) [v2] Thu, 23 Jan 2025 14:16:22 UTC (22,760 KB) [v3] Thu, 19 Jun 2025 03:18:04 UTC (3,053 KB) [v4] Wed, 13 May 2026 08:49:00 UTC (4,883 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2406.15055"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-pennekamp-hidden-secrets-arxiv",
+      "arxiv_id": "2604.20927",
+      "url": "https://arxiv.org/abs/2604.20927",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files of Scientific Preprints",
+      "history": "Submission history From: Jan Pennekamp [ view email ] [v1] Wed, 22 Apr 2026 08:18:10 UTC (451 KB)",
+      "comments": [
+        "Comments: 20 pages, accepted at 47th IEEE Symposium on Security and Privacy (SP '26)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.20927",
+        "https://doi.org/10.1109/SP63933.2026.00217"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "issta26-wei-linux-config",
+      "arxiv_id": "2608.15225",
+      "url": "https://arxiv.org/abs/2608.15225",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-15",
+      "title": "Title: Inferring 1-Minimal Trigger Configurations for Assessing Linux Kernel CVE Triggerability",
+      "history": "Submission history From: Tongjie Wei [ view email ] [v1] Sat, 15 Aug 2026 13:28:21 UTC (2,987 KB)",
+      "comments": [
+        "Comments: 22 pages, 7 figures. Accepted to ISSTA 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.15225"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "issta26-huang-secretron",
+      "arxiv_id": "2608.04523",
+      "url": "https://arxiv.org/abs/2608.04523",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-05",
+      "title": "Title: Checked-In Secret Detection: Strings Are All You Need",
+      "history": "Submission history From: Zhengdong Huang [ view email ] [v1] Wed, 5 Aug 2026 06:55:54 UTC (1,349 KB)",
+      "comments": [],
+      "journal_reference": [
+        "The ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.04523",
+        "https://doi.org/10.1145/3832207"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ase26-ni-triage-nodejs",
+      "arxiv_id": "2510.20739",
+      "url": "https://arxiv.org/abs/2510.20739",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-10",
+      "title": "Title: Learning to Triage Vulnerability Reports from Program Analysis: An Empirical Study in Node.js",
+      "history": "Submission history From: Ronghao Ni [ view email ] [v1] Thu, 23 Oct 2025 16:58:02 UTC (389 KB) [v2] Mon, 10 Aug 2026 16:18:54 UTC (340 KB)",
+      "comments": [
+        "Comments: Accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026). The version of record is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.1145/3832783.3837503",
+        "https://doi.org/10.48550/arXiv.2510.20739",
+        "https://doi.org/10.1145/3832783.3837503"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-aichberger-mip-agent",
+      "arxiv_id": "2503.10809",
+      "url": "https://arxiv.org/abs/2503.10809",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2025-12-02",
+      "title": "Title: MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents",
+      "history": "Submission history From: Lukas Aichberger [ view email ] [v1] Thu, 13 Mar 2025 18:59:12 UTC (8,546 KB) [v2] Tue, 4 Nov 2025 10:25:46 UTC (8,526 KB) [v3] Tue, 27 Jan 2026 18:10:17 UTC (8,527 KB)",
+      "comments": [
+        "Comments: NeurIPS 2025"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2503.10809"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-simsek-pocgen",
+      "arxiv_id": "2506.04962",
+      "url": "https://arxiv.org/abs/2506.04962",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-01",
+      "title": "Title: PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages",
+      "history": "Submission history From: Aryaz Eghbali [ view email ] [v1] Thu, 5 Jun 2025 12:37:33 UTC (130 KB) [v2] Fri, 6 Jun 2025 07:49:53 UTC (130 KB) [v3] Fri, 26 Sep 2025 22:43:31 UTC (108 KB) [v4] Sun, 28 Jun 2026 09:23:55 UTC (615 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.04962"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-yuan-secure-logging",
+      "arxiv_id": "2604.20211",
+      "url": "https://arxiv.org/abs/2604.20211",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-01",
+      "title": "Title: Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs",
+      "history": "Submission history From: Zhenhao Li [ view email ] [v1] Wed, 22 Apr 2026 05:54:45 UTC (1,145 KB)",
+      "comments": [
+        "Comments: Accepted at FSE 2026 Research Papers Track"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.20211"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ase26-guo-npm-detectors",
+      "arxiv_id": "2603.27549",
+      "url": "https://arxiv.org/abs/2603.27549",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-12",
+      "title": "Title: How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+      "history": "Submission history From: Wenbo Guo [ view email ] [v1] Sun, 29 Mar 2026 07:04:31 UTC (465 KB) [v2] Wed, 5 Aug 2026 07:16:02 UTC (1,025 KB) [v3] Fri, 20 Nov 2026 08:05:09 UTC (1,023 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2603.27549",
+        "https://doi.org/10.1145/3832783.3837427"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai26-shao-offensive-agents",
+      "arxiv_id": "2508.05674",
+      "url": "https://arxiv.org/abs/2508.05674",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-04-09",
+      "title": "Title: Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+      "history": "Submission history From: Minghao Shao [ view email ] [v1] Tue, 5 Aug 2025 03:25:09 UTC (6,791 KB) [v2] Thu, 9 Apr 2026 15:07:37 UTC (6,788 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2508.05674"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-nanotag",
+      "arxiv_id": "2509.22027",
+      "url": "https://arxiv.org/abs/2509.22027",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "history": "Submission history From: Mingkai Li [ view email ] [v1] Fri, 26 Sep 2025 08:03:22 UTC (756 KB) [v2] Mon, 13 Oct 2025 18:36:10 UTC (757 KB) [v3] Sat, 18 Apr 2026 01:57:32 UTC (2,888 KB)",
+      "comments": [
+        "Comments: Accepted to appear in IEEE S&P '26; 19 pages, 9 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.22027"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ccs25-baumer-ssh-strict-kex",
+      "arxiv_id": "2509.10895",
+      "url": "https://arxiv.org/abs/2509.10895",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: Finding SSH Strict Key Exchange Violations by State Learning",
+      "history": "Submission history From: Fabian Bäumer [ view email ] [v1] Sat, 13 Sep 2025 16:54:10 UTC (214 KB)",
+      "comments": [
+        "Comments: 15 pages, 7 figures, accepted at ACM CCS 2025"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.10895",
+        "https://doi.org/10.1145/3719027.3765208"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "cvpr26-ying-agentsafe",
+      "arxiv_id": "2506.14967",
+      "url": "https://arxiv.org/abs/2506.14967",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: Quasi-1D Coulomb drag between spin-polarized quantum wires",
+      "history": "Submission history From: Dominique Laroche Dr. [ view email ] [v1] Tue, 17 Jun 2025 20:26:21 UTC (6,874 KB)",
+      "comments": [
+        "Comments: 7 pages, 4 figures"
+      ],
+      "journal_reference": [
+        "Phys. Rev. B 113, L121408 (2026)"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.14967",
+        "https://doi.org/10.1103/5yqq-cw73"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ndss26-wang-obliinjection",
+      "arxiv_id": "2512.09321",
+      "url": "https://arxiv.org/abs/2512.09321",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+      "history": "Submission history From: Reachal Wang [ view email ] [v1] Wed, 10 Dec 2025 05:10:22 UTC (285 KB) [v2] Thu, 11 Dec 2025 20:21:06 UTC (367 KB) [v3] Mon, 15 Dec 2025 04:21:36 UTC (361 KB)",
+      "comments": [
+        "Comments: To appear in NDSS 2026. For slides, see this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2512.09321"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-guo-bcs",
+      "arxiv_id": "2606.28870",
+      "url": "https://arxiv.org/abs/2606.28870",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: Understanding Binary Code Similarity for Real-World Vulnerability Detection: A Large-Scale Empirical Study",
+      "history": "Submission history From: Jingdong Guo [ view email ] [v1] Sat, 27 Jun 2026 11:26:28 UTC (3,379 KB)",
+      "comments": [
+        "Comments: 21pages"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2606.28870"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-lee-sec-bench",
+      "arxiv_id": "2506.11791",
+      "url": "https://arxiv.org/abs/2506.11791",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "history": "Submission history From: Hwiwon Lee [ view email ] [v1] Fri, 13 Jun 2025 13:54:30 UTC (282 KB) [v2] Wed, 22 Oct 2025 16:27:29 UTC (294 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.11791"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai26-wang-mcptox",
+      "arxiv_id": "2508.14925",
+      "url": "https://arxiv.org/abs/2508.14925",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+      "history": "Submission history From: Yichao Gao [ view email ] [v1] Tue, 19 Aug 2025 10:12:35 UTC (995 KB) [v2] Tue, 29 Sep 2026 02:29:28 UTC (5,032 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2508.14925",
+        "https://doi.org/10.1609/aaai.v40i42.40895"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-evtimov-wasp",
+      "arxiv_id": "2504.18575",
+      "url": "https://arxiv.org/abs/2504.18575",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "history": "Submission history From: Arman Zharmagambetov [ view email ] [v1] Tue, 22 Apr 2025 17:51:03 UTC (1,834 KB) [v2] Wed, 30 Apr 2025 19:25:59 UTC (1,442 KB) [v3] Fri, 16 May 2025 22:42:29 UTC (1,170 KB)",
+      "comments": [
+        "Comments: Code and data: this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.18575"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ndss26-syros-saga",
+      "arxiv_id": "2504.21034",
+      "url": "https://arxiv.org/abs/2504.21034",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-02-23",
+      "title": "Title: SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "history": "Submission history From: Georgios Syros [ view email ] [v1] Sun, 27 Apr 2025 23:10:00 UTC (502 KB) [v2] Fri, 29 Aug 2025 17:59:50 UTC (798 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.21034"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "satml26-debenedetti-camel",
+      "arxiv_id": "2503.18813",
+      "url": "https://arxiv.org/abs/2503.18813",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Defeating Prompt Injections by Design",
+      "history": "Submission history From: Edoardo Debenedetti [ view email ] [v1] Mon, 24 Mar 2025 15:54:10 UTC (2,409 KB) [v2] Tue, 24 Jun 2025 08:05:33 UTC (2,523 KB)",
+      "comments": [
+        "Comments: Updated version with newer models and link to the code"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2503.18813"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "iclr24-liu-autodan",
+      "arxiv_id": "2310.04451",
+      "url": "https://arxiv.org/abs/2310.04451",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "history": "Submission history From: Xiaogeng Liu [ view email ] [v1] Tue, 3 Oct 2023 19:44:37 UTC (282 KB) [v2] Wed, 20 Mar 2024 21:34:56 UTC (445 KB)",
+      "comments": [
+        "Comments: Published as a conference paper at ICLR 2024. Code is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2310.04451"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icml24-mazeika-harmbench",
+      "arxiv_id": "2402.04249",
+      "url": "https://arxiv.org/abs/2402.04249",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "history": "Submission history From: Mantas Mazeika [ view email ] [v1] Tue, 6 Feb 2024 18:59:08 UTC (1,566 KB) [v2] Tue, 27 Feb 2024 04:43:08 UTC (2,612 KB)",
+      "comments": [
+        "Comments: Website: this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2402.04249"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "sp18-chen-angora",
+      "arxiv_id": "1803.01307",
+      "url": "https://arxiv.org/abs/1803.01307",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Angora: Efficient Fuzzing by Principled Search",
+      "history": "Submission history From: Peng Chen [ view email ] [v1] Sun, 4 Mar 2018 06:56:42 UTC (232 KB) [v2] Tue, 27 Mar 2018 05:46:29 UTC (232 KB)",
+      "comments": [
+        "Comments: To appear in the 39th IEEE Symposium on Security and Privacy, May 21--23, 2018, San Francisco, CA, USA"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1803.01307"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec24-baumer-terrapin",
+      "arxiv_id": "2312.12422",
+      "url": "https://arxiv.org/abs/2312.12422",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+      "history": "Submission history From: Fabian Bäumer [ view email ] [v1] Tue, 19 Dec 2023 18:51:12 UTC (5,472 KB) [v2] Tue, 7 May 2024 17:09:31 UTC (5,707 KB)",
+      "comments": [
+        "Comments: 21 pages, 7 figures; minor revision; accepted at USENIX Security 2024; also added Artifact Evaluation badges and final Artifact Appendix"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2312.12422"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icse19-wang-superion",
+      "arxiv_id": "1812.01197",
+      "url": "https://arxiv.org/abs/1812.01197",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Superion: Grammar-Aware Greybox Fuzzing",
+      "history": "Submission history From: Bihuan Chen [ view email ] [v1] Tue, 4 Dec 2018 03:22:54 UTC (1,642 KB) [v2] Wed, 5 Dec 2018 11:59:28 UTC (1,642 KB) [v3] Wed, 23 Jan 2019 12:21:47 UTC (1,643 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1812.01197"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "acl24-xu-safedecoding",
+      "arxiv_id": "2402.08983",
+      "url": "https://arxiv.org/abs/2402.08983",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+      "history": "Submission history From: Luyao Niu [ view email ] [v1] Wed, 14 Feb 2024 06:54:31 UTC (9,606 KB) [v2] Sat, 24 Feb 2024 07:17:16 UTC (9,634 KB) [v3] Fri, 7 Jun 2024 17:25:04 UTC (9,635 KB) [v4] Thu, 25 Jul 2024 22:59:44 UTC (9,637 KB)",
+      "comments": [
+        "Comments: To appear in ACL 2024"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2402.08983"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai25-gong-figstep",
+      "arxiv_id": "2311.05608",
+      "url": "https://arxiv.org/abs/2311.05608",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+      "history": "Submission history From: Yichen Gong [ view email ] [v1] Thu, 9 Nov 2023 18:59:11 UTC (3,480 KB) [v2] Wed, 13 Dec 2023 17:54:16 UTC (3,817 KB) [v3] Sun, 19 Jan 2025 16:23:38 UTC (8,149 KB)",
+      "comments": [
+        "Comments: AAAI 2025 (Oral)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2311.05608"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "sp19-kocher-spectre",
+      "arxiv_id": "1801.01203",
+      "url": "https://arxiv.org/abs/1801.01203",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Spectre Attacks: Exploiting Speculative Execution",
+      "history": "Submission history From: Daniel Gruss [ view email ] [v1] Wed, 3 Jan 2018 23:16:14 UTC (51 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1801.01203"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips23-wei-jailbroken",
+      "arxiv_id": "2307.02483",
+      "url": "https://arxiv.org/abs/2307.02483",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Jailbroken: How Does LLM Safety Training Fail?",
+      "history": "Submission history From: Alexander Wei [ view email ] [v1] Wed, 5 Jul 2023 17:58:10 UTC (46 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2307.02483"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icml24-bailey-image-hijacks",
+      "arxiv_id": "2309.00236",
+      "url": "https://arxiv.org/abs/2309.00236",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+      "history": "Submission history From: Luke Bailey [ view email ] [v1] Fri, 1 Sep 2023 03:53:40 UTC (1,978 KB) [v2] Mon, 18 Sep 2023 17:59:23 UTC (1,375 KB) [v3] Mon, 22 Apr 2024 20:18:47 UTC (777 KB) [v4] Tue, 17 Sep 2024 19:56:09 UTC (858 KB)",
+      "comments": [
+        "Comments: Project page at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2309.00236"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38438-rolefuzzer",
+      "arxiv_id": "2610.38438",
+      "url": "https://arxiv.org/abs/2610.38438",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+      "history": "Submission history From: Kshitish Ghate [ view email ] [v1] Wed, 28 Oct 2026 08:19:36 UTC (1,881 KB)",
+      "comments": [
+        "Comments: Preprint under review"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38438"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-36603-maven-lifecycle",
+      "arxiv_id": "2610.36603",
+      "url": "https://arxiv.org/abs/2610.36603",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-27",
+      "title": "Title: A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+      "history": "Submission history From: Kazi Amit Hasan [ view email ] [v1] Tue, 27 Oct 2026 04:04:34 UTC (334 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.36603"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-36612-silent-blindness",
+      "arxiv_id": "2610.36612",
+      "url": "https://arxiv.org/abs/2610.36612",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-27",
+      "title": "Title: Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+      "history": "Submission history From: Alireza Abolhasani Zeraatkar [ view email ] [v1] Tue, 27 Oct 2026 04:16:09 UTC (171 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.36612"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-41642-tadp",
+      "arxiv_id": "2610.41642",
+      "url": "https://arxiv.org/abs/2610.41642",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-30",
+      "title": "Title: TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+      "history": "Submission history From: Feng Xu [ view email ] [v1] Fri, 30 Oct 2026 12:16:47 UTC (1,723 KB)",
+      "comments": [
+        "Comments: WACV2027 accepted"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.41642"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-09808-agent-patch-path",
+      "arxiv_id": "2611.09808",
+      "url": "https://arxiv.org/abs/2611.09808",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+      "history": "Submission history From: Claudio Segal [ view email ] [v1] Fri, 6 Nov 2026 17:57:59 UTC (16,790 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.09808"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-09026-harpoon",
+      "arxiv_id": "2611.09026",
+      "url": "https://arxiv.org/abs/2611.09026",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+      "history": "Submission history From: Jialiang Dong [ view email ] [v1] Fri, 6 Nov 2026 06:00:37 UTC (1,268 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.09026"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-10099-enmo-safety",
+      "arxiv_id": "2611.10099",
+      "url": "https://arxiv.org/abs/2611.10099",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+      "history": "Submission history From: Mohammed Nayeem Khan [ view email ] [v1] Fri, 6 Nov 2026 17:28:13 UTC (686 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.10099"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-04672-context-dimensions",
+      "arxiv_id": "2611.04672",
+      "url": "https://arxiv.org/abs/2611.04672",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-03",
+      "title": "Title: The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+      "history": "Submission history From: Hammond Pearce [ view email ] [v1] Tue, 3 Nov 2026 10:56:13 UTC (3,224 KB)",
+      "comments": [
+        "Comments: 19 pages, 9 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.04672"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17012-search-anonymization",
+      "arxiv_id": "2611.17012",
+      "url": "https://arxiv.org/abs/2611.17012",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+      "history": "Submission history From: Josep Domingo-Ferrer [ view email ] [v1] Thu, 12 Nov 2026 16:07:50 UTC (403 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17012"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-40716-module-shadowing",
+      "arxiv_id": "2610.40716",
+      "url": "https://arxiv.org/abs/2610.40716",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-29",
+      "title": "Title: Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "history": "Submission history From: Shuai Yang [ view email ] [v1] Thu, 29 Oct 2026 02:18:27 UTC (190 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.40716"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-40744-clic",
+      "arxiv_id": "2610.40744",
+      "url": "https://arxiv.org/abs/2610.40744",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-29",
+      "title": "Title: CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+      "history": "Submission history From: Sunder Ali Khowaja [ view email ] [v1] Thu, 29 Oct 2026 15:42:29 UTC (1,268 KB)",
+      "comments": [
+        "Comments: 6 pages, 1 figure, 3 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.40744"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-41307-erase",
+      "arxiv_id": "2610.41307",
+      "url": "https://arxiv.org/abs/2610.41307",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-30",
+      "title": "Title: Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+      "history": "Submission history From: Shuo Hong [ view email ] [v1] Fri, 30 Oct 2026 06:15:10 UTC (2,650 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.41307"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38789-federated-selection",
+      "arxiv_id": "2610.38789",
+      "url": "https://arxiv.org/abs/2610.38789",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: Complexity of Differentially Private Selection via Federated APIs",
+      "history": "Submission history From: Samson Zhou [ view email ] [v1] Wed, 28 Oct 2026 19:56:53 UTC (60 KB)",
+      "comments": [
+        "Comments: NeurIPS 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38789"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38595-risk-landscape",
+      "arxiv_id": "2610.38595",
+      "url": "https://arxiv.org/abs/2610.38595",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+      "history": "Submission history From: Yukai Zhou [ view email ] [v1] Wed, 28 Oct 2026 10:23:27 UTC (319 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38595"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38543-privacy-assessment",
+      "arxiv_id": "2610.38543",
+      "url": "https://arxiv.org/abs/2610.38543",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+      "history": "Submission history From: Samuel Wairimu [ view email ] [v1] Wed, 28 Oct 2026 09:45:17 UTC (616 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38543"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-06135-sbvul",
+      "arxiv_id": "2611.06135",
+      "url": "https://arxiv.org/abs/2611.06135",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-04",
+      "title": "Title: SBVUL: Statement-Based Vulnerability Detection",
+      "history": "Submission history From: Martin Pinzger [ view email ] [v1] Wed, 4 Nov 2026 08:21:39 UTC (102 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.06135"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08281-multimodal-sea",
+      "arxiv_id": "2611.08281",
+      "url": "https://arxiv.org/abs/2611.08281",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-05",
+      "title": "Title: Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+      "history": "Submission history From: Zhitao He [ view email ] [v1] Thu, 5 Nov 2026 16:46:31 UTC (3,113 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08281"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08811-thought-injection",
+      "arxiv_id": "2611.08811",
+      "url": "https://arxiv.org/abs/2611.08811",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "history": "Submission history From: Zain Shamsi [ view email ] [v1] Fri, 6 Nov 2026 00:06:13 UTC (194 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08811"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08884-audience-privacy",
+      "arxiv_id": "2611.08884",
+      "url": "https://arxiv.org/abs/2611.08884",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Who's Asking? Audience-Conditioned Privatization",
+      "history": "Submission history From: Daniil Filienko [ view email ] [v1] Fri, 6 Nov 2026 02:21:50 UTC (141 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08884"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-11305-intent-auditing",
+      "arxiv_id": "2611.11305",
+      "url": "https://arxiv.org/abs/2611.11305",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-08",
+      "title": "Title: Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation",
+      "history": "Submission history From: Doron Shavit Mr [ view email ] [v1] Sun, 8 Nov 2026 11:05:45 UTC (24 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.11305"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-06629-glasswing-evidence",
+      "arxiv_id": "2611.06629",
+      "url": "https://arxiv.org/abs/2611.06629",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-04",
+      "title": "Title: Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+      "history": "Submission history From: Thomas Mosk [ view email ] [v1] Wed, 4 Nov 2026 15:12:30 UTC (115 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.06629"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18442-cantraj",
+      "arxiv_id": "2611.18442",
+      "url": "https://arxiv.org/abs/2611.18442",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "history": "Submission history From: Yuhang Wang [ view email ] [v1] Fri, 13 Nov 2026 17:17:13 UTC (1,681 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.18442"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18312-magnetic-rail",
+      "arxiv_id": "2611.18312",
+      "url": "https://arxiv.org/abs/2611.18312",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-14",
+      "title": "Title: On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+      "history": "Submission history From: Stefan Czybik [ view email ] [v1] Fri, 13 Nov 2026 15:31:10 UTC (1,222 KB) [v2] Mon, 16 Nov 2026 07:39:40 UTC (1,223 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.18312",
+        "https://doi.org/10.1145/3830454.3846554"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18293-privacypr",
+      "arxiv_id": "2611.18293",
+      "url": "https://arxiv.org/abs/2611.18293",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+      "history": "Submission history From: Hua Yang [ view email ] [v1] Fri, 13 Nov 2026 15:18:33 UTC (86 KB)",
+      "comments": [
+        "Comments: 4 pages"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.5281/zenodo.23744765",
+        "https://doi.org/10.48550/arXiv.2611.18293"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17123-codeql-rewrites",
+      "arxiv_id": "2611.17123",
+      "url": "https://arxiv.org/abs/2611.17123",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+      "history": "Submission history From: Zhezhen Cao [ view email ] [v1] Thu, 12 Nov 2026 17:16:08 UTC (526 KB)",
+      "comments": [
+        "Comments: 23 pages, 2 figures, 7 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17123"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18133-linera",
+      "arxiv_id": "2611.18133",
+      "url": "https://arxiv.org/abs/2611.18133",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+      "history": "Submission history From: Yulliwas Ameur [ view email ] [v1] Fri, 13 Nov 2026 13:01:47 UTC (36 KB)",
+      "comments": [
+        "Comments: 14 pages, 2 figures. Submitted to the Journal of Information Security and Applications. Code and LLM-call logs: this https URL (archived at this https URL )"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.5281/zenodo.24166476",
+        "https://doi.org/10.48550/arXiv.2611.18133"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17115-caplite",
+      "arxiv_id": "2611.17115",
+      "url": "https://arxiv.org/abs/2611.17115",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "history": "Submission history From: Zimo Xu [ view email ] [v1] Thu, 12 Nov 2026 17:07:22 UTC (1,823 KB)",
+      "comments": [
+        "Comments: 19 pages, 11 figures, 9 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17115"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17520-weakest-agent",
+      "arxiv_id": "2611.17520",
+      "url": "https://arxiv.org/abs/2611.17520",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+      "history": "Submission history From: Keegan Wang [ view email ] [v1] Thu, 12 Nov 2026 21:14:49 UTC (163 KB)",
+      "comments": [
+        "Comments: Accepted to the NeurIPS 2026 First Workshop on Meta Agents: Managing Agents that Manage Agents (Meta-Agents)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17520"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-16493-rea-bench",
+      "arxiv_id": "2611.16493",
+      "url": "https://arxiv.org/abs/2611.16493",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: ReA-Bench: Benchmarking Responsible Agent Auditing",
+      "history": "Submission history From: Zipeng Ye [ view email ] [v1] Thu, 12 Nov 2026 09:01:24 UTC (2,283 KB) [v2] Mon, 16 Nov 2026 11:49:00 UTC (2,283 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.16493"
+      ],
+      "result": "metadata-retrieved"
+    }
+  ],
+  "changes": [
+    {
+      "id": "arxiv-2610-41642-tadp",
+      "before": "preprint-unreviewed",
+      "after": "accepted",
+      "venue": "WACV 2027",
+      "source": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers",
+      "exact_acceptance_date": null
+    },
+    {
+      "id": "arxiv-2611-16493-rea-bench",
+      "change": "last_updated同步为v2日期2026-11-16",
+      "evidence": "PDF v1/v2全文diff仅改数据公开入口；原W47卡片及Easycatch内容已覆盖，未重复新增"
+    }
+  ],
+  "unverified_author_names": [
+    {
+      "paper": "arxiv-2611-25470-toolpulse",
+      "publication_name": "Zihao Dan",
+      "source": "https://arxiv.org/pdf/2611.25470v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25470-toolpulse",
+      "publication_name": "Jinyu Zhang",
+      "source": "https://arxiv.org/pdf/2611.25470v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25470-toolpulse",
+      "publication_name": "Jinzhao Lian",
+      "source": "https://arxiv.org/pdf/2611.25470v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22761-robot-config",
+      "publication_name": "Yan Lin Aung",
+      "source": "https://arxiv.org/pdf/2611.22761v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22761-robot-config",
+      "publication_name": "Quang Dan Le",
+      "source": "https://arxiv.org/pdf/2611.22761v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-23826-slice-isolation",
+      "publication_name": "Ashraf Matrawy",
+      "source": "https://arxiv.org/pdf/2611.23826v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Chengyan Ma",
+      "source": "https://arxiv.org/pdf/2611.22519v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Jieke Shi",
+      "source": "https://arxiv.org/pdf/2611.22519v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Ruidong Han",
+      "source": "https://arxiv.org/pdf/2611.22519v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Weifeng Sun",
+      "source": "https://arxiv.org/abs/2607.17619",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Yuqing Niu",
+      "source": "https://arxiv.org/pdf/2611.22519v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Yunbo Lyu",
+      "source": "https://arxiv.org/pdf/2611.22519v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22519-workflowbp",
+      "publication_name": "Zhou Yang",
+      "source": "https://arxiv.org/abs/2607.17619",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Xinyi Wang",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Shizhe Cui",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Jiaming Guo",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Qin Mai",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Yecheng Sun",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Hengyu Yang",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Yujie Sun",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Huina Chao",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Yang Xiao",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Feng Li",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-25412-chainagent",
+      "publication_name": "Wei Huo",
+      "source": "https://arxiv.org/pdf/2611.25412v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-24362-pipette",
+      "publication_name": "Lipeng He",
+      "source": "https://arxiv.org/pdf/2611.24362v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-24362-pipette",
+      "publication_name": "Yihan Wang",
+      "source": "https://arxiv.org/pdf/2611.24362v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-24362-pipette",
+      "publication_name": "Jiawen Zhang",
+      "source": "https://arxiv.org/pdf/2611.24362v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22223-gapleak",
+      "publication_name": "Tiancong Cao",
+      "source": "https://arxiv.org/pdf/2611.22223v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22223-gapleak",
+      "publication_name": "Qi Li",
+      "source": "https://arxiv.org/pdf/2611.22223v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22223-gapleak",
+      "publication_name": "Zelin Zhang",
+      "source": "https://arxiv.org/pdf/2611.22223v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22223-gapleak",
+      "publication_name": "Jianbing Ni",
+      "source": "https://arxiv.org/pdf/2611.22223v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    },
+    {
+      "paper": "arxiv-2611-22223-gapleak",
+      "publication_name": "Rongxing Lu",
+      "source": "https://arxiv.org/pdf/2611.22223v1",
+      "needed": "如需中文显示名，核验学校个人页、团队页或本人主页的一一对应；当前保留论文英文署名"
+    }
+  ],
+  "unknown_affiliation": [
+    {
+      "paper": "arxiv-2611-25790-cybergym-reliability",
+      "authors": [
+        "Yule Ding",
+        "Hongzhen Wu"
+      ],
+      "source": "https://arxiv.org/pdf/2611.25790v1",
+      "action": "正文仅署名及邮箱，公开搜索未取得可靠单位；作为未披露单位节点留空国家，避免猜测"
+    }
+  ],
+  "pending_formal_status": [
+    {
+      "id": "arxiv-2611-17520-weakest-agent",
+      "source": "https://arxiv.org/abs/2611.17520",
+      "official_checked": "https://meta-agents-workshop.github.io/",
+      "result": "Workshop官网未给逐篇录用表；作者自述不足单独升级，继续预印"
+    }
+  ],
+  "official_title_crosscheck": [
+    {
+      "id": "usenix-sec26-kim-agentic",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-wang-masleak",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-jeong-network-agent",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-vlummens-bridges",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-liu-ios",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-jannett-passkeys",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-chen-vulgenie",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-merget-opossum",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-chang-retrieval-barrier",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "issta26-chen-insecure-memory",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ISSTA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2607-05120-agent-data-injection",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2607-18063-adaptive-adversaries",
+      "indexed_status": "workshop",
+      "matched_official_lists": [
+        "NeurIPS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2607-14611-bad-memory",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2607-17986-self-state-attacks",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2607-16487-fuzz-emup",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec25-liu-agentfuzz",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec25-ayzenshteyn-cheat",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec25-beer-taptrap",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec25-shi-xssky",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2607-20759-issuetrojanbench",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2607-18575-receipt",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec26-liu-malicious-skills",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-zhang-resume-injection",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-huang-conset",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-guo-pyguard",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-gegenhuber-transcript",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2607-26719-lily",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ASE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2607-27080-memsecbench",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec26-luo-agent-dos",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-pasquini-aiops",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-jia-pangolin",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-duong-firmrebugger",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-ben-simhon-dns",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-xu-dalens",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-kim-timeslice-sandwich",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-klix-silicon-heist",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec26-zhang-stackwarp",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2608-08939-not-a11y",
+      "indexed_status": "accepted-workshop",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec26-liu-picklecloak",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-bach-webrtc",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-trujillo-tontou",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-peng-kintsugi",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-koschel-copykat",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-nguyen-menta",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-kumar-tile",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-crow-boeing-implant",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-beer-webview-http",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-li-aliasleap",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-hu-confundo",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-karanjai-loginject",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-syros-muzzle",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-he-attriguard",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-liu-carjacking",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-xiao-payments",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-zhu-wild",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-braunsdorf-safeffi",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-pan-fragjam",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-zhao-waved",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-luo-agentic-concolic",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-wu-agent-permissions",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-kaya-web-chatbot",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-liang-graphrag",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-hosseyni-audience-injection",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-duttagupta-fast-pair",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-androutsopoulos-deepsurf",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-tystahl-cosseter",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-hertogh-rain",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-xu-resolver-profiler",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-espiritu-leafblower",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-li-ip-leasing",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-zhang-appare",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ieee-sp26-trujillo-register-hiding",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-peng-apiecho",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-wang-smufuzz",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-li-webcloak",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-de-meulemeester-battering-ram",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-roh-ghost",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-graf-vmscape",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-arquint-diodon",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-takahashi-zkfuzz",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-zhang-ragorigin",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-wu-enchtable",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-wang-jailbreak-guardrails",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-ersoy-dark-patterns",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-suri-trojanclimb",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ieee-sp26-chen-compiler-backdoor",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-ye-llm-unlearning",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-corrias-maya",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-li-portgpt",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-zhai-revelio",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-li-cosmic",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-liu-generate-verify",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-wang-transient-architectural-execution",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-dutly-aex-nstep",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-reittinger-passkey-field-study",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-he-chinese-smart-home-privacy",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-li-sator",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ieee-sp26-pennekamp-hidden-secrets-arxiv",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ccs25-todt-bfid",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs25-zhang-uabscan",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-li-ace",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ndss26-sacchetti-blerp",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "issta26-wei-linux-config",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ISSTA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "issta26-huang-secretron",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ISSTA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ase26-ni-triage-nodejs",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ASE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "neurips25-zou-agent-red-team-competition",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "neurips25-nie-secodeplt",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "neurips25-aichberger-mip-agent",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs25-hao-syzspec",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-wu-email-aliases",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ndss26-migliorelli-pcplost",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-liu-wormholes",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "issta26-tegegn-illusion-success",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ISSTA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "issta26-alecci-secrets-unlocked",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ISSTA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ase26-xu-defensive-capability",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ASE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "acl26-pham-parasite",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ACL"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "icml26-ye-role-confusion",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "cvpr26-chen-dualmirage",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs25-kim-jenga",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-kubo-action-required",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-xiao-modelspy",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-lermen-deanonymization",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "fse26-simsek-pocgen",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "fse26-yuan-secure-logging",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ase26-guo-npm-detectors",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ASE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "neurips25-kuntz-os-harm",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "aaai26-shao-offensive-agents",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "iccv25-dong-vpr-cloak",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ieee-sp26-li-nanotag",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ccs25-baumer-ssh-strict-kex",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-infantino-vault-raider",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-gao-patcher",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "pldi26-nguyen-analyzing-bytes",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "PLDI"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "popl26-gouni-security-reasoning",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "POPL"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "osdi26-cottone-acumen",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "OSDI"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "acl26-arif-conjunctive",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ACL"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "icml26-cheng-privact",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "cvpr26-ying-agentsafe",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ieee-sp26-lee-site-isolation",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "S&P"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ccs25-trampert-styled-steal",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-wang-obliinjection",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "usenix-sec26-ling-swhisper",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "USENIX"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "fse26-guo-bcs",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "FSE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "oopsla26-cao-sevdf",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "OOPSLA"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "icse26-he-taintp2x",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "ICSE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "neurips25-lee-sec-bench",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "aaai26-wang-mcptox",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "neurips25-evtimov-wasp",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-syros-saga",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "osdi26-yin-ucsan",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "OSDI"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "neurips24-debenedetti-agentdojo",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ndss26-wang-anota",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NDSS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "osdi26-liu-osprey",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "OSDI"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "iclr25-andriushchenko-agentharm",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec20-poeplau-symcc",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "osdi26-xie-iland",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "OSDI"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "satml26-debenedetti-camel",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "sp20-aschermann-ijon",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs13-stefanov-path-oram",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec18-yun-qsym",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "pldi14-arzt-flowdroid",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "issta16-li-droidra",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "iclr24-liu-autodan",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "icml24-mazeika-harmbench",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "sp18-chen-angora",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs11-felt-permissions",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "usenix-sec24-baumer-terrapin",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "icse19-wang-superion",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "icse20-hong-saver",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "acl24-xu-safedecoding",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "aaai25-gong-figstep",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "sp19-kocher-spectre",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs17-boehme-aflgo",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "CCS",
+        "ASE",
+        "FSE"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "ndss23-gross-fuzzilli",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "osdi10-enck-taintdroid",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "popl99-myers-jflow",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "neurips23-wei-jailbroken",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "icml24-bailey-image-hijacks",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-38438-rolefuzzer",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-36603-maven-lifecycle",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-36612-silent-blindness",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-41642-tadp",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-09808-agent-patch-path",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-09026-harpoon",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-10099-enmo-safety",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-04672-context-dimensions",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "ccs26-szwajcok-meme-coin-factories",
+      "indexed_status": "accepted",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-17012-search-anonymization",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-40716-module-shadowing",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-40744-clic",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-41307-erase",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-38789-federated-selection",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "NeurIPS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2610-38595-risk-landscape",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2610-38543-privacy-assessment",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-06135-sbvul",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-08281-multimodal-sea",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-08811-thought-injection",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-08884-audience-privacy",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-11305-intent-auditing",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-06629-glasswing-evidence",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-18442-cantraj",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-18312-magnetic-rail",
+      "indexed_status": "accepted",
+      "matched_official_lists": [
+        "CCS"
+      ],
+      "decision": "本轮官方列表含规范化题名；身份状态继续按原逐篇证据"
+    },
+    {
+      "id": "arxiv-2611-18293-privacypr",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-17123-codeql-rewrites",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-18133-linera",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-17115-caplite",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-17520-weakest-agent",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    },
+    {
+      "id": "arxiv-2611-16493-rea-bench",
+      "indexed_status": "preprint-unreviewed",
+      "matched_official_lists": [],
+      "decision": "保留已有状态；新接收须逐篇正式证据"
+    }
+  ]
+}

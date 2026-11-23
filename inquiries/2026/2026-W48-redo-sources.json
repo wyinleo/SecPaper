@@ -1,0 +1,2209 @@
+{
+  "date": "2026-11-23T14:55:23.076446",
+  "window": [
+    "2026-11-17",
+    "2026-11-23"
+  ],
+  "user_scope": "本期正式论文优先；不足时加入近期已发表论文，并单列为专题精读",
+  "prior_four": {
+    "weekly_total": 40,
+    "formal": 14,
+    "preprint": 26,
+    "note": "较原扫描13/27变化来自W45 TADP正式状态回查升级；不追溯改写原运行结果",
+    "by_week": {
+      "2026-W44": {
+        "count": 10,
+        "venues": {
+          "IEEE S&P 2026": 1,
+          "ACM CCS 2025": 1,
+          "NDSS 2026": 1,
+          "USENIX Security 2026": 1,
+          "ACM FSE 2026": 1,
+          "ACM OOPSLA 2026": 1,
+          "ICSE 2026": 1,
+          "NeurIPS 2025": 2,
+          "AAAI 2026": 1
+        },
+        "formal_groups": {
+          "security": 4,
+          "software": 3,
+          "ai": 3
+        }
+      },
+      "2026-W45": {
+        "count": 10,
+        "venues": {
+          "arXiv": 8,
+          "WACV 2027": 1,
+          "NeurIPS 2026": 1
+        },
+        "formal_groups": {
+          "preprint": 8,
+          "other-formal": 1,
+          "ai": 1
+        }
+      },
+      "2026-W46": {
+        "count": 10,
+        "venues": {
+          "arXiv": 10
+        },
+        "formal_groups": {
+          "preprint": 10
+        }
+      },
+      "2026-W47": {
+        "count": 10,
+        "venues": {
+          "ACM CCS 2026": 2,
+          "arXiv": 8
+        },
+        "formal_groups": {
+          "security": 2,
+          "preprint": 8
+        }
+      }
+    },
+    "formal_source_groups": {
+      "security": 6,
+      "software": 3,
+      "ai": 4,
+      "other_formal_WACV": 1,
+      "preprint": 26
+    },
+    "formal_source_percent": {
+      "security": 15,
+      "software": 7.5,
+      "ai": 10,
+      "other_formal": 2.5,
+      "preprint": 65
+    },
+    "topic_candidate_groups": {
+      "security": 13,
+      "software_systems": 12,
+      "ai": 15
+    },
+    "topic_candidate_percent": {
+      "security": 32.5,
+      "software_systems": 30,
+      "ai": 37.5
+    }
+  },
+  "rotation": [
+    "NDSS",
+    "OSDI",
+    "ACL"
+  ],
+  "sources": [
+    {
+      "source": "NDSS",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "checked_at": "2026-11-23T06:46:18.904682+00:00",
+      "status": 200,
+      "final_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "bytes": 282575,
+      "sha256": "54ecfb0a29f536548d5d91ea84c86f9b700644f6f4cfde2d410d544b15f54b54",
+      "matched_links": 141,
+      "matched_rows": 0
+    },
+    {
+      "source": "S&P",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "checked_at": "2026-11-23T06:46:20.215335+00:00",
+      "status": 200,
+      "final_url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "bytes": 178208,
+      "sha256": "ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "matched_links": 137,
+      "matched_rows": 0
+    },
+    {
+      "source": "USENIX",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "checked_at": "2026-11-23T06:46:20.215515+00:00",
+      "status": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "bytes": 1481523,
+      "sha256": "bf04a2a99b3fa78c68bb126e33a958be51fad9f7a69f02b0a3849af37467699d",
+      "matched_links": 203,
+      "matched_rows": 0
+    },
+    {
+      "source": "CCS",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "checked_at": "2026-11-23T06:46:20.215757+00:00",
+      "status": 200,
+      "final_url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "bytes": 199020,
+      "sha256": "71eb6c747c53ee568f9cdd87eff37ab9c8018db6f7ff2c656027a84fb94d21c6",
+      "matched_links": 0,
+      "matched_rows": 273
+    },
+    {
+      "source": "OSDI",
+      "url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "checked_at": "2026-11-23T06:46:29.679722+00:00",
+      "status": 200,
+      "final_url": "https://www.usenix.org/conference/osdi26/technical-sessions",
+      "bytes": 584019,
+      "sha256": "749f0fbef755f51d607bfc275b734c193cdc99679e9ec24f8066a513e9e94800",
+      "matched_links": 9,
+      "matched_rows": 0
+    },
+    {
+      "source": "SOSP",
+      "url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+      "checked_at": "2026-11-23T06:46:35.429072+00:00",
+      "status": 200,
+      "final_url": "https://sigops.org/s/conferences/sosp/2026/accepted.html",
+      "bytes": 46164,
+      "sha256": "aa9882bdf2df1d9cb3da3760d6f6b1ed24d2d50e4c2002b92175d593fcb509d5",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "FM",
+      "url": "https://conf.researchr.org/track/fm-2026/fm-2026-research-paper",
+      "checked_at": "2026-11-23T06:46:35.429249+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/fm-2026/fm-2026-research-paper",
+      "bytes": 264468,
+      "sha256": "2634c53f53c6a8adc7e298d15c511084ab64563ec6ae6f90b9ed1f2d62c48731",
+      "matched_links": 17,
+      "matched_rows": 21
+    },
+    {
+      "source": "OOPSLA",
+      "url": "https://2026.splashcon.org/track/oopsla-2026",
+      "checked_at": "2026-11-23T06:46:35.429463+00:00",
+      "status": 200,
+      "final_url": "https://2026.splashcon.org/track/oopsla-2026",
+      "bytes": 656652,
+      "sha256": "814c55b096b87d35b1ace14fc4bdb4291ffe51d43d7295bbf6ef25ea1d52edc0",
+      "matched_links": 52,
+      "matched_rows": 55
+    },
+    {
+      "source": "PLDI",
+      "url": "https://conf.researchr.org/track/pldi-2026/pldi-2026-papers",
+      "checked_at": "2026-11-23T06:46:35.429874+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/pldi-2026/pldi-2026-papers",
+      "bytes": 529022,
+      "sha256": "5e16ece7f354e1618bd86a906f17172d03f3aa3ff4a171918d0bf8f84bee37b1",
+      "matched_links": 41,
+      "matched_rows": 46
+    },
+    {
+      "source": "POPL",
+      "url": "https://conf.researchr.org/track/popl-2026/POPL-2026-popl-research-papers",
+      "checked_at": "2026-11-23T06:46:35.430251+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/popl-2026/POPL-2026-popl-research-papers",
+      "bytes": 481255,
+      "sha256": "7a19a4561488d8094b743fb28456c0ea8fc7d8108901711cbbc1efd6a5b831b6",
+      "matched_links": 45,
+      "matched_rows": 42
+    },
+    {
+      "source": "ISSTA",
+      "url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+      "checked_at": "2026-11-23T06:46:35.430630+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+      "bytes": 848134,
+      "sha256": "461001b7cfe36cf95a54053e50cb3af5f58fd3408e1be28a68db1f4eb0078a97",
+      "matched_links": 148,
+      "matched_rows": 152
+    },
+    {
+      "source": "ASE",
+      "url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track",
+      "checked_at": "2026-11-23T06:46:37.197721+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/ase-2026/ase-2026-research-track",
+      "bytes": 1603293,
+      "sha256": "3db29d4a54119abbc61c4973a03a49a8b60f023d64a29ddad9d2f16b0d40c391",
+      "matched_links": 263,
+      "matched_rows": 282
+    },
+    {
+      "source": "ICSE",
+      "url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
+      "checked_at": "2026-11-23T06:46:37.599629+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
+      "bytes": 2163290,
+      "sha256": "2a6e2a888cd6108ac2f6b3e66539193c50cba7e37fbc720b2ee49bae7c649de5",
+      "matched_links": 253,
+      "matched_rows": 264
+    },
+    {
+      "source": "FSE",
+      "url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+      "checked_at": "2026-11-23T06:46:37.704787+00:00",
+      "status": 200,
+      "final_url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
+      "bytes": 1436223,
+      "sha256": "b261f818757a67ffe9def033f29e61dce22a5719a910935a5d4730149131cff0",
+      "matched_links": 158,
+      "matched_rows": 177
+    },
+    {
+      "source": "ACL",
+      "url": "https://aclanthology.org/events/acl-2026/",
+      "checked_at": "2026-11-23T06:46:41.158740+00:00",
+      "status": 200,
+      "final_url": "https://aclanthology.org/events/acl-2026/",
+      "bytes": 18926839,
+      "sha256": "3eefe8e7e37c7222e6442ecb90324fe1ba2e470f2215a1d4b78daa455bc6275e",
+      "matched_links": 1120,
+      "matched_rows": 0
+    },
+    {
+      "source": "CVPR",
+      "url": "https://openaccess.thecvf.com/CVPR2026",
+      "checked_at": "2026-11-23T06:46:50.031207+00:00",
+      "status": 200,
+      "final_url": "https://openaccess.thecvf.com/CVPR2026",
+      "bytes": 3781,
+      "sha256": "d76d5342f3f9114484e9cceb856667feb62dc8a5a499a1c8e2e1d7f7aee1d3d9",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "ICCV",
+      "url": "https://openaccess.thecvf.com/ICCV2025",
+      "checked_at": "2026-11-23T06:46:50.031364+00:00",
+      "status": 200,
+      "final_url": "https://openaccess.thecvf.com/ICCV2025",
+      "bytes": 3781,
+      "sha256": "8e93580ccf12119cb114d5f56cd48d0fe9bef69ea7b95b6903c0bd7ab7b75737",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "AAAI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/issue/archive",
+      "checked_at": "2026-11-23T06:46:50.031527+00:00",
+      "status": 200,
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/issue/archive",
+      "bytes": 6986,
+      "sha256": "0fefb362714ae8e56154f075a442ba9f0a61f94411b1a2a172c07dcea79d4013",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "ICLR",
+      "url": "https://iclr.cc/virtual/2026/papers.html",
+      "checked_at": "2026-11-23T06:46:50.031830+00:00",
+      "status": 200,
+      "final_url": "https://iclr.cc/virtual/2026/papers.html",
+      "bytes": 758167,
+      "sha256": "c3c56c51f49216e1fe63ef2fd8c5e233b05e1000891fd90028989f2a6685dd01",
+      "matched_links": 600,
+      "matched_rows": 1
+    },
+    {
+      "source": "ICML",
+      "url": "https://proceedings.mlr.press/",
+      "checked_at": "2026-11-23T06:46:50.032099+00:00",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/",
+      "bytes": 43275,
+      "sha256": "492b7cab7c1a99fac8e62e2b34413e2c67b4f25678854abc3a6e3c57df126302",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "NeurIPS",
+      "url": "https://neurips.cc/Downloads/2026",
+      "checked_at": "2026-11-23T06:46:50.032412+00:00",
+      "status": 200,
+      "final_url": "https://neurips.cc/Downloads/2026",
+      "bytes": 1386201,
+      "sha256": "4b9bbeb59fa6594000f45a3702d51d043a3d28c66c58685f8d2058a09964277e",
+      "matched_links": 1189,
+      "matched_rows": 1
+    },
+    {
+      "source": "Google Project Zero",
+      "url": "https://googleprojectzero.blogspot.com/",
+      "checked_at": "2026-11-23T06:46:54.539104+00:00",
+      "status": "error",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "Google Threat Intelligence / Mandiant",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+      "checked_at": "2026-11-23T06:46:54.539270+00:00",
+      "status": 200,
+      "final_url": "https://cloud.google.com/blog/topics/threat-intelligence",
+      "bytes": 214300,
+      "sha256": "a07f187a2a50848c01cfd006837b72dc352f30ae0911c141ced45d7413df907e",
+      "matched_links": 10,
+      "matched_rows": 0
+    },
+    {
+      "source": "Microsoft Security / MSRC",
+      "url": "https://www.microsoft.com/security/blog/",
+      "checked_at": "2026-11-23T06:46:54.539380+00:00",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/",
+      "checked_at": "2026-11-23T06:46:54.539538+00:00",
+      "status": 200,
+      "final_url": "https://unit42.paloaltonetworks.com/",
+      "bytes": 289493,
+      "sha256": "9d1cd4f806393492b1a052ea85cab9416b3ac2d94200e0a581df0b34082ad1ec",
+      "matched_links": 62,
+      "matched_rows": 0
+    },
+    {
+      "source": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/",
+      "checked_at": "2026-11-23T06:46:54.539944+00:00",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "腾讯玄武实验室",
+      "url": "https://xlab.tencent.com/cn/",
+      "checked_at": "2026-11-23T06:46:54.540220+00:00",
+      "status": 200,
+      "final_url": "https://xlab.tencent.com/cn/",
+      "bytes": 27302,
+      "sha256": "faaef5b8fa366c56cf07d9467a64e0c9b1efe4c1123b99b641600ecff155fab3",
+      "matched_links": 4,
+      "matched_rows": 0
+    },
+    {
+      "source": "腾讯科恩实验室",
+      "url": "https://keenlab.tencent.com/zh/",
+      "checked_at": "2026-11-23T06:46:54.540430+00:00",
+      "status": 200,
+      "final_url": "https://keenlab.tencent.com/zh/",
+      "bytes": 25512,
+      "sha256": "b236a6b5bf0c1760f7554a97b57fc1d367c2487e269cae2ac2847cfe51c63b73",
+      "matched_links": 7,
+      "matched_rows": 0
+    },
+    {
+      "source": "Anthropic Research / Frontier Red Team",
+      "url": "https://www.anthropic.com/research",
+      "checked_at": "2026-11-23T06:46:54.540743+00:00",
+      "status": 200,
+      "final_url": "https://www.anthropic.com/research",
+      "bytes": 347733,
+      "sha256": "26155514448fd0a685722f9b9888ad588c1a890ee685df01c96f0afd7a36bfb5",
+      "matched_links": 5,
+      "matched_rows": 0
+    },
+    {
+      "source": "OpenAI Security Research",
+      "url": "https://openai.com/research/",
+      "checked_at": "2026-11-23T06:46:54.736973+00:00",
+      "status": 200,
+      "final_url": "https://openai.com/research/",
+      "bytes": 393521,
+      "sha256": "4998013bf9c5f704a6f38862a169f87e6ac72e588750fba6347602165c680632",
+      "matched_links": 2,
+      "matched_rows": 0
+    },
+    {
+      "source": "NIST Cybersecurity",
+      "url": "https://www.nist.gov/cybersecurity",
+      "checked_at": "2026-11-23T06:46:54.770475+00:00",
+      "status": 200,
+      "final_url": "https://www.nist.gov/cybersecurity-and-privacy",
+      "bytes": 112899,
+      "sha256": "9974cf8d204dfb062dd9311650c71983eee37fb264e91c310be667edca371c01",
+      "matched_links": 30,
+      "matched_rows": 0
+    },
+    {
+      "source": "CISA",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "checked_at": "2026-11-23T06:46:54.972126+00:00",
+      "status": 200,
+      "final_url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "bytes": 164904,
+      "sha256": "81bd2398b838003339a44ceac582804308cb0d96fddfd72d41bfeb4daba46841",
+      "matched_links": 35,
+      "matched_rows": 0
+    },
+    {
+      "source": "Gartner",
+      "url": "https://www.gartner.com/en/cybersecurity",
+      "checked_at": "2026-11-23T06:46:54.978840+00:00",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "Forrester",
+      "url": "https://www.forrester.com/security-risk/",
+      "checked_at": "2026-11-23T06:46:55.305084+00:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "matched_links": 0,
+      "matched_rows": 0
+    },
+    {
+      "source": "IDC Security",
+      "url": "https://www.idc.com/",
+      "checked_at": "2026-11-23T06:46:55.418854+00:00",
+      "status": 200,
+      "final_url": "https://www.idc.com/",
+      "bytes": 158755,
+      "sha256": "959babd954315365bce83a027c2ab2a3ac77ee1250765a90feda17274141697f",
+      "matched_links": 7,
+      "matched_rows": 0
+    }
+  ],
+  "doi_registry_scan": {
+    "file": "crossref-acm.json",
+    "all_records": 484,
+    "sha256": "c4dfac2ac52ccec2d77c1fa4b8dcd4867f7ca8ba3d73e1a8de97014f8cfe268b"
+  },
+  "selected": [
+    {
+      "slug": "patches",
+      "title": "How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic Automated Program Repair on SWE-bench",
+      "doi": "10.1145/3861341",
+      "collection": "weekly",
+      "date": "2026-11-17",
+      "date_kind": "published-online",
+      "source": "https://api.crossref.org/works/10.1145/3861341",
+      "venue": "TOSEM",
+      "sha256": "f61e7c57b3c476e7d35b2dbc0b697ce65a544cf408ffcb25a2339f7ef8a7490a",
+      "id": "tosem26-sajadi-ai-patches",
+      "authors": [
+        "Amirali Sajadi",
+        "Kostadin Damevski",
+        "Preetha Chatterjee"
+      ],
+      "arxiv_id": "2507.02976",
+      "topics": [
+        "program-repair",
+        "secure-code-generation",
+        "measurement-study"
+      ],
+      "domain": "software-application-security",
+      "fulltext_version": "author PDF 1 Nov 2026,31 pages; methods/results/appendix read; first-author validation, no causal framework ranking"
+    },
+    {
+      "slug": "browsing",
+      "title": "Authenticated Browsing: Reconciling Application-Layer Flooding Defense with Data Confidentiality",
+      "doi": "10.1145/3856957",
+      "collection": "weekly",
+      "date": "2026-11-19",
+      "date_kind": "published-online",
+      "source": "https://api.crossref.org/works/10.1145/3856957",
+      "venue": "CoNEXT 2026 / PACMNET",
+      "sha256": "b2741c558c1e9be1512712385ce7b28f257cb793ced02bc10a8e67f7ae766bcb",
+      "id": "conext26-stoeger-authenticated-browsing",
+      "authors": [
+        "Felix Stöger",
+        "Jelte van Bommel",
+        "Jonghoon Kwon",
+        "Patrick Bamert",
+        "Stefanie Boss",
+        "Alexander Eggerth",
+        "Adrian Perrig"
+      ],
+      "arxiv_id": null,
+      "topics": [
+        "denial-of-service",
+        "authentication",
+        "protocol-security"
+      ],
+      "domain": "network-communication-security",
+      "fulltext_version": "25-page author camera-ready including appendices; affiliations corrected from PDF"
+    },
+    {
+      "slug": "sneaking",
+      "title": "From Phreaking to Sneaking: Children’s circumvention of social media age verification systems",
+      "doi": "10.1145/3847401.3847421",
+      "collection": "weekly",
+      "date": "2026-11-20",
+      "date_kind": "published-online",
+      "source": "https://api.crossref.org/works/10.1145/3847401.3847421",
+      "venue": "OzCHI 2026",
+      "sha256": "5621bd0c7c5b41ed5fbeccf19da5e558dbd18b7ddd9a058beafacc42bed33ccd",
+      "id": "ozchi26-nansen-age-verification",
+      "authors": [
+        "Bjørn Nansen",
+        "Helena Sandberg",
+        "Lauren Bliss",
+        "Shaanan Cohney"
+      ],
+      "arxiv_id": "2605.00368",
+      "topics": [
+        "authentication",
+        "privacy",
+        "user-study"
+      ],
+      "domain": "identity-privacy",
+      "fulltext_version": "Minerva 20-page full author manuscript; method Dec2025-Feb2026, no bypass success rate"
+    },
+    {
+      "slug": "rust",
+      "title": "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling",
+      "doi": "10.1145/3798277",
+      "collection": "weekly",
+      "date": "2026-11-18",
+      "date_kind": "published-online",
+      "source": "https://api.crossref.org/works/10.1145/3798277",
+      "venue": "TOSEM",
+      "sha256": "ec567321d69ae95149b41e912be2c27fe48307999c10ce7e11f59388c791d75a",
+      "id": "tosem26-mccormack-unsafe-rust",
+      "authors": [
+        "Ian McCormack",
+        "Tomás Dougan",
+        "Sam Estep",
+        "Hanan Hibshi",
+        "Jonathan Aldrich",
+        "Joshua Sunshine"
+      ],
+      "arxiv_id": "2404.02230",
+      "topics": [
+        "rust",
+        "memory-safety",
+        "user-study"
+      ],
+      "domain": "software-application-security",
+      "fulltext_version": "arxiv2404.02230v4 Feb18 2026,34 pages; accepted-manuscript Feb25 and VoR Nov18; no tool-current assertions"
+    },
+    {
+      "slug": "contracts",
+      "title": "Understanding Inconsistent State Update Vulnerabilities in Smart Contracts",
+      "doi": "10.1145/3798052",
+      "collection": "weekly",
+      "date": "2026-11-18",
+      "date_kind": "published-online",
+      "source": "https://api.crossref.org/works/10.1145/3798052",
+      "venue": "TOSEM",
+      "sha256": "60d38987385d2ceabc5ca2a0904964267e689328f31b9f007316eaf4fabfcc2b",
+      "id": "tosem26-li-state-update",
+      "authors": [
+        "Lantian Li",
+        "Yuyu Chen",
+        "Jingwen Wu",
+        "Yue Pan",
+        "Zhongxing Yu"
+      ],
+      "arxiv_id": "2508.06192",
+      "topics": [
+        "blockchain",
+        "business-logic",
+        "program-analysis",
+        "measurement-study"
+      ],
+      "domain": "software-application-security",
+      "fulltext_version": "arxiv2508.06192v2 Dec14 2025,38 pages; publisher metadata Nov18 2026; distinguish 6 vulnerabilities/13 optimization"
+    },
+    {
+      "slug": "tapspy",
+      "title": "TapSpy: Semantic Usage Analysis and Triangulated Risk Assessment of Session Replay in Mobile Apps",
+      "collection": "foundation",
+      "venue": "ACM CCS 2026",
+      "source": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "sha256": "ef6509016baf1de96d2d499aa873fc0b1e0dcf6bf46533a2fec1a1f698da29ea",
+      "id": "ccs26-guo-tapspy",
+      "authors": [
+        "Jiawei Guo",
+        "Zongze Li",
+        "Haipeng Cai"
+      ],
+      "arxiv_id": null,
+      "topics": [
+        "mobile-security",
+        "privacy",
+        "static-analysis"
+      ],
+      "domain": "mobile-iot-security",
+      "doi": "10.1145/3830454.3832570",
+      "date": "2026-11-14",
+      "fulltext_version": "15-page author paper; 84 application/service pairs; P89.5 R94.4 F1 .919; 16 developer confirmations; encrypted payload limitation retained"
+    },
+    {
+      "slug": "drip",
+      "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion",
+      "collection": "foundation",
+      "venue": "ACM CCS 2026",
+      "source": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "sha256": "47b50b1ab96c4904003d3ae3184f3d5fa58fb3d43de469325addc3a1cc811630",
+      "id": "ccs26-liu-drip",
+      "authors": [
+        "Ruofan Liu",
+        "Yun Lin",
+        "Zhiyong Huang",
+        "Jin Song Dong"
+      ],
+      "arxiv_id": "2511.00447",
+      "topics": [
+        "prompt-injection",
+        "llm-security",
+        "safety-alignment"
+      ],
+      "domain": "ai-security",
+      "doi": "10.1145/3830454.3832577",
+      "date": "2026-11-14",
+      "fulltext_version": "作者主页27页完整稿，全文与附录已读，方法图3、表9至11渲染核对；PDF仍有模板出版信息，正式出版状态单独依据DOI。",
+      "fulltext_url": "https://lindsey98.github.io/liuruofan//files/DRIP_paper.pdf"
+    }
+  ],
+  "checks": {
+    "deduplicated": true,
+    "body_available": true,
+    "formal_status_evidence": true,
+    "weekly_window": true,
+    "topic_supplement_separate": true
+  },
+  "gaps": [
+    "ACM正文入口403；已选文章使用作者或机构全文",
+    "PD-RAG OpenReview验证页，未取得原文",
+    "S-Eval仅取得ISSTA2025旧稿，未冒充TOSEM扩展版",
+    "ScreenRecompose、mmPoison、Who Gets the Message? 等缺完整正文，排除",
+    "三组会议来源与主领域独立统计；本周5篇出版动态、2篇CCS专题；安全顶会与AI会议窗口内出版和正文证据不足，未凑数。",
+    "AAAI入口返回Anubis验证页，状态200不代表取得论文集内容，记录覆盖缺口。",
+    "DRIP已改读作者主页完整稿，出版模板占位及精确修订日待补；contracts早期接受稿日期待补。"
+  ],
+  "followup_scans": [
+    {
+      "source": "cvpr-all",
+      "url": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "sha256": "8af49e25ae802a5150596890723adbca037730365503682aa4cb1b3735ab6c74",
+      "papers": 4042,
+      "security_titles": [
+        "Enhancing the Security of Visual Speaker Authentication Based on Dynamic Lip-Print Analysis",
+        "Transform to Transfer: Boosting Adversarial Attack Transferability on Vision-Language Pre-training Models",
+        "Personalized Federated Training of Diffusion Models with Privacy Guarantees",
+        "RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning",
+        "Black-box Membership Inference Attacks on the Pre-training Data of Image-generation Models",
+        "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
+        "When LoRA Betrays: Backdooring Text-to-Image Models by Masquerading as Benign Adapters",
+        "Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition",
+        "Eliminate Distance Differences Induced by Backdoor Attacks: Layer-Selective Training and Clipping to Mask Backdoor Models",
+        "Attack for Defense: Adversarial Agents for Point Prompt Optimization Empowering Segment Anything Model",
+        "R$^2$TUA: Reconstruction-residual Based Targeted and Untargeted Attack Against Text-Image Person Re-Identification",
+        "V-Attack: Targeting Disentangled Value Features for Controllable Adversarial Attacks on LVLMs",
+        "Omni-Attack: Adversarial Attacks on Open-Ended VQA in Black-Box Multimodal LLMs",
+        "AdapAction: Adaptive Target Action Backdoor Attack against GUI Agents",
+        "Towards Cross-Modal Preservation, Consistency and Alignment for Privacy-Preserving Visible-Infrared Person Re-Identification",
+        "Out of Sight, Out of Track: Adversarial Attacks on Propagation-based Multi-Object Trackers via Query State Manipulation",
+        "Do Vision-Language Models Leak What They Learn? Adaptive Token-Weighted Model Inversion Attacks",
+        "Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization",
+        "Phantom: Physical Object Interactions as Dynamic Triggers for NMS-Exploited Backdoors",
+        "Towards Stealthy and Effective Backdoor Attacks on Lane Detection: A Naturalistic Data Poisoning Approach",
+        "Unlearning without Forgetting: Securely Removing Targeted Concepts from Large-Scale Vision-Language Open-Vocabulary Detectors",
+        "BlackMirror: Black-Box Backdoor Detection for Text-to-Image Models via Instruction-Response Deviation",
+        "PrivSynth: Alternating and Control-Based Optimization for Privacy and Utility in Synthetic Data",
+        "PGA: Prior-free Generative Attack for Practical No-box Scenario",
+        "Fractal Camouflage: A Bio-Inspired Approach for Multi-Scale Adversarial Attacks in the Infrared Domain",
+        "Anchoring the Mind of Multimodal Reasoners: Cognitive Bias as a Vector for Jailbreak Attacks",
+        "ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior",
+        "Towards Human-Imperceptible Backdoor Attacks on Text-to-Image Diffusion Models",
+        "FORCE: Transferable Visual Jailbreaking Attacks via Feature Over-Reliance CorrEction",
+        "Unleashing Stealthy Backdoor Pandemic by Infecting a Single Diffusion Model",
+        "LaSM: Layer-wise Scaling Mechanism for Defending Pop-up Attack on GUI Agents",
+        "Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction",
+        "When CLIP Sees More, It Fights Back Harder: Multi-View Guided Adaptive Counterattacks for Test-Time Adversarial Robustness",
+        "Towards Robust Multimodal Large Language Models Against Jailbreak Attacks",
+        "FedMOP: Achieving Enhanced Privacy and Performance in Federated Learning via Momentum Orthogonal Projection",
+        "Exposing Functional Fusion: A New Class of Strategic Backdoor in Dynamic Prompt Architectures",
+        "Protego: User-Centric Pose-Invariant Privacy Protection Against Face Recognition-Induced Digital Footprint Exposure",
+        "XSeg: A Large-scale X-ray Contraband Segmentation Benchmark For Real-World Security Screening",
+        "What Your Features Reveal: Data-Efficient Black-Box Feature Inversion Attack for Split DNNs",
+        "FlowHijack: A Dynamics-Aware Backdoor Attack on Flow-Matching Vision-Language-Action Models",
+        "Test-Time Attention Purification for Backdoored Large Vision Language Models",
+        "TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models",
+        "IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding",
+        "AdvFM: Lookahead Flow-Matching Velocity-Field Attacks for Imperceptible and Transferable Adversarial Examples",
+        "Batman: Benign Knowledge Alignment Through Malicious Null Space in Federated Backdoor Attack",
+        "SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains",
+        "LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing",
+        "VCP-Attack: Visual-Contrastive Projection for Transferable Black-Box Targeted Attacks on Large Vision-Language Models",
+        "AntiStyler: Defending Object Detection Models Against Adversarial Patch Attacks Using Style Removal",
+        "PA-Attack: Guiding Gray-Box Attacks on LVLM Vision Encoders with Prototypes and Attention",
+        "Multi-Paradigm Collaborative Adversarial Attack Against Multi-Modal Large Language Models",
+        "Bridging Privacy and Provenance: Traceable Virtual Identity Generation",
+        "Logit-Margin Repulsion for Backdoor Defense",
+        "PureProof: Diffusion-Resistant Black-box Targeted Attack on Large Vision-Language Models",
+        "Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning",
+        "Shedding Light on VLN Robustness: A Black-box Framework for Indoor Lighting-based Adversarial Attack",
+        "DASH: A Meta-Attack Framework for Synthesizing Effective and Stealthy Adversarial Examples",
+        "RemedyGS: Defend 3D Gaussian Splatting Against Computation Cost Attacks",
+        "Good Can Sometimes be Bad: A Unified Attack against 3D Point Cloud Classifier by a Flexible Isotropic Resampling",
+        "The Power of Decaying Steps: Enhancing Attack Stability and Transferability for Sign-based Optimizers",
+        "PECCVAI: Overcoming the Brittleness of AI Image Watermarking Under Visual Paraphrasing Attacks",
+        "Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning",
+        "When Robots Obey the Patch: Universal Transferable Patch Attacks on Vision-Language-Action Models"
+      ]
+    },
+    {
+      "source": "iccv-all",
+      "url": "https://openaccess.thecvf.com/ICCV2025?day=all",
+      "sha256": "e684fe760c417a35c2f1e9a5acb3015a192fce10e566086e2d4bf7f78cbb97fe",
+      "papers": 2701,
+      "security_titles": [
+        "BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation",
+        "When Lighting Deceives: Exposing Vision-Language Models' Illumination Vulnerability Through Illumination Transformation Attack",
+        "Privacy-centric Deep Motion Retargeting for Anonymization of Skeleton-Based Motion Visualization",
+        "PBCAT: Patch-Based Composite Adversarial Training against Physically Realizable Attacks on Object Detection",
+        "StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions",
+        "Mind the Cost of Scaffold! Benign Clients May Even Become Accomplices of Backdoor Attack",
+        "Membership Inference Attacks with False Discovery Rate Control",
+        "StolenLoRA: Exploring LoRA Extraction Attacks via Synthetic Data",
+        "Backdooring Self-Supervised Contrastive Learning by Noisy Alignment",
+        "Backdoor Mitigation by Distance-Driven Detoxification",
+        "Towards Privacy-preserved Pre-training of Remote Sensing Foundation Models with Federated Mutual-guidance Learning",
+        "Safeguarding Vision-Language Models: Mitigating Vulnerabilities to Gaussian Noise in Perturbation-based Attacks",
+        "ViT-EnsembleAttack: Augmenting Ensemble Models for Stronger Adversarial Transferability in Vision Transformers",
+        "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
+        "MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth Views in Multi-Room Environments",
+        "Prototype Guided Backdoor Defense via Activation Space Manipulation",
+        "FastJSMA: Accelerating Jacobian-based Saliency Map Attacks through Gradient Decoupling",
+        "Efficient Input-level Backdoor Defense on Text-to-Image Synthesis via Neuron Activation Variation",
+        "FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields",
+        "Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment",
+        "Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning",
+        "Heuristic-Induced Multimodal Risk Distribution Jailbreak Attack for Multimodal Large Language Models",
+        "Boundary Probing for Input Privacy Protection When Using LMM Services",
+        "Prompt-driven Transferable Adversarial Attack on Person Re-Identification with Attribute-aware Textual Inversion",
+        "VIGFace: Virtual Identity Generation for Privacy-Free Face Recognition Dataset",
+        "DADet: Safeguarding Image Conditional Diffusion Models against Adversarial and Backdoor Attacks via Diffusion Anomaly Detection",
+        "Backdoor Defense via Enhanced Splitting and Trap Isolation",
+        "IDFace: Face Template Protection for Efficient and Secure Identification",
+        "Backdoor Attacks on Neural Networks via One-Bit Flip",
+        "IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization and Perturbation Optimization",
+        "Find a Scapegoat: Poisoning Membership Inference Attack and Defense to Federated Learning",
+        "FED-PsyAU: Privacy-Preserving Micro-Expression Recognition via Psychological AU Coordination and Dynamic Facial Motion Modeling",
+        "SPD: Shallow Backdoor Protecting Deep Backdoor Against Backdoor Detection",
+        "FLSeg: Enhancing Privacy and Robustness in Federated Learning under Heterogeneous Data via Model Segmentation",
+        "SMP-Attack: Boosting the Transferability of Feature Importance-based Adversarial Attack with Semantics-aware Multi-granularity Patchout",
+        "CopyrightShield: Enhancing Diffusion Model Security Against Copyright Infringement Attacks",
+        "Reminiscence Attack on Residuals: Exploiting Approximate Machine Unlearning for Privacy",
+        "Towards a 3D Transfer-based Black-box Attack via Critical Feature Guidance",
+        "Generalization-Preserved Learning: Closing the Backdoor to Catastrophic Forgetting in Continual Deepfake Detection",
+        "When and Where do Data Poisons Attack Textual Inversion?",
+        "Web Artifact Attacks Disrupt Vision Language Models",
+        "Seal Your Backdoor with Variational Defense",
+        "KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles",
+        "Boosting Adversarial Transferability via Residual Perturbation Attack",
+        "ZIUM: Zero-Shot Intent-Aware Adversarial Attack on Unlearned Models",
+        "Improving Noise Efficiency in Privacy-preserving Dataset Distillation",
+        "Pretend Benign: A Stealthy Adversarial Attack by Exploiting Vulnerabilities in Cooperative Perception",
+        "GLEAM: Enhanced Transferable Adversarial Attacks for Vision-Language Pre-training Models via Global-Local Transformations",
+        "One Object, Multiple Lies: A Benchmark for Cross-task Adversarial Attack on Unified Vision-Language Models",
+        "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+        "Less Static, More Private: Towards Transferable Privacy-Preserving Action Recognition by Generative Decoupled Learning",
+        "Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures",
+        "Secure On-Device Video OOD Detection Without Backpropagation"
+      ]
+    },
+    {
+      "source": "icml-volume",
+      "url": "https://proceedings.mlr.press/v306/",
+      "sha256": "b6bb3f3207225197ffe44514c58959f1a103a36d6c2e19e42d96d6e649f45a2e",
+      "papers": 6552,
+      "security_titles": [
+        "PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks",
+        "Improving ML Attacks on LWE with Data Repetition and Stepwise Regression",
+        "Adversarial Attacks and Robust Training for Hypergraph Neural Networks",
+        "AutoBaxBuilder: Bootstrapping Code Security Benchmarking",
+        "Statistically Undetectable Backdoors in Deep Neural Networks",
+        "Persuasive Privacy",
+        "Erased but Not Forgotten: How Backdoors Compromise Concept Erasure",
+        "Privacy-Aware Data Integration for Enhanced Quantile Inference under Heterogeneity",
+        "OSNIP: Balancing the Privacy-Utility-Efficiency Trilemma in LLM Inference via Obfuscated Semantic Null Space",
+        "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
+        "Semantic-level Backdoor Attack against Text-to-Image Diffusion Models",
+        "SPARD: Defending Harmful Fine-Tuning Attack via Safety Projection with Relevance–Diversity Data Selection",
+        "Learn from Your Mistakes: Tree-like Self-Play for Secure Code LLMs",
+        "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+        "Privacy Amplification in Differentially Private Zeroth-Order Optimization with Hidden States",
+        "INDEXGUARD: Index-only Backdoor Vetting for Secure Federated PEFT of Large Language Models",
+        "Solving Positive Linear Programs with Differential Privacy",
+        "Theory of Minimal Weight Perturbations in Deep Networks and its Applications for Low-Rank Activated Backdoor Attacks",
+        "Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking",
+        "Efficient privacy loss accounting for subsampling and random allocation",
+        "SkillTrojan: Backdoor Attacks on Skill-Based Agent Systems",
+        "Lookahead-GCG: Improving Universal Multi-Model Optimization-Based Jailbreaking Attacks via Stochastic Nesterov Optimization",
+        "CBV: Clean-label Backdoor Attacks on Vision Language Models via Diffusion Models",
+        "Unlearning’s Blind Spots: Over-Unlearning and Prototypical Relearning Attack",
+        "Architecture Matters for Multi-Agent Security",
+        "TSFAdv: Frequency-Guided Black-Box Adversarial Attacks on Time Series Forecasting",
+        "Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents",
+        "Security–Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+        "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+        "Theory of Continual Learning Against Data Poisoning Attacks",
+        "Censoring with Plausible Deniability: Asymmetric Local Privacy for Multi-Category CDF Estimation",
+        "DART: Distribution-Aware Adaptive Relational Transfer for Adversarial Attacks against Closed-Source MLLMs",
+        "VPD-100K: Towards Generalizable and Fine-grained Visual Privacy Protection",
+        "Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework",
+        "Persistent Backdoor Attacks in Class-Incremental Learning via Structural Invariant Anchoring",
+        "RLCracker: Evaluating the Worst-Case Vulnerability of LLM Watermarks with Adaptive RL Attacks",
+        "MetaMoE: Diversity-Aware Proxy Selection for Privacy-Preserving Mixture-of-Experts Unification",
+        "Secure Multi-agent Reinforcement Learning for Service Systems with Affinity and Byzantine Nodes: Stability Analysis and Protection Design",
+        "AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks",
+        "Budget-Efficient Attacks and Robustness Training for Cooperative MARL",
+        "A New Framework for Cybersecurity Refusals in AI Agents",
+        "On the Sharp Input-Output Analysis of Nonlinear Systems under Adversarial Attacks",
+        "AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs",
+        "MoCo-EA: Exploiting Adversarial Mode Connectivity for Efficient Evolutionary Attacks",
+        "CausalArmor: Efficient Indirect Prompt Injection Guardrails via Causal Attribution",
+        "Adversarial Attack and Defense for Denoising Diffusion Sampling",
+        "Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective",
+        "Toward Cybersecurity-Expert Small Language Models",
+        "“Someone Hid It!”: Query-Agnostic Black-Box Attacks on LLM-Based Retrieval",
+        "Reasoning as an Attack Surface: Adaptive Evolutionary CoT Jailbreaks for LLMs",
+        "Private and Stable Test-time Adaptation with Differential Privacy",
+        "Sponge Tool Attack: Stealthy Denial-of-Efficiency against Tool-Augmented Agentic Reasoning",
+        "Enhancing Membership Inference Attacks on Diffusion Models from a Frequency-Domain Perspective",
+        "REALISTA: Realistic Latent Adversarial Attacks that Elicit LLM Hallucinations",
+        "KIStego: Key-Independent Secure Image Distribution via Bipartite Structural Invariants",
+        "SOPE: Situation-Aware and Statistically Indistinguishable Privacy Exfiltration for MCP-enabled Agents",
+        "Attacking Gray-Box Large Vision-Language Models with Adaptive SVD-Structured Adversarial Alignment",
+        "Fox in the Henhouse: Supply-Chain Backdoor Attacks Against Reinforcement Learning",
+        "TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in MLLM Fine-Tuning",
+        "How does Bayesian Sampling help Membership Inference Attacks?",
+        "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+        "Mind the Gap: Mixtures of Gaussians in Approximate Differential Privacy",
+        "RedVisor: Reasoning-Aware Prompt Injection Defense via Zero-Copy KV Cache Reuse",
+        "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability",
+        "Coupled Trigger Optimization and Vulnerable Parameter Alignment for Persistent Backdoor Attacks on Federated Learning",
+        "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing",
+        "The Hidden Risk: Membership Inference Attacks on Multimodal Federated Learning via Modality Imbalance",
+        "Angel or Demon: Investigating the Plasticity Interventions’ Impact on Backdoor Threats in Deep Reinforcement Learning",
+        "STARE: Step-wise Temporal Alignment and Red-teaming Engine for Multi-modal Toxicity Attack",
+        "Causal Detection of Multi-Step LLM Agent Attacks",
+        "BOCLOAK: Optimal Transport-Guided Adversarial Attacks on Graph Neural Network-Based Bot Detection",
+        "TimeGuard: Channel-wise Pool Training for Backdoor Defense in Time Series Forecasting",
+        "Low-Rank and Sparsity Are All You Need: Exploring Robust Hierarchical Latent Subspaces for Transferable Adversarial Attack",
+        "Toward Subspace-Perturbed Trajectory-Aware Backdoor Attacks in Deep Reinforcement Learning",
+        "MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models",
+        "Accuracy-First Rényi Differential Privacy and Post-Processing Immunity",
+        "Attention Hijacking: Backdooring Text Dataset Distillation via Semantic Anchors",
+        "Optimal conversion from Rényi Differential Privacy to $f$-Differential Privacy",
+        "Attacks on Machine-Text Detectors Retain Stylistic Fingerprints",
+        "BYORn: Bootstrap Your Own Responses to Defend Large Vision-Language Models Against Backdoor Attacks",
+        "Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks",
+        "DF-LoGiT: Data-Free Logic-Gated Backdoor Attacks in Vision Transformers",
+        "CREDIT: Certified Ownership Verification of Deep Neural Networks Against Model Extraction Attacks",
+        "From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs",
+        "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents’ End-to-End Cybersecurity Capabilities",
+        "Training with Honeypots: Reshaping How LLMs Fail Under Adversarial Attacks",
+        "Accurate, Private, Secure, Federated U-statistics with Higher Degree",
+        "MultiPriv: Benchmarking Individual-Level Privacy Reasoning in Vision-Language Models",
+        "Probabilistic Robustness Certificates against Adversarial Attacks",
+        "SORA: Free Second-Order Attacks in Fast Adversarial Training",
+        "Membership Inference Attacks for Unseen Classes",
+        "Reward Under Attack: Analyzing the Robustness and Hackability of Process Reward Models",
+        "Poison with Style: A Practical Poisoning Attack on Code Large Language Models",
+        "Greedy Coordinate Diffusion: Effective and Semantically Coherent Adversarial Attacks via Diffusion Guidance",
+        "DP-KFC: Data-Free Preconditioning for Privacy-Preserving Deep Learning",
+        "On the Existence of Consistent Adversarial Attacks in High-Dimensional Linear Classification",
+        "Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation",
+        "Gradient Inversion Attacks Beyond SGD",
+        "Decoupling Regularization and Privacy in Differentially Private Ridge Regression and ERM",
+        "EVMbench: Evaluating AI Agents on Smart Contract Security",
+        "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models",
+        "Privacy-Aware Video Anomaly Detection through Orthogonal Subspace Projection",
+        "SLIM: Secure and Efficient Inference for Large Language Models on Untrusted Devices via TEEs",
+        "Exposing Vulnerabilities in Explanation for Time Series Classifiers via Dual-Target Attacks",
+        "Bias in Zeroth-Order Normal Estimation for Decision-Based Attacks",
+        "Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks",
+        "MemPot: Defending Against Memory Extraction Attack with Optimized Honeypots",
+        "Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov–Arnold Networks",
+        "Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy",
+        "MAGIC: A Co-Evolving Attacker–Defender Adversarial Game for Robust LLM Safety",
+        "Contextualized Privacy Defense for LLM Agents",
+        "An Empirical Study on the Resilience of Partial Merging to Model Clone Attacks",
+        "Furina: Fragmented Uncertainty-Driven Refusal Instability Attack",
+        "A Game-Theoretic Analysis of Attacks on Large Language Models via Compositional Skills",
+        "Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation",
+        "New Wide-Net-Casting Jailbreak Attacks Risk Large Models",
+        "Dissecting the Safety Circuit: Neuronal Intervention for Transferable Adversarial Attacks on VLMs",
+        "Neural Honeytrace: Plug&Play Watermarking Framework against Model Extraction Attacks",
+        "Hearing Without Noticing? Attention-Aware Stealthy Black-Box Adversarial Audio Attacks",
+        "From Internal Diagnosis to External Auditing: A VLM-Driven Paradigm for Data-Free Online Backdoor Defense",
+        "OptiFluence: Principled Design of Privacy Canaries",
+        "PISA: Privacy-Preserving Split Adaptation with Model IP Protection",
+        "Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges",
+        "Reranker Helps, but Not Enough: Towards Strong Poisoning Attacks Against Retrieval-Augmented Generation",
+        "Improving the Sensitivity of Backdoor Detectors via Class Subspace Orthogonalization",
+        "Autoregressive, Yet Revisable: In Decoding Revision for Secure Code Generation",
+        "Efficient Preference Poisoning Attack on Offline RLHF",
+        "Speech-Audio Compositional Attacks on Multimodal LLMs and Their Defense with SALMONN-Guard",
+        "Prompt Injection as Role Confusion",
+        "Securing Multimodal AI through Internal Information Decomposition",
+        "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+        "Unleashing the Representational Power of Fourier Shapes for Attacking Infrared Object Detection",
+        "DDGA: Dirichlet Distributional Gradient Aggregation for Transferable Vision-Language Adversarial Attacks",
+        "SecCodePRM: A Process Reward Model for Code Security",
+        "MEDUSA: Motion Elimination in Diffusion Using Spectral Attack",
+        "MINIM: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization",
+        "Uncovering Hidden Triggers: Backdoor Attribution in Language Models",
+        "Active Attacks: Red-teaming LLMs via Adaptive Environments",
+        "From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching",
+        "Localize and Neutralize: Gradient-Guided Token Suppression Against Visual Prompt Injection Attack",
+        "TokenSwap: Backdoor Attack on the Compositional Understanding of Large Vision-Language Models",
+        "SemBind: Binding Diffusion Watermarks to Semantics Against Black-Box Forgery Attacks",
+        "Does AI Reviewer See the Full Picture? Attacking and Defending Multimodal Peer Review",
+        "Anti-Backdoor Coreset Selection via Cumulative Entropy",
+        "Broadening the Backdoor Basin: Understanding LLM Backdoors Collapse and Making Backdoors Persistent",
+        "Revisiting ML Training under Fully Homomorphic Encryption: Convergence Guarantees, Differential Privacy, and Efficient Algorithms",
+        "Ripple Perturbations Through Structure: Likelihood-Constrained Adversarial Attacks on Heterogeneous Tabular Data",
+        "From Parameters to Feature Space: Task Arithmetic for Backdoor Mitigation in Model Merging",
+        "Position: Verifiable Data Minimization is a Prerequisite for Responsible, Privacy-Preserving Industrial Vision",
+        "Position: Embodied AI Requires a Privacy-Utility Tradeoff",
+        "Position: Generative Distributional Integrity against Backdoor Attacks",
+        "Position: Retire the \"Positive Backdoor\" Label—Secret Alignment Requires Strict and Systematic Evaluation",
+        "Position: Agent Security Needs Redefinition through a Holistic Framework",
+        "Position: The Privacy-Auditability Paradox in Federated Learning: Why We Need Controllable Secure Aggregation",
+        "Position: Privacy Is a Claim, Not a Property of Synthetic Data",
+        "Position: To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack"
+      ]
+    }
+  ],
+  "source_balance": {
+    "target": {
+      "security_conferences": 4,
+      "software_systems": 3,
+      "ai_conferences": 3
+    },
+    "weekly": {
+      "security_conferences": 0,
+      "software_systems_journals": 3,
+      "ai_conferences": 0,
+      "other_formal": 2
+    },
+    "topic": {
+      "security_conferences": 2,
+      "software_systems": 0,
+      "ai_conferences": 0
+    },
+    "deviation": "三组均已扫描；AI正式论文候选仅确认未来会议接收，按用户正式见刊口径暂缓。窗口内安全顶会和系统硬件候选正文不足；近期专题保留两篇已于11月14日出版的CCS论文，共7篇。",
+    "weekly_percent": {
+      "software_journal": 60,
+      "other_formal": 40,
+      "security_conference": 0,
+      "ai_conference": 0
+    },
+    "total_seven_percent": {
+      "software_journal": 42.86,
+      "security_conference_topic": 28.57,
+      "other_formal": 28.57
+    },
+    "formal_dynamic_shortfall": 5,
+    "total_reading_shortfall": 3
+  },
+  "drip_fulltext_revision": {
+    "url": "https://lindsey98.github.io/liuruofan//files/DRIP_paper.pdf",
+    "sha256": "47b50b1ab96c4904003d3ae3184f3d5fa58fb3d43de469325addc3a1cc811630",
+    "pages": 27,
+    "reading": "全文与附录核读；替代原v2作为本次精读依据；出版模板尚有占位，精确修订日期待补。",
+    "old_arxiv_v2": "仅保留历史版本证据，不混用该版实验数字。"
+  },
+  "entity_maintenance": {
+    "institutions_added": {
+      "Virginia Commonwealth University": {
+        "id": "virginia-commonwealth-university",
+        "display_name": "Virginia Commonwealth University",
+        "language": "en",
+        "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf",
+        "country_code": "USA"
+      },
+      "Zürcher Kantonalbank": {
+        "id": "zurcher-kantonalbank",
+        "display_name": "Zürcher Kantonalbank",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf",
+        "country_code": "CHE"
+      },
+      "University of Amsterdam": {
+        "id": "university-of-amsterdam",
+        "display_name": "University of Amsterdam",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf",
+        "country_code": "NLD"
+      },
+      "Lund University": {
+        "id": "lund-university",
+        "display_name": "Lund University",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content",
+        "country_code": "SWE"
+      },
+      "King Abdulaziz University": {
+        "id": "king-abdulaziz-university",
+        "display_name": "King Abdulaziz University",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4",
+        "country_code": "SAU"
+      },
+      "Drexel University": {
+        "id": "drexel-university",
+        "display_name": "Drexel University",
+        "language": "en",
+        "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf",
+        "country_code": "USA"
+      },
+      "University of Melbourne": {
+        "id": "university-of-melbourne",
+        "display_name": "The University of Melbourne",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content",
+        "country_code": "AUS"
+      }
+    },
+    "scholars_added": {
+      "Amirali Sajadi": {
+        "id": "amirali-sajadi",
+        "display_name": "Amirali Sajadi",
+        "publication_name": "Amirali Sajadi",
+        "language": "en",
+        "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"
+      },
+      "Kostadin Damevski": {
+        "id": "kostadin-damevski",
+        "display_name": "Kostadin Damevski",
+        "publication_name": "Kostadin Damevski",
+        "language": "en",
+        "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"
+      },
+      "Preetha Chatterjee": {
+        "id": "preetha-chatterjee",
+        "display_name": "Preetha Chatterjee",
+        "publication_name": "Preetha Chatterjee",
+        "language": "en",
+        "source": "https://amiralisajadi.github.io/assets/papers/Are_LLM_Patches_Secure.pdf"
+      },
+      "Felix Stöger": {
+        "id": "felix-stoger",
+        "display_name": "Felix Stöger",
+        "publication_name": "Felix Stöger",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf",
+        "aliases": [
+          "Felix Stoger"
+        ]
+      },
+      "Jelte van Bommel": {
+        "id": "jelte-van-bommel",
+        "display_name": "Jelte van Bommel",
+        "publication_name": "Jelte van Bommel",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf"
+      },
+      "Jonghoon Kwon": {
+        "id": "jonghoon-kwon",
+        "display_name": "Jonghoon Kwon",
+        "publication_name": "Jonghoon Kwon",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf"
+      },
+      "Patrick Bamert": {
+        "id": "patrick-bamert",
+        "display_name": "Patrick Bamert",
+        "publication_name": "Patrick Bamert",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf"
+      },
+      "Stefanie Boss": {
+        "id": "stefanie-boss",
+        "display_name": "Stefanie Boss",
+        "publication_name": "Stefanie Boss",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf"
+      },
+      "Alexander Eggerth": {
+        "id": "alexander-eggerth",
+        "display_name": "Alexander Eggerth",
+        "publication_name": "Alexander Eggerth",
+        "language": "en",
+        "source": "https://netsec.ethz.ch/publications/papers/2026_conext_authenticated_browsing_fstoeger.pdf"
+      },
+      "Bjørn Nansen": {
+        "id": "bjrn-nansen",
+        "display_name": "Bjørn Nansen",
+        "publication_name": "Bjørn Nansen",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content",
+        "aliases": [
+          "Bjrn Nansen"
+        ]
+      },
+      "Helena Sandberg": {
+        "id": "helena-sandberg",
+        "display_name": "Helena Sandberg",
+        "publication_name": "Helena Sandberg",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content"
+      },
+      "Lauren Bliss": {
+        "id": "lauren-bliss",
+        "display_name": "Lauren Bliss",
+        "publication_name": "Lauren Bliss",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content"
+      },
+      "Shaanan Cohney": {
+        "id": "shaanan-cohney",
+        "display_name": "Shaanan Cohney",
+        "publication_name": "Shaanan Cohney",
+        "language": "en",
+        "source": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/cc14ee01-6ff4-4708-a68d-0aa29ca59723/content"
+      },
+      "Ian McCormack": {
+        "id": "ian-mccormack",
+        "display_name": "Ian McCormack",
+        "publication_name": "Ian McCormack",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4"
+      },
+      "Tomás Dougan": {
+        "id": "tomas-dougan",
+        "display_name": "Tomás Dougan",
+        "publication_name": "Tomás Dougan",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4",
+        "aliases": [
+          "Tomas Dougan"
+        ]
+      },
+      "Sam Estep": {
+        "id": "sam-estep",
+        "display_name": "Sam Estep",
+        "publication_name": "Sam Estep",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4"
+      },
+      "Hanan Hibshi": {
+        "id": "hanan-hibshi",
+        "display_name": "Hanan Hibshi",
+        "publication_name": "Hanan Hibshi",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4"
+      },
+      "Joshua Sunshine": {
+        "id": "joshua-sunshine",
+        "display_name": "Joshua Sunshine",
+        "publication_name": "Joshua Sunshine",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2404.02230v4"
+      },
+      "Lantian Li": {
+        "id": "lantian-li",
+        "display_name": "Lantian Li",
+        "publication_name": "Lantian Li",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2508.06192v2"
+      },
+      "Yuyu Chen": {
+        "id": "yuyu-chen",
+        "display_name": "Yuyu Chen",
+        "publication_name": "Yuyu Chen",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2508.06192v2"
+      },
+      "Jingwen Wu": {
+        "id": "jingwen-wu",
+        "display_name": "Jingwen Wu",
+        "publication_name": "Jingwen Wu",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2508.06192v2"
+      },
+      "Yue Pan": {
+        "id": "yue-pan",
+        "display_name": "Yue Pan",
+        "publication_name": "Yue Pan",
+        "language": "en",
+        "source": "https://arxiv.org/pdf/2508.06192v2"
+      },
+      "Zhongxing Yu": {
+        "id": "zhongxing-yu",
+        "display_name": "Zhongxing Yu",
+        "publication_name": "Zhongxing Yu",
+        "language": "en",
+        "source": "https://zhongxingyu.github.io/",
+        "homepage": "https://zhongxingyu.github.io/"
+      },
+      "Jiawei Guo": {
+        "id": "jiawei-guo",
+        "display_name": "Jiawei Guo",
+        "publication_name": "Jiawei Guo",
+        "language": "en",
+        "source": "https://jamlord7.github.io/",
+        "homepage": "https://jamlord7.github.io/"
+      },
+      "Zongze Li": {
+        "id": "zongze-li",
+        "display_name": "Zongze Li",
+        "publication_name": "Zongze Li",
+        "language": "en",
+        "source": "https://chapering.github.io/pubs/ccs26jiaweia.pdf"
+      },
+      "Haipeng Cai": {
+        "id": "haipeng-cai",
+        "display_name": "Haipeng Cai",
+        "publication_name": "Haipeng Cai",
+        "language": "en",
+        "source": "https://chapering.github.io/",
+        "homepage": "https://chapering.github.io/"
+      },
+      "Ruofan Liu": {
+        "id": "ruofan-liu",
+        "display_name": "刘若凡",
+        "publication_name": "Ruofan Liu",
+        "language": "zh",
+        "source": "https://lindsey98.github.io/liuruofan/",
+        "homepage": "https://lindsey98.github.io/liuruofan/",
+        "aliases": [
+          "Ruofan Liu",
+          "刘若凡"
+        ]
+      },
+      "Yun Lin": {
+        "id": "yun-lin",
+        "display_name": "林云",
+        "publication_name": "Yun Lin",
+        "language": "zh",
+        "source": "https://cs.sjtu.edu.cn/cse/PeopleDetail.aspx?id=468",
+        "homepage": "https://cs.sjtu.edu.cn/cse/PeopleDetail.aspx?id=468",
+        "aliases": [
+          "Yun Lin",
+          "林云"
+        ]
+      },
+      "Zhiyong Huang": {
+        "id": "zhiyong-huang",
+        "display_name": "Zhiyong Huang",
+        "publication_name": "Zhiyong Huang",
+        "language": "en",
+        "source": "https://lindsey98.github.io/liuruofan//files/DRIP_paper.pdf"
+      },
+      "Jin Song Dong": {
+        "id": "jin-song-dong",
+        "display_name": "Jin Song Dong",
+        "publication_name": "Jin Song Dong",
+        "language": "en",
+        "source": "https://www.comp.nus.edu.sg/~dongjs/",
+        "homepage": "https://www.comp.nus.edu.sg/~dongjs/"
+      }
+    }
+  },
+  "publisher_evidence": [
+    {
+      "DOI": "10.1145/3847401.3847421",
+      "title": [
+        "From Phreaking to Sneaking: Children’s circumvention of social media age verification systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2026-11-20T11:41:27Z",
+        "timestamp": 1795174887000
+      },
+      "container-title": [
+        "Proceedings of the 38th Australasian Conference on Human-Computer Interaction"
+      ],
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1145/3863952",
+      "title": [
+        "Who Gets the Message? Designing an Effective Workflow for Large-Scale Vulnerability Notification"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ],
+        "date-time": "2026-11-19T20:28:01Z",
+        "timestamp": 1795120081000
+      },
+      "container-title": [
+        "Digital Threats: Research and Practice"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3863952",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3856957",
+      "title": [
+        "Authenticated Browsing: Reconciling Application-Layer Flooding Defense with Data Confidentiality"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ],
+        "date-time": "2026-11-19T23:11:57Z",
+        "timestamp": 1795129917000
+      },
+      "container-title": [
+        "Proceedings of the ACM on Networking"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3856957",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3798048",
+      "title": [
+        "Securing the Foundation of AI: A Deep Dive into Dependency Management and Security in Deep Learning Frameworks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12,
+            30
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ],
+        "date-time": "2026-02-20T12:50:37Z",
+        "timestamp": 1771591837000
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3798048",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3847401.3857146",
+      "title": [
+        "What LLM-Based Agents Need to Reason About for Privacy-Preserving Data Deletion"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2026-11-20T11:41:27Z",
+        "timestamp": 1795174887000
+      },
+      "container-title": [
+        "Proceedings of the 38th Australasian Conference on Human-Computer Interaction"
+      ],
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1145/3859318",
+      "title": [
+        "ScreenRecompose: Semantic-Aware Generative Content Replacement for Privacy Protection in Screen Sharing"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            23
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2026-11-20T20:38:42Z",
+        "timestamp": 1795207122000
+      },
+      "container-title": [
+        "Proceedings of the ACM on Human-Computer Interaction"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3859318",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3798052",
+      "title": [
+        "Understanding Inconsistent State Update Vulnerabilities in Smart Contracts"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12,
+            30
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ],
+        "date-time": "2026-02-20T12:50:37Z",
+        "timestamp": 1771591837000
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3798052",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3861341",
+      "title": [
+        "How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic Automated Program Repair on SWE-bench"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2026-11-17T21:03:29Z",
+        "timestamp": 1794949409000
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3861341",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3871040",
+      "title": [
+        "Adversarial Attacks on Vision-Language Multimodal Systems: A Survey"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ],
+        "date-time": "2026-11-21T10:46:56Z",
+        "timestamp": 1795258016000
+      },
+      "container-title": [
+        "ACM Transactions on Privacy and Security"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3871040",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3805706",
+      "title": [
+        "<scp>S-Eval</scp>\n                    : Towards Automated Safety Evaluation with Enhancement for Large Language Models"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12,
+            30
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T14:05:15Z",
+        "timestamp": 1775052315000
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3805706",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3798277",
+      "title": [
+        "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            12,
+            30
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            25
+          ]
+        ],
+        "date-time": "2026-02-25T14:57:28Z",
+        "timestamp": 1772031448000
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "type": "journal-article",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3798277",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3842721.3849653",
+      "title": [
+        "mmPoison: Targeted Clean-label Poisoning Attacks on mmWave-based Human Activity Recognition"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            22
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            22
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            23
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2026-10-30T20:24:36Z",
+        "timestamp": 1793391876000
+      },
+      "container-title": [
+        "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing"
+      ],
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1145/3830454.3832570",
+      "title": [
+        "T\n                    <scp>ap</scp>\n                    S\n                    <scp>py</scp>\n                    : Semantic Usage Analysis and Triangulated Risk Assessment of Session Replay in Mobile Apps"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            15
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T19:12:43Z",
+        "timestamp": 1794510763000
+      },
+      "container-title": [
+        "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security"
+      ],
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1145/3830454.3832577",
+      "title": [
+        "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            15
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2026-11-12T19:12:43Z",
+        "timestamp": 1794510763000
+      },
+      "container-title": [
+        "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security"
+      ],
+      "type": "proceedings-article"
+    }
+  ],
+  "publisher_candidate_decisions": [
+    {
+      "title": "From Phreaking to Sneaking: Children’s circumvention of social media age verification systems",
+      "doi": "10.1145/3847401.3847421",
+      "source": "https://api.crossref.org/works/10.1145/3847401.3847421",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "decision": "完整正文已读并入选"
+    },
+    {
+      "title": "Who Gets the Message? Designing an Effective Workflow for Large-Scale Vulnerability Notification",
+      "doi": "10.1145/3863952",
+      "source": "https://api.crossref.org/works/10.1145/3863952",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    },
+    {
+      "title": "Authenticated Browsing: Reconciling Application-Layer Flooding Defense with Data Confidentiality",
+      "doi": "10.1145/3856957",
+      "source": "https://api.crossref.org/works/10.1145/3856957",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            19
+          ]
+        ]
+      },
+      "decision": "完整正文已读并入选"
+    },
+    {
+      "title": "Securing the Foundation of AI: A Deep Dive into Dependency Management and Security in Deep Learning Frameworks",
+      "doi": "10.1145/3798048",
+      "source": "https://api.crossref.org/works/10.1145/3798048",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    },
+    {
+      "title": "What LLM-Based Agents Need to Reason About for Privacy-Preserving Data Deletion",
+      "doi": "10.1145/3847401.3857146",
+      "source": "https://api.crossref.org/works/10.1145/3847401.3857146",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    },
+    {
+      "title": "ScreenRecompose: Semantic-Aware Generative Content Replacement for Privacy Protection in Screen Sharing",
+      "doi": "10.1145/3859318",
+      "source": "https://api.crossref.org/works/10.1145/3859318",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            20
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    },
+    {
+      "title": "Understanding Inconsistent State Update Vulnerabilities in Smart Contracts",
+      "doi": "10.1145/3798052",
+      "source": "https://api.crossref.org/works/10.1145/3798052",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "decision": "完整正文已读并入选"
+    },
+    {
+      "title": "How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic Automated Program Repair on SWE-bench",
+      "doi": "10.1145/3861341",
+      "source": "https://api.crossref.org/works/10.1145/3861341",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "完整正文已读并入选"
+    },
+    {
+      "title": "Adversarial Attacks on Vision-Language Multimodal Systems: A Survey",
+      "doi": "10.1145/3871040",
+      "source": "https://api.crossref.org/works/10.1145/3871040",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            21
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    },
+    {
+      "title": "<scp>S-Eval</scp>\n                    : Towards Automated Safety Evaluation with Enhancement for Large Language Models",
+      "doi": "10.1145/3805706",
+      "source": "https://api.crossref.org/works/10.1145/3805706",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "decision": "仅取得ISSTA旧稿，缺TOSEM扩展正文"
+    },
+    {
+      "title": "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling",
+      "doi": "10.1145/3798277",
+      "source": "https://api.crossref.org/works/10.1145/3798277",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            18
+          ]
+        ]
+      },
+      "decision": "完整正文已读并入选"
+    },
+    {
+      "title": "mmPoison: Targeted Clean-label Poisoning Attacks on mmWave-based Human Activity Recognition",
+      "doi": "10.1145/3842721.3849653",
+      "source": "https://api.crossref.org/works/10.1145/3842721.3849653",
+      "event": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            22
+          ]
+        ]
+      },
+      "decision": "出版记录可核验，经过作者/机构入口追查仍未取得可确认的完整正文，暂缓"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": "1.10.15",
+  "version": "1.10.16",
   "reference_systems": [
     {
       "name": "ACM Computing Classification System",
@@ -384,6 +384,13 @@
     "differential-privacy": {"label": "差分隐私", "facet": "method"}
   },
   "primary_domain_overrides": {
+    "tosem26-sajadi-ai-patches": "software-application-security",
+    "conext26-stoeger-authenticated-browsing": "network-communication-security",
+    "ozchi26-nansen-age-verification": "identity-privacy",
+    "tosem26-mccormack-unsafe-rust": "software-application-security",
+    "tosem26-li-state-update": "software-application-security",
+    "ccs26-guo-tapspy": "mobile-iot-security",
+    "ccs26-liu-drip": "ai-security",
     "arxiv-2611-17012-search-anonymization": "identity-privacy",
     "ccs26-szwajcok-meme-coin-factories": "software-application-security",
     "arxiv-2611-04672-context-dimensions": "ai-security",
@@ -591,16 +598,6 @@
     "arxiv-2611-18133-linera": "systems-hardware-security",
     "arxiv-2611-17115-caplite": "ai-security",
     "arxiv-2611-17520-weakest-agent": "ai-security",
-    "arxiv-2611-16493-rea-bench": "ai-security",
-    "arxiv-2611-25470-toolpulse": "ai-security",
-    "arxiv-2611-22761-robot-config": "mobile-iot-security",
-    "arxiv-2611-21577-mcp-provider-misbinding": "ai-security",
-    "arxiv-2611-23826-slice-isolation": "network-communication-security",
-    "arxiv-2611-22519-workflowbp": "software-application-security",
-    "arxiv-2611-25790-cybergym-reliability": "software-application-security",
-    "arxiv-2611-25412-chainagent": "software-application-security",
-    "arxiv-2611-25599-tether": "ai-security",
-    "arxiv-2611-24362-pipette": "ai-security",
-    "arxiv-2611-22223-gapleak": "identity-privacy"
+    "arxiv-2611-16493-rea-bench": "ai-security"
   }
 }

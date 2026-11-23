@@ -1,0 +1,510 @@
+{
+  "reason": "用户要求按正式出版优先重做；保留原记录供回查，不再计入精选。",
+  "papers": [
+    {
+      "id": "arxiv-2611-25470-toolpulse",
+      "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+      "normalized_title": "toolpulse side channel eavesdropping on tool using llm agents",
+      "authors": [
+        "Zihao Dan",
+        "Jinyu Zhang",
+        "Jinzhao Lian",
+        "Yun Chen",
+        "Shinan Liu"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.25470",
+      "urls": [
+        "https://arxiv.org/abs/2611.25470",
+        "https://arxiv.org/pdf/2611.25470v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-19",
+      "topics": [
+        "agent-security",
+        "side-channel",
+        "measurement-study"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-19",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.25470v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-22761-robot-config",
+      "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+      "normalized_title": "network exposed configuration attacks on llm controlled social robots",
+      "authors": [
+        "Stanley Akingbola",
+        "Ugbede Ibrahim",
+        "Yan Lin Aung",
+        "Quang Dan Le",
+        "Hong Qing Yu"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.22761",
+      "urls": [
+        "https://arxiv.org/abs/2611.22761",
+        "https://arxiv.org/pdf/2611.22761v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-17",
+      "topics": [
+        "embedded-security",
+        "authentication-bypass",
+        "measurement-study"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-17",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.22761v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-21577-mcp-provider-misbinding",
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "normalized_title": "when tool names are not identities measuring provider misbinding in mcp based ai agents",
+      "authors": [
+        "Zeynab Anbiaee",
+        "Sajjad Dadkhah",
+        "Ali A. Ghorbani"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.21577",
+      "urls": [
+        "https://arxiv.org/abs/2611.21577",
+        "https://arxiv.org/pdf/2611.21577v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-16",
+      "topics": [
+        "agent-security",
+        "authentication",
+        "measurement-study"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-17",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.21577v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-23826-slice-isolation",
+      "title": "Slice Isolation-as-a-Service: An Isolation Mechanism to Proactively Defend Cross-Slice Attacks in 5G-Advanced and Beyond",
+      "normalized_title": "slice isolation as a service an isolation mechanism to proactively defend cross slice attacks in 5g advanced and beyond",
+      "authors": [
+        "Abdulaziz Abdulghaffar",
+        "Ashraf Matrawy"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.23826",
+      "urls": [
+        "https://arxiv.org/abs/2611.23826",
+        "https://arxiv.org/pdf/2611.23826v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-18",
+      "topics": [
+        "5g",
+        "denial-of-service",
+        "integer-programming"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-18",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.23826v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-22519-workflowbp",
+      "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+      "normalized_title": "missing security fix backporting for github actions workflows",
+      "authors": [
+        "Chengyan Ma",
+        "Jieke Shi",
+        "Ruidong Han",
+        "Weifeng Sun",
+        "Yuqing Niu",
+        "Yunbo Lyu",
+        "Zhou Yang",
+        "David Lo"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.22519",
+      "urls": [
+        "https://arxiv.org/abs/2611.22519",
+        "https://arxiv.org/pdf/2611.22519v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-17",
+      "topics": [
+        "continuous-integration",
+        "patch-backporting",
+        "program-repair"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-17",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.22519v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-25790-cybergym-reliability",
+      "title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+      "normalized_title": "on the reliability of cybergym evaluation task material consistency and reference target identity",
+      "authors": [
+        "Yule Ding",
+        "Hongzhen Wu"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.25790",
+      "urls": [
+        "https://arxiv.org/abs/2611.25790",
+        "https://arxiv.org/pdf/2611.25790v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-19",
+      "topics": [
+        "benchmark",
+        "verification",
+        "causal-attribution"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-19",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.25790v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-25412-chainagent",
+      "title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+      "normalized_title": "chainagent automated chainable vulnerability discovery in php web applications",
+      "authors": [
+        "Xinyi Wang",
+        "Yeting Li",
+        "Shizhe Cui",
+        "Jiaming Guo",
+        "Qin Mai",
+        "Yecheng Sun",
+        "Hengyu Yang",
+        "Yujie Sun",
+        "Huina Chao",
+        "Yang Xiao",
+        "Feng Li",
+        "Wei Huo"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.25412",
+      "urls": [
+        "https://arxiv.org/abs/2611.25412",
+        "https://arxiv.org/pdf/2611.25412v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-19",
+      "topics": [
+        "php",
+        "program-analysis",
+        "exploit-generation"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-19",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.25412v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-25599-tether",
+      "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+      "normalized_title": "tether verified stateful policy engine for system level monitoring of agents",
+      "authors": [
+        "Meghana Aparna Sistla",
+        "Alaia Solko-Breslin",
+        "Somesh Jha",
+        "Aditya Kanade",
+        "Krishnamurthy Dj Dvijotham"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.25599",
+      "urls": [
+        "https://arxiv.org/abs/2611.25599",
+        "https://arxiv.org/pdf/2611.25599v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-19",
+      "topics": [
+        "agent-security",
+        "information-flow",
+        "formal-verification"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-19",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.25599v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-24362-pipette",
+      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+      "normalized_title": "pipette prompt injection purple teaming for robust llm agents",
+      "authors": [
+        "Lipeng He",
+        "Yihan Wang",
+        "Jiawen Zhang",
+        "N. Asokan"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.24362",
+      "urls": [
+        "https://arxiv.org/abs/2611.24362",
+        "https://arxiv.org/pdf/2611.24362v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-18",
+      "topics": [
+        "prompt-injection",
+        "adaptive-red-teaming",
+        "safety-alignment"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-18",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.24362v1",
+          "version": "v1"
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2611-22223-gapleak",
+      "title": "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+      "normalized_title": "gapleak when privacy preserving llm based web agents become a privacy risk",
+      "authors": [
+        "Chaklam Cheong",
+        "Tiancong Cao",
+        "Qi Li",
+        "Zelin Zhang",
+        "Jianbing Ni",
+        "Rongxing Lu",
+        "Mohammad Zulkernine"
+      ],
+      "venues": [
+        "arXiv"
+      ],
+      "status": "preprint",
+      "doi": null,
+      "arxiv_id": "2611.22223",
+      "urls": [
+        "https://arxiv.org/abs/2611.22223",
+        "https://arxiv.org/pdf/2611.22223v1"
+      ],
+      "first_seen": "2026-11-23",
+      "last_updated": "2026-11-17",
+      "topics": [
+        "web-agent",
+        "privacy",
+        "least-privilege"
+      ],
+      "weekly_notes": [
+        "weekly/2026/2026-W48.md"
+      ],
+      "discovery_events": [
+        {
+          "week": "2026-W48",
+          "date": "2026-11-17",
+          "kind": "first-public",
+          "source": "https://arxiv.org/abs/2611.22223v1",
+          "version": "v1"
+        }
+      ]
+    }
+  ],
+  "easycatch": {
+    "arxiv-2611-24362-pipette": {
+      "paragraphs": [
+        "练习防骗时，反复更换同一种骗局的措辞，增加的是题目数量。要学会应对更多套路，需要识别每道题背后的诱导方式，并专门练习新方式。",
+        "PIPETTE让红方把成功注入归纳成策略，对较少出现的策略追加奖励，再让蓝方学习哪些操作符合用户任务。静态基准中部分小模型兼顾了低攻击成功率和任务效用；自适应测试还使用了40个曾被攻破的难例。策略覆盖由模型判断，效果应按各模型和测试预算分别解读。"
+      ],
+      "source_sha256": "d477ce1943f943a534f5818abbf05773a5acff793f4c5f23a873ae1c01791335",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-25412-chainagent": {
+      "paragraphs": [
+        "一把钥匙单独没有危害，但如果另一处缺陷能把它取出，钥匙又能打开机房，两段行为就连成了进入机房的路径。软件里正常的定时任务也可能起到最后这把钥匙的作用。",
+        "ChainAgent把漏洞和正常功能都写成“需要什么条件、能产生什么能力”，沿着缺失条件向后寻找线索，再沿新能力向前检查代码。15个PHP应用上的目标组件召回率为42.02%至44.63%；发现后的整条链仍需动态验证。它比对照消耗更多推理资源，真值来自工具发现与文档的合并。"
+      ],
+      "source_sha256": "6859a1204aeb7debafd7fff489942c17e1ddb44b59a7bd98ca7a499c6a20789a",
+      "revision": 2,
+      "skill_version": 4
+    },
+    "arxiv-2611-21577-mcp-provider-misbinding": {
+      "paragraphs": [
+        "你让助理去指定快递点寄包裹，旁边另一家挂上相同招牌、提供同样的收件表格，助理可能把包裹交错。能完成同一件事只是能力线索，快递点究竟属于谁还需要另外核验。",
+        "这篇论文让合法和攻击者MCP服务器同时提供取数据工具，分别改变名称、描述和参数格式，并按实际调用的服务器记分。名称相同、描述贴合且参数兼容时，多个模型频繁选错提供方；有些模型会先询问用户。实验据此把提供方身份绑定提出为独立检查点，澄清请求单独统计。"
+      ],
+      "source_sha256": "b0cc7b8b0d3086bbc7e1f64082fd4d263d869c8ada8999d47c5d396ca6478c7d",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-25790-cybergym-reliability": {
+      "paragraphs": [
+        "考生交来一道题的程序，只要它报错就算答对，可能奖励了与题目无关的错误。漏洞复现评测也有这个问题：让旧程序崩溃、让修复版正常，仍需核对崩溃是否来自指定缺陷。",
+        "研究先检查CyberGym全部1507项任务的文字和补丁，再用参考崩溃的调用栈与根因复核一个代理配置的输出。1286个通过差分检查的结果中，1187个被归为目标缺陷，另有89个被归为其他缺陷、10个证据不足。材料标签和后续模型裁决仍需要独立人工验证。"
+      ],
+      "source_sha256": "53b8cd4994b6319c82f6bf44d6af2c5113f4f1d673d681d66d18b3c259a1dee9",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-22223-gapleak": {
+      "paragraphs": [
+        "让助理拿简历摘要报名，表格却要求摘要里没有的信息。助理若仍能打开完整资料，可能为了填完表格而继续翻找，并顺手补上“有助审核”的选填内容。",
+        "GapLeak用四个合成网站测试这条路径：表单的信息缺口触发额外资料访问，页面措辞再促成过度披露。作者增加提交前核验后，在一个三模型子实验中显著降低披露程度，但规则会放行必填字段。限制源访问和审核提交内容需要分别落实，论文的指标按其合成场景中的授权规则计算。"
+      ],
+      "source_sha256": "ee52cda909502fec7f48237ddba57fbe00d5e13a8994cc46d219ef214a7d9791",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-23826-slice-isolation": {
+      "paragraphs": [
+        "把工厂两条生产线分成两个车间，仍共用一台输送机时，一条线塞满货物会拖慢另一条。网络切片也有类似取舍：应用分别运行，底层转发路径和计算资源仍可能共用。",
+        "论文把共享转发、独立转发实例和进一步分离节点写成三档约束，再用优化结果比较5G测试床中的攻击影响。独立容器但共享节点的关键切片仍约丢失三成探测包，进一步分离节点后此次观察未丢包。实验节点由同一物理机上的虚拟机模拟，结论应限定为这组拓扑的隔离效果。"
+      ],
+      "source_sha256": "9989fcbc51ea6e98b2ec7666952727d47ea26b6f6e0e2facfebb0de489032618",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-25599-tether": {
+      "paragraphs": [
+        "一份普通报表可以发送给客户，若有人先把工资表复制到同一路径，下一次发送就应重新判断。检查文件名或单条上传命令，很难记住这段变化。",
+        "Tether暂存文件改动，为读取和复制传播敏感标签，再用有状态策略决定是否提交动作。作者证明了抽象策略的若干性质，在筛选后的离线回放中拦住344条攻击，1590条良性轨迹误拦74条。系统调用到抽象动作的追踪仍属于信任基础，线上运行的效果需要另测。"
+      ],
+      "source_sha256": "e044ed166106612bdea2bd8c3432b73e22b76673f46be328240e74a3ab486f8f",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-25470-toolpulse": {
+      "paragraphs": [
+        "在共享办公室里，即使同事把思考过程藏起来，旁人仍可能从打印机和扫描仪的使用顺序猜出他在做什么。本地工具给云端智能体带来了类似痕迹：模型请求经过加密，执行工具时却会触碰同机进程共享的程序代码。",
+        "ToolPulse先定位每次工具执行都会经过的缓存位置，把一次调用造成的重复命中合成一个事件，再按时间恢复调用序列。研究者用这些序列辨认任务类别，并定位加解密等敏感步骤；11个模型上的工具恢复F1最低为93.1%。这一结果建立在同机CPU和共享代码页条件上。"
+      ],
+      "source_sha256": "710658c4cf72b13da9a03ed5b7a7d599db5fe7a53534f8a0a25a2c73809d7df4",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-22519-workflowbp": {
+      "paragraphs": [
+        "总部修改了操作规程，旧版手册仍留在各分店，风险就会继续存在。把改动逐行抄过去又可能放错位置，因为不同分店已经调整了流程；需要先找出相同职责的步骤，再迁移整组修正规则。",
+        "WorkflowBP把默认分支的安全修复转为可重复执行的结构补丁，按任务和步骤内容匹配旧分支，并固定旧分支实际使用的action版本。遇到难匹配情况时模型只修改补丁，最终仍要通过四项检查。在12000个文件上一个配置通过67.9%，完整执行只另验证了17个工作流。"
+      ],
+      "source_sha256": "e29065d9e0e2221bbac42b287c0119d742d7072998b4b7fc0e0cc92d43ac7696",
+      "revision": 1,
+      "skill_version": 4
+    },
+    "arxiv-2611-22761-robot-config": {
+      "paragraphs": [
+        "如果接待员能拒绝访客的无理要求，但任何人都能打开后台改写他的工作手册，前台的拒绝能力就保护不了手册。社交机器人的管理网页具有这种地位：它决定下一轮对话交给模型的系统指令。",
+        "论文检查一台Reachy Mini Lite的配置接口，发现能从本机和同一局域网无认证地保存并应用新指令，实物随后改用法语或西语回答。跨站测试还区分了能写入配置与能立即应用配置的不同条件。研究支持给管理接口加入身份验证，摄像监控等更严重后果仍只是待验证路径。"
+      ],
+      "source_sha256": "c2543f4bd7e1487bc9bc422573f90be43bbecddd37d8ee27b8bc99e74580ba88",
+      "revision": 1,
+      "skill_version": 4
+    }
+  }
+}

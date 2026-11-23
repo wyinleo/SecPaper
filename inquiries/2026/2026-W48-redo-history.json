@@ -1,0 +1,3998 @@
+{
+  "checked_at": "2026-11-23T09:42:07.348733+00:00",
+  "historic_index_records_reviewed": 208,
+  "arxiv_records": 95,
+  "official_only_records": 113,
+  "arxiv_recheck": [
+    {
+      "id": "issta26-chen-insecure-memory",
+      "arxiv_id": "2607.17619",
+      "url": "https://arxiv.org/abs/2607.17619",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Insecure Coding Preferences in Long-Term Memory: Security Risks for LLM-based Code Generation",
+      "history": "Submission history From: Yuchen Chen [ view email ] [v1] Mon, 20 Jul 2026 07:15:35 UTC (1,200 KB)",
+      "comments": [
+        "Comments: Accepted to the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.17619"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-05120-agent-data-injection",
+      "arxiv_id": "2607.05120",
+      "url": "https://arxiv.org/abs/2607.05120",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Agent Data Injection Attacks are Realistic Threats to AI Agents",
+      "history": "Submission history From: Woohyuk Choi [ view email ] [v1] Mon, 6 Jul 2026 14:07:49 UTC (2,709 KB)",
+      "comments": [
+        "Comments: 19 pages, 19 figures, 7 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.05120"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-18063-adaptive-adversaries",
+      "arxiv_id": "2607.18063",
+      "url": "https://arxiv.org/abs/2607.18063",
+      "indexed_status": "workshop",
+      "indexed_last_updated": "2026-09-11",
+      "title": "Title: Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "history": "Submission history From: Devina Jain [ view email ] [v1] Mon, 20 Jul 2026 15:30:38 UTC (399 KB) [v2] Fri, 11 Sep 2026 18:06:53 UTC (143 KB)",
+      "comments": [
+        "Comments: Second Workshop on Agents in the Wild: Safety, Security, and Beyond"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.18063"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-14611-bad-memory",
+      "arxiv_id": "2607.14611",
+      "url": "https://arxiv.org/abs/2607.14611",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-21",
+      "title": "Title: Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+      "history": "Submission history From: Soham Gadgil [ view email ] [v1] Thu, 16 Jul 2026 06:13:48 UTC (31 KB)",
+      "comments": [
+        "Comments: Preprint"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.14611"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-17986-self-state-attacks",
+      "arxiv_id": "2607.17986",
+      "url": "https://arxiv.org/abs/2607.17986",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-09-17",
+      "title": "Title: Self-State Attacks on Self-Hosted AI Agents: How Far Can OS Defenses Go?",
+      "history": "Submission history From: Yimeng Chen [ view email ] [v1] Mon, 20 Jul 2026 14:16:55 UTC (148 KB) [v2] Thu, 17 Sep 2026 06:59:37 UTC (223 KB)",
+      "comments": [
+        "Comments: 21 pages, 3 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.17986"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-16487-fuzz-emup",
+      "arxiv_id": "2607.16487",
+      "url": "https://arxiv.org/abs/2607.16487",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-16",
+      "title": "Title: Fuzz'EMup: Leveraging EM Side-Channel Emanation to Guide Black-Box Embedded Firmware Fuzzing",
+      "history": "Submission history From: Fatemeh Moradihaghighi [ view email ] [v1] Fri, 17 Jul 2026 20:25:03 UTC (1,631 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.16487"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-20759-issuetrojanbench",
+      "arxiv_id": "2607.20759",
+      "url": "https://arxiv.org/abs/2607.20759",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-27",
+      "title": "Title: IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+      "history": "Submission history From: Ankur Singh [ view email ] [v1] Wed, 22 Jul 2026 22:20:02 UTC (7,629 KB)",
+      "comments": [
+        "Comments: 10 pages, 4 figures, 4 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.20759"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-18575-receipt",
+      "arxiv_id": "2607.18575",
+      "url": "https://arxiv.org/abs/2607.18575",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-27",
+      "title": "Title: RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery",
+      "history": "Submission history From: Muxi Lyu [ view email ] [v1] Mon, 20 Jul 2026 23:16:16 UTC (482 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.18575"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-malicious-skills",
+      "arxiv_id": "2602.06547",
+      "url": "https://arxiv.org/abs/2602.06547",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: \"Do Not Mention This to the User\": Detecting and Understanding Malicious Agent Skills in the Wild",
+      "history": "Submission history From: Yi Liu [ view email ] [v1] Fri, 6 Feb 2026 09:52:27 UTC (176 KB) [v2] Sat, 14 Mar 2026 01:34:44 UTC (176 KB) [v3] Mon, 1 Jun 2026 13:03:27 UTC (176 KB) [v4] Wed, 10 Jun 2026 03:31:37 UTC (178 KB)",
+      "comments": [
+        "Comments: Accepted to the 35th USENIX Security Symposium (USENIX Security 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2602.06547"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-zhang-resume-injection",
+      "arxiv_id": "2605.28999",
+      "url": "https://arxiv.org/abs/2605.28999",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+      "history": "Submission history From: Mohan Zhang [ view email ] [v1] Wed, 27 May 2026 18:56:19 UTC (3,249 KB)",
+      "comments": [
+        "Comments: Published in USENIX Security Symposium 2026; Code and artifacts are available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2605.28999"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-huang-conset",
+      "arxiv_id": "2604.04283",
+      "url": "https://arxiv.org/abs/2604.04283",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
+      "history": "Submission history From: Qiqing Huang [ view email ] [v1] Sun, 5 Apr 2026 21:48:11 UTC (2,594 KB)",
+      "comments": [
+        "Comments: To appear in the 35th USENIX Security Symposium (USENIX Security 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.04283"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-guo-pyguard",
+      "arxiv_id": "2601.16463",
+      "url": "https://arxiv.org/abs/2601.16463",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+      "history": "Submission history From: Wenbo Guo [ view email ] [v1] Fri, 23 Jan 2026 05:49:09 UTC (547 KB) [v2] Tue, 27 Jan 2026 15:02:26 UTC (547 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2601.16463"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec26-gegenhuber-transcript",
+      "arxiv_id": "2607.27510",
+      "url": "https://arxiv.org/abs/2607.27510",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-12",
+      "title": "Title: Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats",
+      "history": "Submission history From: Gabriel Karl Gegenhuber [ view email ] [v1] Wed, 29 Jul 2026 22:54:21 UTC (1,456 KB)",
+      "comments": [
+        "Comments: Accepted to USENIX Security 2026; Artifacts available at this https URL"
+      ],
+      "journal_reference": [
+        "USENIX Security 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.27510"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-26719-lily",
+      "arxiv_id": "2607.26719",
+      "url": "https://arxiv.org/abs/2607.26719",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-07",
+      "title": "Title: Not In My Git Yard: Catching Backdoors at Commit and Release Time",
+      "history": "Submission history From: Stefano Zacchiroli [ view email ] [via CCSD proxy] [v1] Wed, 29 Jul 2026 10:09:48 UTC (67 KB)",
+      "comments": [],
+      "journal_reference": [
+        "41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), Oct 2026, Munich (Allemagne), Germany"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.26719"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2607-27080-memsecbench",
+      "arxiv_id": "2607.27080",
+      "url": "https://arxiv.org/abs/2607.27080",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-07-29",
+      "title": "Title: MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+      "history": "Submission history From: Jiajun Zhou [ view email ] [v1] Wed, 29 Jul 2026 16:06:54 UTC (2,299 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2607.27080"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2608-08939-not-a11y",
+      "arxiv_id": "2608.08939",
+      "url": "https://arxiv.org/abs/2608.08939",
+      "indexed_status": "accepted-workshop",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
+      "history": "Submission history From: Rahul Deivasigamani [ view email ] [v1] Sun, 9 Aug 2026 22:13:55 UTC (1,468 KB)",
+      "comments": [],
+      "journal_reference": [
+        "Proceedings of the 1st Workshop on Security, Privacy, and Safety of Agentic AI Systems (AGENT-SEC '26), pp. 25-36, ACM, 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.08939",
+        "https://doi.org/10.1145/3847320.3847397"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wu-agent-permissions",
+      "arxiv_id": "2511.17959",
+      "url": "https://arxiv.org/abs/2511.17959",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Towards Automating Data Access Permissions in AI Agents",
+      "history": "Submission history From: Yuhao Wu [ view email ] [v1] Sat, 22 Nov 2025 07:50:43 UTC (251 KB)",
+      "comments": [
+        "Comments: Accepted by the IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [
+        "The IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.17959",
+        "https://doi.org/10.1109/SP63933.2026.00018"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-kaya-web-chatbot",
+      "arxiv_id": "2511.05797",
+      "url": "https://arxiv.org/abs/2511.05797",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+      "history": "Submission history From: Yigitcan Kaya [ view email ] [v1] Sat, 8 Nov 2025 02:02:24 UTC (551 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.05797"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-liang-graphrag",
+      "arxiv_id": "2501.14050",
+      "url": "https://arxiv.org/abs/2501.14050",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: GraphRAG under Fire",
+      "history": "Submission history From: Jiacheng Liang [ view email ] [v1] Thu, 23 Jan 2025 19:33:16 UTC (3,502 KB) [v2] Thu, 24 Apr 2025 02:38:09 UTC (3,550 KB) [v3] Sat, 7 Jun 2025 04:27:41 UTC (1,137 KB) [v4] Tue, 14 Oct 2025 03:06:06 UTC (1,150 KB)",
+      "comments": [
+        "Comments: 13 pages. Accepted by IEEE Symposium on Security and Privacy 2026 (S&P 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2501.14050"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-androutsopoulos-deepsurf",
+      "arxiv_id": "2506.15648",
+      "url": "https://arxiv.org/abs/2506.15648",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+      "history": "Submission history From: Georgios Androutsopoulos [ view email ] [v1] Wed, 18 Jun 2025 17:18:23 UTC (210 KB) [v2] Fri, 24 Oct 2025 21:52:10 UTC (2,556 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.15648"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-arquint-diodon",
+      "arxiv_id": "2507.00595",
+      "url": "https://arxiv.org/abs/2507.00595",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: The Secrets Must Not Flow: Scaling Security Verification to Large Codebases (extended version)",
+      "history": "Submission history From: Linard Arquint [ view email ] [v1] Tue, 1 Jul 2025 09:25:54 UTC (142 KB) [v2] Tue, 18 Nov 2025 19:02:00 UTC (160 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2507.00595",
+        "https://doi.org/10.1109/SP63933.2026.00026"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-takahashi-zkfuzz",
+      "arxiv_id": "2504.11961",
+      "url": "https://arxiv.org/abs/2504.11961",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+      "history": "Submission history From: Hideaki Takahashi [ view email ] [v1] Wed, 16 Apr 2025 10:43:48 UTC (1,760 KB) [v2] Fri, 10 Oct 2025 00:15:49 UTC (417 KB) [v3] Sat, 23 May 2026 03:34:47 UTC (411 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.11961"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-zhang-ragorigin",
+      "arxiv_id": "2509.13772",
+      "url": "https://arxiv.org/abs/2509.13772",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+      "history": "Submission history From: Baolei Zhang [ view email ] [v1] Wed, 17 Sep 2025 07:38:54 UTC (334 KB) [v2] Sat, 18 Oct 2025 02:58:16 UTC (335 KB)",
+      "comments": [
+        "Comments: To appear in the IEEE Symposium on Security and Privacy, 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.13772"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wu-enchtable",
+      "arxiv_id": "2511.09880",
+      "url": "https://arxiv.org/abs/2511.09880",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models",
+      "history": "Submission history From: Jialin Wu [ view email ] [v1] Thu, 13 Nov 2025 02:26:59 UTC (1,141 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2511.09880"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wang-jailbreak-guardrails",
+      "arxiv_id": "2506.10597",
+      "url": "https://arxiv.org/abs/2506.10597",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+      "history": "Submission history From: Xunguang Wang [ view email ] [v1] Thu, 12 Jun 2025 11:42:40 UTC (299 KB) [v2] Thu, 16 Oct 2025 12:15:42 UTC (352 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE S&P 2026 Cycle 1"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.10597"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-ersoy-dark-patterns",
+      "arxiv_id": "2510.18113",
+      "url": "https://arxiv.org/abs/2510.18113",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Investigating the Impact of Dark Patterns on LLM-Based Web Agents",
+      "history": "Submission history From: Brandon Lee [ view email ] [v1] Mon, 20 Oct 2025 21:26:26 UTC (608 KB)",
+      "comments": [
+        "Comments: At IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.18113"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-suri-trojanclimb",
+      "arxiv_id": "2507.08983",
+      "url": "https://arxiv.org/abs/2507.08983",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
+      "history": "Submission history From: Anshuman Suri [ view email ] [v1] Fri, 11 Jul 2025 19:35:29 UTC (828 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2507.08983"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-chen-compiler-backdoor",
+      "arxiv_id": "2509.11173",
+      "url": "https://arxiv.org/abs/2509.11173",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+      "history": "Submission history From: Simin Chen [ view email ] [v1] Sun, 14 Sep 2025 09:11:49 UTC (1,497 KB) [v2] Tue, 16 Sep 2025 02:55:43 UTC (1,497 KB) [v3] Mon, 27 Oct 2025 03:04:50 UTC (1,400 KB)",
+      "comments": [
+        "Comments: This paper is accepted to IEEE S&P 2026, the code is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.11173"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-ye-llm-unlearning",
+      "arxiv_id": "2506.07795",
+      "url": "https://arxiv.org/abs/2506.07795",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: LLM Unlearning Should Be Form-Independent",
+      "history": "Submission history From: Xiaotian Ye [ view email ] [v1] Mon, 9 Jun 2025 14:21:25 UTC (785 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.07795"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-corrias-maya",
+      "arxiv_id": "2504.16651",
+      "url": "https://arxiv.org/abs/2504.16651",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark",
+      "history": "Submission history From: Fabio De Gaspari [ view email ] [v1] Wed, 23 Apr 2025 12:16:59 UTC (4,627 KB) [v2] Thu, 12 Jun 2025 11:20:01 UTC (3,203 KB) [v3] Mon, 15 Sep 2025 14:53:33 UTC (3,203 KB) [v4] Fri, 17 Oct 2025 10:15:42 UTC (3,218 KB)",
+      "comments": [
+        "Comments: Paper accepted at the 47th IEEE Symposium on Security and Privacy (S&P 2026)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.16651"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-portgpt",
+      "arxiv_id": "2510.22396",
+      "url": "https://arxiv.org/abs/2510.22396",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: PortGPT: Towards Automated Backporting Using Large Language Models",
+      "history": "Submission history From: Zheng Yu [ view email ] [v1] Sat, 25 Oct 2025 18:46:04 UTC (1,253 KB)",
+      "comments": [
+        "Comments: Accepted by IEEE S&P 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.22396"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-zhai-revelio",
+      "arxiv_id": "2506.12344",
+      "url": "https://arxiv.org/abs/2506.12344",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Restoring Gaussian Blurred Face Images for Deanonymization Attacks",
+      "history": "Submission history From: Haoyu Zhai [ view email ] [v1] Sat, 14 Jun 2025 04:41:05 UTC (19,437 KB)",
+      "comments": [
+        "Comments: 18 pages, 16 figures, IEEE Transaction format"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.12344"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-cosmic",
+      "arxiv_id": "2512.22789",
+      "url": "https://arxiv.org/abs/2512.22789",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Breaking the illusion: Automated Reasoning of GDPR Consent Violations",
+      "history": "Submission history From: Ying Li [ view email ] [v1] Sun, 28 Dec 2025 05:22:00 UTC (3,637 KB)",
+      "comments": [
+        "Comments: Accepted by the IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2512.22789"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-liu-generate-verify",
+      "arxiv_id": "2504.21199",
+      "url": "https://arxiv.org/abs/2504.21199",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Generate-then-Verify: Reconstructing Data from Limited Published Statistics",
+      "history": "Submission history From: Terrance Liu [ view email ] [v1] Tue, 29 Apr 2025 22:06:04 UTC (376 KB) [v2] Wed, 11 Jun 2025 16:54:47 UTC (1,592 KB)",
+      "comments": [
+        "Comments: First two authors contributed equally. Remaining authors are ordered alphabetically"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.21199"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-dutly-aex-nstep",
+      "arxiv_id": "2510.14675",
+      "url": "https://arxiv.org/abs/2510.14675",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+      "history": "Submission history From: Nicolas Dutly [ view email ] [v1] Thu, 16 Oct 2025 13:31:04 UTC (1,101 KB)",
+      "comments": [
+        "Comments: Author's version, to appear, 2026 IEEE Symposium on Security and Privacy (SP)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2510.14675"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-he-chinese-smart-home-privacy",
+      "arxiv_id": "2506.06591",
+      "url": "https://arxiv.org/abs/2506.06591",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+      "history": "Submission history From: Shijing He [ view email ] [v1] Fri, 6 Jun 2025 23:49:48 UTC (113 KB) [v2] Tue, 28 Oct 2025 12:19:28 UTC (115 KB)",
+      "comments": [
+        "Comments: Paper accepted for presentation at IEEE Symposium on Security and Privacy (S&P) 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.06591"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-sator",
+      "arxiv_id": "2406.15055",
+      "url": "https://arxiv.org/abs/2406.15055",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: SaTor: Exploring Satellite Routing in Tor to Reduce Latency",
+      "history": "Submission history From: Haozhi Li [ view email ] [v1] Fri, 21 Jun 2024 11:03:28 UTC (5,606 KB) [v2] Thu, 23 Jan 2025 14:16:22 UTC (22,760 KB) [v3] Thu, 19 Jun 2025 03:18:04 UTC (3,053 KB) [v4] Wed, 13 May 2026 08:49:00 UTC (4,883 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2406.15055"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-pennekamp-hidden-secrets-arxiv",
+      "arxiv_id": "2604.20927",
+      "url": "https://arxiv.org/abs/2604.20927",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-05-18",
+      "title": "Title: Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files of Scientific Preprints",
+      "history": "Submission history From: Jan Pennekamp [ view email ] [v1] Wed, 22 Apr 2026 08:18:10 UTC (451 KB)",
+      "comments": [
+        "Comments: 20 pages, accepted at 47th IEEE Symposium on Security and Privacy (SP '26)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.20927",
+        "https://doi.org/10.1109/SP63933.2026.00217"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "issta26-wei-linux-config",
+      "arxiv_id": "2608.15225",
+      "url": "https://arxiv.org/abs/2608.15225",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-15",
+      "title": "Title: Inferring 1-Minimal Trigger Configurations for Assessing Linux Kernel CVE Triggerability",
+      "history": "Submission history From: Tongjie Wei [ view email ] [v1] Sat, 15 Aug 2026 13:28:21 UTC (2,987 KB)",
+      "comments": [
+        "Comments: 22 pages, 7 figures. Accepted to ISSTA 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.15225"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "issta26-huang-secretron",
+      "arxiv_id": "2608.04523",
+      "url": "https://arxiv.org/abs/2608.04523",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-05",
+      "title": "Title: Checked-In Secret Detection: Strings Are All You Need",
+      "history": "Submission history From: Zhengdong Huang [ view email ] [v1] Wed, 5 Aug 2026 06:55:54 UTC (1,349 KB)",
+      "comments": [],
+      "journal_reference": [
+        "The ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2608.04523",
+        "https://doi.org/10.1145/3832207"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ase26-ni-triage-nodejs",
+      "arxiv_id": "2510.20739",
+      "url": "https://arxiv.org/abs/2510.20739",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-08-10",
+      "title": "Title: Learning to Triage Vulnerability Reports from Program Analysis: An Empirical Study in Node.js",
+      "history": "Submission history From: Ronghao Ni [ view email ] [v1] Thu, 23 Oct 2025 16:58:02 UTC (389 KB) [v2] Mon, 10 Aug 2026 16:18:54 UTC (340 KB)",
+      "comments": [
+        "Comments: Accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026). The version of record is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.1145/3832783.3837503",
+        "https://doi.org/10.48550/arXiv.2510.20739",
+        "https://doi.org/10.1145/3832783.3837503"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-aichberger-mip-agent",
+      "arxiv_id": "2503.10809",
+      "url": "https://arxiv.org/abs/2503.10809",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2025-12-02",
+      "title": "Title: MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents",
+      "history": "Submission history From: Lukas Aichberger [ view email ] [v1] Thu, 13 Mar 2025 18:59:12 UTC (8,546 KB) [v2] Tue, 4 Nov 2025 10:25:46 UTC (8,526 KB) [v3] Tue, 27 Jan 2026 18:10:17 UTC (8,527 KB)",
+      "comments": [
+        "Comments: NeurIPS 2025"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2503.10809"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-simsek-pocgen",
+      "arxiv_id": "2506.04962",
+      "url": "https://arxiv.org/abs/2506.04962",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-01",
+      "title": "Title: PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages",
+      "history": "Submission history From: Aryaz Eghbali [ view email ] [v1] Thu, 5 Jun 2025 12:37:33 UTC (130 KB) [v2] Fri, 6 Jun 2025 07:49:53 UTC (130 KB) [v3] Fri, 26 Sep 2025 22:43:31 UTC (108 KB) [v4] Sun, 28 Jun 2026 09:23:55 UTC (615 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.04962"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-yuan-secure-logging",
+      "arxiv_id": "2604.20211",
+      "url": "https://arxiv.org/abs/2604.20211",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-07-01",
+      "title": "Title: Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs",
+      "history": "Submission history From: Zhenhao Li [ view email ] [v1] Wed, 22 Apr 2026 05:54:45 UTC (1,145 KB)",
+      "comments": [
+        "Comments: Accepted at FSE 2026 Research Papers Track"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2604.20211"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ase26-guo-npm-detectors",
+      "arxiv_id": "2603.27549",
+      "url": "https://arxiv.org/abs/2603.27549",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-12",
+      "title": "Title: How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+      "history": "Submission history From: Wenbo Guo [ view email ] [v1] Sun, 29 Mar 2026 07:04:31 UTC (465 KB) [v2] Wed, 5 Aug 2026 07:16:02 UTC (1,025 KB) [v3] Fri, 20 Nov 2026 08:05:09 UTC (1,023 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2603.27549",
+        "https://doi.org/10.1145/3832783.3837427"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai26-shao-offensive-agents",
+      "arxiv_id": "2508.05674",
+      "url": "https://arxiv.org/abs/2508.05674",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-04-09",
+      "title": "Title: Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",
+      "history": "Submission history From: Minghao Shao [ view email ] [v1] Tue, 5 Aug 2025 03:25:09 UTC (6,791 KB) [v2] Thu, 9 Apr 2026 15:07:37 UTC (6,788 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2508.05674"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-nanotag",
+      "arxiv_id": "2509.22027",
+      "url": "https://arxiv.org/abs/2509.22027",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "history": "Submission history From: Mingkai Li [ view email ] [v1] Fri, 26 Sep 2025 08:03:22 UTC (756 KB) [v2] Mon, 13 Oct 2025 18:36:10 UTC (757 KB) [v3] Sat, 18 Apr 2026 01:57:32 UTC (2,888 KB)",
+      "comments": [
+        "Comments: Accepted to appear in IEEE S&P '26; 19 pages, 9 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.22027"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ccs25-baumer-ssh-strict-kex",
+      "arxiv_id": "2509.10895",
+      "url": "https://arxiv.org/abs/2509.10895",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: Finding SSH Strict Key Exchange Violations by State Learning",
+      "history": "Submission history From: Fabian Bäumer [ view email ] [v1] Sat, 13 Sep 2025 16:54:10 UTC (214 KB)",
+      "comments": [
+        "Comments: 15 pages, 7 figures, accepted at ACM CCS 2025"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2509.10895",
+        "https://doi.org/10.1145/3719027.3765208"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "cvpr26-ying-agentsafe",
+      "arxiv_id": "2506.14967",
+      "url": "https://arxiv.org/abs/2506.14967",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-19",
+      "title": "Title: Quasi-1D Coulomb drag between spin-polarized quantum wires",
+      "history": "Submission history From: Dominique Laroche Dr. [ view email ] [v1] Tue, 17 Jun 2025 20:26:21 UTC (6,874 KB)",
+      "comments": [
+        "Comments: 7 pages, 4 figures"
+      ],
+      "journal_reference": [
+        "Phys. Rev. B 113, L121408 (2026)"
+      ],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.14967",
+        "https://doi.org/10.1103/5yqq-cw73"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ndss26-wang-obliinjection",
+      "arxiv_id": "2512.09321",
+      "url": "https://arxiv.org/abs/2512.09321",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data",
+      "history": "Submission history From: Reachal Wang [ view email ] [v1] Wed, 10 Dec 2025 05:10:22 UTC (285 KB) [v2] Thu, 11 Dec 2025 20:21:06 UTC (367 KB) [v3] Mon, 15 Dec 2025 04:21:36 UTC (361 KB)",
+      "comments": [
+        "Comments: To appear in NDSS 2026. For slides, see this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2512.09321"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "fse26-guo-bcs",
+      "arxiv_id": "2606.28870",
+      "url": "https://arxiv.org/abs/2606.28870",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: Understanding Binary Code Similarity for Real-World Vulnerability Detection: A Large-Scale Empirical Study",
+      "history": "Submission history From: Jingdong Guo [ view email ] [v1] Sat, 27 Jun 2026 11:26:28 UTC (3,379 KB)",
+      "comments": [
+        "Comments: 21pages"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2606.28870"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-lee-sec-bench",
+      "arxiv_id": "2506.11791",
+      "url": "https://arxiv.org/abs/2506.11791",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-26",
+      "title": "Title: SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "history": "Submission history From: Hwiwon Lee [ view email ] [v1] Fri, 13 Jun 2025 13:54:30 UTC (282 KB) [v2] Wed, 22 Oct 2025 16:27:29 UTC (294 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2506.11791"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai26-wang-mcptox",
+      "arxiv_id": "2508.14925",
+      "url": "https://arxiv.org/abs/2508.14925",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+      "history": "Submission history From: Yichao Gao [ view email ] [v1] Tue, 19 Aug 2025 10:12:35 UTC (995 KB) [v2] Tue, 29 Sep 2026 02:29:28 UTC (5,032 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2508.14925",
+        "https://doi.org/10.1609/aaai.v40i42.40895"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips25-evtimov-wasp",
+      "arxiv_id": "2504.18575",
+      "url": "https://arxiv.org/abs/2504.18575",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "history": "Submission history From: Arman Zharmagambetov [ view email ] [v1] Tue, 22 Apr 2025 17:51:03 UTC (1,834 KB) [v2] Wed, 30 Apr 2025 19:25:59 UTC (1,442 KB) [v3] Fri, 16 May 2025 22:42:29 UTC (1,170 KB)",
+      "comments": [
+        "Comments: Code and data: this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.18575"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "ndss26-syros-saga",
+      "arxiv_id": "2504.21034",
+      "url": "https://arxiv.org/abs/2504.21034",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-02-23",
+      "title": "Title: SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "history": "Submission history From: Georgios Syros [ view email ] [v1] Sun, 27 Apr 2025 23:10:00 UTC (502 KB) [v2] Fri, 29 Aug 2025 17:59:50 UTC (798 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2504.21034"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "satml26-debenedetti-camel",
+      "arxiv_id": "2503.18813",
+      "url": "https://arxiv.org/abs/2503.18813",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Defeating Prompt Injections by Design",
+      "history": "Submission history From: Edoardo Debenedetti [ view email ] [v1] Mon, 24 Mar 2025 15:54:10 UTC (2,409 KB) [v2] Tue, 24 Jun 2025 08:05:33 UTC (2,523 KB)",
+      "comments": [
+        "Comments: Updated version with newer models and link to the code"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2503.18813"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "iclr24-liu-autodan",
+      "arxiv_id": "2310.04451",
+      "url": "https://arxiv.org/abs/2310.04451",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "history": "Submission history From: Xiaogeng Liu [ view email ] [v1] Tue, 3 Oct 2023 19:44:37 UTC (282 KB) [v2] Wed, 20 Mar 2024 21:34:56 UTC (445 KB)",
+      "comments": [
+        "Comments: Published as a conference paper at ICLR 2024. Code is available at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2310.04451"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icml24-mazeika-harmbench",
+      "arxiv_id": "2402.04249",
+      "url": "https://arxiv.org/abs/2402.04249",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "history": "Submission history From: Mantas Mazeika [ view email ] [v1] Tue, 6 Feb 2024 18:59:08 UTC (1,566 KB) [v2] Tue, 27 Feb 2024 04:43:08 UTC (2,612 KB)",
+      "comments": [
+        "Comments: Website: this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2402.04249"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "sp18-chen-angora",
+      "arxiv_id": "1803.01307",
+      "url": "https://arxiv.org/abs/1803.01307",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Angora: Efficient Fuzzing by Principled Search",
+      "history": "Submission history From: Peng Chen [ view email ] [v1] Sun, 4 Mar 2018 06:56:42 UTC (232 KB) [v2] Tue, 27 Mar 2018 05:46:29 UTC (232 KB)",
+      "comments": [
+        "Comments: To appear in the 39th IEEE Symposium on Security and Privacy, May 21--23, 2018, San Francisco, CA, USA"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1803.01307"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "usenix-sec24-baumer-terrapin",
+      "arxiv_id": "2312.12422",
+      "url": "https://arxiv.org/abs/2312.12422",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+      "history": "Submission history From: Fabian Bäumer [ view email ] [v1] Tue, 19 Dec 2023 18:51:12 UTC (5,472 KB) [v2] Tue, 7 May 2024 17:09:31 UTC (5,707 KB)",
+      "comments": [
+        "Comments: 21 pages, 7 figures; minor revision; accepted at USENIX Security 2024; also added Artifact Evaluation badges and final Artifact Appendix"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2312.12422"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icse19-wang-superion",
+      "arxiv_id": "1812.01197",
+      "url": "https://arxiv.org/abs/1812.01197",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Superion: Grammar-Aware Greybox Fuzzing",
+      "history": "Submission history From: Bihuan Chen [ view email ] [v1] Tue, 4 Dec 2018 03:22:54 UTC (1,642 KB) [v2] Wed, 5 Dec 2018 11:59:28 UTC (1,642 KB) [v3] Wed, 23 Jan 2019 12:21:47 UTC (1,643 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1812.01197"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "acl24-xu-safedecoding",
+      "arxiv_id": "2402.08983",
+      "url": "https://arxiv.org/abs/2402.08983",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+      "history": "Submission history From: Luyao Niu [ view email ] [v1] Wed, 14 Feb 2024 06:54:31 UTC (9,606 KB) [v2] Sat, 24 Feb 2024 07:17:16 UTC (9,634 KB) [v3] Fri, 7 Jun 2024 17:25:04 UTC (9,635 KB) [v4] Thu, 25 Jul 2024 22:59:44 UTC (9,637 KB)",
+      "comments": [
+        "Comments: To appear in ACL 2024"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2402.08983"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "aaai25-gong-figstep",
+      "arxiv_id": "2311.05608",
+      "url": "https://arxiv.org/abs/2311.05608",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts",
+      "history": "Submission history From: Yichen Gong [ view email ] [v1] Thu, 9 Nov 2023 18:59:11 UTC (3,480 KB) [v2] Wed, 13 Dec 2023 17:54:16 UTC (3,817 KB) [v3] Sun, 19 Jan 2025 16:23:38 UTC (8,149 KB)",
+      "comments": [
+        "Comments: AAAI 2025 (Oral)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2311.05608"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "sp19-kocher-spectre",
+      "arxiv_id": "1801.01203",
+      "url": "https://arxiv.org/abs/1801.01203",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Spectre Attacks: Exploiting Speculative Execution",
+      "history": "Submission history From: Daniel Gruss [ view email ] [v1] Wed, 3 Jan 2018 23:16:14 UTC (51 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.1801.01203"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "neurips23-wei-jailbroken",
+      "arxiv_id": "2307.02483",
+      "url": "https://arxiv.org/abs/2307.02483",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Jailbroken: How Does LLM Safety Training Fail?",
+      "history": "Submission history From: Alexander Wei [ view email ] [v1] Wed, 5 Jul 2023 17:58:10 UTC (46 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2307.02483"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "icml24-bailey-image-hijacks",
+      "arxiv_id": "2309.00236",
+      "url": "https://arxiv.org/abs/2309.00236",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: Image Hijacks: Adversarial Images can Control Generative Models at Runtime",
+      "history": "Submission history From: Luke Bailey [ view email ] [v1] Fri, 1 Sep 2023 03:53:40 UTC (1,978 KB) [v2] Mon, 18 Sep 2023 17:59:23 UTC (1,375 KB) [v3] Mon, 22 Apr 2024 20:18:47 UTC (777 KB) [v4] Tue, 17 Sep 2024 19:56:09 UTC (858 KB)",
+      "comments": [
+        "Comments: Project page at this https URL"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2309.00236"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38438-rolefuzzer",
+      "arxiv_id": "2610.38438",
+      "url": "https://arxiv.org/abs/2610.38438",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models",
+      "history": "Submission history From: Kshitish Ghate [ view email ] [v1] Wed, 28 Oct 2026 08:19:36 UTC (1,881 KB)",
+      "comments": [
+        "Comments: Preprint under review"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38438"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-36603-maven-lifecycle",
+      "arxiv_id": "2610.36603",
+      "url": "https://arxiv.org/abs/2610.36603",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-27",
+      "title": "Title: A Fine-Grained Empirical Study of Upstream Security Events and Downstream Mitigation in Maven",
+      "history": "Submission history From: Kazi Amit Hasan [ view email ] [v1] Tue, 27 Oct 2026 04:04:34 UTC (334 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.36603"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-36612-silent-blindness",
+      "arxiv_id": "2610.36612",
+      "url": "https://arxiv.org/abs/2610.36612",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-27",
+      "title": "Title: Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
+      "history": "Submission history From: Alireza Abolhasani Zeraatkar [ view email ] [v1] Tue, 27 Oct 2026 04:16:09 UTC (171 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.36612"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-41642-tadp",
+      "arxiv_id": "2610.41642",
+      "url": "https://arxiv.org/abs/2610.41642",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-23",
+      "title": "Title: TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+      "history": "Submission history From: Feng Xu [ view email ] [v1] Fri, 30 Oct 2026 12:16:47 UTC (1,723 KB)",
+      "comments": [
+        "Comments: WACV2027 accepted"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.41642"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-09808-agent-patch-path",
+      "arxiv_id": "2611.09808",
+      "url": "https://arxiv.org/abs/2611.09808",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+      "history": "Submission history From: Claudio Segal [ view email ] [v1] Fri, 6 Nov 2026 17:57:59 UTC (16,790 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.09808"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-09026-harpoon",
+      "arxiv_id": "2611.09026",
+      "url": "https://arxiv.org/abs/2611.09026",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Beyond a Single Commit: Anchor-Guided Reconstruction of Multi-Commit Patches",
+      "history": "Submission history From: Jialiang Dong [ view email ] [v1] Fri, 6 Nov 2026 06:00:37 UTC (1,268 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.09026"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-10099-enmo-safety",
+      "arxiv_id": "2611.10099",
+      "url": "https://arxiv.org/abs/2611.10099",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models",
+      "history": "Submission history From: Mohammed Nayeem Khan [ view email ] [v1] Fri, 6 Nov 2026 17:28:13 UTC (686 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.10099"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-04672-context-dimensions",
+      "arxiv_id": "2611.04672",
+      "url": "https://arxiv.org/abs/2611.04672",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-03",
+      "title": "Title: The Devil is in the Context: Nine Dimensions of Prompt Injection Attacks",
+      "history": "Submission history From: Hammond Pearce [ view email ] [v1] Tue, 3 Nov 2026 10:56:13 UTC (3,224 KB)",
+      "comments": [
+        "Comments: 19 pages, 9 figures"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.04672"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17012-search-anonymization",
+      "arxiv_id": "2611.17012",
+      "url": "https://arxiv.org/abs/2611.17012",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+      "history": "Submission history From: Josep Domingo-Ferrer [ view email ] [v1] Thu, 12 Nov 2026 16:07:50 UTC (403 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17012"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-40716-module-shadowing",
+      "arxiv_id": "2610.40716",
+      "url": "https://arxiv.org/abs/2610.40716",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-29",
+      "title": "Title: Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "history": "Submission history From: Shuai Yang [ view email ] [v1] Thu, 29 Oct 2026 02:18:27 UTC (190 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.40716"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-40744-clic",
+      "arxiv_id": "2610.40744",
+      "url": "https://arxiv.org/abs/2610.40744",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-29",
+      "title": "Title: CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+      "history": "Submission history From: Sunder Ali Khowaja [ view email ] [v1] Thu, 29 Oct 2026 15:42:29 UTC (1,268 KB)",
+      "comments": [
+        "Comments: 6 pages, 1 figure, 3 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.40744"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-41307-erase",
+      "arxiv_id": "2610.41307",
+      "url": "https://arxiv.org/abs/2610.41307",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-30",
+      "title": "Title: Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+      "history": "Submission history From: Shuo Hong [ view email ] [v1] Fri, 30 Oct 2026 06:15:10 UTC (2,650 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.41307"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38789-federated-selection",
+      "arxiv_id": "2610.38789",
+      "url": "https://arxiv.org/abs/2610.38789",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: Complexity of Differentially Private Selection via Federated APIs",
+      "history": "Submission history From: Samson Zhou [ view email ] [v1] Wed, 28 Oct 2026 19:56:53 UTC (60 KB)",
+      "comments": [
+        "Comments: NeurIPS 2026"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38789"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38595-risk-landscape",
+      "arxiv_id": "2610.38595",
+      "url": "https://arxiv.org/abs/2610.38595",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+      "history": "Submission history From: Yukai Zhou [ view email ] [v1] Wed, 28 Oct 2026 10:23:27 UTC (319 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38595"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2610-38543-privacy-assessment",
+      "arxiv_id": "2610.38543",
+      "url": "https://arxiv.org/abs/2610.38543",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-10-28",
+      "title": "Title: The State of the Practice in Privacy Impact Assessments: Understanding the Professionals' Perspectives, Experiences, and Current Procedures",
+      "history": "Submission history From: Samuel Wairimu [ view email ] [v1] Wed, 28 Oct 2026 09:45:17 UTC (616 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2610.38543"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-06135-sbvul",
+      "arxiv_id": "2611.06135",
+      "url": "https://arxiv.org/abs/2611.06135",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-04",
+      "title": "Title: SBVUL: Statement-Based Vulnerability Detection",
+      "history": "Submission history From: Martin Pinzger [ view email ] [v1] Wed, 4 Nov 2026 08:21:39 UTC (102 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.06135"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08281-multimodal-sea",
+      "arxiv_id": "2611.08281",
+      "url": "https://arxiv.org/abs/2611.08281",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-05",
+      "title": "Title: Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+      "history": "Submission history From: Zhitao He [ view email ] [v1] Thu, 5 Nov 2026 16:46:31 UTC (3,113 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08281"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08811-thought-injection",
+      "arxiv_id": "2611.08811",
+      "url": "https://arxiv.org/abs/2611.08811",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "history": "Submission history From: Zain Shamsi [ view email ] [v1] Fri, 6 Nov 2026 00:06:13 UTC (194 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08811"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-08884-audience-privacy",
+      "arxiv_id": "2611.08884",
+      "url": "https://arxiv.org/abs/2611.08884",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-06",
+      "title": "Title: Who's Asking? Audience-Conditioned Privatization",
+      "history": "Submission history From: Daniil Filienko [ view email ] [v1] Fri, 6 Nov 2026 02:21:50 UTC (141 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.08884"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-11305-intent-auditing",
+      "arxiv_id": "2611.11305",
+      "url": "https://arxiv.org/abs/2611.11305",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-08",
+      "title": "Title: Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation",
+      "history": "Submission history From: Doron Shavit Mr [ view email ] [v1] Sun, 8 Nov 2026 11:05:45 UTC (24 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.11305"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-06629-glasswing-evidence",
+      "arxiv_id": "2611.06629",
+      "url": "https://arxiv.org/abs/2611.06629",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-04",
+      "title": "Title: Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+      "history": "Submission history From: Thomas Mosk [ view email ] [v1] Wed, 4 Nov 2026 15:12:30 UTC (115 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.06629"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18442-cantraj",
+      "arxiv_id": "2611.18442",
+      "url": "https://arxiv.org/abs/2611.18442",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "history": "Submission history From: Yuhang Wang [ view email ] [v1] Fri, 13 Nov 2026 17:17:13 UTC (1,681 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.18442"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18312-magnetic-rail",
+      "arxiv_id": "2611.18312",
+      "url": "https://arxiv.org/abs/2611.18312",
+      "indexed_status": "accepted",
+      "indexed_last_updated": "2026-11-14",
+      "title": "Title: On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+      "history": "Submission history From: Stefan Czybik [ view email ] [v1] Fri, 13 Nov 2026 15:31:10 UTC (1,222 KB) [v2] Mon, 16 Nov 2026 07:39:40 UTC (1,223 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.18312",
+        "https://doi.org/10.1145/3830454.3846554"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18293-privacypr",
+      "arxiv_id": "2611.18293",
+      "url": "https://arxiv.org/abs/2611.18293",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+      "history": "Submission history From: Hua Yang [ view email ] [v1] Fri, 13 Nov 2026 15:18:33 UTC (86 KB)",
+      "comments": [
+        "Comments: 4 pages"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.5281/zenodo.23744765",
+        "https://doi.org/10.48550/arXiv.2611.18293"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17123-codeql-rewrites",
+      "arxiv_id": "2611.17123",
+      "url": "https://arxiv.org/abs/2611.17123",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Preserve the Vulnerability, Break the Alert: Testing the Robustness of CodeQL Taint Tracking with Natural Rewrites",
+      "history": "Submission history From: Zhezhen Cao [ view email ] [v1] Thu, 12 Nov 2026 17:16:08 UTC (526 KB)",
+      "comments": [
+        "Comments: 23 pages, 2 figures, 7 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17123"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-18133-linera",
+      "arxiv_id": "2611.18133",
+      "url": "https://arxiv.org/abs/2611.18133",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-13",
+      "title": "Title: Forget the Lineage: Forward-Secure, Lineage-Complete Cryptographic Erasure for LLM-Agent Memory",
+      "history": "Submission history From: Yulliwas Ameur [ view email ] [v1] Fri, 13 Nov 2026 13:01:47 UTC (36 KB)",
+      "comments": [
+        "Comments: 14 pages, 2 figures. Submitted to the Journal of Information Security and Applications. Code and LLM-call logs: this https URL (archived at this https URL )"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.5281/zenodo.24166476",
+        "https://doi.org/10.48550/arXiv.2611.18133"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17115-caplite",
+      "arxiv_id": "2611.17115",
+      "url": "https://arxiv.org/abs/2611.17115",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "history": "Submission history From: Zimo Xu [ view email ] [v1] Thu, 12 Nov 2026 17:07:22 UTC (1,823 KB)",
+      "comments": [
+        "Comments: 19 pages, 11 figures, 9 tables"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17115"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-17520-weakest-agent",
+      "arxiv_id": "2611.17520",
+      "url": "https://arxiv.org/abs/2611.17520",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-12",
+      "title": "Title: Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+      "history": "Submission history From: Keegan Wang [ view email ] [v1] Thu, 12 Nov 2026 21:14:49 UTC (163 KB)",
+      "comments": [
+        "Comments: Accepted to the NeurIPS 2026 First Workshop on Meta Agents: Managing Agents that Manage Agents (Meta-Agents)"
+      ],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.17520"
+      ],
+      "result": "metadata-retrieved"
+    },
+    {
+      "id": "arxiv-2611-16493-rea-bench",
+      "arxiv_id": "2611.16493",
+      "url": "https://arxiv.org/abs/2611.16493",
+      "indexed_status": "preprint-unreviewed",
+      "indexed_last_updated": "2026-11-16",
+      "title": "Title: ReA-Bench: Benchmarking Responsible Agent Auditing",
+      "history": "Submission history From: Zipeng Ye [ view email ] [v1] Thu, 12 Nov 2026 09:01:24 UTC (2,283 KB) [v2] Mon, 16 Nov 2026 11:49:00 UTC (2,283 KB)",
+      "comments": [],
+      "journal_reference": [],
+      "doi": [
+        "https://doi.org/10.48550/arXiv.2611.16493"
+      ],
+      "result": "metadata-retrieved"
+    }
+  ],
+  "official_recheck": [
+    {
+      "id": "usenix-sec26-kim-agentic",
+      "title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+      "checked_at": "2026-11-23T09:37:33.060598+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic",
+      "sha256": "e79641d54acb6f7f19d0b6f507808e64d0b7b25cebc5240875d06e3d012b45ad",
+      "bytes": 35198,
+      "page_title": "SoK: Attack and Defense Landscape of Agentic AI Systems | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-wang-masleak",
+      "title": "MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen",
+      "checked_at": "2026-11-23T09:37:33.060821+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen",
+      "sha256": "ecf11a8c9de92eebab0b0876f7f8b510a991de091215820c082dbefc0abcfa07",
+      "bytes": 39547,
+      "page_title": "MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-jeong-network-agent",
+      "title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jeong",
+      "checked_at": "2026-11-23T09:37:33.060941+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jeong",
+      "sha256": "70dbcaf98f4c7d23a426d9b27dc93bacffb5b2dd83db2ff15fa4f5df75d70d5b",
+      "bytes": 36774,
+      "page_title": "Network-Level Prompt and Trait Leakage in Local Research Agents | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-vlummens-bridges",
+      "title": "Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens",
+      "checked_at": "2026-11-23T09:37:33.061043+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens",
+      "sha256": "66e5a892be15192a359196c07739f4978c986c6a9be6d55a77a7141f11659517",
+      "bytes": 38903,
+      "page_title": "Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-ios",
+      "title": "Cracks in the Walled Garden: Dissecting the Gray-Market of Unauthorized iOS App Distribution via Ad Hoc Sideloading",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing",
+      "checked_at": "2026-11-23T09:37:33.061160+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yijing",
+      "sha256": "6171141b8a6ea05cf1e8e3bfa98b2f1fd6371d164188844a903418634e4f4240",
+      "bytes": 36716,
+      "page_title": "Cracks in the Walled Garden: Dissecting the Gray-Market of Unauthorized iOS App Distribution via Ad Hoc Sideloading | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-jannett-passkeys",
+      "title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett",
+      "checked_at": "2026-11-23T09:37:33.061250+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jannett",
+      "sha256": "d7a8e4a42609102df3f36f455cd8b27b08857c307bb667e5a14cfa48c6e34b5b",
+      "bytes": 39775,
+      "page_title": "The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-chen-vulgenie",
+      "title": "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei",
+      "checked_at": "2026-11-23T09:37:33.061359+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-bofei",
+      "sha256": "8be7dc17c550ba0fc10678f5d278cbc2885f7ef13f20f03c2510e91c769a88fd",
+      "bytes": 37137,
+      "page_title": "Patch-Guided Vulnerability Detection: Extracting Java API Security Rules via Attack–Defense Cross-Analysis | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-merget-opossum",
+      "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "checked_at": "2026-11-23T09:37:33.061446+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "sha256": "d1367a14218efbb99c1ad1dffd6e63656fc75def2f9d18b8f96e9920ede2dfdd",
+      "bytes": 38899,
+      "page_title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-chang-retrieval-barrier",
+      "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan",
+      "checked_at": "2026-11-23T09:37:33.905281+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan",
+      "sha256": "65cb78c208313e56308c9bbc9073f824d38295be038659793b62428fb06ba676",
+      "bytes": 36737,
+      "page_title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec25-liu-agentfuzz",
+      "title": "Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents",
+      "status": "accepted",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf",
+      "checked_at": "2026-11-23T09:37:34.426904+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf",
+      "sha256": "bda46472a3dade37204aa4b3f8c9b96a6533977d348e7d5000abcb519b130476",
+      "bytes": 1108914,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "usenix-sec25-ayzenshteyn-cheat",
+      "title": "Cloak, Honey, Trap: Proactive Defenses Against LLM Agents",
+      "status": "accepted",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf",
+      "checked_at": "2026-11-23T09:37:34.438774+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf",
+      "sha256": "6d28561e978618737ba04bb16ad5dfad9f97fa07c03c63ad2a4989c1b1516cf1",
+      "bytes": 1431776,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "usenix-sec25-beer-taptrap",
+      "title": "TapTrap: Animation-Driven Tapjacking on Android",
+      "status": "accepted",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-beer.pdf",
+      "checked_at": "2026-11-23T09:37:34.461659+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/system/files/usenixsecurity25-beer.pdf",
+      "sha256": "6a0f29aa18ce03b2c9977e5bf05ae3aef90c03556148056f38347689af564022",
+      "bytes": 2666790,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "usenix-sec25-shi-xssky",
+      "title": "XSSky: Detecting XSS Vulnerabilities through Local Path-Persistent Fuzzing",
+      "status": "accepted",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf",
+      "checked_at": "2026-11-23T09:37:34.477264+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/system/files/usenixsecurity25-shi-youkun.pdf",
+      "sha256": "e2cf1ff460cf4b87ab8a81b9e703b40d8c5f4c86110031e7422b95b2738037fc",
+      "bytes": 778043,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "usenix-sec26-luo-agent-dos",
+      "title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+      "checked_at": "2026-11-23T09:37:34.485983+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+      "sha256": "6943d6b7922b6b38fa53df6a799cad8ef852b6467bac7b7e45a307372f8ed86e",
+      "bytes": 38343,
+      "page_title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-pasquini-aiops",
+      "title": "When AIOps Become “AI Oops”: Subverting LLM-driven IT Operations via Telemetry Manipulation",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+      "checked_at": "2026-11-23T09:37:34.491989+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini",
+      "sha256": "81aab7c108481942bf9f4c43011b1a6836dec31cd042c5a8115b3d7fdad1fc51",
+      "bytes": 37539,
+      "page_title": "When AIOps Become \"AI Oops\": Subverting LLM-driven IT Operations via Telemetry Manipulation | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-jia-pangolin",
+      "title": "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
+      "checked_at": "2026-11-23T09:37:34.535592+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/jia-zhipeng",
+      "sha256": "9ad83dd6581e00618a258d15eabc97fb85f185f62c533e6789284e0f34d0b63d",
+      "bytes": 39371,
+      "page_title": "PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-duong-firmrebugger",
+      "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong",
+      "checked_at": "2026-11-23T09:37:34.734554+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/duong",
+      "sha256": "615fa768f77742aa944031a3da2bbaf04ce817fb25b6f6ffb5cb105ad0658dfe",
+      "bytes": 37960,
+      "page_title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-ben-simhon-dns",
+      "title": "DNS Cache Poisoning Like it’s 2006",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon",
+      "checked_at": "2026-11-23T09:37:35.144435+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon",
+      "sha256": "7cfb1d154d3550766a37ada383cecdf837ef122c50e2cd074c1ea5b0c4cd700f",
+      "bytes": 36279,
+      "page_title": "DNS Cache Poisoning Like it’s 2006 | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-xu-dalens",
+      "title": "DaLens: Charting DNS Self-Amplification Threats at Large",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xu-liwen",
+      "checked_at": "2026-11-23T09:37:35.710446+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xu-liwen",
+      "sha256": "6e6404293f7d7031b7d9b0a2d527cd9a36faad30310eabdd3e326e805577bdcd",
+      "bytes": 35853,
+      "page_title": "DaLens: Charting DNS Self-Amplification Threats at Large | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-kim-timeslice-sandwich",
+      "title": "TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong",
+      "checked_at": "2026-11-23T09:37:35.722033+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong",
+      "sha256": "ece82f6357030b08d728372182ba819ef372211e134583c96d2c3b26e66e406a",
+      "bytes": 36872,
+      "page_title": "TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-klix-silicon-heist",
+      "title": "Silicon Heist: (Ransom) Attacks for AMD Cloud FPGAs via Privilege Escalation",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/klix",
+      "checked_at": "2026-11-23T09:37:35.769004+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/klix",
+      "sha256": "40656151fc9c395b01636e1ed9a979f4e913b26a38293ce5ab731e5a84dc0342",
+      "bytes": 37608,
+      "page_title": "Silicon Heist: (Ransom) Attacks for Cloud FPGAs via Privilege Escalation | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-zhang-stackwarp",
+      "title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU’s Stack Engine",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
+      "checked_at": "2026-11-23T09:37:36.006144+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi",
+      "sha256": "f21ab99e085d31a839aca03e75440144ff49ec63a27bb82986d44418a8c52f21",
+      "bytes": 38443,
+      "page_title": "StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU's Stack Engine | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-picklecloak",
+      "title": "The Art of Hide and Seek: Making Pickle-Based Model Supply Chain Poisoning Stealthy Again",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-tong",
+      "checked_at": "2026-11-23T09:37:36.120695+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-tong",
+      "sha256": "a6a168a61a3f537989d987e69b39b05f47aaada79e96f363ba8e57541b0050c6",
+      "bytes": 38464,
+      "page_title": "The Art of Hide and Seek: Making Pickle-Based Model Supply Chain Poisoning Stealthy Again | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-bach-webrtc",
+      "title": "Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bach",
+      "checked_at": "2026-11-23T09:37:36.151548+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bach",
+      "sha256": "93e1d0c3e9ea753214948ed63a9b920bfc7fc10b462183b4b6db2361690e56b5",
+      "bytes": 37827,
+      "page_title": "Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-trujillo-tontou",
+      "title": "TONTOU: On the Exploitability of Time-of-Neutralization to Time-of-Use Windows",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/trujillo",
+      "checked_at": "2026-11-23T09:37:36.495844+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/trujillo",
+      "sha256": "1428406b9589d33cf0ab467a772f97f82da9c04a885d5fb504a1e0c7f4e2a0a5",
+      "bytes": 34750,
+      "page_title": "TONTOU: On the Exploitability of Time-of-Neutralization to Time-of-Use Windows | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-peng-kintsugi",
+      "title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao",
+      "checked_at": "2026-11-23T09:37:36.732992+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao",
+      "sha256": "9a15643bdf1f8209d05ad7685ad3fe2b1276c401b52f7866d090b07dc4c3895b",
+      "bytes": 36808,
+      "page_title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-koschel-copykat",
+      "title": "Discovering, Characterizing and Exploiting Controllable-Copy Objects for Kernel Data-Only Attacks with CopyKat",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/koschel",
+      "checked_at": "2026-11-23T09:37:36.746603+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/koschel",
+      "sha256": "83ad30912773cdb3ca5e1e5ddb9a51a99cef4e91252e1ef69d2f6726b0f09e6b",
+      "bytes": 38668,
+      "page_title": "Discovering, characterizing and exploiting controllable-copy objects for kernel data-only attacks with CopyKat | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-nguyen-menta",
+      "title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen",
+      "checked_at": "2026-11-23T09:37:36.746851+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/nguyen-nguyen",
+      "sha256": "a15726f244fadf5fd29b88335bcea026ce4f26bf2208624c26f6997bb3283d31",
+      "bytes": 39910,
+      "page_title": "Five Queries Are Enough: Query-Efficient and Surrogate-Free Membership Inference Attacks on RAG via Entailment | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-kumar-tile",
+      "title": "Security and Privacy Analysis of Tile’s Location Tracking Protocol",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-akshaya",
+      "checked_at": "2026-11-23T09:37:36.957132+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-akshaya",
+      "sha256": "c9e68b8c565f1f12011434c3329ab7ff20a7436f78c60a4ecc14342e610916ad",
+      "bytes": 37014,
+      "page_title": "Security and Privacy Analysis of Tile's Location Tracking Protocol | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-crow-boeing-implant",
+      "title": "Design and Implementation of a Physical Implant Attack on the Boeing 737",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow",
+      "checked_at": "2026-11-23T09:37:36.987092+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/crow",
+      "sha256": "b5c31a1c7900415cc35a14437f12078f05a373ca487e76d80f83beae8df19708",
+      "bytes": 36102,
+      "page_title": "Design and Implementation of a Physical Implant Attack on the Boeing 737 | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-beer-webview-http",
+      "title": "Plain Text, Plain Risks: Measuring HTTP Inclusion in Android WebViews at Scale",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/beer",
+      "checked_at": "2026-11-23T09:37:37.089531+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/beer",
+      "sha256": "4b014c6f1532212c90afe88ed01319495ae106598920a07779b9de98e1bd41fc",
+      "bytes": 36798,
+      "page_title": "Plain Text, Plain Risks: Measuring HTTP Inclusion in Android WebViews at Scale | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-li-aliasleap",
+      "title": "Alias Equals Zone? Large-Scale and Stealthy Takeover of Domain Hosting Service via CNAME-Following Cross-Domain Verification",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-ruixuan",
+      "checked_at": "2026-11-23T09:37:37.161437+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-ruixuan",
+      "sha256": "0972bd72310dadb6cf699f36956cffd6ff30f1090f32ea1967754ef2c17bf362",
+      "bytes": 36359,
+      "page_title": "Alias Equals Zone? Large-Scale and Stealthy Takeover of Domain Hosting Service via CNAME-Following Cross-Domain Verification | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-hu-confundo",
+      "title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-haoyang",
+      "checked_at": "2026-11-23T09:37:37.273637+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-haoyang",
+      "sha256": "3bdb1197377862e25b811771e5865978dcb3460e27814a65aca72c72d0cb6359",
+      "bytes": 36791,
+      "page_title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-karanjai-loginject",
+      "title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/karanjai",
+      "checked_at": "2026-11-23T09:37:37.638836+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/karanjai",
+      "sha256": "a9ffbc79e312a47f6c43e8180904981e1a037f4d2c09ef4fa10ad6d9e8ed688d",
+      "bytes": 37501,
+      "page_title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-syros-muzzle",
+      "title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
+      "checked_at": "2026-11-23T09:37:37.901995+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/syros",
+      "sha256": "3465396a43b77c6dac5fda7765e90cbfd2c59533d75a963289435c37daeb9192",
+      "bytes": 37550,
+      "page_title": "MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-he-attriguard",
+      "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-yu",
+      "checked_at": "2026-11-23T09:37:37.937976+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-yu",
+      "sha256": "d53ca8ea2476026af73fb3096064626d2c5bbbd0f936f87e3951c72c2313f7b5",
+      "bytes": 37061,
+      "page_title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-carjacking",
+      "title": "Cloud-Native Carjacking: Fleet-wide Compromise via Telematics Authorization Failures",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yangyang",
+      "checked_at": "2026-11-23T09:37:38.044049+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yangyang",
+      "sha256": "ef8cd9af8abf952dcb22c3d2f3193f0b59265adc11bd887a061cda7d46bf908f",
+      "bytes": 36704,
+      "page_title": "Cloud-Native Carjacking: Fleet-wide Compromise via Telematics Authorization Failures | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-xiao-payments",
+      "title": "When Authorization Loses Its Meaning: Breaking and Fixing Third-Party Online Payments",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xiao",
+      "checked_at": "2026-11-23T09:37:38.129304+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xiao",
+      "sha256": "858d62d6e634c92b042bbc5627ada54df00b2978516b890648c50c10a2608b5a",
+      "bytes": 36267,
+      "page_title": "When Authorization Loses Its Meaning: Breaking and Fixing Third-Party Online Payments | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-zhu-wild",
+      "title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-changjia",
+      "checked_at": "2026-11-23T09:37:38.205306+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-changjia",
+      "sha256": "b5b561fa29fdec5568ddace32b2a8176bdcfec75ae3a6328e12015ce0a4daac0",
+      "bytes": 38026,
+      "page_title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-braunsdorf-safeffi",
+      "title": "SafeFFI: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and Mixed-Language Applications",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf",
+      "checked_at": "2026-11-23T09:37:38.233872+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf",
+      "sha256": "d7718e0fe1269f346f4ec520e4ab855b3314d04bb474016f1bd1382e2d20d8a0",
+      "bytes": 37476,
+      "page_title": "SafeFFI: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and Mixed-Language Applications | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-pan-fragjam",
+      "title": "FRAGJAM: DoS Attacks Using IP Reassembly Congestion",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pan",
+      "checked_at": "2026-11-23T09:37:38.320593+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pan",
+      "sha256": "524986a91b2bdf021dc6e178011b7d14599dcb030da782c51f943ba77a9df01f",
+      "bytes": 34964,
+      "page_title": "FRAGJAM: DoS Attacks Using IP Reassembly Congestion | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-zhao-waved",
+      "title": "WAVED: Principled Identification of Off-Path Exploitable Weak Verifications within the TCP/IP Protocol Suite",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou",
+      "checked_at": "2026-11-23T09:37:38.807040+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou",
+      "sha256": "ff5c52899da2f19874a8e3c61ef0d7c7f104cb8c309d1bc82bce5d20598ab3c4",
+      "bytes": 38889,
+      "page_title": "WAVED: Principled Identification of Off-Path Exploitable Weak Verifications within the TCP/IP Protocol Suite | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-luo-agentic-concolic",
+      "title": "Agentic Concolic Execution",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00003",
+      "checked_at": "2026-11-23T09:37:38.847143+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573412/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-hosseyni-audience-injection",
+      "title": "Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards",
+      "status": "accepted",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "checked_at": "2026-11-23T09:37:38.967543+00:00",
+      "http": 200,
+      "final_url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "sha256": "ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "bytes": 178208,
+      "page_title": "IEEE Symposium on Security and Privacy 2026",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-duttagupta-fast-pair",
+      "title": "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00210",
+      "checked_at": "2026-11-23T09:37:39.129012+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573524/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-tystahl-cosseter",
+      "title": "COSSETER: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00067",
+      "checked_at": "2026-11-23T09:37:39.141487+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573435/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-hertogh-rain",
+      "title": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00063",
+      "checked_at": "2026-11-23T09:37:39.322022+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573429/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-xu-resolver-profiler",
+      "title": "Resolve the Unresolved: Systematic Work Profiling for DNS Resolvers",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00261",
+      "checked_at": "2026-11-23T09:37:39.397633+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573483/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-espiritu-leafblower",
+      "title": "Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00008",
+      "checked_at": "2026-11-23T09:37:39.434307+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573629/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-ip-leasing",
+      "title": "The Threat Landscape of IP Leasing in the RPKI Era",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00012",
+      "checked_at": "2026-11-23T09:37:39.484086+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573633/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-zhang-appare",
+      "title": "Fine-Grained Kernel Auditing using Augmented Syscall Reference Behavior Analysis and Virtualized Selective Tracing",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00013",
+      "checked_at": "2026-11-23T09:37:39.579916+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573583/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-trujillo-register-hiding",
+      "title": "Defeating Transient Execution Attacks by Limiting Secret Reachability through Register Hiding and ShadowCFI",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00015",
+      "checked_at": "2026-11-23T09:37:39.580216+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573418/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-peng-apiecho",
+      "title": "APIEcho: Training-less Anomaly Detection via Intra-API Behavioral Comparison for Web Applications",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00016",
+      "checked_at": "2026-11-23T09:37:39.774295+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573362/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wang-smufuzz",
+      "title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00011",
+      "checked_at": "2026-11-23T09:37:39.887014+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573420/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-li-webcloak",
+      "title": "WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00025",
+      "checked_at": "2026-11-23T09:37:39.936942+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573457/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-de-meulemeester-battering-ram",
+      "title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00052",
+      "checked_at": "2026-11-23T09:37:40.025877+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573462/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-roh-ghost",
+      "title": "GHost in the Shell: A GPU-to-Host Memory Attack and Its Mitigation",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00047",
+      "checked_at": "2026-11-23T09:37:40.028881+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573469/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-graf-vmscape",
+      "title": "VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00046",
+      "checked_at": "2026-11-23T09:37:40.066959+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573554/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-wang-transient-architectural-execution",
+      "title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00066",
+      "checked_at": "2026-11-23T09:37:40.104636+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573411/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-reittinger-passkey-field-study",
+      "title": "No Password, No Problem? A Large-Scale Field Study of Passkey Adoption and Usage",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00022",
+      "checked_at": "2026-11-23T09:37:40.379201+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573563/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs25-todt-bfid",
+      "title": "BFId: Identity Inference Attacks Utilizing Beamforming Feedback Information",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3719027.3765062",
+      "checked_at": "2026-11-23T09:37:40.468304+00:00",
+      "result": "access-gap",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3719027.3765062",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": "ccs25-zhang-uabscan",
+      "title": "Be Aware of What You Let Pass: Demystifying URL-based Authentication Bypass Vulnerability in Java Web Applications",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3719027.3765199",
+      "checked_at": "2026-11-23T09:37:40.468738+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3719027.3765199",
+          "result": "retrieved",
+          "bytes": 15190
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3719027.3765199",
+        "title": [
+          "Be Aware of What You Let Pass: Demystifying URL-based Authentication Bypass Vulnerability in Java Web Applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2025-11-22T23:42:02Z",
+          "timestamp": 1763854922000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ndss26-li-ace",
+      "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+      "status": "accepted",
+      "url": "https://doi.org/10.14722/ndss.2026.230352",
+      "checked_at": "2026-11-23T09:37:40.515458+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s352-paper.pdf",
+      "sha256": "da686f6107fa0e40a440dc2f7ee4b2d0b93ce23cb77f2a3c2fa7512ab36c2ff0",
+      "bytes": 1252053,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "ndss26-sacchetti-blerp",
+      "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
+      "status": "accepted",
+      "url": "https://doi.org/10.14722/ndss.2026.240121",
+      "checked_at": "2026-11-23T09:37:40.555763+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f121-paper.pdf",
+      "sha256": "e9645568817556f69e90b3cfbb0ea164a661b701370ff055baaf2ebe6c44640d",
+      "bytes": 1469533,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "neurips25-zou-agent-red-team-competition",
+      "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+      "status": "accepted",
+      "url": "https://doi.org/10.52202/085713-2676",
+      "checked_at": "2026-11-23T09:37:40.558525+00:00",
+      "http": 200,
+      "final_url": "https://www.proceedings.com/085713-2676.html",
+      "sha256": "d6f72054a4fc8cb123bf06e3a236ac051a548ff327d4a5698f79f17a2c260cf6",
+      "bytes": 553567,
+      "page_title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition - proceedings.com",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "neurips25-nie-secodeplt",
+      "title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code Agents",
+      "status": "accepted",
+      "url": "https://doi.org/10.52202/085713-0447",
+      "checked_at": "2026-11-23T09:37:40.705127+00:00",
+      "http": 200,
+      "final_url": "https://www.proceedings.com/085713-0447.html",
+      "sha256": "147c637991fee5692e6d645c7aff18a3c973d7db463b9fec95c5d7a497e2a14f",
+      "bytes": 553434,
+      "page_title": "SECODEPLT: A Unified Benchmark for Evaluating the Security Risks and Capabilities of Code GenAI - proceedings.com",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs25-hao-syzspec",
+      "title": "SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3719027.3744811",
+      "checked_at": "2026-11-23T09:37:40.822929+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3719027.3744811",
+          "result": "retrieved",
+          "bytes": 12919
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3719027.3744811",
+        "title": [
+          "SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2025-11-22T23:32:38Z",
+          "timestamp": 1763854358000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ndss26-wu-email-aliases",
+      "title": "One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases",
+      "status": "accepted",
+      "url": "https://doi.org/10.14722/ndss.2026.230148",
+      "checked_at": "2026-11-23T09:37:40.880950+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s148-paper.pdf",
+      "sha256": "d33fd1fe041ed3795bd6d1e0049f22d7922aa3cb883e2af3b3b0f028146dc8ad",
+      "bytes": 1314515,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "ndss26-migliorelli-pcplost",
+      "title": "Cross-Cache Attacks for the Linux Kernel via PCP Massaging",
+      "status": "accepted",
+      "url": "https://doi.org/10.14722/ndss.2026.240862",
+      "checked_at": "2026-11-23T09:37:41.010168+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f862-paper.pdf",
+      "sha256": "6310fdd6f1b37a4f3c837754b63201cb46b489d73e4256b5ae228ce7100cdead",
+      "bytes": 11759160,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "usenix-sec26-liu-wormholes",
+      "title": "Wormholes in the File System: Understanding the Misunderstanding of Symlinks",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yongheng",
+      "checked_at": "2026-11-23T09:37:41.041706+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-yongheng",
+      "sha256": "3403f20fdaebb02d62e71f723d492713fc259f82add6fa58d292aa1e186a51dc",
+      "bytes": 36850,
+      "page_title": "Wormholes in the File System: Understanding the Misunderstanding of Symlinks | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "issta26-tegegn-illusion-success",
+      "title": "The Illusion of Success: Learning-Based Android Malware Detectors (Replicability Study)",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3832233",
+      "checked_at": "2026-11-23T09:37:41.151528+00:00",
+      "result": "access-gap",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3832233",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": "issta26-alecci-secrets-unlocked",
+      "title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps",
+      "status": "accepted",
+      "url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
+      "checked_at": "2026-11-23T09:37:41.354556+00:00",
+      "http": 200,
+      "final_url": "https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/49/Secrets-Unlocked-Evaluating-LLMs-for-Secrets-Detection-in-Android-Apps",
+      "sha256": "48eb1ce5180cc8465be6c066d238e5bb7551a31e3e4c10844859e12b295b40b5",
+      "bytes": 92503,
+      "page_title": "Secrets Unlocked: Evaluating LLMs for Secrets Detection in Android Apps (ISSTA 2026 - Research papers) - ISSTA 2026",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ase26-xu-defensive-capability",
+      "title": "Defensive Capability Analysis for JavaScript Libraries",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3832783.3837491",
+      "checked_at": "2026-11-23T09:37:41.474579+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3832783.3837491",
+          "result": "retrieved",
+          "bytes": 9726
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3832783.3837491",
+        "title": [
+          "Defensive Capability Analysis for JavaScript Libraries"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              7
+            ]
+          ],
+          "date-time": "2026-10-07T22:18:46Z",
+          "timestamp": 1791411526000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "acl26-pham-parasite",
+      "title": "PARASITE: Conditional System Prompt Poisoning to Hijack LLMs",
+      "status": "accepted",
+      "url": "https://doi.org/10.18653/v1/2026.acl-long.668",
+      "checked_at": "2026-11-23T09:37:41.529067+00:00",
+      "http": 200,
+      "final_url": "https://aclanthology.org/2026.acl-long.668/",
+      "sha256": "6801089f7f9070b430803ae5850c45ffbe53f0919f77a4fee495159428ca0c18",
+      "bytes": 42315,
+      "page_title": "PARASITE: Conditional System Prompt Poisoning to Hijack LLMs - ACL Anthology",
+      "citation_dates": [
+        {
+          "content": "2026/7",
+          "name": "citation_publication_date"
+        },
+        {
+          "content": "10.18653/v1/2026.acl-long.668",
+          "name": "citation_doi"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "icml26-ye-role-confusion",
+      "title": "Prompt Injection as Role Confusion",
+      "status": "accepted",
+      "url": "https://proceedings.mlr.press/v306/ye26b.html",
+      "checked_at": "2026-11-23T09:37:41.621210+00:00",
+      "http": 200,
+      "final_url": "https://proceedings.mlr.press/v306/ye26b.html",
+      "sha256": "9c670ee076c47ec3cceb181dd889ea14ad91ef5e4d04f453f767ede202857034",
+      "bytes": 15570,
+      "page_title": "Prompt Injection as Role Confusion",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026/09/29"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "cvpr26-chen-dualmirage",
+      "title": "DualMirage: Hunting Stealthy Multimodal LLM Agents via CAPTCHAs with Contour and Adversarial Illusions",
+      "status": "accepted",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DualMirage_Hunting_Stealthy_Multimodal_LLM_Agents_via_CAPTCHAs_with_Contour_CVPR_2026_paper.html",
+      "checked_at": "2026-11-23T09:37:41.895505+00:00",
+      "http": 200,
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DualMirage_Hunting_Stealthy_Multimodal_LLM_Agents_via_CAPTCHAs_with_Contour_CVPR_2026_paper.html",
+      "sha256": "d78e2374b00e6b44948aec27ff9dbe41b4c0afbbcc7d971aeefab331eb256757",
+      "bytes": 6407,
+      "page_title": "CVPR 2026 Open Access Repository",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs25-kim-jenga",
+      "title": "Windows Plays Jenga: Uncovering Design Weaknesses in Windows File System Security",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3719027.3765217",
+      "checked_at": "2026-11-23T09:37:42.109243+00:00",
+      "result": "access-gap",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3719027.3765217",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": "ndss26-kubo-action-required",
+      "title": "Action Required: The State of GitHub Actions Security in the Wild",
+      "status": "accepted",
+      "url": "https://doi.org/10.14722/ndss.2026.240483",
+      "checked_at": "2026-11-23T09:37:42.425383+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f483-paper.pdf",
+      "sha256": "76485805ad47fe56a9087427baaf2377db621378081b8c5c65ce57c6f2e5c6da",
+      "bytes": 706339,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "ndss26-xiao-modelspy",
+      "title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+      "status": "accepted",
+      "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+      "checked_at": "2026-11-23T09:37:42.502807+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+      "sha256": "8b872076cf57de90f85ca923f1987d8564fa1a6cf7b519c661e25529cafdf9b8",
+      "bytes": 71453,
+      "page_title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel - NDSS Symposium",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-lermen-deanonymization",
+      "title": "Large-Scale Online Deanonymization with LLMs",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "checked_at": "2026-11-23T09:37:42.616812+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lermen",
+      "sha256": "88d088c451f495742c8e615871c663152712f4a3e2d3584bc084b243b818bd09",
+      "bytes": 36628,
+      "page_title": "Large-scale online deanonymization with LLMs | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "neurips25-kuntz-os-harm",
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "status": "accepted",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html",
+      "checked_at": "2026-11-23T09:37:43.052213+00:00",
+      "http": 200,
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4009bff0cd87ba2203c8e3a2f082aaec-Abstract-Datasets_and_Benchmarks_Track.html",
+      "sha256": "23d104f4d477e3fc3c5fc811c9b191b1d154b9e1223666c56e7d928f0e803c43",
+      "bytes": 10125,
+      "page_title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "citation_dates": [
+        {
+          "name": "citation_doi",
+          "content": "10.52202/085713-1502"
+        },
+        {
+          "name": "citation_publication_date",
+          "content": "2026-04-23"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "iccv25-dong-vpr-cloak",
+      "title": "VPR-Cloak: A First Look at Privacy Cloak Against Visual Place Recognition",
+      "status": "accepted",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dong_VPR-Cloak_A_First_Look_at_Privacy_Cloak_Against_Visual_Place_ICCV_2025_paper.html",
+      "checked_at": "2026-11-23T09:37:43.055340+00:00",
+      "result": "access-gap",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>",
+      "retry_attempts": []
+    },
+    {
+      "id": "ndss26-infantino-vault-raider",
+      "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+      "status": "accepted",
+      "url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "checked_at": "2026-11-23T09:37:43.064226+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/ndss-paper/vault-raider-stealthy-ui-based-attacks-against-password-managers-in-desktop-environments/",
+      "sha256": "ebd7d1c6e5e31d6c442398d7c560d9676f5913cb9d26f52898a4731ea326bc22",
+      "bytes": 71722,
+      "page_title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments - NDSS Symposium",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec26-gao-patcher",
+      "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "checked_at": "2026-11-23T09:37:43.408970+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gao-anjun",
+      "sha256": "c89333a658bdab91ecab00c9056bb571e89f801b60af5de5a1160141eeced809",
+      "bytes": 37429,
+      "page_title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "pldi26-nguyen-analyzing-bytes",
+      "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3808292",
+      "checked_at": "2026-11-23T09:37:43.444746+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3808292",
+          "result": "retrieved",
+          "bytes": 30340
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3808292",
+        "title": [
+          "Analyzing Bytes: Pre-Disassembly Static Binary Analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the ACM on Programming Languages"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              8
+            ]
+          ],
+          "date-time": "2026-06-08T18:04:09Z",
+          "timestamp": 1780941849000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "popl26-gouni-security-reasoning",
+      "title": "Security Reasoning via Substructural Dependency Tracking",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3776669",
+      "checked_at": "2026-11-23T09:37:43.469080+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3776669",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/29/Security-Reasoning-via-Substructural-Dependency-Tracking",
+          "result": "retrieved",
+          "bytes": 80860
+        }
+      ]
+    },
+    {
+      "id": "osdi26-cottone-acumen",
+      "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "checked_at": "2026-11-23T09:37:43.469197+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/osdi26/presentation/cottone",
+      "sha256": "2f26fe3be162b02bf38cf9a9ad8021186dfdb00afdf84bc5b6586702805efb06",
+      "bytes": 36163,
+      "page_title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "acl26-arif-conjunctive",
+      "title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems",
+      "status": "accepted",
+      "url": "https://aclanthology.org/2026.acl-long.1577/",
+      "checked_at": "2026-11-23T09:37:43.607997+00:00",
+      "http": 200,
+      "final_url": "https://aclanthology.org/2026.acl-long.1577/",
+      "sha256": "d766f9075c771a3fd04fdc2c94a5e1256f032e8657ec525cc4216ec6f7a94d0e",
+      "bytes": 43350,
+      "page_title": "Conjunctive Prompt Attacks in Multi-Agent LLM Systems - ACL Anthology",
+      "citation_dates": [
+        {
+          "content": "2026/7",
+          "name": "citation_publication_date"
+        },
+        {
+          "content": "10.18653/v1/2026.acl-long.1577",
+          "name": "citation_doi"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "icml26-cheng-privact",
+      "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+      "status": "accepted",
+      "url": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "checked_at": "2026-11-23T09:37:43.805556+00:00",
+      "http": 200,
+      "final_url": "https://proceedings.mlr.press/v306/cheng26o.html",
+      "sha256": "200b0c85147f5480c343f80060dadbdba9c2f09105e475cab6b7b8a6b0691963",
+      "bytes": 16152,
+      "page_title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026/09/29"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ieee-sp26-lee-site-isolation",
+      "title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+      "status": "accepted",
+      "url": "https://doi.org/10.1109/SP63933.2026.00241",
+      "checked_at": "2026-11-23T09:37:43.812088+00:00",
+      "http": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/11573584/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "page_title": "",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs25-trampert-styled-steal",
+      "title": "Styled to Steal: The Overlooked Attack Surface in Email Clients",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3719027.3765189",
+      "checked_at": "2026-11-23T09:37:44.211447+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3719027.3765189",
+          "result": "retrieved",
+          "bytes": 15170
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3719027.3765189",
+        "title": [
+          "Styled to Steal: The Overlooked Attack Surface in Email Clients"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              22
+            ]
+          ],
+          "date-time": "2025-11-22T23:37:25Z",
+          "timestamp": 1763854645000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "usenix-sec26-ling-swhisper",
+      "title": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ling",
+      "checked_at": "2026-11-23T09:37:44.223250+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ling",
+      "sha256": "4f5303a2eb1214e25a1ab9359f878e5376263aea68eba638fe044aa717f7a342",
+      "bytes": 39636,
+      "page_title": "Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "oopsla26-cao-sevdf",
+      "title": "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3798272",
+      "checked_at": "2026-11-23T09:37:44.225172+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3798272",
+          "result": "retrieved",
+          "bytes": 19587
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3798272",
+        "title": [
+          "Reframing Paths as Logic: Semantic Segmentation for Vulnerability Detection"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the ACM on Programming Languages"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2026-04-10T14:33:43Z",
+          "timestamp": 1775831623000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "icse26-he-taintp2x",
+      "title": "TaintP2X: Detecting Taint-Style Prompt-to-Anything Injection Vulnerabilities in LLM-Integrated Applications",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3744916.3773199",
+      "checked_at": "2026-11-23T09:37:44.452159+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3744916.3773199",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://github.com/security-pride/TaintP2X",
+          "result": "retrieved",
+          "bytes": 249325
+        }
+      ]
+    },
+    {
+      "id": "osdi26-yin-ucsan",
+      "title": "A Compilation-Based Under-Constrained Execution Engine",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "checked_at": "2026-11-23T09:37:44.584290+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/osdi26/presentation/yin",
+      "sha256": "19dc4c5a3e59696fa8b6173b9b7024b3b6944b5d848bd1a45df8fab1475d908d",
+      "bytes": 36023,
+      "page_title": "A Compilation-Based Under-Constrained Execution Engine | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "neurips24-debenedetti-agentdojo",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "status": "accepted",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "checked_at": "2026-11-23T09:37:44.604648+00:00",
+      "http": 200,
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "sha256": "e9b638a82b8306278284e581559ec9e274d49512e68a19e7afd9ed29bace8d56",
+      "bytes": 10015,
+      "page_title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "citation_dates": [
+        {
+          "name": "citation_doi",
+          "content": "10.52202/079017-2636"
+        },
+        {
+          "name": "citation_publication_date",
+          "content": "2024-12-16"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ndss26-wang-anota",
+      "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+      "status": "accepted",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "checked_at": "2026-11-23T09:37:44.739039+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "sha256": "a2c5f300e4002448691b1bdd7b5f6e28e14bbddf468b3686220f670eb7717651",
+      "bytes": 71553,
+      "page_title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization - NDSS Symposium",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "osdi26-liu-osprey",
+      "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "checked_at": "2026-11-23T09:37:44.767316+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/osdi26/presentation/liu-yicheng",
+      "sha256": "2a30b329d35906f27bd5c75f58be45683b953d67a0c228b40bc1c8b2d75fbf2c",
+      "bytes": 37296,
+      "page_title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "iclr25-andriushchenko-agentharm",
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "status": "accepted",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "checked_at": "2026-11-23T09:37:44.879251+00:00",
+      "http": 200,
+      "final_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html",
+      "sha256": "a22977ae5d8de13718c2456b4746f3a9335df8027c1a010aafde6cbaf7ec3469",
+      "bytes": 10111,
+      "page_title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2025-05-01"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "usenix-sec20-poeplau-symcc",
+      "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+      "checked_at": "2026-11-23T09:37:45.027608+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+      "sha256": "1ebd2ccdab5a043b7575801634ed0cf65af52a7fb62d4b3595f8b4535dbfd5be",
+      "bytes": 32305,
+      "page_title": "Symbolic execution with SymCC: Don't interpret, compile! | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2020"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "osdi26-xie-iland",
+      "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao",
+      "checked_at": "2026-11-23T09:37:45.278761+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/osdi26/presentation/xie-kaitao",
+      "sha256": "dc9bf8432165100133fa7b778cc309eca206e44c8a76c926d5d69442c8a43524",
+      "bytes": 35060,
+      "page_title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2026"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "sp20-aschermann-ijon",
+      "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+      "status": "accepted",
+      "url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing",
+      "checked_at": "2026-11-23T09:37:45.689625+00:00",
+      "http": 200,
+      "final_url": "https://cispa.de/en/research/publications/68621-ijon-exploring-deep-state-spaces-via-fuzzing",
+      "sha256": "17fe5dfa6362fee71da1ec25628ce49fb38d2b723624b92cad66bf879b363a5f",
+      "bytes": 56902,
+      "page_title": "Publications",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs13-stefanov-path-oram",
+      "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/2508859.2516660",
+      "checked_at": "2026-11-23T09:37:45.812092+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/2508859.2516660",
+          "result": "retrieved",
+          "bytes": 3101
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/2508859.2516660",
+        "title": [
+          "Path ORAM"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 2013 ACM SIGSAC conference on Computer &amp; communications security - CCS '13"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2013-11-12T10:29:36Z",
+          "timestamp": 1384252176000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "usenix-sec18-yun-qsym",
+      "title": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "checked_at": "2026-11-23T09:37:45.814857+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "sha256": "93d69b58fdadd2e22c1c91dab1014afbc2206c4acfef4bf42909ab626a0936a0",
+      "bytes": 37041,
+      "page_title": "QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2018"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "pldi14-arzt-flowdroid",
+      "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+      "status": "accepted",
+      "url": "https://ris.uni-paderborn.de/record/5189",
+      "checked_at": "2026-11-23T09:37:46.096697+00:00",
+      "result": "verified-via-alternative",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/2594291.2594299",
+          "result": "retrieved",
+          "bytes": 15000
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/2594291.2594299",
+        "title": [
+          "FlowDroid"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2014-05-13T08:18:34Z",
+          "timestamp": 1399969114000
+        },
+        "relation": {
+          "is-identical-to": [
+            {
+              "id-type": "doi",
+              "id": "10.1145/2666356.2594299",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "issta16-li-droidra",
+      "title": "DroidRA: Taming Reflection to Support Whole-Program Analysis of Android Apps",
+      "status": "accepted",
+      "url": "https://orbilu.uni.lu/handle/10993/27761",
+      "checked_at": "2026-11-23T09:37:46.139726+00:00",
+      "result": "verified-via-alternative",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/2931037.2931044",
+          "result": "retrieved",
+          "bytes": 10320
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/2931037.2931044",
+        "title": [
+          "DroidRA: taming reflection to support whole-program analysis of Android apps"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 25th International Symposium on Software Testing and Analysis"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2016-07-07T12:33:29Z",
+          "timestamp": 1467894809000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ccs11-felt-permissions",
+      "title": "Android Permissions Demystified",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/2046707.2046779",
+      "checked_at": "2026-11-23T09:37:46.147846+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/2046707.2046779",
+          "result": "retrieved",
+          "bytes": 8768
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/2046707.2046779",
+        "title": [
+          "Android permissions demystified"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              17
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 18th ACM conference on Computer and communications security"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2011-10-18T09:02:00Z",
+          "timestamp": 1318928520000
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "icse20-hong-saver",
+      "title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair",
+      "status": "accepted",
+      "url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "checked_at": "2026-11-23T09:37:46.167613+00:00",
+      "http": 200,
+      "final_url": "https://conf.researchr.org/details/icse-2020/icse-2020-papers/116/SAVER-Scalable-Precise-and-Safe-Memory-Error-Repair",
+      "sha256": "e1f43fa8fee90d4493a7483327c8c8aaf3bc1535fac2ee31d0e6a130fa311002",
+      "bytes": 116649,
+      "page_title": "SAVER: Scalable, Precise, and Safe Memory-Error Repair (ICSE 2020 - Technical Papers) - ICSE 2020",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "ccs17-boehme-aflgo",
+      "title": "Directed Greybox Fuzzing",
+      "status": "accepted",
+      "url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf",
+      "checked_at": "2026-11-23T09:37:46.235011+00:00",
+      "http": 200,
+      "final_url": "https://acmccs.github.io/papers/p2329-bohmeAemb.pdf",
+      "sha256": "85ab57c5443e33c9bbc5bf46cecbc874f21dc07cef43f0f138d9df9da13f502e",
+      "bytes": 1471256,
+      "result": "paper-retrieved"
+    },
+    {
+      "id": "ndss23-gross-fuzzilli",
+      "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+      "status": "accepted",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "checked_at": "2026-11-23T09:37:46.488692+00:00",
+      "http": 200,
+      "final_url": "https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/",
+      "sha256": "88ea223ef2ba0c60fff15eb778c1a0219d762b4b7947cbb0333c9e31fc098304",
+      "bytes": 70507,
+      "page_title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities - NDSS Symposium",
+      "citation_dates": [],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "osdi10-enck-taintdroid",
+      "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+      "status": "accepted",
+      "url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "checked_at": "2026-11-23T09:37:46.747183+00:00",
+      "http": 200,
+      "final_url": "https://www.usenix.org/conference/osdi10/taintdroid-information-flow-tracking-system-realtime-privacy-monitoring",
+      "sha256": "c69e2c05ec3053e9876cca8a931e258fb40769e8a5aef822875bf0f3c24db047",
+      "bytes": 24932,
+      "page_title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones | USENIX",
+      "citation_dates": [
+        {
+          "name": "citation_publication_date",
+          "content": "2010"
+        }
+      ],
+      "result": "source-retrieved"
+    },
+    {
+      "id": "popl99-myers-jflow",
+      "title": "JFlow: Practical Mostly-Static Information Flow Control",
+      "status": "accepted",
+      "url": "https://www.cs.cornell.edu/andru/papers/popl99/popl99.pdf",
+      "checked_at": "2026-11-23T09:37:47.023156+00:00",
+      "result": "access-gap",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/292540.292561",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://research.cs.cornell.edu/jif/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>"
+        }
+      ]
+    },
+    {
+      "id": "ccs26-szwajcok-meme-coin-factories",
+      "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+      "status": "accepted",
+      "url": "https://doi.org/10.1145/3830454.3846641",
+      "checked_at": "2026-11-23T09:37:47.411805+00:00",
+      "result": "verified-via-alternative",
+      "error": "HTTP Error 403: Forbidden",
+      "retry_attempts": [
+        {
+          "url": "https://api.crossref.org/works/10.1145/3830454.3846641",
+          "result": "retrieved",
+          "bytes": 17450
+        }
+      ],
+      "retry_metadata": {
+        "DOI": "10.1145/3830454.3846641",
+        "title": [
+          "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              14
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security"
+        ],
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2026-11-12T19:12:41Z",
+          "timestamp": 1794510761000
+        },
+        "relation": {}
+      }
+    }
+  ],
+  "new_status_upgrades": [],
+  "note": "本次95条arXiv结果与当日原运行逐条比较；正式记录复查公开出版页或替代官方记录。访问缺口保留原已核验状态。TADP及ReA-Bench原运行修正沿用。",
+  "access_gaps": 5
+}
